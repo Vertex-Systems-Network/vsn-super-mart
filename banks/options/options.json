@@ -554,7 +554,8 @@
    "scope": [
     "fashion-apparel",
     "home-furniture",
-    "jewelry-accessories"
+    "jewelry-accessories",
+    "gen-z-store"
    ],
    "store_allowed": true,
    "theme_store_required": false,
@@ -1167,7 +1168,8 @@
     "fashion-apparel",
     "sports-fitness",
     "kids-toys-baby",
-    "pets"
+    "pets",
+    "gen-z-store"
    ],
    "store_allowed": true,
    "theme_store_required": false,
@@ -2109,6 +2111,152 @@
    "store_allowed": false,
    "theme_store_required": false,
    "source": "competitor-analysis"
+  },
+  {
+   "id": "drop-release-section",
+   "name": "Drop release section (upcoming drop, real release date, collection link, signup)",
+   "audience": [
+    "shopper",
+    "merchant"
+   ],
+   "area": "home",
+   "priority": "must",
+   "scope": [
+    "gen-z-store",
+    "fashion-apparel",
+    "sports-fitness"
+   ],
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "gen-z-store",
+   "note": "Release date shown as static text; live ticking countdown lives in extras (countdown-timer)."
+  },
+  {
+   "id": "early-access-signup",
+   "name": "Early access signup (newsletter form that tags customers for drop access)",
+   "audience": [
+    "shopper",
+    "merchant"
+   ],
+   "area": "global",
+   "priority": "must",
+   "scope": [
+    "gen-z-store",
+    "fashion-apparel"
+   ],
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "gen-z-store",
+   "note": "Uses customer tags; no app."
+  },
+  {
+   "id": "password-drop-page",
+   "name": "Styled password / pre-launch drop page with signup and media",
+   "audience": [
+    "shopper",
+    "merchant"
+   ],
+   "area": "page",
+   "priority": "must",
+   "scope": [
+    "gen-z-store",
+    "fashion-apparel"
+   ],
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "gen-z-store",
+   "note": "Builds on required password template."
+  },
+  {
+   "id": "drop-state-badges",
+   "name": "Drop state badges (coming soon, sold out, last sizes from real inventory)",
+   "audience": [
+    "shopper",
+    "merchant"
+   ],
+   "area": "collection",
+   "priority": "must",
+   "scope": [
+    "gen-z-store",
+    "fashion-apparel",
+    "sports-fitness"
+   ],
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "gen-z-store",
+   "note": "Only real data, never fake scarcity."
+  },
+  {
+   "id": "hide-sold-out-toggle",
+   "name": "Hide or push down sold-out products in grids",
+   "audience": [
+    "merchant"
+   ],
+   "area": "collection",
+   "priority": "should",
+   "scope": [
+    "gen-z-store",
+    "fashion-apparel"
+   ],
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "gen-z-store",
+   "note": ""
+  },
+  {
+   "id": "sizes-on-card",
+   "name": "Available sizes shown on product card",
+   "audience": [
+    "shopper"
+   ],
+   "area": "collection",
+   "priority": "should",
+   "scope": [
+    "gen-z-store",
+    "fashion-apparel",
+    "sports-fitness"
+   ],
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "gen-z-store",
+   "note": ""
+  },
+  {
+   "id": "fit-info-block",
+   "name": "Fit info block (model height/size, fit type, cm/inch size table)",
+   "audience": [
+    "shopper",
+    "merchant"
+   ],
+   "area": "product",
+   "priority": "must",
+   "scope": [
+    "gen-z-store",
+    "fashion-apparel"
+   ],
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "gen-z-store",
+   "note": "Metaobject-driven."
+  },
+  {
+   "id": "ugc-video-strip",
+   "name": "Short video / UGC strip (merchant-uploaded videos)",
+   "audience": [
+    "shopper",
+    "merchant"
+   ],
+   "area": "home",
+   "priority": "should",
+   "scope": [
+    "gen-z-store",
+    "beauty-skincare",
+    "fashion-apparel"
+   ],
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "gen-z-store",
+   "note": "Uploaded media only, not an Instagram feed."
   }
  ]
 }

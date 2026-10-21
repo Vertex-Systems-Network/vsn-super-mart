@@ -101,9 +101,9 @@
   {
    "id": "gen-z-store",
    "name": "Gen-Z Store",
-   "status": "seed",
-   "must_have_count": 0,
-   "sources": 0
+   "status": "verified",
+   "must_have_count": 17,
+   "sources": 33
   }
  ]
 }

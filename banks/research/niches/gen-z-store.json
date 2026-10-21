@@ -1,19 +1,761 @@
 {
  "id": "gen-z-store",
  "name": "Gen-Z Store",
- "aliases": [],
- "status": "seed",
- "shopper_profile": "",
- "catalog_traits": {},
- "must_have_sections": [],
- "nice_to_have_sections": [],
- "product_page_elements": [],
- "collection_page_elements": [],
- "metafields_metaobjects": [],
- "design_patterns": {},
- "conversion_drivers": [],
- "competitor_references": [],
- "anti_patterns": [],
- "sources": [],
- "updated_at": "2026-10-21"
+ "aliases": [
+  "streetwear",
+  "gen-z fashion",
+  "drop store",
+  "hype store"
+ ],
+ "status": "verified",
+ "shopper_profile": "A 16-28-year-old in the US or Western Europe who discovers products on TikTok, Instagram and creator content rather than Google, watches short video daily, and buys mostly on a phone. They value belonging to a community and limited access, check reviews and peers before buying, mix new and second-hand pieces, and prefer payment methods that feel controlled (debit, pay-in-4 without interest, wallets) over credit cards.",
+ "catalog_traits": {
+  "typical_size": "small",
+  "variants": "sizes (XS-XXL, shoe sizes), few colors; drops sell out by size",
+  "price_range": "mid streetwear (confirm with team)"
+ },
+ "must_have_sections": [
+  {
+   "id": "announcement-ticker",
+   "name": "Announcement bar / scrolling ticker",
+   "page": "global",
+   "why": "Trapstar ticker, Daily Paper and Cole Buxton bars"
+  },
+  {
+   "id": "drop-hero-countdown",
+   "name": "Drop hero with countdown + notify",
+   "page": "home",
+   "why": "Cole Buxton drop blocks combine timer, link and email"
+  },
+  {
+   "id": "video-hero",
+   "name": "Full-bleed video/image hero",
+   "page": "home",
+   "why": "Daily Paper video hero; Represent and Palace campaign heroes"
+  },
+  {
+   "id": "split-hero",
+   "name": "Split dual-campaign hero",
+   "page": "home",
+   "why": "Represent mainline/sub-brand split"
+  },
+  {
+   "id": "drop-product-grid",
+   "name": "Featured drop product grid",
+   "page": "home",
+   "why": "Trapstar collab cards, Cole Buxton and Daily Paper new grids"
+  },
+  {
+   "id": "category-tiles",
+   "name": "Category tiles",
+   "page": "home",
+   "why": "Daily Paper, Cole Buxton, ALD shop by category"
+  },
+  {
+   "id": "shop-the-look",
+   "name": "Shop the look / outfits",
+   "page": "home",
+   "why": "Daily Paper, Cole Buxton, Represent Outfits"
+  },
+  {
+   "id": "early-access-signup",
+   "name": "Early-access email/SMS sign-up",
+   "page": "global",
+   "why": "Trapstar, Daily Paper, Cole Buxton, Palace"
+  },
+  {
+   "id": "password-drop-page",
+   "name": "Styled password / locked drop page",
+   "page": "page",
+   "why": "Corteiz whole-store lock; Daily Paper member early access"
+  },
+  {
+   "id": "mega-menu-drops",
+   "name": "Mega menu with drop/collab promos",
+   "page": "global",
+   "why": "Represent, Daily Paper, Kith, Cole Buxton"
+  },
+  {
+   "id": "localization-selector",
+   "name": "Country/currency/language selector",
+   "page": "global",
+   "why": "All of the studied stores ship globally (Kith, Represent, Daily Paper, Cole Buxton, ALD, Palace)"
+  },
+  {
+   "id": "cart-drawer-upsell",
+   "name": "Cart drawer with recommendations",
+   "page": "cart",
+   "why": "Kith recommended for you, Trapstar/Cole Buxton drawers"
+  },
+  {
+   "id": "pdp-main-drop",
+   "name": "Product main with size-level stock + notify",
+   "page": "product",
+   "why": "Daily Paper per-size get-notified and almost-sold-out flags"
+  },
+  {
+   "id": "size-guide-drawer",
+   "name": "Size chart drawer with unit toggle + model info",
+   "page": "product",
+   "why": "Daily Paper CM/IN chart, Cole Buxton model caption"
+  },
+  {
+   "id": "complete-the-look",
+   "name": "Complete the look / combine with",
+   "page": "product",
+   "why": "Daily Paper combine with, Cole Buxton shop the look"
+  },
+  {
+   "id": "product-recommendations",
+   "name": "You may also like",
+   "page": "product",
+   "why": "Daily Paper, Cole Buxton"
+  },
+  {
+   "id": "collection-filter-grid",
+   "name": "Filterable collection grid with size chips",
+   "page": "collection",
+   "why": "Cole Buxton size/colour/type filters; Daily Paper availability filter; ALD hide sold out"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "authenticity-notice",
+   "name": "Official-store / anti-counterfeit notice",
+   "page": "global",
+   "why": "Trapstar"
+  },
+  {
+   "id": "loyalty-membership",
+   "name": "Loyalty/membership promo",
+   "page": "home",
+   "why": "Represent Prestige, Daily Paper UNITE"
+  },
+  {
+   "id": "restock-collection-banner",
+   "name": "Restocked / archive banner",
+   "page": "collection",
+   "why": "Represent Restocked, Daily Paper Archive"
+  },
+  {
+   "id": "new-launches-list",
+   "name": "Compact launches list",
+   "page": "home",
+   "why": "Cole Buxton New Launches"
+  },
+  {
+   "id": "brand-story",
+   "name": "Brand origin text block",
+   "page": "home",
+   "why": "Trapstar Born in West London"
+  },
+  {
+   "id": "lookbook-editorial",
+   "name": "Lookbook / journal tiles",
+   "page": "home",
+   "why": "ALD, Represent lookbooks"
+  },
+  {
+   "id": "social-ugc-feed",
+   "name": "Social / UGC feed",
+   "page": "home",
+   "why": "Daily Paper Instagram, Palace socials block"
+  },
+  {
+   "id": "playlist-embed",
+   "name": "Music/playlist embed",
+   "page": "home",
+   "why": "Daily Paper, ALD Sound"
+  },
+  {
+   "id": "bundle-popup",
+   "name": "Multi-buy bundle promo",
+   "page": "global",
+   "why": "Represent logo pack offer"
+  }
+ ],
+ "product_page_elements": [
+  "Multi-image gallery with video and full-screen zoom",
+  "Colour swatches linking sibling products (combined listings)",
+  "Size buttons with per-size sold out and notify-me",
+  "Low-stock / almost sold out flag",
+  "Coming Soon / drop date state replacing ATC",
+  "Size chart drawer with CM/IN toggle",
+  "Model height and size worn",
+  "Fit advice (size down/up)",
+  "Composition accordion",
+  "Shipping by region accordion with carrier prices",
+  "Returns accordion",
+  "BNPL messaging (Klarna/Clearpay) and dynamic checkout (Shop Pay, PayPal, Apple Pay)",
+  "Free-shipping threshold line",
+  "Trust badges",
+  "Not discountable / limit per customer note",
+  "Complete the look",
+  "You may also like",
+  "Wishlist",
+  "Breadcrumbs",
+  "Sticky add to cart on mobile"
+ ],
+ "collection_page_elements": [
+  "Filter & sort drawer",
+  "Availability filter / hide sold out",
+  "Size, colour, type and price filters",
+  "Result count",
+  "Grid column toggle",
+  "Card with hover second image",
+  "Size chips and quick add on card",
+  "+N colours indicator",
+  "New / Sold out / Coming Soon / -% badges",
+  "Infinite scroll / load more",
+  "Drop banner (NOW LIVE)"
+ ],
+ "metafields_metaobjects": [
+  "product.drop_date (date_time) for the countdown and Coming Soon state",
+  "product.drop_name / season (e.g. FW26 Drop 2)",
+  "product.fit_notes (rich text)",
+  "product.model_info (height, size worn)",
+  "product.composition",
+  "product.size_chart -> metaobject size_chart (rows, units, image)",
+  "product.limited / no_restock flag (boolean)",
+  "product.max_per_customer (integer)",
+  "product.complete_the_look (product list)",
+  "metaobject drop (name, date, hero media, collection, password hint)",
+  "metaobject lookbook (images, linked products)",
+  "collection.drop_status (upcoming/live/sold out)"
+ ],
+ "design_patterns": {
+  "typography": "Oversized, expressive display type (bold condensed or wide grotesks, optional blackletter/gothic accent for drop titles) paired with a plain, highly legible sans for body and UI; big type greets visitors above the fold, with mobile sizes kept comfortable.",
+  "color_mood": "Two poles: (a) high-contrast flat colour blocks with no gradients (neo-brutalist clash, e.g. off-black + acid/neon accent) and (b) dark UI for a premium, nightlife feel (black with ruby/purple or a single neon). Y2K accents (chrome, airy blue-green gradients) are used sparingly. Keep AA/AAA contrast.",
+  "imagery": "Short, silent product video as hero rather than a static gallery tile; lo-fi UGC/creator-style clips; tactile grain, scanned paper and fabric textures for warmth; collage/sticker overlays and glitch details as accents, not across the whole page.",
+  "layout": "Mobile-first, thumb-friendly stacks; asymmetric/off-grid hero sections and uneven grids for editorial moments, but conventional, clean PLP/PDP/checkout; hard borders and offset solid shadows (neo-brutalist cards); clear labelled nav; few, easily dismissed pop-ups.",
+  "motion": "Purposeful micro-interactions (variant swap, add-to-cart feedback, hover zoom), scroll-triggered reveals/scrollytelling on drop landing pages, marquee tickers for drop announcements, smooth page transitions; never slow down cart/checkout; respect reduced-motion."
+ },
+ "conversion_drivers": [
+  "Short silent product video as primary PDP media plus on-body/try-on clips",
+  "UGC and creator content galleries (shoppable) on home and PDP",
+  "Express wallets (Shop Pay, Apple Pay, Google Pay, PayPal) above the fold; guest one-page checkout with inline validation",
+  "Optional pay-in-4 messaging near price (Klarna/Afterpay/Shop Pay Installments)",
+  "Drop countdown, coming-soon state, notify-me / back-in-stock and early-access signup (email/SMS)",
+  "Pre-order badge with explicit ship date",
+  "Honest scarcity signals: low stock, sold out, drop closes in X",
+  "Size and fit help: size chart drawer, model height/size worn, fit notes, fabric weight",
+  "Reviews with photos, social proof from TikTok/Instagram",
+  "Community CTA (Discord/IG) and loyalty or members-first access",
+  "Fast mobile performance and micro-interaction feedback on add to cart",
+  "Light personalization (recently viewed, recommendations) rather than heavy rewrites",
+  "Clear shipping/returns/duties info for US and EU buyers, local currency"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Drop (We Are Underground)",
+   "preset_or_style": "Countdown style; presets Drop, Unveil, Flash, Reveal",
+   "notable": "$200, with a countdown timer, back-in-stock, stock counter, image hotspots and quick buy. Its whole positioning is drops.",
+   "url": "https://themes.shopify.com/themes/drop/styles/countdown?locale=en"
+  },
+  {
+   "theme": "Horizon (Shopify)",
+   "preset_or_style": "Default Horizon (the 'pitch' URL rendered the Horizon preset)",
+   "notable": "Free; pre-order, back-in-stock, stock counter, size charts, combined listings, swatch filters",
+   "url": "https://themes.shopify.com/themes/horizon/presets/pitch"
+  },
+  {
+   "theme": "Pipeline (Groupthought)",
+   "preset_or_style": "Pipeline/Petra/Pahoa/Phantom",
+   "notable": "$360, high-contrast fashion theme with countdown timers, hotspots and 40+ sections",
+   "url": "https://themes.shopify.com/themes/pipeline/styles/pipeline"
+  },
+  {
+   "theme": "Broadcast (Presidio)",
+   "preset_or_style": "Broadcast/Relay/Airwave/Motif/Stellar",
+   "notable": "$420, with a countdown timer, back-in-stock, pre-order and video blocks for lookbooks",
+   "url": "https://themes.shopify.com/themes/broadcast/styles/broadcast"
+  },
+  {
+   "theme": "Electro / Concept / Ignite / Streamline",
+   "preset_or_style": "Electro 'skatewear' style and others",
+   "notable": "Named as streetwear picks in a third-party roundup (listing pages not fetched)",
+   "url": "https://shopthemedetector.com/blog/best-shopify-streetwear-themes/"
+  }
+ ],
+ "anti_patterns": [
+  "Heavy 3D, WebGL or autoplay audio on drop pages that slows load during traffic spikes",
+  "Brutalist/collage styling carried into checkout, filters or forms where it hurts usability",
+  "Fake countdowns or fake low-stock counters (erodes trust; EU consumer law risk)",
+  "Intrusive multiple pop-ups on mobile entry from social links",
+  "Corporate stock photography instead of real community/UGC imagery",
+  "Hiding shipping costs, duties or ship dates until checkout",
+  "Pushing BNPL as the main CTA",
+  "Low-contrast dark mode and blackletter body text",
+  "Desktop-first mega menus and tiny tap targets",
+  "Generic sustainability claims without specifics (greenwashing)"
+ ],
+ "sources": [
+  {
+   "title": "9 Stand-Out Ecommerce Design Trends of 2026 (Design Studio UI/UX)",
+   "url": "https://www.designstudiouiux.com/blog/ecommerce-web-design-trends/"
+  },
+  {
+   "title": "Ecommerce Web Design Trends 2026 That Drive DTC Conversions (Redefine)",
+   "url": "https://redefineweb.com/blog/ecommerce-web-design-trends-2026-that-drive-conversions/"
+  },
+  {
+   "title": "Web Design Trends 2026 (wannathis.one)",
+   "url": "https://wannathis.one/blog/web-design-trends-2026"
+  },
+  {
+   "title": "Why Gen Z Expects Shoppable Video (Whatmore, 2026)",
+   "url": "https://www.whatmore.ai/blog/why-gen-z-expects-shoppable-video-shopping-behavior-stats-every-dtc-brand-should-know/"
+  },
+  {
+   "title": "Gen Z shopping on Pinterest, TikTok, Discord (Daily Dot, 2025)",
+   "url": "https://dailydot.com/news/gen-z-pinterest-tiktok-discord-shopping/"
+  },
+  {
+   "title": "TikTok Shop brand growth demographics (Morning Consult)",
+   "url": "https://morningconsult.com/tiktok-shop-brand-growth-demographic"
+  },
+  {
+   "title": "TikTok psychology: social commerce and Gen Z (InternetRetailing, 2026)",
+   "url": "https://internetretailing.net/?p=75455"
+  },
+  {
+   "title": "Streetwear marketing: how hype culture drives fashion sales (Resident, 2026)",
+   "url": "https://resident.com/amp/story/style-and-personal-care-resources/2026/05/27/streetwear-marketing-how-hype-culture-drives-fashion-sales"
+  },
+  {
+   "title": "Drop culture: history and future of product drops (Queue-it)",
+   "url": "https://queue-it.com/blog/drop-culture/"
+  },
+  {
+   "title": "Streetwear Drops Without Dead Stock (eCommerce Fastlane, 2026)",
+   "url": "https://ecommercefastlane.com/streetwear-drops-without-dead-stock/"
+  },
+  {
+   "title": "Afterpay Holiday 2025 Trend Report",
+   "url": "https://cash.app/press/afterpay-holiday-2025-trend-report"
+  },
+  {
+   "title": "Gen Z prefers cash over BNPL (YPulse, 2025)",
+   "url": "https://www.ypulse.com/newsfeed/2025/02/11/gen-z-actually-prefers-using-cash-over-buy-now-pay-later/"
+  },
+  {
+   "title": "Western Europe fashion e-commerce and Gen Z (NIQ, 2026)",
+   "url": "https://nielseniq.com/global/en/news-center/2026/western-europes-fashion-e-commerce-market-matures-representing-20-of-online-consumer-spending-as-gen-z-drives-momentum/"
+  },
+  {
+   "title": "BCG and Vestiaire Collective secondhand market forecast (RetailBoss, 2025)",
+   "url": "https://retailboss.co/bcg-vestiaire-collective-global-secondhand-market-2030"
+  },
+  {
+   "title": "The Gen Z QVC: TikTok Shop (Collabstr, updated 2025)",
+   "url": "https://collabstr.com/blog/tiktok-shop-genz"
+  },
+  {
+   "title": "Corteiz password page",
+   "url": "https://www.corteiz.com/password"
+  },
+  {
+   "title": "Broken Planet Market",
+   "url": "https://www.brokenplanet.com/"
+  },
+  {
+   "title": "Represent",
+   "url": "https://representclo.com/"
+  },
+  {
+   "title": "Trapstar UK",
+   "url": "https://uk.trapstarlondon.com/"
+  },
+  {
+   "title": "Kith",
+   "url": "https://kith.com/"
+  },
+  {
+   "title": "Daily Paper",
+   "url": "https://www.dailypaperclothing.com/"
+  },
+  {
+   "title": "Daily Paper new arrivals",
+   "url": "https://www.dailypaperclothing.com/collections/new-arrivals"
+  },
+  {
+   "title": "Daily Paper Arch Zip Hoodie",
+   "url": "https://dailypaperclothing.com/products/black-arch-zip-hoodie"
+  },
+  {
+   "title": "Cole Buxton",
+   "url": "https://www.colebuxton.com/"
+  },
+  {
+   "title": "Cole Buxton all",
+   "url": "https://www.colebuxton.com/collections/all"
+  },
+  {
+   "title": "Cole Buxton Split Overcoat",
+   "url": "https://www.colebuxton.com/products/split-overcoat-black-aw26soc170-000?variant=64297659138425"
+  },
+  {
+   "title": "Aime Leon Dore",
+   "url": "https://www.aimeleondore.com/"
+  },
+  {
+   "title": "Palace Skateboards",
+   "url": "https://www.palaceskateboards.com/"
+  },
+  {
+   "title": "Drop theme - Countdown",
+   "url": "https://themes.shopify.com/themes/drop/styles/countdown?locale=en"
+  },
+  {
+   "title": "Horizon theme",
+   "url": "https://themes.shopify.com/themes/horizon/presets/pitch"
+  },
+  {
+   "title": "Pipeline theme",
+   "url": "https://themes.shopify.com/themes/pipeline/styles/pipeline"
+  },
+  {
+   "title": "Broadcast theme",
+   "url": "https://themes.shopify.com/themes/broadcast/styles/broadcast"
+  },
+  {
+   "title": "Best Shopify streetwear themes 2026",
+   "url": "https://shopthemedetector.com/blog/best-shopify-streetwear-themes/"
+  }
+ ],
+ "updated_at": "2026-10-21",
+ "verification": "2026-10-21: 34 sources, all opened. Trends: 15 pages (12 from 2025-26). Stores: Corteiz, Broken Planet, Represent, Trapstar, Kith, Daily Paper, Cole Buxton, Aime Leon Dore, Palace; PDP/collection read in depth only for Daily Paper and Cole Buxton. Some stats come from vendors (Whatmore, Redefine) - treat as directional. BNPL data conflicts (Afterpay vs YPulse): show pay-in-4 near price, never as main button.",
+ "aesthetic_directions": [
+  {
+   "name": "Neo-brutalist drop shop",
+   "description": "Flat clashing colour blocks, thick black outlines, offset hard shadows, bold futuristic or condensed type, asymmetric spacing.",
+   "fits_because": "Signals an unconventional, anti-corporate label; sources flag it as suited to brands wanting to look unusual, and it renders fast with no heavy assets.",
+   "risk": "Can overwhelm and hurt readability if applied to dense PLP/checkout; becoming common, so needs a distinct accent colour/type to avoid looking templated."
+  },
+  {
+   "name": "Dark premium / nightlife",
+   "description": "Black or near-black UI, one saturated accent (neon or ruby), cinematic product video, minimal chrome.",
+   "fits_because": "Dark UI is reported to work for fashion brands positioning above discount; makes product video and drop countdowns pop.",
+   "risk": "Contrast and accessibility failures; can feel generic-luxury rather than street; product colours may read inaccurately."
+  },
+  {
+   "name": "Gothic / blackletter street",
+   "description": "Blackletter display faces, dark high-contrast palette, motifs like arches, skulls, gargoyles, angelic imagery.",
+   "fits_because": "Flagged as aimed mainly at Gen-Z fashion shoppers and maps to current streetwear graphics.",
+   "risk": "Strongly niche; blackletter must stay limited to headings; motifs can date quickly."
+  },
+  {
+   "name": "Y2K / vaporwave nostalgia (soft)",
+   "description": "Chrome, glossy gradients, pastel pink/navy/neon green, glitch accents, early-internet UI nods, now in a calmer, subtler form.",
+   "fits_because": "Nostalgia and playful type are recurring Gen-Z cues; works for colourful or graphic-led collections.",
+   "risk": "Easily kitsch; heavy gradients/3D type hurt performance and legibility."
+  },
+  {
+   "name": "Tactile zine / collage",
+   "description": "Grain, scanned paper, tape and sticker cut-outs, handwritten notes, raw community photography and UGC.",
+   "fits_because": "Feels authentic and human, matching community- and creator-led streetwear and Gen Z's trust in peer content.",
+   "risk": "Clutter on mobile; collage assets require ongoing art direction from the merchant."
+  },
+  {
+   "name": "Quiet editorial minimal",
+   "description": "Lots of whitespace, oversized type, large lookbook imagery, restrained motion, monochrome palette.",
+   "fits_because": "Counterpoint to hype fatigue / 'anti-hype' brands; lets product and video carry the brand; safest for European taste.",
+   "risk": "Can feel cold or indistinct for a Gen-Z street label without a strong typographic voice."
+  }
+ ],
+ "behavior_insights": [
+  {
+   "insight": "Short-form video is named by nearly half of Gen Z and young Millennials as the most influential content for purchases, and around 90% of Gen Z say social content inspired a recent purchase.",
+   "implication_for_theme": "Support autoplay muted video in the hero, collection cards and PDP media slot; add a shoppable video/reels strip section.",
+   "source_url": "https://www.whatmore.ai/blog/why-gen-z-expects-shoppable-video-shopping-behavior-stats-every-dtc-brand-should-know/"
+  },
+  {
+   "insight": "Gen Z increasingly starts product searches on TikTok and Pinterest instead of Google, and uses Reddit for reviews; almost 1 in 10 pay for private retail Discord servers.",
+   "implication_for_theme": "Landing pages must work as social deep-link destinations (fast, product above fold); include community/Discord join CTA and social links prominently.",
+   "source_url": "https://dailydot.com/news/gen-z-pinterest-tiktok-discord-shopping/"
+  },
+  {
+   "insight": "Weekly social-app shopping rose to nearly 20% of consumers in 2025, Gen Z is overrepresented among heavy social shoppers, yet almost 9 in 10 of them also buy on brand websites.",
+   "implication_for_theme": "The brand site is still central: mirror social feel (video, UGC) on-site and keep catalog synced to social channels.",
+   "source_url": "https://morningconsult.com/tiktok-shop-brand-growth-demographic"
+  },
+  {
+   "insight": "In the UK, almost half of Gen Z/Y used TikTok Shop in a 3-month period, and two-thirds say seeing items sell out or go viral makes them more likely to buy; brand websites remain the top online channel.",
+   "implication_for_theme": "Show live momentum signals honestly: low-stock, sold-out badges, 'back in stock' and recently-dropped labels.",
+   "source_url": "https://internetretailing.net/?p=75455"
+  },
+  {
+   "insight": "Streetwear value is communicated through scarcity and timed drops; community (forums, Discord) can sell out a first drop without ads, but bots and hype fatigue are growing problems.",
+   "implication_for_theme": "Provide drop countdown, coming-soon product state, notify-me/early-access signup and clear sold-out archive pages.",
+   "source_url": "https://resident.com/amp/story/style-and-personal-care-resources/2026/05/27/streetwear-marketing-how-hype-culture-drives-fashion-sales"
+  },
+  {
+   "insight": "Hyped drops can crash sites with traffic spikes; waiting rooms and bot mitigation are used to keep access fair.",
+   "implication_for_theme": "Keep drop pages lightweight (minimal JS, compressed media) and compatible with queue/bot-protection apps; avoid heavy above-the-fold effects.",
+   "source_url": "https://queue-it.com/blog/drop-culture/"
+  },
+  {
+   "insight": "Small labels in 2026 use time-boxed pre-order windows with early-access lists, a set open time and clear ship dates to create scarcity without dead stock.",
+   "implication_for_theme": "Include a pre-order/drop-window badge, expected ship date field on PDP, early-access email/SMS capture section and a 'drop closed' state.",
+   "source_url": "https://ecommercefastlane.com/streetwear-drops-without-dead-stock/"
+  },
+  {
+   "insight": "Many Gen Z shoppers dislike credit cards and move toward payment methods that feel controlled; Afterpay reports Gen Z/Millennial usage up 35% YoY with mostly debit-funded purchases and rising mobile share.",
+   "implication_for_theme": "Show pay-in-4 messaging near price and express wallets prominently in cart/PDP.",
+   "source_url": "https://cash.app/press/afterpay-holiday-2025-trend-report"
+  },
+  {
+   "insight": "Counterpoint: many 18-25s still prefer paying upfront and only about a quarter have used BNPL, driven by debt worries.",
+   "implication_for_theme": "Keep BNPL messaging subtle and optional, never the dominant CTA; lead with transparent pricing.",
+   "source_url": "https://www.ypulse.com/newsfeed/2025/02/11/gen-z-actually-prefers-using-cash-over-buy-now-pay-later/"
+  },
+  {
+   "insight": "In Western Europe, fashion is about a fifth of online spending, growth is driven by Gen Z, and younger shoppers mix new and second-hand fashion; growth is slowing as shoppers get selective.",
+   "implication_for_theme": "Offer optional resale/archive or 'pre-loved' section and emphasise quality/fit info to win selective buyers.",
+   "source_url": "https://nielseniq.com/global/en/news-center/2026/western-europes-fashion-e-commerce-market-matures-representing-20-of-online-consumer-spending-as-gen-z-drives-momentum/"
+  },
+  {
+   "insight": "Second-hand fashion grows about 3x faster than firsthand, with Europe leading the shift; resale is mainly via online platforms.",
+   "implication_for_theme": "Sustainability/materials and care blocks on PDP; space for take-back or resale program messaging.",
+   "source_url": "https://retailboss.co/bcg-vestiaire-collective-global-secondhand-market-2030"
+  },
+  {
+   "insight": "Gen Z is the generation most influenced by influencers in recent purchases and is more invested in ethical shopping.",
+   "implication_for_theme": "Creator/collab feature sections, UGC galleries and an honest values/about section.",
+   "source_url": "https://collabstr.com/blog/tiktok-shop-genz"
+  }
+ ],
+ "stores_studied": [
+  {
+   "name": "Corteiz (CRTZRTW)",
+   "url": "https://www.corteiz.com/password",
+   "platform": "shopify",
+   "home_sections": [
+    "Full-screen password gate: wordmark, password field, Enter button",
+    "No countdown, no email capture"
+   ],
+   "nav": "None while locked; the whole store sits behind the Shopify password page between drops",
+   "product_card": "Not visible (store locked)",
+   "pdp_elements": [],
+   "drop_mechanics": [
+    "Store-wide password lock between drops",
+    "Drops are announced off-site (socials), not with an on-site timer"
+   ],
+   "notable": "An extreme hype pattern: the password page is the brand page. A preset needs a styled, minimal password template."
+  },
+  {
+   "name": "Broken Planet Market",
+   "url": "https://www.brokenplanet.com/",
+   "platform": "unknown",
+   "home_sections": [
+    "Heading-led hero",
+    "Easy Returns banner"
+   ],
+   "nav": "Burger menu even on desktop, bag icon with count, US/$ market pill",
+   "product_card": "Not visible in fetched markup",
+   "pdp_elements": [],
+   "drop_mechanics": [
+    "Positions itself on monthly limited drops"
+   ],
+   "notable": "Very sparse, menu-hidden layout; the market/currency pill sits in the header."
+  },
+  {
+   "name": "Represent",
+   "url": "https://representclo.com/",
+   "platform": "shopify",
+   "home_sections": [
+    "Split dual hero (mainline + 247 sub-brand) with season and drop labels",
+    "Loyalty program sign-up block",
+    "Bestsellers grid",
+    "Bundle promo pop-up (multi-buy discount)"
+   ],
+   "nav": "Mega menu: New Arrivals, Bestsellers, season, Restocked, Shop (Clothing/Collections/Collabs/Outfits), Explore (Lookbooks, Articles, Stores); separate sub-brand menu",
+   "product_card": "Image, title, USD price",
+   "pdp_elements": [
+    "(PDP fetch failed)"
+   ],
+   "drop_mechanics": [
+    "Season plus numbered drops (e.g. FW26 Drop 2)",
+    "Dedicated Restocked collection",
+    "Outfits collections"
+   ],
+   "notable": "Country/language modal (EN/ES), UK store link, student discount, app download links, Shopify wallets."
+  },
+  {
+   "name": "Trapstar London (UK)",
+   "url": "https://uk.trapstarlondon.com/",
+   "platform": "shopify",
+   "home_sections": [
+    "Announcement bar plus scrolling ticker",
+    "Featured drop product cards (collab)",
+    "Brand origin text block",
+    "Email sign-up 'be the first to know'",
+    "Image carousel",
+    "SEO about text",
+    "Authenticity / counterfeit-warning block"
+   ],
+   "nav": "Minimal header: Drop, More, account, cart drawer, search panel",
+   "product_card": "Image, colourway in title, GBP price",
+   "pdp_elements": [],
+   "drop_mechanics": [
+    "Limited drops, explicit no-restock messaging",
+    "Early access through email and Instagram"
+   ],
+   "notable": "An anti-fake/official-store notice is a recurring need for hyped brands. It uses a regional subdomain storefront."
+  },
+  {
+   "name": "Kith",
+   "url": "https://kith.com/",
+   "platform": "shopify",
+   "home_sections": [
+    "Campaign tabs (New/Mens/Womens/Kids/Hospitality)",
+    "Recommended for you in the cart",
+    "Welcome/localization banner about currency and duties"
+   ],
+   "nav": "Tabbed mega menus with brand/program sub-links; footer links to the app",
+   "product_card": "Image, name, colour, price, Add To Bag",
+   "pdp_elements": [],
+   "drop_mechanics": [
+    "Season collections",
+    "Drawings (raffles) handled in the Kith app"
+   ],
+   "notable": "Site selector (US/CA/EU/JP/UK) plus a currency selector; tag-filtered collection URLs."
+  },
+  {
+   "name": "Daily Paper",
+   "url": "https://www.dailypaperclothing.com/",
+   "platform": "shopify",
+   "home_sections": [
+    "Announcement bar",
+    "Looping video hero with 'Now available'",
+    "Promo tiles",
+    "Shop the look",
+    "New grid",
+    "Category tile row",
+    "Membership (UNITE) block",
+    "Store finder / Instagram promo",
+    "Playlist content block",
+    "Newsletter"
+   ],
+   "nav": "Mega menus: New, Shop all, categories, Collections, Collaborations; region/language utilities",
+   "product_card": "Front image with rear on hover, size chips, price with struck-through price and -% badge, colour as separate products",
+   "pdp_elements": [
+    "Gallery with video",
+    "Colour swatches linking to sibling products",
+    "Size selector with sold-out-get-notified per size",
+    "Almost sold out flag",
+    "Size chart modal with CM/IN toggle",
+    "Model height/size",
+    "Fit note",
+    "Add to fitting room",
+    "Accordions: composition, shipping by region, returns",
+    "Trust badges",
+    "Combine with (complete the look)",
+    "You may also like",
+    "Wishlist"
+   ],
+   "drop_mechanics": [
+    "NOW LIVE labels",
+    "Password-protected early-access sale for members",
+    "Archive collection for older drops"
+   ],
+   "notable": "Weglot EN/DE/FR, EUR, local EU payments (iDEAL, Bancontact, Wero)."
+  },
+  {
+   "name": "Cole Buxton",
+   "url": "https://www.colebuxton.com/",
+   "platform": "shopify",
+   "home_sections": [
+    "Free-shipping announcement bar",
+    "Drop hero blocks each with countdown, collection link and email capture",
+    "Product grids with New badges",
+    "Category tiles",
+    "New Launches compact list",
+    "Footer with payment icons"
+   ],
+   "nav": "Promo-first top items (season drops flagged New), Shop/Collections/Info menus, region selector, cart drawer",
+   "product_card": "Two images, name, colourway, price, size chips, '+N colours', quick Add, New/Sold out/Coming Soon badges",
+   "pdp_elements": [
+    "Six-image gallery with full-screen view",
+    "Model height and size caption",
+    "Size buttons",
+    "In-stock status",
+    "Add to cart",
+    "Free-shipping threshold",
+    "Klarna/Clearpay messaging",
+    "Description with sizing advice (size down)",
+    "Composition",
+    "Shipping methods with prices",
+    "Returns window",
+    "Shop the look",
+    "Recommendations including sold-out items"
+   ],
+   "drop_mechanics": [
+    "Countdown timers on upcoming launches",
+    "Coming Soon badge",
+    "Email capture next to drops",
+    "Sold-out badge per colourway (no notify-me)"
+   ],
+   "notable": "The closest model for a drop-led home page; built by an agency."
+  },
+  {
+   "name": "Aime Leon Dore",
+   "url": "https://www.aimeleondore.com/",
+   "platform": "shopify",
+   "home_sections": [
+    "Shipping-region confirmation modal",
+    "Discover links (New, Curated Selects, Uniform)",
+    "Shop by category",
+    "Seasonal deliveries and collab collections",
+    "Lookbook/News tiles",
+    "Recently viewed with video",
+    "Newsletter"
+   ],
+   "nav": "Shop + Explore two-menu header (Lookbook, News, Stores, Cafe)",
+   "product_card": "Not captured",
+   "pdp_elements": [],
+   "drop_mechanics": [
+    "Delivery 1/2 seasonal drops",
+    "Hide sold-out filter",
+    "Linked/bundled items in cart"
+   ],
+   "notable": "An accessibility menu; an editorial, lifestyle-led approach."
+  },
+  {
+   "name": "Palace Skateboards",
+   "url": "https://www.palaceskateboards.com/",
+   "platform": "unknown",
+   "home_sections": [
+    "Single campaign hero carousel",
+    "Social links block",
+    "Regional web-shop links",
+    "Mailing list"
+   ],
+   "nav": "Ultra-minimal: Web Shop, Shops, Advice, Cart, Menu toggle",
+   "product_card": "Not on home",
+   "pdp_elements": [],
+   "drop_mechanics": [
+    "Season ranges announced on the hero"
+   ],
+   "notable": "Region-split stores (US/EU/JP/KR/World) and an app banner; tone-of-voice section names."
+  }
+ ],
+ "option_map": {
+  "announcement-ticker": "announcement-bar",
+  "drop-hero-countdown": "drop-release-section",
+  "video-hero": "hero-slideshow",
+  "split-hero": "hero-slideshow",
+  "drop-product-grid": "featured-collection",
+  "category-tiles": "collection-list",
+  "early-access-signup": "early-access-signup",
+  "password-drop-page": "password-drop-page",
+  "mega-menu-drops": "mega-menu",
+  "localization-selector": "localization-selectors",
+  "cart-drawer-upsell": "cart-upsell",
+  "pdp-main-drop": "product-blocks",
+  "size-guide-drawer": "size-chart",
+  "complete-the-look": "complementary-products",
+  "product-recommendations": "related-products",
+  "collection-filter-grid": "faceted-filters"
+ }
 }

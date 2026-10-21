@@ -1,11 +1,11 @@
 {
  "project": "vsn-super-mart",
- "stage": 2,
- "stage_name": "Niche research",
+ "stage": 4,
+ "stage_name": "Design search & direction",
  "cycle": 1,
  "current_niche": "gen-z-store",
  "completed_niches": [],
- "next_action": "Stage 2: Deepen + verify banks/research/niches/<niche>.json with real sources (prompt: ai/prompts/2-research.md). Set status to 'verified'.",
+ "next_action": "Stage 4: human picks Afterhours / Sticker Club / Archive; set 'chosen' in directions.json, vsn.py approve 4, advance. Also ask price level + liked/disliked brands.",
  "approvals": {},
  "figma": {
   "file_key": "BxJuIRth8k4cCUbFnPV6ek",
