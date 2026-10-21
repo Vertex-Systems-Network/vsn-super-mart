@@ -35,3 +35,9 @@ No stock photos, no images taken from other websites. Each call spends Figma AI 
 5. **Log.** Append each image to `banks/design/image-log.json`.
 6. **Reuse.** Before generating, search the log for an image that already fits (same niche/slot) and reuse
    it instead of paying for a new one.
+
+## QA before showing the design (rules 11–14)
+1. `scripts/figma-qa-clipping.js` via `use_figma` → must return zero cut nodes.
+2. Screenshot every screen; check: content consistency (dates + weekdays, prices, sale prices, counts,
+   stock states), no sold-out item recommended, no image used twice on one page, no text over busy image
+   areas, hotspots on products, quick view + wishlist + compare + promotions + blog + sharing present.

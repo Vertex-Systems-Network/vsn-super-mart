@@ -11,3 +11,4 @@
 - 2026-10-21 18:17 [stage 6 / gen-z-store] advanced to stage 6 (Figma build)
 - 2026-10-21 18:31 [stage 6 / gen-z-store] Stage 6: 7 Afterhours screens + 22 Figma AI images built; rules 9-11 added
 - 2026-10-21 18:41 [stage 6 / gen-z-store] 24 Afterhours screens built; rule 12 (quick view, wishlist, compare, promotions) added; waiting for Full HD images
+- 2026-10-21 18:57 [stage 6 / gen-z-store] Design QA: 25 issues fixed, clipping audit 0; rules 13 (blog + sharing) and 14 (nothing cut) added

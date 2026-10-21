@@ -87,6 +87,13 @@ Never skip stages. Never start development before the design gate passes.
    - **Promotions:** announcement ticker, promo banner section, sale campaign section, promo tile inside
      product grids, sale badges with compare-at price and % off, free shipping bar, promo popup, sale
      collection styling. Only real data — no fake countdowns, stock or urgency (Theme Store rule).
+13. **Blog posts and sharing in every design.** Every preset ships the blog listing + article templates and a
+   "From the journal" section on the home page, plus share buttons (copy link, WhatsApp, X, Facebook,
+   Pinterest, native share on mobile) on every product page, quick view and blog article.
+14. **Nothing may be cut.** No icon, image, text or element may be clipped by its container or the screen
+   edge (except an image's own intentional crop inside its frame). Marquees/tickers must fit or be shown
+   as a static row in the mockup. Every Figma QA runs `scripts/figma-qa-clipping.js` (via `use_figma`) on
+   all screens and must return zero cut nodes before a design is shown or approved.
 
 ## 5. Repository map
 

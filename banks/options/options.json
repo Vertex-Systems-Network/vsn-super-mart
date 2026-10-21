@@ -625,11 +625,12 @@
     "merchant"
    ],
    "area": "home",
-   "priority": "should",
+   "priority": "must",
    "scope": "core",
    "store_allowed": true,
    "theme_store_required": false,
-   "source": "competitor-analysis"
+   "source": "competitor-analysis",
+   "note": "Team rule 13: 'From the journal' on home in every preset"
   },
   {
    "id": "map-store-locator",
@@ -1230,16 +1231,17 @@
   },
   {
    "id": "share-buttons",
-   "name": "Share buttons",
+   "name": "Share buttons on product page and quick view (copy link, WhatsApp, X, Facebook, Pinterest, native share)",
    "audience": [
     "shopper"
    ],
    "area": "product",
-   "priority": "should",
+   "priority": "must",
    "scope": "core",
    "store_allowed": true,
    "theme_store_required": false,
-   "source": "competitor-analysis"
+   "source": "competitor-analysis",
+   "note": "Team rule 13"
   },
   {
    "id": "product-badges-trust",
@@ -2332,6 +2334,21 @@
    "theme_store_required": false,
    "source": "team-rule-12",
    "note": "Team rule 12 promotions."
+  },
+  {
+   "id": "article-share",
+   "name": "Share buttons on blog articles",
+   "audience": [
+    "shopper",
+    "merchant"
+   ],
+   "area": "page",
+   "priority": "must",
+   "scope": "core",
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "team-rule-13",
+   "note": "Team rule 13"
   }
  ]
 }
