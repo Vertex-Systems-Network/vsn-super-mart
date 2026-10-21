@@ -1,0 +1,19 @@
+{
+ "id": "gen-z-store",
+ "name": "Gen-Z Store",
+ "aliases": [],
+ "status": "seed",
+ "shopper_profile": "",
+ "catalog_traits": {},
+ "must_have_sections": [],
+ "nice_to_have_sections": [],
+ "product_page_elements": [],
+ "collection_page_elements": [],
+ "metafields_metaobjects": [],
+ "design_patterns": {},
+ "conversion_drivers": [],
+ "competitor_references": [],
+ "anti_patterns": [],
+ "sources": [],
+ "updated_at": "2026-10-21"
+}

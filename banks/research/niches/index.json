@@ -97,6 +97,13 @@
    "status": "seed",
    "must_have_count": 11,
    "sources": 4
+  },
+  {
+   "id": "gen-z-store",
+   "name": "Gen-Z Store",
+   "status": "seed",
+   "must_have_count": 0,
+   "sources": 0
   }
  ]
 }

@@ -1,16 +1,16 @@
 {
-  "project": "vsn-super-mart",
-  "stage": 1,
-  "stage_name": "Niche intake",
-  "cycle": 1,
-  "current_niche": null,
-  "completed_niches": [],
-  "next_action": "Stage 1: ask the human which niche to design first (the first cycle also builds the core). Offer banks/research/niches/index.json. Then create ai/niches/<niche>/brief.md and run `vsn.py set-niche <niche>`.",
-  "approvals": {},
-  "figma": {
-    "file_key": "BxJuIRth8k4cCUbFnPV6ek",
-    "page": "VSN | Super Mart",
-    "page_node": "25:2"
-  },
-  "updated_at": "2026-10-21"
+ "project": "vsn-super-mart",
+ "stage": 2,
+ "stage_name": "Niche research",
+ "cycle": 1,
+ "current_niche": "gen-z-store",
+ "completed_niches": [],
+ "next_action": "Stage 2: Deepen + verify banks/research/niches/<niche>.json with real sources (prompt: ai/prompts/2-research.md). Set status to 'verified'.",
+ "approvals": {},
+ "figma": {
+  "file_key": "BxJuIRth8k4cCUbFnPV6ek",
+  "page": "VSN | Super Mart",
+  "page_node": "25:2"
+ },
+ "updated_at": "2026-10-21"
 }
