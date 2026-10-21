@@ -226,7 +226,7 @@
     "merchant"
    ],
    "area": "global",
-   "priority": "should",
+   "priority": "must",
    "scope": "core",
    "store_allowed": true,
    "theme_store_required": false,
@@ -536,7 +536,7 @@
     "merchant"
    ],
    "area": "home",
-   "priority": "should",
+   "priority": "must",
    "scope": "core",
    "store_allowed": true,
    "theme_store_required": false,
@@ -827,7 +827,8 @@
    "scope": "core",
    "store_allowed": true,
    "theme_store_required": true,
-   "source": "theme-store-requirements"
+   "source": "theme-store-requirements",
+   "note": "Team rule 12: mandatory on every demo."
   },
   {
    "id": "quick-add",
@@ -906,7 +907,7 @@
     "merchant"
    ],
    "area": "collection",
-   "priority": "should",
+   "priority": "must",
    "scope": "core",
    "store_allowed": true,
    "theme_store_required": false,
@@ -1461,7 +1462,7 @@
     "merchant"
    ],
    "area": "cart",
-   "priority": "should",
+   "priority": "must",
    "scope": "core",
    "store_allowed": true,
    "theme_store_required": false,
@@ -2088,16 +2089,17 @@
   },
   {
    "id": "wishlist",
-   "name": "Wishlist",
+   "name": "Wishlist (heart on cards and product page, wishlist page) via VSN app",
    "audience": [
     "shopper"
    ],
    "area": "extras",
-   "priority": "could",
+   "priority": "must",
    "scope": "core",
    "store_allowed": false,
    "theme_store_required": false,
-   "source": "competitor-analysis"
+   "source": "competitor-analysis",
+   "note": "Team rule 12. UI + app block slots in theme; data from vsn-wishlist-compare app (Theme Store forbids theme-built wishlist)."
   },
   {
    "id": "fake-urgency",
@@ -2257,6 +2259,79 @@
    "theme_store_required": false,
    "source": "gen-z-store",
    "note": "Uploaded media only, not an Instagram feed."
+  },
+  {
+   "id": "product-compare",
+   "name": "Product comparison (compare toggle on cards, compare bar, compare page) via VSN app",
+   "audience": [
+    "shopper"
+   ],
+   "area": "collection",
+   "priority": "must",
+   "scope": "core",
+   "store_allowed": false,
+   "theme_store_required": false,
+   "source": "team-rule-12",
+   "note": "Team rule 12. UI + app block slots in theme; data from vsn-wishlist-compare app."
+  },
+  {
+   "id": "wishlist-compare-ui-slots",
+   "name": "Wishlist and compare UI hooks + app block slots (theme side)",
+   "audience": [
+    "shopper",
+    "merchant",
+    "developer"
+   ],
+   "area": "global",
+   "priority": "must",
+   "scope": "core",
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "team-rule-12",
+   "note": "Theme-side buttons, icons and pages that VSN app fills; allowed in Theme Store build."
+  },
+  {
+   "id": "sale-campaign-section",
+   "name": "Sale campaign section (real sale dates as text, discount %, collection link)",
+   "audience": [
+    "shopper",
+    "merchant"
+   ],
+   "area": "home",
+   "priority": "must",
+   "scope": "core",
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "team-rule-12",
+   "note": "Team rule 12 promotions; no ticking countdown."
+  },
+  {
+   "id": "sale-badge-percent",
+   "name": "Sale badge with % off and compare-at price",
+   "audience": [
+    "shopper"
+   ],
+   "area": "collection",
+   "priority": "must",
+   "scope": "core",
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "team-rule-12",
+   "note": "Team rule 12 promotions."
+  },
+  {
+   "id": "promo-banner-section",
+   "name": "Promo banner section (image/video + text + CTA, several layouts)",
+   "audience": [
+    "merchant"
+   ],
+   "area": "home",
+   "priority": "must",
+   "scope": "core",
+   "store_allowed": true,
+   "theme_store_required": false,
+   "source": "team-rule-12",
+   "note": "Team rule 12 promotions."
   }
  ]
 }

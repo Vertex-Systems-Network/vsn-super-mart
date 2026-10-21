@@ -91,8 +91,8 @@ def niche_file(n):
 def required_options(niche):
     out = []
     for o in options():
-        if not o["store_allowed"]:
-            continue
+        if not o["store_allowed"] and o["priority"] != "must":
+            continue  # extras that are not mandatory; mandatory app-driven ones (rule 12) stay required
         in_scope = o["scope"] == "core" or (isinstance(o["scope"], list) and niche in o["scope"])
         if in_scope and (o["priority"] == "must" or o["theme_store_required"]):
             out.append(o["id"])

@@ -78,6 +78,15 @@ Never skip stages. Never start development before the design gate passes.
    thin minimal cards, no motion, neutral-only palette). Every preset must be bold and expressive with a
    strong accent color, rich sections and motion. `vsn.py check-design` fails any design that shows 3 or
    more minimalism markers (see `banks/design/fingerprint-schema.json → minimalism_markers`).
+12. **Every demo has quick view, wishlist, comparison and promotions.** These are mandatory on every preset:
+   - **Quick view** (modal from every product card) and **quick add**.
+   - **Wishlist** (heart on cards + product page, wishlist page/drawer) and **compare** (compare toggle on
+     cards, compare bar, compare page with spec rows). Theme Store forbids building these as theme logic, so
+     the theme ships the UI + app block slots and the data comes from a VSN app (`vsn-wishlist-compare`,
+     rule 10); outside the Theme Store build they can run as the extras track.
+   - **Promotions:** announcement ticker, promo banner section, sale campaign section, promo tile inside
+     product grids, sale badges with compare-at price and % off, free shipping bar, promo popup, sale
+     collection styling. Only real data — no fake countdowns, stock or urgency (Theme Store rule).
 
 ## 5. Repository map
 

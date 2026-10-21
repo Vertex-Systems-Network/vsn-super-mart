@@ -178,6 +178,12 @@
   ],
   "gift_card": [
    "gift-card"
+  ],
+  "page.wishlist": [
+   "wishlist (app blocks)"
+  ],
+  "page.compare": [
+   "compare (app blocks)"
   ]
  },
  "sections": [
@@ -515,7 +521,7 @@
   "card-hover-image": "collection > main-collection",
   "card-swatches": "collection > main-collection",
   "card-badges": "collection > main-collection",
-  "quick-view": "collection > main-collection",
+  "quick-view": "eye icon on every card + Quick view modal",
   "quick-add": "collection > main-collection",
   "unit-price": "collection > main-collection",
   "price-ranges": "collection > main-collection",
@@ -593,7 +599,7 @@
   "sticky-header": "section group header > header",
   "breadcrumbs": "layout/theme.liquid + global snippets",
   "cookie-consent": "layout/theme.liquid + global snippets",
-  "newsletter-popup": "layout/theme.liquid + global snippets",
+  "newsletter-popup": "Promo popup (10% off first order, Shopify Forms compatible)",
   "collage-bento": "index template",
   "logo-list": "index template",
   "testimonials": "index template",
@@ -602,7 +608,7 @@
   "comparison-table": "index template",
   "blog-posts": "index template",
   "grid-density": "collection > main-collection",
-  "promo-tile-in-grid": "collection > main-collection",
+  "promo-tile-in-grid": "collection grid > Archive sale tile",
   "combined-listings": "product > main-product",
   "inventory-status": "product > main-product",
   "recently-viewed": "product > main-product",
@@ -621,7 +627,13 @@
   "github-integration": "codebase",
   "hide-sold-out-toggle": "collection > main-collection",
   "sizes-on-card": "collection > main-collection",
-  "ugc-video-strip": "index template"
+  "ugc-video-strip": "index template",
+  "wishlist": "heart on every card + product page + quick view; Wishlist page; header heart with count (data: vsn-wishlist-compare)",
+  "product-compare": "compare toggle on cards, sticky compare bar (collection), Compare page with spec rows (data: vsn-wishlist-compare)",
+  "wishlist-compare-ui-slots": "snippets/product-card icon stack + app block slots in main-product, quick view, wishlist/compare templates",
+  "sale-campaign-section": "index > archive sale campaign (real end date as text) + collection mobile sale banner",
+  "sale-badge-percent": "product card -% badge + compare-at price (Runner 02, Zip hoodie); cart line sale price",
+  "promo-banner-section": "index > promo trio (sale campaign, members deal, bundle and save)"
  },
  "requirement_map": {
   "req-codebase-origin": "Stage 7 starts from Shopify Skeleton theme",
@@ -668,24 +680,33 @@
   "file_key": "BxJuIRth8k4cCUbFnPV6ek",
   "page_node": "25:2",
   "frames": {
-   "home-desktop": "42:2",
-   "collection-desktop": "43:2",
-   "product-desktop": "44:2",
-   "cart-drawer-desktop": "45:2",
-   "password-drop-desktop": "46:2",
-   "home-mobile": "47:2",
-   "product-mobile": "48:2"
+   "home-desktop": "79:2",
+   "collection-desktop": "80:2",
+   "product-desktop": "81:2",
+   "cart-drawer-desktop": "82:2",
+   "password-drop-desktop": "83:2",
+   "home-mobile": "84:2",
+   "product-mobile": "85:2",
+   "quick-view-desktop": "86:2",
+   "wishlist-desktop": "87:2",
+   "compare-desktop": "88:2",
+   "search-desktop": "89:2",
+   "cart-page-desktop": "90:2",
+   "promo-popup-desktop": "91:2",
+   "list-collections-desktop": "92:2",
+   "contact-desktop": "93:2",
+   "blog-desktop": "94:2",
+   "article-desktop": "95:2",
+   "account-login-desktop": "96:2",
+   "account-orders-desktop": "97:2",
+   "404-desktop": "98:2",
+   "gift-card-desktop": "99:2",
+   "collection-mobile": "100:2",
+   "cart-drawer-mobile": "101:2",
+   "menu-drawer-mobile": "102:2"
   },
   "not_yet_built": [
-   "search + predictive search",
-   "list collections",
-   "page + contact",
-   "blog + article",
-   "account (login, register, orders)",
-   "404",
-   "gift card",
-   "cart page",
-   "collection + cart mobile"
+   "account register/addresses (Shopify-hosted new customer accounts cover these)"
   ]
  },
  "app_map": {
@@ -707,6 +728,7 @@
   "knowledge-base": "FAQ section with structured data",
   "vsn-product-types": "app block slots in main-product + featured product; swatch tokens; cart drawer hook",
   "vsn-stock-down-sort": "collection grid keeps app sort order; works with hide-sold-out toggle",
-  "vsn-metafields": "dynamic sources for fit-info, size guide, badges"
+  "vsn-metafields": "dynamic sources for fit-info, size guide, badges",
+  "vsn-wishlist-compare": "heart + compare on cards/product/quick view, wishlist page, compare bar + page"
  }
 }

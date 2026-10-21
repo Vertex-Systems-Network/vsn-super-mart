@@ -46,6 +46,7 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
   `store_allowed`). Resolve the option list for this niche: all `core` options + options tagged for the niche.
 - **Writes:** `banks/options/options.json` (new entries), `ai/niches/<niche>/options.resolved.json`
   via `vsn.py resolve-options <niche>`.
+- **Rule 12 check:** quick view, wishlist, compare and promotions options must be in every preset.
 - **App-first check:** for every option decide native → Shopify free app → VSN app → third party
   (`banks/options/apps.json`). Never drop a Shopify option.
 - **Exit gate:** resolved file exists; every niche must-have section maps to an option id.

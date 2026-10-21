@@ -12,6 +12,7 @@
   "account-component",
   "cart-icon-count",
   "localization-selectors",
+  "newsletter-popup",
   "footer-builder",
   "payment-icons",
   "social-icons",
@@ -31,6 +32,7 @@
   "multicolumn",
   "rich-text",
   "faq-accordion",
+  "promo-grid",
   "contact-form",
   "faceted-filters",
   "filter-layouts",
@@ -46,6 +48,7 @@
   "unit-price",
   "price-ranges",
   "empty-states",
+  "promo-tile-in-grid",
   "list-collections-page",
   "product-blocks",
   "media-gallery-layouts",
@@ -71,6 +74,7 @@
   "cart-type-setting",
   "cart-notes",
   "cart-discounts",
+  "free-shipping-bar",
   "cart-selling-plans",
   "cart-accelerated",
   "tpl-404",
@@ -115,22 +119,23 @@
   "early-access-signup",
   "password-drop-page",
   "drop-state-badges",
-  "fit-info-block"
+  "fit-info-block",
+  "wishlist-compare-ui-slots",
+  "sale-campaign-section",
+  "sale-badge-percent",
+  "promo-banner-section"
  ],
  "should": [
   "sticky-header",
   "breadcrumbs",
   "cookie-consent",
-  "newsletter-popup",
   "collage-bento",
   "logo-list",
   "testimonials",
-  "promo-grid",
   "shop-the-look",
   "comparison-table",
   "blog-posts",
   "grid-density",
-  "promo-tile-in-grid",
   "combined-listings",
   "inventory-status",
   "recently-viewed",
@@ -139,7 +144,6 @@
   "delivery-estimate",
   "back-in-stock-slot",
   "bundle-display",
-  "free-shipping-bar",
   "cart-upsell",
   "alt-templates",
   "animation-settings",
@@ -162,7 +166,8 @@
  "extras_track_only": [
   "countdown-timer",
   "instagram-feed",
-  "wishlist"
+  "wishlist",
+  "product-compare"
  ],
  "unmapped_research_sections": []
 }

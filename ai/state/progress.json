@@ -5,7 +5,7 @@
  "cycle": 1,
  "current_niche": "gen-z-store",
  "completed_niches": [],
- "next_action": "Stage 6: build remaining screens; make all images Full HD (credits reset 2026-11-04 or approved upscale); get design approval (vsn.py approve 6).",
+ "next_action": "Stage 6: after 2026-11-04 regenerate 22 images in Full HD and swap hashes; then get design approval (vsn.py approve 6) and advance to Stage 7.",
  "approvals": {
   "4": {
    "by": "human: no preference (delegated) -> Afterhours by lead agent",

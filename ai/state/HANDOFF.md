@@ -2,6 +2,20 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-21 — All Afterhours screens built + rule 12
+
+**Done**
+- Rule 12: every demo has quick view, wishlist, compare and promotions (wishlist/compare UI in theme, data
+  from planned `vsn-wishlist-compare` VSN app because Theme Store forbids theme-built wishlist).
+- Figma page 25:2 now has 24 screens (19 desktop, 5 mobile); ids in spec → figma.frames. Coverage
+  124/124 options, 39/39 requirements, 19/19 apps.
+- Reused existing Figma AI images (no new generations).
+
+**Waiting**
+- Full HD images: team decided to wait for Figma AI credit reset (2026-11-04 11:17 UTC). A scheduled
+  reminder fires 2026-11-04 11:30 UTC in this session.
+- Design approval (`vsn.py approve 6`).
+
 ## 2026-10-21 — Gen-Z / Afterhours designed in Figma (Stage 6, gate pending)
 
 **Done**
