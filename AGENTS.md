@@ -104,6 +104,10 @@ Never skip stages. Never start development before the design gate passes.
    one-off code for a single preset). The system merges Elementor and WordPress Gutenberg ideas —
    tokens → element defaults → style variations → global components (synced, any field overridable) →
    instance → responsive overrides → display conditions — see `banks/elements/architecture.md`.
+16. **Deploy only through the Shopify GitHub integration.** Code is edited in `theme/` and pushed to GitHub;
+   the `shopify-theme` branch (theme at root, kept in sync by GitHub Actions) is connected to the stores.
+   Never upload ZIPs or edit in the Shopify code editor; theme editor changes flow back automatically.
+   CLI is optional for local preview only. See `docs/adr/0002-deploy-via-shopify-github-integration.md`.
 
 ## 5. Repository map
 

@@ -98,7 +98,9 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
   (`theme/listings/<preset>/`) + new niche sections. Break into work units in
   `ai/niches/<niche>/work-units.md`; one unit per commit; tick it off.
 - **Writes:** `theme/**`, work units file.
-- **Exit gate:** all work units done; `shopify theme check` has no errors.
+- **Deploy (rule 16):** push to GitHub → Action publishes `theme/` to branch `shopify-theme` → connected dev
+  store updates; share the store's theme preview link for review. Theme editor edits come back to `theme/`.
+- **Exit gate:** all work units done; Theme Check (`node tools/theme-check.js`) has no errors.
 
 ## Stage 8 — QA
 - **Does:** Theme Store checklist (`banks/research/platform/theme-store-requirements.json`), Lighthouse

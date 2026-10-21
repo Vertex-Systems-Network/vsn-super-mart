@@ -17,3 +17,4 @@
 - 2026-10-21 19:15 [stage 6 / gen-z-store] Element system: merged Elementor + Gutenberg architecture; +Gutenberg core blocks
 - 2026-10-21 19:23 [stage 6 / gen-z-store] Prototype: tokens, element defaults, smart responsive, 5 elements, global component; Theme Check 0; responsive verified at 9 widths
 - 2026-10-21 19:25 [stage 6 / gen-z-store] Session end: project paused by team; handoff + plan updated
+- 2026-10-21 19:30 [stage 6 / gen-z-store] Plan: deploy via Shopify GitHub integration (shopify-theme branch + sync workflows), rule 16, ADR 0002

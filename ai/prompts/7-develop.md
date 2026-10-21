@@ -1,7 +1,7 @@
 # Prompt — Stage 7: Development
 
-1. First cycle only: `shopify theme init theme --clone-url https://github.com/Shopify/skeleton-theme`
-   (never Dawn/Horizon). Add `.theme-check.yml`.
+1. The theme already exists in `theme/` (Skeleton base + VSN sections, ADR 0001). Deploy only via the
+   Shopify GitHub integration and the `shopify-theme` branch (rule 16, ADR 0002).
 2. Write `ai/niches/<niche>/work-units.md` as a checklist (`- [ ] WU-01 ...`), ordered:
    tokens/settings_schema → layout/theme.liquid → section groups (header/footer) → snippets (price,
    product-card, icons, image) → global JS web components (cart, drawer, predictive search, variant picker)

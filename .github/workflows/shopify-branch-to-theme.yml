@@ -1,0 +1,27 @@
+# Brings theme editor / code editor changes (committed by Shopify to `shopify-theme`) back into theme/ on main.
+name: shopify-theme branch → theme/
+on:
+  push:
+    branches: [shopify-theme]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: shopify-theme-sync
+  cancel-in-progress: false
+jobs:
+  sync-back:
+    if: github.actor == 'shopify[bot]' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 0 }
+      - name: Configure git
+        run: |
+          git config user.name "vsn-bot"
+          git config user.email "vsn-bot@users.noreply.github.com"
+      - name: Merge shopify-theme into theme/
+        run: |
+          git fetch origin shopify-theme
+          git subtree pull --prefix theme origin shopify-theme -m "Sync theme editor changes [from-shopify]"
+          git push origin main

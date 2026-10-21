@@ -27,8 +27,10 @@ demos by settings only, smart responsive 2448–320, Elementor + Gutenberg merge
    (`banks/design/specs/gen-z-store/source/hashes.json`, `slots.json`), fix lookbook "D14" marking, update
    `banks/design/image-log.json` (width/height/full_hd), re-run the clipping audit.
 2. **Design approval** of Afterhours by the team → `vsn.py approve 6 "<name>"` → `vsn.py advance` (Stage 7).
-3. **Shopify development store** — team provides store URL + CLI login so the prototype can be tested in the
-   real theme editor (drag and drop, `visible_if`, nested blocks, real products).
+3. **Shopify development store via GitHub integration (team decision, rule 16)** — merge PR #1 into `main`,
+   run the "Theme → shopify-theme branch" workflow once, install the Shopify GitHub app for the org, then in
+   the dev store connect repo `vsn-super-mart` branch `shopify-theme` (steps in ADR 0002). Then test the
+   prototype in the real theme editor (drag and drop, `visible_if`, nested blocks, real products).
 4. **Element specs** — write full settings for each element (start with those used by Afterhours), then build
    them with `scripts/gen_vsn_blocks.py` (Stage 0b / Stage 7, core cycle).
 5. Confirm VSN app feature lists (Product Types, Stock Down Sort, Metafields) and decide on the planned
