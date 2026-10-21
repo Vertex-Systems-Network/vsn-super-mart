@@ -1,6 +1,6 @@
 {
  "niche": "gen-z-store",
- "chosen": null,
+ "chosen": "vsn-genz-afterhours",
  "directions": [
   {
    "id": "vsn-genz-afterhours",
@@ -80,5 +80,6 @@
     "#D9DCE3"
    ]
   }
- ]
+ ],
+ "choice_note": "2026-10-21: human said 'no preference' and delegated; lead agent chose Afterhours (best fit for premium/hype price + EU/US Gen-Z dark-premium/video trend). Human can switch before Stage 6."
 }

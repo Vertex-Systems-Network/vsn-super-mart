@@ -1,12 +1,17 @@
 {
  "project": "vsn-super-mart",
- "stage": 4,
- "stage_name": "Design search & direction",
+ "stage": 5,
+ "stage_name": "Design spec",
  "cycle": 1,
  "current_niche": "gen-z-store",
  "completed_niches": [],
- "next_action": "Stage 4: human picks Afterhours / Sticker Club / Archive; set 'chosen' in directions.json, vsn.py approve 4, advance. Also ask price level + liked/disliked brands.",
- "approvals": {},
+ "next_action": "Stage 5: Write banks/design/specs/<niche>/spec.json (template: ai/templates/design-spec.json) until `vsn.py coverage` and `check-design` pass.",
+ "approvals": {
+  "4": {
+   "by": "human: no preference (delegated) -> Afterhours by lead agent",
+   "on": "2026-10-21"
+  }
+ },
  "figma": {
   "file_key": "BxJuIRth8k4cCUbFnPV6ek",
   "page": "VSN | Super Mart",
