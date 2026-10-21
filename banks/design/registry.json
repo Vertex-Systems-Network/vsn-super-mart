@@ -1,4 +1,56 @@
 {
  "note": "Every VSN design (accepted directions and built presets) is registered here with its fingerprint and Figma node ids. New designs are checked against all entries.",
- "designs": []
+ "designs": [
+  {
+   "id": "vsn-genz-afterhours",
+   "niche": "gen-z-store",
+   "name": "Afterhours",
+   "fp": {
+    "header_layout": "logo-center-drawer",
+    "nav_style": "drawer",
+    "hero": "video-full",
+    "product_card": "overlay-text",
+    "pdp_layout": "sticky-split",
+    "collection_layout": "horizontal-filters",
+    "grid_density": "dense",
+    "type_pairing": "condensed+sans",
+    "radius": "sharp",
+    "motion": "expressive",
+    "imagery": "edge-to-edge",
+    "section_rhythm": "rails-carousels"
+   },
+   "palette": [
+    "#C6FF3D",
+    "#0B0B0F",
+    "#16161D",
+    "#F4F4F0"
+   ],
+   "figma": {
+    "file_key": "BxJuIRth8k4cCUbFnPV6ek",
+    "page_node": "25:2",
+    "frames": {
+     "home-desktop": "42:2",
+     "collection-desktop": "43:2",
+     "product-desktop": "44:2",
+     "cart-drawer-desktop": "45:2",
+     "password-drop-desktop": "46:2",
+     "home-mobile": "47:2",
+     "product-mobile": "48:2"
+    },
+    "not_yet_built": [
+     "search + predictive search",
+     "list collections",
+     "page + contact",
+     "blog + article",
+     "account (login, register, orders)",
+     "404",
+     "gift card",
+     "cart page",
+     "collection + cart mobile"
+    ]
+   },
+   "spec": "banks/design/specs/gen-z-store/spec.json",
+   "registered_at": "2026-10-21"
+  }
+ ]
 }

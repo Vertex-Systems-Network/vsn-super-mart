@@ -2,6 +2,27 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-21 — Gen-Z / Afterhours designed in Figma (Stage 6, gate pending)
+
+**Done**
+- Stage 5 spec `banks/design/specs/gen-z-store/spec.json`: 114/114 options, 39/39 requirements, 18/18 apps.
+- Figma page "VSN | Super Mart" (25:2): 7 screens — Home, Collection, Product, Cart drawer, Password drop
+  (desktop 1440) + Home, Product (mobile 390). Frame ids in spec → figma.frames. Built from
+  `banks/design/specs/gen-z-store/source/build.py` via html_to_figma (editable layers).
+- 22 Figma AI images (one regenerated) placed into 44 slots; logged in `banks/design/image-log.json`.
+- New team rules added: 9 (Full HD images), 10 (never remove a Shopify option; Shopify → free Shopify app →
+  VSN app → third party; `banks/options/apps.json`), 11 (no minimalist demos, auto-checked).
+
+**Blockers**
+- Images are NOT Full HD (928–1376 px). Figma AI credits ran out; reset 2026-11-04T11:17Z.
+  Options: wait and regenerate with a Full HD model, add Figma AI credits, or upscale (needs team approval).
+- Stage 6 gate also needs human design approval (`vsn.py approve 6`).
+
+**Next**
+- Build remaining screens: search, list collections, page/contact, blog/article, account, 404, gift card,
+  cart page, mobile collection/cart. Then Full HD images, approval, Stage 7.
+- Confirm the feature lists of the VSN apps (Product Types, Stock Down Sort, Metafields).
+
 ## 2026-10-21 — Rule added: images via Figma AI
 
 - All images (designs + demo stores) must be generated with Figma AI (`generate_image`) in the Figma file.

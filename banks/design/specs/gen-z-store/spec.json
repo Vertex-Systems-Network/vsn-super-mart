@@ -1,0 +1,712 @@
+{
+ "id": "vsn-genz-afterhours",
+ "niche": "gen-z-store",
+ "name": "Afterhours",
+ "direction_summary": "Near-black club UI with one acid-lime accent. Full-screen silent product video opens the store, product names sit over the image on overlay cards, and the product page splits into a sticky buy panel beside cinematic media. Feels like a rave ticket, not generic luxury.",
+ "fp": {
+  "header_layout": "logo-center-drawer",
+  "nav_style": "drawer",
+  "hero": "video-full",
+  "product_card": "overlay-text",
+  "pdp_layout": "sticky-split",
+  "collection_layout": "horizontal-filters",
+  "grid_density": "dense",
+  "type_pairing": "condensed+sans",
+  "radius": "sharp",
+  "motion": "expressive",
+  "imagery": "edge-to-edge",
+  "section_rhythm": "rails-carousels"
+ },
+ "palette": [
+  "#C6FF3D",
+  "#0B0B0F",
+  "#16161D",
+  "#F4F4F0"
+ ],
+ "tokens": {
+  "color_schemes": [
+   {
+    "id": "night",
+    "background": "#0B0B0F",
+    "foreground": "#F4F4F0",
+    "accent": "#C6FF3D",
+    "button": "#C6FF3D",
+    "button_label": "#0B0B0F",
+    "border": "#2A2A33",
+    "muted": "#9A9AA3"
+   },
+   {
+    "id": "surface",
+    "background": "#16161D",
+    "foreground": "#F4F4F0",
+    "accent": "#C6FF3D",
+    "button": "#F4F4F0",
+    "button_label": "#0B0B0F",
+    "border": "#2A2A33",
+    "muted": "#9A9AA3"
+   },
+   {
+    "id": "acid",
+    "background": "#C6FF3D",
+    "foreground": "#0B0B0F",
+    "accent": "#0B0B0F",
+    "button": "#0B0B0F",
+    "button_label": "#C6FF3D",
+    "border": "#0B0B0F",
+    "muted": "#3A4A10"
+   },
+   {
+    "id": "paper",
+    "background": "#F4F4F0",
+    "foreground": "#0B0B0F",
+    "accent": "#0B0B0F",
+    "button": "#0B0B0F",
+    "button_label": "#F4F4F0",
+    "border": "#D6D6CF",
+    "muted": "#5C5C66"
+   }
+  ],
+  "status_colors": {
+   "sale": "#FF3D6E",
+   "success": "#C6FF3D",
+   "error": "#FF5A4E"
+  },
+  "typography": {
+   "heading_font": "Oswald (uppercase, tight tracking)",
+   "body_font": "Inter",
+   "note": "Confirm both in Shopify font library at build time",
+   "scale": {
+    "display": 120,
+    "h1": 72,
+    "h2": 48,
+    "h3": 32,
+    "h4": 22,
+    "body": 16,
+    "small": 13,
+    "label": 12
+   },
+   "mobile_scale": {
+    "display": 56,
+    "h1": 40,
+    "h2": 32,
+    "h3": 24
+   }
+  },
+  "spacing": {
+   "unit": 4,
+   "section_padding": {
+    "mobile": 48,
+    "desktop": 96
+   },
+   "page_width": 1440,
+   "gutter": {
+    "mobile": 16,
+    "desktop": 32
+   }
+  },
+  "radius": {
+   "button": 0,
+   "card": 0,
+   "input": 0,
+   "badge": 0
+  },
+  "shadows": "none; depth via borders and surface color",
+  "motion": {
+   "duration_ms": 220,
+   "easing": "cubic-bezier(.2,.8,.2,1)",
+   "patterns": [
+    "marquee ticker",
+    "image scale on hover",
+    "reveal on scroll"
+   ],
+   "reduced_motion": "disable marquee + reveals"
+  }
+ },
+ "templates": {
+  "index": [
+   "announcement-marquee",
+   "header",
+   "afterhours-video-hero",
+   "drop-release",
+   "drop-rail",
+   "category-tiles",
+   "lookbook-split",
+   "ugc-video-strip",
+   "manifesto-marquee",
+   "newsletter",
+   "footer"
+  ],
+  "collection": [
+   "collection-banner",
+   "main-collection (horizontal filters, dense overlay grid)"
+  ],
+  "product": [
+   "main-product (sticky split)",
+   "fit-info",
+   "complementary-products",
+   "related-products",
+   "recently-viewed"
+  ],
+  "cart": [
+   "main-cart",
+   "cart-upsell"
+  ],
+  "search": [
+   "main-search"
+  ],
+  "list-collections": [
+   "main-list-collections"
+  ],
+  "page": [
+   "main-page"
+  ],
+  "page.contact": [
+   "main-page",
+   "contact-form"
+  ],
+  "blog": [
+   "main-blog"
+  ],
+  "article": [
+   "main-article"
+  ],
+  "404": [
+   "main-404"
+  ],
+  "password": [
+   "drop-gate"
+  ],
+  "gift_card": [
+   "gift-card"
+  ]
+ },
+ "sections": [
+  {
+   "id": "announcement-marquee",
+   "name": "Announcement ticker",
+   "blocks": [
+    "message"
+   ],
+   "settings": [
+    "speed",
+    "scheme",
+    "pause on hover"
+   ],
+   "variants": [
+    "marquee",
+    "static rotate"
+   ],
+   "states": [
+    "reduced motion = static"
+   ],
+   "responsive": "same",
+   "a11y": "pause control, aria-live off"
+  },
+  {
+   "id": "header",
+   "name": "Header",
+   "blocks": [],
+   "settings": [
+    "logo",
+    "menu",
+    "sticky",
+    "transparent over hero"
+   ],
+   "variants": [
+    "logo center + drawer"
+   ],
+   "states": [
+    "transparent",
+    "solid on scroll"
+   ],
+   "responsive": "icons: menu, search, account, cart",
+   "a11y": "focus trap in drawer"
+  },
+  {
+   "id": "afterhours-video-hero",
+   "name": "Video hero",
+   "blocks": [
+    "eyebrow",
+    "heading",
+    "text",
+    "buttons"
+   ],
+   "settings": [
+    "video",
+    "poster image",
+    "overlay opacity",
+    "height"
+   ],
+   "variants": [
+    "video",
+    "image",
+    "split"
+   ],
+   "states": [
+    "video loading = poster"
+   ],
+   "responsive": "mobile 9:16 video",
+   "a11y": "pause button, captions optional"
+  },
+  {
+   "id": "drop-release",
+   "name": "Drop release",
+   "blocks": [
+    "drop label",
+    "heading",
+    "release date",
+    "collection link",
+    "early access form"
+   ],
+   "settings": [
+    "date (text)",
+    "scheme"
+   ],
+   "variants": [
+    "upcoming",
+    "live",
+    "sold out"
+   ],
+   "states": [
+    "form success",
+    "form error"
+   ],
+   "responsive": "stack",
+   "a11y": "labelled form"
+  },
+  {
+   "id": "drop-rail",
+   "name": "Drop rail",
+   "blocks": [],
+   "settings": [
+    "collection",
+    "card style",
+    "show sizes"
+   ],
+   "variants": [
+    "rail",
+    "grid"
+   ],
+   "states": [
+    "empty collection"
+   ],
+   "responsive": "swipe",
+   "a11y": "arrow buttons labelled"
+  },
+  {
+   "id": "category-tiles",
+   "name": "Category tiles",
+   "blocks": [
+    "tile"
+   ],
+   "settings": [
+    "columns"
+   ],
+   "variants": [
+    "2",
+    "3",
+    "4"
+   ],
+   "states": [],
+   "responsive": "2 cols",
+   "a11y": ""
+  },
+  {
+   "id": "lookbook-split",
+   "name": "Lookbook / shop the look",
+   "blocks": [
+    "hotspot product"
+   ],
+   "settings": [
+    "image"
+   ],
+   "variants": [],
+   "states": [],
+   "responsive": "list under image",
+   "a11y": "hotspots are buttons"
+  },
+  {
+   "id": "ugc-video-strip",
+   "name": "UGC video strip",
+   "blocks": [
+    "video"
+   ],
+   "settings": [],
+   "variants": [],
+   "states": [],
+   "responsive": "swipe",
+   "a11y": "muted, controls"
+  },
+  {
+   "id": "main-product",
+   "name": "Main product (sticky split)",
+   "blocks": [
+    "vendor",
+    "title",
+    "price",
+    "installments",
+    "variant picker",
+    "size guide",
+    "quantity",
+    "buy buttons",
+    "pickup",
+    "fit info",
+    "collapsible tabs",
+    "share",
+    "@app",
+    "custom liquid"
+   ],
+   "settings": [
+    "media layout",
+    "video autoplay"
+   ],
+   "variants": [
+    "sticky split"
+   ],
+   "states": [
+    "sold out",
+    "size sold out",
+    "sale",
+    "coming soon"
+   ],
+   "responsive": "mobile: media carousel + bottom buy bar",
+   "a11y": "fieldset radios for sizes"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer",
+   "blocks": [],
+   "settings": [
+    "free shipping threshold",
+    "upsell collection"
+   ],
+   "variants": [],
+   "states": [
+    "empty",
+    "loading",
+    "error"
+   ],
+   "responsive": "full width mobile",
+   "a11y": "dialog"
+  },
+  {
+   "id": "drop-gate",
+   "name": "Password drop gate",
+   "blocks": [
+    "logo",
+    "heading",
+    "date",
+    "signup",
+    "password"
+   ],
+   "settings": [
+    "video"
+   ],
+   "variants": [],
+   "states": [
+    "signup success"
+   ],
+   "responsive": "",
+   "a11y": ""
+  }
+ ],
+ "image_brief": {
+  "style_line": "Night-time streetwear editorial: deep black background, hard flash photography, acid lime (#C6FF3D) rim light accents, gritty film grain, high contrast, Europe/US Gen-Z street style. No text, no logos, no watermark, no recognizable real people.",
+  "slots": [
+   {
+    "slot": "home-hero",
+    "ratio": "16:9",
+    "subject": "model in oversized black hoodie under harsh flash on an empty city street at night"
+   },
+   {
+    "slot": "lookbook",
+    "ratio": "4:5",
+    "subject": "two friends in streetwear layering, cargo pants and puffer, parking garage at night"
+   },
+   {
+    "slot": "product-hoodie",
+    "ratio": "4:5",
+    "subject": "oversized washed-black hoodie, flat lay on dark concrete"
+   },
+   {
+    "slot": "product-cargo",
+    "ratio": "4:5",
+    "subject": "black utility cargo pants with straps on dark background"
+   },
+   {
+    "slot": "product-tee",
+    "ratio": "4:5",
+    "subject": "heavyweight off-white boxy t-shirt on dark background"
+   },
+   {
+    "slot": "product-sneaker",
+    "ratio": "4:5",
+    "subject": "chunky black and lime sneaker on concrete"
+   },
+   {
+    "slot": "product-cap",
+    "ratio": "4:5",
+    "subject": "black six-panel cap on dark surface"
+   },
+   {
+    "slot": "product-jacket",
+    "ratio": "4:5",
+    "subject": "black nylon track jacket with lime piping"
+   },
+   {
+    "slot": "category-tops",
+    "ratio": "1:1",
+    "subject": "close up of stacked black hoodies and tees"
+   },
+   {
+    "slot": "category-bottoms",
+    "ratio": "1:1",
+    "subject": "close up of cargo pants fabric and straps"
+   },
+   {
+    "slot": "category-accessories",
+    "ratio": "1:1",
+    "subject": "caps, chains and a crossbody bag on dark concrete"
+   },
+   {
+    "slot": "drop-gate",
+    "ratio": "16:9",
+    "subject": "dark warehouse with single lime light beam, smoke"
+   }
+  ]
+ },
+ "option_map": {
+  "announcement-bar": "header group > announcement marquee ticker",
+  "section-groups-header-footer": "section group header > header",
+  "header-layouts": "section group header > header",
+  "mega-menu": "header > full-screen drawer menu with image promos (drawer nav)",
+  "multi-level-menu": "section group header > header",
+  "mobile-drawer-menu": "section group header > header",
+  "predictive-search": "search > main-search + predictive search",
+  "account-component": "section group header > header",
+  "cart-icon-count": "section group header > header",
+  "localization-selectors": "layout/theme.liquid + global snippets",
+  "footer-builder": "section group footer > footer",
+  "payment-icons": "section group footer > footer",
+  "social-icons": "section group footer > footer",
+  "follow-on-shop": "section group footer > footer",
+  "newsletter-signup": "layout/theme.liquid + global snippets",
+  "custom-liquid-section": "layout/theme.liquid + global snippets",
+  "custom-liquid-block": "layout/theme.liquid + global snippets",
+  "app-blocks": "product > main-product",
+  "app-embeds": "layout/theme.liquid + global snippets",
+  "hero-slideshow": "index > afterhours-video-hero (video, image, split variants)",
+  "image-banner": "index template",
+  "video-section": "index template",
+  "featured-collection": "index > drop-rail (horizontal rail)",
+  "collection-list": "index > category-tiles",
+  "featured-product": "index template",
+  "image-with-text": "index template",
+  "multicolumn": "index template",
+  "rich-text": "index template",
+  "faq-accordion": "page templates",
+  "contact-form": "page templates",
+  "faceted-filters": "collection > main-collection",
+  "filter-layouts": "collection > main-collection",
+  "sorting": "collection > main-collection",
+  "pagination-modes": "collection > main-collection",
+  "collection-banner": "collection > main-collection",
+  "product-card-variants": "snippets/product-card: overlay (default), minimal, detailed",
+  "card-hover-image": "collection > main-collection",
+  "card-swatches": "collection > main-collection",
+  "card-badges": "collection > main-collection",
+  "quick-view": "collection > main-collection",
+  "quick-add": "collection > main-collection",
+  "unit-price": "collection > main-collection",
+  "price-ranges": "collection > main-collection",
+  "empty-states": "layout/theme.liquid + global snippets",
+  "list-collections-page": "collection > main-collection",
+  "product-blocks": "product > main-product",
+  "media-gallery-layouts": "product > main-product",
+  "media-zoom": "product > main-product",
+  "rich-media": "product > main-product",
+  "variant-images": "product > main-product",
+  "variant-picker-styles": "product > main-product",
+  "price-block": "product > main-product",
+  "quantity-selector": "product > main-product",
+  "dynamic-checkout": "product > main-product",
+  "shop-pay-installments": "product > main-product",
+  "pickup-availability": "product > main-product",
+  "selling-plans": "product > main-product",
+  "gift-card-recipient": "product > main-product",
+  "collapsible-tabs": "product > main-product",
+  "size-chart": "product > main-product > size-guide drawer (cm/inch toggle)",
+  "complementary-products": "product > main-product",
+  "related-products": "product > main-product",
+  "sticky-atc": "product > sticky buy panel (desktop sticky split, mobile bottom bar)",
+  "product-reviews-slot": "product > main-product",
+  "cart-drawer": "global > cart-drawer (upsell rail, free shipping bar)",
+  "cart-page": "cart drawer + cart > main-cart",
+  "cart-type-setting": "cart drawer + cart > main-cart",
+  "cart-notes": "cart drawer + cart > main-cart",
+  "cart-discounts": "cart drawer + cart > main-cart",
+  "cart-selling-plans": "cart drawer + cart > main-cart",
+  "cart-accelerated": "cart drawer + cart > main-cart",
+  "tpl-404": "page templates",
+  "tpl-password": "page templates",
+  "tpl-gift-card": "page templates",
+  "tpl-search": "search > main-search + predictive search",
+  "tpl-blog": "page templates",
+  "tpl-article": "page templates",
+  "tpl-page": "page templates",
+  "tpl-customer-accounts": "page templates",
+  "color-schemes": "config/settings_schema.json",
+  "typography-settings": "config/settings_schema.json",
+  "layout-settings": "config/settings_schema.json",
+  "button-styles": "config/settings_schema.json",
+  "card-settings": "config/settings_schema.json",
+  "logo-favicon": "config/settings_schema.json",
+  "theme-styles-presets": "config/settings_data.json presets + listings/afterhours",
+  "metafield-dynamic-sources": "config/settings_schema.json",
+  "image-focal-points": "config/settings_schema.json",
+  "nested-theme-blocks": "config/settings_schema.json",
+  "section-presets": "config/settings_schema.json",
+  "translations": "config/settings_schema.json",
+  "skeleton-base": "codebase",
+  "native-css": "codebase",
+  "web-components": "codebase",
+  "section-rendering": "codebase",
+  "cart-ajax": "codebase",
+  "routes-object": "codebase",
+  "theme-check": "codebase",
+  "docs": "codebase",
+  "perf-lighthouse": "codebase + all templates",
+  "responsive-images": "codebase + all templates",
+  "a11y-lighthouse": "all components",
+  "keyboard-focus": "all components",
+  "contrast": "all components",
+  "touch-targets": "all components",
+  "skip-link": "all components",
+  "seo-meta": "snippets/meta-tags + structured data",
+  "structured-data": "snippets/meta-tags + structured data",
+  "webview-support": "codebase + all templates",
+  "drop-release-section": "index > drop-release (release date text, collection link, early access form)",
+  "early-access-signup": "index > drop-release block + password > drop-gate (customer tag 'early-access')",
+  "password-drop-page": "password > drop-gate (video bg, date, signup)",
+  "drop-state-badges": "snippets/product-card > badges (coming soon, sold out, last sizes from inventory)",
+  "fit-info-block": "product > main-product > fit-info block (metaobject fit)",
+  "sticky-header": "section group header > header",
+  "breadcrumbs": "layout/theme.liquid + global snippets",
+  "cookie-consent": "layout/theme.liquid + global snippets",
+  "newsletter-popup": "layout/theme.liquid + global snippets",
+  "collage-bento": "index template",
+  "logo-list": "index template",
+  "testimonials": "index template",
+  "promo-grid": "index template",
+  "shop-the-look": "index template",
+  "comparison-table": "index template",
+  "blog-posts": "index template",
+  "grid-density": "collection > main-collection",
+  "promo-tile-in-grid": "collection > main-collection",
+  "combined-listings": "product > main-product",
+  "inventory-status": "product > main-product",
+  "recently-viewed": "product > main-product",
+  "share-buttons": "product > main-product",
+  "product-badges-trust": "product > main-product",
+  "delivery-estimate": "product > main-product",
+  "back-in-stock-slot": "product > main-product",
+  "bundle-display": "product > main-product",
+  "free-shipping-bar": "cart drawer + cart > main-cart",
+  "cart-upsell": "cart drawer + cart > main-cart",
+  "alt-templates": "page templates",
+  "animation-settings": "config/settings_schema.json",
+  "badge-settings": "config/settings_schema.json",
+  "rtl-support": "config/settings_schema.json",
+  "code-comments": "codebase",
+  "github-integration": "codebase",
+  "hide-sold-out-toggle": "collection > main-collection",
+  "sizes-on-card": "collection > main-collection",
+  "ugc-video-strip": "index template"
+ },
+ "requirement_map": {
+  "req-codebase-origin": "Stage 7 starts from Shopify Skeleton theme",
+  "req-uniqueness": "fingerprint vsn-genz-afterhours passes check-design (max 0.46)",
+  "req-preset-names": "presets: covered by spec section/option mapping; verify in QA",
+  "req-listings-folder": "presets: covered by spec section/option mapping; verify in QA",
+  "req-preset-demo": "presets: covered by spec section/option mapping; verify in QA",
+  "req-templates": "templates: covered by spec section/option mapping; verify in QA",
+  "req-sections-everywhere": "templates: covered by spec section/option mapping; verify in QA",
+  "req-custom-liquid": "sections: covered by spec section/option mapping; verify in QA",
+  "req-section-groups": "sections: covered by spec section/option mapping; verify in QA",
+  "req-product-blocks": "product: covered by spec section/option mapping; verify in QA",
+  "req-discounts": "cart: covered by spec section/option mapping; verify in QA",
+  "req-accelerated-checkout": "checkout: covered by spec section/option mapping; verify in QA",
+  "req-filters": "collection: covered by spec section/option mapping; verify in QA",
+  "req-gift-cards": "product: covered by spec section/option mapping; verify in QA",
+  "req-focal-points": "media: covered by spec section/option mapping; verify in QA",
+  "req-localization": "global: covered by spec section/option mapping; verify in QA",
+  "req-multilevel-menu": "navigation: covered by spec section/option mapping; verify in QA",
+  "req-newsletter": "global: covered by spec section/option mapping; verify in QA",
+  "req-pickup": "product: covered by spec section/option mapping; verify in QA",
+  "req-recommendations": "product: covered by spec section/option mapping; verify in QA",
+  "req-rich-media": "product: covered by spec section/option mapping; verify in QA",
+  "req-search": "search: covered by spec section/option mapping; verify in QA",
+  "req-selling-plans": "cart: covered by spec section/option mapping; verify in QA",
+  "req-installments": "product: covered by spec section/option mapping; verify in QA",
+  "req-unit-pricing": "pricing: covered by spec section/option mapping; verify in QA",
+  "req-variant-images": "product: covered by spec section/option mapping; verify in QA",
+  "req-follow-on-shop": "global: covered by spec section/option mapping; verify in QA",
+  "req-account-component": "header: covered by spec section/option mapping; verify in QA",
+  "req-no-app-features": "no wishlist/IG feed; UGC strip uses merchant-uploaded video",
+  "req-no-fake-urgency": "release date as static text; no ticking countdown, no fake stock",
+  "req-perf": "quality: covered by spec section/option mapping; verify in QA",
+  "req-a11y": "lime #C6FF3D on #0B0B0F = high contrast; body #F4F4F0 on #0B0B0F; focus ring lime 2px",
+  "req-browsers": "quality: covered by spec section/option mapping; verify in QA",
+  "req-assets": "codebase: covered by spec section/option mapping; verify in QA",
+  "req-seo": "seo: covered by spec section/option mapping; verify in QA",
+  "req-settings": "settings: covered by spec section/option mapping; verify in QA",
+  "req-copy-style": "settings: covered by spec section/option mapping; verify in QA",
+  "req-demo-content": "demo: covered by spec section/option mapping; verify in QA",
+  "req-docs-support": "support: covered by spec section/option mapping; verify in QA"
+ },
+ "figma": {
+  "file_key": "BxJuIRth8k4cCUbFnPV6ek",
+  "page_node": "25:2",
+  "frames": {
+   "home-desktop": "42:2",
+   "collection-desktop": "43:2",
+   "product-desktop": "44:2",
+   "cart-drawer-desktop": "45:2",
+   "password-drop-desktop": "46:2",
+   "home-mobile": "47:2",
+   "product-mobile": "48:2"
+  },
+  "not_yet_built": [
+   "search + predictive search",
+   "list collections",
+   "page + contact",
+   "blog + article",
+   "account (login, register, orders)",
+   "404",
+   "gift card",
+   "cart page",
+   "collection + cart mobile"
+  ]
+ },
+ "app_map": {
+  "search-discovery": "collection/search filters, predictive search, related + complementary product sections",
+  "shopify-forms": "app block slot in drop-release, newsletter, password drop-gate (theme form is the default)",
+  "translate-adapt": "all strings in locales; language selector in header + footer",
+  "shopify-bundles": "bundle price + cart line components in cart drawer and cart page",
+  "shopify-subscriptions": "selling plan picker block in main-product, selling plan line in cart",
+  "shopify-inbox": "app embed; chat bubble offset above mobile sticky buy bar",
+  "shopify-messaging": "newsletter + early access forms set accepts_marketing",
+  "shopify-flow": "theme reads 'early-access' customer tag and drop product tags/metafields",
+  "shopify-collabs": "UGC strip can feature creators",
+  "shop-channel": "Follow on Shop in footer, Shop Pay buttons on product + cart",
+  "combined-listings": "color swatches on card + product page use combined listings",
+  "checkout-blocks": "docs: checkout branding guide (black + lime)",
+  "launchpad": "drop-release + password sections work with scheduled drops",
+  "digital-products": "hide shipping text for digital items",
+  "shopify-pos": "pickup availability block on product page",
+  "knowledge-base": "FAQ section with structured data",
+  "vsn-product-types": "app block slots in main-product + featured product; swatch tokens; cart drawer hook",
+  "vsn-stock-down-sort": "collection grid keeps app sort order; works with hide-sold-out toggle",
+  "vsn-metafields": "dynamic sources for fit-info, size guide, badges"
+ }
+}

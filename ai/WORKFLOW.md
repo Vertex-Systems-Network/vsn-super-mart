@@ -46,6 +46,8 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
   `store_allowed`). Resolve the option list for this niche: all `core` options + options tagged for the niche.
 - **Writes:** `banks/options/options.json` (new entries), `ai/niches/<niche>/options.resolved.json`
   via `vsn.py resolve-options <niche>`.
+- **App-first check:** for every option decide native → Shopify free app → VSN app → third party
+  (`banks/options/apps.json`). Never drop a Shopify option.
 - **Exit gate:** resolved file exists; every niche must-have section maps to an option id.
 
 ## Stage 4 — Design search & direction (Design Bank) 🧑
@@ -65,7 +67,8 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
   responsive rules, accessibility notes. Map every option id to where it appears.
 - **Writes:** `banks/design/specs/<niche>/spec.json`.
 - **Exit gate:** `vsn.py coverage banks/design/specs/<niche>/spec.json` passes (100% of `must` options and
-  Theme Store requirements) **and** `vsn.py check-design` still passes.
+  Theme Store requirements), every app in `banks/options/apps.json` that has a `theme_integration` is in the
+  spec's `app_map`, **and** `vsn.py check-design` still passes.
 
 ## Stage 6 — Figma build 🧑
 - **Reads:** spec.
@@ -73,7 +76,7 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
   with variants, then desktop + mobile frames for home, collection, product, cart drawer + page, search,
   account, blog/article, 404, password, gift card. Use real-looking content, never lorem ipsum.
 - **Images:** all imagery is generated with **Figma AI** (`generate_image`) inside the Figma file, from an
-  image brief built from the niche research + chosen direction. Placeholders first, then fill them by
+  image brief built from the niche research + chosen direction, Full HD minimum (≥1920 px long edge). Placeholders first, then fill them by
   `nodeId`. Each image is logged in `banks/design/image-log.json`. No stock or copied images.
 - **Writes:** register design: `vsn.py register-design <spec>` (stores fingerprint + Figma node ids in
   `banks/design/registry.json`).

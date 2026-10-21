@@ -129,7 +129,7 @@ def validate(verbose=True):
         errs += [f"fingerprint {e.get('id')}: {x}" for x in fp_errors(e.get("fp", {}), schema)]
     log_ = load(P("banks", "design", "image-log.json"), {"images": []})
     for im in log_["images"]:
-        for k in ("id", "niche", "slot", "prompt", "model", "figma_node", "used_in"):
+        for k in ("id", "niche", "slot", "prompt", "model", "figma_node", "used_in", "width", "height"):
             if not im.get(k):
                 errs.append(f"image {im.get('id')}: missing {k}")
     if verbose:
@@ -183,8 +183,13 @@ def coverage(spec_path, verbose=True):
     covered_req = set(spec.get("requirement_map", {}).keys())
     miss_o = [o for o in required_options(niche) if o not in covered]
     miss_r = [r["id"] for r in requirements() if r["id"] not in covered_req]
-    ok = not miss_o and not miss_r
+    apps = load(P("banks", "options", "apps.json"), {"shopify_apps": [], "vsn_apps": []})
+    need_apps = [a["id"] for a in apps["shopify_apps"] + apps["vsn_apps"]
+                 if a.get("theme_integration") and not a["theme_integration"].startswith("none")]
+    miss_a = [a for a in need_apps if a not in spec.get("app_map", {})]
+    ok = not miss_o and not miss_r and not miss_a
     if verbose:
+        print(f"apps: {len(need_apps) - len(miss_a)}/{len(need_apps)} in app_map" + (" missing: " + ", ".join(miss_a) if miss_a else ""))
         tot_o = len(required_options(niche))
         print(f"coverage: options {tot_o - len(miss_o)}/{tot_o}, requirements "
               f"{len(requirements()) - len(miss_r)}/{len(requirements())} -> {'PASS' if ok else 'FAIL'}")
@@ -245,6 +250,15 @@ def check_design(path, verbose=True):
             print(f"[{cid}] INVALID: " + "; ".join(errs))
             all_ok = False
             continue
+        mm = schema.get("minimalism_markers")
+        if mm:
+            hits = [d for d, vals in mm["markers"].items() if isinstance(vals, list) and c["fp"].get(d) in vals]
+            if c.get("palette") and hue(c["palette"][0])[1] < 0.15:
+                hits.append("neutral_accent")
+            if len(hits) > mm["max_allowed"]:
+                print(f"[{cid}] FAIL: minimalist design ({', '.join(hits)}) - team rule: no minimalist demos")
+                all_ok = False
+                continue
         pool = [o for o in others if o.get("id") != cid] + \
                [dict(o, id=o.get("id", f"candidate-{j + 1}")) for j, o in enumerate(cands) if j != i]
         worst = (0, None, [])
@@ -319,6 +333,10 @@ def gate(s):
         reg = load(P("banks", "design", "registry.json"))
         if not any(d["niche"] == n for d in reg["designs"]):
             return False, "design not registered"
+        imgs = [i for i in load(P("banks", "design", "image-log.json"))["images"] if i.get("niche") == n]
+        low = [i["id"] for i in imgs if max(i.get("width", 0), i.get("height", 0)) < 1920]
+        if low:
+            return False, f"{len(low)} images below Full HD (1920px long edge): regenerate or upscale"
         return ("6" in s.get("approvals", {})), "needs approval 6" if "6" not in s.get("approvals", {}) else "approved"
     if st == 7:
         w = os.path.join(nd, "work-units.md")

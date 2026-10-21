@@ -1,20 +1,128 @@
 {
  "about": "A design fingerprint describes the recognizable shape of a design. check-design compares fingerprints; too many equal dimensions = too similar. Add new values when a genuinely new pattern is invented (and document it).",
- "thresholds": {"fail": 0.7, "warn": 0.55},
+ "thresholds": {
+  "fail": 0.7,
+  "warn": 0.55
+ },
  "palette_hue_tolerance_deg": 20,
  "dimensions": {
-  "header_layout": ["logo-left-inline", "logo-center-split", "logo-center-drawer", "logo-left-mega", "stacked-two-row", "search-bar-dominant", "sidebar-vertical"],
-  "nav_style": ["mega-image", "mega-columns", "drawer", "pills", "sidebar-categories", "tabbed-departments"],
-  "hero": ["full-bleed-slideshow", "split-image-text", "bento-grid", "editorial-asymmetric", "video-full", "product-spotlight", "category-tiles", "search-first", "deal-rail"],
-  "product_card": ["minimal", "bordered", "overlay-text", "detailed-with-atc", "compact-dense", "rounded-tile", "horizontal-list"],
-  "pdp_layout": ["gallery-left-thumbs", "stacked-media", "grid-media", "carousel-full", "sticky-split", "editorial", "configurator"],
-  "collection_layout": ["sidebar-filters", "drawer-filters", "horizontal-filters", "category-sidebar-tree"],
-  "grid_density": ["airy", "regular", "dense"],
-  "type_pairing": ["serif+sans", "sans+sans", "display+sans", "mono+sans", "serif+serif", "rounded+sans", "condensed+sans"],
-  "radius": ["sharp", "soft", "rounded", "pill"],
-  "motion": ["none", "subtle", "expressive"],
-  "imagery": ["edge-to-edge", "framed", "cutout-on-color", "lifestyle", "illustration"],
-  "section_rhythm": ["full-width-bands", "contained-cards", "alternating-split", "modular-bento", "rails-carousels"]
+  "header_layout": [
+   "logo-left-inline",
+   "logo-center-split",
+   "logo-center-drawer",
+   "logo-left-mega",
+   "stacked-two-row",
+   "search-bar-dominant",
+   "sidebar-vertical"
+  ],
+  "nav_style": [
+   "mega-image",
+   "mega-columns",
+   "drawer",
+   "pills",
+   "sidebar-categories",
+   "tabbed-departments"
+  ],
+  "hero": [
+   "full-bleed-slideshow",
+   "split-image-text",
+   "bento-grid",
+   "editorial-asymmetric",
+   "video-full",
+   "product-spotlight",
+   "category-tiles",
+   "search-first",
+   "deal-rail"
+  ],
+  "product_card": [
+   "minimal",
+   "bordered",
+   "overlay-text",
+   "detailed-with-atc",
+   "compact-dense",
+   "rounded-tile",
+   "horizontal-list"
+  ],
+  "pdp_layout": [
+   "gallery-left-thumbs",
+   "stacked-media",
+   "grid-media",
+   "carousel-full",
+   "sticky-split",
+   "editorial",
+   "configurator"
+  ],
+  "collection_layout": [
+   "sidebar-filters",
+   "drawer-filters",
+   "horizontal-filters",
+   "category-sidebar-tree"
+  ],
+  "grid_density": [
+   "airy",
+   "regular",
+   "dense"
+  ],
+  "type_pairing": [
+   "serif+sans",
+   "sans+sans",
+   "display+sans",
+   "mono+sans",
+   "serif+serif",
+   "rounded+sans",
+   "condensed+sans"
+  ],
+  "radius": [
+   "sharp",
+   "soft",
+   "rounded",
+   "pill"
+  ],
+  "motion": [
+   "none",
+   "subtle",
+   "expressive"
+  ],
+  "imagery": [
+   "edge-to-edge",
+   "framed",
+   "cutout-on-color",
+   "lifestyle",
+   "illustration"
+  ],
+  "section_rhythm": [
+   "full-width-bands",
+   "contained-cards",
+   "alternating-split",
+   "modular-bento",
+   "rails-carousels"
+  ]
  },
- "palette": "list of hex colors; first = primary accent. Compared by accent hue distance."
+ "palette": "list of hex colors; first = primary accent. Compared by accent hue distance.",
+ "minimalism_markers": {
+  "rule": "A design with >= max_allowed+1 markers is minimalist and FAILS (team rule: no minimalist demos).",
+  "max_allowed": 2,
+  "markers": {
+   "product_card": [
+    "minimal"
+   ],
+   "grid_density": [
+    "airy"
+   ],
+   "motion": [
+    "none"
+   ],
+   "type_pairing": [
+    "sans+sans",
+    "mono+sans"
+   ],
+   "section_rhythm": [
+    "full-width-bands"
+   ],
+   "imagery": [
+    "framed"
+   ],
+   "neutral_accent": "accent color saturation < 0.15 (black/white/grey only)"
+  }
+ }
 }

@@ -27,6 +27,8 @@ No stock photos, no images taken from other websites. Each call spends Figma AI 
    subject + style line + "no text, no logos, no watermark, no recognizable people".
    - Draft / bulk product shots: `gemini-3.1-flash-lite-image` (default, cheapest).
    - Final hero and key lifestyle shots: `gemini-3.1-flash-image` or `gpt-image-2.5-sunburst`.
+   - **Full HD:** final images need ≥1920 px on the long edge. Check `image.width/height` in the result;
+     if smaller, mark `full_hd: false` in the log and regenerate with a Full HD model or upscale.
    - Keep one style line per preset so every image in the preset looks like one shoot.
 4. **Review.** Look at the returned thumbnail. Regenerate only if it is off-brief (wrong subject, baked-in
    text, artifacts, off-palette) — note the reason in the log.

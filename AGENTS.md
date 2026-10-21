@@ -60,7 +60,24 @@ Never skip stages. Never start development before the design gate passes.
    - No text, logos, brand names or real/recognizable people baked into images (Theme Store demo rule).
    - It costs Figma AI credits: draft with `gemini-3.1-flash-lite-image`, final hero/key shots with a higher
      model, and never regenerate without a reason.
-   - Log every image in `banks/design/image-log.json` (prompt, model, node id, where used).
+   - **Full HD minimum:** every image must be at least **1920 px on its long edge** (1920×1080 for 16:9,
+     1080×1920 for 9:16, ≥1536×1920 for 4:5). Request the largest size (2048) and use a model that returns
+     Full HD; if the output is smaller, it is not final — regenerate or upscale (with the team's approved
+     upscaler) and record `full_hd: true` only when the final file meets the minimum.
+   - Log every image in `banks/design/image-log.json` (prompt, model, node id, where used, size).
+10. **Never remove a Shopify option — Shopify first, then VSN apps.** Every feature, setting and option that
+   Shopify provides (checkout options, discounts, selling plans, markets, filters, metafields/metaobjects,
+   gift cards, pickup, Shop Pay, accelerated checkout, customer accounts, etc.) must stay supported and
+   usable in the theme — never removed or hidden. For any feature, pick in this order and record it in the
+   spec's `app_map`:
+   1. native Shopify / theme feature, 2. a free app made by Shopify, 3. a VSN app
+   (`VSN | Product Types`, `VSN | Stock Down Sort`, `VSN | Metafields`), 4. a third-party app only when 1–3
+   cannot do it (write the reason). The list lives in `banks/options/apps.json`; every app there with a
+   `theme_integration` must be supported by the design and the theme.
+11. **No minimalist demos.** No preset or demo store may be minimalist (plain white/black, airy empty grids,
+   thin minimal cards, no motion, neutral-only palette). Every preset must be bold and expressive with a
+   strong accent color, rich sections and motion. `vsn.py check-design` fails any design that shows 3 or
+   more minimalism markers (see `banks/design/fingerprint-schema.json → minimalism_markers`).
 
 ## 5. Repository map
 

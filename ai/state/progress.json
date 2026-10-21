@@ -1,11 +1,11 @@
 {
  "project": "vsn-super-mart",
- "stage": 5,
- "stage_name": "Design spec",
+ "stage": 6,
+ "stage_name": "Figma build",
  "cycle": 1,
  "current_niche": "gen-z-store",
  "completed_niches": [],
- "next_action": "Stage 5: Write banks/design/specs/<niche>/spec.json (template: ai/templates/design-spec.json) until `vsn.py coverage` and `check-design` pass.",
+ "next_action": "Stage 6: build remaining screens; make all images Full HD (credits reset 2026-11-04 or approved upscale); get design approval (vsn.py approve 6).",
  "approvals": {
   "4": {
    "by": "human: no preference (delegated) -> Afterhours by lead agent",

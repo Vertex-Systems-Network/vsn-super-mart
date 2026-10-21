@@ -1,0 +1,32 @@
+{
+ "note": "Apps Bank. Order of preference for any feature: (1) native Shopify / theme feature, (2) free app made by Shopify, (3) VSN app, (4) third-party app only if 1-3 cannot do it (record why). Never remove or hide an option Shopify provides. 'theme_integration' = what the theme must support so the app works out of the box; every app with theme_integration must appear in a design spec's app_map.",
+ "source": {"title": "Shopify Help Center: Apps made by Shopify", "url": "https://help.shopify.com/en/manual/apps/apps-by-shopify", "fetched_at": "2026-10-21", "pricing_note": "Shopify says its apps are usually free; confirm each app's price on its App Store page before relying on it."},
+ "shopify_apps": [
+  {"id": "search-discovery", "name": "Shopify Search & Discovery", "use": "filters, search synonyms, product recommendations, complementary products", "theme_integration": "faceted filters on collection + search, predictive search, related + complementary product sections"},
+  {"id": "shopify-forms", "name": "Shopify Forms", "use": "email signup / popups, early access lists", "theme_integration": "app embed + app block slots in newsletter, drop-release and password sections"},
+  {"id": "translate-adapt", "name": "Translate & Adapt", "use": "translations for products, pages, theme content", "theme_integration": "all strings in locales, every setting translatable, language selector"},
+  {"id": "shopify-bundles", "name": "Shopify Bundles", "use": "fixed and multipack bundles", "theme_integration": "bundle-aware price, cart line components display"},
+  {"id": "shopify-subscriptions", "name": "Shopify Subscriptions", "use": "subscribe and save", "theme_integration": "selling plan picker on product, selling plan info in cart"},
+  {"id": "shopify-inbox", "name": "Shopify Inbox", "use": "live chat", "theme_integration": "app embed allowed; chat button must not overlap sticky add to cart on mobile"},
+  {"id": "shopify-messaging", "name": "Shopify Messaging", "use": "email and SMS marketing", "theme_integration": "newsletter forms tag customers (accepts_marketing)"},
+  {"id": "shopify-flow", "name": "Shopify Flow", "use": "automation (e.g. tag early-access customers, hide sold-out drops)", "theme_integration": "theme reads customer tags and product tags/metafields that Flow sets"},
+  {"id": "shopify-collabs", "name": "Shopify Collabs", "use": "creator and affiliate program", "theme_integration": "none required; UGC strip can feature creators"},
+  {"id": "shop-channel", "name": "Shop Channel", "use": "Shop app presence, Follow on Shop", "theme_integration": "Follow on Shop button (login_button), Shop Pay buttons"},
+  {"id": "shopify-audiences", "name": "Shopify Audiences", "use": "ad audiences", "theme_integration": "none (keep content_for_header untouched)"},
+  {"id": "combined-listings", "name": "Shopify Combined Listings", "use": "one listing for color products (Plus)", "theme_integration": "combined-listing swatches on product card and product page"},
+  {"id": "checkout-blocks", "name": "Shopify Checkout Blocks", "use": "checkout customization", "theme_integration": "match brand colors/logo in checkout settings guide"},
+  {"id": "launchpad", "name": "Launchpad", "use": "schedule drops, sales, restocks (Plus)", "theme_integration": "drop-release and password sections work with scheduled theme/collection changes"},
+  {"id": "digital-products", "name": "Digital Products", "use": "sell digital items", "theme_integration": "no shipping text for digital items in product + cart"},
+  {"id": "shopcodes", "name": "Shopcodes", "use": "QR codes to products", "theme_integration": "none"},
+  {"id": "shopify-pos", "name": "Shopify POS", "use": "in-store sales", "theme_integration": "pickup availability block, store info section"},
+  {"id": "knowledge-base", "name": "Shopify Knowledge Base", "use": "FAQs used by AI shopping agents", "theme_integration": "FAQ section with structured data"},
+  {"id": "marketplace-connect", "name": "Shopify Marketplace Connect", "use": "marketplace sync", "theme_integration": "none"},
+  {"id": "order-printer", "name": "Shopify Order Printer", "use": "invoices, packing slips", "theme_integration": "none"}
+ ],
+ "vsn_apps": [
+  {"id": "vsn-product-types", "name": "VSN | Product Types", "use": "variant cards, swatches, variant fields, custom buttons, cart drawer and live preview (from the VSN Figma app listing)", "theme_integration": "app block slots in main-product and featured-product, cart drawer hook, swatch styling tokens", "status": "confirm feature list with the VSN team"},
+  {"id": "vsn-stock-down-sort", "name": "VSN | Stock Down Sort", "use": "push sold-out products to the end of collections", "theme_integration": "collection grid respects app sort order; hide-sold-out toggle stays compatible", "status": "confirm feature list with the VSN team"},
+  {"id": "vsn-metafields", "name": "VSN | Metafields", "use": "manage metafields/metaobjects (fit info, size charts, specs)", "theme_integration": "dynamic sources for fit-info, size-chart, specs and badge blocks", "status": "confirm feature list with the VSN team"}
+ ],
+ "third_party_apps": []
+}

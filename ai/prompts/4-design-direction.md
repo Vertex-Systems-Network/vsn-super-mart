@@ -8,7 +8,8 @@
    - fit the niche research and brief,
    - use values from `banks/design/fingerprint-schema.json` (add a new value only for a genuinely new
      pattern, and describe it),
-   - differ strongly from each other.
+   - differ strongly from each other,
+   - never be minimalist (team rule; `check-design` fails 3+ minimalism markers).
 3. `vsn.py check-design banks/design/specs/<niche>/directions.json` → rework any FAIL (WARN = justify).
 4. Present the passing directions to the human (moodboard text, key differences, risks).
    Put the chosen id in `"chosen"`, run `vsn.py approve 4 "<name>"`, then `vsn.py advance`.
