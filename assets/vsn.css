@@ -1,0 +1,85 @@
+/* VSN element library — prototype (rule 15).
+   Numeric responsive values arrive as --vsn-<prop> per instance (snippets/vsn-responsive.liquid).
+   Discrete responsive values arrive as --vsn-<prop>-d/-t/-m and step at 768 and 1024. */
+
+.vsn-section { background: var(--vsn-section-bg, var(--vsn-bg)); color: var(--vsn-fg); font-family: var(--vsn-font-body); padding-block: var(--vsn-spad); }
+.vsn-section__inner { max-width: var(--vsn-maxw, 1440px); margin-inline: auto; padding-inline: var(--vsn-gutter, 16px); }
+@media (min-width: 768px) { .vsn-section__inner { --vsn-gutter: 32px; } }
+
+/* ---------- Group ---------- */
+.vsn-group { gap: var(--vsn-gap); padding: var(--vsn-pad); }
+.vsn-group--grid { display: grid; grid-template-columns: repeat(var(--vsn-cols-m), minmax(0, 1fr)); }
+.vsn-group--flex { display: flex; flex-direction: var(--vsn-dir-m); flex-wrap: wrap; align-items: flex-start; }
+@media (min-width: 768px) {
+  .vsn-group--grid { grid-template-columns: repeat(var(--vsn-cols-t), minmax(0, 1fr)); }
+  .vsn-group--flex { flex-direction: var(--vsn-dir-t); }
+}
+@media (min-width: 1024px) {
+  .vsn-group--grid { grid-template-columns: repeat(var(--vsn-cols-d), minmax(0, 1fr)); }
+  .vsn-group--flex { flex-direction: var(--vsn-dir-d); }
+}
+.vsn-group > * { min-width: 0; }
+
+/* ---------- Heading ---------- */
+.vsn-heading { margin: 0; font-family: var(--vsn-font-heading); font-size: var(--vsn-fs); line-height: 0.95; letter-spacing: var(--vsn-ls, 0); text-align: var(--vsn-align-m); overflow-wrap: anywhere; }
+@media (min-width: 768px) { .vsn-heading { text-align: var(--vsn-align-t); } }
+@media (min-width: 1024px) { .vsn-heading { text-align: var(--vsn-align-d); } }
+.vsn-weight--bold { font-weight: 700; } .vsn-weight--regular { font-weight: 400; }
+.vsn-case--upper { text-transform: uppercase; }
+.vsn-heading--outline { color: transparent; -webkit-text-stroke: max(1px, 0.02em) var(--vsn-accent); }
+.vsn-heading--gradient { background: linear-gradient(100deg, var(--vsn-fg) 10%, var(--vsn-accent) 90%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.vsn-heading--marker { color: var(--vsn-fg); }
+.vsn-heading--marker strong, .vsn-heading--marker em { font-style: normal; background: linear-gradient(transparent 55%, var(--vsn-accent) 55%); color: inherit; }
+.vsn-heading--display strong { color: var(--vsn-accent); }
+
+/* ---------- Button ---------- */
+.vsn-button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: var(--vsn-bh, 52px); min-width: 44px; padding: 0 28px; width: var(--vsn-full-m, auto);
+  font: 700 14px/1 var(--vsn-font-body); letter-spacing: .08em; text-transform: uppercase; text-decoration: none; border-radius: var(--vsn-radius);
+  transition: transform var(--vsn-motion) ease, box-shadow var(--vsn-motion) ease, background var(--vsn-motion) ease; white-space: nowrap; }
+@media (min-width: 768px) { .vsn-button { width: var(--vsn-full-t, auto); } }
+@media (min-width: 1024px) { .vsn-button { width: var(--vsn-full-d, auto); } }
+.vsn-button--solid { background: var(--vsn-accent); color: var(--vsn-accent-fg); }
+.vsn-button--ghost { background: transparent; color: var(--vsn-fg); box-shadow: inset 0 0 0 1.5px currentColor; }
+.vsn-button--brutal { background: var(--vsn-accent); color: var(--vsn-accent-fg); box-shadow: 6px 6px 0 var(--vsn-fg); max-width: calc(100% - 8px); margin: 0 8px 8px 0; }
+.vsn-button--brutal:hover { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 var(--vsn-fg); }
+.vsn-button { max-width: 100%; }
+.vsn-button--glass { background: color-mix(in srgb, var(--vsn-fg) 12%, transparent); color: var(--vsn-fg); backdrop-filter: blur(12px); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--vsn-fg) 30%, transparent); }
+.vsn-button:focus-visible, .vsn-iconbtn:focus-visible { outline: 2px solid var(--vsn-accent); outline-offset: 3px; }
+.vsn-icon { flex: none; }
+
+/* ---------- Product card ---------- */
+.vsn-card { position: relative; background: var(--vsn-surface); border-radius: var(--vsn-radius); overflow: hidden; color: var(--vsn-fg); }
+.vsn-card__media { display: block; aspect-ratio: var(--vsn-ratio, 4/5); background: var(--vsn-surface); }
+.vsn-card__media img, .vsn-card__placeholder { width: 100%; height: 100%; object-fit: cover; display: block; }
+.vsn-card__placeholder { fill: var(--vsn-muted); }
+.vsn-card__badges { position: absolute; top: 12px; left: 12px; display: flex; gap: 6px; }
+.vsn-badge { font: 700 11px/1 var(--vsn-font-body); letter-spacing: .12em; text-transform: uppercase; padding: 6px 8px; }
+.vsn-badge--sale { background: var(--vsn-sale); color: var(--vsn-accent-fg); }
+.vsn-badge--soldout { background: var(--vsn-fg); color: var(--vsn-bg); }
+.vsn-card__actions { position: absolute; top: 12px; right: 12px; display: flex; flex-direction: column; gap: 6px; }
+.vsn-iconbtn { width: 36px; height: 36px; display: grid; place-items: center; background: color-mix(in srgb, var(--vsn-bg) 70%, transparent); color: var(--vsn-fg); border: 1px solid var(--vsn-border); cursor: pointer; padding: 0; }
+.vsn-card__info { padding: 16px; display: grid; gap: 6px; }
+.vsn-card__title { font: 600 var(--vsn-tfs, 20px)/1.05 var(--vsn-font-heading); text-transform: uppercase; color: inherit; text-decoration: none; }
+.vsn-card__price { font-weight: 600; font-size: 14px; }
+.vsn-price--sale { color: var(--vsn-sale); } .vsn-price--was { color: var(--vsn-muted); font-weight: 500; }
+.vsn-card__sizes { display: flex; flex-wrap: wrap; gap: 4px; list-style: none; margin: 4px 0 0; padding: 0; }
+.vsn-card__sizes li { font-size: 11px; border: 1px solid var(--vsn-border); padding: 2px 6px; }
+.vsn-card__sizes li.is-out { color: var(--vsn-muted); text-decoration: line-through; }
+.vsn-card--overlay .vsn-card__info { position: absolute; inset: auto 0 0 0; background: linear-gradient(transparent, color-mix(in srgb, var(--vsn-bg) 92%, transparent)); }
+.vsn-card--minimal { background: transparent; }
+.vsn-card--minimal .vsn-card__info { padding: 12px 0 0; }
+.vsn-card--minimal .vsn-card__actions { opacity: 0; transition: opacity var(--vsn-motion); }
+.vsn-card--minimal:hover .vsn-card__actions, .vsn-card--minimal:focus-within .vsn-card__actions { opacity: 1; }
+.vsn-card--detailed { border: 1px solid var(--vsn-border); }
+
+/* ---------- Global component ---------- */
+.vsn-gc { padding: clamp(24px, 4vw, 56px); display: grid; gap: 16px; align-content: start; border-radius: var(--vsn-radius); container-type: inline-size; min-width: 0; }
+.vsn-gc__heading { margin: 0; font: 700 clamp(28px, 11cqi, 72px)/0.95 var(--vsn-font-heading); text-transform: uppercase; overflow-wrap: anywhere; }
+.vsn-gc__text { color: inherit; opacity: .85; max-width: 52ch; }
+.vsn-gc--panel { background: var(--vsn-surface); color: var(--vsn-fg); }
+.vsn-gc--accent { background: var(--vsn-accent); color: var(--vsn-accent-fg); }
+.vsn-gc--accent .vsn-button--solid { background: var(--vsn-accent-fg); color: var(--vsn-accent); }
+.vsn-gc--outline { border: 2px solid var(--vsn-accent); color: var(--vsn-fg); }
+.vsn-gc .vsn-button { justify-self: start; }
+
+@media (prefers-reduced-motion: reduce) { .vsn-button, .vsn-card__actions { transition: none; } .vsn-button--brutal:hover { transform: none; } }
