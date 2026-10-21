@@ -23,6 +23,12 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
 - **Writes:** `banks/research/platform/*`, `banks/research/competitors/themes.json`, `banks/options/options.json`.
 - **Exit gate:** `vsn.py validate` passes.
 
+## Stage 0b — Element library (core, rule 15)
+- **Reads:** `banks/elements/*`.
+- **Does:** keep the element catalog complete (Elementor + third-party addons + Shopify + creative), write
+  each element's settings spec, then build elements in Stage 7 of the first cycle before any preset work.
+- **Exit gate:** `vsn.py validate` passes (element ids unique, every element has category/source/settings).
+
 ## Stage 1 — Niche intake
 - **Reads:** `banks/research/niches/` (what already exists), `progress.json.completed_niches`.
 - **Does:** **ASK the human which niche** (offer the list from `banks/research/niches/index.json`, mark
@@ -65,7 +71,8 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
 - **Reads:** chosen direction, `options.resolved.json`, `banks/design/README.md` (spec schema).
 - **Does:** write the full spec: tokens (colors, type scale, spacing, radius, shadows), every template's
   section list, every section's blocks/settings/variants/states (empty, loading, error, sold out, sale),
-  responsive rules, accessibility notes. Map every option id to where it appears.
+  responsive rules, accessibility notes. Map every option id to where it appears. List the element ids
+  used (`elements_used`) — designs may only use elements from `banks/elements/elements.json`.
 - **Writes:** `banks/design/specs/<niche>/spec.json`.
 - **Exit gate:** `vsn.py coverage banks/design/specs/<niche>/spec.json` passes (100% of `must` options and
   Theme Store requirements), every app in `banks/options/apps.json` that has a `theme_integration` is in the

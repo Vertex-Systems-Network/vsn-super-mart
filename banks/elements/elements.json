@@ -1,0 +1,1659 @@
+{
+ "version": 1,
+ "updated_at": "2026-10-22",
+ "note": "Element library catalog. 'elementor' says whether Elementor has it (free/pro) or not at all; 'elementor_gap' = what Elementor lacks or limits (from general knowledge + sources in README; verify), 'vsn_extras' = settings VSN adds on top of the universal settings. Every element also gets every group in universal-settings.json.",
+ "elements": [
+  {
+   "id": "container",
+   "name": "Container / Group",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": "flex only per container, no CSS grid areas per breakpoint",
+   "vsn_extras": "flex + grid modes, grid template per breakpoint, sticky, overflow, min-height in vh/svh, full-bleed",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "grid",
+   "name": "Grid",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": "basic grid, no masonry or bento spans",
+   "vsn_extras": "bento spans per item, masonry, auto-fit/auto-fill, dense packing, per-breakpoint columns",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "columns",
+   "name": "Columns / Row",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "reverse order per breakpoint, equal height, gap scale",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "section-wrapper",
+   "name": "Section wrapper",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "color scheme, background media, divider shapes, padding scale, full-bleed toggle",
+   "shopify_source": "section",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "spacer",
+   "name": "Spacer",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "fluid height (clamp), hide per breakpoint",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "divider",
+   "name": "Divider",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "text/icon in divider, gradient, wave/zigzag styles",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "tabs",
+   "name": "Tabs",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": "no URL deep link, no scrollable tab bar on mobile",
+   "vsn_extras": "vertical/horizontal, scrollable bar, deep link via hash, lazy content, accordion on mobile",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "accordion",
+   "name": "Accordion / Toggle",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": "no FAQ schema output",
+   "vsn_extras": "FAQ JSON-LD, open first, multiple open, icon styles, deep link",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "popup",
+   "name": "Popup / Modal",
+   "category": "layout",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro only",
+   "vsn_extras": "trigger: delay, scroll %, exit intent, click, page rules, frequency cap, Shopify Forms block inside",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "drawer",
+   "name": "Drawer / Off-canvas",
+   "category": "layout",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "Elementor has no generic drawer",
+   "vsn_extras": "left/right/bottom sheet, swipe to close, focus trap",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sticky-bar",
+   "name": "Sticky bar",
+   "category": "layout",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "top/bottom, show after scroll, hide on scroll down, safe-area aware",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "heading",
+   "name": "Heading",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": "no outline/gradient text, no fluid size, no split-letter animation",
+   "vsn_extras": "fluid size, outline (stroke) text, gradient/image fill, highlight marker, split-letter/word animation, rotating words",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "text",
+   "name": "Text / Rich text",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "column count, drop cap, max-width in ch, link styles, metafield source",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "button",
+   "name": "Button",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": "one style per button, limited icon control",
+   "vsn_extras": "variants (primary/secondary/ghost/link), size scale, icon left/right/only, magnetic hover, loading state, full width per breakpoint",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "button-group",
+   "name": "Button group",
+   "category": "basic",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "stack on mobile, equal width",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "image",
+   "name": "Image",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": "no art direction per breakpoint",
+   "vsn_extras": "art direction (different image per breakpoint), focal point, aspect ratio per breakpoint, lazy/eager, hover zoom, parallax",
+   "shopify_source": "image_url, image_tag",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "video",
+   "name": "Video",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "Shopify-hosted video, YouTube/Vimeo, autoplay muted, poster, play/pause control, captions",
+   "shopify_source": "video_tag",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "icon",
+   "name": "Icon",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "icon library + custom SVG upload, stroke width, size scale",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "icon-box",
+   "name": "Icon box / Feature",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "layouts (top/left/inline), link whole box",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "icon-list",
+   "name": "Icon list",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "columns, dividers, per-item colors",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "image-box",
+   "name": "Image box",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "overlay text, hover reveal",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "badge",
+   "name": "Badge / Tag",
+   "category": "basic",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "static or dynamic (sale %, new, metafield)",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "link-list",
+   "name": "Link list",
+   "category": "basic",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "from Shopify menu, columns",
+   "shopify_source": "linklists",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "html",
+   "name": "Custom Liquid / HTML",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": "HTML only",
+   "vsn_extras": "Custom Liquid (required by Theme Store)",
+   "shopify_source": "liquid",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "gallery",
+   "name": "Gallery",
+   "category": "media",
+   "elementor": "elementor-free",
+   "elementor_gap": "basic grid",
+   "vsn_extras": "masonry, justified, lightbox, filter tabs",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "slider",
+   "name": "Slider / Carousel",
+   "category": "media",
+   "elementor": "elementor-pro",
+   "elementor_gap": "limited per-breakpoint control",
+   "vsn_extras": "slides per breakpoint, peek, loop, autoplay, snap, thumbnails, progress bar, fraction, drag",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "media-carousel",
+   "name": "Media carousel",
+   "category": "media",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "mixed image/video, coverflow",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "before-after",
+   "name": "Before / after",
+   "category": "media",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "drag handle, vertical/horizontal, labels",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "lottie",
+   "name": "Lottie animation",
+   "category": "media",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "play on scroll/hover/loop",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "model-3d",
+   "name": "3D / AR viewer",
+   "category": "media",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "Shopify 3D models, AR quick look",
+   "shopify_source": "model_viewer_tag",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "background-video",
+   "name": "Background video",
+   "category": "media",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "mobile fallback image, pause control",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "image-hotspots",
+   "name": "Image hotspots",
+   "category": "media",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro only, not shoppable",
+   "vsn_extras": "shoppable hotspots (product card on hover/tap)",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "marquee",
+   "name": "Marquee / Ticker",
+   "category": "media",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor core",
+   "vsn_extras": "text or logos, speed, direction, pause on hover, outline text, reduced-motion static",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "scroll-video",
+   "name": "Scroll-scrub video",
+   "category": "media",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "video progress tied to scroll",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "animated-headline",
+   "name": "Animated headline",
+   "category": "creative",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "typewriter, rotate, highlight shapes",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "text-path",
+   "name": "Text on path",
+   "category": "creative",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "circle/wave, rotating",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "kinetic-type",
+   "name": "Kinetic typography",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "scroll-driven scale/skew, variable font axis",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sticker-layer",
+   "name": "Sticker / collage layer",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "draggable stickers, tape, rotation, z-order (Gen-Z collage)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "grain-overlay",
+   "name": "Grain / texture overlay",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "noise, paper, halftone, opacity",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "glitch-text",
+   "name": "Glitch text",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "intensity, hover only, reduced-motion off",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "tilt-card",
+   "name": "3D tilt card",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "tilt amount, glare, touch off",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "flip-box",
+   "name": "Flip box",
+   "category": "creative",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "flip direction, 3D depth",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "announcement-bar",
+   "name": "Announcement bar",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "rotating or marquee, links, schedule start/end, market targeting",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "promo-banner",
+   "name": "Promo banner",
+   "category": "promo",
+   "elementor": "elementor-pro",
+   "elementor_gap": "CTA widget only",
+   "vsn_extras": "layouts (split/overlay/card), schedule, market targeting, discount code display",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sale-campaign",
+   "name": "Sale campaign",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "real start/end dates as text, collection link, % off",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "countdown",
+   "name": "Countdown (real date)",
+   "category": "promo",
+   "elementor": "elementor-pro",
+   "elementor_gap": "allows fake evergreen timers",
+   "vsn_extras": "only real end dates, auto-hide after end (extras track for Theme Store)",
+   "shopify_source": null,
+   "store_allowed": false,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "free-shipping-bar",
+   "name": "Free shipping bar",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "threshold per market/currency, progress, message states",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "newsletter",
+   "name": "Newsletter signup",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "needs Pro Forms",
+   "vsn_extras": "Shopify customer form, tags (early access), success/error states",
+   "shopify_source": "form",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cta",
+   "name": "Call to action",
+   "category": "promo",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "media + text + buttons, ribbon",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "price-table",
+   "name": "Price table",
+   "category": "promo",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "for bundles / memberships",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "trust-badges",
+   "name": "Trust badges",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "icons + text, payment icons auto",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "testimonial",
+   "name": "Testimonial / Quote",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "carousel, rating, avatar, product link",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "reviews",
+   "name": "Reviews (app slot)",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "rating summary + app block slot (Judge.me, Shopify-compatible apps)",
+   "shopify_source": "app block",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "ugc-video",
+   "name": "UGC video strip",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "merchant-uploaded vertical videos, shoppable tag",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "share-buttons",
+   "name": "Share buttons",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro only",
+   "vsn_extras": "copy link, WhatsApp, X, Facebook, Pinterest, native share, product/article url",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "social-icons",
+   "name": "Social icons",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "from theme social settings",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "blog-posts",
+   "name": "Blog posts",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro posts widget",
+   "vsn_extras": "grid/list/carousel, filter by tag, excerpt length",
+   "shopify_source": "blog",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "table",
+   "name": "Table",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor core",
+   "vsn_extras": "from metafields/metaobjects, sticky header, responsive stack",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "timeline",
+   "name": "Timeline",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor core",
+   "vsn_extras": "vertical/horizontal, media per step",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "counter",
+   "name": "Counter",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "start on view, suffix/prefix",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "progress-bar",
+   "name": "Progress bar",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "from metafield value",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "faq",
+   "name": "FAQ (with schema)",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "accordion without schema",
+   "vsn_extras": "FAQ JSON-LD, search inside FAQ",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "map",
+   "name": "Map / Store locator",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": "single Google map",
+   "vsn_extras": "multiple stores, hours, directions links",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "logo-list",
+   "name": "Logo / press list",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "grid or marquee, grayscale hover",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "breadcrumbs",
+   "name": "Breadcrumbs",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "Shopify routes, schema",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "table-of-contents",
+   "name": "Table of contents",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "for articles, sticky",
+   "shopify_source": "article",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "author-box",
+   "name": "Author box",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "article author",
+   "shopify_source": "article",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "contact-form",
+   "name": "Contact form",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro Forms",
+   "vsn_extras": "Shopify contact form, fields builder",
+   "shopify_source": "form",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "header-builder",
+   "name": "Header builder",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Theme Builder Pro",
+   "vsn_extras": "rows (top/main/bottom), any element in any slot, transparent/sticky per page, different mobile header",
+   "shopify_source": "section group",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "mega-menu",
+   "name": "Mega menu",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro, limited product content",
+   "vsn_extras": "columns, images, product cards, promo tiles from menu metafields",
+   "shopify_source": "linklists",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "mobile-menu",
+   "name": "Mobile menu drawer",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "nested slide, featured promo, account links",
+   "shopify_source": "linklists",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "bottom-nav",
+   "name": "Mobile bottom navigation",
+   "category": "navigation",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "4-5 items, cart count, safe-area",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "predictive-search",
+   "name": "Predictive search",
+   "category": "navigation",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "products, collections, pages, articles, suggestions",
+   "shopify_source": "predictive_search",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "localization",
+   "name": "Country / language selector",
+   "category": "navigation",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "Shopify Markets",
+   "shopify_source": "localization",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "account-link",
+   "name": "Account link",
+   "category": "navigation",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "shopify-account component, Sign in with Shop",
+   "shopify_source": "customer",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cart-icon",
+   "name": "Cart icon + count",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Menu Cart Woo only",
+   "vsn_extras": "live count, opens drawer",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "footer-builder",
+   "name": "Footer builder",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Theme Builder Pro",
+   "vsn_extras": "columns of any elements",
+   "shopify_source": "section group",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "product-card",
+   "name": "Product card",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "Woo-only, few layouts",
+   "vsn_extras": "layouts (overlay/minimal/detailed/horizontal), second image, swatches, sizes, badges, quick add, quick view, wishlist, compare",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "product-grid",
+   "name": "Product grid / rail",
+   "category": "commerce",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Woo products widget",
+   "vsn_extras": "collection/recommendation/manual source, grid or rail, promo tile slot, load more",
+   "shopify_source": "collection",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "product-gallery",
+   "name": "Product media gallery",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "thumbs/stacked/grid/carousel, zoom, video, 3D, variant image filter",
+   "shopify_source": "product.media",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "product-title",
+   "name": "Product title",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "vendor, rating inline",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "price",
+   "name": "Price",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "compare-at, % off, unit price, taxes note, installments (Shop Pay)",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "variant-picker",
+   "name": "Variant picker",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "buttons, dropdown, color/image swatches, combined listings, sold-out styles",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "quantity",
+   "name": "Quantity selector",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "quantity rules (B2B), stepper styles",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "buy-buttons",
+   "name": "Buy buttons",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "add to cart, accelerated checkout, gift card recipient, selling plans",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "selling-plans",
+   "name": "Subscription / selling plans",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Shopify Subscriptions",
+   "shopify_source": "selling_plan",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "pickup",
+   "name": "Pickup availability",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "store list drawer",
+   "shopify_source": "pickup",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "inventory",
+   "name": "Inventory status",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "real stock only (in stock / low / sold out)",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "size-guide",
+   "name": "Size guide",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "drawer, cm/inch toggle, metaobject table",
+   "shopify_source": "metaobject",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "fit-info",
+   "name": "Fit info",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "model height/size, fit type",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "back-in-stock",
+   "name": "Back in stock (app slot)",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "notify link + app block",
+   "shopify_source": "app block",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "complementary",
+   "name": "Complementary products",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Search & Discovery",
+   "shopify_source": "recommendations",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "recommendations",
+   "name": "Related products",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Search & Discovery",
+   "shopify_source": "recommendations",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "recently-viewed",
+   "name": "Recently viewed",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "local history",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "bundle",
+   "name": "Bundle / buy together",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Shopify Bundles display",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "shop-the-look",
+   "name": "Shop the look",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "hotspots + product list",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "quick-view",
+   "name": "Quick view",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "modal with gallery, picker, buy buttons, share",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sticky-atc",
+   "name": "Sticky add to cart",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "desktop bar / mobile bottom",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "metafield-block",
+   "name": "Metafield / metaobject field",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "ACF-like via Pro dynamic tags",
+   "vsn_extras": "any metafield type rendered",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "spec-table",
+   "name": "Specifications table",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "from metafields, compare-ready",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "nutrition",
+   "name": "Ingredients / nutrition",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "metaobject list, allergens",
+   "shopify_source": "metaobject",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "volume-pricing",
+   "name": "Volume pricing (B2B)",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "quantity price breaks",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "quick-order",
+   "name": "Quick order list (B2B)",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "variant table with quantities",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "facets",
+   "name": "Filters (facets)",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "sidebar/drawer/horizontal, swatch filters, price slider",
+   "shopify_source": "filters",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sort",
+   "name": "Sort",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "dropdown or pills",
+   "shopify_source": "collection",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "collection-banner",
+   "name": "Collection banner",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "image, description, subcollection pills",
+   "shopify_source": "collection",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "collection-list",
+   "name": "Collection list / tiles",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "grid, rail, circles, bento",
+   "shopify_source": "collections",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer",
+   "category": "commerce",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Woo mini cart",
+   "vsn_extras": "upsell, free shipping bar, notes, discounts, selling plans, accelerated checkout",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cart-lines",
+   "name": "Cart line items",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "edit qty, variants, bundles, discounts",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cart-summary",
+   "name": "Cart summary",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "discounts, taxes note, checkout + wallets",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "gift-card",
+   "name": "Gift card display",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "QR, Apple Wallet",
+   "shopify_source": "gift_card",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "wishlist",
+   "name": "Wishlist button + page",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "heart on card/product/quick view, page, share list (data: VSN app)",
+   "shopify_source": "app",
+   "store_allowed": false,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "compare",
+   "name": "Compare toggle + bar + page",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "compare bar, spec rows, only differences (data: VSN app)",
+   "shopify_source": "app",
+   "store_allowed": false,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "drop-release",
+   "name": "Drop release",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "upcoming/live/sold-out states, real date, early access form",
+   "shopify_source": "collection",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "early-access-gate",
+   "name": "Early access gate",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "password page / tag-based access",
+   "shopify_source": "customer",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "age-gate",
+   "name": "Age verification",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "remember choice, market rules",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cookie-banner",
+   "name": "Cookie consent",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Customer Privacy API",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "follow-on-shop",
+   "name": "Follow on Shop",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "login_button filter",
+   "shopify_source": "shop",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  }
+ ]
+}

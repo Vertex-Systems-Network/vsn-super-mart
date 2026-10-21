@@ -132,6 +132,15 @@ def validate(verbose=True):
         for k in ("id", "niche", "slot", "prompt", "model", "figma_node", "used_in", "width", "height"):
             if not im.get(k):
                 errs.append(f"image {im.get('id')}: missing {k}")
+    el = load(P("banks", "elements", "elements.json"))
+    if el:
+        eids = [e["id"] for e in el["elements"]]
+        if len(eids) != len(set(eids)):
+            errs.append("elements: duplicate ids")
+        for e in el["elements"]:
+            for k in ("id", "name", "category", "elementor", "settings", "status"):
+                if k not in e:
+                    errs.append(f"element {e.get('id')}: missing {k}")
     if verbose:
         print("validate: OK" if not errs else "validate: FAIL\n  " + "\n  ".join(errs))
     return not errs

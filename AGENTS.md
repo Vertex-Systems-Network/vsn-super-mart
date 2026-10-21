@@ -94,6 +94,14 @@ Never skip stages. Never start development before the design gate passes.
    edge (except an image's own intentional crop inside its frame). Marquees/tickers must fit or be shown
    as a static row in the mockup. Every Figma QA runs `scripts/figma-qa-clipping.js` (via `use_figma`) on
    all screens and must return zero cut nodes before a design is shown or approved.
+15. **Global element library — demos by settings only.** The theme is a library of global elements
+   (`banks/elements/elements.json`): every Elementor Free/Pro widget and the useful third-party Elementor
+   addon widgets, upgraded with the options they lack, plus Shopify commerce and creative elements Elementor
+   never had. Every element gets the universal setting groups (`universal-settings.json`) and the smart
+   responsive system for breakpoints 2448, 1920, 1440, 1024, 768, 560, 480, 360, 320 (`responsive.json`:
+   3 visible anchors + calculated values + advanced per-breakpoint overrides). Every demo is built only
+   from elements + settings; if a design needs something new, add a new element to the library (never
+   one-off code for a single preset).
 
 ## 5. Repository map
 
