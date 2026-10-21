@@ -72,9 +72,13 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
 - **Does:** build in Figma page "VSN | Super Mart" (`25:2`): foundations (variables/tokens), components
   with variants, then desktop + mobile frames for home, collection, product, cart drawer + page, search,
   account, blog/article, 404, password, gift card. Use real-looking content, never lorem ipsum.
+- **Images:** all imagery is generated with **Figma AI** (`generate_image`) inside the Figma file, from an
+  image brief built from the niche research + chosen direction. Placeholders first, then fill them by
+  `nodeId`. Each image is logged in `banks/design/image-log.json`. No stock or copied images.
 - **Writes:** register design: `vsn.py register-design <spec>` (stores fingerprint + Figma node ids in
   `banks/design/registry.json`).
-- **Exit gate:** 🧑 design approval (`vsn.py approve 6 "<name>"`).
+- **Exit gate:** 🧑 design approval (`vsn.py approve 6 "<name>"`), and `vsn.py validate` passes
+  (image log complete).
 
 ## Stage 7 — Development
 - **Reads:** spec, Figma (via `get_design_context`), options resolved.
@@ -93,7 +97,9 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
 - **Exit gate:** no open blockers in the QA report.
 
 ## Stage 9 — Release preset 🧑
-- **Does:** finalize preset name (1–2 words, unique, not an industry word), demo store content, docs/FAQ
+- **Does:** finalize preset name (1–2 words, unique, not an industry word), demo store content (images are the
+  Figma AI images from `image-log.json`, exported from Figma and uploaded to the demo store — not bundled
+  in `theme/assets`), docs/FAQ
   entries, release notes, version bump.
 - **Writes:** `progress.json.completed_niches += niche`, `CHANGELOG.md`.
 - **Exit gate:** 🧑 release approval. Then loop to Stage 1 for the next niche.

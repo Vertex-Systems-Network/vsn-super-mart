@@ -1,0 +1,4 @@
+{
+ "note": "Every image generated with Figma AI (generate_image). Required fields: id, niche, slot, prompt, model, figma_node, used_in. Optional: width, height, regenerated_reason, created_at.",
+ "images": []
+}

@@ -25,6 +25,10 @@
  "sections": [
   {"id": "", "name": "", "blocks": [""], "settings": [""], "variants": [""], "states": ["empty", "loading", "error"], "responsive": "", "a11y": ""}
  ],
+ "image_brief": {
+  "style_line": "shared look for every image in this preset: mood, palette hex, lighting, imagery style",
+  "slots": [{"slot": "home-hero", "purpose": "", "ratio": "16:9", "subject": ""}]
+ },
  "option_map": {"<option-id>": "where it lives, e.g. product/main-product > block price"},
  "requirement_map": {"<req-id>": "how the design satisfies it"},
  "figma": {"file_key": "BxJuIRth8k4cCUbFnPV6ek", "page_node": "25:2", "frames": {}}

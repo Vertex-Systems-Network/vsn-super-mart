@@ -127,6 +127,11 @@ def validate(verbose=True):
     comp = load(P("banks", "design", "competitor-fingerprints.json"))
     for e in reg["designs"] + comp["fingerprints"]:
         errs += [f"fingerprint {e.get('id')}: {x}" for x in fp_errors(e.get("fp", {}), schema)]
+    log_ = load(P("banks", "design", "image-log.json"), {"images": []})
+    for im in log_["images"]:
+        for k in ("id", "niche", "slot", "prompt", "model", "figma_node", "used_in"):
+            if not im.get(k):
+                errs.append(f"image {im.get('id')}: missing {k}")
     if verbose:
         print("validate: OK" if not errs else "validate: FAIL\n  " + "\n  ".join(errs))
     return not errs

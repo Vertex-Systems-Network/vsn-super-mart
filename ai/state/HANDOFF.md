@@ -2,6 +2,13 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-21 — Rule added: images via Figma AI
+
+- All images (designs + demo stores) must be generated with Figma AI (`generate_image`) in the Figma file.
+  Added to AGENTS.md (rule 9), CLAUDE.md, WORKFLOW (stages 6 and 9), prompt 6 ("Images"), spec template
+  (`image_brief`), new `banks/design/image-log.json`, and `vsn.py validate` checks the log.
+- Next is unchanged: Stage 1, ask the first niche.
+
 ## 2026-10-21 — Bootstrap (Stage 0) complete
 
 **Done**

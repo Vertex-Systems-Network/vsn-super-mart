@@ -6,6 +6,7 @@ Makes sure every VSN design is **informed by research, complete, and never a rep
 fingerprint-schema.json        the dimensions that make a design recognizable + allowed values + thresholds
 competitor-fingerprints.json   approximate → verified fingerprints of competitor themes/presets
 registry.json                  every accepted VSN design: fingerprint, palette, Figma node ids, spec path
+image-log.json                 every Figma AI generated image: prompt, model, node id, where used
 specs/<niche>/directions.json  Stage 4 — 3 candidate directions + chosen id
 specs/<niche>/spec.json        Stage 5 — full design spec (template: ai/templates/design-spec.json)
 ```

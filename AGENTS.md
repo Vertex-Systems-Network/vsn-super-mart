@@ -52,6 +52,15 @@ Never skip stages. Never start development before the design gate passes.
 6. **Small, verifiable steps.** One work unit per commit. Run `shopify theme check` once theme code exists.
 7. **Evidence.** Claims about competitors or the market need a URL in the bank's `sources`.
 8. **Language.** Code, file names and bank data in English. Chat with the team may be Urdu/Roman Urdu.
+9. **Images come from Figma AI.** Every image in designs and demo stores (hero, banners, product shots,
+   collection tiles, lifestyle, blog) is generated with **Figma AI** (Figma MCP `generate_image`) directly in
+   the Figma file — no stock photos, no images copied from other sites. Rules:
+   - Generate into the Figma file `BxJuIRth8k4cCUbFnPV6ek`; to fill a placeholder frame pass its `nodeId`.
+   - Write prompts from the niche research + chosen design direction (mood, palette, imagery style).
+   - No text, logos, brand names or real/recognizable people baked into images (Theme Store demo rule).
+   - It costs Figma AI credits: draft with `gemini-3.1-flash-lite-image`, final hero/key shots with a higher
+     model, and never regenerate without a reason.
+   - Log every image in `banks/design/image-log.json` (prompt, model, node id, where used).
 
 ## 5. Repository map
 

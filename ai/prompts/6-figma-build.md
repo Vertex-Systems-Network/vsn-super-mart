@@ -11,3 +11,25 @@ list collections, page, contact, blog, article, account (login/register/orders),
 
 Write the frame node ids into `spec.json → figma.frames`, run `vsn.py register-design <spec>`, ask for
 approval, `vsn.py approve 6 "<name>"`, `vsn.py advance`.
+
+## Images (Figma AI only)
+
+All imagery is generated with Figma AI — `generate_image` on the Figma MCP — straight into the Figma file.
+No stock photos, no images taken from other websites. Each call spends Figma AI credits.
+
+1. **Image brief first.** Add `image_brief` to `spec.json`: for each slot (hero, banner, collection tile,
+   product shot, lifestyle, blog cover, empty state) give purpose, aspect ratio, subject, and the shared
+   style line (from the chosen direction: mood, palette hex, lighting, `imagery` value such as
+   `cutout-on-color` or `lifestyle`).
+2. **Placeholders.** Build frames with empty image placeholders at the right sizes.
+3. **Generate.** `generate_image` with `fileKey` = `BxJuIRth8k4cCUbFnPV6ek`, the placeholder's `nodeId`
+   (replaces the fill without resizing), `width`/`height` for the ratio (max 2048), and a prompt =
+   subject + style line + "no text, no logos, no watermark, no recognizable people".
+   - Draft / bulk product shots: `gemini-3.1-flash-lite-image` (default, cheapest).
+   - Final hero and key lifestyle shots: `gemini-3.1-flash-image` or `gpt-image-2.5-sunburst`.
+   - Keep one style line per preset so every image in the preset looks like one shoot.
+4. **Review.** Look at the returned thumbnail. Regenerate only if it is off-brief (wrong subject, baked-in
+   text, artifacts, off-palette) — note the reason in the log.
+5. **Log.** Append each image to `banks/design/image-log.json`.
+6. **Reuse.** Before generating, search the log for an image that already fits (same niche/slot) and reuse
+   it instead of paying for a new one.
