@@ -1,0 +1,109 @@
+# Session handoff
+
+_Update at the end of every session (even mid-task). Newest entry on top._
+
+## 2026-10-22 — PAUSED by the team ("phir kabhi start karenge"). Full status + how to resume
+
+### Where the project stands
+| Track | Status | Key files |
+|---|---|---|
+| AI workflow + banks | Done (stages 0–9, rules 1–15, vsn.py gates) | `AGENTS.md`, `ai/WORKFLOW.md`, `scripts/vsn.py` |
+| Research bank | 15 niches (gen-z-store **verified**, 14 seed) + Theme Store rules + competitors | `banks/research/` |
+| Options bank | 160 options + Apps bank (20 Shopify apps, 4 VSN apps incl. planned Wishlist & Compare) | `banks/options/` |
+| Design bank | Afterhours registered; fingerprints; minimalism + uniqueness checks | `banks/design/` |
+| Gen-Z / Afterhours design | **Stage 6**: 24 screens in Figma page 25:2, QA done (25 fixes, clipping audit 0) | `banks/design/specs/gen-z-store/`, `ai/niches/gen-z-store/design-qa.md` |
+| Element library (rule 15) | 192 elements catalogued (Elementor free/pro, 8 third-party addons, Gutenberg core, Shopify, creative); universal settings; smart responsive; Elementor + Gutenberg merged architecture | `banks/elements/` |
+| Theme prototype | Skeleton base + VSN sections; tokens, element defaults, smart responsive, Heading/Button/Product card/Group/Global component; Theme Check 0; responsive verified at 9 widths | `theme/`, `docs/prototype-element-system.md`, `docs/adr/0001-*` |
+
+### Team rules added in this period (see AGENTS.md)
+9 Figma AI images, Full HD · 10 never remove a Shopify option; Shopify → free Shopify app → VSN app ·
+11 no minimalist demos · 12 quick view, wishlist, compare, promotions on every demo · 13 blog posts +
+sharing in every design · 14 nothing may be cut (clipping audit = 0) · 15 global element library,
+demos by settings only, smart responsive 2448–320, Elementor + Gutenberg merged.
+
+### Open items when we restart (in order)
+1. **Full HD images** — Figma AI credits reset 2026-11-04 11:17 UTC (a reminder is scheduled in the original
+   session for 11:30 UTC). Regenerate the 22 images in Full HD, swap hashes on the 24 screens
+   (`banks/design/specs/gen-z-store/source/hashes.json`, `slots.json`), fix lookbook "D14" marking, update
+   `banks/design/image-log.json` (width/height/full_hd), re-run the clipping audit.
+2. **Design approval** of Afterhours by the team → `vsn.py approve 6 "<name>"` → `vsn.py advance` (Stage 7).
+3. **Shopify development store via GitHub integration (team decision, rule 16)** — merge PR #1 into `main`,
+   run the "Theme → shopify-theme branch" workflow once, install the Shopify GitHub app for the org, then in
+   the dev store connect repo `vsn-super-mart` branch `shopify-theme` (steps in ADR 0002). Then test the
+   prototype in the real theme editor (drag and drop, `visible_if`, nested blocks, real products).
+4. **Element specs** — write full settings for each element (start with those used by Afterhours), then build
+   them with `scripts/gen_vsn_blocks.py` (Stage 0b / Stage 7, core cycle).
+5. Confirm VSN app feature lists (Product Types, Stock Down Sort, Metafields) and decide on the planned
+   `VSN | Wishlist & Compare` app.
+6. Open questions from the brief: liked/disliked brands, deadline, Theme Store vs own channel.
+
+### How to resume
+`python3 scripts/vsn.py status` → read this file → open the prompt for the current stage in `ai/prompts/`.
+Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (render Liquid snippets for tests),
+`scripts/figma-qa-clipping.js` (Figma clipping audit), `scripts/gen_vsn_blocks.py` (element generator).
+
+## 2026-10-21 — All Afterhours screens built + rule 12
+
+**Done**
+- Rule 12: every demo has quick view, wishlist, compare and promotions (wishlist/compare UI in theme, data
+  from planned `vsn-wishlist-compare` VSN app because Theme Store forbids theme-built wishlist).
+- Figma page 25:2 now has 24 screens (19 desktop, 5 mobile); ids in spec → figma.frames. Coverage
+  124/124 options, 39/39 requirements, 19/19 apps.
+- Reused existing Figma AI images (no new generations).
+
+**Waiting**
+- Full HD images: team decided to wait for Figma AI credit reset (2026-11-04 11:17 UTC). A scheduled
+  reminder fires 2026-11-04 11:30 UTC in this session.
+- Design approval (`vsn.py approve 6`).
+
+## 2026-10-21 — Gen-Z / Afterhours designed in Figma (Stage 6, gate pending)
+
+**Done**
+- Stage 5 spec `banks/design/specs/gen-z-store/spec.json`: 114/114 options, 39/39 requirements, 18/18 apps.
+- Figma page "VSN | Super Mart" (25:2): 7 screens — Home, Collection, Product, Cart drawer, Password drop
+  (desktop 1440) + Home, Product (mobile 390). Frame ids in spec → figma.frames. Built from
+  `banks/design/specs/gen-z-store/source/build.py` via html_to_figma (editable layers).
+- 22 Figma AI images (one regenerated) placed into 44 slots; logged in `banks/design/image-log.json`.
+- New team rules added: 9 (Full HD images), 10 (never remove a Shopify option; Shopify → free Shopify app →
+  VSN app → third party; `banks/options/apps.json`), 11 (no minimalist demos, auto-checked).
+
+**Blockers**
+- Images are NOT Full HD (928–1376 px). Figma AI credits ran out; reset 2026-11-04T11:17Z.
+  Options: wait and regenerate with a Full HD model, add Figma AI credits, or upscale (needs team approval).
+- Stage 6 gate also needs human design approval (`vsn.py approve 6`).
+
+**Next**
+- Build remaining screens: search, list collections, page/contact, blog/article, account, 404, gift card,
+  cart page, mobile collection/cart. Then Full HD images, approval, Stage 7.
+- Confirm the feature lists of the VSN apps (Product Types, Stock Down Sort, Metafields).
+
+## 2026-10-21 — Rule added: images via Figma AI
+
+- All images (designs + demo stores) must be generated with Figma AI (`generate_image`) in the Figma file.
+  Added to AGENTS.md (rule 9), CLAUDE.md, WORKFLOW (stages 6 and 9), prompt 6 ("Images"), spec template
+  (`image_brief`), new `banks/design/image-log.json`, and `vsn.py validate` checks the log.
+- Next is unchanged: Stage 1, ask the first niche.
+
+## 2026-10-21 — Bootstrap (Stage 0) complete
+
+**Done**
+- AI workflow: `AGENTS.md`, `CLAUDE.md`, `ai/WORKFLOW.md` (stages 0–9), prompts, templates, slash commands.
+- Research Bank: Theme Store requirements checklist, competitor theme list, 14 niche files (status `seed`).
+- Options Bank: 156 options (shopper / merchant / developer), with Theme Store flags.
+- Design Bank: fingerprint schema, 9 approximate competitor fingerprints, empty registry.
+- `scripts/vsn.py`: status / advance / approve / validate / resolve-options / coverage / check-design / register-design.
+- Figma checked: page "VSN | Super Mart" (25:2) is empty; brand colors taken from the "Product Types" page.
+
+**Next**
+- Stage 1: ask the team which niche goes first (it also builds the core). Suggested: `grocery-supermarket`
+  (matches the "Super Mart" name and is the least crowded premium-theme space).
+
+**Open questions**
+- Theme Store submission vs. own sales channel? (Theme Store forbids wishlist/countdown/Instagram feed and
+  requires exclusivity.)
+- Which niches ship in v1 (suggest 3–4)?
+
+**Known gaps**
+- Niche files are `seed`: several sources are search-result links not yet opened, and paid-theme preset
+  details come from general knowledge. Stage 2 must verify each niche before design.
+- Competitor fingerprints are `approx`; verify against live demos in Stage 4.

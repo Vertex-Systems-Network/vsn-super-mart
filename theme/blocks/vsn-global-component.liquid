@@ -1,0 +1,104 @@
+{% doc %}
+VSN element: Global component (rule 15, architecture.md layer 4). Content and design live in theme
+  settings slot 1-3 and stay synced on every page; each field can be overridden per instance
+  (blank = use the synced value). Self-contained block: callers leave the body empty.
+{% enddoc %}
+{%- liquid
+  assign slot = block.settings.slot
+  case slot
+    when '2'
+      assign g_head = settings.vsn_gc2_heading
+      assign g_text = settings.vsn_gc2_text
+      assign g_label = settings.vsn_gc2_label
+      assign g_link = settings.vsn_gc2_link
+      assign g_var = settings.vsn_gc2_variation
+    when '3'
+      assign g_head = settings.vsn_gc3_heading
+      assign g_text = settings.vsn_gc3_text
+      assign g_label = settings.vsn_gc3_label
+      assign g_link = settings.vsn_gc3_link
+      assign g_var = settings.vsn_gc3_variation
+    else
+      assign g_head = settings.vsn_gc1_heading
+      assign g_text = settings.vsn_gc1_text
+      assign g_label = settings.vsn_gc1_label
+      assign g_link = settings.vsn_gc1_link
+      assign g_var = settings.vsn_gc1_variation
+  endcase
+  assign head = block.settings.o_heading | default: g_head
+  assign text = block.settings.o_text | default: g_text
+  assign label = block.settings.o_label | default: g_label
+  assign link = block.settings.o_link | default: g_link | default: routes.all_products_collection_url
+-%}
+<div
+  id="vsn-{{ block.id }}"
+  class="vsn-gc vsn-gc--{{ g_var }} {{ block.settings.css_class | escape }}"
+  data-vsn-global-slot="{{ slot }}"
+  {{ block.shopify_attributes }}
+>
+  {%- if head != blank -%}<h2 class="vsn-gc__heading">{{ head }}</h2>{%- endif -%}
+  {%- if text != blank -%}<div class="vsn-gc__text">{{ text }}</div>{%- endif -%}
+  {%- if label != blank -%}<a class="vsn-button vsn-button--{{ settings.vsn_button_variation }}" href="{{ link }}"><span>{{ label | escape }}</span></a>{%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "VSN Global component",
+  "settings": [
+    {
+      "type": "select",
+      "id": "slot",
+      "label": "Global component",
+      "options": [
+        {
+          "value": "1",
+          "label": "Global component 1"
+        },
+        {
+          "value": "2",
+          "label": "Global component 2"
+        },
+        {
+          "value": "3",
+          "label": "Global component 3"
+        }
+      ],
+      "default": "1",
+      "info": "Edit the shared content and design in Theme settings \u2192 Global components."
+    },
+    {
+      "type": "header",
+      "content": "Overrides for this page (leave empty to use the shared value)"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "o_heading",
+      "label": "Heading override"
+    },
+    {
+      "type": "richtext",
+      "id": "o_text",
+      "label": "Text override"
+    },
+    {
+      "type": "text",
+      "id": "o_label",
+      "label": "Button label override"
+    },
+    {
+      "type": "url",
+      "id": "o_link",
+      "label": "Button link override"
+    },
+    {
+      "type": "header",
+      "content": "Editing"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "Custom CSS class"
+    }
+  ]
+}
+{% endschema %}

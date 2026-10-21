@@ -1,0 +1,29 @@
+{% doc %}
+  VSN design tokens (rule 15, layer 1) → CSS custom properties on :root.
+  Loads heading and body fonts with font_face (bold/italic variants via font_modify).
+
+  @example
+  {% render 'vsn-tokens' %}
+{% enddoc %}
+{% style %}
+  {{ settings.vsn_font_heading | font_face: font_display: 'swap' }}
+  {{ settings.vsn_font_body | font_face: font_display: 'swap' }}
+  {{ settings.vsn_font_body | font_modify: 'weight', 'bold' | font_face: font_display: 'swap' }}
+  {{ settings.vsn_font_body | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
+  {{ settings.vsn_font_body | font_modify: 'weight', 'bold' | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
+  :root {
+    --vsn-bg: {{ settings.vsn_bg }};
+    --vsn-fg: {{ settings.vsn_fg }};
+    --vsn-surface: {{ settings.vsn_surface }};
+    --vsn-accent: {{ settings.vsn_accent }};
+    --vsn-accent-fg: {{ settings.vsn_accent_fg }};
+    --vsn-muted: {{ settings.vsn_muted }};
+    --vsn-border: {{ settings.vsn_border }};
+    --vsn-sale: {{ settings.vsn_sale }};
+    --vsn-font-heading: {{ settings.vsn_font_heading.family }}, {{ settings.vsn_font_heading.fallback_families }};
+    --vsn-font-heading-weight: {{ settings.vsn_font_heading.weight }};
+    --vsn-font-body: {{ settings.vsn_font_body.family }}, {{ settings.vsn_font_body.fallback_families }};
+    --vsn-radius: {{ settings.vsn_radius }}px;
+    --vsn-motion: {% case settings.vsn_motion %}{% when 'none' %}0ms{% when 'subtle' %}160ms{% else %}240ms{% endcase %};
+  }
+{% endstyle %}

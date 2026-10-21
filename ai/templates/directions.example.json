@@ -1,0 +1,17 @@
+{
+ "niche": "<niche-id>",
+ "chosen": null,
+ "directions": [
+  {
+   "id": "vsn-<niche>-a",
+   "title": "Short name",
+   "moodboard": "2-3 sentences: mood, references in the research bank it draws from, what makes it new.",
+   "fp": {
+    "header_layout": "", "nav_style": "", "hero": "", "product_card": "", "pdp_layout": "",
+    "collection_layout": "", "grid_density": "", "type_pairing": "", "radius": "", "motion": "",
+    "imagery": "", "section_rhythm": ""
+   },
+   "palette": ["#5BC8D6", "#17251B", "#FFFFFF", "#F4F6F8"]
+  }
+ ]
+}

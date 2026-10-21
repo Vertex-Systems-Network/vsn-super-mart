@@ -1,0 +1,3631 @@
+{
+ "version": 1,
+ "updated_at": "2026-10-22",
+ "note": "Element library catalog. 'elementor' says whether Elementor has it (free/pro) or not at all; 'elementor_gap' = what Elementor lacks or limits (from general knowledge + sources in README; verify), 'vsn_extras' = settings VSN adds on top of the universal settings. Every element also gets every group in universal-settings.json.",
+ "elements": [
+  {
+   "id": "container",
+   "name": "Container / Group",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": "flex only per container, no CSS grid areas per breakpoint",
+   "vsn_extras": "flex + grid modes, grid template per breakpoint, sticky, overflow, min-height in vh/svh, full-bleed",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "prototype",
+   "addon_options": [
+    "wrapper link",
+    "equal height",
+    "sticky column",
+    "column reorder per device"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons",
+    "Premium Addons"
+   ],
+   "also_in": [
+    "gutenberg-core"
+   ],
+   "file": "theme/blocks/vsn-group.liquid"
+  },
+  {
+   "id": "grid",
+   "name": "Grid",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": "basic grid, no masonry or bento spans",
+   "vsn_extras": "bento spans per item, masonry, auto-fit/auto-fill, dense packing, per-breakpoint columns",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "prototype",
+   "also_in": [
+    "gutenberg-core"
+   ],
+   "file": "theme/blocks/vsn-group.liquid"
+  },
+  {
+   "id": "columns",
+   "name": "Columns / Row",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "reverse order per breakpoint, equal height, gap scale",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "section-wrapper",
+   "name": "Section wrapper",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "color scheme, background media, divider shapes, padding scale, full-bleed toggle",
+   "shopify_source": "section",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "prototype",
+   "file": "theme/sections/vsn-section.liquid"
+  },
+  {
+   "id": "spacer",
+   "name": "Spacer",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "fluid height (clamp), hide per breakpoint",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "divider",
+   "name": "Divider",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "text/icon in divider, gradient, wave/zigzag styles",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "animated shape dividers",
+    "image separator",
+    "text/icon divider"
+   ],
+   "addon_sources": [
+    "The Plus Addons",
+    "Happy Addons",
+    "Premium Addons",
+    "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "tabs",
+   "name": "Tabs",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": "no URL deep link, no scrollable tab bar on mobile",
+   "vsn_extras": "vertical/horizontal, scrollable bar, deep link via hash, lazy content, accordion on mobile",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "visual image tabs",
+    "nested tabs",
+    "vertical tabs",
+    "loop tab autoplay"
+   ],
+   "addon_sources": [
+    "Happy Addons",
+    "Crocoblock JetTabs"
+   ]
+  },
+  {
+   "id": "accordion",
+   "name": "Accordion / Toggle",
+   "category": "layout",
+   "elementor": "elementor-free",
+   "elementor_gap": "no FAQ schema output",
+   "vsn_extras": "FAQ JSON-LD, open first, multiple open, icon styles, deep link",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "hover accordion",
+    "toggle mode",
+    "nested"
+   ],
+   "addon_sources": [
+    "Happy Addons",
+    "Crocoblock JetTabs"
+   ],
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "popup",
+   "name": "Popup / Modal",
+   "category": "layout",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro only",
+   "vsn_extras": "trigger: delay, scroll %, exit intent, click, page rules, frequency cap, Shopify Forms block inside",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "trigger on exit/scroll/time",
+    "lightbox modal"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons"
+   ]
+  },
+  {
+   "id": "drawer",
+   "name": "Drawer / Off-canvas",
+   "category": "layout",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "Elementor has no generic drawer",
+   "vsn_extras": "left/right/bottom sheet, swipe to close, focus trap",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "off-canvas content from any side"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "PowerPack"
+   ]
+  },
+  {
+   "id": "sticky-bar",
+   "name": "Sticky bar",
+   "category": "layout",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "top/bottom, show after scroll, hide on scroll down, safe-area aware",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "heading",
+   "name": "Heading",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": "no outline/gradient text, no fluid size, no split-letter animation",
+   "vsn_extras": "fluid size, outline (stroke) text, gradient/image fill, highlight marker, split-letter/word animation, rotating words",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "prototype",
+   "addon_options": [
+    "dual/two-color heading",
+    "gradient text",
+    "image/video masked text",
+    "advanced typography split"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "Premium Addons",
+    "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
+   ],
+   "file": "theme/blocks/vsn-heading.liquid"
+  },
+  {
+   "id": "text",
+   "name": "Text / Rich text",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "column count, drop cap, max-width in ch, link styles, metafield source",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "button",
+   "name": "Button",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": "one style per button, limited icon control",
+   "vsn_extras": "variants (primary/secondary/ghost/link), size scale, icon left/right/only, magnetic hover, loading state, full width per breakpoint",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "prototype",
+   "addon_options": [
+    "creative hover styles",
+    "marketing button with subtext",
+    "dual button",
+    "image button",
+    "link hover effects"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
+   ],
+   "file": "theme/blocks/vsn-button.liquid"
+  },
+  {
+   "id": "button-group",
+   "name": "Button group",
+   "category": "basic",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "stack on mobile, equal width",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "image",
+   "name": "Image",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": "no art direction per breakpoint",
+   "vsn_extras": "art direction (different image per breakpoint), focal point, aspect ratio per breakpoint, lazy/eager, hover zoom, parallax",
+   "shopify_source": "image_url, image_tag",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "image swap on hover",
+    "masking/morphing shapes",
+    "hover effects",
+    "random image",
+    "zoom magnifier"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "video",
+   "name": "Video",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "Shopify-hosted video, YouTube/Vimeo, autoplay muted, poster, play/pause control, captions",
+   "shopify_source": "video_tag",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "icon",
+   "name": "Icon",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "icon library + custom SVG upload, stroke width, size scale",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "Lottie-based animated icons (Lord Icon)",
+    "custom icon packs"
+   ],
+   "addon_sources": [
+    "Happy Addons",
+    "ElementsKit"
+   ]
+  },
+  {
+   "id": "icon-box",
+   "name": "Icon box / Feature",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "layouts (top/left/inline), link whole box",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "icon-list",
+   "name": "Icon list",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "columns, dividers, per-item colors",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "image-box",
+   "name": "Image box",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "overlay text, hover reveal",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "badge",
+   "name": "Badge / Tag",
+   "category": "basic",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "static or dynamic (sale %, new, metafield)",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "link-list",
+   "name": "Link list",
+   "category": "basic",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "from Shopify menu, columns",
+   "shopify_source": "linklists",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "html",
+   "name": "Custom Liquid / HTML",
+   "category": "basic",
+   "elementor": "elementor-free",
+   "elementor_gap": "HTML only",
+   "vsn_extras": "Custom Liquid (required by Theme Store)",
+   "shopify_source": "liquid",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "gallery",
+   "name": "Gallery",
+   "category": "media",
+   "elementor": "elementor-free",
+   "elementor_gap": "basic grid",
+   "vsn_extras": "masonry, justified, lightbox, filter tabs",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "filterable categories",
+    "justified layout",
+    "albums",
+    "dynamic source"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Happy Addons",
+    "PowerPack",
+    "The Plus Addons"
+   ],
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "slider",
+   "name": "Slider / Carousel",
+   "category": "media",
+   "elementor": "elementor-pro",
+   "elementor_gap": "limited per-breakpoint control",
+   "vsn_extras": "slides per breakpoint, peek, loop, autoplay, snap, thumbnails, progress bar, fraction, drag",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "carousel remote control",
+    "card slider",
+    "ken burns",
+    "3D flip carousel"
+   ],
+   "addon_sources": [
+    "The Plus Addons",
+    "PowerPack",
+    "Premium Addons",
+    "Essential Addons"
+   ]
+  },
+  {
+   "id": "media-carousel",
+   "name": "Media carousel",
+   "category": "media",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "mixed image/video, coverflow",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "before-after",
+   "name": "Before / after",
+   "category": "media",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "drag handle, vertical/horizontal, labels",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "lottie",
+   "name": "Lottie animation",
+   "category": "media",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "play on scroll/hover/loop",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "model-3d",
+   "name": "3D / AR viewer",
+   "category": "media",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "Shopify 3D models, AR quick look",
+   "shopify_source": "model_viewer_tag",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "background-video",
+   "name": "Background video",
+   "category": "media",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "mobile fallback image, pause control",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "background slideshow transitions"
+   ],
+   "addon_sources": [
+    "Premium Addons"
+   ]
+  },
+  {
+   "id": "image-hotspots",
+   "name": "Image hotspots",
+   "category": "media",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro only, not shoppable",
+   "vsn_extras": "shoppable hotspots (product card on hover/tap)",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "tooltip triggers and pulse animations"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)",
+    "Premium Addons",
+    "PowerPack"
+   ]
+  },
+  {
+   "id": "marquee",
+   "name": "Marquee / Ticker",
+   "category": "media",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor core",
+   "vsn_extras": "text or logos, speed, direction, pause on hover, outline text, reduced-motion static",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "news/content ticker with label and arrows",
+    "textual showcase"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Happy Addons",
+    "Premium Addons",
+    "PowerPack"
+   ]
+  },
+  {
+   "id": "scroll-video",
+   "name": "Scroll-scrub video",
+   "category": "media",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "video progress tied to scroll",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "animated-headline",
+   "name": "Animated headline",
+   "category": "creative",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "typewriter, rotate, highlight shapes",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "typing, rotating, highlighted styles",
+    "GSAP text scroll reveal"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons",
+    "Premium Addons",
+    "ElementsKit"
+   ]
+  },
+  {
+   "id": "text-path",
+   "name": "Text on path",
+   "category": "creative",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "circle/wave, rotating",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "kinetic-type",
+   "name": "Kinetic typography",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "scroll-driven scale/skew, variable font axis",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sticker-layer",
+   "name": "Sticker / collage layer",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "draggable stickers, tape, rotation, z-order (Gen-Z collage)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "grain-overlay",
+   "name": "Grain / texture overlay",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "noise, paper, halftone, opacity",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "glitch-text",
+   "name": "Glitch text",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "intensity, hover only, reduced-motion off",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "tilt-card",
+   "name": "3D tilt card",
+   "category": "creative",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "tilt amount, glare, touch off",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "global mouse-hover parallax",
+    "floating effects"
+   ],
+   "addon_sources": [
+    "The Plus Addons",
+    "Happy Addons",
+    "Premium Addons"
+   ]
+  },
+  {
+   "id": "flip-box",
+   "name": "Flip box",
+   "category": "creative",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "flip direction, 3D depth",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "announcement-bar",
+   "name": "Announcement bar",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "rotating or marquee, links, schedule start/end, market targeting",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "promo-banner",
+   "name": "Promo banner",
+   "category": "promo",
+   "elementor": "elementor-pro",
+   "elementor_gap": "CTA widget only",
+   "vsn_extras": "layouts (split/overlay/card), schedule, market targeting, discount code display",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sale-campaign",
+   "name": "Sale campaign",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "real start/end dates as text, collection link, % off",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "countdown",
+   "name": "Countdown (real date)",
+   "category": "promo",
+   "elementor": "elementor-pro",
+   "elementor_gap": "allows fake evergreen timers",
+   "vsn_extras": "only real end dates, auto-hide after end (extras track for Theme Store)",
+   "shopify_source": null,
+   "store_allowed": false,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "evergreen per-visitor timer"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)"
+   ]
+  },
+  {
+   "id": "free-shipping-bar",
+   "name": "Free shipping bar",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "threshold per market/currency, progress, message states",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "newsletter",
+   "name": "Newsletter signup",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "needs Pro Forms",
+   "vsn_extras": "Shopify customer form, tags (early access), success/error states",
+   "shopify_source": "form",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "Mailchimp direct integration"
+   ],
+   "addon_sources": [
+    "The Plus Addons",
+    "Happy Addons",
+    "ElementsKit"
+   ]
+  },
+  {
+   "id": "cta",
+   "name": "Call to action",
+   "category": "promo",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "media + text + buttons, ribbon",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "price-table",
+   "name": "Price table",
+   "category": "promo",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "for bundles / memberships",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "multi-column table",
+    "pricing slider",
+    "feature tooltips"
+   ],
+   "addon_sources": [
+    "Essential Addons"
+   ]
+  },
+  {
+   "id": "trust-badges",
+   "name": "Trust badges",
+   "category": "promo",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "icons + text, payment icons auto",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "testimonial",
+   "name": "Testimonial / Quote",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "carousel, rating, avatar, product link",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "carousel",
+    "hover grid"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Happy Addons"
+   ]
+  },
+  {
+   "id": "reviews",
+   "name": "Reviews (app slot)",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "rating summary + app block slot (Judge.me, Shopify-compatible apps)",
+   "shopify_source": "app block",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "Google/Yelp/Facebook business review sources",
+    "review schema"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)",
+    "ElementsKit",
+    "Premium Addons",
+    "PowerPack"
+   ]
+  },
+  {
+   "id": "ugc-video",
+   "name": "UGC video strip",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "merchant-uploaded vertical videos, shoppable tag",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "share-buttons",
+   "name": "Share buttons",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro only",
+   "vsn_extras": "copy link, WhatsApp, X, Facebook, Pinterest, native share, product/article url",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "social-icons",
+   "name": "Social icons",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "from theme social settings",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "blog-posts",
+   "name": "Blog posts",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro posts widget",
+   "vsn_extras": "grid/list/carousel, filter by tag, excerpt length",
+   "shopify_source": "blog",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "table",
+   "name": "Table",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor core",
+   "vsn_extras": "from metafields/metaobjects, sticky header, responsive stack",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "sortable/searchable/paginated data table",
+    "CSV import"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "timeline",
+   "name": "Timeline",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor core",
+   "vsn_extras": "vertical/horizontal, media per step",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "horizontal timeline",
+    "scroll-progress line"
+   ],
+   "addon_sources": [
+    "Happy Addons",
+    "Essential Addons"
+   ]
+  },
+  {
+   "id": "counter",
+   "name": "Counter",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "start on view, suffix/prefix",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "funfact style with icon",
+    "suffix/prefix animation"
+   ],
+   "addon_sources": [
+    "ElementsKit",
+    "Ultimate Addons (UAE)"
+   ]
+  },
+  {
+   "id": "progress-bar",
+   "name": "Progress bar",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": null,
+   "vsn_extras": "from metafield value",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "circle progress",
+    "skill bars",
+    "pie progress"
+   ],
+   "addon_sources": [
+    "Happy Addons",
+    "JetElements",
+    "The Plus Addons"
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "FAQ (with schema)",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "accordion without schema",
+   "vsn_extras": "FAQ JSON-LD, search inside FAQ",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "FAQ schema output"
+   ],
+   "addon_sources": [
+    "Ultimate Addons (UAE)",
+    "PowerPack"
+   ]
+  },
+  {
+   "id": "map",
+   "name": "Map / Store locator",
+   "category": "content",
+   "elementor": "elementor-free",
+   "elementor_gap": "single Google map",
+   "vsn_extras": "multiple stores, hours, directions links",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "logo-list",
+   "name": "Logo / press list",
+   "category": "content",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "grid or marquee, grayscale hover",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "carousel",
+    "grayscale/CSS filter hover"
+   ],
+   "addon_sources": [
+    "The Plus Addons",
+    "Happy Addons",
+    "PowerPack"
+   ]
+  },
+  {
+   "id": "breadcrumbs",
+   "name": "Breadcrumbs",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "Shopify routes, schema",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "table-of-contents",
+   "name": "Table of contents",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "for articles, sticky",
+   "shopify_source": "article",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "author-box",
+   "name": "Author box",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "article author",
+   "shopify_source": "article",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "contact-form",
+   "name": "Contact form",
+   "category": "content",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro Forms",
+   "vsn_extras": "Shopify contact form, fields builder",
+   "shopify_source": "form",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "header-builder",
+   "name": "Header builder",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Theme Builder Pro",
+   "vsn_extras": "rows (top/main/bottom), any element in any slot, transparent/sticky per page, different mobile header",
+   "shopify_source": "section group",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "mega-menu",
+   "name": "Mega menu",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Pro, limited product content",
+   "vsn_extras": "columns, images, product cards, promo tiles from menu metafields",
+   "shopify_source": "linklists",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "vertical mega menu",
+    "slide menu"
+   ],
+   "addon_sources": [
+    "ElementsKit",
+    "PowerPack"
+   ]
+  },
+  {
+   "id": "mobile-menu",
+   "name": "Mobile menu drawer",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": null,
+   "vsn_extras": "nested slide, featured promo, account links",
+   "shopify_source": "linklists",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "bottom-nav",
+   "name": "Mobile bottom navigation",
+   "category": "navigation",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "4-5 items, cart count, safe-area",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "predictive-search",
+   "name": "Predictive search",
+   "category": "navigation",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "products, collections, pages, articles, suggestions",
+   "shopify_source": "predictive_search",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "AJAX results with filters"
+   ],
+   "addon_sources": [
+    "Premium Addons",
+    "The Plus Addons"
+   ]
+  },
+  {
+   "id": "localization",
+   "name": "Country / language selector",
+   "category": "navigation",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "Shopify Markets",
+   "shopify_source": "localization",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "account-link",
+   "name": "Account link",
+   "category": "navigation",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "shopify-account component, Sign in with Shop",
+   "shopify_source": "customer",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cart-icon",
+   "name": "Cart icon + count",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Menu Cart Woo only",
+   "vsn_extras": "live count, opens drawer",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "footer-builder",
+   "name": "Footer builder",
+   "category": "navigation",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Theme Builder Pro",
+   "vsn_extras": "columns of any elements",
+   "shopify_source": "section group",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "copyright widget with dynamic year"
+   ],
+   "addon_sources": [
+    "Ultimate Addons (UAE)",
+    "ElementsKit"
+   ]
+  },
+  {
+   "id": "product-card",
+   "name": "Product card",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "Woo-only, few layouts",
+   "vsn_extras": "layouts (overlay/minimal/detailed/horizontal), second image, swatches, sizes, badges, quick add, quick view, wishlist, compare",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "prototype",
+   "file": "theme/blocks/vsn-product-card.liquid"
+  },
+  {
+   "id": "product-grid",
+   "name": "Product grid / rail",
+   "category": "commerce",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Woo products widget",
+   "vsn_extras": "collection/recommendation/manual source, grid or rail, promo tile slot, load more",
+   "shopify_source": "collection",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "product-gallery",
+   "name": "Product media gallery",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "thumbs/stacked/grid/carousel, zoom, video, 3D, variant image filter",
+   "shopify_source": "product.media",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "product-title",
+   "name": "Product title",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "vendor, rating inline",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "price",
+   "name": "Price",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "compare-at, % off, unit price, taxes note, installments (Shop Pay)",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "variant-picker",
+   "name": "Variant picker",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "buttons, dropdown, color/image swatches, combined listings, sold-out styles",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "quantity",
+   "name": "Quantity selector",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "quantity rules (B2B), stepper styles",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "buy-buttons",
+   "name": "Buy buttons",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "add to cart, accelerated checkout, gift card recipient, selling plans",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "selling-plans",
+   "name": "Subscription / selling plans",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Shopify Subscriptions",
+   "shopify_source": "selling_plan",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "pickup",
+   "name": "Pickup availability",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "store list drawer",
+   "shopify_source": "pickup",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "inventory",
+   "name": "Inventory status",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "real stock only (in stock / low / sold out)",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "size-guide",
+   "name": "Size guide",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "drawer, cm/inch toggle, metaobject table",
+   "shopify_source": "metaobject",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "fit-info",
+   "name": "Fit info",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "model height/size, fit type",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "back-in-stock",
+   "name": "Back in stock (app slot)",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "notify link + app block",
+   "shopify_source": "app block",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "complementary",
+   "name": "Complementary products",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Search & Discovery",
+   "shopify_source": "recommendations",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "recommendations",
+   "name": "Related products",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Search & Discovery",
+   "shopify_source": "recommendations",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "recently-viewed",
+   "name": "Recently viewed",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "local history",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "bundle",
+   "name": "Bundle / buy together",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Shopify Bundles display",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "shop-the-look",
+   "name": "Shop the look",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "hotspots + product list",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "quick-view",
+   "name": "Quick view",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "modal with gallery, picker, buy buttons, share",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sticky-atc",
+   "name": "Sticky add to cart",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "desktop bar / mobile bottom",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "metafield-block",
+   "name": "Metafield / metaobject field",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "ACF-like via Pro dynamic tags",
+   "vsn_extras": "any metafield type rendered",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "spec-table",
+   "name": "Specifications table",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "from metafields, compare-ready",
+   "shopify_source": "metafield",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "nutrition",
+   "name": "Ingredients / nutrition",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "metaobject list, allergens",
+   "shopify_source": "metaobject",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "volume-pricing",
+   "name": "Volume pricing (B2B)",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "quantity price breaks",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "quick-order",
+   "name": "Quick order list (B2B)",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "variant table with quantities",
+   "shopify_source": "product",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "facets",
+   "name": "Filters (facets)",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "sidebar/drawer/horizontal, swatch filters, price slider",
+   "shopify_source": "filters",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sort",
+   "name": "Sort",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "dropdown or pills",
+   "shopify_source": "collection",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "collection-banner",
+   "name": "Collection banner",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "image, description, subcollection pills",
+   "shopify_source": "collection",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "collection-list",
+   "name": "Collection list / tiles",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "grid, rail, circles, bento",
+   "shopify_source": "collections",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "category carousel",
+    "taxonomy tiles"
+   ],
+   "addon_sources": [
+    "Happy Addons",
+    "Crocoblock JetWooBuilder"
+   ]
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer",
+   "category": "commerce",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Woo mini cart",
+   "vsn_extras": "upsell, free shipping bar, notes, discounts, selling plans, accelerated checkout",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "off-canvas mini cart"
+   ],
+   "addon_sources": [
+    "PowerPack",
+    "Ultimate Addons (UAE)"
+   ]
+  },
+  {
+   "id": "cart-lines",
+   "name": "Cart line items",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "edit qty, variants, bundles, discounts",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cart-summary",
+   "name": "Cart summary",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "discounts, taxes note, checkout + wallets",
+   "shopify_source": "cart",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "gift-card",
+   "name": "Gift card display",
+   "category": "commerce",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "QR, Apple Wallet",
+   "shopify_source": "gift_card",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "wishlist",
+   "name": "Wishlist button + page",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "heart on card/product/quick view, page, share list (data: VSN app)",
+   "shopify_source": "app",
+   "store_allowed": false,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "compare",
+   "name": "Compare toggle + bar + page",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "compare bar, spec rows, only differences (data: VSN app)",
+   "shopify_source": "app",
+   "store_allowed": false,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "drop-release",
+   "name": "Drop release",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": "not in Elementor",
+   "vsn_extras": "upcoming/live/sold-out states, real date, early access form",
+   "shopify_source": "collection",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "early-access-gate",
+   "name": "Early access gate",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "password page / tag-based access",
+   "shopify_source": "customer",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "addon_options": [
+    "password protected content block"
+   ],
+   "addon_sources": [
+    "Essential Addons",
+    "The Plus Addons",
+    "ElementsKit"
+   ]
+  },
+  {
+   "id": "age-gate",
+   "name": "Age verification",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "remember choice, market rules",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cookie-banner",
+   "name": "Cookie consent",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "Customer Privacy API",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "follow-on-shop",
+   "name": "Follow on Shop",
+   "category": "engagement",
+   "elementor": "not-in-elementor",
+   "elementor_gap": null,
+   "vsn_extras": "login_button filter",
+   "shopify_source": "shop",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "tooltip",
+   "name": "Tooltip",
+   "category": "basic",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Hover/tap hint bubble attached to any element or icon",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "data-chart",
+   "name": "Data Chart",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "JetElements",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Bar/line/pie/radar charts from entered data",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "content-switcher",
+   "name": "Content Switcher",
+   "category": "layout",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Two-state toggle swapping between content panels (e.g. monthly/yearly)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "business-hours",
+   "name": "Business Hours",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Ultimate Addons (UAE)",
+    "ElementsKit",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Opening-hours table with today highlight",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "team-member",
+   "name": "Team Member",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "JetElements",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Person card with photo, role, bio and social links; carousel variant",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "image-accordion",
+   "name": "Image Accordion",
+   "category": "media",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Image panels that expand on hover/click to reveal captions and links",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "scrolling-image",
+   "name": "Scrolling Image",
+   "category": "media",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Happy Addons",
+    "Premium Addons",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Tall image that pans inside a frame on hover/scroll (page/screenshot preview)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "price-menu",
+   "name": "Price Menu / Price List",
+   "category": "commerce",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "ElementsKit",
+    "PowerPack",
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Menu-style list of items with dotted leader and price",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "process-steps",
+   "name": "Process Steps",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Numbered step sequence with connectors (how it works)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "how-to-steps",
+   "name": "How-To (Schema)",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Ultimate Addons (UAE)",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Instruction steps with HowTo structured data",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "feature-list",
+   "name": "Feature List",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Icon-connected vertical/horizontal feature list with styled bullets",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "comparison-table",
+   "name": "Comparison Table",
+   "category": "commerce",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Happy Addons",
+    "ElementsKit"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Us-vs-them / plan feature matrix with check and cross marks",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "one-page-nav",
+   "name": "One-Page Dot Navigation",
+   "category": "navigation",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons",
+    "ElementsKit"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Fixed dots/labels that jump to page sections and track the active one",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "scroll-to-top",
+   "name": "Scroll To Top",
+   "category": "navigation",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "ElementsKit"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Floating back-to-top button",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "reading-progress",
+   "name": "Reading Progress Bar",
+   "category": "navigation",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Page-top bar showing scroll progress",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "customer-login",
+   "name": "Login / Register Form",
+   "category": "engagement",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Ultimate Addons (UAE)",
+    "ElementsKit"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Inline customer sign-in, sign-up and password reset form (Shopify customer accounts)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "coupon-reveal",
+   "name": "Coupon Code Reveal",
+   "category": "promo",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons",
+    "ElementsKit",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Click-to-reveal or copy discount code card",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "interactive-circle",
+   "name": "Interactive Circle",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Items arranged in a circle; selecting one shows its content in the centre",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "image-layers",
+   "name": "Image Layers / Stack",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Premium Addons",
+    "Happy Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Stacked positioned images with independent parallax/hover motion",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "spin-360",
+   "name": "360 Viewer",
+   "category": "media",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Happy Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Drag-to-rotate image sequence for products",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "svg-draw",
+   "name": "SVG Line Draw",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Animates an SVG stroke being drawn on scroll",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "custom-cursor",
+   "name": "Custom Cursor",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Replaces the pointer with a styled/follow cursor in a section",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "particles-bg",
+   "name": "Particles Background",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Animated particle field behind a section",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "parallax-layers",
+   "name": "Multi-layer Parallax",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Background/foreground layers moving at different speeds on scroll/mouse",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "horizontal-scroll",
+   "name": "Horizontal Scroll Section",
+   "category": "layout",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons",
+    "Happy Addons",
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Vertical scroll drives a horizontally moving track of panels",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "stacked-cards",
+   "name": "Stacked Cards",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Happy Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Cards pin and stack over each other while scrolling",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "image-trail",
+   "name": "Image Trail",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Happy Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Images spawn and fade along the cursor path",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "glass-effect",
+   "name": "Liquid / Glass Morphism",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Frosted/liquid glass styling layer for containers",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "device-mockup",
+   "name": "Device Mockup",
+   "category": "media",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Wraps an image/video in a phone, laptop or tablet frame",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "page-transition",
+   "name": "Preloader & Page Transitions",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Loading screen and animated transitions between pages",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "audio-player",
+   "name": "Audio Player",
+   "category": "media",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons",
+    "ElementsKit",
+    "JetElements"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Styled audio/MP3 player with playlist",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
+  },
+  {
+   "id": "video-gallery",
+   "name": "Video Gallery / Playlist",
+   "category": "media",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Ultimate Addons (UAE)",
+    "ElementsKit",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Grid of video thumbnails with filters that open in lightbox",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "chat-button",
+   "name": "Floating Chat Button",
+   "category": "engagement",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Floating WhatsApp/Messenger contact button",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "hover-reveal-card",
+   "name": "Hover Reveal Card",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Premium Addons",
+    "Happy Addons",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Card that reveals text/CTA with 3D or iHover-style transitions",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "read-more",
+   "name": "Unfold / Read More",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Clamped content with expand/collapse control",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "notice-box",
+   "name": "Alert / Message Box",
+   "category": "basic",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons",
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Dismissible info/success/warning notice or toast",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "drop-cap",
+   "name": "Drop Cap",
+   "category": "basic",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "ElementsKit"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Large styled first letter for editorial text",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "event-calendar",
+   "name": "Event Calendar",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "Happy Addons",
+    "ElementsKit",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Calendar/list of upcoming events (launches, pop-ups, workshops)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "recipe",
+   "name": "Recipe Card",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Recipe with ingredients, steps, times and schema",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "conditional-display",
+   "name": "Conditional Display",
+   "category": "layout",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Ultimate Addons (UAE)",
+    "ElementsKit",
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Show/hide any block by device, login, customer tag, date, etc.",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "theme-toggle",
+   "name": "Dark Mode Toggle",
+   "category": "basic",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Visitor switch between light and dark color schemes",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "animated-gradient",
+   "name": "Animated Gradient / Blob",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Moving gradient or morphing blob backgrounds",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "dropping-elements",
+   "name": "Physics Drop Elements",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Happy Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Items fall and pile with physics on view",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "split-scroll",
+   "name": "Multi / Split Scroll",
+   "category": "layout",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Happy Addons",
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Two columns scrolling in opposite directions",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "fullpage-scroll",
+   "name": "Full-Page Scroll",
+   "category": "layout",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons",
+    "ElementsKit"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Snaps one full-viewport section per scroll step",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "floating-action-menu",
+   "name": "Floating Circle Menu",
+   "category": "navigation",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons",
+    "ElementsKit"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Floating button that fans out icon links",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "confetti",
+   "name": "Confetti / Party Effect",
+   "category": "creative",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Ultimate Addons (UAE)"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Confetti burst on load or click for celebrations",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "image-sequence-scroll",
+   "name": "Image Sequence Scroll",
+   "category": "media",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "The Plus Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Frame-by-frame image sequence scrubbed by scroll (Apple-style)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "social-feed",
+   "name": "Social Feed Embed",
+   "category": "engagement",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Essential Addons",
+    "The Plus Addons",
+    "Ultimate Addons (UAE)",
+    "Happy Addons",
+    "ElementsKit",
+    "Premium Addons",
+    "JetElements",
+    "PowerPack"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Instagram/Facebook/TikTok/X feed grid",
+   "shopify_source": null,
+   "store_allowed": false,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "activity-popup",
+   "name": "Recent Activity Popup",
+   "category": "promo",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Pop-up notifications of recent posts/activity (sales-pop pattern)",
+   "shopify_source": null,
+   "store_allowed": false,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "preview-window",
+   "name": "Preview Window",
+   "category": "content",
+   "elementor": "third-party-addon",
+   "found_in": [
+    "Premium Addons"
+   ],
+   "elementor_gap": "not in Elementor core/pro; only in third-party addons",
+   "vsn_extras": "Hover a trigger to show a floating preview card",
+   "shopify_source": null,
+   "store_allowed": true,
+   "relevant_for_shopify": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "paragraph",
+   "name": "Paragraph",
+   "category": "basic",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "core paragraph with drop cap",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "list",
+   "name": "List (ordered / unordered)",
+   "category": "basic",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "nested lists, custom markers, start number",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "quote",
+   "name": "Quote / Pullquote",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "quote + pullquote styles, citation, large display",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "code",
+   "name": "Code / Preformatted",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "code block with copy button",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "poem",
+   "name": "Verse / Poem",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "preserved line breaks, typographic styles",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "footnotes",
+   "name": "Footnotes",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "article footnotes",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "file",
+   "name": "File download",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "download button for PDFs (size guides, manuals)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "media-text",
+   "name": "Media and text",
+   "category": "basic",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "image/video beside text, stack on mobile, ratio control",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cover",
+   "name": "Cover",
+   "category": "layout",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "image/video background with overlay and content, min height, focal point",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "logo",
+   "name": "Site logo",
+   "category": "navigation",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "logo with any ratio, sticky size, inverted version",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "site-title",
+   "name": "Site title / tagline",
+   "category": "navigation",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "shop name and tagline from shop settings",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "loop-grid",
+   "name": "Loop grid (query loop)",
+   "category": "layout",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "repeat any element template over products, articles, collections or metaobjects",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "comments",
+   "name": "Comments",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "article comments with form, pagination, states",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "search-form",
+   "name": "Search form",
+   "category": "navigation",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "inline search form (non-predictive fallback)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "tag-list",
+   "name": "Tags / terms list",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "article or product tags as chips/links",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "archive-list",
+   "name": "Blog archive",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "articles by month or tag",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "pagination",
+   "name": "Pagination",
+   "category": "navigation",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "numbered, load more, infinite",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "details",
+   "name": "Details / disclosure",
+   "category": "layout",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "single native details/summary toggle",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "embed",
+   "name": "Embed",
+   "category": "media",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "YouTube, Vimeo, Spotify, SoundCloud, TikTok post via oEmbed-style input",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "math",
+   "name": "Math formula",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "formula display for spec content",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "avatar",
+   "name": "Avatar",
+   "category": "basic",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "customer or author avatar / initials",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "row-stack",
+   "name": "Row / Stack",
+   "category": "layout",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "flex row or stack with fill/fixed children (Gutenberg Row/Stack)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "global-component",
+   "name": "Global component",
+   "category": "layout",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Elementor global widget has no per-instance content; Gutenberg overrides limited to a few blocks",
+   "vsn_extras": "synced content + design from theme settings slots, any field overridable per instance",
+   "shopify_source": "settings",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "prototype",
+   "file": "theme/blocks/vsn-global-component.liquid"
+  }
+ ],
+ "addon_research": {
+  "addons": [
+   {
+    "name": "Essential Addons",
+    "url": "https://wordpress.org/plugins/essential-addons-for-elementor-lite/",
+    "widget_count_claimed": "120+ (page also says 60+ free, 50+ pro, 11+ Woo)",
+    "notable_widgets": [
+     "Interactive Circle",
+     "Stacked Cards",
+     "360 Degree Photo Viewer",
+     "Image Scroller",
+     "Content Ticker",
+     "Woo Product Compare",
+     "Offcanvas",
+     "Protected Content",
+     "Fancy Chart",
+     "Pricing Slider",
+     "SVG Draw",
+     "Reading Progress Bar",
+     "Custom Cursor",
+     "Image Masking with Morphing"
+    ]
+   },
+   {
+    "name": "The Plus Addons",
+    "url": "https://wordpress.org/plugins/the-plus-addons-for-elementor-page-builder/",
+    "widget_count_claimed": "120+ (35+ free, 75+ premium)",
+    "notable_widgets": [
+     "Message Box & Toast",
+     "Dynamic Devices Mockup",
+     "Image Scroll Sequence",
+     "Carousel Remote",
+     "Unfold",
+     "Switcher",
+     "Process/Steps",
+     "Circle Floating Icon Menu",
+     "Preloader & Page Transitions",
+     "Horizontal Scroll",
+     "Dark Mode",
+     "Coupon Code",
+     "Mp3 Audio Player",
+     "Morphing Sections"
+    ]
+   },
+   {
+    "name": "Ultimate Addons (UAE)",
+    "url": "https://wordpress.org/plugins/header-footer-elementor/",
+    "widget_count_claimed": "18+ free, 50+ pro",
+    "notable_widgets": [
+     "Business Hours",
+     "Content Toggle",
+     "Marketing Button",
+     "Multi Buttons",
+     "Price List",
+     "How-To Schema",
+     "FAQ Schema",
+     "Party Propz",
+     "Welcome Music",
+     "Video Gallery",
+     "Login/Registration Form",
+     "Woo Mini Cart"
+    ]
+   },
+   {
+    "name": "Happy Addons",
+    "url": "https://wordpress.org/plugins/happy-elementor-addons/",
+    "widget_count_claimed": "160 (70+ free, 75+ pro)",
+    "notable_widgets": [
+     "Image Trail",
+     "Dropping Elements",
+     "Image Stack Group",
+     "Content Switcher",
+     "Comparison Table",
+     "Skill Bars",
+     "Liquid Hover Image",
+     "Lord Icon",
+     "WhatsApp Button",
+     "Multi Scroll",
+     "Single Image Scroll",
+     "Image Swap",
+     "Charts (line/pie/radar/polar)",
+     "Sticky Pin Elements"
+    ]
+   },
+   {
+    "name": "ElementsKit",
+    "url": "https://wordpress.org/plugins/elementskit-lite/",
+    "widget_count_claimed": "100+ widgets, 20+ modules (50+ free)",
+    "notable_widgets": [
+     "Funfact",
+     "Drop Caps",
+     "Business Hours",
+     "Zoom",
+     "Image Morphing",
+     "Interactive Links",
+     "Coupon Code",
+     "Audio Player",
+     "Vertical Mega Menu",
+     "Circle Menu",
+     "Header Info",
+     "Facebook Messenger"
+    ]
+   },
+   {
+    "name": "Premium Addons",
+    "url": "https://wordpress.org/plugins/premium-addons-for-elementor/",
+    "widget_count_claimed": "90+ (85 entries listed)",
+    "notable_widgets": [
+     "Image Layers",
+     "Preview Window",
+     "Alert Box",
+     "Textual Showcase",
+     "Recent Posts Notification",
+     "Animated Blob Generator",
+     "Ken Burns",
+     "Animated Gradient",
+     "Magic Scroll",
+     "iHover",
+     "3D Hover Box",
+     "Image Separator",
+     "World Clock",
+     "Tags Cloud"
+    ]
+   },
+   {
+    "name": "Crocoblock JetElements",
+    "url": "https://crocoblock.com/plugins/jetelements/",
+    "widget_count_claimed": "42",
+    "notable_widgets": [
+     "Audio/Video Player",
+     "Before After",
+     "Timeline",
+     "Circle Progress",
+     "Pie/Bar Chart",
+     "Download Button",
+     "Weather",
+     "Inline SVG",
+     "Vertical Scrolling"
+    ]
+   },
+   {
+    "name": "Crocoblock JetWooBuilder",
+    "url": "https://crocoblock.com/plugins/jetwoobuilder/",
+    "widget_count_claimed": "not stated; page names 4 global widgets",
+    "notable_widgets": [
+     "Categories Grid",
+     "Products Grid",
+     "Products List",
+     "Taxonomy Tiles"
+    ]
+   },
+   {
+    "name": "Crocoblock JetTabs",
+    "url": "https://crocoblock.com/plugins/jettabs/",
+    "widget_count_claimed": "not stated",
+    "notable_widgets": [
+     "Tabs",
+     "Accordion",
+     "Toggles",
+     "Nested tabs"
+    ]
+   },
+   {
+    "name": "PowerPack",
+    "url": "https://wordpress.org/plugins/powerpack-lite-for-elementor/",
+    "widget_count_claimed": "not stated (43 free + 37 pro listed)",
+    "notable_widgets": [
+     "Info Table",
+     "Link Effects",
+     "Content Reveal",
+     "Random Image",
+     "Interactive Circle",
+     "Card Slider",
+     "Showcase",
+     "Recipe",
+     "Coupons",
+     "Album",
+     "Woo Off-Canvas Cart",
+     "Slide Menu"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Essential Addons page",
+    "url": "https://wordpress.org/plugins/essential-addons-for-elementor-lite/"
+   },
+   {
+    "title": "The Plus Addons page",
+    "url": "https://wordpress.org/plugins/the-plus-addons-for-elementor-page-builder/"
+   },
+   {
+    "title": "Ultimate Addons (UAE) page",
+    "url": "https://wordpress.org/plugins/header-footer-elementor/"
+   },
+   {
+    "title": "Happy Addons page",
+    "url": "https://wordpress.org/plugins/happy-elementor-addons/"
+   },
+   {
+    "title": "ElementsKit page",
+    "url": "https://wordpress.org/plugins/elementskit-lite/"
+   },
+   {
+    "title": "Premium Addons page",
+    "url": "https://wordpress.org/plugins/premium-addons-for-elementor/"
+   },
+   {
+    "title": "Crocoblock JetElements page",
+    "url": "https://crocoblock.com/plugins/jetelements/"
+   },
+   {
+    "title": "Crocoblock JetWooBuilder page",
+    "url": "https://crocoblock.com/plugins/jetwoobuilder/"
+   },
+   {
+    "title": "Crocoblock JetTabs page",
+    "url": "https://crocoblock.com/plugins/jettabs/"
+   },
+   {
+    "title": "PowerPack page",
+    "url": "https://wordpress.org/plugins/powerpack-lite-for-elementor/"
+   }
+  ],
+  "note": "From wordpress.org / crocoblock.com pages (summaries via fetch); vendor widget pages not opened; some claimed counts are inconsistent."
+ },
+ "system_concepts": {
+  "doc": "banks/elements/architecture.md",
+  "layers": [
+   "design tokens",
+   "element defaults",
+   "style variation",
+   "global component",
+   "instance settings",
+   "responsive overrides",
+   "display conditions"
+  ]
+ }
+}

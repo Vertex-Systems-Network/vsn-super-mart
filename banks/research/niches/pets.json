@@ -1,0 +1,195 @@
+{
+ "id": "pets",
+ "name": "Pet Supplies",
+ "aliases": [
+  "pet store",
+  "dog",
+  "cat",
+  "pet food",
+  "pet accessories"
+ ],
+ "shopper_profile": "Pet owners buying consumables on repeat and treating pets with accessories; they shop by pet type and size.",
+ "catalog_traits": {
+  "typical_size": "medium",
+  "variants": "size, flavor, pet size/breed",
+  "price_range": "$5-$150"
+ },
+ "must_have_sections": [
+  {
+   "id": "hero",
+   "name": "Pet-centric hero",
+   "page": "home",
+   "why": "Emotional connection"
+  },
+  {
+   "id": "shop-by-pet",
+   "name": "Shop by pet",
+   "page": "home",
+   "why": "Dog/cat/etc. primary axis"
+  },
+  {
+   "id": "category-tiles",
+   "name": "Category tiles (food, toys, beds)",
+   "page": "home",
+   "why": "Navigation"
+  },
+  {
+   "id": "bestsellers",
+   "name": "Bestsellers",
+   "page": "home",
+   "why": "Proof"
+  },
+  {
+   "id": "subscription",
+   "name": "Autoship/subscribe",
+   "page": "product",
+   "why": "Repeat food purchases"
+  },
+  {
+   "id": "ingredients-nutrition",
+   "name": "Ingredients/guaranteed analysis",
+   "page": "product",
+   "why": "Food trust"
+  },
+  {
+   "id": "size-guide",
+   "name": "Pet size guide",
+   "page": "product",
+   "why": "Collars/beds/harness fit"
+  },
+  {
+   "id": "reviews-ugc",
+   "name": "Reviews with pet photos",
+   "page": "home",
+   "why": "Social proof"
+  },
+  {
+   "id": "filters",
+   "name": "Filters by pet, life stage, size",
+   "page": "collection",
+   "why": "Narrowing"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with threshold",
+   "page": "cart",
+   "why": "AOV"
+  },
+  {
+   "id": "usp-row",
+   "name": "USP row",
+   "page": "global",
+   "why": "Shipping/guarantee"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "pet-profile-quiz",
+   "name": "Pet profile quiz",
+   "page": "page",
+   "why": "Personalization"
+  },
+  {
+   "id": "blog-care",
+   "name": "Care guides",
+   "page": "home",
+   "why": "SEO"
+  },
+  {
+   "id": "rescue-cause",
+   "name": "Charity/rescue mission",
+   "page": "page",
+   "why": "Values"
+  },
+  {
+   "id": "instagram-feed",
+   "name": "Pet UGC feed",
+   "page": "home",
+   "why": "Community"
+  },
+  {
+   "id": "bundle",
+   "name": "Starter bundles",
+   "page": "product",
+   "why": "AOV"
+  }
+ ],
+ "product_page_elements": [
+  "Pet type and life stage",
+  "Size/weight variants",
+  "Feeding guide",
+  "Ingredients and analysis",
+  "Subscribe & save",
+  "Size chart",
+  "Reviews with photos",
+  "Shipping info",
+  "Related products"
+ ],
+ "collection_page_elements": [
+  "Pet type filter",
+  "Life stage/breed size filter",
+  "Quick add",
+  "Subscribe badge"
+ ],
+ "metafields_metaobjects": [
+  "pet_type",
+  "life_stage",
+  "breed_size",
+  "ingredients",
+  "feeding_guide",
+  "guaranteed_analysis"
+ ],
+ "design_patterns": {
+  "typography": "Friendly rounded sans",
+  "color_mood": "Warm, playful brights",
+  "imagery": "Pets with products, UGC",
+  "layout": "Card-based, rounded",
+  "motion": "Light playful hovers"
+ },
+ "conversion_drivers": [
+  "Autoship",
+  "Shop by pet",
+  "UGC",
+  "Bundles",
+  "Free shipping threshold"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Flux",
+   "preset_or_style": "Paws",
+   "notable": "Pet preset"
+  },
+  {
+   "theme": "Fetch (Archetype)",
+   "preset_or_style": "Default",
+   "notable": "Theme built for pet stores"
+  },
+  {
+   "theme": "Tokyo",
+   "preset_or_style": "Paw Prints",
+   "notable": "Pet styling"
+  }
+ ],
+ "anti_patterns": [
+  "No feeding info",
+  "Generic stock pets",
+  "Mixing pet types without filters"
+ ],
+ "sources": [
+  {
+   "title": "Flux theme Paws preset",
+   "url": "https://themes.shopify.com/themes/flux/presets/paws"
+  },
+  {
+   "title": "Meet Fetch, pet store Shopify theme (Archetype)",
+   "url": "https://archetypethemes.co/blogs/blog/best-pet-store-shopify-theme"
+  },
+  {
+   "title": "Tokyo theme Paw Prints preset",
+   "url": "https://themes.shopify.com/themes/tokyo/presets/paw-prints"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

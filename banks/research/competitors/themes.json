@@ -1,0 +1,33 @@
+{
+ "updated_at": "2026-10-21",
+ "note": "Popularity ranks are from Koala's tracked-store sample (not a census). Notes are paraphrased. Verify details on each theme's Theme Store page in Stage 2 and add sources.",
+ "themes": [
+  {"name": "Trademark", "developer": "Archetype Themes", "rank_koala_2026": 1, "positioning": "Premium theme common on large established stores"},
+  {"name": "Dawn", "developer": "Shopify", "price": "free", "rank_koala_2026": 2, "positioning": "Minimal, image-led default theme"},
+  {"name": "Horizon", "developer": "Shopify", "price": "free", "rank_koala_2026": 3, "positioning": "Theme blocks (nesting up to 8 levels), group blocks, AI-generated blocks, 10 presets", "presets": ["Horizon", "Savor", "Vessel", "Heritage", "Pitch", "Dwell", "Ritual", "Fabric", "Tinker", "Atelier"]},
+  {"name": "Impulse", "developer": "Archetype Themes", "price": "$500", "rank_koala_2026": 4, "positioning": "Promotion-focused: promo banners, quick buy, trust badges"},
+  {"name": "Rise", "developer": "Shopify", "price": "free", "rank_koala_2026": 5, "positioning": "Lookbooks, size charts, cross-selling"},
+  {"name": "Savor", "developer": "Shopify (Horizon family)", "price": "free", "rank_koala_2026": 6, "positioning": "Edge-to-edge imagery for food and drink"},
+  {"name": "Tinker", "developer": "Shopify (Horizon family)", "price": "free", "rank_koala_2026": 7, "positioning": "Bento collection cards, video blocks"},
+  {"name": "Prestige", "developer": "Maestrooo", "price": "$400", "rank_koala_2026": 8, "positioning": "Luxury feel, 30+ sections, lookbooks, swatch filters"},
+  {"name": "Refresh", "developer": "Shopify", "price": "free", "rank_koala_2026": 9, "positioning": "Testimonials, ingredients, certifications sections"},
+  {"name": "Origin", "developer": "Shopify", "price": "free", "rank_koala_2026": 10, "positioning": "Small-catalog makers, quirky type"},
+  {"name": "Symmetry", "developer": "Clean Canvas", "positioning": "Suite of 5 presets (Symmetry, Salt Yard, Beatnik, Duke, Amara) sharing one codebase; presets change only look, not features", "presets": ["Symmetry", "Salt Yard", "Beatnik", "Duke", "Amara"]},
+  {"name": "Warehouse", "developer": "Maestrooo", "positioning": "Large catalogs, electronics/hardware (verify)"},
+  {"name": "Broadcast", "developer": "Invisible Themes", "positioning": "Fashion/lifestyle, sliders and promos (verify)"},
+  {"name": "Focal", "developer": "Maestrooo", "positioning": "Visual storytelling, shop the look (verify)"},
+  {"name": "Be Yours", "developer": "RoarTheme", "positioning": "Multi-niche, many presets (verify)"}
+ ],
+ "market_insights": [
+  "Leading paid themes ship one codebase with several presets; presets change look, not features (Symmetry docs).",
+  "Horizon raised the bar on editor flexibility: nested theme blocks and group blocks. VSN must match this with theme blocks.",
+  "Since 2025 Theme Store rules forbid Dawn/Horizon-derived code and require real uniqueness, so VSN starts from Skeleton.",
+  "Opportunity: speed, built-in conversion features that are Theme Store compliant, large-catalog (super mart) UX, RTL."
+ ],
+ "sources": [
+  {"title": "Koala: most used Shopify themes 2026", "url": "https://koala-apps.io/blog/most-used-shopify-themes-2026/"},
+  {"title": "GemPages: Shopify Horizon themes", "url": "https://gempages.net/blogs/shopify/shopify-horizon-themes"},
+  {"title": "Clean Canvas: The Symmetry theme suite", "url": "https://support.cleancanvas.co.uk/hc/en-us/articles/52329310298899-The-Symmetry-theme-suite"},
+  {"title": "Shopify Theme Store requirements", "url": "https://shopify.dev/docs/themes/store/requirements"}
+ ]
+}

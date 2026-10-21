@@ -1,0 +1,251 @@
+{
+ "id": "beauty-skincare",
+ "name": "Beauty & Skincare",
+ "aliases": [
+  "cosmetics",
+  "makeup",
+  "skincare",
+  "haircare",
+  "wellness",
+  "fragrance"
+ ],
+ "shopper_profile": "Ingredient-aware, routine-driven shoppers who want results evidence and skin-type matching; strong repeat and subscription potential.",
+ "catalog_traits": {
+  "typical_size": "small",
+  "variants": "Shade (swatches), size/volume, subscription vs one-time",
+  "price_range": "$10-$150"
+ },
+ "must_have_sections": [
+  {
+   "id": "announcement-bar",
+   "name": "Announcement bar",
+   "page": "global",
+   "why": "Shipping/promo messaging"
+  },
+  {
+   "id": "mega-menu",
+   "name": "Mega menu",
+   "page": "global",
+   "why": "Deep category navigation"
+  },
+  {
+   "id": "predictive-search",
+   "name": "Predictive search",
+   "page": "global",
+   "why": "Fast product discovery"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with upsells",
+   "page": "cart",
+   "why": "Keeps shoppers browsing, raises AOV"
+  },
+  {
+   "id": "hero-banner",
+   "name": "Hero with product focus",
+   "page": "home",
+   "why": "Hero SKU or launch"
+  },
+  {
+   "id": "bestsellers",
+   "name": "Bestsellers carousel",
+   "page": "home",
+   "why": "Proven products first"
+  },
+  {
+   "id": "shop-by-concern",
+   "name": "Shop by concern/skin type",
+   "page": "home",
+   "why": "Guided discovery"
+  },
+  {
+   "id": "before-after",
+   "name": "Before/after slider",
+   "page": "home",
+   "why": "Results proof"
+  },
+  {
+   "id": "ingredients-highlight",
+   "name": "Key ingredients",
+   "page": "product",
+   "why": "Ingredient-driven buyers"
+  },
+  {
+   "id": "how-to-use",
+   "name": "How to use / routine steps",
+   "page": "product",
+   "why": "Education reduces doubt"
+  },
+  {
+   "id": "reviews-ugc",
+   "name": "Reviews with photos",
+   "page": "product",
+   "why": "Trust"
+  },
+  {
+   "id": "subscribe-save",
+   "name": "Subscribe & save selector",
+   "page": "product",
+   "why": "Recurring revenue"
+  },
+  {
+   "id": "bundle-builder",
+   "name": "Routine/bundle builder",
+   "page": "page",
+   "why": "Raises AOV"
+  },
+  {
+   "id": "press-awards",
+   "name": "Press & awards",
+   "page": "home",
+   "why": "Credibility"
+  },
+  {
+   "id": "faq-accordion",
+   "name": "FAQ",
+   "page": "product",
+   "why": "Handles objections"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "skin-quiz",
+   "name": "Skin/shade quiz",
+   "page": "page",
+   "why": "Personalized recommendations"
+  },
+  {
+   "id": "shade-finder",
+   "name": "Shade finder",
+   "page": "product",
+   "why": "Reduces wrong-shade returns"
+  },
+  {
+   "id": "free-gift-cart",
+   "name": "Free gift with purchase",
+   "page": "cart",
+   "why": "AOV booster"
+  },
+  {
+   "id": "loyalty",
+   "name": "Rewards banner",
+   "page": "global",
+   "why": "Retention"
+  },
+  {
+   "id": "clinical-stats",
+   "name": "Clinical results stats",
+   "page": "product",
+   "why": "Quantified claims"
+  },
+  {
+   "id": "video-tutorials",
+   "name": "Video tutorials",
+   "page": "page",
+   "why": "Education"
+  },
+  {
+   "id": "sample-add",
+   "name": "Add samples",
+   "page": "cart",
+   "why": "Trial"
+  }
+ ],
+ "product_page_elements": [
+  "Shade swatches with skin-tone images",
+  "Size selector",
+  "Subscribe vs one-time",
+  "Key benefits icons (vegan, cruelty-free)",
+  "Full ingredients list (accordion)",
+  "How to use",
+  "Results stats",
+  "Reviews filtered by skin type",
+  "Texture video",
+  "Pairs-with routine",
+  "Sticky ATC",
+  "Free shipping threshold"
+ ],
+ "collection_page_elements": [
+  "Filter by concern, skin type, ingredient, finish",
+  "Shade swatch dots",
+  "Star ratings on cards",
+  "Badges (new, bestseller, vegan)",
+  "Quick add",
+  "Promo tile"
+ ],
+ "metafields_metaobjects": [
+  "ingredients (metaobject list: name, benefit)",
+  "skin_types (list)",
+  "concerns (list)",
+  "how_to_use (rich text)",
+  "shade (metaobject: name, hex, undertone)",
+  "clinical_results (list)",
+  "certifications (vegan, cruelty-free)",
+  "size_volume"
+ ],
+ "design_patterns": {
+  "typography": "Soft modern sans or elegant serif; generous spacing",
+  "color_mood": "Pastels, nude/skin tones, clean white, occasional bold brand color",
+  "imagery": "Texture swatches, product on solid backgrounds, diverse skin closeups",
+  "layout": "Clean, airy, modular blocks with icons",
+  "motion": "Gentle fades, before/after slider, texture video loops"
+ },
+ "conversion_drivers": [
+  "Reviews and UGC",
+  "Ingredient transparency",
+  "Quizzes",
+  "Subscriptions",
+  "GWP and samples",
+  "Bundles",
+  "Clinical claims"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Pitch / Ritual",
+   "notable": "Free themes positioned for beauty and skincare"
+  },
+  {
+   "theme": "Be Yours",
+   "preset_or_style": "Beauty",
+   "notable": "Clean beauty layouts"
+  },
+  {
+   "theme": "Prestige",
+   "preset_or_style": "Allure",
+   "notable": "Luxury beauty presentation"
+  },
+  {
+   "theme": "Impulse",
+   "preset_or_style": "Default",
+   "notable": "Promotion-friendly for DTC beauty"
+  }
+ ],
+ "anti_patterns": [
+  "Unverifiable medical claims",
+  "Hiding ingredient lists",
+  "Shade images not color accurate",
+  "Cluttered layouts undermining clean-beauty positioning"
+ ],
+ "sources": [
+  {
+   "title": "Shopify Horizon themes (Instant blog)",
+   "url": "https://instant.so/blog/shopify-horizon-themes"
+  },
+  {
+   "title": "Shopify beauty boutique themes (The4)",
+   "url": "https://the4.co/vi/blogs/shopify-themes/shopify-beauty-boutique-themes"
+  },
+  {
+   "title": "Best Shopify themes for conversion (GemPages)",
+   "url": "https://gempages.net/blogs/shopify/best-shopify-themes-for-conversion"
+  },
+  {
+   "title": "Shopify Horizon themes overview (Aureate Labs)",
+   "url": "https://aureatelabs.com/blog/shopify-horizon-themes-overview/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

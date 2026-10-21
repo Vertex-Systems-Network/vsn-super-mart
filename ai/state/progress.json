@@ -1,0 +1,21 @@
+{
+ "project": "vsn-super-mart",
+ "stage": 6,
+ "stage_name": "Figma build",
+ "cycle": 1,
+ "current_niche": "gen-z-store",
+ "completed_niches": [],
+ "next_action": "PAUSED (team, 2026-10-22). On restart: read ai/state/HANDOFF.md 'Open items' — 1) Full HD images after 2026-11-04, 2) Afterhours approval (vsn.py approve 6), 3) dev store for prototype testing, 4) element specs + build.",
+ "approvals": {
+  "4": {
+   "by": "human: no preference (delegated) -> Afterhours by lead agent",
+   "on": "2026-10-21"
+  }
+ },
+ "figma": {
+  "file_key": "BxJuIRth8k4cCUbFnPV6ek",
+  "page": "VSN | Super Mart",
+  "page_node": "25:2"
+ },
+ "updated_at": "2026-10-21"
+}

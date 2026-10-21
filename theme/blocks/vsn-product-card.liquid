@@ -1,0 +1,236 @@
+{% doc %}
+VSN element: Product card (rule 15). Variations overlay/minimal/detailed, real badges (sale %, sold out),
+  sizes, wishlist/compare/quick view buttons (data from VSN app, rule 12), responsive title size.
+  Self-contained block: callers leave the body empty.
+{% enddoc %}
+{%- liquid
+  assign scope = '#vsn-' | append: block.id
+  assign p = block.settings.product
+  assign variation = block.settings.variation
+  if variation == 'inherit'
+    assign variation = settings.vsn_card_variation
+  endif
+-%}
+{% style %}
+  {{ scope }}{--vsn-ratio:{{ block.settings.ratio }}}
+  {% render 'vsn-responsive', scope: scope, prop: 'tfs', d: block.settings.title_d, t: block.settings.title_t, m: block.settings.title_m, adv: block.settings.adv, o320: block.settings.title_320, o480: block.settings.title_480, o560: block.settings.title_560, o1024: block.settings.title_1024, o1920: block.settings.title_1920, o2448: block.settings.title_2448 %}
+{% endstyle %}
+<article
+  id="vsn-{{ block.id }}"
+  class="vsn-card vsn-card--{{ variation }} {{ block.settings.css_class | escape }}"
+  {{ block.shopify_attributes }}
+>
+  {%- if p != blank -%}
+    <a class="vsn-card__media" href="{{ p.url }}">
+      {%- if p.featured_image -%}
+        {{ p.featured_image | image_url: width: 1200 | image_tag: loading: 'lazy', sizes: '(min-width: 1024px) 25vw, 50vw', widths: '360, 540, 720, 960, 1200', alt: p.featured_image.alt | default: p.title }}
+      {%- else -%}
+        {{ 'product-1' | placeholder_svg_tag: 'vsn-card__placeholder' }}
+      {%- endif -%}
+    </a>
+    {%- if block.settings.show_badges -%}
+      <div class="vsn-card__badges">
+        {%- if p.available == false -%}
+          <span class="vsn-badge vsn-badge--soldout">{{ 'products.sold_out' | t }}</span>
+        {%- elsif p.compare_at_price > p.price -%}
+          {%- assign off = p.compare_at_price | minus: p.price | times: 100 | divided_by: p.compare_at_price -%}
+          <span class="vsn-badge vsn-badge--sale">-{{ off }}%</span>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+    {%- if block.settings.show_actions -%}
+      <div class="vsn-card__actions">
+        <button type="button" class="vsn-iconbtn" data-vsn-wishlist="{{ p.id }}" aria-label="{{ 'products.add_to_wishlist' | t }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
+        <button type="button" class="vsn-iconbtn" data-vsn-compare="{{ p.id }}" aria-label="{{ 'products.compare' | t }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 4v16M17 4v16M3 8l4-4 4 4M13 16l4 4 4-4"/></svg></button>
+        <button type="button" class="vsn-iconbtn" data-vsn-quick-view="{{ p.handle }}" aria-label="{{ 'products.quick_view' | t }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button>
+      </div>
+    {%- endif -%}
+    <div class="vsn-card__info">
+      <a class="vsn-card__title" href="{{ p.url }}">{{ p.title | escape }}</a>
+      <div class="vsn-card__price">
+        {%- if p.compare_at_price > p.price -%}
+          <span class="vsn-price--sale">{{ p.price | money }}</span> <s class="vsn-price--was">{{ p.compare_at_price | money }}</s>
+        {%- else -%}
+          {{ p.price | money }}
+        {%- endif -%}
+      </div>
+      {%- if block.settings.show_sizes -%}
+        {%- for option in p.options_with_values -%}
+          {%- assign oname = option.name | downcase -%}
+          {%- if oname == 'size' or oname == 'größe' or oname == 'taille' -%}
+            <ul class="vsn-card__sizes">
+              {%- for value in option.values -%}
+                <li class="{% unless value.available %}is-out{% endunless %}">{{ value | escape }}</li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+    </div>
+  {%- else -%}
+    <div class="vsn-card__media">{{ 'product-1' | placeholder_svg_tag: 'vsn-card__placeholder' }}</div>
+    <div class="vsn-card__info"><span class="vsn-card__title">{{ 'products.choose_product' | t }}</span></div>
+  {%- endif -%}
+</article>
+
+{% schema %}
+{
+  "name": "VSN Product card",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },
+    {
+      "type": "select",
+      "id": "variation",
+      "label": "Style variation",
+      "options": [
+        {
+          "value": "inherit",
+          "label": "Theme default"
+        },
+        {
+          "value": "overlay",
+          "label": "Overlay"
+        },
+        {
+          "value": "minimal",
+          "label": "Minimal"
+        },
+        {
+          "value": "detailed",
+          "label": "Detailed"
+        }
+      ],
+      "default": "inherit",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "ratio",
+      "label": "Image ratio",
+      "options": [
+        {
+          "value": "4/5",
+          "label": "Portrait 4:5"
+        },
+        {
+          "value": "1/1",
+          "label": "Square"
+        },
+        {
+          "value": "3/4",
+          "label": "Tall 3:4"
+        }
+      ],
+      "default": "4/5",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_badges",
+      "label": "Show badges (sale %, sold out)",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_sizes",
+      "label": "Show sizes",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_actions",
+      "label": "Show wishlist, compare and quick view",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Title size",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "title_d",
+      "label": "Title size \u2014 desktop (1440) px",
+      "default": 20,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "title_t",
+      "label": "Title size \u2014 tablet (768) px",
+      "default": 18,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "title_m",
+      "label": "Title size \u2014 mobile (360) px",
+      "default": 16,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "title_320",
+      "label": "Title size \u2014 320 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "title_480",
+      "label": "Title size \u2014 480 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "title_560",
+      "label": "Title size \u2014 560 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "title_1024",
+      "label": "Title size \u2014 1024 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "title_1920",
+      "label": "Title size \u2014 1920 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "title_2448",
+      "label": "Title size \u2014 2448 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "header",
+      "content": "Editing"
+    },
+    {
+      "type": "checkbox",
+      "id": "simple_mode",
+      "label": "Simple mode (content only)",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "adv",
+      "label": "Advanced responsive (all 9 breakpoints)",
+      "default": false,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "Custom CSS class",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,196 @@
+{
+ "id": "b2b-wholesale",
+ "name": "B2B & Wholesale",
+ "aliases": [
+  "wholesale",
+  "trade",
+  "distributor",
+  "bulk ordering"
+ ],
+ "shopper_profile": "Business buyers reordering in bulk who want speed, account pricing and quick order forms.",
+ "catalog_traits": {
+  "typical_size": "large",
+  "variants": "many variants, case packs",
+  "price_range": "tiered/volume pricing"
+ },
+ "must_have_sections": [
+  {
+   "id": "login-gated",
+   "name": "Login/account gating",
+   "page": "global",
+   "why": "Price visibility"
+  },
+  {
+   "id": "quick-order-list",
+   "name": "Quick order list",
+   "page": "product",
+   "why": "Bulk variant entry"
+  },
+  {
+   "id": "volume-pricing",
+   "name": "Volume pricing table",
+   "page": "product",
+   "why": "Tiered pricing"
+  },
+  {
+   "id": "qty-rules",
+   "name": "Quantity rules (min/increment)",
+   "page": "product",
+   "why": "Case packs"
+  },
+  {
+   "id": "search",
+   "name": "Fast SKU search",
+   "page": "global",
+   "why": "Buyers know SKUs"
+  },
+  {
+   "id": "account-dashboard",
+   "name": "Account dashboard/reorder",
+   "page": "page",
+   "why": "Reorders"
+  },
+  {
+   "id": "company-location",
+   "name": "Company location switcher",
+   "page": "global",
+   "why": "Multi-location"
+  },
+  {
+   "id": "catalog-filters",
+   "name": "Filters",
+   "page": "collection",
+   "why": "Navigation"
+  },
+  {
+   "id": "list-view",
+   "name": "List view collection",
+   "page": "collection",
+   "why": "Dense"
+  },
+  {
+   "id": "cart-bulk",
+   "name": "Bulk cart editing",
+   "page": "cart",
+   "why": "Large orders"
+  },
+  {
+   "id": "apply-form",
+   "name": "Wholesale application form",
+   "page": "page",
+   "why": "Onboarding"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "csv-upload",
+   "name": "CSV order upload",
+   "page": "page",
+   "why": "Speed"
+  },
+  {
+   "id": "spec-downloads",
+   "name": "Spec sheet downloads",
+   "page": "product",
+   "why": "Technical buyers"
+  },
+  {
+   "id": "net-terms",
+   "name": "Payment terms info",
+   "page": "cart",
+   "why": "B2B"
+  },
+  {
+   "id": "rep-contact",
+   "name": "Sales rep contact",
+   "page": "global",
+   "why": "Support"
+  },
+  {
+   "id": "quote-request",
+   "name": "Request a quote",
+   "page": "product",
+   "why": "Custom orders"
+  }
+ ],
+ "product_page_elements": [
+  "SKU",
+  "Quick order list",
+  "Volume pricing",
+  "Min/max/increment",
+  "Stock levels",
+  "Case pack info",
+  "Spec downloads",
+  "Lead time"
+ ],
+ "collection_page_elements": [
+  "List view",
+  "SKU column",
+  "Inline qty inputs",
+  "Filters",
+  "Stock indicator"
+ ],
+ "metafields_metaobjects": [
+  "case_pack",
+  "moq",
+  "spec_sheet (file)",
+  "lead_time",
+  "tier_pricing notes"
+ ],
+ "design_patterns": {
+  "typography": "Utilitarian sans",
+  "color_mood": "Neutral professional",
+  "imagery": "Packshots",
+  "layout": "Tables, dense",
+  "motion": "None"
+ },
+ "conversion_drivers": [
+  "Reorder speed",
+  "Quick order",
+  "Clear pricing",
+  "Account features"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Trade",
+   "preset_or_style": "Trade",
+   "notable": "Shopify's B2B-focused theme"
+  },
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Any",
+   "notable": "Gained B2B features (quick order, quantity rules)"
+  },
+  {
+   "theme": "Warehouse",
+   "preset_or_style": "Default",
+   "notable": "Large catalog handling"
+  }
+ ],
+ "anti_patterns": [
+  "Lifestyle-heavy layouts",
+  "Hiding pricing tiers",
+  "Requiring product page per variant"
+ ],
+ "sources": [
+  {
+   "title": "Trade theme",
+   "url": "https://themes.shopify.com/themes/trade"
+  },
+  {
+   "title": "B2B features now available in Horizon themes",
+   "url": "https://changelog.shopify.com/posts/b2b-features-now-available-in-horizon-themes"
+  },
+  {
+   "title": "Best Shopify Themes for Wholesale (NextSky)",
+   "url": "https://nextsky.co/blogs/review-themes/best-shopify-themes-for-wholesale"
+  },
+  {
+   "title": "Shopify B2B Catalog vs Bulk Order Form (Multivariants)",
+   "url": "https://multivariants.com/blog/shopify-b2b-catalog-vs-bulk-order-form"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

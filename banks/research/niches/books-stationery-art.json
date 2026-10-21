@@ -1,0 +1,191 @@
+{
+ "id": "books-stationery-art",
+ "name": "Books, Stationery & Art",
+ "aliases": [
+  "bookshop",
+  "stationery",
+  "art prints",
+  "art supplies",
+  "paper goods"
+ ],
+ "shopper_profile": "Curious, design-conscious browsers and gift buyers who value curation, discovery and detail images.",
+ "catalog_traits": {
+  "typical_size": "medium",
+  "variants": "format (hardcover/paperback), size, paper, frame",
+  "price_range": "$5-$300"
+ },
+ "must_have_sections": [
+  {
+   "id": "editorial-hero",
+   "name": "Editorial hero",
+   "page": "home",
+   "why": "Curation tone"
+  },
+  {
+   "id": "curated-collections",
+   "name": "Curated lists/staff picks",
+   "page": "home",
+   "why": "Discovery"
+  },
+  {
+   "id": "new-arrivals",
+   "name": "New arrivals",
+   "page": "home",
+   "why": "Freshness"
+  },
+  {
+   "id": "featured-author-artist",
+   "name": "Featured author/artist",
+   "page": "home",
+   "why": "Storytelling"
+  },
+  {
+   "id": "format-variants",
+   "name": "Format/size variant picker",
+   "page": "product",
+   "why": "Edition choice"
+  },
+  {
+   "id": "details-specs",
+   "name": "Details (ISBN, pages, paper)",
+   "page": "product",
+   "why": "Specs"
+  },
+  {
+   "id": "zoom-gallery",
+   "name": "Zoomable gallery",
+   "page": "product",
+   "why": "Texture detail"
+  },
+  {
+   "id": "reviews",
+   "name": "Reviews",
+   "page": "product",
+   "why": "Proof"
+  },
+  {
+   "id": "filters",
+   "name": "Filters by genre/medium/author",
+   "page": "collection",
+   "why": "Navigation"
+  },
+  {
+   "id": "gift-cards",
+   "name": "Gift card promo",
+   "page": "home",
+   "why": "Gifting"
+  },
+  {
+   "id": "newsletter",
+   "name": "Newsletter",
+   "page": "global",
+   "why": "Retention"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "preorder",
+   "name": "Pre-order",
+   "page": "product",
+   "why": "Upcoming releases"
+  },
+  {
+   "id": "events",
+   "name": "Events/readings",
+   "page": "page",
+   "why": "Community"
+  },
+  {
+   "id": "frame-preview",
+   "name": "Room/frame preview",
+   "page": "product",
+   "why": "Art prints"
+  },
+  {
+   "id": "blog-journal",
+   "name": "Journal",
+   "page": "home",
+   "why": "SEO"
+  },
+  {
+   "id": "subscription-box",
+   "name": "Subscription box",
+   "page": "page",
+   "why": "Recurring"
+  }
+ ],
+ "product_page_elements": [
+  "Format/edition",
+  "Author/artist",
+  "ISBN/specs",
+  "Look inside/sample",
+  "Zoom",
+  "Dimensions",
+  "Paper/material",
+  "Reviews",
+  "Related by author"
+ ],
+ "collection_page_elements": [
+  "Genre/medium filters",
+  "Author filter",
+  "List/grid toggle",
+  "Badges (signed, new)"
+ ],
+ "metafields_metaobjects": [
+  "author/artist (metaobject)",
+  "isbn",
+  "page_count",
+  "publisher",
+  "dimensions",
+  "paper_type",
+  "medium"
+ ],
+ "design_patterns": {
+  "typography": "Serif editorial headings, generous",
+  "color_mood": "Paper neutrals with ink accents",
+  "imagery": "Flat lays, detail shots",
+  "layout": "Editorial grids, whitespace",
+  "motion": "Minimal fades"
+ },
+ "conversion_drivers": [
+  "Curation",
+  "Staff picks",
+  "Gift cards",
+  "Bundles"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Atelier",
+   "notable": "Editorial/craft-oriented preset"
+  },
+  {
+   "theme": "Broadcast",
+   "preset_or_style": "Default",
+   "notable": "Editorial storytelling"
+  },
+  {
+   "theme": "Prestige",
+   "preset_or_style": "Default",
+   "notable": "Refined presentation for art"
+  }
+ ],
+ "anti_patterns": [
+  "Low-res images",
+  "Missing dimensions",
+  "Cluttered layouts"
+ ],
+ "sources": [
+  {
+   "title": "Shopify Horizon Theme Collection guide (BSS Commerce)",
+   "url": "https://bsscommerce.com/shopify/shopify-horizon-theme-review/"
+  },
+  {
+   "title": "Shopify Horizon Themes overview (Aureate Labs)",
+   "url": "https://aureatelabs.com/blog/shopify-horizon-themes-overview/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

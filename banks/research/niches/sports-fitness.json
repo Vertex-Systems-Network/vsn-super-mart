@@ -1,0 +1,214 @@
+{
+ "id": "sports-fitness",
+ "name": "Sports & Fitness",
+ "aliases": [
+  "activewear",
+  "gym equipment",
+  "outdoor",
+  "athletic",
+  "sporting goods"
+ ],
+ "shopper_profile": "Performance-driven buyers who want the right size/spec for their sport and respond to energetic, athlete-led storytelling.",
+ "catalog_traits": {
+  "typical_size": "medium",
+  "variants": "size, color, weight/resistance level",
+  "price_range": "$20-$500+ (equipment higher)"
+ },
+ "must_have_sections": [
+  {
+   "id": "hero-video",
+   "name": "Full-bleed video hero",
+   "page": "home",
+   "why": "Energy and motion sell performance"
+  },
+  {
+   "id": "shop-by-sport",
+   "name": "Shop by sport/activity",
+   "page": "home",
+   "why": "Primary browsing axis"
+  },
+  {
+   "id": "featured-collection",
+   "name": "Featured collection carousel",
+   "page": "home",
+   "why": "New drops"
+  },
+  {
+   "id": "image-with-text",
+   "name": "Tech/feature callouts",
+   "page": "home",
+   "why": "Explain materials and performance"
+  },
+  {
+   "id": "ugc-athletes",
+   "name": "Athlete/UGC gallery",
+   "page": "home",
+   "why": "Aspirational proof"
+  },
+  {
+   "id": "size-guide",
+   "name": "Size guide drawer",
+   "page": "product",
+   "why": "Reduces returns"
+  },
+  {
+   "id": "variant-swatches",
+   "name": "Color swatches",
+   "page": "product",
+   "why": "Visual variant choice"
+  },
+  {
+   "id": "spec-table",
+   "name": "Specifications table",
+   "page": "product",
+   "why": "Equipment buyers compare specs"
+  },
+  {
+   "id": "reviews",
+   "name": "Reviews with fit info",
+   "page": "product",
+   "why": "Fit confidence"
+  },
+  {
+   "id": "complete-the-look",
+   "name": "Complete the set / related",
+   "page": "product",
+   "why": "Cross-sell"
+  },
+  {
+   "id": "filters",
+   "name": "Filters by sport, size, gear type",
+   "page": "collection",
+   "why": "Large assortments"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with upsells",
+   "page": "cart",
+   "why": "AOV"
+  },
+  {
+   "id": "promo-countdown",
+   "name": "Sale countdown banner",
+   "page": "home",
+   "why": "Drops and sales"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "lookbook-shoppable",
+   "name": "Shoppable lookbook",
+   "page": "home",
+   "why": "Outfit selling"
+  },
+  {
+   "id": "training-blog",
+   "name": "Training content",
+   "page": "home",
+   "why": "Community/SEO"
+  },
+  {
+   "id": "community-events",
+   "name": "Events/community",
+   "page": "page",
+   "why": "Brand loyalty"
+  },
+  {
+   "id": "product-compare",
+   "name": "Product compare",
+   "page": "collection",
+   "why": "Equipment decisions"
+  },
+  {
+   "id": "store-locator",
+   "name": "Store locator",
+   "page": "page",
+   "why": "Omnichannel"
+  }
+ ],
+ "product_page_elements": [
+  "Size selector with fit notes",
+  "Color swatches",
+  "Size guide",
+  "Tech features icons",
+  "Specs table",
+  "Media gallery with video",
+  "Reviews with fit rating",
+  "Stock urgency",
+  "Shipping/returns info",
+  "Complete the look",
+  "Sticky ATC"
+ ],
+ "collection_page_elements": [
+  "Filters (sport, size, color, price)",
+  "Swatches on cards",
+  "Hover second image",
+  "Badges (new, sale)",
+  "Promo tiles"
+ ],
+ "metafields_metaobjects": [
+  "sport (list)",
+  "materials/tech (metaobject)",
+  "specs (json)",
+  "size_chart (metaobject)",
+  "fit_type",
+  "care_instructions"
+ ],
+ "design_patterns": {
+  "typography": "Bold condensed uppercase headings",
+  "color_mood": "High-contrast black/white with neon or brand accent",
+  "imagery": "Action photography, athletes, video",
+  "layout": "Full-bleed, edge-to-edge, big type",
+  "motion": "Video, marquees, scroll reveals"
+ },
+ "conversion_drivers": [
+  "Size confidence",
+  "Drop urgency",
+  "Athlete social proof",
+  "Bundles/sets",
+  "Free returns"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Impulse",
+   "preset_or_style": "Default",
+   "notable": "Popular for sports/promotional stores"
+  },
+  {
+   "theme": "Motion",
+   "preset_or_style": "Default",
+   "notable": "Video-forward, energetic"
+  },
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Pitch",
+   "notable": "Bold sporty preset"
+  }
+ ],
+ "anti_patterns": [
+  "Missing size guides",
+  "Static low-energy imagery",
+  "Spec info buried in description"
+ ],
+ "sources": [
+  {
+   "title": "Best Shopify Themes for Sports Stores (NextSky)",
+   "url": "https://nextsky.co/blogs/review-themes/best-shopify-themes-for-sports-stores"
+  },
+  {
+   "title": "Best Shopify Themes for Sports & Fitness (Clean Canvas)",
+   "url": "https://cleancanvas.co.uk/blog/best-shopify-themes-for-sports-fitness"
+  },
+  {
+   "title": "Shopify Sportswear & Activewear Themes (ShopThemeDetector)",
+   "url": "https://shopthemedetector.com/blog/best-shopify-sportswear-apparel-themes/"
+  },
+  {
+   "title": "Shopify Horizon Themes overview (Aureate Labs)",
+   "url": "https://aureatelabs.com/blog/shopify-horizon-themes-overview/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

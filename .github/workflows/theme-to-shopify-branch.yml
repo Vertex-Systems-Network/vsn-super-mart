@@ -1,0 +1,40 @@
+# Publishes theme/ to the `shopify-theme` branch (theme files at branch root) so the Shopify GitHub
+# integration can sync it. Shopify does not support connecting a subdirectory (ADR 0002).
+name: Theme → shopify-theme branch
+on:
+  push:
+    branches: [main]
+    paths: ["theme/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: shopify-theme-sync
+  cancel-in-progress: false
+jobs:
+  publish:
+    # Skip commits that came back from Shopify (avoid loops)
+    if: github.actor != 'shopify[bot]' && !contains(github.event.head_commit.message, '[from-shopify]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Configure git
+        run: |
+          git config user.name "vsn-bot"
+          git config user.email "vsn-bot@users.noreply.github.com"
+      - name: Split theme/ into a branch
+        run: git subtree split --prefix theme -b split-theme
+      - name: Push to shopify-theme (fast-forward only, never overwrite editor commits)
+        run: |
+          if git ls-remote --exit-code --heads origin shopify-theme >/dev/null; then
+            git fetch origin shopify-theme
+            if git merge-base --is-ancestor origin/shopify-theme split-theme; then
+              git push origin split-theme:shopify-theme
+            else
+              echo "::error::shopify-theme has commits (theme editor) not yet synced back into theme/. Run the 'shopify-theme → theme/' workflow first."
+              exit 1
+            fi
+          else
+            git push origin split-theme:shopify-theme
+          fi

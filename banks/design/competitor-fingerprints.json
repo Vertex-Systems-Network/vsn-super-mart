@@ -1,0 +1,284 @@
+{
+ "note": "Approximate fingerprints of competitor themes/presets so VSN designs never resemble them. Status 'approx' = from descriptions; upgrade to 'verified' after looking at the live demo (design search, Stage 4) and add the demo URL.",
+ "fingerprints": [
+  {
+   "id": "dawn",
+   "theme": "Dawn",
+   "status": "approx",
+   "fp": {
+    "header_layout": "logo-left-inline",
+    "nav_style": "drawer",
+    "hero": "full-bleed-slideshow",
+    "product_card": "minimal",
+    "pdp_layout": "gallery-left-thumbs",
+    "collection_layout": "horizontal-filters",
+    "grid_density": "airy",
+    "type_pairing": "sans+sans",
+    "radius": "sharp",
+    "motion": "subtle",
+    "imagery": "edge-to-edge",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#121212",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "horizon",
+   "theme": "Horizon",
+   "status": "approx",
+   "fp": {
+    "header_layout": "logo-left-mega",
+    "nav_style": "mega-image",
+    "hero": "full-bleed-slideshow",
+    "product_card": "minimal",
+    "pdp_layout": "stacked-media",
+    "collection_layout": "horizontal-filters",
+    "grid_density": "regular",
+    "type_pairing": "sans+sans",
+    "radius": "soft",
+    "motion": "subtle",
+    "imagery": "edge-to-edge",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#000000",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "horizon-tinker",
+   "theme": "Horizon / Tinker",
+   "status": "approx",
+   "fp": {
+    "header_layout": "logo-left-inline",
+    "nav_style": "drawer",
+    "hero": "bento-grid",
+    "product_card": "rounded-tile",
+    "pdp_layout": "stacked-media",
+    "collection_layout": "horizontal-filters",
+    "grid_density": "regular",
+    "type_pairing": "rounded+sans",
+    "radius": "rounded",
+    "motion": "expressive",
+    "imagery": "cutout-on-color",
+    "section_rhythm": "modular-bento"
+   },
+   "palette": [
+    "#F2C14E",
+    "#1B1B1B"
+   ]
+  },
+  {
+   "id": "horizon-savor",
+   "theme": "Horizon / Savor",
+   "status": "approx",
+   "fp": {
+    "header_layout": "logo-center-split",
+    "nav_style": "drawer",
+    "hero": "full-bleed-slideshow",
+    "product_card": "minimal",
+    "pdp_layout": "stacked-media",
+    "collection_layout": "horizontal-filters",
+    "grid_density": "airy",
+    "type_pairing": "serif+sans",
+    "radius": "soft",
+    "motion": "subtle",
+    "imagery": "edge-to-edge",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#C8553D",
+    "#FFF8F0"
+   ]
+  },
+  {
+   "id": "prestige",
+   "theme": "Prestige",
+   "status": "approx",
+   "fp": {
+    "header_layout": "logo-center-split",
+    "nav_style": "mega-image",
+    "hero": "full-bleed-slideshow",
+    "product_card": "minimal",
+    "pdp_layout": "gallery-left-thumbs",
+    "collection_layout": "drawer-filters",
+    "grid_density": "airy",
+    "type_pairing": "serif+sans",
+    "radius": "sharp",
+    "motion": "subtle",
+    "imagery": "lifestyle",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#1C1B1B",
+    "#EFEFEF"
+   ]
+  },
+  {
+   "id": "impulse",
+   "theme": "Impulse",
+   "status": "approx",
+   "fp": {
+    "header_layout": "logo-left-mega",
+    "nav_style": "mega-columns",
+    "hero": "full-bleed-slideshow",
+    "product_card": "detailed-with-atc",
+    "pdp_layout": "gallery-left-thumbs",
+    "collection_layout": "sidebar-filters",
+    "grid_density": "regular",
+    "type_pairing": "sans+sans",
+    "radius": "sharp",
+    "motion": "expressive",
+    "imagery": "lifestyle",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#E2231A",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "symmetry",
+   "theme": "Symmetry",
+   "status": "approx",
+   "fp": {
+    "header_layout": "logo-center-split",
+    "nav_style": "mega-columns",
+    "hero": "split-image-text",
+    "product_card": "minimal",
+    "pdp_layout": "gallery-left-thumbs",
+    "collection_layout": "sidebar-filters",
+    "grid_density": "regular",
+    "type_pairing": "serif+sans",
+    "radius": "sharp",
+    "motion": "subtle",
+    "imagery": "lifestyle",
+    "section_rhythm": "alternating-split"
+   },
+   "palette": [
+    "#2B2B2B",
+    "#F7F4EF"
+   ]
+  },
+  {
+   "id": "warehouse",
+   "theme": "Warehouse",
+   "status": "approx",
+   "fp": {
+    "header_layout": "search-bar-dominant",
+    "nav_style": "mega-columns",
+    "hero": "category-tiles",
+    "product_card": "bordered",
+    "pdp_layout": "gallery-left-thumbs",
+    "collection_layout": "sidebar-filters",
+    "grid_density": "dense",
+    "type_pairing": "sans+sans",
+    "radius": "soft",
+    "motion": "none",
+    "imagery": "cutout-on-color",
+    "section_rhythm": "contained-cards"
+   },
+   "palette": [
+    "#00BADB",
+    "#1E2D7D"
+   ]
+  },
+  {
+   "id": "trademark",
+   "theme": "Trademark",
+   "status": "approx",
+   "fp": {
+    "header_layout": "logo-left-mega",
+    "nav_style": "mega-image",
+    "hero": "editorial-asymmetric",
+    "product_card": "minimal",
+    "pdp_layout": "sticky-split",
+    "collection_layout": "drawer-filters",
+    "grid_density": "regular",
+    "type_pairing": "display+sans",
+    "radius": "sharp",
+    "motion": "subtle",
+    "imagery": "lifestyle",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#111111",
+    "#F5F5F0"
+   ]
+  },
+  {
+   "id": "drop-underground",
+   "theme": "Drop (We Are Underground)",
+   "status": "approx",
+   "note": "From Theme Store feature list, not the live demo",
+   "fp": {
+    "header_layout": "logo-center-drawer",
+    "nav_style": "drawer",
+    "hero": "video-full",
+    "product_card": "minimal",
+    "pdp_layout": "gallery-left-thumbs",
+    "collection_layout": "drawer-filters",
+    "grid_density": "regular",
+    "type_pairing": "condensed+sans",
+    "radius": "sharp",
+    "motion": "subtle",
+    "imagery": "edge-to-edge",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#000000",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "pipeline",
+   "theme": "Pipeline (Groupthought)",
+   "status": "approx",
+   "note": "High-contrast fashion; from descriptions",
+   "fp": {
+    "header_layout": "logo-left-inline",
+    "nav_style": "mega-columns",
+    "hero": "full-bleed-slideshow",
+    "product_card": "minimal",
+    "pdp_layout": "stacked-media",
+    "collection_layout": "sidebar-filters",
+    "grid_density": "regular",
+    "type_pairing": "sans+sans",
+    "radius": "sharp",
+    "motion": "subtle",
+    "imagery": "lifestyle",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "broadcast",
+   "theme": "Broadcast (Presidio)",
+   "status": "approx",
+   "note": "Lookbook/video blocks; from descriptions",
+   "fp": {
+    "header_layout": "logo-center-split",
+    "nav_style": "mega-image",
+    "hero": "video-full",
+    "product_card": "minimal",
+    "pdp_layout": "gallery-left-thumbs",
+    "collection_layout": "drawer-filters",
+    "grid_density": "regular",
+    "type_pairing": "sans+sans",
+    "radius": "soft",
+    "motion": "subtle",
+    "imagery": "lifestyle",
+    "section_rhythm": "full-width-bands"
+   },
+   "palette": [
+    "#1A1A1A",
+    "#F2F2F2"
+   ]
+  }
+ ]
+}

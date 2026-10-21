@@ -1,0 +1,236 @@
+{
+  "sections": {
+    "hero": {
+      "type": "vsn-section",
+      "settings": {
+        "pad_d": 120,
+        "pad_t": 80,
+        "pad_m": 56
+      },
+      "blocks": {
+        "g1": {
+          "type": "vsn-group",
+          "settings": {
+            "layout": "flex",
+            "dir_d": "column",
+            "dir_t": "column",
+            "dir_m": "column",
+            "gap_d": 28,
+            "gap_t": 24,
+            "gap_m": 20
+          },
+          "blocks": {
+            "h1": {
+              "type": "vsn-heading",
+              "settings": {
+                "text": "Night <strong>shift</strong>",
+                "tag": "h1",
+                "variation": "inherit",
+                "size_d": 168,
+                "size_t": 110,
+                "size_m": 72,
+                "adv": true,
+                "size_2448": 220,
+                "size_320": 60
+              }
+            },
+            "h2": {
+              "type": "vsn-heading",
+              "settings": {
+                "text": "No restocks",
+                "tag": "p",
+                "variation": "outline",
+                "size_d": 64,
+                "size_t": 48,
+                "size_m": 36
+              }
+            },
+            "bg": {
+              "type": "vsn-group",
+              "settings": {
+                "layout": "flex",
+                "dir_d": "row",
+                "dir_t": "row",
+                "dir_m": "column",
+                "gap_d": 12,
+                "gap_t": 12,
+                "gap_m": 8
+              },
+              "blocks": {
+                "b1": {
+                  "type": "vsn-button",
+                  "settings": {
+                    "label": "Shop the drop",
+                    "variation": "inherit"
+                  }
+                },
+                "b2": {
+                  "type": "vsn-button",
+                  "settings": {
+                    "label": "Watch film",
+                    "variation": "ghost",
+                    "icon": "none"
+                  }
+                },
+                "b3": {
+                  "type": "vsn-button",
+                  "settings": {
+                    "label": "Brutal",
+                    "variation": "brutal",
+                    "icon": "none"
+                  }
+                },
+                "b4": {
+                  "type": "vsn-button",
+                  "settings": {
+                    "label": "Glass",
+                    "variation": "glass",
+                    "icon": "none"
+                  }
+                }
+              },
+              "block_order": [
+                "b1",
+                "b2",
+                "b3",
+                "b4"
+              ]
+            }
+          },
+          "block_order": [
+            "h1",
+            "h2",
+            "bg"
+          ]
+        }
+      },
+      "block_order": [
+        "g1"
+      ]
+    },
+    "grid": {
+      "type": "vsn-section",
+      "settings": {
+        "pad_d": 64,
+        "pad_t": 48,
+        "pad_m": 32
+      },
+      "blocks": {
+        "hd": {
+          "type": "vsn-heading",
+          "settings": {
+            "text": "The drop",
+            "tag": "h2",
+            "size_d": 72,
+            "size_t": 56,
+            "size_m": 40
+          }
+        },
+        "cards": {
+          "type": "vsn-group",
+          "settings": {
+            "layout": "grid",
+            "cols_d": "4",
+            "cols_t": "2",
+            "cols_m": "2",
+            "gap_d": 16,
+            "gap_t": 12,
+            "gap_m": 8
+          },
+          "blocks": {
+            "c1": {
+              "type": "vsn-product-card",
+              "settings": {
+                "variation": "inherit"
+              }
+            },
+            "c2": {
+              "type": "vsn-product-card",
+              "settings": {
+                "variation": "overlay"
+              }
+            },
+            "c3": {
+              "type": "vsn-product-card",
+              "settings": {
+                "variation": "minimal"
+              }
+            },
+            "c4": {
+              "type": "vsn-product-card",
+              "settings": {
+                "variation": "detailed"
+              }
+            }
+          },
+          "block_order": [
+            "c1",
+            "c2",
+            "c3",
+            "c4"
+          ]
+        }
+      },
+      "block_order": [
+        "hd",
+        "cards"
+      ]
+    },
+    "global": {
+      "type": "vsn-section",
+      "settings": {
+        "pad_d": 64,
+        "pad_t": 48,
+        "pad_m": 32
+      },
+      "blocks": {
+        "gg": {
+          "type": "vsn-group",
+          "settings": {
+            "layout": "grid",
+            "cols_d": "3",
+            "cols_t": "1",
+            "cols_m": "1",
+            "gap_d": 16,
+            "gap_t": 12,
+            "gap_m": 12
+          },
+          "blocks": {
+            "gc1": {
+              "type": "vsn-global-component",
+              "settings": {
+                "slot": "1"
+              }
+            },
+            "gc2": {
+              "type": "vsn-global-component",
+              "settings": {
+                "slot": "2"
+              }
+            },
+            "gc3": {
+              "type": "vsn-global-component",
+              "settings": {
+                "slot": "3",
+                "o_heading": "No restocks \u2014 this page only"
+              }
+            }
+          },
+          "block_order": [
+            "gc1",
+            "gc2",
+            "gc3"
+          ]
+        }
+      },
+      "block_order": [
+        "gg"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "grid",
+    "global"
+  ]
+}
