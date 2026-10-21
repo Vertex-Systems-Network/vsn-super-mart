@@ -27,3 +27,9 @@ Details: [`ai/WORKFLOW.md`](ai/WORKFLOW.md).
 | `theme/` | Shopify theme source (created in Stage 7 from Skeleton theme) |
 
 Design: Figma file `BxJuIRth8k4cCUbFnPV6ek`, page "VSN | Super Mart".
+
+## Current status (2026-10-22 — paused)
+- Gen-Z preset **Afterhours**: 24 screens designed and QA'd in Figma (Stage 6), waiting for Full HD images and approval.
+- **Element library** (rule 15): 192 elements catalogued in `banks/elements/` — Elementor + addons + Gutenberg + Shopify + creative, smart responsive (2448–320).
+- **Theme prototype** in `theme/`: tokens, element defaults, smart responsive, 5 elements, global components (Theme Check clean).
+- Next steps: `ai/state/HANDOFF.md` → "Open items".
