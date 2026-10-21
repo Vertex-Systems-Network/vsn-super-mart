@@ -1,0 +1,269 @@
+{
+ "id": "fashion-apparel",
+ "name": "Fashion & Apparel",
+ "aliases": [
+  "clothing",
+  "streetwear",
+  "boutique",
+  "activewear",
+  "footwear"
+ ],
+ "shopper_profile": "Trend- and fit-conscious shoppers, mostly mobile, arriving from social; they browse visually and worry most about sizing and returns.",
+ "catalog_traits": {
+  "typical_size": "medium",
+  "variants": "Size x color, often 5-10 sizes and multiple colorways; color swatches per variant image set",
+  "price_range": "$20-$300, luxury up to $2,000+"
+ },
+ "must_have_sections": [
+  {
+   "id": "announcement-bar",
+   "name": "Announcement bar",
+   "page": "global",
+   "why": "Shipping/promo messaging"
+  },
+  {
+   "id": "mega-menu",
+   "name": "Mega menu",
+   "page": "global",
+   "why": "Deep category navigation"
+  },
+  {
+   "id": "predictive-search",
+   "name": "Predictive search",
+   "page": "global",
+   "why": "Fast product discovery"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with upsells",
+   "page": "cart",
+   "why": "Keeps shoppers browsing, raises AOV"
+  },
+  {
+   "id": "hero-slideshow-video",
+   "name": "Editorial hero (image/video)",
+   "page": "home",
+   "why": "Sets seasonal campaign mood"
+  },
+  {
+   "id": "shop-the-look",
+   "name": "Shop the look (hotspots)",
+   "page": "home",
+   "why": "Sells outfits, not single items"
+  },
+  {
+   "id": "collection-list",
+   "name": "Collection tiles",
+   "page": "home",
+   "why": "Routes to New In, Women, Men"
+  },
+  {
+   "id": "featured-collection-carousel",
+   "name": "Featured product carousel",
+   "page": "home",
+   "why": "New arrivals/bestsellers"
+  },
+  {
+   "id": "size-guide-drawer",
+   "name": "Size guide drawer",
+   "page": "product",
+   "why": "Reduces fit anxiety and returns"
+  },
+  {
+   "id": "color-swatches",
+   "name": "Color swatches",
+   "page": "product",
+   "why": "Variant selection at a glance"
+  },
+  {
+   "id": "complete-the-look",
+   "name": "Complete the look / pairs well",
+   "page": "product",
+   "why": "Cross-sell outfits"
+  },
+  {
+   "id": "faceted-filters",
+   "name": "Faceted filters (size, color, price)",
+   "page": "collection",
+   "why": "Essential for large apparel grids"
+  },
+  {
+   "id": "quick-add",
+   "name": "Quick view / quick add",
+   "page": "collection",
+   "why": "Add sizes from grid"
+  },
+  {
+   "id": "reviews-fit",
+   "name": "Reviews with fit rating",
+   "page": "product",
+   "why": "Social proof on sizing"
+  },
+  {
+   "id": "ugc-instagram",
+   "name": "Instagram/UGC gallery",
+   "page": "home",
+   "why": "Social proof from real wearers"
+  },
+  {
+   "id": "free-shipping-bar",
+   "name": "Free shipping progress bar",
+   "page": "cart",
+   "why": "Pushes AOV"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "lookbook",
+   "name": "Lookbook page",
+   "page": "page",
+   "why": "Editorial storytelling"
+  },
+  {
+   "id": "countdown-drop",
+   "name": "Drop countdown",
+   "page": "home",
+   "why": "Hype for limited releases"
+  },
+  {
+   "id": "back-in-stock",
+   "name": "Back-in-stock notify",
+   "page": "product",
+   "why": "Recaptures sold-out size demand"
+  },
+  {
+   "id": "recently-viewed",
+   "name": "Recently viewed",
+   "page": "product",
+   "why": "Return to considered items"
+  },
+  {
+   "id": "store-locator",
+   "name": "Store locator",
+   "page": "page",
+   "why": "Omnichannel brands"
+  },
+  {
+   "id": "gift-card",
+   "name": "Gift card promo",
+   "page": "home",
+   "why": "Seasonal revenue"
+  },
+  {
+   "id": "press-logos",
+   "name": "As seen in",
+   "page": "home",
+   "why": "Credibility"
+  }
+ ],
+ "product_page_elements": [
+  "Multi-image gallery with zoom and on-model video",
+  "Color swatches linked to images",
+  "Size buttons with sold-out strike-through",
+  "Size guide/fit finder",
+  "Model height/size worn",
+  "Fabric & care tabs",
+  "Stock low indicator",
+  "Delivery & returns info",
+  "Sticky add-to-cart on mobile",
+  "Reviews with fit scale",
+  "Complete the look",
+  "Afterpay/Klarna messaging"
+ ],
+ "collection_page_elements": [
+  "Filter by size/color/price/fit",
+  "Sort",
+  "Hover second image",
+  "Swatches on cards",
+  "Quick add sizes",
+  "Sale/new badges",
+  "Promo tile in grid",
+  "Grid density toggle",
+  "Load more / infinite scroll"
+ ],
+ "metafields_metaobjects": [
+  "size_chart (metaobject)",
+  "fabric_composition",
+  "care_instructions",
+  "model_info (height, size worn)",
+  "fit_notes (runs small/true/large)",
+  "color_swatch (metaobject: name, hex/image)",
+  "complementary_products (product list)",
+  "sustainability_badges"
+ ],
+ "design_patterns": {
+  "typography": "Large editorial sans or high-contrast serif headings; uppercase small labels",
+  "color_mood": "Neutral base (white/black/beige) letting imagery carry color",
+  "imagery": "Full-bleed campaign and on-model shots, 3:4 or 4:5 portrait product images",
+  "layout": "Edge-to-edge grids, 2-col mobile, asymmetric editorial blocks",
+  "motion": "Subtle image hover swap, slow fades, video hero"
+ },
+ "conversion_drivers": [
+  "Accurate size guidance",
+  "Free returns messaging",
+  "BNPL",
+  "Swatches and hover images",
+  "Bundles/outfits",
+  "Urgency on low-stock sizes",
+  "UGC"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Impulse",
+   "preset_or_style": "Modern/Bold",
+   "notable": "Promo-heavy fashion, quick add, sliding cart"
+  },
+  {
+   "theme": "Prestige",
+   "preset_or_style": "Couture/Allure",
+   "notable": "Luxury editorial fashion feel"
+  },
+  {
+   "theme": "Symmetry",
+   "preset_or_style": "Beatnik/Salt Yard",
+   "notable": "Large catalogs, strong filtering"
+  },
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Heritage / Fabric / Ritual",
+   "notable": "Free Shopify themes positioned for clothing and high-end fashion"
+  },
+  {
+   "theme": "Be Yours",
+   "preset_or_style": "Default",
+   "notable": "Minimal fashion with shop-the-look"
+  }
+ ],
+ "anti_patterns": [
+  "Square product crops that cut models",
+  "Hidden size guides",
+  "Autoplay carousels with tiny text",
+  "Too many popups on mobile entry",
+  "Filters without size"
+ ],
+ "sources": [
+  {
+   "title": "Shopify Horizon themes (Instant blog)",
+   "url": "https://instant.so/blog/shopify-horizon-themes"
+  },
+  {
+   "title": "Best Shopify themes for conversion (GemPages)",
+   "url": "https://gempages.net/blogs/shopify/best-shopify-themes-for-conversion"
+  },
+  {
+   "title": "Top 30 Shopify Plus themes (Skailama)",
+   "url": "https://www.skailama.com/blog/top-30-shopify-plus-themes"
+  },
+  {
+   "title": "Shopify theme store",
+   "url": "https://themes.shopify.com/themes?q=free"
+  },
+  {
+   "title": "Shopify Horizon themes overview (Aureate Labs)",
+   "url": "https://aureatelabs.com/blog/shopify-horizon-themes-overview/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

@@ -1,0 +1,233 @@
+{
+ "id": "health-supplements",
+ "name": "Health & Supplements",
+ "aliases": [
+  "vitamins",
+  "nutrition",
+  "wellness",
+  "nutraceuticals",
+  "protein",
+  "sports nutrition"
+ ],
+ "shopper_profile": "Goal-oriented buyers (energy, sleep, gut, muscle) who research ingredients and trust signals and often reorder monthly.",
+ "catalog_traits": {
+  "typical_size": "small",
+  "variants": "flavor, size/servings, one-time vs subscription",
+  "price_range": "$20-$80, bundles higher"
+ },
+ "must_have_sections": [
+  {
+   "id": "hero-benefit",
+   "name": "Benefit-led hero",
+   "page": "home",
+   "why": "Leads with outcome, not product"
+  },
+  {
+   "id": "shop-by-goal",
+   "name": "Shop by goal/concern",
+   "page": "home",
+   "why": "Matches how people search for supplements"
+  },
+  {
+   "id": "featured-products",
+   "name": "Bestseller grid",
+   "page": "home",
+   "why": "Small catalog highlight"
+  },
+  {
+   "id": "ingredient-spotlight",
+   "name": "Ingredient spotlight",
+   "page": "home",
+   "why": "Transparency builds trust"
+  },
+  {
+   "id": "science-proof",
+   "name": "Clinical/science proof block",
+   "page": "home",
+   "why": "Credibility for claims"
+  },
+  {
+   "id": "reviews-ugc",
+   "name": "Reviews and testimonials",
+   "page": "home",
+   "why": "Social proof is decisive"
+  },
+  {
+   "id": "certifications-row",
+   "name": "Certification badges row",
+   "page": "global",
+   "why": "Third-party tested, GMP, vegan etc."
+  },
+  {
+   "id": "subscription-selector",
+   "name": "Subscribe & save selector",
+   "page": "product",
+   "why": "Recurring revenue core"
+  },
+  {
+   "id": "supplement-facts",
+   "name": "Supplement facts panel",
+   "page": "product",
+   "why": "Required info shoppers look for"
+  },
+  {
+   "id": "how-to-use",
+   "name": "How to use / dosage",
+   "page": "product",
+   "why": "Reduces confusion"
+  },
+  {
+   "id": "faq-accordion",
+   "name": "FAQ accordion",
+   "page": "product",
+   "why": "Handles objections"
+  },
+  {
+   "id": "bundle-offer",
+   "name": "Bundles / stacks",
+   "page": "product",
+   "why": "Raises AOV"
+  },
+  {
+   "id": "comparison-table",
+   "name": "Comparison vs. others",
+   "page": "page",
+   "why": "Differentiation"
+  },
+  {
+   "id": "cart-upsell",
+   "name": "Cart drawer upsell + threshold",
+   "page": "cart",
+   "why": "AOV"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "quiz-finder",
+   "name": "Product finder quiz",
+   "page": "page",
+   "why": "Personalized recommendations"
+  },
+  {
+   "id": "founder-story",
+   "name": "Founder/expert story",
+   "page": "page",
+   "why": "Trust"
+  },
+  {
+   "id": "blog-education",
+   "name": "Education articles",
+   "page": "home",
+   "why": "SEO"
+  },
+  {
+   "id": "before-after",
+   "name": "Results timeline",
+   "page": "product",
+   "why": "Sets expectations"
+  },
+  {
+   "id": "press-logos",
+   "name": "As seen in",
+   "page": "home",
+   "why": "Authority"
+  },
+  {
+   "id": "guarantee-banner",
+   "name": "Money-back guarantee",
+   "page": "global",
+   "why": "Risk reversal"
+  }
+ ],
+ "product_page_elements": [
+  "Subscription vs one-time toggle with savings",
+  "Flavor/size variants",
+  "Servings and price per serving",
+  "Supplement facts image/table",
+  "Key ingredients with dosages",
+  "Benefits icons",
+  "Certifications badges",
+  "Reviews summary stars",
+  "Dosage/how to use",
+  "FAQ",
+  "Disclaimer text",
+  "Bundle/quantity discounts",
+  "Sticky ATC"
+ ],
+ "collection_page_elements": [
+  "Filter by goal, form, dietary",
+  "Benefit tagline on card",
+  "Rating stars on card",
+  "Subscribe price hint",
+  "Bundle tiles"
+ ],
+ "metafields_metaobjects": [
+  "ingredients (metaobject: name, dose, benefit)",
+  "supplement_facts (file/table)",
+  "goals (list)",
+  "certifications (metaobject)",
+  "servings_per_container",
+  "dosage_instructions",
+  "warnings/disclaimer",
+  "faq (metaobject list)"
+ ],
+ "design_patterns": {
+  "typography": "Clean modern sans or rounded sans; bold headline claims",
+  "color_mood": "Clinical whites with one vibrant brand color, or natural earthy tones",
+  "imagery": "Product on solid color backgrounds, ingredient macro shots, lifestyle",
+  "layout": "Story-driven long-scroll with alternating image/text",
+  "motion": "Subtle reveals, marquee badges"
+ },
+ "conversion_drivers": [
+  "Subscribe & save discount",
+  "Shop by goal",
+  "Reviews and UGC",
+  "Guarantee",
+  "Bundles",
+  "Quiz"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Ritual",
+   "notable": "Wellness-style preset in Shopify's Horizon collection"
+  },
+  {
+   "theme": "Be Yours",
+   "preset_or_style": "Beauty/wellness styles",
+   "notable": "Soft palettes, ingredient highlights"
+  },
+  {
+   "theme": "Impulse",
+   "preset_or_style": "Default",
+   "notable": "Promo-friendly with strong product sections"
+  }
+ ],
+ "anti_patterns": [
+  "Unsupported medical claims",
+  "Hiding supplement facts",
+  "Subscription that is hard to cancel",
+  "Pushy popups on first load"
+ ],
+ "sources": [
+  {
+   "title": "Shopify for Supplements Brands (Shero Commerce)",
+   "url": "https://sherocommerce.com/pages/shopify-for-supplements"
+  },
+  {
+   "title": "Supplement Shopify store development guide (CartCoders)",
+   "url": "https://cartcoders.com/blog/store-setup/supplement-shopify-store-development-guide/"
+  },
+  {
+   "title": "Supplement subscription management guide (Ringly)",
+   "url": "https://www.ringly.io/blog/supplement-subscription-management"
+  },
+  {
+   "title": "Shopify Horizon Theme Collection guide (BSS Commerce)",
+   "url": "https://bsscommerce.com/shopify/shopify-horizon-theme-review/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

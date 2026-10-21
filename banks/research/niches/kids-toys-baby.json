@@ -1,0 +1,204 @@
+{
+ "id": "kids-toys-baby",
+ "name": "Kids, Toys & Baby",
+ "aliases": [
+  "toy store",
+  "baby products",
+  "nursery",
+  "children's clothing",
+  "educational toys"
+ ],
+ "shopper_profile": "Parents and gift-givers seeking safe, age-appropriate items, often shopping by age or occasion.",
+ "catalog_traits": {
+  "typical_size": "medium",
+  "variants": "age/size, color, character",
+  "price_range": "$10-$200 (nursery furniture higher)"
+ },
+ "must_have_sections": [
+  {
+   "id": "playful-hero",
+   "name": "Playful hero banner",
+   "page": "home",
+   "why": "Sets joyful tone"
+  },
+  {
+   "id": "shop-by-age",
+   "name": "Shop by age",
+   "page": "home",
+   "why": "Primary navigation for parents"
+  },
+  {
+   "id": "shop-by-category",
+   "name": "Category tiles",
+   "page": "home",
+   "why": "Toys, clothing, nursery"
+  },
+  {
+   "id": "gift-guide",
+   "name": "Gift guide / occasions",
+   "page": "home",
+   "why": "Gift buyers"
+  },
+  {
+   "id": "bestsellers",
+   "name": "Bestsellers carousel",
+   "page": "home",
+   "why": "Social proof"
+  },
+  {
+   "id": "safety-badges",
+   "name": "Safety/certification badges",
+   "page": "global",
+   "why": "Parents' top concern"
+  },
+  {
+   "id": "age-badge",
+   "name": "Age recommendation badge",
+   "page": "product",
+   "why": "Fit for child"
+  },
+  {
+   "id": "reviews",
+   "name": "Parent reviews",
+   "page": "product",
+   "why": "Trust"
+  },
+  {
+   "id": "gift-wrap",
+   "name": "Gift wrap / message option",
+   "page": "cart",
+   "why": "Gifting"
+  },
+  {
+   "id": "filters-age",
+   "name": "Filters by age, gender, price",
+   "page": "collection",
+   "why": "Narrowing"
+  },
+  {
+   "id": "newsletter",
+   "name": "Newsletter signup",
+   "page": "global",
+   "why": "Retention"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with threshold",
+   "page": "cart",
+   "why": "AOV"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "registry",
+   "name": "Baby registry/wishlist",
+   "page": "page",
+   "why": "Baby shoppers"
+  },
+  {
+   "id": "character-brands",
+   "name": "Shop by character/brand",
+   "page": "home",
+   "why": "Licensing pull"
+  },
+  {
+   "id": "learning-benefits",
+   "name": "Developmental benefits block",
+   "page": "product",
+   "why": "Educational toys"
+  },
+  {
+   "id": "ugc-kids",
+   "name": "Customer photos",
+   "page": "home",
+   "why": "Authenticity"
+  },
+  {
+   "id": "bundle-builder",
+   "name": "Build a gift box",
+   "page": "page",
+   "why": "AOV"
+  }
+ ],
+ "product_page_elements": [
+  "Age range",
+  "Safety warnings (choking hazard)",
+  "Materials and certifications",
+  "Dimensions",
+  "Batteries required info",
+  "Size chart for clothing",
+  "Gift wrap option",
+  "Reviews",
+  "Developmental skills",
+  "Video demo"
+ ],
+ "collection_page_elements": [
+  "Age filter",
+  "Price bands for gifting",
+  "Badges (new, bestseller)",
+  "Quick add",
+  "Colorful promo tiles"
+ ],
+ "metafields_metaobjects": [
+  "age_range",
+  "safety_warnings",
+  "certifications",
+  "materials",
+  "skills (list)",
+  "character/brand (metaobject)",
+  "battery_info"
+ ],
+ "design_patterns": {
+  "typography": "Rounded friendly sans, playful display",
+  "color_mood": "Bright primaries or soft pastels for baby",
+  "imagery": "Kids at play, flat lays",
+  "layout": "Rounded cards, generous spacing",
+  "motion": "Bouncy micro-interactions, subtle"
+ },
+ "conversion_drivers": [
+  "Shop by age",
+  "Gift guides",
+  "Safety trust",
+  "Gift wrap",
+  "Free shipping threshold"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Mono",
+   "preset_or_style": "Tiny",
+   "notable": "Kids-oriented preset"
+  },
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Tinker",
+   "notable": "Playful preset"
+  },
+  {
+   "theme": "Starlite",
+   "preset_or_style": "Beetle",
+   "notable": "Colorful style"
+  }
+ ],
+ "anti_patterns": [
+  "Missing safety info",
+  "Overstimulating clutter",
+  "Gendered-only navigation"
+ ],
+ "sources": [
+  {
+   "title": "Mono theme Tiny preset",
+   "url": "https://themes.shopify.com/themes/mono/presets/tiny"
+  },
+  {
+   "title": "Starlite theme Beetle style",
+   "url": "https://themes.shopify.com/themes/starlite/styles/beetle"
+  },
+  {
+   "title": "Shopify Horizon Theme Collection guide (BSS Commerce)",
+   "url": "https://bsscommerce.com/shopify/shopify-horizon-theme-review/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

@@ -1,0 +1,31 @@
+{
+ "id": "vsn-<niche>-<direction>",
+ "niche": "<niche-id>",
+ "name": "<working preset name>",
+ "direction_summary": "One paragraph: mood, why it fits the niche, how it differs from competitors and previous VSN designs.",
+ "fp": {
+  "header_layout": "", "nav_style": "", "hero": "", "product_card": "", "pdp_layout": "",
+  "collection_layout": "", "grid_density": "", "type_pairing": "", "radius": "", "motion": "",
+  "imagery": "", "section_rhythm": ""
+ },
+ "palette": ["#primaryAccent", "#ink", "#background", "#surface"],
+ "tokens": {
+  "color_schemes": [{"id": "scheme-1", "background": "", "foreground": "", "accent": "", "button": "", "button_label": "", "border": ""}],
+  "typography": {"heading_font": "", "body_font": "", "scale": "e.g. 1.25 major third", "base_size": 16},
+  "spacing": {"unit": 4, "section_padding": {"mobile": 40, "desktop": 80}},
+  "radius": {"button": 0, "card": 0, "input": 0},
+  "shadows": "",
+  "motion": {"duration_ms": 200, "easing": "", "reduced_motion": "disable non-essential"}
+ },
+ "templates": {
+  "index": ["section ids in order"],
+  "collection": [], "product": [], "cart": [], "search": [], "list-collections": [],
+  "page": [], "page.contact": [], "blog": [], "article": [], "404": [], "password": [], "gift_card": []
+ },
+ "sections": [
+  {"id": "", "name": "", "blocks": [""], "settings": [""], "variants": [""], "states": ["empty", "loading", "error"], "responsive": "", "a11y": ""}
+ ],
+ "option_map": {"<option-id>": "where it lives, e.g. product/main-product > block price"},
+ "requirement_map": {"<req-id>": "how the design satisfies it"},
+ "figma": {"file_key": "BxJuIRth8k4cCUbFnPV6ek", "page_node": "25:2", "frames": {}}
+}

@@ -1,0 +1,230 @@
+{
+ "id": "home-furniture",
+ "name": "Home & Furniture",
+ "aliases": [
+  "home decor",
+  "furniture",
+  "interiors",
+  "kitchenware",
+  "bedding",
+  "lighting"
+ ],
+ "shopper_profile": "Considered, high-ticket buyers visualizing items in their space; care about dimensions, materials, delivery and lead times.",
+ "catalog_traits": {
+  "typical_size": "medium",
+  "variants": "Material, finish, color, size/dimensions, fabric swatches",
+  "price_range": "$20-$5,000"
+ },
+ "must_have_sections": [
+  {
+   "id": "announcement-bar",
+   "name": "Announcement bar",
+   "page": "global",
+   "why": "Shipping/promo messaging"
+  },
+  {
+   "id": "mega-menu",
+   "name": "Mega menu",
+   "page": "global",
+   "why": "Deep category navigation"
+  },
+  {
+   "id": "predictive-search",
+   "name": "Predictive search",
+   "page": "global",
+   "why": "Fast product discovery"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with upsells",
+   "page": "cart",
+   "why": "Keeps shoppers browsing, raises AOV"
+  },
+  {
+   "id": "lifestyle-hero",
+   "name": "Room-scene hero",
+   "page": "home",
+   "why": "Aspirational context"
+  },
+  {
+   "id": "shop-by-room",
+   "name": "Shop by room",
+   "page": "home",
+   "why": "How people shop home"
+  },
+  {
+   "id": "shop-the-room",
+   "name": "Shop the room hotspots",
+   "page": "home",
+   "why": "Multi-item sales"
+  },
+  {
+   "id": "dimensions",
+   "name": "Dimensions diagram",
+   "page": "product",
+   "why": "Fit confidence"
+  },
+  {
+   "id": "materials-swatches",
+   "name": "Material/fabric swatches",
+   "page": "product",
+   "why": "Finish selection"
+  },
+  {
+   "id": "delivery-info",
+   "name": "Delivery & lead time",
+   "page": "product",
+   "why": "Logistics clarity"
+  },
+  {
+   "id": "faceted-filters",
+   "name": "Filters (material, style, size)",
+   "page": "collection",
+   "why": "Narrow choices"
+  },
+  {
+   "id": "reviews-photos",
+   "name": "Reviews with photos",
+   "page": "product",
+   "why": "Real homes proof"
+  },
+  {
+   "id": "financing",
+   "name": "Financing messaging",
+   "page": "product",
+   "why": "High ticket"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "ar-view",
+   "name": "View in your room (AR/3D)",
+   "page": "product",
+   "why": "Visualization"
+  },
+  {
+   "id": "swatch-request",
+   "name": "Order free swatches",
+   "page": "page",
+   "why": "Reduces risk"
+  },
+  {
+   "id": "design-services",
+   "name": "Design consultation",
+   "page": "page",
+   "why": "Service upsell"
+  },
+  {
+   "id": "showroom-locator",
+   "name": "Showroom locator",
+   "page": "page",
+   "why": "Omnichannel"
+  },
+  {
+   "id": "inspiration-blog",
+   "name": "Inspiration/journal",
+   "page": "page",
+   "why": "SEO + mood"
+  },
+  {
+   "id": "sustainability",
+   "name": "Craft & sustainability",
+   "page": "page",
+   "why": "Value story"
+  }
+ ],
+ "product_page_elements": [
+  "Lifestyle + cutout gallery",
+  "3D/AR viewer",
+  "Finish/fabric swatches",
+  "Dimensions with diagram",
+  "Materials and care",
+  "Lead time and delivery method",
+  "Assembly info",
+  "Financing",
+  "Reviews with photos",
+  "Complete the room",
+  "Swatch request"
+ ],
+ "collection_page_elements": [
+  "Filter by room, material, color, size, price",
+  "Lifestyle hover image",
+  "Swatch dots",
+  "In-stock vs made-to-order",
+  "Editorial banners within grid"
+ ],
+ "metafields_metaobjects": [
+  "dimensions (w/d/h, weight)",
+  "materials (metaobject list)",
+  "finish (metaobject swatch)",
+  "care_instructions",
+  "lead_time",
+  "assembly_required (boolean)",
+  "3d_model (media)",
+  "room (list)"
+ ],
+ "design_patterns": {
+  "typography": "Warm serif or humanist sans, editorial tone",
+  "color_mood": "Warm neutrals, earth tones, natural textures",
+  "imagery": "Styled room scenes, detail textures, cutouts",
+  "layout": "Spacious editorial blocks, large imagery",
+  "motion": "Slow parallax, gentle fades"
+ },
+ "conversion_drivers": [
+  "Room visualization",
+  "Clear dimensions",
+  "Delivery transparency",
+  "Financing",
+  "Free swatches",
+  "Photo reviews"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Dwell / Vessel",
+   "notable": "Positioned for home decor and home goods"
+  },
+  {
+   "theme": "Prestige",
+   "preset_or_style": "Default",
+   "notable": "Premium furniture brands"
+  },
+  {
+   "theme": "Broadcast",
+   "preset_or_style": "Default",
+   "notable": "Editorial storytelling"
+  },
+  {
+   "theme": "Symmetry",
+   "preset_or_style": "Default",
+   "notable": "Larger catalogs"
+  }
+ ],
+ "anti_patterns": [
+  "Missing dimensions",
+  "Only cutout images",
+  "Hidden delivery fees",
+  "Cluttered pages hiding products"
+ ],
+ "sources": [
+  {
+   "title": "Shopify Horizon themes (Instant blog)",
+   "url": "https://instant.so/blog/shopify-horizon-themes"
+  },
+  {
+   "title": "Top 30 Shopify Plus themes (Skailama)",
+   "url": "https://www.skailama.com/blog/top-30-shopify-plus-themes"
+  },
+  {
+   "title": "How to pick the perfect Shopify theme (Shopify blog)",
+   "url": "https://www.shopify.com.au/blog/64700741-how-to-pick-the-perfect-theme-for-your-shopify-store"
+  },
+  {
+   "title": "Shopify Horizon themes overview (Aureate Labs)",
+   "url": "https://aureatelabs.com/blog/shopify-horizon-themes-overview/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

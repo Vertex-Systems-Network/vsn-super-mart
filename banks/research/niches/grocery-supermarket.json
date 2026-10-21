@@ -1,0 +1,256 @@
+{
+ "id": "grocery-supermarket",
+ "name": "Grocery & Supermarket (multi-category mart)",
+ "aliases": [
+  "supermarket",
+  "mini mart",
+  "online grocery",
+  "general store",
+  "convenience store",
+  "hypermarket"
+ ],
+ "shopper_profile": "Repeat, task-driven shoppers filling a basket of many low-cost items quickly, often on mobile, who care about availability, delivery slots and price per unit.",
+ "catalog_traits": {
+  "typical_size": "large",
+  "variants": "weight/size/pack-count variants; many single-variant SKUs",
+  "price_range": "very low to low (under $1 to ~$50), basket-driven AOV"
+ },
+ "must_have_sections": [
+  {
+   "id": "announcement-delivery-bar",
+   "name": "Delivery/announcement bar",
+   "page": "global",
+   "why": "Communicates delivery zones, cut-off times and free-delivery threshold"
+  },
+  {
+   "id": "header-search-prominent",
+   "name": "Header with prominent predictive search",
+   "page": "global",
+   "why": "Large catalogs are navigated by search first"
+  },
+  {
+   "id": "mega-menu-departments",
+   "name": "Department mega menu / category sidebar",
+   "page": "global",
+   "why": "Dozens of aisles need a scannable hierarchy"
+  },
+  {
+   "id": "hero-promo-slider",
+   "name": "Promotional hero carousel",
+   "page": "home",
+   "why": "Weekly offers and seasonal campaigns rotate frequently"
+  },
+  {
+   "id": "category-icon-grid",
+   "name": "Shop-by-aisle icon grid",
+   "page": "home",
+   "why": "Fast entry into departments with visual tiles"
+  },
+  {
+   "id": "product-carousel-tabs",
+   "name": "Tabbed product carousels (deals, bestsellers, new)",
+   "page": "home",
+   "why": "Dense merchandising of many SKUs above the fold"
+  },
+  {
+   "id": "deal-countdown",
+   "name": "Deal of the day with countdown",
+   "page": "home",
+   "why": "Drives urgency on flash promotions"
+  },
+  {
+   "id": "promo-banner-grid",
+   "name": "Multi-banner promo grid",
+   "page": "home",
+   "why": "Brand and category offers side by side"
+  },
+  {
+   "id": "brand-logo-strip",
+   "name": "Shop by brand strip",
+   "page": "home",
+   "why": "Many shoppers are brand-loyal for staples"
+  },
+  {
+   "id": "quick-add-card",
+   "name": "Product card with quick add / qty stepper",
+   "page": "collection",
+   "why": "Add without leaving the listing; essential for basket building"
+  },
+  {
+   "id": "faceted-filters",
+   "name": "Faceted filters + sort",
+   "page": "collection",
+   "why": "Diet, brand, price, size filtering in large aisles"
+  },
+  {
+   "id": "cart-drawer-threshold",
+   "name": "Cart drawer with free-delivery progress",
+   "page": "cart",
+   "why": "Raises AOV toward threshold"
+  },
+  {
+   "id": "delivery-slot-picker",
+   "name": "Delivery date/slot picker",
+   "page": "cart",
+   "why": "Perishable delivery needs scheduling"
+  },
+  {
+   "id": "recently-viewed-buy-again",
+   "name": "Buy again / recently viewed",
+   "page": "home",
+   "why": "Repeat purchases dominate grocery"
+  },
+  {
+   "id": "trust-usp-row",
+   "name": "Service USP row (fresh, fast, secure)",
+   "page": "home",
+   "why": "Sets expectations on freshness and delivery"
+  },
+  {
+   "id": "mobile-bottom-nav",
+   "name": "Sticky mobile bottom navigation",
+   "page": "global",
+   "why": "Thumb access to categories, search, cart"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "recipe-shoppable",
+   "name": "Shoppable recipes",
+   "page": "page",
+   "why": "Bundles ingredients into one add-to-cart"
+  },
+  {
+   "id": "store-locator-pickup",
+   "name": "Store locator / click & collect",
+   "page": "page",
+   "why": "Hybrid physical marts"
+  },
+  {
+   "id": "loyalty-points-banner",
+   "name": "Loyalty points banner",
+   "page": "home",
+   "why": "Retention"
+  },
+  {
+   "id": "app-download-banner",
+   "name": "App download banner",
+   "page": "home",
+   "why": "Many grocers push app ordering"
+  },
+  {
+   "id": "bundle-builder",
+   "name": "Mix and match bundles",
+   "page": "product",
+   "why": "Multi-buy offers like 3 for 2"
+  },
+  {
+   "id": "blog-tips",
+   "name": "Tips/recipes blog grid",
+   "page": "home",
+   "why": "SEO and engagement"
+  },
+  {
+   "id": "postcode-checker",
+   "name": "Postcode delivery checker",
+   "page": "global",
+   "why": "Confirms serviceability early"
+  }
+ ],
+ "product_page_elements": [
+  "Price per unit (e.g., per kg/100g)",
+  "Pack size/weight variant pills",
+  "Quantity stepper",
+  "Sale/compare-at price badge",
+  "Stock and availability by location",
+  "Nutrition facts table",
+  "Ingredients and allergens",
+  "Dietary badges (vegan, gluten-free, organic, halal)",
+  "Origin/brand info",
+  "Storage and shelf-life info",
+  "Frequently bought together",
+  "Sticky add-to-cart on mobile",
+  "Delivery estimate"
+ ],
+ "collection_page_elements": [
+  "Sidebar or drawer facets (brand, diet, price, size)",
+  "Sort by price/unit price/popularity",
+  "Subcategory chips",
+  "Compact dense grid (4-6 cols desktop, 2 mobile)",
+  "Quick add with qty stepper on cards",
+  "Sale and out-of-stock badges",
+  "Load more / infinite scroll",
+  "Promo tile inserted in grid"
+ ],
+ "metafields_metaobjects": [
+  "unit_price_measurement (native)",
+  "nutrition_facts (metaobject)",
+  "ingredients (rich text)",
+  "allergens (list)",
+  "dietary_badges (list of metaobject refs)",
+  "country_of_origin",
+  "shelf_life / storage",
+  "brand (metaobject)",
+  "delivery_zones (metaobject)"
+ ],
+ "design_patterns": {
+  "typography": "Highly legible sans-serif, compact sizes, bold prices",
+  "color_mood": "Fresh greens/oranges on white, strong sale red/yellow accents",
+  "imagery": "Packshots on white, consistent square crops; lifestyle only in banners",
+  "layout": "Dense, boxed, multi-column; utility-first like marketplace sites",
+  "motion": "Minimal; quick cart feedback and carousel swipes only"
+ },
+ "conversion_drivers": [
+  "Free-delivery threshold progress",
+  "Quick add and quantity steppers everywhere",
+  "Buy-again lists",
+  "Multi-buy promos",
+  "Fast predictive search with product results",
+  "Clear delivery slot availability"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Warehouse",
+   "preset_or_style": "Metal / default",
+   "notable": "Built for large catalogs: mega menu, quick buy, dense grids"
+  },
+  {
+   "theme": "Koto",
+   "preset_or_style": "Mochi",
+   "notable": "Colorful food-focused preset with shop-by-category emphasis"
+  },
+  {
+   "theme": "Third-party grocery themes (e.g., Gromend)",
+   "preset_or_style": "Supermarket demos",
+   "notable": "Department sidebars, deal countdowns, brand strips"
+  }
+ ],
+ "anti_patterns": [
+  "Large editorial hero images pushing products below the fold",
+  "Hiding unit price",
+  "Forcing product page visits to add to cart",
+  "Heavy animations slowing big collections",
+  "Missing allergen information"
+ ],
+ "sources": [
+  {
+   "title": "Best Shopify Themes for Grocery Stores (Koala Apps)",
+   "url": "https://koala-apps.io/best-shopify-themes/grocery-stores/"
+  },
+  {
+   "title": "20 Best Shopify Themes for General and Grocery Stores (NextSky)",
+   "url": "https://nextsky.co/blogs/review-themes/best-shopify-themes-for-general-stores"
+  },
+  {
+   "title": "Koto theme Mochi preset",
+   "url": "https://themes.shopify.com/themes/koto/presets/mochi"
+  },
+  {
+   "title": "Gromend grocery Shopify theme",
+   "url": "https://www.templatemonster.com/shopify-themes/gromend-grocery-and-supermarket-store-shopify-2-0-responsive-theme-450611.html"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

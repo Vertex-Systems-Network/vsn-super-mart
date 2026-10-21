@@ -1,0 +1,192 @@
+{
+ "id": "single-product-dtc",
+ "name": "Single-Product DTC",
+ "aliases": [
+  "one product store",
+  "hero product",
+  "DTC brand",
+  "landing page store"
+ ],
+ "shopper_profile": "Visitors arriving from ads who need to be persuaded on one product in one scroll.",
+ "catalog_traits": {
+  "typical_size": "small",
+  "variants": "few (color, bundle qty)",
+  "price_range": "$30-$300"
+ },
+ "must_have_sections": [
+  {
+   "id": "hero-product-buy",
+   "name": "Hero with buy box",
+   "page": "home",
+   "why": "Buy immediately"
+  },
+  {
+   "id": "benefits-icons",
+   "name": "Benefits icons",
+   "page": "home",
+   "why": "Quick value"
+  },
+  {
+   "id": "problem-solution",
+   "name": "Problem/solution",
+   "page": "home",
+   "why": "Persuasion"
+  },
+  {
+   "id": "how-it-works",
+   "name": "How it works",
+   "page": "home",
+   "why": "Clarity"
+  },
+  {
+   "id": "video-demo",
+   "name": "Video demo",
+   "page": "home",
+   "why": "Show product"
+  },
+  {
+   "id": "comparison-table",
+   "name": "Us vs them",
+   "page": "home",
+   "why": "Differentiation"
+  },
+  {
+   "id": "reviews-ugc",
+   "name": "Reviews/UGC",
+   "page": "home",
+   "why": "Proof"
+  },
+  {
+   "id": "press-logos",
+   "name": "Press logos",
+   "page": "home",
+   "why": "Authority"
+  },
+  {
+   "id": "bundle-qty-breaks",
+   "name": "Quantity bundle offers",
+   "page": "product",
+   "why": "AOV"
+  },
+  {
+   "id": "faq",
+   "name": "FAQ",
+   "page": "home",
+   "why": "Objections"
+  },
+  {
+   "id": "guarantee",
+   "name": "Guarantee",
+   "page": "global",
+   "why": "Risk reversal"
+  },
+  {
+   "id": "sticky-atc",
+   "name": "Sticky add to cart",
+   "page": "global",
+   "why": "Always buyable"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "countdown",
+   "name": "Offer countdown",
+   "page": "global",
+   "why": "Urgency"
+  },
+  {
+   "id": "founder-story",
+   "name": "Founder story",
+   "page": "page",
+   "why": "Trust"
+  },
+  {
+   "id": "specs",
+   "name": "Specs",
+   "page": "product",
+   "why": "Detail"
+  },
+  {
+   "id": "in-box",
+   "name": "What's in the box",
+   "page": "product",
+   "why": "Clarity"
+  },
+  {
+   "id": "cart-upsell",
+   "name": "Accessory upsell",
+   "page": "cart",
+   "why": "AOV"
+  }
+ ],
+ "product_page_elements": [
+  "Bundle selector",
+  "Variants",
+  "Price with savings",
+  "Ratings",
+  "Benefits list",
+  "Guarantee",
+  "Shipping estimate",
+  "Payment icons",
+  "Sticky ATC",
+  "Video"
+ ],
+ "collection_page_elements": [
+  "Often skipped; simple accessory grid"
+ ],
+ "metafields_metaobjects": [
+  "benefits (list)",
+  "comparison rows (metaobject)",
+  "faq (metaobject)",
+  "in_box"
+ ],
+ "design_patterns": {
+  "typography": "Bold large headlines",
+  "color_mood": "Strong brand color",
+  "imagery": "Hero product, lifestyle, GIFs",
+  "layout": "Long-scroll landing page",
+  "motion": "Scroll reveals, video"
+ },
+ "conversion_drivers": [
+  "Bundles",
+  "Guarantee",
+  "Social proof",
+  "Sticky ATC",
+  "Urgency"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Vessel",
+   "notable": "Product-focused preset"
+  },
+  {
+   "theme": "Focal",
+   "preset_or_style": "Default",
+   "notable": "Image-rich storytelling"
+  },
+  {
+   "theme": "Impulse",
+   "preset_or_style": "Default",
+   "notable": "Strong promo sections"
+  }
+ ],
+ "anti_patterns": [
+  "Multi-level menus",
+  "Distractions away from buy box",
+  "Fake urgency"
+ ],
+ "sources": [
+  {
+   "title": "Shopify Horizon Theme Collection guide (BSS Commerce)",
+   "url": "https://bsscommerce.com/shopify/shopify-horizon-theme-review/"
+  },
+  {
+   "title": "Shopify Horizon Themes overview (Aureate Labs)",
+   "url": "https://aureatelabs.com/blog/shopify-horizon-themes-overview/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}
