@@ -1,0 +1,30 @@
+{%- liquid
+  assign scope = '#vsn-s-' | append: section.id
+-%}
+{% style %}
+  {{ scope }}{--vsn-section-bg:{{ section.settings.bg | default: settings.vsn_bg }};--vsn-maxw:{% if section.settings.full_width %}none{% else %}1440px{% endif %}}
+  {% render 'vsn-responsive', scope: scope, prop: 'spad', d: section.settings.pad_d, t: section.settings.pad_t, m: section.settings.pad_m %}
+{% endstyle %}
+<section id="vsn-s-{{ section.id }}" class="vsn-section">
+  <div class="vsn-section__inner">
+    {% content_for 'blocks' %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "VSN Section",
+  "tag": "div",
+  "class": "vsn-section-wrapper",
+  "blocks": [{ "type": "@theme" }, { "type": "@app" }],
+  "settings": [
+    { "type": "color", "id": "bg", "label": "Background (empty = theme background)" },
+    { "type": "checkbox", "id": "full_width", "label": "Full width", "default": false },
+    { "type": "header", "content": "Vertical padding" },
+    { "type": "number", "id": "pad_d", "label": "Desktop (1440) px", "default": 96 },
+    { "type": "number", "id": "pad_t", "label": "Tablet (768) px", "default": 72 },
+    { "type": "number", "id": "pad_m", "label": "Mobile (360) px", "default": 48 }
+  ],
+  "presets": [{ "name": "VSN Section" }]
+}
+{% endschema %}

@@ -125,5 +125,21 @@
   ]
  },
  "limits_to_verify": "Shopify limits the number of settings and blocks per section/block and the size of schema; check current shopify.dev limits before Stage 7 and split settings across nested blocks if needed.",
- "element_defaults": "Each element type has a global default style in theme settings (Gutenberg styles.blocks / styles.elements equivalent); instances inherit and override only what changes."
+ "element_defaults": "Each element type has a global default style in theme settings (Gutenberg styles.blocks / styles.elements equivalent); instances inherit and override only what changes.",
+ "shopify_limits_verified": {
+  "source": "https://shopify.dev/docs/storefronts/themes/architecture/limits",
+  "checked": "2026-10-22",
+  "blocks_per_section": 50,
+  "sections_per_template": 25,
+  "blocks_per_template": 1250,
+  "nesting_depth": 8,
+  "theme_block_files": 300,
+  "json_template_kb": 512,
+  "settings_schema_kb": 512,
+  "settings_data_mb": 1.5,
+  "liquid_file_kb": 256,
+  "schema_name_chars": 25,
+  "settings_per_block": "no published limit (keep groups lean)",
+  "visible_if": "supported on basic, sidebar and several specialized settings; expression like {{ block.settings.x == 'y' }}; cannot read runtime/resolved data"
+ }
 }

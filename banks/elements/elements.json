@@ -15,7 +15,7 @@
    "settings": [
     "universal"
    ],
-   "status": "planned",
+   "status": "prototype",
    "addon_options": [
     "wrapper link",
     "equal height",
@@ -30,7 +30,8 @@
    ],
    "also_in": [
     "gutenberg-core"
-   ]
+   ],
+   "file": "theme/blocks/vsn-group.liquid"
   },
   {
    "id": "grid",
@@ -44,10 +45,11 @@
    "settings": [
     "universal"
    ],
-   "status": "planned",
+   "status": "prototype",
    "also_in": [
     "gutenberg-core"
-   ]
+   ],
+   "file": "theme/blocks/vsn-group.liquid"
   },
   {
    "id": "columns",
@@ -78,7 +80,8 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "prototype",
+   "file": "theme/sections/vsn-section.liquid"
   },
   {
    "id": "spacer",
@@ -251,7 +254,7 @@
    "settings": [
     "universal"
    ],
-   "status": "planned",
+   "status": "prototype",
    "addon_options": [
     "dual/two-color heading",
     "gradient text",
@@ -267,7 +270,8 @@
    ],
    "also_in": [
     "gutenberg-core"
-   ]
+   ],
+   "file": "theme/blocks/vsn-heading.liquid"
   },
   {
    "id": "text",
@@ -295,7 +299,7 @@
    "settings": [
     "universal"
    ],
-   "status": "planned",
+   "status": "prototype",
    "addon_options": [
     "creative hover styles",
     "marketing button with subtext",
@@ -313,7 +317,8 @@
    ],
    "also_in": [
     "gutenberg-core"
-   ]
+   ],
+   "file": "theme/blocks/vsn-button.liquid"
   },
   {
    "id": "button-group",
@@ -1446,7 +1451,8 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "prototype",
+   "file": "theme/blocks/vsn-product-card.liquid"
   },
   {
    "id": "product-grid",
@@ -3367,6 +3373,21 @@
     "universal"
    ],
    "status": "planned"
+  },
+  {
+   "id": "global-component",
+   "name": "Global component",
+   "category": "layout",
+   "elementor": "elementor-pro",
+   "elementor_gap": "Elementor global widget has no per-instance content; Gutenberg overrides limited to a few blocks",
+   "vsn_extras": "synced content + design from theme settings slots, any field overridable per instance",
+   "shopify_source": "settings",
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "prototype",
+   "file": "theme/blocks/vsn-global-component.liquid"
   }
  ],
  "addon_research": {

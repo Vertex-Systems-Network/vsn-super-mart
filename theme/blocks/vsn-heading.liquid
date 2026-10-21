@@ -1,0 +1,287 @@
+{% doc %}
+VSN element: Heading (rule 15). Variations, fluid size, responsive alignment, simple mode.
+  Self-contained block: callers leave the body empty.
+{% enddoc %}
+{%- liquid
+  assign scope = '#vsn-' | append: block.id
+  assign variation = block.settings.variation
+  if variation == 'inherit'
+    assign variation = settings.vsn_heading_variation
+  endif
+  assign tag = block.settings.tag
+-%}
+{% style %}
+  {{ scope }}{--vsn-align-d:{{ block.settings.align_d }};--vsn-align-t:{{ block.settings.align_t }};--vsn-align-m:{{ block.settings.align_m }};--vsn-ls:{{ block.settings.letter_spacing | divided_by: 100.0 }}em}
+  {% render 'vsn-responsive', scope: scope, prop: 'fs', d: block.settings.size_d, t: block.settings.size_t, m: block.settings.size_m, adv: block.settings.adv, o320: block.settings.size_320, o480: block.settings.size_480, o560: block.settings.size_560, o1024: block.settings.size_1024, o1920: block.settings.size_1920, o2448: block.settings.size_2448 %}
+{% endstyle %}
+<{{ tag }}
+  id="vsn-{{ block.id }}"
+  class="vsn-heading vsn-heading--{{ variation }} vsn-weight--{{ block.settings.weight }} vsn-case--{{ block.settings.transform }} {{ block.settings.css_class | escape }}"
+  {{ block.shopify_attributes }}
+>
+  {{- block.settings.text -}}
+</{{ tag }}>
+
+{% schema %}
+{
+  "name": "VSN Heading",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "Night shift"
+    },
+    {
+      "type": "select",
+      "id": "tag",
+      "label": "HTML tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "p",
+          "label": "Paragraph"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "variation",
+      "label": "Style variation",
+      "options": [
+        {
+          "value": "inherit",
+          "label": "Theme default"
+        },
+        {
+          "value": "display",
+          "label": "Display"
+        },
+        {
+          "value": "outline",
+          "label": "Outline"
+        },
+        {
+          "value": "gradient",
+          "label": "Gradient"
+        },
+        {
+          "value": "marker",
+          "label": "Marker highlight"
+        }
+      ],
+      "default": "inherit",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "weight",
+      "label": "Weight",
+      "options": [
+        {
+          "value": "regular",
+          "label": "Regular"
+        },
+        {
+          "value": "bold",
+          "label": "Bold"
+        }
+      ],
+      "default": "bold",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "transform",
+      "label": "Text case",
+      "options": [
+        {
+          "value": "none",
+          "label": "As typed"
+        },
+        {
+          "value": "upper",
+          "label": "Uppercase"
+        }
+      ],
+      "default": "upper",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "range",
+      "id": "letter_spacing",
+      "label": "Letter spacing",
+      "min": -10,
+      "max": 30,
+      "step": 1,
+      "unit": "%",
+      "default": -1,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "header",
+      "content": "Font size",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "size_d",
+      "label": "Font size \u2014 desktop (1440) px",
+      "default": 96,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "size_t",
+      "label": "Font size \u2014 tablet (768) px",
+      "default": 64,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "size_m",
+      "label": "Font size \u2014 mobile (360) px",
+      "default": 44,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "size_320",
+      "label": "Font size \u2014 320 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "size_480",
+      "label": "Font size \u2014 480 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "size_560",
+      "label": "Font size \u2014 560 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "size_1024",
+      "label": "Font size \u2014 1024 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "size_1920",
+      "label": "Font size \u2014 1920 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "size_2448",
+      "label": "Font size \u2014 2448 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "select",
+      "id": "align_d",
+      "label": "Alignment \u2014 desktop",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "start",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "align_t",
+      "label": "Alignment \u2014 tablet",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "start",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "align_m",
+      "label": "Alignment \u2014 mobile",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "start",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "header",
+      "content": "Editing"
+    },
+    {
+      "type": "checkbox",
+      "id": "simple_mode",
+      "label": "Simple mode (content only)",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "adv",
+      "label": "Advanced responsive (all 9 breakpoints)",
+      "default": false,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "Custom CSS class",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    }
+  ]
+}
+{% endschema %}
