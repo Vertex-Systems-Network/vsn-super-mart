@@ -14,3 +14,4 @@
 - 2026-10-21 18:57 [stage 6 / gen-z-store] Design QA: 25 issues fixed, clipping audit 0; rules 13 (blog + sharing) and 14 (nothing cut) added
 - 2026-10-21 19:08 [stage 6 / gen-z-store] Rule 15: element library bank (118 elements, universal settings, smart responsive 9 breakpoints); addon research running
 - 2026-10-21 19:10 [stage 6 / gen-z-store] Element bank: merged third-party Elementor addon research
+- 2026-10-21 19:15 [stage 6 / gen-z-store] Element system: merged Elementor + Gutenberg architecture; +Gutenberg core blocks

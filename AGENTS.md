@@ -101,7 +101,9 @@ Never skip stages. Never start development before the design gate passes.
    responsive system for breakpoints 2448, 1920, 1440, 1024, 768, 560, 480, 360, 320 (`responsive.json`:
    3 visible anchors + calculated values + advanced per-breakpoint overrides). Every demo is built only
    from elements + settings; if a design needs something new, add a new element to the library (never
-   one-off code for a single preset).
+   one-off code for a single preset). The system merges Elementor and WordPress Gutenberg ideas —
+   tokens → element defaults → style variations → global components (synced, any field overridable) →
+   instance → responsive overrides → display conditions — see `banks/elements/architecture.md`.
 
 ## 5. Repository map
 

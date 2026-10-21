@@ -27,6 +27,9 @@
     "The Plus Addons",
     "Happy Addons",
     "Premium Addons"
+   ],
+   "also_in": [
+    "gutenberg-core"
    ]
   },
   {
@@ -41,7 +44,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "columns",
@@ -55,7 +61,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "section-wrapper",
@@ -83,7 +92,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "divider",
@@ -108,6 +120,9 @@
     "Happy Addons",
     "Premium Addons",
     "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
    ]
   },
   {
@@ -155,6 +170,9 @@
    "addon_sources": [
     "Happy Addons",
     "Crocoblock JetTabs"
+   ],
+   "also_in": [
+    "gutenberg-core"
    ]
   },
   {
@@ -246,6 +264,9 @@
     "Happy Addons",
     "Premium Addons",
     "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
    ]
   },
   {
@@ -289,6 +310,9 @@
     "ElementsKit",
     "Premium Addons",
     "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
    ]
   },
   {
@@ -303,7 +327,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "image",
@@ -330,6 +357,9 @@
     "Happy Addons",
     "ElementsKit",
     "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
    ]
   },
   {
@@ -344,7 +374,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "icon",
@@ -450,7 +483,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "gallery",
@@ -476,6 +512,9 @@
     "Happy Addons",
     "PowerPack",
     "The Plus Addons"
+   ],
+   "also_in": [
+    "gutenberg-core"
    ]
   },
   {
@@ -1009,7 +1048,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "blog-posts",
@@ -1023,7 +1065,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "table",
@@ -1048,6 +1093,9 @@
     "ElementsKit",
     "Premium Addons",
     "PowerPack"
+   ],
+   "also_in": [
+    "gutenberg-core"
    ]
   },
   {
@@ -1188,7 +1236,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "table-of-contents",
@@ -1202,7 +1253,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "author-box",
@@ -2613,7 +2667,10 @@
    "settings": [
     "universal"
    ],
-   "status": "planned"
+   "status": "planned",
+   "also_in": [
+    "gutenberg-core"
+   ]
   },
   {
    "id": "video-gallery",
@@ -3002,6 +3059,314 @@
     "universal"
    ],
    "status": "planned"
+  },
+  {
+   "id": "paragraph",
+   "name": "Paragraph",
+   "category": "basic",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "core paragraph with drop cap",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "list",
+   "name": "List (ordered / unordered)",
+   "category": "basic",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "nested lists, custom markers, start number",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "quote",
+   "name": "Quote / Pullquote",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "quote + pullquote styles, citation, large display",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "code",
+   "name": "Code / Preformatted",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "code block with copy button",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "poem",
+   "name": "Verse / Poem",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "preserved line breaks, typographic styles",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "footnotes",
+   "name": "Footnotes",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "article footnotes",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "file",
+   "name": "File download",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "download button for PDFs (size guides, manuals)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "media-text",
+   "name": "Media and text",
+   "category": "basic",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "image/video beside text, stack on mobile, ratio control",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cover",
+   "name": "Cover",
+   "category": "layout",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "image/video background with overlay and content, min height, focal point",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "logo",
+   "name": "Site logo",
+   "category": "navigation",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "logo with any ratio, sticky size, inverted version",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "site-title",
+   "name": "Site title / tagline",
+   "category": "navigation",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "shop name and tagline from shop settings",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "loop-grid",
+   "name": "Loop grid (query loop)",
+   "category": "layout",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "repeat any element template over products, articles, collections or metaobjects",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "comments",
+   "name": "Comments",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "article comments with form, pagination, states",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "search-form",
+   "name": "Search form",
+   "category": "navigation",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "inline search form (non-predictive fallback)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "tag-list",
+   "name": "Tags / terms list",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "article or product tags as chips/links",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "archive-list",
+   "name": "Blog archive",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "articles by month or tag",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "pagination",
+   "name": "Pagination",
+   "category": "navigation",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "numbered, load more, infinite",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "details",
+   "name": "Details / disclosure",
+   "category": "layout",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "single native details/summary toggle",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "embed",
+   "name": "Embed",
+   "category": "media",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "YouTube, Vimeo, Spotify, SoundCloud, TikTok post via oEmbed-style input",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "math",
+   "name": "Math formula",
+   "category": "content",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "formula display for spec content",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "avatar",
+   "name": "Avatar",
+   "category": "basic",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "customer or author avatar / initials",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "row-stack",
+   "name": "Row / Stack",
+   "category": "layout",
+   "elementor": "gutenberg-core",
+   "elementor_gap": "Gutenberg core block; Elementor has no direct widget or a weaker one",
+   "vsn_extras": "flex row or stack with fill/fixed children (Gutenberg Row/Stack)",
+   "shopify_source": null,
+   "store_allowed": true,
+   "settings": [
+    "universal"
+   ],
+   "status": "planned"
   }
  ],
  "addon_research": {
@@ -3229,5 +3594,17 @@
    }
   ],
   "note": "From wordpress.org / crocoblock.com pages (summaries via fetch); vendor widget pages not opened; some claimed counts are inconsistent."
+ },
+ "system_concepts": {
+  "doc": "banks/elements/architecture.md",
+  "layers": [
+   "design tokens",
+   "element defaults",
+   "style variation",
+   "global component",
+   "instance settings",
+   "responsive overrides",
+   "display conditions"
+  ]
  }
 }
