@@ -1,0 +1,724 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "purpose": "Source-traceable competitor research for VSN's AI workflow; NOT copies of third-party themes.",
+  "evidence_levels": {
+    "official_preset_page": "Official product/preset listing opened; listed features are vendor claims; interactive demo NOT independently tested.",
+    "live_demo_page": "Individual publicly available demo page opened and page structure/content inspected; interaction, performance and mobile tests remain unverified."
+  },
+  "entries": [
+    {
+      "id": "shopify-impulse",
+      "platform": "shopify",
+      "theme": "Impulse",
+      "preset": "Impulse",
+      "url": "https://themes.shopify.com/themes/impulse/presets/impulse",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "shop-the-look",
+        "promo-grid",
+        "quick-view",
+        "cart-drawer",
+        "mega-menu",
+        "faceted-filters"
+      ],
+      "design_signals": [
+        "Shoppable editorial hero",
+        "promotion-rich modular sections"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "gen-z-store"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-prestige",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Prestige",
+      "url": "https://themes.shopify.com/themes/prestige/presets/prestige",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "shop-the-look",
+        "product-blocks",
+        "card-swatches",
+        "quick-view",
+        "sticky-atc",
+        "rtl-support"
+      ],
+      "design_signals": [
+        "Premium product storytelling",
+        "media-driven merchandising"
+      ],
+      "niches": [
+        "jewelry-accessories",
+        "beauty-skincare"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-prestige-couture",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Couture",
+      "url": "https://themes.shopify.com/themes/prestige/presets/couture",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "shop-the-look",
+        "product-blocks",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Fashion-focused preset on shared Prestige feature set"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-broadcast",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Broadcast",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/broadcast",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "quick-add",
+        "cart-upsell",
+        "promo-grid",
+        "before-after",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Promotion-dense modular system",
+        "fast shopping actions"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "beauty-skincare"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-broadcast-relay",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Relay",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/relay",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "quick-add",
+        "cart-upsell",
+        "promo-grid"
+      ],
+      "design_signals": [
+        "Preset variation on Broadcast feature family"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-enterprise",
+      "platform": "shopify",
+      "theme": "Enterprise",
+      "preset": "Enterprise",
+      "url": "https://themes.shopify.com/themes/enterprise/presets/enterprise",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "sticky-atc",
+        "faceted-filters",
+        "pagination-modes",
+        "mega-menu",
+        "newsletter-popup",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Large-catalog discovery",
+        "conversion utility focus"
+      ],
+      "niches": [
+        "electronics-gadgets",
+        "grocery-supermarket"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-enterprise-outlet",
+      "platform": "shopify",
+      "theme": "Enterprise",
+      "preset": "Outlet",
+      "url": "https://themes.shopify.com/themes/enterprise/presets/outlet",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "sticky-atc",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Outlet-oriented merchandising preset"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-symmetry",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Symmetry",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/symmetry",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "promo-grid",
+        "cart-drawer",
+        "quick-view",
+        "mega-menu"
+      ],
+      "design_signals": [
+        "Configurable modular visual system"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "home-furniture"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-symmetry-salt-yard",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Salt Yard",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/salt-yard",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "quick-view",
+        "cart-drawer"
+      ],
+      "design_signals": [
+        "Preset differences over shared system"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-horizon",
+      "platform": "shopify",
+      "theme": "Horizon",
+      "preset": "Horizon",
+      "url": "https://themes.shopify.com/themes/horizon/presets/horizon",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "nested-theme-blocks",
+        "product-card-variants",
+        "mega-menu",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Nested theme blocks",
+        "component composition rather than fixed banners"
+      ],
+      "niches": [
+        "single-product-dtc",
+        "fashion-apparel"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-local",
+      "platform": "shopify",
+      "theme": "Local",
+      "preset": "Local",
+      "url": "https://themes.shopify.com/themes/local/presets/local",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "map-store-locator",
+        "cart-drawer",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Local pickup and food-information focus"
+      ],
+      "niches": [
+        "grocery-supermarket",
+        "food-beverage"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-expanse",
+      "platform": "shopify",
+      "theme": "Expanse",
+      "preset": "Expanse",
+      "url": "https://themes.shopify.com/themes/expanse/presets/expanse",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "subcollection-nav",
+        "cart-upsell",
+        "promo-grid",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Large inventory navigation",
+        "category-level marketing"
+      ],
+      "niches": [
+        "grocery-supermarket",
+        "electronics-gadgets"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shopify-expanse-fetch",
+      "platform": "shopify",
+      "theme": "Expanse",
+      "preset": "Fetch",
+      "url": "https://themes.shopify.com/themes/expanse/presets/fetch",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "shop-the-look",
+        "quick-view",
+        "cart-drawer"
+      ],
+      "design_signals": [
+        "Pet-industry preset on shared Expanse engine"
+      ],
+      "niches": [
+        "pets"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-flatsome-classic",
+      "platform": "woocommerce",
+      "theme": "Flatsome",
+      "preset": "Classic Shop",
+      "url": "https://demos.flatsome.com/demos/shop-demos/classic-shop/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "featured-collection",
+        "product-card-variants",
+        "product-reviews-slot"
+      ],
+      "design_signals": [
+        "Classic product grid",
+        "rating and bestselling product merchandising"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-flatsome-mega",
+      "platform": "woocommerce",
+      "theme": "Flatsome",
+      "preset": "Mega Shop",
+      "url": "https://demos.flatsome.com/demos/shop-demos/mega-shop/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "mega-menu",
+        "quick-view",
+        "featured-collection",
+        "sale-badge-percent",
+        "subcollection-nav"
+      ],
+      "design_signals": [
+        "Department-store style home",
+        "best-sellers + latest-sale + featured rails"
+      ],
+      "niches": [
+        "grocery-supermarket",
+        "electronics-gadgets"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-flatsome-big-sale",
+      "platform": "woocommerce",
+      "theme": "Flatsome",
+      "preset": "Big Sale",
+      "url": "https://demos.flatsome.com/demos/shop-demos/big-sale/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "promo-grid",
+        "sale-campaign-section"
+      ],
+      "design_signals": [
+        "Sale-focused campaign landing"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-flatsome-fullscreen",
+      "platform": "woocommerce",
+      "theme": "Flatsome",
+      "preset": "Fullscreen Fashion",
+      "url": "https://demos.flatsome.com/demos/shop-demos/fullscreen-fashion/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "hero-slideshow",
+        "image-banner"
+      ],
+      "design_signals": [
+        "Immersive fashion imagery-led landing"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-flatsome-vendor",
+      "platform": "woocommerce",
+      "theme": "Flatsome",
+      "preset": "Vendor Shop",
+      "url": "https://demos.flatsome.com/demos/shop-demos/vendor-shop/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "featured-collection",
+        "faceted-filters"
+      ],
+      "design_signals": [
+        "Multi-vendor style merchandising"
+      ],
+      "niches": [
+        "b2b-wholesale"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-woodmart-vegetables",
+      "platform": "woocommerce",
+      "theme": "WoodMart",
+      "preset": "Vegetables",
+      "url": "https://woodmart.xtemos.com/vegetables/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "collection-list",
+        "featured-collection",
+        "quick-add"
+      ],
+      "design_signals": [
+        "Fresh grocery category merchandising"
+      ],
+      "niches": [
+        "grocery-supermarket",
+        "food-beverage"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-woodmart-furniture2",
+      "platform": "woocommerce",
+      "theme": "WoodMart",
+      "preset": "Furniture 2",
+      "url": "https://woodmart.xtemos.com/furniture2/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "shop-the-look",
+        "featured-collection",
+        "image-with-text"
+      ],
+      "design_signals": [
+        "Furniture lifestyle room-set merchandising"
+      ],
+      "niches": [
+        "home-furniture"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-woodmart-electronics3",
+      "platform": "woocommerce",
+      "theme": "WoodMart",
+      "preset": "Electronics 3",
+      "url": "https://woodmart.xtemos.com/electronics-3/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "mega-menu",
+        "card-badges"
+      ],
+      "design_signals": [
+        "Catalog-density and specs-heavy commerce"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-woodmart-pets",
+      "platform": "woocommerce",
+      "theme": "WoodMart",
+      "preset": "Pets",
+      "url": "https://woodmart.xtemos.com/pets/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "collection-list",
+        "promo-grid",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Pet-specific category tiles and product merchandising"
+      ],
+      "niches": [
+        "pets"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-woodmart-marketplace2",
+      "platform": "woocommerce",
+      "theme": "WoodMart",
+      "preset": "Marketplace 2",
+      "url": "https://woodmart.xtemos.com/marketplace2/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "mega-menu",
+        "subcollection-nav",
+        "product-card-variants"
+      ],
+      "design_signals": [
+        "Marketplace-like multi-category discovery"
+      ],
+      "niches": [
+        "b2b-wholesale",
+        "grocery-supermarket"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-woodmart-mega-electronics",
+      "platform": "woocommerce",
+      "theme": "WoodMart",
+      "preset": "Mega Electronics",
+      "url": "https://woodmart.xtemos.com/mega-electronics/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "subcollection-nav",
+        "card-badges"
+      ],
+      "design_signals": [
+        "High density mega catalog",
+        "discovery and promotion hierarchy"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-porto-shop6",
+      "platform": "woocommerce",
+      "theme": "Porto",
+      "preset": "Shop 6",
+      "url": "https://www.portotheme.com/wordpress/porto/shop6/shop/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "sorting",
+        "grid-density"
+      ],
+      "design_signals": [
+        "Shop/catalog listing variations"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "woo-porto-shop4-category",
+      "platform": "woocommerce",
+      "theme": "Porto",
+      "preset": "Shop 4 category",
+      "url": "https://www.portotheme.com/wordpress/porto/gutenberg-shop4/product-category/fashion/t-shirts-fashion/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "sorting",
+        "product-card-variants"
+      ],
+      "design_signals": [
+        "Gutenberg commerce category layout"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "bigcommerce-cornerstone",
+      "platform": "bigcommerce",
+      "theme": "Cornerstone",
+      "preset": "Light",
+      "url": "https://cornerstone-light-demo.mybigcommerce.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "faceted-filters",
+        "quick-view",
+        "quick-add",
+        "product-compare",
+        "hero-slideshow"
+      ],
+      "design_signals": [
+        "Multi-tier category navigation",
+        "product comparison and quick actions"
+      ],
+      "niches": [
+        "grocery-supermarket",
+        "electronics-gadgets"
+      ],
+      "notes": "Feature claims cross-checked with https://www.bigcommerce.com/theme/cornerstone-light/; interactions not tested."
+    },
+    {
+      "id": "magento-hyva",
+      "platform": "magento",
+      "theme": "Hyvä",
+      "preset": "Koti demo",
+      "url": "https://demo.hyva.io/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "feature_option_ids": [
+        "mega-menu",
+        "predictive-search",
+        "featured-collection",
+        "quick-add"
+      ],
+      "design_signals": [
+        "Multi-level category taxonomy",
+        "lightweight frontend principles",
+        "home collections + quick actions"
+      ],
+      "niches": [
+        "home-furniture",
+        "electronics-gadgets"
+      ],
+      "notes": "Default Hyvä Magento 2 demo; do not assume Magento features can be ported directly to Shopify."
+    }
+  ],
+  "discovery_sources": [
+    {
+      "platform": "shopify",
+      "url": "https://themes.shopify.com/themes",
+      "meaning": "Theme Store catalog and feature filter taxonomy"
+    },
+    {
+      "platform": "woocommerce",
+      "url": "https://demos.flatsome.com/demos/",
+      "meaning": "Flatsome shop demos index"
+    },
+    {
+      "platform": "woocommerce",
+      "url": "https://woodmarttheme.com/prebuilt-websites/",
+      "meaning": "WoodMart prebuilt websites catalog"
+    },
+    {
+      "platform": "woocommerce",
+      "url": "https://www.portotheme.com/wordpress/porto_landing/demos_overview.html",
+      "meaning": "Porto prebuilt sites and shop layout index"
+    },
+    {
+      "platform": "bigcommerce",
+      "url": "https://www.bigcommerce.com/theme/cornerstone-light/",
+      "meaning": "Official Cornerstone feature claims"
+    },
+    {
+      "platform": "magento",
+      "url": "https://demo.hyva.io/",
+      "meaning": "Hyvä first-party demo"
+    }
+  ],
+  "backlog": [
+    {
+      "platform": "shopify",
+      "theme": "Impulse",
+      "reason": "Open interactive demo and inspect collection + PDP via browser"
+    },
+    {
+      "platform": "shopify",
+      "theme": "Prestige",
+      "reason": "Open interactive demo and test variants/cart on desktop and mobile"
+    },
+    {
+      "platform": "woocommerce",
+      "theme": "Astra",
+      "reason": "Identify and open commerce starter templates"
+    },
+    {
+      "platform": "woocommerce",
+      "theme": "Kadence",
+      "reason": "Open shop starter site and product templates"
+    },
+    {
+      "platform": "woocommerce",
+      "theme": "Blocksy",
+      "reason": "Open ecommerce starter site and product templates"
+    },
+    {
+      "platform": "woocommerce",
+      "theme": "Porto",
+      "reason": "Audit separate grocery demos and product layouts"
+    },
+    {
+      "platform": "bigcommerce",
+      "theme": "Cornerstone",
+      "reason": "Audit additional preset styles and mobile interactions"
+    },
+    {
+      "platform": "magento",
+      "theme": "Hyvä",
+      "reason": "Check category/product/cart pages and performance"
+    }
+  ],
+  "verification_gaps": [
+    "Shopify 'View demo' is rendered as a button; official preset listing was opened, but live store interactions were not verified.",
+    "No cross-device screenshot / Lighthouse / checkout completion testing was performed.",
+    "Theme/preset universe is much larger than this initial curated research cohort. An entry in backlog is not an opened demo.",
+    "Features listed on product pages are vendor claims unless independently visible in an opened demo."
+  ]
+}
