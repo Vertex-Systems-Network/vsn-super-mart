@@ -2,6 +2,10 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Stage 0b element specs prepared during source recovery
+
+Wrote `banks/elements/specs/afterhours-core.json` with detailed behavior/settings/states/a11y for header, mega-menu, product gallery, quick view and cart drawer. Their catalog statuses move `planned` -> `spec` (NOT built). Added `ai/niches/gen-z-store/work-units.md` with explicit unchecked implementation tasks for the eventual Stage 7 after design approval.
+
 ## 2026-10-25 — Additional competitive evidence verified
 
 **Research:** Reopened all 15 initial non-Shopify demo homepage/category URLs with public source retrieval (Flatsome, WoodMart, Porto, BigCommerce Cornerstone, Magento Hyva), and recorded document-level verification only. Opened 4 Blocksy official starter preset pages (Modern Shop, Petsy, Book Store Pro, Furniture Pro). Their live starter-domain demos were blocked by HTTP 403 in this environment; they remain official-feature-only, not interactive verified. Expanded demo-audit to 32 entries and patterns to 9, with source-quality flags and backlog.

@@ -24,3 +24,5 @@
 - 2026-10-25 [stage 6 / gen-z-store] Figma UI reported deleted; retained 24 HTML screens, 108 image placements, 22 historical briefs, added source-only recovery validation and artifact; original Figma UI/images not restored.
 
 - 2026-10-25 [stage 6 / gen-z-store] Rechecked 15 live demo HTML pages on Flatsome/WoodMart/Porto/BigCommerce/Hyvä; added 4 Blocksy official starter presets and 1 specialist discovery pattern; marked blocked live starter links separately.
+
+- 2026-10-25 [stage 0b / gen-z-store] Wrote five reusable element settings specifications for Afterhours (header/menu/gallery/quick-view/cart drawer), updated element statuses to spec, created unchecked stage-7 work units; no runtime build claimed.
