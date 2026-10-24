@@ -1,11 +1,11 @@
 {
   "project": "vsn-super-mart",
   "stage": 6,
-  "stage_name": "Figma build",
+  "stage_name": "Design recovery (source-backed)",
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "RESUMED 2026-10-25: cross-platform theme/demo research now lives in banks/research/competitors/demo-audit.json (28 initial entries, not exhaustive), cross-platform-patterns.json and Design/Options banks; run python3 scripts/vsn.py competitor-audit next. Stage 6 Figma approval gate remains: Full HD images planned after 2026-11-04, team approval (vsn.py approve 6), Shopify dev store, element specs/build.",
+  "next_action": "Old Figma UI deleted/inaccessible: rebuild from saved 24-screen HTML/Python generator; 108 image slots and 22 historical prompts preserved but original images unavailable. Use scripts/afterhours_recovery.py, recreate images, review layout and obtain approval; research/code scaffolding can continue without bypassing design gate.",
   "approvals": {
     "4": {
       "by": "human: no preference (delegated) -> Afterhours by lead agent",
@@ -13,9 +13,19 @@
     }
   },
   "figma": {
-    "file_key": "BxJuIRth8k4cCUbFnPV6ek",
-    "page": "VSN | Super Mart",
-    "page_node": "25:2"
+    "file_key": null,
+    "page_node": null,
+    "status": "user_reported_deleted_and_connector_access_denied",
+    "historical_file_key": "BxJuIRth8k4cCUbFnPV6ek"
   },
-  "updated_at": "2026-10-25"
+  "updated_at": "2026-10-25",
+  "design_delivery_mode": "source_backed",
+  "design_recovery": {
+    "mode": "source_backed",
+    "status": "source_available_not_reviewed",
+    "figma_frames_available": false,
+    "original_images_available": false,
+    "visual_qa_passed": false,
+    "manifest": "ai/recovery/afterhours.json"
+  }
 }

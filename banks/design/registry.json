@@ -1,65 +1,73 @@
 {
- "note": "Every VSN design (accepted directions and built presets) is registered here with its fingerprint and Figma node ids. New designs are checked against all entries.",
- "designs": [
-  {
-   "id": "vsn-genz-afterhours",
-   "niche": "gen-z-store",
-   "name": "Afterhours",
-   "fp": {
-    "header_layout": "logo-center-drawer",
-    "nav_style": "drawer",
-    "hero": "video-full",
-    "product_card": "overlay-text",
-    "pdp_layout": "sticky-split",
-    "collection_layout": "horizontal-filters",
-    "grid_density": "dense",
-    "type_pairing": "condensed+sans",
-    "radius": "sharp",
-    "motion": "expressive",
-    "imagery": "edge-to-edge",
-    "section_rhythm": "rails-carousels"
-   },
-   "palette": [
-    "#C6FF3D",
-    "#0B0B0F",
-    "#16161D",
-    "#F4F4F0"
-   ],
-   "figma": {
-    "file_key": "BxJuIRth8k4cCUbFnPV6ek",
-    "page_node": "25:2",
-    "frames": {
-     "home-desktop": "159:2",
-     "collection-desktop": "160:2",
-     "product-desktop": "161:2",
-     "cart-drawer-desktop": "162:2",
-     "password-drop-desktop": "163:2",
-     "home-mobile": "164:2",
-     "product-mobile": "165:2",
-     "quick-view-desktop": "166:2",
-     "wishlist-desktop": "167:2",
-     "compare-desktop": "168:2",
-     "search-desktop": "169:2",
-     "cart-page-desktop": "170:2",
-     "promo-popup-desktop": "171:2",
-     "list-collections-desktop": "172:2",
-     "contact-desktop": "173:2",
-     "blog-desktop": "174:2",
-     "article-desktop": "175:2",
-     "account-login-desktop": "176:2",
-     "account-orders-desktop": "177:2",
-     "404-desktop": "178:2",
-     "gift-card-desktop": "179:2",
-     "collection-mobile": "180:2",
-     "cart-drawer-mobile": "181:2",
-     "menu-drawer-mobile": "182:2"
-    },
-    "not_yet_built": [
-     "account register/addresses (Shopify-hosted new customer accounts cover these)"
-    ]
-   },
-   "spec": "banks/design/specs/gen-z-store/spec.json",
-   "registered_at": "2026-10-21"
-  }
- ]
+  "note": "Every VSN design (accepted directions and built presets) is registered here with its fingerprint and Figma node ids. New designs are checked against all entries.",
+  "designs": [
+    {
+      "id": "vsn-genz-afterhours",
+      "niche": "gen-z-store",
+      "name": "Afterhours",
+      "fp": {
+        "header_layout": "logo-center-drawer",
+        "nav_style": "drawer",
+        "hero": "video-full",
+        "product_card": "overlay-text",
+        "pdp_layout": "sticky-split",
+        "collection_layout": "horizontal-filters",
+        "grid_density": "dense",
+        "type_pairing": "condensed+sans",
+        "radius": "sharp",
+        "motion": "expressive",
+        "imagery": "edge-to-edge",
+        "section_rhythm": "rails-carousels"
+      },
+      "palette": [
+        "#C6FF3D",
+        "#0B0B0F",
+        "#16161D",
+        "#F4F4F0"
+      ],
+      "figma": {
+        "file_key": null,
+        "page_node": null,
+        "frames": {},
+        "status": "unavailable"
+      },
+      "spec": "banks/design/specs/gen-z-store/spec.json",
+      "registered_at": "2026-10-21",
+      "status": "source_backed_recovery_required",
+      "historical_figma": {
+        "file_key": "BxJuIRth8k4cCUbFnPV6ek",
+        "page_node": "25:2",
+        "frames": {
+          "home-desktop": "159:2",
+          "collection-desktop": "160:2",
+          "product-desktop": "161:2",
+          "cart-drawer-desktop": "162:2",
+          "password-drop-desktop": "163:2",
+          "home-mobile": "164:2",
+          "product-mobile": "165:2",
+          "quick-view-desktop": "166:2",
+          "wishlist-desktop": "167:2",
+          "compare-desktop": "168:2",
+          "search-desktop": "169:2",
+          "cart-page-desktop": "170:2",
+          "promo-popup-desktop": "171:2",
+          "list-collections-desktop": "172:2",
+          "contact-desktop": "173:2",
+          "blog-desktop": "174:2",
+          "article-desktop": "175:2",
+          "account-login-desktop": "176:2",
+          "account-orders-desktop": "177:2",
+          "404-desktop": "178:2",
+          "gift-card-desktop": "179:2",
+          "collection-mobile": "180:2",
+          "cart-drawer-mobile": "181:2",
+          "menu-drawer-mobile": "182:2"
+        },
+        "not_yet_built": [
+          "account register/addresses (Shopify-hosted new customer accounts cover these)"
+        ]
+      },
+      "fresh_visual_review": "pending"
+    }
+  ]
 }
