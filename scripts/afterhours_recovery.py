@@ -36,15 +36,28 @@ def check():
         errors.append("placeholder mapping must have 108 positions in HTML")
     if len(hashes) != 22:
         errors.append("expected 22 historical image hash references")
-    if spec.get("figma", {}).get("frames") or spec.get("figma", {}).get("file_key"):
-        errors.append("old Figma IDs are incorrectly marked active")
+    active = spec.get("figma", {})
+    restored = manifest.get("restored_figma", {})
+    if active.get("file_key"):
+        if active.get("file_key") == manifest.get("old_file_key"):
+            errors.append("deleted Figma file must never be active")
+        if active.get("file_key") != restored.get("file_key"):
+            errors.append("active Figma file does not match recorded restoration")
+        if set(active.get("frames", {})) != set(manifest["screen_ids"]):
+            errors.append("restored Figma screen ID mapping incomplete")
+        if len(set(active.get("frames", {}).values())) != 24:
+            errors.append("restored Figma frame node IDs must be unique")
+        if active.get("page_node") != restored.get("page_node"):
+            errors.append("restored page ID mismatch")
+    elif active.get("frames"):
+        errors.append("Figma frame IDs present but no active file key")
     items = [x for x in log["images"] if x.get("niche") == "gen-z-store"]
     if len(items) != 22 or any(x.get("figma_node") or x.get("asset_status") != "lost_or_unavailable" for x in items):
         errors.append("historical AI images must be marked unavailable, not active")
     if errors:
         print("Afterhours recovery FAIL: " + "; ".join(errors))
         return 1
-    print("Afterhours recovery OK: 24 screens, 108 placeholders, 22 historical prompts; Figma UI/photos unavailable")
+    print("Afterhours recovery OK: 24 source screens, 108 placeholders, 22 historic prompts; active Figma frames recorded; original Figma photos unavailable")
     return 0
 
 

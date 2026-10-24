@@ -1,6 +1,6 @@
 # Prompt — Stage 6: Figma build
 
-Target: Figma file `BxJuIRth8k4cCUbFnPV6ek`, page "VSN | Super Mart" (`25:2`).
+Target: Figma file `y5e3fEpx2eAFhLRFLisP0o`, page "VSN | Super Mart" (`0:1`).
 (Claude: load the `figma-use` skill before every `use_figma` call.)
 
 Order: 1) Variables (color schemes, type, spacing, radius) 2) Components with variants (buttons, inputs,
@@ -22,7 +22,7 @@ No stock photos, no images taken from other websites. Each call spends Figma AI 
    style line (from the chosen direction: mood, palette hex, lighting, `imagery` value such as
    `cutout-on-color` or `lifestyle`).
 2. **Placeholders.** Build frames with empty image placeholders at the right sizes.
-3. **Generate.** `generate_image` with `fileKey` = `BxJuIRth8k4cCUbFnPV6ek`, the placeholder's `nodeId`
+3. **Generate.** `generate_image` with `fileKey` = `y5e3fEpx2eAFhLRFLisP0o`, the placeholder's `nodeId`
    (replaces the fill without resizing), `width`/`height` for the ratio (max 2048), and a prompt =
    subject + style line + "no text, no logos, no watermark, no recognizable people".
    - Draft / bulk product shots: `gemini-3.1-flash-lite-image` (default, cheapest).

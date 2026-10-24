@@ -12,7 +12,7 @@ best themes on the market (Prestige, Impulse, Symmetry, Trademark, Broadcast, Ho
 - Every option a **Shopper**, **Merchant (user)** and **Developer** needs (see `banks/options/`).
 - Built from **Shopify Skeleton theme or original code only** — never Dawn or Horizon
   (Theme Store rule, see `banks/research/platform/theme-store-requirements.json`).
-- Design lives in Figma: file `BxJuIRth8k4cCUbFnPV6ek`, page **"VSN | Super Mart"** (node `25:2`).
+- Design lives in Figma: restored active file `y5e3fEpx2eAFhLRFLisP0o`, page **"AFTERHOURS — Restored UI"** (node `0:1`). The old file `BxJuIRth8k4cCUbFnPV6ek` is historical/deleted. Screen IDs live in `banks/design/specs/gen-z-store/spec.json`.
   Brand colors: Teal `#5BC8D6`, Blue `#5F8CC4`, Purple `#615BA8`, Ink `#17251B`.
 
 ## 2. Read order (every session)

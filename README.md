@@ -26,7 +26,7 @@ Details: [`ai/WORKFLOW.md`](ai/WORKFLOW.md).
 | `ai/` | Workflow, state (resume point), prompts, templates |
 | `theme/` | Shopify theme source (created in Stage 7 from Skeleton theme) |
 
-Design: Figma file `BxJuIRth8k4cCUbFnPV6ek`, page "VSN | Super Mart".
+Design: Figma file `y5e3fEpx2eAFhLRFLisP0o`, page "AFTERHOURS — Restored UI". Source-backed 24-screen editable restoration; original photos missing.
 
 ## Current status (2026-10-22 — paused)
 - Gen-Z preset **Afterhours**: 24 screens designed and QA'd in Figma (Stage 6), waiting for Full HD images and approval.

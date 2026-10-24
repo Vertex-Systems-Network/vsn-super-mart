@@ -16,7 +16,7 @@ Read and follow **`AGENTS.md`** first — it is the source of truth for every ag
   - `/vsn-handoff` — write the session handoff before stopping
 - Figma: use the Figma MCP. Load the `figma-use` skill before `use_figma`, and
   `figma-design-to-code` before `get_design_context`. Target page: "VSN | Super Mart" (`25:2`)
-  in file `BxJuIRth8k4cCUbFnPV6ek`.
+  in file `y5e3fEpx2eAFhLRFLisP0o`.
 - Images: generate every image with Figma AI (`mcp__Figma__generate_image`, paid credits) into the Figma
   file, following `ai/prompts/6-figma-build.md` → "Images", and log each one in `banks/design/image-log.json`.
 - Use subagents for parallel niche research; keep the main thread for decisions and bank writes.

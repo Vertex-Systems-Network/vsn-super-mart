@@ -678,10 +678,36 @@
     "req-docs-support": "support: covered by spec section/option mapping; verify in QA"
   },
   "figma": {
-    "file_key": null,
-    "page_node": null,
-    "frames": {},
-    "status": "unavailable",
+    "file_key": "y5e3fEpx2eAFhLRFLisP0o",
+    "page_node": "0:1",
+    "page_name": "AFTERHOURS — Restored UI",
+    "frames": {
+      "home-desktop": "10:12",
+      "collection-desktop": "11:2",
+      "product-desktop": "11:95",
+      "cart-drawer-desktop": "11:213",
+      "password-drop-desktop": "11:270",
+      "quick-view-desktop": "11:288",
+      "wishlist-desktop": "11:343",
+      "compare-desktop": "11:395",
+      "search-desktop": "11:462",
+      "cart-page-desktop": "11:515",
+      "promo-popup-desktop": "13:2",
+      "list-collections-desktop": "13:22",
+      "contact-desktop": "13:74",
+      "blog-desktop": "13:115",
+      "article-desktop": "13:153",
+      "account-login-desktop": "13:191",
+      "account-orders-desktop": "13:217",
+      "404-desktop": "13:249",
+      "gift-card-desktop": "13:268",
+      "home-mobile": "14:2",
+      "product-mobile": "14:66",
+      "collection-mobile": "14:110",
+      "cart-drawer-mobile": "14:178",
+      "menu-drawer-mobile": "14:208"
+    },
+    "status": "editable_layouts_restored_assets_pending",
     "not_yet_built": [
       "account register/addresses (Shopify-hosted new customer accounts cover these)"
     ]
@@ -751,6 +777,16 @@
     "historical_hashes": "banks/design/specs/gen-z-store/source/hashes.json",
     "expected_screens": 24,
     "original_images_unavailable": true,
-    "new_visual_qa_required": true
+    "new_visual_qa_required": true,
+    "status": "editable_layouts_restored_assets_pending",
+    "restored_at": "2026-10-25",
+    "restored_file_key": "y5e3fEpx2eAFhLRFLisP0o",
+    "restored_screen_count": 24,
+    "restored_mobile_screen_count": 5,
+    "editable_text_count": 641,
+    "placeholder_photos": true,
+    "visual_match": "source-based visual reconstruction, not byte-identical original Figma layers",
+    "verified_structurally": true,
+    "approved": false
   }
 }

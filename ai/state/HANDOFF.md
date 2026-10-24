@@ -2,6 +2,17 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — RESTORED EDITABLE LAYOUTS IN NEW FIGMA FILE
+
+**Destination:** https://www.figma.com/design/y5e3fEpx2eAFhLRFLisP0o/VSN-Super-Mart?node-id=0-1
+
+Native editable Figma structure rebuilt directly on page `0:1`: **24/24 named screens, 19 desktop + 5 mobile**, **641 editable text layers**. Data/source based reconstruction from saved Afterhours HTML/spec/tokens; restored Figma node IDs in `spec.json → figma.frames` and `ai/recovery/afterhours.json → restored_figma`.
+
+**Quality/evidence:** Figma Plugin API enumerated exact 24 unique screen frames with no missing names and editable frame/text layers. Mobile home screenshot visually checked. Figma Starter MCP call quota reached before complete pixel-level review; final visual QA must be rerun when access available. Source placement and content are approximate **not pixel-identical original files**.
+
+**Still pending:** Original 22 Figma AI image assets remain unavailable; placeholders currently visible. Recreate new original Full HD images, replace placeholders, inspect all 24 layouts and secure team Stage 6 approval. Do not advance stage or claim theme/editor QA passed. The deleted file historical IDs remain historical only.
+
+
 ## 2026-10-25 — Stage 0b element specs prepared during source recovery
 
 Wrote `banks/elements/specs/afterhours-core.json` with detailed behavior/settings/states/a11y for header, mega-menu, product gallery, quick view and cart drawer. Their catalog statuses move `planned` -> `spec` (NOT built). Added `ai/niches/gen-z-store/work-units.md` with explicit unchecked implementation tasks for the eventual Stage 7 after design approval.

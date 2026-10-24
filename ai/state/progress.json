@@ -1,11 +1,11 @@
 {
   "project": "vsn-super-mart",
   "stage": 6,
-  "stage_name": "Design recovery (source-backed)",
+  "stage_name": "Design recovery — editable layouts restored",
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Old Figma UI deleted/inaccessible: rebuild from saved 24-screen HTML/Python generator; 108 image slots and 22 historical prompts preserved but original images unavailable. Use scripts/afterhours_recovery.py, recreate images, review layout and obtain approval; research/code scaffolding can continue without bypassing design gate.",
+  "next_action": "24 Afterhours editable desktop/mobile Figma screen layouts rebuilt in file y5e3fEpx2eAFhLRFLisP0o (page 0:1); original Figma image assets not recovered and placeholders remain. Regenerate photos/Full HD, inspect all screen visuals/responsiveness, run QA and get team design approval before Stage 7. Figma Starter MCP tool-call quota reached after screenshot QA; do not falsely mark Stage 6 complete.",
   "approvals": {
     "4": {
       "by": "human: no preference (delegated) -> Afterhours by lead agent",
@@ -13,19 +13,22 @@
     }
   },
   "figma": {
-    "file_key": null,
-    "page_node": null,
-    "status": "user_reported_deleted_and_connector_access_denied",
-    "historical_file_key": "BxJuIRth8k4cCUbFnPV6ek"
+    "file_key": "y5e3fEpx2eAFhLRFLisP0o",
+    "page_node": "0:1",
+    "status": "editable_layouts_restored_assets_pending",
+    "old_file_key": "BxJuIRth8k4cCUbFnPV6ek"
   },
   "updated_at": "2026-10-25",
   "design_delivery_mode": "source_backed",
   "design_recovery": {
     "mode": "source_backed",
-    "status": "source_available_not_reviewed",
-    "figma_frames_available": false,
+    "status": "editable_layouts_restored_assets_pending",
+    "figma_frames_available": true,
     "original_images_available": false,
     "visual_qa_passed": false,
-    "manifest": "ai/recovery/afterhours.json"
+    "manifest": "ai/recovery/afterhours.json",
+    "restored_screen_count": 24,
+    "restored_mobile_screens": 5,
+    "editable_text_count": 641
   }
 }
