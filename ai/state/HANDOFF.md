@@ -2,6 +2,10 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Additional competitive evidence verified
+
+**Research:** Reopened all 15 initial non-Shopify demo homepage/category URLs with public source retrieval (Flatsome, WoodMart, Porto, BigCommerce Cornerstone, Magento Hyva), and recorded document-level verification only. Opened 4 Blocksy official starter preset pages (Modern Shop, Petsy, Book Store Pro, Furniture Pro). Their live starter-domain demos were blocked by HTTP 403 in this environment; they remain official-feature-only, not interactive verified. Expanded demo-audit to 32 entries and patterns to 9, with source-quality flags and backlog.
+
 ## 2026-10-25 — Figma original deleted; source-only recovery
 
 **Verified in GitHub:** 24 HTML screen layouts, original Python generator, 108 image placeholder mappings, 22 image prompts. Old Figma file returned edit-access error, and user reported UI permanently deleted. Original Figma images/layers are not recoverable from hashes. Historical frame/image IDs now explicitly marked unavailable; 404 HTML ID aligned with spec.

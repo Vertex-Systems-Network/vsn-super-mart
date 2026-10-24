@@ -171,6 +171,26 @@
         "theme-check"
       ],
       "design_implication": "Each pattern needs an explicit Shopify native/free-app/VSN-app implementation decision before stage 7."
+    },
+    {
+      "id": "specialist-store-discovery",
+      "context": "Category-based discovery and reviews matter especially in specialized catalogs such as books and pet supplies.",
+      "signals": [
+        "Book Store vendor lists mega menu, filters and reviews",
+        "Petsy vendor lists grouped product categories and testimonials"
+      ],
+      "source_entry_ids": [
+        "woo-blocksy-book-store",
+        "woo-blocksy-petsy"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "product-reviews-slot",
+        "testimonials",
+        "collection-list"
+      ],
+      "design_implication": "Offer niche-aware category landing templates with accessible filter and review slots; never equate Woo plugin capabilities with Shopify native."
     }
   ]
 }

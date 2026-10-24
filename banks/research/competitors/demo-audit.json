@@ -332,7 +332,10 @@
       "niches": [
         "fashion-apparel"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-flatsome-mega",
@@ -357,7 +360,10 @@
         "grocery-supermarket",
         "electronics-gadgets"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-flatsome-big-sale",
@@ -377,7 +383,10 @@
       "niches": [
         "fashion-apparel"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-flatsome-fullscreen",
@@ -397,7 +406,10 @@
       "niches": [
         "fashion-apparel"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-flatsome-vendor",
@@ -417,7 +429,10 @@
       "niches": [
         "b2b-wholesale"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-woodmart-vegetables",
@@ -439,7 +454,10 @@
         "grocery-supermarket",
         "food-beverage"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-woodmart-furniture2",
@@ -460,7 +478,10 @@
       "niches": [
         "home-furniture"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-woodmart-electronics3",
@@ -481,7 +502,10 @@
       "niches": [
         "electronics-gadgets"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-woodmart-pets",
@@ -502,7 +526,10 @@
       "niches": [
         "pets"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-woodmart-marketplace2",
@@ -524,7 +551,10 @@
         "b2b-wholesale",
         "grocery-supermarket"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-woodmart-mega-electronics",
@@ -546,7 +576,10 @@
       "niches": [
         "electronics-gadgets"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-porto-shop6",
@@ -567,7 +600,10 @@
       "niches": [
         "fashion-apparel"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "woo-porto-shop4-category",
@@ -588,7 +624,10 @@
       "niches": [
         "fashion-apparel"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "bigcommerce-cornerstone",
@@ -613,7 +652,10 @@
         "grocery-supermarket",
         "electronics-gadgets"
       ],
-      "notes": "Feature claims cross-checked with https://www.bigcommerce.com/theme/cornerstone-light/; interactions not tested."
+      "notes": "Feature claims cross-checked with https://www.bigcommerce.com/theme/cornerstone-light/; interactions not tested.",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
     },
     {
       "id": "magento-hyva",
@@ -638,7 +680,111 @@
         "home-furniture",
         "electronics-gadgets"
       ],
-      "notes": "Default Hyvä Magento 2 demo; do not assume Magento features can be ported directly to Shopify."
+      "notes": "Default Hyvä Magento 2 demo; do not assume Magento features can be ported directly to Shopify.",
+      "document_verified_on": "2026-10-25",
+      "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
+      "document_verification_status": "accessible"
+    },
+    {
+      "id": "woo-blocksy-modern-shop",
+      "platform": "woocommerce",
+      "theme": "Blocksy",
+      "preset": "Modern Shop",
+      "url": "https://creativethemes.com/blocksy/starter-site/modern-shop/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_description_accessible; live_demo_link_403_for_some_entries",
+      "document_verification_scope": "official Blocksy starter-page claims only; interactive startersites.io demo access denied or not checked",
+      "feature_option_ids": [
+        "product-card-variants",
+        "grid-density",
+        "faceted-filters"
+      ],
+      "design_signals": [
+        "Three shop page variations claimed",
+        "WooCommerce product type showcases"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "single-product-dtc"
+      ],
+      "notes": "Vendor page inspected; live startersites.io demo 403."
+    },
+    {
+      "id": "woo-blocksy-petsy",
+      "platform": "woocommerce",
+      "theme": "Blocksy",
+      "preset": "Petsy",
+      "url": "https://creativethemes.com/blocksy/starter-site/petsy/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_description_accessible; live_demo_link_403_for_some_entries",
+      "document_verification_scope": "official Blocksy starter-page claims only; interactive startersites.io demo access denied or not checked",
+      "feature_option_ids": [
+        "collection-list",
+        "testimonials",
+        "product-card-variants"
+      ],
+      "design_signals": [
+        "Pet category navigation",
+        "Testimonial-focused home sections"
+      ],
+      "niches": [
+        "pets"
+      ],
+      "notes": "Vendor page inspected; live startersites.io demo 403."
+    },
+    {
+      "id": "woo-blocksy-book-store",
+      "platform": "woocommerce",
+      "theme": "Blocksy",
+      "preset": "Book Store Pro",
+      "url": "https://creativethemes.com/blocksy/starter-site/book-store/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_description_accessible; live_demo_link_403_for_some_entries",
+      "document_verification_scope": "official Blocksy starter-page claims only; interactive startersites.io demo access denied or not checked",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "product-reviews-slot"
+      ],
+      "design_signals": [
+        "Book discovery by category",
+        "Filters and authentic reviews promoted"
+      ],
+      "niches": [
+        "books-stationery-art"
+      ],
+      "notes": "Vendor page opened; live site not independently opened."
+    },
+    {
+      "id": "woo-blocksy-furniture",
+      "platform": "woocommerce",
+      "theme": "Blocksy",
+      "preset": "Furniture Pro",
+      "url": "https://creativethemes.com/blocksy/starter-site/furniture/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_description_accessible; live_demo_link_403_for_some_entries",
+      "document_verification_scope": "official Blocksy starter-page claims only; interactive startersites.io demo access denied or not checked",
+      "feature_option_ids": [
+        "faceted-filters",
+        "wishlist-compare-ui-slots",
+        "product-compare"
+      ],
+      "design_signals": [
+        "Muted pastel and rounded styling",
+        "Comparison table and wishlist claimed"
+      ],
+      "niches": [
+        "home-furniture"
+      ],
+      "notes": "Vendor page opened; comparison is WooCommerce/plugin capability, not automatically native Shopify."
     }
   ],
   "discovery_sources": [
@@ -671,6 +817,11 @@
       "platform": "magento",
       "url": "https://demo.hyva.io/",
       "meaning": "Hyvä first-party demo"
+    },
+    {
+      "platform": "woocommerce",
+      "url": "https://creativethemes.com/blocksy/starter-sites/",
+      "meaning": "Blocksy ecommerce starter catalog, official descriptions; demos may block automated access"
     }
   ],
   "backlog": [
@@ -696,11 +847,6 @@
     },
     {
       "platform": "woocommerce",
-      "theme": "Blocksy",
-      "reason": "Open ecommerce starter site and product templates"
-    },
-    {
-      "platform": "woocommerce",
       "theme": "Porto",
       "reason": "Audit separate grocery demos and product layouts"
     },
@@ -713,12 +859,18 @@
       "platform": "magento",
       "theme": "Hyvä",
       "reason": "Check category/product/cart pages and performance"
+    },
+    {
+      "platform": "woocommerce",
+      "theme": "Blocksy",
+      "reason": "Live demos for Modern Shop and Petsy linked from official pages returned 403. Recheck with real browser before upgrading evidence; inspect shop, PDP and mobile."
     }
   ],
   "verification_gaps": [
     "Shopify 'View demo' is rendered as a button; official preset listing was opened, but live store interactions were not verified.",
     "No cross-device screenshot / Lighthouse / checkout completion testing was performed.",
     "Theme/preset universe is much larger than this initial curated research cohort. An entry in backlog is not an opened demo.",
-    "Features listed on product pages are vendor claims unless independently visible in an opened demo."
+    "Features listed on product pages are vendor claims unless independently visible in an opened demo.",
+    "Live Blocksy starter sites on startersites.io returned HTTP 403 from current page fetch; only official preset description pages are verified."
   ]
 }
