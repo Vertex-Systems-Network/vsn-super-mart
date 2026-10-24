@@ -1,8 +1,9 @@
 # Prompt — Stage 4: Design search & direction (Design Bank)
 
 1. Design search: read `banks/design/registry.json` (previous VSN designs),
-   `banks/design/competitor-fingerprints.json`, the niche `design_patterns`, the brief.
-   Open live demos of the 3–5 closest competitors; upgrade their fingerprints to `verified` with the demo URL.
+   `banks/design/competitor-fingerprints.json`, `banks/design/competitor-observations.json`,
+   `banks/research/competitors/demo-audit.json`, the niche `design_patterns`, and the brief.
+   Open live demos of the 3–5 closest competitors across home/collection/product/mobile; upgrade their fingerprints to `verified` **only after visual inspection**, with the exact demo URL and proof. Official preset product pages alone remain unverified for visual fingerprinting.
 2. Propose 3 directions in `banks/design/specs/<niche>/directions.json`
    (template `ai/templates/directions.example.json`). Each must:
    - fit the niche research and brief,

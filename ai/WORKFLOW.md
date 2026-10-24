@@ -39,8 +39,8 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
 - **Exit gate:** brief exists and has no empty required fields.
 
 ## Stage 2 — Niche research (Research Bank)
-- **Reads:** `banks/research/niches/<niche>.json` if present, competitor list.
-- **Does:** search the web and competitor themes/presets/demo stores for the niche. Collect must-have and
+- **Reads:** `banks/research/niches/<niche>.json` if present, competitor list, `banks/research/competitors/demo-audit.json` and `cross-platform-patterns.json`.
+- **Does:** search the web and competitor themes/presets/demo stores for the niche. Open individual source pages and real demos; record official listing vs opened live demo separately. Check the cross-platform backlog with `python3 scripts/competitor_audit.py next`. Collect must-have and
   nice-to-have sections, product/collection elements, metafields, design patterns, conversion drivers,
   anti-patterns. Fill gaps only — never overwrite sourced data without a newer source.
 - **Writes:** `banks/research/niches/<niche>.json` (schema: `banks/research/README.md`), index update.
@@ -58,9 +58,9 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
 - **Exit gate:** resolved file exists; every niche must-have section maps to an option id.
 
 ## Stage 4 — Design search & direction (Design Bank) 🧑
-- **Reads:** `banks/design/registry.json` (all previous VSN designs), `banks/design/competitor-fingerprints.json`,
+- **Reads:** `banks/design/registry.json` (all previous VSN designs), `banks/design/competitor-fingerprints.json`, `banks/design/competitor-observations.json`,
   niche `design_patterns`, brief.
-- **Does:** design search — look at what competitors and previous VSN presets already look like. Propose
+- **Does:** design search — inspect live competitor demos (home + collection + PDP + mobile) and previous VSN presets. Never treat an official features listing as screenshot proof. Look at what competitors and previous VSN presets already look like. Propose
   **3 distinct directions**, each as a fingerprint (header, hero, product card, PDP layout, grid, nav,
   type pairing, palette, radius, density, motion, imagery). Run `vsn.py check-design` on each; drop/rework
   any that fail. Present the passing directions to the human with a short moodboard description.

@@ -7,7 +7,8 @@
   set-niche <id>               set current niche (Stage 1)
   approve <stage> "<who>"      record a human approval (stages 4, 6, 9)
   advance                      check the current stage gate, then move to the next stage
-  validate                     validate all banks
+  validate                     validate all banks (including competitor demo research)
+  competitor-audit [command]   summary | validate | next (research gaps)
   resolve-options <niche>      write ai/niches/<niche>/options.resolved.json
   coverage <spec.json>         every required option + Theme Store requirement covered?
   check-design <file.json>     uniqueness vs registry + competitors (spec, direction or directions list)
@@ -141,6 +142,12 @@ def validate(verbose=True):
             for k in ("id", "name", "category", "elementor", "settings", "status"):
                 if k not in e:
                     errs.append(f"element {e.get('id')}: missing {k}")
+    # Cross-platform research is a first-class bank; reject stale references.
+    try:
+        from competitor_audit import check_repo
+        errs.extend("competitor audit: " + issue for issue in check_repo())
+    except (OSError, ValueError, KeyError) as exc:
+        errs.append("competitor audit failed: " + str(exc))
     if verbose:
         print("validate: OK" if not errs else "validate: FAIL\n  " + "\n  ".join(errs))
     return not errs
@@ -414,6 +421,9 @@ def main(argv):
         cmd_advance()
     elif c == "validate":
         sys.exit(0 if validate() else 1)
+    elif c == "competitor-audit":
+        from competitor_audit import main as audit_main
+        sys.exit(audit_main(a))
     elif c == "resolve-options":
         resolve_options(a[0])
     elif c == "coverage":

@@ -2,6 +2,15 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — RESUMED: cross-platform theme intelligence added to PR #1
+
+**Done:** Added 28 individually referenced source entries (15 live demo pages inspected at document level; 13 Shopify official preset feature pages), spanning Shopify, WooCommerce, BigCommerce and Magento. Evidence levels explicitly distinguish a live page from a vendor listing. Added 8 evidence-to-option design/system patterns, 5 non-duplicative `should/could` options and qualitative competitor observations. Updated workflow, prompts, agent rules, CLI bank validation and audit backlog. Work committed onto the existing `ai-native-workflow` PR #1 branch, not `main`.
+
+**Not done:** No claim that every demo in the marketplaces was opened. Shopify interactive live demo buttons, full mobile/browser testing and all other unvisited demos remain in `demo-audit.json → backlog`. Research does not prove runtime feature compatibility. Do not advance Stage 6 automatically.
+
+**Resume next:** `python3 scripts/vsn.py status` and `python3 scripts/vsn.py competitor-audit next`. Continue demo-level discovery in batches and map resulting patterns to the element library. Stage 6 still needs Full HD images (planned credit reset 2026-11-04), Afterhours human design approval, dev store connectivity and element specs/build; see the 2026-10-22 section below.
+
+
 ## 2026-10-22 — PAUSED by the team ("phir kabhi start karenge"). Full status + how to resume
 
 ### Where the project stands

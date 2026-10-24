@@ -21,7 +21,7 @@ best themes on the market (Prestige, Impulse, Symmetry, Trademark, Broadcast, Ho
 2. `ai/state/progress.json` — **where the project stopped** (current stage, niche, next action)
 3. `ai/state/HANDOFF.md` — last session's notes, open questions, blockers
 4. `ai/WORKFLOW.md` — the stage you are in, its inputs, outputs and exit gate
-5. The banks the current stage needs (`banks/research`, `banks/options`, `banks/design`)
+5. The banks the current stage needs (`banks/research`, `banks/options`, `banks/design`), including demo evidence and cross-platform patterns
 
 Then run: `python3 scripts/vsn.py status` — it prints the stage and the exact next action.
 
@@ -108,6 +108,14 @@ Never skip stages. Never start development before the design gate passes.
    the `shopify-theme` branch (theme at root, kept in sync by GitHub Actions) is connected to the stores.
    Never upload ZIPs or edit in the Shopify code editor; theme editor changes flow back automatically.
    CLI is optional for local preview only. See `docs/adr/0002-deploy-via-shopify-github-integration.md`.
+
+17. **Cross-platform competitive intelligence must be evidence-linked.** Inspect major Shopify, WooCommerce,
+    BigCommerce and Magento themes and each selected individual preset/demo. Save source URLs and visit dates
+    in `banks/research/competitors/demo-audit.json`; map design/system patterns through
+    `cross-platform-patterns.json` into Options and Design banks. **Vendor feature listings are not live
+    interaction verification.** Run `python3 scripts/vsn.py competitor-audit validate`. Maintain an explicit
+    demo backlog for unvisited sites. Original code, imagery, brand assets and recognizable layouts must
+    never be copied. Apply Theme Store policy and app-first architecture to every imported idea.
 
 ## 5. Repository map
 
