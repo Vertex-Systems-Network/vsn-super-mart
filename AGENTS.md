@@ -117,6 +117,8 @@ Never skip stages. Never start development before the design gate passes.
     demo backlog for unvisited sites. Original code, imagery, brand assets and recognizable layouts must
     never be copied. Apply Theme Store policy and app-first architecture to every imported idea.
 
+18. **Figma deletion recovery:** Never treat old Figma frame or image IDs as live after deletion. The original Python/HTML/slot sources are preserved; use `python3 scripts/afterhours_recovery.py check`. A source-only preview is not a restored editable canvas or recovered photo. Require fresh visual QA and design approval.
+
 ## 5. Repository map
 
 ```

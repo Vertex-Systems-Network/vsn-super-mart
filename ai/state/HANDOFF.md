@@ -2,6 +2,15 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Figma original deleted; source-only recovery
+
+**Verified in GitHub:** 24 HTML screen layouts, original Python generator, 108 image placeholder mappings, 22 image prompts. Old Figma file returned edit-access error, and user reported UI permanently deleted. Original Figma images/layers are not recoverable from hashes. Historical frame/image IDs now explicitly marked unavailable; 404 HTML ID aligned with spec.
+
+**Built:** `ai/recovery/afterhours.json` manifest and `scripts/afterhours_recovery.py` check/rebuild/bundle CLI, wired into VSN validation and PR CI with standalone HTML preview artifact. The project is at Stage 6 design recovery, not falsely recorded as Figma completed.
+
+**Pending:** New visual assets and design review, stage 6 approval; Shopify editor preview and full development. Cross-platform competitor research may proceed in parallel.
+
+
 ## 2026-10-25 — RESUMED: cross-platform theme intelligence added to PR #1
 
 **Done:** Added 28 individually referenced source entries (15 live demo pages inspected at document level; 13 Shopify official preset feature pages), spanning Shopify, WooCommerce, BigCommerce and Magento. Evidence levels explicitly distinguish a live page from a vendor listing. Added 8 evidence-to-option design/system patterns, 5 non-duplicative `should/could` options and qualitative competitor observations. Updated workflow, prompts, agent rules, CLI bank validation and audit backlog. Work committed onto the existing `ai-native-workflow` PR #1 branch, not `main`.

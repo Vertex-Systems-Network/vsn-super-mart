@@ -20,3 +20,5 @@
 - 2026-10-21 19:30 [stage 6 / gen-z-store] Plan: deploy via Shopify GitHub integration (shopify-theme branch + sync workflows), rule 16, ADR 0002
 
 - 2026-10-25 [stage 6 / gen-z-store] Resumed cross-platform competitor intelligence in PR #1; 28 source entries (15 live demo documents, 13 official Shopify preset listings), 8 reusable patterns, 5 new options, evidence validation; Stage 6 exit gate remains pending.
+
+- 2026-10-25 [stage 6 / gen-z-store] Figma UI reported deleted; retained 24 HTML screens, 108 image placements, 22 historical briefs, added source-only recovery validation and artifact; original Figma UI/images not restored.

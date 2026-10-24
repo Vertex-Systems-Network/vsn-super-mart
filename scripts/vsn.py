@@ -21,7 +21,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
 STATE = P("ai", "state", "progress.json")
 STAGES = {0: "Bootstrap", 1: "Niche intake", 2: "Niche research", 3: "Options mapping",
-          4: "Design search & direction", 5: "Design spec", 6: "Figma build",
+          4: "Design search & direction", 5: "Design spec", 6: "Design build / recovery",
           7: "Development", 8: "QA", 9: "Release preset"}
 HUMAN_GATES = {4, 6, 9}
 NEXT_HINT = {
@@ -130,9 +130,15 @@ def validate(verbose=True):
         errs += [f"fingerprint {e.get('id')}: {x}" for x in fp_errors(e.get("fp", {}), schema)]
     log_ = load(P("banks", "design", "image-log.json"), {"images": []})
     for im in log_["images"]:
-        for k in ("id", "niche", "slot", "prompt", "model", "figma_node", "used_in", "width", "height"):
+        for k in ("id", "niche", "slot", "prompt", "model", "used_in", "width", "height"):
             if not im.get(k):
                 errs.append(f"image {im.get('id')}: missing {k}")
+    for im in log_["images"]:
+        if im.get("asset_status") == "lost_or_unavailable":
+            if im.get("figma_node") or not im.get("previous_figma_node"):
+                errs.append(f"image {im.get('id')}: invalid deleted-Figma history")
+        elif not im.get("figma_node"):
+            errs.append(f"image {im.get('id')}: missing active figma_node")
     el = load(P("banks", "elements", "elements.json"))
     if el:
         eids = [e["id"] for e in el["elements"]]
@@ -148,6 +154,12 @@ def validate(verbose=True):
         errs.extend("competitor audit: " + issue for issue in check_repo())
     except (OSError, ValueError, KeyError) as exc:
         errs.append("competitor audit failed: " + str(exc))
+    try:
+        from afterhours_recovery import check as check_afterhours
+        if check_afterhours() != 0:
+            errs.append("afterhours recovery source consistency failure")
+    except (OSError, ValueError, KeyError) as exc:
+        errs.append("afterhours recovery validation error: " + str(exc))
     if verbose:
         print("validate: OK" if not errs else "validate: FAIL\n  " + "\n  ".join(errs))
     return not errs
@@ -346,6 +358,8 @@ def gate(s):
         ok = coverage(spec) and check_design(spec)
         return ok, "coverage + uniqueness"
     if st == 6:
+        if s.get("design_recovery", {}).get("status") == "source_available_not_reviewed":
+            return False, "original Figma UI unavailable; fresh visual QA and human design approval pending"
         reg = load(P("banks", "design", "registry.json"))
         if not any(d["niche"] == n for d in reg["designs"]):
             return False, "design not registered"

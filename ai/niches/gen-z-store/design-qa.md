@@ -43,3 +43,6 @@ Added (rule 13): share buttons on product, quick view, mobile product and articl
 - Images below Full HD — waiting for Figma AI credit reset (2026-11-04).
 - Lookbook image has a small "D14" level marking on a pillar (fix when regenerating images).
 - Human design approval.
+
+## Recovery warning (2026-10-25)
+This QA report describes the former 2026-10-21 Figma canvas only. That canvas is unavailable. Its previous clipping audit must NOT be used as a passing result for any reconstructed visuals; fresh visual QA is needed.

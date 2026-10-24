@@ -8,7 +8,7 @@ later cycles add a new **preset** (style + listing templates + niche sections) o
  [0 Bootstrap] ─► [1 Niche intake] ─► [2 Research] ─► [3 Options] ─► [4 Design search & direction]
                         ▲                                                         │
                         │                                                         ▼
- [9 Release preset] ◄─ [8 QA] ◄─ [7 Development] ◄─ [6 Figma build] ◄─ [5 Design spec]
+ [9 Release preset] ◄─ [8 QA] ◄─ [7 Development] ◄─ [6 Design build/recovery] ◄─ [5 Design spec]
 ```
 
 State lives in `ai/state/progress.json`. Use `python3 scripts/vsn.py status | advance | log`.
@@ -78,9 +78,9 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
   Theme Store requirements), every app in `banks/options/apps.json` that has a `theme_integration` is in the
   spec's `app_map`, **and** `vsn.py check-design` still passes.
 
-## Stage 6 — Figma build 🧑
+## Stage 6 — Design build / recovery 🧑
 - **Reads:** spec.
-- **Does:** build in Figma page "VSN | Super Mart" (`25:2`): foundations (variables/tokens), components
+- **Does:** build in an accessible Figma page (when available): foundations (variables/tokens), components
   with variants, then desktop + mobile frames for home, collection, product, cart drawer + page, search,
   account, blog/article, 404, password, gift card. Use real-looking content, never lorem ipsum.
 - **Images:** all imagery is generated with **Figma AI** (`generate_image`) inside the Figma file, from an
@@ -90,6 +90,8 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
   `banks/design/registry.json`).
 - **Exit gate:** 🧑 design approval (`vsn.py approve 6 "<name>"`), and `vsn.py validate` passes
   (image log complete).
+
+**Deleted-Figma recovery (2026-10-25):** Prior screen IDs are historical, not active. Regenerate 24 HTML reference screens with `python3 scripts/afterhours_recovery.py rebuild`, review the source-only preview, recreate lost imagery, redo visual QA, then seek design approval. Source-backed prototype code and research may continue while the design gate remains blocked. See `ai/recovery/afterhours.json`.
 
 ## Stage 7 — Development
 - **Reads:** spec, Figma (via `get_design_context`), options resolved.
