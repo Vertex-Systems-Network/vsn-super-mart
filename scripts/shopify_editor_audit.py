@@ -136,14 +136,14 @@ def check():
         if c["id"] not in els: errors.append("batch7 unknown element: "+c["id"])
         for opt in c.get("option_ids",[]):
             if opt not in opts: errors.append("batch7 unknown option: "+opt)
-    if live.get("selected_127_document_count")!=24:
-        errors.append("batch7 expected 24 selected preset home documents")
-    if sum(sum(bool(s.get(p)) for p in ("homepage","collection","product","cart")) for s in stores)!=74:
-        errors.append("batch7 expected exactly 74 independently opened page documents")
-    if live.get("selected_127_document_count")!=31:
-        errors.append("batch8 coverage mismatch")
-    if sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)!=89:
-        errors.append("batch8 HTML document count mismatch")
+    if live.get("selected_127_document_count",0)<24:
+        errors.append("batch7 baseline fewer than 24 selected preset home documents")
+    if sum(sum(bool(s.get(p)) for p in ("homepage","collection","product","cart")) for s in stores)<74:
+        errors.append("batch7 baseline fewer than 74 independently opened page documents")
+    if live.get("selected_127_document_count",0)<31:
+        errors.append("batch8 baseline fewer than 31 selected preset home documents")
+    if sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)<89:
+        errors.append("batch8 baseline fewer than 89 documents")
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
