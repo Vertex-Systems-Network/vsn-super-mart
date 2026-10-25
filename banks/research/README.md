@@ -43,3 +43,12 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/research-closeout.md` is the curated cohort evidence summary and limitation ledger, not a claim of exhaustively visiting every public ecommerce demo.
 - `competitors/shopify-implementation-matrix.json` maps the most important evidence-backed option IDs to native Shopify, original theme components, VSN apps, or app-block slots; all entries remain `planned` until development/QA.
 - `scripts/competitor_audit.py validate` now checks per-template evidence coverage and these mappings, and prevents app-only wishlist/compare from being misclassified as native theme features.
+
+## Popular Shopify theme and preset deep index (2026-10-25)
+
+- `competitors/shopify-families-2026.json`: 47 official parent theme listings (24 paid multi-preset / 23 distinct free designs), mapped to existing option IDs with research hypotheses explicitly labeled.
+- `competitors/shopify-presets-2026.json`: 127 design records (104 official paid preset names / 23 free standalone theme pages). Direct preset URLs are supplied **only for individually opened official pages**, never synthesized and claimed verified.
+- `competitors/shopify-popularity-top25-2026.json`: dated Koala tracked-store top 25 with Shopify Store/external/legacy classification.
+- `competitors/shopify-external-themes-2026.json`: Ella, Minimog and Kalles external vendors; do not mix their demonstrations or feature rules with Theme Store listings.
+- `competitors/shopify-research-report.md`: conclusions, product feature paths and remaining demo/checkout coverage.
+- `python3 scripts/shopify_theme_research.py validate|summary|next` checks source counts, no duplicate names, mapping and honest verification statuses.

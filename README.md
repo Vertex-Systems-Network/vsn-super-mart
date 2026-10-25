@@ -28,6 +28,8 @@ Details: [`ai/WORKFLOW.md`](ai/WORKFLOW.md).
 
 Design: Figma file `y5e3fEpx2eAFhLRFLisP0o`, page "AFTERHOURS — Restored UI". Source-backed 24-screen editable restoration; original photos missing.
 
+**Popular Shopify theme research, PR #2:** [47 family listings](banks/research/competitors/shopify-families-2026.json), [127 design/preset records](banks/research/competitors/shopify-presets-2026.json) and [research report](banks/research/competitors/shopify-research-report.md). Real live-store interactions are not yet verified; this is source-backed catalog research.
+
 ## Current status (2026-10-25)
 
 - **PR #1 research cohort:** 55 individually referenced theme/preset/demo entries, 14 evidence-linked patterns, 16 qualitative design observations and 20 Shopify capability route decisions. See [research closeout](banks/research/competitors/research-closeout.md) and [implementation matrix](banks/research/competitors/shopify-implementation-matrix.json).

@@ -32,3 +32,5 @@
 - 2026-10-25 [research / gen-z-store] Closed curated competitive intelligence cohort for PR #1: 55 individually sourced records, 14 patterns, 16 design observations; excluded unsupported marketplace-exhaustive/browser-interaction claims; produced research closeout and October Shopify popularity snapshot.
 
 - 2026-10-25 [research / all niches] Added 20 source-to-Shopify implementation mappings, evidence-scope checks in competitor audit, and corrected Figma AI policy to ChatGPT image creation only; retained Stage 6 gate.
+
+- 2026-10-25 [Shopify research / popular themes] Catalogued 47 official theme parent listings, 104 paid preset names, 23 standalone free themes; 56 opened individual official pages, 127 records, separated external vendor themes and popularity outliers; added automated validation and AI pattern mapping.

@@ -2,6 +2,15 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — PR #2 popular Shopify theme + preset name research
+
+**Added:** 47 official Shopify family listings, 104 paid preset names, 23 distinct first-party free themes, 127 total design records. **56 official individual listings opened** (47 parent pages plus nine secondary preset pages); remaining name evidence derives from paid family pages. Ella/Minimog/Kalles listed separately as external vendor themes. Koala October 19 top 25 classified to distinguish unsupported detected Trademark and retired Debut.
+
+**AI feed:** Added source-linked Shopify-specific patterns and qualitative Design Bank notes. Validation added for family/preset integrity and research-vs-runtime verification; CI updated. The larger research demo universe and actual live-cart/mobile tests remain unverified. Stage 6 Figma imagery/approval is unchanged.
+
+**Next:** PR #2 review/merge after CI. Real Shopify "View demo" interactions, preset screenshots, performance and editor capability testing require browser/store access; never claim the HTML-only official page audit covers them.
+
+
 ## 2026-10-25 — PR research quality gates and ChatGPT image policy
 
 Added 20 evidence-to-implementation route decisions (Shopify native / original theme component / app block / VSN app), with explicit rule protection for app-only wishlist/compare. Expanded audit validation to require the 5 template-scope states and mapped evidence. Updated AGENTS image policy to use **ChatGPT image generation and Figma asset uploads, never Figma AI credits**, per team's current requirement. Corrected stale README status and Afterhours color references. Source research is ready for infrastructure merge; Stage 6 image placement and approval still pending.

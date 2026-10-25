@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "as_of": "2026-10-19",
+  "source": "https://koala-apps.io/shopify-leaderboards/top-themes/",
+  "caveat": "Koala tracked-store ranking only, not a complete market census. Detected 'Trademark' has no current official listing and Debut is retired; external premium themes are not in Theme Store.",
+  "top25": [
+    {
+      "rank": 1,
+      "name": "Dawn",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 2,
+      "name": "Trademark",
+      "distribution": "detected_unavailable_official_listing",
+      "official_listing_audited": false
+    },
+    {
+      "rank": 3,
+      "name": "Impulse",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 4,
+      "name": "Prestige",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 5,
+      "name": "Debut",
+      "distribution": "legacy_retired",
+      "official_listing_audited": false
+    },
+    {
+      "rank": 6,
+      "name": "Horizon",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 7,
+      "name": "Refresh",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 8,
+      "name": "Rise",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 9,
+      "name": "Impact",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 10,
+      "name": "Origin",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 11,
+      "name": "Ella",
+      "distribution": "external_commercial_theme",
+      "official_listing_audited": false
+    },
+    {
+      "rank": 12,
+      "name": "Publisher",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 13,
+      "name": "Minimog OS 2.0",
+      "distribution": "external_commercial_theme",
+      "official_listing_audited": false
+    },
+    {
+      "rank": 14,
+      "name": "Ride",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 15,
+      "name": "Spotlight",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 16,
+      "name": "Broadcast",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 17,
+      "name": "Tinker",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 18,
+      "name": "Symmetry",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 19,
+      "name": "Savor",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 20,
+      "name": "Focal",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 21,
+      "name": "Warehouse",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 22,
+      "name": "Kalles",
+      "distribution": "external_commercial_theme",
+      "official_listing_audited": false
+    },
+    {
+      "rank": 23,
+      "name": "Trade",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 24,
+      "name": "Be Yours",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    },
+    {
+      "rank": 25,
+      "name": "Crave",
+      "distribution": "shopify_theme_store",
+      "official_listing_audited": true
+    }
+  ]
+}
