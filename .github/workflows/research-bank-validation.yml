@@ -9,6 +9,7 @@ on:
       - 'scripts/vsn.py'
       - 'scripts/competitor_audit.py'
       - 'scripts/shopify_theme_research.py'
+      - 'scripts/shopify_editor_audit.py'
       - 'scripts/afterhours_recovery.py'
       - 'ai/recovery/**'
       - 'ai/state/**'
@@ -24,6 +25,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate Shopify platform editor capabilities and live demo evidence
+        run: python3 scripts/shopify_editor_audit.py
       - name: Validate Shopify popular family and preset inventory
         run: python3 scripts/shopify_theme_research.py validate
       - name: Validate competitor evidence and mapped options

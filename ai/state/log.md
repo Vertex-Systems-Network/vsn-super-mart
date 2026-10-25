@@ -36,3 +36,5 @@
 - 2026-10-25 [Shopify research / popular themes] Catalogued 47 official theme parent listings, 104 paid preset names, 23 standalone free themes; 56 opened individual official pages, 127 records, separated external vendor themes and popularity outliers; added automated validation and AI pattern mapping.
 
 - 2026-10-25 [Shopify research / popular presets] Opened all 71 remaining premium individual preset listings; 127/127 official Shopify listing URLs verified. Updated general research audit and added exact-URL gate to research CI; live demos unverified.
+
+- 2026-10-25 [Shopify research] Verified official Shopify theme editor data architecture, nested blocks and 2026 hard limits; planned 127 live-demo cross-template audits but interactive browser connection was denied. Correctly preserved zero live-demo claims.
