@@ -1,0 +1,86 @@
+{
+ "niche": "gen-z-store",
+ "chosen": "vsn-genz-afterhours",
+ "directions": [
+  {
+   "id": "vsn-genz-afterhours",
+   "title": "Afterhours",
+   "aesthetic_basis": "Dark premium / nightlife + neo-brutalist UI accents",
+   "moodboard": "Near-black club UI with one acid-lime accent. Full-screen silent product video opens the store, product names sit over the image on overlay cards, and the product page splits into a sticky buy panel beside cinematic media. Feels like a rave ticket, not generic luxury.",
+   "fp": {
+    "header_layout": "logo-center-drawer",
+    "nav_style": "drawer",
+    "hero": "video-full",
+    "product_card": "overlay-text",
+    "pdp_layout": "sticky-split",
+    "collection_layout": "horizontal-filters",
+    "grid_density": "dense",
+    "type_pairing": "condensed+sans",
+    "radius": "sharp",
+    "motion": "expressive",
+    "imagery": "edge-to-edge",
+    "section_rhythm": "rails-carousels"
+   },
+   "palette": [
+    "#C6FF3D",
+    "#0B0B0F",
+    "#16161D",
+    "#F4F4F0"
+   ]
+  },
+  {
+   "id": "vsn-genz-sticker-club",
+   "title": "Sticker Club",
+   "aesthetic_basis": "Neo-brutalist drop shop + tactile zine accents",
+   "moodboard": "Cream paper background, thick ink outlines, hard offset shadows and hot-orange blocks. Drops are announced on an asymmetric editorial hero with sticker-like badges; product cards are bordered tiles on a modular bento rhythm. Loud on the home page, clean and readable on collection, product and cart.",
+   "fp": {
+    "header_layout": "logo-left-inline",
+    "nav_style": "pills",
+    "hero": "editorial-asymmetric",
+    "product_card": "bordered",
+    "pdp_layout": "grid-media",
+    "collection_layout": "drawer-filters",
+    "grid_density": "regular",
+    "type_pairing": "display+sans",
+    "radius": "sharp",
+    "motion": "subtle",
+    "imagery": "cutout-on-color",
+    "section_rhythm": "modular-bento"
+   },
+   "palette": [
+    "#FF4F1F",
+    "#141414",
+    "#F3EEE3",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "vsn-genz-archive",
+   "title": "Archive",
+   "aesthetic_basis": "Quiet editorial minimal + soft Y2K details",
+   "moodboard": "A calm, archive-style store: a vertical sidebar nav, monospace labels, and one product spotlight per drop. Product pages read like an editorial lookbook with alternating split sections. Soft chrome and VSN purple appear only as small details, for buyers tired of hype.",
+   "fp": {
+    "header_layout": "sidebar-vertical",
+    "nav_style": "sidebar-categories",
+    "hero": "product-spotlight",
+    "product_card": "minimal",
+    "pdp_layout": "editorial",
+    "collection_layout": "category-sidebar-tree",
+    "grid_density": "airy",
+    "type_pairing": "mono+sans",
+    "radius": "pill",
+    "motion": "subtle",
+    "imagery": "lifestyle",
+    "section_rhythm": "alternating-split"
+   },
+   "palette": [
+    "#615BA8",
+    "#1A1A1F",
+    "#F5F5F7",
+    "#D9DCE3"
+   ],
+   "status": "rejected: minimalist (team rule 11, 2026-10-21)"
+  }
+ ],
+ "choice_note": "2026-10-21: human said 'no preference' and delegated; lead agent chose Afterhours (best fit for premium/hype price + EU/US Gen-Z dark-premium/video trend). Human can switch before Stage 6."
+}

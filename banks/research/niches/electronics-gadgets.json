@@ -1,0 +1,238 @@
+{
+ "id": "electronics-gadgets",
+ "name": "Electronics & Gadgets",
+ "aliases": [
+  "tech",
+  "consumer electronics",
+  "accessories",
+  "phone cases",
+  "smart home",
+  "audio"
+ ],
+ "shopper_profile": "Spec-driven comparison shoppers who check compatibility, warranty, and price; mix of research-heavy and impulse accessory buyers.",
+ "catalog_traits": {
+  "typical_size": "large",
+  "variants": "Color, storage/capacity, model compatibility, bundles",
+  "price_range": "$10-$2,000"
+ },
+ "must_have_sections": [
+  {
+   "id": "announcement-bar",
+   "name": "Announcement bar",
+   "page": "global",
+   "why": "Shipping/promo messaging"
+  },
+  {
+   "id": "mega-menu",
+   "name": "Mega menu",
+   "page": "global",
+   "why": "Deep category navigation"
+  },
+  {
+   "id": "predictive-search",
+   "name": "Predictive search",
+   "page": "global",
+   "why": "Fast product discovery"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with upsells",
+   "page": "cart",
+   "why": "Keeps shoppers browsing, raises AOV"
+  },
+  {
+   "id": "promo-hero",
+   "name": "Promo hero with offer",
+   "page": "home",
+   "why": "Deals drive traffic"
+  },
+  {
+   "id": "category-icons",
+   "name": "Category icons grid",
+   "page": "home",
+   "why": "Fast routing in large catalog"
+  },
+  {
+   "id": "deal-countdown",
+   "name": "Deals with countdown",
+   "page": "home",
+   "why": "Urgency"
+  },
+  {
+   "id": "brand-logos",
+   "name": "Shop by brand",
+   "page": "home",
+   "why": "Brand-led search"
+  },
+  {
+   "id": "specs-table",
+   "name": "Specs table",
+   "page": "product",
+   "why": "Core decision data"
+  },
+  {
+   "id": "compatibility",
+   "name": "Compatibility checker/list",
+   "page": "product",
+   "why": "Prevents returns"
+  },
+  {
+   "id": "compare-products",
+   "name": "Product compare",
+   "page": "collection",
+   "why": "Side-by-side specs"
+  },
+  {
+   "id": "faceted-filters",
+   "name": "Spec filters",
+   "page": "collection",
+   "why": "Large technical catalogs"
+  },
+  {
+   "id": "frequently-bought",
+   "name": "Frequently bought together",
+   "page": "product",
+   "why": "Accessory attach"
+  },
+  {
+   "id": "warranty-trust",
+   "name": "Warranty & shipping trust bar",
+   "page": "global",
+   "why": "Risk reduction"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "video-demo",
+   "name": "Product demo video",
+   "page": "product",
+   "why": "Shows function"
+  },
+  {
+   "id": "qa",
+   "name": "Q&A",
+   "page": "product",
+   "why": "Technical questions"
+  },
+  {
+   "id": "recently-viewed",
+   "name": "Recently viewed",
+   "page": "product",
+   "why": "Research behavior"
+  },
+  {
+   "id": "protection-plan",
+   "name": "Protection plan upsell",
+   "page": "cart",
+   "why": "Margin"
+  },
+  {
+   "id": "downloads",
+   "name": "Manuals/downloads",
+   "page": "product",
+   "why": "Support"
+  },
+  {
+   "id": "comparison-chart",
+   "name": "Us vs them chart",
+   "page": "page",
+   "why": "Positioning"
+  }
+ ],
+ "product_page_elements": [
+  "Gallery + 360/video",
+  "Price with compare-at",
+  "Stock and delivery ETA",
+  "Variant (color/capacity)",
+  "Key features bullets",
+  "Full specs table",
+  "What's in the box",
+  "Compatibility",
+  "Warranty",
+  "Bundle/FBT",
+  "Reviews/Q&A",
+  "Sticky ATC"
+ ],
+ "collection_page_elements": [
+  "Spec filters (brand, capacity, connectivity, price)",
+  "Compare checkbox",
+  "List/grid toggle",
+  "Stock status",
+  "Ratings",
+  "Sale badge with % off",
+  "SKU count"
+ ],
+ "metafields_metaobjects": [
+  "specifications (metaobject list key/value)",
+  "compatible_devices (list)",
+  "in_the_box (list)",
+  "warranty_period",
+  "manual (file)",
+  "brand (metaobject)",
+  "model_number"
+ ],
+ "design_patterns": {
+  "typography": "Clean geometric sans, tabular numbers for specs",
+  "color_mood": "Dark/tech or crisp white with an electric accent color",
+  "imagery": "Product renders on solid backgrounds, lifestyle in-use shots",
+  "layout": "Dense, structured grids; mega menus",
+  "motion": "Product reveals, scroll-tied feature animations, countdowns"
+ },
+ "conversion_drivers": [
+  "Clear specs",
+  "Price and deals",
+  "Fast shipping",
+  "Warranty",
+  "Bundles and accessories",
+  "Comparisons"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Warehouse",
+   "preset_or_style": "Metal/Default",
+   "notable": "Built for large catalogs and wholesale-like browsing"
+  },
+  {
+   "theme": "Focal",
+   "preset_or_style": "Default",
+   "notable": "Strong product storytelling for tech"
+  },
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Fabric",
+   "notable": "Free theme suited to broad categories incl. electronics"
+  },
+  {
+   "theme": "Motion",
+   "preset_or_style": "Default",
+   "notable": "Animated feature reveals"
+  }
+ ],
+ "anti_patterns": [
+  "Specs only in images",
+  "No compatibility info",
+  "Slow heavy pages",
+  "Unclear total price/shipping"
+ ],
+ "sources": [
+  {
+   "title": "Shopify Horizon themes (Instant blog)",
+   "url": "https://instant.so/blog/shopify-horizon-themes"
+  },
+  {
+   "title": "Best Shopify themes for conversion (GemPages)",
+   "url": "https://gempages.net/blogs/shopify/best-shopify-themes-for-conversion"
+  },
+  {
+   "title": "Top 30 Shopify Plus themes (Skailama)",
+   "url": "https://www.skailama.com/blog/top-30-shopify-plus-themes"
+  },
+  {
+   "title": "Best free Shopify themes 2026 (Firebear)",
+   "url": "https://firebearstudio.com/blog/free-shopify-themes.html"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "purpose": "AI decision support from competitor evidence to Theme Store-compliant Shopify implementation; not built-feature claims.",
+  "routes": {
+    "shopify_native": "Shopify platform API/data object",
+    "theme_component": "Original VSN theme native Liquid/JS/theme block",
+    "vsn_app": "VSN app/theme app extension for app-level state",
+    "app_block": "App block slot, third-party or Shopify free app as appropriate"
+  },
+  "status": "research_mapping_complete_implementation_not_built",
+  "decisions": [
+    {
+      "id": "catalog-navigation",
+      "route": "shopify_native",
+      "option_id": "mega-menu",
+      "evidence_ids": [
+        "shopify-warehouse",
+        "woo-porto-shop35"
+      ],
+      "guardrail": "Navigation from menu linklists, collection URL schema and Search & Discovery filters. Do not scrape competitor mega-menu markup.",
+      "implementation_status": "planned",
+      "niche_priority": "P0"
+    },
+    {
+      "id": "collection-facets",
+      "route": "shopify_native",
+      "option_id": "faceted-filters",
+      "evidence_ids": [
+        "shopify-warehouse",
+        "shopify-empire"
+      ],
+      "guardrail": "Filter objects and sort options backed by Shopify and Search & Discovery; no foreign WooCommerce filter plugin code.",
+      "implementation_status": "planned",
+      "niche_priority": "P0"
+    },
+    {
+      "id": "quick-buy",
+      "route": "theme_component",
+      "option_id": "quick-add",
+      "evidence_ids": [
+        "shopify-impact",
+        "bigcommerce-cornerstone-warm"
+      ],
+      "guardrail": "Shopify product form / cart AJAX, variant and sold-out validation, keyboard-accessible UI.",
+      "implementation_status": "planned",
+      "niche_priority": "P0"
+    },
+    {
+      "id": "product-quick-view",
+      "route": "theme_component",
+      "option_id": "quick-view",
+      "evidence_ids": [
+        "shopify-impact",
+        "bigcommerce-cornerstone"
+      ],
+      "guardrail": "Accessible dialog with native Shopify product form and correct line item properties.",
+      "implementation_status": "planned",
+      "niche_priority": "P0"
+    },
+    {
+      "id": "cart-drawer",
+      "route": "theme_component",
+      "option_id": "cart-drawer",
+      "evidence_ids": [
+        "shopify-impact",
+        "woo-porto-grocery2"
+      ],
+      "guardrail": "Native Ajax cart source-of-truth; don't show nonfinal shipping totals as final.",
+      "implementation_status": "planned",
+      "niche_priority": "P0"
+    },
+    {
+      "id": "product-gallery",
+      "route": "shopify_native",
+      "option_id": "media-gallery-layouts",
+      "evidence_ids": [
+        "shopify-prestige-vogue",
+        "woo-porto-shop35"
+      ],
+      "guardrail": "Native product.media and variant.media. Independent gallery presentation; no imported third-party code.",
+      "implementation_status": "planned",
+      "niche_priority": "P0"
+    },
+    {
+      "id": "product-variants",
+      "route": "shopify_native",
+      "option_id": "variant-picker-styles",
+      "evidence_ids": [
+        "woo-blocksy-ebike",
+        "woo-porto-bookstore"
+      ],
+      "guardrail": "Native variant picker with accessibility and unavailable state.",
+      "implementation_status": "planned",
+      "niche_priority": "P0"
+    },
+    {
+      "id": "large-catalog-presets",
+      "route": "theme_component",
+      "option_id": "theme-styles-presets",
+      "evidence_ids": [
+        "shopify-warehouse-wood",
+        "bigcommerce-cornerstone-warm"
+      ],
+      "guardrail": "One codebase, tokens and section presets; multiple presets are not checkout forks.",
+      "implementation_status": "planned",
+      "niche_priority": "P0"
+    },
+    {
+      "id": "nested-customization",
+      "route": "theme_component",
+      "option_id": "nested-theme-blocks",
+      "evidence_ids": [
+        "shopify-horizon",
+        "shopify-prestige"
+      ],
+      "guardrail": "Original native Shopify theme blocks and nested composition; do not derive from Horizon code.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "collection-promotions",
+      "route": "theme_component",
+      "option_id": "promo-grid",
+      "evidence_ids": [
+        "shopify-impact",
+        "woo-porto-grocery3"
+      ],
+      "guardrail": "Merchant-managed content only, truthful discount/sale prices, no fake scarcity.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "pickup",
+      "route": "shopify_native",
+      "option_id": "pickup-availability",
+      "evidence_ids": [
+        "shopify-local",
+        "woo-porto-grocery3"
+      ],
+      "guardrail": "Shopify inventory/location pickup availability; never hardcode real-time pickup claims.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "ingredients",
+      "route": "shopify_native",
+      "option_id": "ingredients-nutrition",
+      "evidence_ids": [
+        "shopify-local",
+        "woo-woodmart-vegetables"
+      ],
+      "guardrail": "Merchant-managed metafields with accessible tables and headings.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "wishlist",
+      "route": "vsn_app",
+      "option_id": "wishlist",
+      "evidence_ids": [
+        "woo-blocksy-furniture",
+        "shopify-prestige"
+      ],
+      "guardrail": "Theme Store integration through app block/extension; theme should not maintain wishlist customer data.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "product-comparison",
+      "route": "vsn_app",
+      "option_id": "product-compare",
+      "evidence_ids": [
+        "shopify-empire",
+        "bigcommerce-cornerstone"
+      ],
+      "guardrail": "Theme Store integration through app/extension. Avoid theme-owned comparison data/state.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "single-product-narrative",
+      "route": "theme_component",
+      "option_id": "featured-product",
+      "evidence_ids": [
+        "woo-porto-single",
+        "shopify-impact"
+      ],
+      "guardrail": "Alternative original product template, flexible media and benefits blocks, unchanged native checkout.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "product-spins",
+      "route": "theme_component",
+      "option_id": "product-360-spin",
+      "evidence_ids": [
+        "woo-porto-bookstore",
+        "woo-porto-shop35"
+      ],
+      "guardrail": "Optional sequence viewer distinct from Shopify 3D media; keyboard and reduced-motion.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "reviews",
+      "route": "app_block",
+      "option_id": "product-reviews-slot",
+      "evidence_ids": [
+        "woo-blocksy-book-store",
+        "woo-porto-bookstore"
+      ],
+      "guardrail": "Render third-party or free-app review block; do not forge customer ratings.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "localization",
+      "route": "shopify_native",
+      "option_id": "localization-selectors",
+      "evidence_ids": [
+        "shopify-empire",
+        "woo-porto-grocery3"
+      ],
+      "guardrail": "Native Shopify localization Markets/currencies and translations; never fake locale availability.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "product-story",
+      "route": "theme_component",
+      "option_id": "image-with-text",
+      "evidence_ids": [
+        "woo-porto-single",
+        "shopify-focal"
+      ],
+      "guardrail": "Original flexible section blocks without copying competitors' image assets.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    },
+    {
+      "id": "search",
+      "route": "shopify_native",
+      "option_id": "predictive-search",
+      "evidence_ids": [
+        "shopify-warehouse",
+        "magento-hyva"
+      ],
+      "guardrail": "Shopify predictive search API, keyboard/ARIA support and no search-result manipulation.",
+      "implementation_status": "planned",
+      "niche_priority": "P1"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+ "niches": [
+  {
+   "id": "fashion-apparel",
+   "name": "Fashion & Apparel",
+   "status": "seed",
+   "must_have_count": 16,
+   "sources": 5
+  },
+  {
+   "id": "beauty-skincare",
+   "name": "Beauty & Skincare",
+   "status": "seed",
+   "must_have_count": 15,
+   "sources": 4
+  },
+  {
+   "id": "jewelry-accessories",
+   "name": "Jewelry & Accessories",
+   "status": "seed",
+   "must_have_count": 14,
+   "sources": 4
+  },
+  {
+   "id": "electronics-gadgets",
+   "name": "Electronics & Gadgets",
+   "status": "seed",
+   "must_have_count": 14,
+   "sources": 4
+  },
+  {
+   "id": "home-furniture",
+   "name": "Home & Furniture",
+   "status": "seed",
+   "must_have_count": 13,
+   "sources": 4
+  },
+  {
+   "id": "food-beverage",
+   "name": "Food & Beverage",
+   "status": "seed",
+   "must_have_count": 13,
+   "sources": 3
+  },
+  {
+   "id": "grocery-supermarket",
+   "name": "Grocery & Supermarket (multi-category mart)",
+   "status": "seed",
+   "must_have_count": 16,
+   "sources": 4
+  },
+  {
+   "id": "health-supplements",
+   "name": "Health & Supplements",
+   "status": "seed",
+   "must_have_count": 14,
+   "sources": 4
+  },
+  {
+   "id": "sports-fitness",
+   "name": "Sports & Fitness",
+   "status": "seed",
+   "must_have_count": 13,
+   "sources": 4
+  },
+  {
+   "id": "kids-toys-baby",
+   "name": "Kids, Toys & Baby",
+   "status": "seed",
+   "must_have_count": 12,
+   "sources": 3
+  },
+  {
+   "id": "pets",
+   "name": "Pet Supplies",
+   "status": "seed",
+   "must_have_count": 11,
+   "sources": 3
+  },
+  {
+   "id": "books-stationery-art",
+   "name": "Books, Stationery & Art",
+   "status": "seed",
+   "must_have_count": 11,
+   "sources": 2
+  },
+  {
+   "id": "single-product-dtc",
+   "name": "Single-Product DTC",
+   "status": "seed",
+   "must_have_count": 12,
+   "sources": 2
+  },
+  {
+   "id": "b2b-wholesale",
+   "name": "B2B & Wholesale",
+   "status": "seed",
+   "must_have_count": 11,
+   "sources": 4
+  },
+  {
+   "id": "gen-z-store",
+   "name": "Gen-Z Store",
+   "status": "verified",
+   "must_have_count": 17,
+   "sources": 33
+  }
+ ]
+}

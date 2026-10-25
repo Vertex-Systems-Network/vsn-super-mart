@@ -1,0 +1,221 @@
+{
+ "id": "food-beverage",
+ "name": "Food & Beverage",
+ "aliases": [
+  "gourmet",
+  "coffee",
+  "tea",
+  "snacks",
+  "specialty food",
+  "drinks"
+ ],
+ "shopper_profile": "Taste- and value-driven repeat buyers who want flavor, ingredient/allergen clarity and convenient subscriptions or bundles.",
+ "catalog_traits": {
+  "typical_size": "small",
+  "variants": "Flavor, size/pack count, grind, subscription frequency",
+  "price_range": "$5-$100"
+ },
+ "must_have_sections": [
+  {
+   "id": "announcement-bar",
+   "name": "Announcement bar",
+   "page": "global",
+   "why": "Shipping/promo messaging"
+  },
+  {
+   "id": "mega-menu",
+   "name": "Mega menu",
+   "page": "global",
+   "why": "Deep category navigation"
+  },
+  {
+   "id": "predictive-search",
+   "name": "Predictive search",
+   "page": "global",
+   "why": "Fast product discovery"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with upsells",
+   "page": "cart",
+   "why": "Keeps shoppers browsing, raises AOV"
+  },
+  {
+   "id": "appetizing-hero",
+   "name": "Appetizing hero",
+   "page": "home",
+   "why": "Craveability"
+  },
+  {
+   "id": "bestsellers",
+   "name": "Bestsellers",
+   "page": "home",
+   "why": "Easy first choice"
+  },
+  {
+   "id": "shop-by-flavor",
+   "name": "Shop by flavor/category",
+   "page": "home",
+   "why": "Discovery"
+  },
+  {
+   "id": "subscribe-save",
+   "name": "Subscribe & save",
+   "page": "product",
+   "why": "Recurring revenue"
+  },
+  {
+   "id": "nutrition-allergens",
+   "name": "Nutrition & allergens",
+   "page": "product",
+   "why": "Required info and trust"
+  },
+  {
+   "id": "ingredients",
+   "name": "Ingredients",
+   "page": "product",
+   "why": "Transparency"
+  },
+  {
+   "id": "bundles",
+   "name": "Variety packs/bundles",
+   "page": "home",
+   "why": "AOV"
+  },
+  {
+   "id": "reviews",
+   "name": "Reviews",
+   "page": "product",
+   "why": "Taste proof"
+  },
+  {
+   "id": "brand-story",
+   "name": "Origin/brand story",
+   "page": "home",
+   "why": "Differentiation"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "recipes",
+   "name": "Recipes",
+   "page": "page",
+   "why": "Usage and SEO"
+  },
+  {
+   "id": "quiz",
+   "name": "Taste quiz",
+   "page": "page",
+   "why": "Personalization"
+  },
+  {
+   "id": "store-locator",
+   "name": "Retail locator",
+   "page": "page",
+   "why": "Find in stores"
+  },
+  {
+   "id": "delivery-dates",
+   "name": "Delivery date picker",
+   "page": "cart",
+   "why": "Perishables"
+  },
+  {
+   "id": "gift-boxes",
+   "name": "Gift boxes",
+   "page": "home",
+   "why": "Seasonal"
+  },
+  {
+   "id": "brewing-guide",
+   "name": "Prep/brewing guide",
+   "page": "product",
+   "why": "Education"
+  }
+ ],
+ "product_page_elements": [
+  "Appetizing gallery",
+  "Flavor/size variants",
+  "Subscription toggle with discount",
+  "Taste notes",
+  "Ingredients",
+  "Nutrition facts",
+  "Allergen/diet badges",
+  "Shelf life/storage",
+  "Shipping freshness info",
+  "Reviews",
+  "Bundle upsell"
+ ],
+ "collection_page_elements": [
+  "Filter by diet (vegan, GF), flavor, type",
+  "Diet badges on cards",
+  "Quick add",
+  "Pack size",
+  "Subscription price display"
+ ],
+ "metafields_metaobjects": [
+  "ingredients (list)",
+  "nutrition_facts (metaobject)",
+  "allergens (list)",
+  "dietary_badges (list)",
+  "taste_notes",
+  "origin (metaobject)",
+  "shelf_life",
+  "storage_instructions"
+ ],
+ "design_patterns": {
+  "typography": "Friendly rounded or characterful display fonts",
+  "color_mood": "Bold brand colors or warm, appetizing tones",
+  "imagery": "Close-up food, ingredients, lifestyle consumption",
+  "layout": "Playful blocks, color sections, icons",
+  "motion": "Playful hovers, marquee taglines"
+ },
+ "conversion_drivers": [
+  "Subscriptions",
+  "Bundles",
+  "Free shipping threshold",
+  "Reviews",
+  "Dietary clarity",
+  "Gift sets"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Savor",
+   "notable": "Free theme positioned for food and drink"
+  },
+  {
+   "theme": "Impulse",
+   "preset_or_style": "Default",
+   "notable": "Bold promotional DTC"
+  },
+  {
+   "theme": "Be Yours",
+   "preset_or_style": "Default",
+   "notable": "Clean grids"
+  }
+ ],
+ "anti_patterns": [
+  "Missing allergen info",
+  "Dull product shots",
+  "Complicated subscription UX",
+  "Shipping costs hidden until checkout"
+ ],
+ "sources": [
+  {
+   "title": "Shopify Horizon themes (Instant blog)",
+   "url": "https://instant.so/blog/shopify-horizon-themes"
+  },
+  {
+   "title": "Best Shopify themes for conversion (GemPages)",
+   "url": "https://gempages.net/blogs/shopify/best-shopify-themes-for-conversion"
+  },
+  {
+   "title": "Shopify Horizon themes overview (Aureate Labs)",
+   "url": "https://aureatelabs.com/blog/shopify-horizon-themes-overview/"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

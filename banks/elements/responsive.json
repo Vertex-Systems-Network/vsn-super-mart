@@ -1,0 +1,25 @@
+{
+ "about": "VSN smart responsive system. Merchants see 3 controls (desktop, tablet, mobile). Every other breakpoint is calculated with CSS clamp()/interpolation between the anchors. An 'Advanced responsive' toggle unlocks a per-breakpoint override for any responsive setting.",
+ "why": "Duplicating every control for every breakpoint makes the editor unusable and slows the storefront: Elementor reported up to 47% slower frontend load and 15% more memory when it duplicated controls for 3 extra breakpoints (developers.elementor.com, 'The Road to Additional Custom Breakpoints').",
+ "breakpoints": [
+  {"id": "xxl", "min_width": 2448, "label": "Wide 2448+", "group": "desktop", "default_source": "calculated from desktop (scale up)"},
+  {"id": "xl", "min_width": 1920, "label": "Full HD 1920", "group": "desktop", "default_source": "calculated"},
+  {"id": "lg", "min_width": 1440, "label": "Desktop 1440", "group": "desktop", "default_source": "ANCHOR: desktop control"},
+  {"id": "md", "min_width": 1024, "label": "Laptop / tablet landscape 1024", "group": "tablet", "default_source": "calculated between desktop and tablet"},
+  {"id": "sm", "min_width": 768, "label": "Tablet 768", "group": "tablet", "default_source": "ANCHOR: tablet control"},
+  {"id": "xs", "min_width": 560, "label": "Large phone / small tablet 560", "group": "mobile", "default_source": "calculated between tablet and mobile"},
+  {"id": "m3", "min_width": 480, "label": "Phone 480", "group": "mobile", "default_source": "calculated"},
+  {"id": "m2", "min_width": 360, "label": "Phone 360", "group": "mobile", "default_source": "ANCHOR: mobile control"},
+  {"id": "m1", "min_width": 320, "label": "Small phone 320", "group": "mobile", "default_source": "calculated (scale down, never below accessible minimums)"}
+ ],
+ "anchors": {"desktop": 1440, "tablet": 768, "mobile": 360},
+ "rules": [
+  "Numeric settings (font size, spacing, gap, radius, icon size, height) interpolate linearly between anchors with clamp(); above 1440 they may scale up to the 2448 value, below 360 they scale down to the 320 value.",
+  "Discrete settings (columns, layout, direction, visibility, alignment, image source) step: each breakpoint inherits the nearest larger anchor unless overridden.",
+  "Advanced responsive toggle (per element, off by default) exposes overrides for all 9 breakpoints; only overridden values are output as CSS.",
+  "Output is CSS custom properties per element instance + one media query per used breakpoint — no JS layout.",
+  "Accessibility floors: body text >= 16px on mobile, touch targets >= 24px, tap areas never shrink below 44px for primary actions.",
+  "Theme editor previews only desktop and mobile; tablet and other breakpoints are verified in QA with real browser widths (Stage 8)."
+ ],
+ "qa_widths": [2448, 1920, 1440, 1024, 768, 560, 480, 360, 320]
+}

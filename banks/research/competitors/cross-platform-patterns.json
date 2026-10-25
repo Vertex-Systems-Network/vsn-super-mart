@@ -1,0 +1,302 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-25",
+  "purpose": "Evidence -> VSN option IDs -> design decisions. Research only; never copy competitor code or pixels.",
+  "patterns": [
+    {
+      "id": "large-catalog-navigation",
+      "context": "Catalogs with hundreds of SKUs need more than a hero and a product grid.",
+      "signals": [
+        "Category-rich menus",
+        "subcollection navigation",
+        "filters",
+        "search"
+      ],
+      "source_entry_ids": [
+        "shopify-enterprise",
+        "shopify-expanse",
+        "woo-woodmart-mega-electronics",
+        "woo-flatsome-mega"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "subcollection-nav",
+        "faceted-filters",
+        "predictive-search"
+      ],
+      "design_implication": "Offer distinct category hierarchy and mobile discovery layouts; build original visual directions."
+    },
+    {
+      "id": "promotion-merchandising",
+      "context": "Multi-category stores use multiple campaign surfaces; respect truthful real pricing.",
+      "signals": [
+        "Category deals",
+        "sale panels",
+        "in-grid offers",
+        "upsell surfaces"
+      ],
+      "source_entry_ids": [
+        "shopify-impulse",
+        "shopify-broadcast",
+        "woo-flatsome-big-sale",
+        "woo-flatsome-mega"
+      ],
+      "option_ids": [
+        "promo-grid",
+        "promo-banner-section",
+        "sale-campaign-section",
+        "cart-upsell"
+      ],
+      "design_implication": "Variation tokens for campaign density and prominence; never copy specific banner arrangements."
+    },
+    {
+      "id": "product-discovery-shortcuts",
+      "context": "Shorten paths from category exploration to cart.",
+      "signals": [
+        "Quick view",
+        "quick add",
+        "recommendations",
+        "discovery across categories"
+      ],
+      "source_entry_ids": [
+        "woo-flatsome-mega",
+        "shopify-horizon",
+        "bigcommerce-cornerstone",
+        "magento-hyva"
+      ],
+      "option_ids": [
+        "quick-view",
+        "quick-add",
+        "related-products",
+        "featured-collection"
+      ],
+      "design_implication": "Provide keyboard-accessible dialogs and mobile gestures; validate against native Shopify behavior."
+    },
+    {
+      "id": "component-native-presets",
+      "context": "Shared code + multiple design presets is a competitive baseline.",
+      "signals": [
+        "Different preset styles use a shared feature family",
+        "nested blocks and modular templates"
+      ],
+      "source_entry_ids": [
+        "shopify-horizon",
+        "shopify-symmetry-salt-yard",
+        "shopify-broadcast-relay",
+        "shopify-prestige-couture"
+      ],
+      "option_ids": [
+        "nested-theme-blocks",
+        "theme-styles-presets",
+        "section-presets"
+      ],
+      "design_implication": "Generate variants through tokens/settings; per-preset custom code is prohibited."
+    },
+    {
+      "id": "local-grocery-shopping",
+      "context": "Food stores need clarity on fulfillment and product facts.",
+      "signals": [
+        "Pickup availability",
+        "nutrition and usage info",
+        "prominent category navigation"
+      ],
+      "source_entry_ids": [
+        "shopify-local",
+        "woo-woodmart-vegetables"
+      ],
+      "option_ids": [
+        "pickup-availability",
+        "ingredients-nutrition",
+        "collection-list"
+      ],
+      "design_implication": "Structure real fields (metafields) and native Shopify pickup interfaces."
+    },
+    {
+      "id": "media-and-product-detail",
+      "context": "Premium catalog detail uses media, trust and accurate product information.",
+      "signals": [
+        "Lookbooks",
+        "product video",
+        "image gallery variations",
+        "reviews"
+      ],
+      "source_entry_ids": [
+        "shopify-prestige",
+        "shopify-impulse",
+        "woo-woodmart-furniture2",
+        "woo-flatsome-classic"
+      ],
+      "option_ids": [
+        "shop-the-look",
+        "rich-media",
+        "media-gallery-layouts",
+        "product-reviews-slot"
+      ],
+      "design_implication": "Support alternative media emphasis without reproducing competitors' exact screen layout."
+    },
+    {
+      "id": "product-comparison",
+      "context": "Comparison UX is valuable for technical catalogs and large inventories.",
+      "signals": [
+        "Feature comparison",
+        "attribute comparison"
+      ],
+      "source_entry_ids": [
+        "bigcommerce-cornerstone",
+        "woo-woodmart-electronics3"
+      ],
+      "option_ids": [
+        "product-compare",
+        "specs-table",
+        "wishlist-compare-ui-slots"
+      ],
+      "design_implication": "Use existing VSN app integration per Theme Store rules, not theme-owned wishlist/compare state."
+    },
+    {
+      "id": "multi-platform-portability",
+      "context": "Patterns are ideas, not portable platform APIs.",
+      "signals": [
+        "WooCommerce plugins may supply UI",
+        "BigCommerce comparison is platform native",
+        "Magento components use a different stack"
+      ],
+      "source_entry_ids": [
+        "woo-flatsome-vendor",
+        "bigcommerce-cornerstone",
+        "magento-hyva"
+      ],
+      "option_ids": [
+        "app-blocks",
+        "metafield-dynamic-sources",
+        "theme-check"
+      ],
+      "design_implication": "Each pattern needs an explicit Shopify native/free-app/VSN-app implementation decision before stage 7."
+    },
+    {
+      "id": "specialist-store-discovery",
+      "context": "Category-based discovery and reviews matter especially in specialized catalogs such as books and pet supplies.",
+      "signals": [
+        "Book Store vendor lists mega menu, filters and reviews",
+        "Petsy vendor lists grouped product categories and testimonials"
+      ],
+      "source_entry_ids": [
+        "woo-blocksy-book-store",
+        "woo-blocksy-petsy"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "product-reviews-slot",
+        "testimonials",
+        "collection-list"
+      ],
+      "design_implication": "Offer niche-aware category landing templates with accessible filter and review slots; never equate Woo plugin capabilities with Shopify native."
+    },
+    {
+      "id": "department-taxonomy-depth",
+      "context": "Large multidepartment shops need taxonomy that scales to high SKU count without hiding product discovery.",
+      "signals": [
+        "Warehouse collections claim to handle thousands of products",
+        "Porto Shop 35 multi-depth department navigation",
+        "Porto Grocery 3 custom categories"
+      ],
+      "source_entry_ids": [
+        "shopify-warehouse",
+        "woo-porto-shop35",
+        "woo-porto-grocery3"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "multi-level-menu",
+        "faceted-filters",
+        "subcollection-nav"
+      ],
+      "design_implication": "Use explicit L1/L2/L3 navigation configurations, mobile progressive disclosure, and filters driven by Shopify Search & Discovery."
+    },
+    {
+      "id": "single-product-sales-story",
+      "context": "DTC pages often need a different narrative from regular PDP templates.",
+      "signals": [
+        "Porto Shop 28 features, specs and reviews as continuous chapters",
+        "Shopify Impact quick-add and complementary products"
+      ],
+      "source_entry_ids": [
+        "woo-porto-single",
+        "shopify-impact"
+      ],
+      "option_ids": [
+        "featured-product",
+        "image-with-text",
+        "specs-table",
+        "product-reviews-slot",
+        "sticky-atc"
+      ],
+      "design_implication": "Offer optional product-led landing template and reusable benefits/specification sections; checkout remains native Shopify."
+    },
+    {
+      "id": "grocery-fulfillment-clarity",
+      "context": "Food shoppers need reliable service information before comparing products.",
+      "signals": [
+        "Porto Grocery 2 shipping/support messages",
+        "Porto Grocery 3 categories and delivery promises",
+        "Local pickup support"
+      ],
+      "source_entry_ids": [
+        "woo-porto-grocery2",
+        "woo-porto-grocery3",
+        "shopify-local"
+      ],
+      "option_ids": [
+        "free-shipping-bar",
+        "pickup-availability",
+        "collection-list",
+        "ingredients-nutrition"
+      ],
+      "design_implication": "Display merchant-configured thresholds and real pickup availability, separate delivery estimates from actual shipping rates."
+    },
+    {
+      "id": "variant-discovery-across-catalogs",
+      "context": "Shoppers in footwear, apparel and bikes need options before committing.",
+      "signals": [
+        "Blocksy E-Bike promotes variation swatches",
+        "Porto product gallery menu exposes layout variations",
+        "Prestige editorial media layouts"
+      ],
+      "source_entry_ids": [
+        "woo-blocksy-ebike",
+        "woo-porto-bookstore",
+        "shopify-prestige-vogue"
+      ],
+      "option_ids": [
+        "variant-picker-styles",
+        "card-swatches",
+        "media-gallery-layouts",
+        "product-multi-gallery-layouts"
+      ],
+      "design_implication": "Use accessible swatches, real variant media mappings and native deep links; never silently choose an unavailable variant."
+    },
+    {
+      "id": "style-versus-engine-separation",
+      "context": "Different niche presets should share one robust editor and commerce behavior.",
+      "signals": [
+        "Warehouse and Wood preset pages share a theme engine",
+        "Cornerstone Light/Warm are different visual channels",
+        "Shopify Prestige/Vogue share a feature platform"
+      ],
+      "source_entry_ids": [
+        "shopify-warehouse",
+        "shopify-warehouse-wood",
+        "bigcommerce-cornerstone",
+        "bigcommerce-cornerstone-warm",
+        "shopify-prestige-vogue"
+      ],
+      "option_ids": [
+        "theme-styles-presets",
+        "section-presets",
+        "nested-theme-blocks",
+        "color-schemes"
+      ],
+      "design_implication": "Presets vary typography/layout/density/tokens/content, not forked cart, navigation or PDP code."
+    }
+  ]
+}

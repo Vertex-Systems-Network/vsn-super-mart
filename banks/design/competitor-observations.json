@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "note": "Qualitative observations only; do not mark exact 12-dimensional fingerprints verified until a human or visual screenshot audit captures the live demo across templates and breakpoints.",
+  "observations": [
+    {
+      "id": "woo-flatsome-mega",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "service propositions",
+        "best-seller shelf",
+        "on-sale product shelf",
+        "weekly featured shelf",
+        "category browse grid"
+      ],
+      "design_hypothesis": "Module density for broad inventory; visual hierarchy still requires desktop/mobile screenshot audit."
+    },
+    {
+      "id": "woo-woodmart-mega-electronics",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "deep product taxonomy",
+        "promotional/category groupings",
+        "multiple products"
+      ],
+      "design_hypothesis": "Dense catalog requires responsive navigation and visual grouping."
+    },
+    {
+      "id": "woo-woodmart-vegetables",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "grocery-first category tiles",
+        "produce merchandising"
+      ],
+      "design_hypothesis": "Food-first imagery and repeated category entry points."
+    },
+    {
+      "id": "woo-woodmart-pets",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "pet product/category segmentation",
+        "offer placements"
+      ],
+      "design_hypothesis": "Distinct niche styling with common commerce components."
+    },
+    {
+      "id": "bigcommerce-cornerstone",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "catalog listing",
+        "category navigation"
+      ],
+      "design_hypothesis": "Default theme demonstrates functional baseline; do not reuse its visual direction."
+    },
+    {
+      "id": "magento-hyva",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "multi-level navigation",
+        "living-room carousel",
+        "popular product shelf",
+        "quick cart actions"
+      ],
+      "design_hypothesis": "Keep interaction lightweight and product taxonomy legible."
+    },
+    {
+      "id": "shopify-horizon",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "claimed nested theme block system"
+      ],
+      "design_hypothesis": "Composable sections are a non-negotiable editor capability; live experience unverified."
+    },
+    {
+      "id": "shopify-prestige",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "claimed lookbook/media merchandising",
+        "claimed configurable sections"
+      ],
+      "design_hypothesis": "Premium editorial visual hierarchy; no exact screenshot fingerprint captured."
+    },
+    {
+      "id": "shopify-warehouse",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "vendor: deep filters",
+        "vendor: very large catalog support"
+      ],
+      "design_hypothesis": "Large-SKU navigation & filtering is a design and performance priority, not independently performance tested."
+    },
+    {
+      "id": "shopify-impact",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "vendor: big type and subtle animations",
+        "vendor: conversion components"
+      ],
+      "design_hypothesis": "Fashion/streetwear direction should use own typography and motion, not copy Impact."
+    },
+    {
+      "id": "shopify-empire",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "vendor: catalog comparisons",
+        "vendor: extensive menus"
+      ],
+      "design_hypothesis": "Comparison UX can be supported through an app slot while preserving theme listing functionality."
+    },
+    {
+      "id": "woo-porto-grocery2",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "delivery/service promise area",
+        "featured grocery offers"
+      ],
+      "design_hypothesis": "Place real threshold messaging close to departments and first product shelf."
+    },
+    {
+      "id": "woo-porto-grocery3",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "grocery taxonomy",
+        "sale/featured tabs",
+        "trust promise band"
+      ],
+      "design_hypothesis": "Advanced grocery nav calls for compact categories, editorial merchandising and pickup facts."
+    },
+    {
+      "id": "woo-porto-single",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "single product hero",
+        "narrative feature sections",
+        "360 tour and review sections"
+      ],
+      "design_hypothesis": "Long-form DTC product-template option can coexist with normal collection/detail templates."
+    },
+    {
+      "id": "bigcommerce-cornerstone-warm",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "home slider",
+        "shop-by-country and product-type nav",
+        "quick-view"
+      ],
+      "design_hypothesis": "Shared feature engine + multiple distinct visual presets."
+    },
+    {
+      "id": "woo-astra-clothing",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "vendor: full-screen apparel hero",
+        "vendor: parallax"
+      ],
+      "design_hypothesis": "Motion should respect reduced-motion and page performance; not independently audited."
+    }
+  ]
+}

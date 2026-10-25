@@ -1,0 +1,41 @@
+{% doc %}
+  VSN smart responsive: outputs CSS for one numeric custom property of one element instance.
+  Anchors: desktop 1440, tablet 768, mobile 360 (fluid between anchors with calc/clamp).
+  Optional overrides (blank = not output): o320, o480, o560, o1024, o1920, o2448.
+  Only overrides that are set produce media queries (rule 15, responsive.json).
+
+  @param {string} scope - CSS selector of the element instance, e.g. '#vsn-abc'
+  @param {string} prop - custom property name without dashes, e.g. 'fs'
+  @param {number} d - desktop value (1440)
+  @param {number} t - tablet value (768)
+  @param {number} m - mobile value (360)
+  @param {string} [unit] - CSS unit, default 'px'
+  @param {boolean} [adv] - advanced responsive on
+  @param {number} [o320] - override for widths below 360
+  @param {number} [o480] - override from 480
+  @param {number} [o560] - override from 560
+  @param {number} [o1024] - override from 1024
+  @param {number} [o1920] - override from 1920
+  @param {number} [o2448] - override from 2448
+
+  @example
+  {% render 'vsn-responsive', scope: '#vsn-1', prop: 'fs', d: 72, t: 48, m: 36 %}
+{% enddoc %}
+{%- liquid
+  assign unit = unit | default: 'px'
+  assign lo_mt = m | at_most: t
+  assign hi_mt = m | at_least: t
+  assign diff_mt = t | minus: m
+  assign lo_td = t | at_most: d
+  assign hi_td = t | at_least: d
+  assign diff_td = d | minus: t
+-%}
+{{ scope }}{--vsn-{{ prop }}:clamp({{ lo_mt }}{{ unit }},calc({{ m }}{{ unit }} + {{ diff_mt }} * ((100vw - 360px) / 408)),{{ hi_mt }}{{ unit }})}
+{%- if adv and o320 != blank -%}@media (max-width:359.98px){ {{- scope }}{--vsn-{{ prop }}:{{ o320 }}{{ unit }}}}{%- endif -%}
+{%- if adv and o480 != blank -%}@media (min-width:480px){ {{- scope }}{--vsn-{{ prop }}:{{ o480 }}{{ unit }}}}{%- endif -%}
+{%- if adv and o560 != blank -%}@media (min-width:560px){ {{- scope }}{--vsn-{{ prop }}:{{ o560 }}{{ unit }}}}{%- endif -%}
+@media (min-width:768px){ {{- scope }}{--vsn-{{ prop }}:clamp({{ lo_td }}{{ unit }},calc({{ t }}{{ unit }} + {{ diff_td }} * ((100vw - 768px) / 672)),{{ hi_td }}{{ unit }})}}
+{%- if adv and o1024 != blank -%}@media (min-width:1024px){ {{- scope }}{--vsn-{{ prop }}:{{ o1024 }}{{ unit }}}}{%- endif -%}
+@media (min-width:1440px){ {{- scope }}{--vsn-{{ prop }}:{{ d }}{{ unit }}}}
+{%- if adv and o1920 != blank -%}@media (min-width:1920px){ {{- scope }}{--vsn-{{ prop }}:{{ o1920 }}{{ unit }}}}{%- endif -%}
+{%- if adv and o2448 != blank -%}@media (min-width:2448px){ {{- scope }}{--vsn-{{ prop }}:{{ o2448 }}{{ unit }}}}{%- endif -%}

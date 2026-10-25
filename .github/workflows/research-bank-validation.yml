@@ -1,0 +1,42 @@
+name: Research bank validation
+
+on:
+  pull_request:
+    paths:
+      - 'banks/research/**'
+      - 'banks/design/**'
+      - 'banks/options/**'
+      - 'scripts/vsn.py'
+      - 'scripts/competitor_audit.py'
+      - 'scripts/afterhours_recovery.py'
+      - 'ai/recovery/**'
+      - 'ai/state/**'
+      - 'banks/design/specs/gen-z-store/source/**'
+      - '.github/workflows/research-bank-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate competitor evidence and mapped options
+        run: python3 scripts/competitor_audit.py validate
+      - name: Validate VSN banks and reference fingerprints
+        run: python3 scripts/vsn.py validate
+      - name: Validate remaining Afterhours layout source
+        run: python3 scripts/afterhours_recovery.py check
+      - name: Test deterministic 24-screen generator
+        run: |
+          python3 scripts/afterhours_recovery.py rebuild
+          git diff --exit-code -- banks/design/specs/gen-z-store/source/afterhours.html banks/design/specs/gen-z-store/source/slots.json
+      - name: Bundle visual recovery reference
+        run: python3 scripts/afterhours_recovery.py bundle dist/afterhours-recovery.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: afterhours-source-preview
+          path: dist/afterhours-recovery.html
+          retention-days: 30

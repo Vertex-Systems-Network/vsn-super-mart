@@ -1,0 +1,103 @@
+{
+  "note": "Every VSN design (accepted directions and built presets) is registered here with its fingerprint and Figma node ids. New designs are checked against all entries.",
+  "designs": [
+    {
+      "id": "vsn-genz-afterhours",
+      "niche": "gen-z-store",
+      "name": "Afterhours",
+      "fp": {
+        "header_layout": "logo-center-drawer",
+        "nav_style": "drawer",
+        "hero": "video-full",
+        "product_card": "overlay-text",
+        "pdp_layout": "sticky-split",
+        "collection_layout": "horizontal-filters",
+        "grid_density": "dense",
+        "type_pairing": "condensed+sans",
+        "radius": "sharp",
+        "motion": "expressive",
+        "imagery": "edge-to-edge",
+        "section_rhythm": "rails-carousels"
+      },
+      "palette": [
+        "#C6FF3D",
+        "#0B0B0F",
+        "#16161D",
+        "#F4F4F0"
+      ],
+      "figma": {
+        "file_key": "y5e3fEpx2eAFhLRFLisP0o",
+        "page_node": "0:1",
+        "page_name": "AFTERHOURS — Restored UI",
+        "frames": {
+          "home-desktop": "10:12",
+          "collection-desktop": "11:2",
+          "product-desktop": "11:95",
+          "cart-drawer-desktop": "11:213",
+          "password-drop-desktop": "11:270",
+          "quick-view-desktop": "11:288",
+          "wishlist-desktop": "11:343",
+          "compare-desktop": "11:395",
+          "search-desktop": "11:462",
+          "cart-page-desktop": "11:515",
+          "promo-popup-desktop": "13:2",
+          "list-collections-desktop": "13:22",
+          "contact-desktop": "13:74",
+          "blog-desktop": "13:115",
+          "article-desktop": "13:153",
+          "account-login-desktop": "13:191",
+          "account-orders-desktop": "13:217",
+          "404-desktop": "13:249",
+          "gift-card-desktop": "13:268",
+          "home-mobile": "14:2",
+          "product-mobile": "14:66",
+          "collection-mobile": "14:110",
+          "cart-drawer-mobile": "14:178",
+          "menu-drawer-mobile": "14:208"
+        },
+        "status": "editable_layouts_restored_assets_pending",
+        "not_yet_built": [
+          "account register/addresses (Shopify-hosted new customer accounts cover these)"
+        ]
+      },
+      "spec": "banks/design/specs/gen-z-store/spec.json",
+      "registered_at": "2026-10-21",
+      "status": "editable_layouts_restored_assets_pending",
+      "historical_figma": {
+        "file_key": "BxJuIRth8k4cCUbFnPV6ek",
+        "page_node": "25:2",
+        "frames": {
+          "home-desktop": "159:2",
+          "collection-desktop": "160:2",
+          "product-desktop": "161:2",
+          "cart-drawer-desktop": "162:2",
+          "password-drop-desktop": "163:2",
+          "home-mobile": "164:2",
+          "product-mobile": "165:2",
+          "quick-view-desktop": "166:2",
+          "wishlist-desktop": "167:2",
+          "compare-desktop": "168:2",
+          "search-desktop": "169:2",
+          "cart-page-desktop": "170:2",
+          "promo-popup-desktop": "171:2",
+          "list-collections-desktop": "172:2",
+          "contact-desktop": "173:2",
+          "blog-desktop": "174:2",
+          "article-desktop": "175:2",
+          "account-login-desktop": "176:2",
+          "account-orders-desktop": "177:2",
+          "404-desktop": "178:2",
+          "gift-card-desktop": "179:2",
+          "collection-mobile": "180:2",
+          "cart-drawer-mobile": "181:2",
+          "menu-drawer-mobile": "182:2"
+        },
+        "not_yet_built": [
+          "account register/addresses (Shopify-hosted new customer accounts cover these)"
+        ]
+      },
+      "fresh_visual_review": "pending_after_artwork_replacement",
+      "restored_at": "2026-10-25"
+    }
+  ]
+}

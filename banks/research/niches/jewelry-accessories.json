@@ -1,0 +1,230 @@
+{
+ "id": "jewelry-accessories",
+ "name": "Jewelry & Accessories",
+ "aliases": [
+  "fine jewelry",
+  "demi-fine",
+  "watches",
+  "bags",
+  "eyewear"
+ ],
+ "shopper_profile": "Considered, often gift-driven buyers needing reassurance about materials, authenticity and sizing; high AOV demands trust.",
+ "catalog_traits": {
+  "typical_size": "small",
+  "variants": "Metal (gold/silver/rose), ring size, length, stone; engraving options",
+  "price_range": "$30-$5,000+"
+ },
+ "must_have_sections": [
+  {
+   "id": "announcement-bar",
+   "name": "Announcement bar",
+   "page": "global",
+   "why": "Shipping/promo messaging"
+  },
+  {
+   "id": "mega-menu",
+   "name": "Mega menu",
+   "page": "global",
+   "why": "Deep category navigation"
+  },
+  {
+   "id": "predictive-search",
+   "name": "Predictive search",
+   "page": "global",
+   "why": "Fast product discovery"
+  },
+  {
+   "id": "cart-drawer",
+   "name": "Cart drawer with upsells",
+   "page": "cart",
+   "why": "Keeps shoppers browsing, raises AOV"
+  },
+  {
+   "id": "luxury-hero",
+   "name": "Luxury hero image/video",
+   "page": "home",
+   "why": "Premium positioning"
+  },
+  {
+   "id": "shop-by-category",
+   "name": "Shop by category (rings, necklaces)",
+   "page": "home",
+   "why": "Simple navigation"
+  },
+  {
+   "id": "shop-by-metal",
+   "name": "Shop by metal/material",
+   "page": "home",
+   "why": "Key purchase filter"
+  },
+  {
+   "id": "gift-guide",
+   "name": "Gift guide",
+   "page": "home",
+   "why": "Gifting traffic"
+  },
+  {
+   "id": "macro-gallery",
+   "name": "Macro zoom gallery",
+   "page": "product",
+   "why": "Detail inspection"
+  },
+  {
+   "id": "ring-size-guide",
+   "name": "Ring/size guide",
+   "page": "product",
+   "why": "Fit confidence"
+  },
+  {
+   "id": "materials-care",
+   "name": "Materials & care",
+   "page": "product",
+   "why": "Quality assurance"
+  },
+  {
+   "id": "personalization",
+   "name": "Engraving/personalization fields",
+   "page": "product",
+   "why": "Custom upsell"
+  },
+  {
+   "id": "trust-badges",
+   "name": "Warranty/authenticity badges",
+   "page": "product",
+   "why": "Reduces risk"
+  },
+  {
+   "id": "gift-wrap",
+   "name": "Gift wrap & note",
+   "page": "cart",
+   "why": "Gifting"
+  }
+ ],
+ "nice_to_have_sections": [
+  {
+   "id": "virtual-try-on",
+   "name": "AR/try-on",
+   "page": "product",
+   "why": "Visualization"
+  },
+  {
+   "id": "book-appointment",
+   "name": "Book consultation",
+   "page": "page",
+   "why": "High-ticket sales"
+  },
+  {
+   "id": "brand-story",
+   "name": "Craftsmanship story",
+   "page": "page",
+   "why": "Value justification"
+  },
+  {
+   "id": "stack-builder",
+   "name": "Stack/layer builder",
+   "page": "product",
+   "why": "Multi-item AOV"
+  },
+  {
+   "id": "press",
+   "name": "Press logos",
+   "page": "home",
+   "why": "Credibility"
+  },
+  {
+   "id": "on-model-carousel",
+   "name": "Worn-on carousel",
+   "page": "home",
+   "why": "Scale reference"
+  }
+ ],
+ "product_page_elements": [
+  "High-res zoom and 360/video",
+  "On-model scale image",
+  "Metal swatches",
+  "Size selector + guide",
+  "Materials, karat, stone specs",
+  "Dimensions",
+  "Engraving input",
+  "Warranty, returns, authenticity",
+  "Gift packaging",
+  "BNPL",
+  "Reviews",
+  "Pairs well with"
+ ],
+ "collection_page_elements": [
+  "Filter by metal, stone, price, type",
+  "Metal swatches on cards",
+  "Hover worn image",
+  "Price range sort",
+  "Gift price tiers"
+ ],
+ "metafields_metaobjects": [
+  "material (metaobject: metal, karat)",
+  "gemstone (metaobject: type, carat, origin)",
+  "dimensions",
+  "care_instructions",
+  "certificate (file)",
+  "engravable (boolean) + max chars",
+  "ring_size_chart (metaobject)"
+ ],
+ "design_patterns": {
+  "typography": "Refined serif headings, thin uppercase spaced sans",
+  "color_mood": "Ivory, black, champagne/gold accents",
+  "imagery": "Macro product shots on neutral backgrounds plus on-model",
+  "layout": "Generous whitespace, centered compositions, fewer items per row",
+  "motion": "Slow reveals, subtle parallax, sparkle restraint"
+ },
+ "conversion_drivers": [
+  "Trust signals and warranty",
+  "Gift services",
+  "Personalization",
+  "BNPL for high price",
+  "Detailed imagery",
+  "Consultations"
+ ],
+ "competitor_references": [
+  {
+   "theme": "Horizon family",
+   "preset_or_style": "Atelier / Ritual",
+   "notable": "Positioned for jewelry and high-end artisan goods"
+  },
+  {
+   "theme": "Prestige",
+   "preset_or_style": "Default",
+   "notable": "Luxury storytelling"
+  },
+  {
+   "theme": "Stiletto",
+   "preset_or_style": "Default",
+   "notable": "Bold editorial for accessories"
+  }
+ ],
+ "anti_patterns": [
+  "Low-res or over-filtered images",
+  "Discount-heavy visuals cheapening brand",
+  "No scale reference",
+  "Hidden return/warranty policy"
+ ],
+ "sources": [
+  {
+   "title": "Shopify Horizon themes (Instant blog)",
+   "url": "https://instant.so/blog/shopify-horizon-themes"
+  },
+  {
+   "title": "Top 30 Shopify Plus themes (Skailama)",
+   "url": "https://www.skailama.com/blog/top-30-shopify-plus-themes"
+  },
+  {
+   "title": "Shopify Horizon themes overview (Aureate Labs)",
+   "url": "https://aureatelabs.com/blog/shopify-horizon-themes-overview/"
+  },
+  {
+   "title": "Shopify theme store",
+   "url": "https://themes.shopify.com/themes?q=free"
+  }
+ ],
+ "status": "seed",
+ "verification": "pending: sources partly from search snippets and general knowledge; verify in Stage 2",
+ "updated_at": "2026-10-21"
+}

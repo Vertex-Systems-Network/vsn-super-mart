@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "niche": "gen-z-store",
+  "preset": "Afterhours",
+  "source_of_design": "banks/design/specs/gen-z-store/source/afterhours.html",
+  "status": "settings_defined_not_built",
+  "notes": "Source-backed element specifications only. Not a claim of a working Shopify element or recovered Figma screen. Respect Shopify native objects, privacy, theme store app integrations, reduced motion and keyboard.",
+  "elements": [
+    {
+      "id": "header-builder",
+      "category": "navigation",
+      "priority": "P0",
+      "shopify_sources": [
+        "section group",
+        "linklists",
+        "localization"
+      ],
+      "content_settings": [
+        "menu_handle",
+        "desktop_logo",
+        "mobile_logo",
+        "logo_link",
+        "announcement_message",
+        "search_enabled",
+        "account_enabled",
+        "cart_enabled",
+        "country_selector",
+        "language_selector"
+      ],
+      "design_settings": [
+        "layout_variant: logo-left/center/split",
+        "transparent_over_hero",
+        "sticky: always/scroll-up/never",
+        "desktop_height",
+        "mobile_height",
+        "color_scheme",
+        "menu_promo_blocks",
+        "mobile_drawer_width",
+        "icon_size",
+        "breakpoint"
+      ],
+      "states": [
+        "default",
+        "scrolled",
+        "drawer-open",
+        "search-open",
+        "menu-loading"
+      ],
+      "responsive": [
+        "menu drawer on mobile",
+        "keyboard focus does not become invisible under sticky header"
+      ],
+      "a11y": [
+        "skip link",
+        "landmark navigation",
+        "focus trap only while drawer open",
+        "Escape closes overlays",
+        "aria-expanded for every toggle"
+      ],
+      "depends_on": [
+        "mega-menu"
+      ],
+      "guardrails": [
+        "Native Shopify routes for account/cart/search",
+        "no hardcoded host paths",
+        "avoid redundant nested dialogs"
+      ]
+    },
+    {
+      "id": "mega-menu",
+      "category": "navigation",
+      "priority": "P0",
+      "shopify_sources": [
+        "linklists",
+        "collection",
+        "product"
+      ],
+      "content_settings": [
+        "menu_handle",
+        "promo_blocks",
+        "collection_tiles",
+        "product_tiles",
+        "heading_labels"
+      ],
+      "design_settings": [
+        "mode: columns/image-menu/category-rail",
+        "columns_d",
+        "columns_t",
+        "active_item_color",
+        "promo_tile_width",
+        "drawer_drilldown"
+      ],
+      "states": [
+        "hover",
+        "focus",
+        "expanded",
+        "loading",
+        "no-menu"
+      ],
+      "responsive": [
+        "desktop hover plus click",
+        "touch tap to expand; close button",
+        "nested mobile drilldowns"
+      ],
+      "a11y": [
+        "buttons with aria-expanded",
+        "roving focus not required if tab order natural",
+        "Escape returns to trigger"
+      ],
+      "depends_on": [
+        "header-builder"
+      ],
+      "guardrails": [
+        "menus pulled from merchant menus",
+        "promo cards use store assets and honest sale copy"
+      ]
+    },
+    {
+      "id": "product-gallery",
+      "category": "commerce",
+      "priority": "P0",
+      "shopify_sources": [
+        "product.media",
+        "selected_variant.featured_media"
+      ],
+      "content_settings": [
+        "product",
+        "thumbnail_position",
+        "media_types",
+        "variant_media_filter"
+      ],
+      "design_settings": [
+        "layout: stacked/grid/carousel/sticky-split",
+        "desktop_gallery_width",
+        "mobile_gallery_height",
+        "zoom_mode",
+        "video_autoplay_muted",
+        "image_fit",
+        "thumbnail_size"
+      ],
+      "states": [
+        "loading",
+        "image",
+        "video",
+        "model3d",
+        "unavailable",
+        "variant-switched"
+      ],
+      "responsive": [
+        "mobile swipeable media",
+        "desktop sticky info respects parent height"
+      ],
+      "a11y": [
+        "descriptive alt",
+        "pause/controls on video",
+        "keyboard-accessible zoom",
+        "reduced motion",
+        "visible thumbnail selection"
+      ],
+      "depends_on": [
+        "product-card"
+      ],
+      "guardrails": [
+        "media object URLs from Shopify",
+        "video autoplay rules respected",
+        "do not duplicate 3D media in HTML"
+      ]
+    },
+    {
+      "id": "quick-view",
+      "category": "commerce",
+      "priority": "P0",
+      "shopify_sources": [
+        "product",
+        "cart",
+        "routes",
+        "section rendering"
+      ],
+      "content_settings": [
+        "source_product",
+        "show_vendor",
+        "show_reviews_app_slot",
+        "show_variants",
+        "show_quantity",
+        "show_share"
+      ],
+      "design_settings": [
+        "layout: slide-in/modal",
+        "desktop_width",
+        "mobile_fullscreen",
+        "card_gallery_style",
+        "animation"
+      ],
+      "states": [
+        "closed",
+        "opening",
+        "loaded",
+        "variant-selected",
+        "adding",
+        "error",
+        "sold-out"
+      ],
+      "responsive": [
+        "full screen or bottom sheet on mobile"
+      ],
+      "a11y": [
+        "dialog labelled by product title",
+        "focus containment while open",
+        "Escape to close",
+        "restore focus to product card",
+        "prevent underlying background tabbing"
+      ],
+      "depends_on": [
+        "product-gallery"
+      ],
+      "guardrails": [
+        "No direct checkout bypass; uses Shopify native cart routes",
+        "wishlist/compare data via VSN app slots",
+        "no fake availability"
+      ]
+    },
+    {
+      "id": "cart-drawer",
+      "category": "commerce",
+      "priority": "P0",
+      "shopify_sources": [
+        "cart",
+        "routes.cart_add_url",
+        "routes.cart_change_url",
+        "routes.cart_url"
+      ],
+      "content_settings": [
+        "enable_cart_note",
+        "shipping_threshold",
+        "upsell_collection",
+        "discount_display",
+        "line_item_properties",
+        "accelerated_checkout_slot"
+      ],
+      "design_settings": [
+        "side: right/left",
+        "drawer_width_d",
+        "mobile_fullscreen",
+        "progress_bar",
+        "upsell_layout",
+        "color_scheme"
+      ],
+      "states": [
+        "empty",
+        "open",
+        "updating",
+        "error",
+        "discount",
+        "requires_shipping",
+        "upsell_loading"
+      ],
+      "responsive": [
+        "mobile full width",
+        "bottom action row never obscures totals"
+      ],
+      "a11y": [
+        "aria-live for subtotal changes",
+        "proper total/subtotal label",
+        "focus restore",
+        "Escape close",
+        "visible validation"
+      ],
+      "depends_on": [],
+      "guardrails": [
+        "Native Shopify cart totals and money formatting",
+        "Do not pretend shipping total is known before checkout",
+        "Shipping threshold in presentment currency",
+        "Cart discounts and selling plans retained"
+      ]
+    }
+  ],
+  "not_yet_built": [
+    "Liquid template files",
+    "JavaScript interaction",
+    "Theme editor schema",
+    "real store test",
+    "visual QA",
+    "9-breakpoint responsiveness"
+  ],
+  "source_crosswalk": [
+    "banks/research/competitors/cross-platform-patterns.json",
+    "ai/recovery/afterhours.json"
+  ]
+}

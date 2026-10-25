@@ -1,0 +1,348 @@
+{% doc %}
+VSN element: Group / container (rule 15). Holds any theme blocks (nestable). Flex or grid,
+  responsive columns, direction, gap and padding. Children come from the theme editor via content_for 'blocks'.
+{% enddoc %}
+{%- liquid
+  assign scope = '#vsn-' | append: block.id
+-%}
+{% style %}
+  {{ scope }}{--vsn-cols-d:{{ block.settings.cols_d }};--vsn-cols-t:{{ block.settings.cols_t }};--vsn-cols-m:{{ block.settings.cols_m }};--vsn-dir-d:{{ block.settings.dir_d }};--vsn-dir-t:{{ block.settings.dir_t }};--vsn-dir-m:{{ block.settings.dir_m }}}
+  {% render 'vsn-responsive', scope: scope, prop: 'gap', d: block.settings.gap_d, t: block.settings.gap_t, m: block.settings.gap_m, adv: block.settings.adv, o320: block.settings.gap_320, o480: block.settings.gap_480, o560: block.settings.gap_560, o1024: block.settings.gap_1024, o1920: block.settings.gap_1920, o2448: block.settings.gap_2448 %}
+  {% render 'vsn-responsive', scope: scope, prop: 'pad', d: block.settings.pad_d, t: block.settings.pad_t, m: block.settings.pad_m, adv: block.settings.adv, o320: block.settings.pad_320, o480: block.settings.pad_480, o560: block.settings.pad_560, o1024: block.settings.pad_1024, o1920: block.settings.pad_1920, o2448: block.settings.pad_2448 %}
+{% endstyle %}
+<div
+  id="vsn-{{ block.id }}"
+  class="vsn-group vsn-group--{{ block.settings.layout }} {{ block.settings.css_class | escape }}"
+  {{ block.shopify_attributes }}
+>
+  {% content_for 'blocks' %}
+</div>
+
+{% schema %}
+{
+  "name": "VSN Group",
+  "blocks": [
+    {
+      "type": "@theme"
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "settings": [
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "flex",
+          "label": "Flex (row or stack)"
+        },
+        {
+          "value": "grid",
+          "label": "Grid"
+        }
+      ],
+      "default": "grid"
+    },
+    {
+      "type": "select",
+      "id": "cols_d",
+      "label": "Grid columns \u2014 desktop",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        },
+        {
+          "value": "6",
+          "label": "6"
+        }
+      ],
+      "default": "4",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "cols_t",
+      "label": "Grid columns \u2014 tablet",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        },
+        {
+          "value": "6",
+          "label": "6"
+        }
+      ],
+      "default": "2",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "cols_m",
+      "label": "Grid columns \u2014 mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        },
+        {
+          "value": "6",
+          "label": "6"
+        }
+      ],
+      "default": "2",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "dir_d",
+      "label": "Flex direction \u2014 desktop",
+      "options": [
+        {
+          "value": "row",
+          "label": "Row"
+        },
+        {
+          "value": "column",
+          "label": "Stack"
+        }
+      ],
+      "default": "row",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "dir_t",
+      "label": "Flex direction \u2014 tablet",
+      "options": [
+        {
+          "value": "row",
+          "label": "Row"
+        },
+        {
+          "value": "column",
+          "label": "Stack"
+        }
+      ],
+      "default": "row",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "select",
+      "id": "dir_m",
+      "label": "Flex direction \u2014 mobile",
+      "options": [
+        {
+          "value": "row",
+          "label": "Row"
+        },
+        {
+          "value": "column",
+          "label": "Stack"
+        }
+      ],
+      "default": "column",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "header",
+      "content": "Gap",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_d",
+      "label": "Gap \u2014 desktop (1440) px",
+      "default": 16,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_t",
+      "label": "Gap \u2014 tablet (768) px",
+      "default": 12,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_m",
+      "label": "Gap \u2014 mobile (360) px",
+      "default": 8,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_320",
+      "label": "Gap \u2014 320 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_480",
+      "label": "Gap \u2014 480 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_560",
+      "label": "Gap \u2014 560 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_1024",
+      "label": "Gap \u2014 1024 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_1920",
+      "label": "Gap \u2014 1920 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "gap_2448",
+      "label": "Gap \u2014 2448 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "header",
+      "content": "Padding",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_d",
+      "label": "Padding \u2014 desktop (1440) px",
+      "default": 0,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_t",
+      "label": "Padding \u2014 tablet (768) px",
+      "default": 0,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_m",
+      "label": "Padding \u2014 mobile (360) px",
+      "default": 0,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_320",
+      "label": "Padding \u2014 320 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_480",
+      "label": "Padding \u2014 480 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_560",
+      "label": "Padding \u2014 560 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_1024",
+      "label": "Padding \u2014 1024 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_1920",
+      "label": "Padding \u2014 1920 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "number",
+      "id": "pad_2448",
+      "label": "Padding \u2014 2448 override",
+      "visible_if": "{{ block.settings.simple_mode == false and block.settings.adv == true }}"
+    },
+    {
+      "type": "header",
+      "content": "Editing"
+    },
+    {
+      "type": "checkbox",
+      "id": "simple_mode",
+      "label": "Simple mode (content only)",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "adv",
+      "label": "Advanced responsive (all 9 breakpoints)",
+      "default": false,
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "Custom CSS class",
+      "visible_if": "{{ block.settings.simple_mode == false }}"
+    }
+  ]
+}
+{% endschema %}

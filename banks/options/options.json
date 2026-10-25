@@ -1,0 +1,2439 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-25",
+  "options": [
+    {
+      "id": "announcement-bar",
+      "name": "Announcement bar (rotating messages, links)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "header",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "section-groups-header-footer",
+      "name": "Header and footer in section groups",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "header",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "sticky-header",
+      "name": "Sticky / hide-on-scroll header",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "header",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "transparent-header",
+      "name": "Transparent header over hero",
+      "audience": [
+        "merchant"
+      ],
+      "area": "header",
+      "priority": "could",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "header-layouts",
+      "name": "Header layouts (logo left/center, inline/drawer menu)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "header",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "mega-menu",
+      "name": "Mega menu with images, promos and columns",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "header",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "multi-level-menu",
+      "name": "Nested multi-level menus",
+      "audience": [
+        "shopper"
+      ],
+      "area": "header",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "mobile-drawer-menu",
+      "name": "Mobile drawer menu with nested levels",
+      "audience": [
+        "shopper"
+      ],
+      "area": "header",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "predictive-search",
+      "name": "Predictive search (products, collections, pages, articles)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "search",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "account-component",
+      "name": "Account icon / shopify-account component in desktop and mobile header",
+      "audience": [
+        "shopper"
+      ],
+      "area": "header",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "cart-icon-count",
+      "name": "Cart icon with live item count",
+      "audience": [
+        "shopper"
+      ],
+      "area": "header",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "localization-selectors",
+      "name": "Country/currency and language selectors",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "audience": [
+        "shopper"
+      ],
+      "area": "global",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "back-to-top",
+      "name": "Back to top button",
+      "audience": [
+        "shopper"
+      ],
+      "area": "global",
+      "priority": "could",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "cookie-consent",
+      "name": "Cookie consent banner (Customer Privacy API)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "global",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "age-verification",
+      "name": "Age verification popup",
+      "audience": [
+        "merchant"
+      ],
+      "area": "global",
+      "priority": "could",
+      "scope": [
+        "food-beverage",
+        "health-supplements"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "newsletter-popup",
+      "name": "Newsletter / promo popup with delay and frequency",
+      "audience": [
+        "merchant"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "footer-builder",
+      "name": "Footer with menu, text, newsletter, social, payment icons blocks",
+      "audience": [
+        "merchant"
+      ],
+      "area": "footer",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "payment-icons",
+      "name": "Full color payment icons via enabled_payment_types",
+      "audience": [
+        "shopper"
+      ],
+      "area": "footer",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "social-icons",
+      "name": "Social media icon set",
+      "audience": [
+        "merchant"
+      ],
+      "area": "footer",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "follow-on-shop",
+      "name": "Follow on Shop button (login_button)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "footer",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "newsletter-signup",
+      "name": "Newsletter signup form",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "custom-liquid-section",
+      "name": "Custom Liquid section on every template",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "custom-liquid-block",
+      "name": "Custom Liquid blocks where app blocks fit",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "app-blocks",
+      "name": "App blocks (@app) in product and featured product sections",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "app-embeds",
+      "name": "App embed compatibility",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "hero-slideshow",
+      "name": "Slideshow / hero with video, image, split layouts",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "image-banner",
+      "name": "Image banner with text overlay and focal point",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "video-section",
+      "name": "Video section (YouTube, Vimeo, Shopify-hosted)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "featured-collection",
+      "name": "Featured collection grid / carousel with tabs",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "collection-list",
+      "name": "Collection list (grid, carousel, circles)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "featured-product",
+      "name": "Featured product section with media and buy buttons",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "image-with-text",
+      "name": "Image with text",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "multicolumn",
+      "name": "Multicolumn / icons with text (USPs)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "rich-text",
+      "name": "Rich text",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "collage-bento",
+      "name": "Collage / bento grid",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "logo-list",
+      "name": "Logo / press list",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "testimonials",
+      "name": "Testimonials / quotes slider",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "faq-accordion",
+      "name": "FAQ / collapsible content",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "promo-grid",
+      "name": "Promotion tiles grid",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "shop-the-look",
+      "name": "Shop the look / hotspots on image",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "should",
+      "scope": [
+        "fashion-apparel",
+        "home-furniture",
+        "jewelry-accessories",
+        "gen-z-store"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "before-after",
+      "name": "Before/after image comparison slider",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "could",
+      "scope": [
+        "beauty-skincare",
+        "health-supplements"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "comparison-table",
+      "name": "Comparison table (us vs them / specs)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "timeline",
+      "name": "Timeline / brand story",
+      "audience": [
+        "merchant"
+      ],
+      "area": "page",
+      "priority": "could",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "scrolling-text",
+      "name": "Scrolling marquee text / icons",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "could",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "blog-posts",
+      "name": "Blog posts section",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis",
+      "note": "Team rule 13: 'From the journal' on home in every preset"
+    },
+    {
+      "id": "map-store-locator",
+      "name": "Map / store info section",
+      "audience": [
+        "merchant"
+      ],
+      "area": "page",
+      "priority": "could",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "contact-form",
+      "name": "Contact form section and page.contact template",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "countdown-timer",
+      "name": "Countdown timer (real sale end date only)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "could",
+      "scope": "core",
+      "store_allowed": false,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "instagram-feed",
+      "name": "Instagram/UGC feed",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "could",
+      "scope": "core",
+      "store_allowed": false,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "faceted-filters",
+      "name": "Faceted filters (availability, price, type, vendor, variant options)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "filter-layouts",
+      "name": "Filter layouts (sidebar, drawer, horizontal)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "sorting",
+      "name": "Sorting",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "grid-density",
+      "name": "Grid columns / density switch",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "pagination-modes",
+      "name": "Pagination, load more, infinite scroll",
+      "audience": [
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "collection-banner",
+      "name": "Collection title, description, image banner",
+      "audience": [
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "product-card-variants",
+      "name": "Product card styles (minimal, bordered, overlay, detailed)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "card-hover-image",
+      "name": "Second image on hover",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "card-swatches",
+      "name": "Color/image swatches on cards",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "card-badges",
+      "name": "Sale, sold out, new, custom (metafield) badges",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "quick-view",
+      "name": "Quick view modal (with rich media)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements",
+      "note": "Team rule 12: mandatory on every demo."
+    },
+    {
+      "id": "quick-add",
+      "name": "Quick add to cart from card (incl. variant picker)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "card-quantity-stepper",
+      "name": "Quantity stepper on card",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "should",
+      "scope": [
+        "grocery-supermarket",
+        "food-beverage",
+        "b2b-wholesale",
+        "health-supplements"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "unit-price",
+      "name": "Unit pricing on collection, product, cart",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "price-ranges",
+      "name": "Price ranges for varying prices",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "empty-states",
+      "name": "Empty states (collection, search, cart)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "promo-tile-in-grid",
+      "name": "Promo tile inside product grid",
+      "audience": [
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "subcollection-nav",
+      "name": "Subcollection / category pills navigation",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "should",
+      "scope": [
+        "grocery-supermarket",
+        "electronics-gadgets",
+        "b2b-wholesale"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "list-collections-page",
+      "name": "All collections page with pagination",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "product-blocks",
+      "name": "Every product element is its own block (title, price, vendor, description...)",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "media-gallery-layouts",
+      "name": "Gallery layouts (thumbnails, stacked, grid, carousel)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "media-zoom",
+      "name": "Image zoom / lightbox",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "rich-media",
+      "name": "3D models, YouTube/Vimeo, Shopify video",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "variant-images",
+      "name": "Variant image switching",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "variant-picker-styles",
+      "name": "Variant picker: buttons, dropdown, color & image swatches",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "combined-listings",
+      "name": "Combined listings support",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "price-block",
+      "name": "Price, compare-at, sale %, taxes-included note",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "quantity-selector",
+      "name": "Quantity selector",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "dynamic-checkout",
+      "name": "Accelerated checkout buttons",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "shop-pay-installments",
+      "name": "Shop Pay Installments banner",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "pickup-availability",
+      "name": "Pickup availability",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "selling-plans",
+      "name": "Subscriptions / selling plans picker",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "gift-card-recipient",
+      "name": "Gift card recipient fields",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "inventory-status",
+      "name": "Real inventory status (in stock / low stock from real data)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "collapsible-tabs",
+      "name": "Collapsible tabs / accordion blocks (shipping, care, specs)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "size-chart",
+      "name": "Size chart popup (page/metaobject)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": [
+        "fashion-apparel",
+        "sports-fitness",
+        "kids-toys-baby",
+        "pets",
+        "gen-z-store"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "complementary-products",
+      "name": "Complementary products (Search & Discovery)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "related-products",
+      "name": "Related / recommended products",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "recently-viewed",
+      "name": "Recently viewed products",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "sticky-atc",
+      "name": "Sticky add-to-cart bar",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "share-buttons",
+      "name": "Share buttons on product page and quick view (copy link, WhatsApp, X, Facebook, Pinterest, native share)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis",
+      "note": "Team rule 13"
+    },
+    {
+      "id": "product-badges-trust",
+      "name": "Trust/feature icons block",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "specs-table",
+      "name": "Specifications table from metafields",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": [
+        "electronics-gadgets",
+        "home-furniture",
+        "b2b-wholesale"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "ingredients-nutrition",
+      "name": "Ingredients / nutrition facts from metaobjects",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": [
+        "beauty-skincare",
+        "food-beverage",
+        "health-supplements",
+        "grocery-supermarket",
+        "pets"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "delivery-estimate",
+      "name": "Delivery / shipping estimate text block",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "product-reviews-slot",
+      "name": "Reviews app block slot + rating stars on cards",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "product-custom-fields",
+      "name": "Line item properties (engraving, notes)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": [
+        "jewelry-accessories",
+        "books-stationery-art"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "back-in-stock-slot",
+      "name": "Back-in-stock app slot",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "pre-order",
+      "name": "Pre-order labels via selling plans",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "could",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "volume-pricing",
+      "name": "B2B quantity rules and volume pricing",
+      "audience": [
+        "shopper"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": [
+        "b2b-wholesale"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "bundle-display",
+      "name": "Bundles / buy-together display",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "cart-drawer",
+      "name": "Cart drawer",
+      "audience": [
+        "shopper"
+      ],
+      "area": "cart",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "cart-page",
+      "name": "Cart page",
+      "audience": [
+        "shopper"
+      ],
+      "area": "cart",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "cart-type-setting",
+      "name": "Cart type setting (drawer, page, notification)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "cart",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "cart-notes",
+      "name": "Cart notes",
+      "audience": [
+        "shopper"
+      ],
+      "area": "cart",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "cart-discounts",
+      "name": "Automatic + item/order discounts display",
+      "audience": [
+        "shopper"
+      ],
+      "area": "cart",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "free-shipping-bar",
+      "name": "Free shipping progress bar",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "cart",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "cart-upsell",
+      "name": "Cart recommendations",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "cart",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "cart-selling-plans",
+      "name": "Selling plans in cart",
+      "audience": [
+        "shopper"
+      ],
+      "area": "cart",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "cart-accelerated",
+      "name": "Accelerated checkout in cart",
+      "audience": [
+        "shopper"
+      ],
+      "area": "cart",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "tpl-404",
+      "name": "404 page with search/home link",
+      "audience": [
+        "shopper"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "tpl-password",
+      "name": "Password page",
+      "audience": [
+        "merchant"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "tpl-gift-card",
+      "name": "Gift card page (QR, Apple Wallet)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "tpl-search",
+      "name": "Search page with mixed results and no-results state",
+      "audience": [
+        "shopper"
+      ],
+      "area": "search",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "tpl-blog",
+      "name": "Blog template with excerpt and pagination",
+      "audience": [
+        "shopper"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "tpl-article",
+      "name": "Article with comments and published date",
+      "audience": [
+        "shopper"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "tpl-page",
+      "name": "Page template + contact variant",
+      "audience": [
+        "shopper"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "tpl-customer-accounts",
+      "name": "Customer account templates styling compatibility",
+      "audience": [
+        "shopper"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "alt-templates",
+      "name": "Alternate product/page/collection templates (landing, about, faq)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "page",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "color-schemes",
+      "name": "Color schemes (bg/fg pairs, assignable per section)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "typography-settings",
+      "name": "Font pickers + type scale",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "layout-settings",
+      "name": "Page width, spacing, section padding",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "button-styles",
+      "name": "Button style, radius, shadow",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "card-settings",
+      "name": "Card style, image ratio, borders",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "logo-favicon",
+      "name": "Logo (any ratio), favicon",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "animation-settings",
+      "name": "Animations on/off (respects reduced motion)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "badge-settings",
+      "name": "Badge colors and position",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "theme-styles-presets",
+      "name": "Theme styles / presets per niche",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "metafield-dynamic-sources",
+      "name": "Dynamic sources from metafields/metaobjects",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "image-focal-points",
+      "name": "Image focal points",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "nested-theme-blocks",
+      "name": "Theme blocks with nesting and group blocks",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "section-presets",
+      "name": "Ready presets for every section",
+      "audience": [
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "rtl-support",
+      "name": "RTL language support",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "settings",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "translations",
+      "name": "Full locales + schema translations",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "settings",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "skeleton-base",
+      "name": "Built from Skeleton theme / original code (no Dawn/Horizon)",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "native-css",
+      "name": "Native CSS, no Sass, no minified own code",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "web-components",
+      "name": "Vanilla JS web components, no jQuery",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "section-rendering",
+      "name": "Section Rendering API for AJAX updates",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "cart-ajax",
+      "name": "Cart AJAX API",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "routes-object",
+      "name": "routes object for URLs",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "theme-check",
+      "name": "Theme Check clean",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "docs",
+      "name": "Merchant docs + developer docs",
+      "audience": [
+        "merchant",
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "code-comments",
+      "name": "Documented snippets and JS events (cart:updated etc.)",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "github-integration",
+      "name": "GitHub integration-ready structure",
+      "audience": [
+        "developer"
+      ],
+      "area": "dev",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "perf-lighthouse",
+      "name": "Lighthouse performance >= 60 avg (target 85+)",
+      "audience": [
+        "shopper",
+        "developer"
+      ],
+      "area": "performance",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "responsive-images",
+      "name": "Responsive images + lazy loading",
+      "audience": [
+        "shopper",
+        "developer"
+      ],
+      "area": "performance",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "a11y-lighthouse",
+      "name": "Lighthouse accessibility >= 90",
+      "audience": [
+        "shopper",
+        "developer"
+      ],
+      "area": "a11y",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "keyboard-focus",
+      "name": "Keyboard access and visible focus",
+      "audience": [
+        "shopper"
+      ],
+      "area": "a11y",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "contrast",
+      "name": "Contrast 4.5:1 text, 3:1 non-text",
+      "audience": [
+        "shopper"
+      ],
+      "area": "a11y",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "touch-targets",
+      "name": "Touch targets >= 24px",
+      "audience": [
+        "shopper"
+      ],
+      "area": "a11y",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "skip-link",
+      "name": "Skip to content link",
+      "audience": [
+        "shopper"
+      ],
+      "area": "a11y",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "seo-meta",
+      "name": "SEO meta, canonical, Open Graph, Twitter cards",
+      "audience": [
+        "merchant"
+      ],
+      "area": "seo",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "structured-data",
+      "name": "Product rich snippets / JSON-LD",
+      "audience": [
+        "merchant"
+      ],
+      "area": "seo",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "webview-support",
+      "name": "Instagram/Facebook/Pinterest webview support",
+      "audience": [
+        "shopper"
+      ],
+      "area": "performance",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": true,
+      "source": "theme-store-requirements"
+    },
+    {
+      "id": "wishlist",
+      "name": "Wishlist (heart on cards and product page, wishlist page) via VSN app",
+      "audience": [
+        "shopper"
+      ],
+      "area": "extras",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": false,
+      "theme_store_required": false,
+      "source": "competitor-analysis",
+      "note": "Team rule 12. UI + app block slots in theme; data from vsn-wishlist-compare app (Theme Store forbids theme-built wishlist)."
+    },
+    {
+      "id": "fake-urgency",
+      "name": "Viewer counts / fake scarcity (never build)",
+      "audience": [
+        "shopper"
+      ],
+      "area": "extras",
+      "priority": "could",
+      "scope": [],
+      "store_allowed": false,
+      "theme_store_required": false,
+      "source": "competitor-analysis"
+    },
+    {
+      "id": "drop-release-section",
+      "name": "Drop release section (upcoming drop, real release date, collection link, signup)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": [
+        "gen-z-store",
+        "fashion-apparel",
+        "sports-fitness"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "gen-z-store",
+      "note": "Release date shown as static text; live ticking countdown lives in extras (countdown-timer)."
+    },
+    {
+      "id": "early-access-signup",
+      "name": "Early access signup (newsletter form that tags customers for drop access)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": [
+        "gen-z-store",
+        "fashion-apparel"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "gen-z-store",
+      "note": "Uses customer tags; no app."
+    },
+    {
+      "id": "password-drop-page",
+      "name": "Styled password / pre-launch drop page with signup and media",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": [
+        "gen-z-store",
+        "fashion-apparel"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "gen-z-store",
+      "note": "Builds on required password template."
+    },
+    {
+      "id": "drop-state-badges",
+      "name": "Drop state badges (coming soon, sold out, last sizes from real inventory)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": [
+        "gen-z-store",
+        "fashion-apparel",
+        "sports-fitness"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "gen-z-store",
+      "note": "Only real data, never fake scarcity."
+    },
+    {
+      "id": "hide-sold-out-toggle",
+      "name": "Hide or push down sold-out products in grids",
+      "audience": [
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "should",
+      "scope": [
+        "gen-z-store",
+        "fashion-apparel"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "gen-z-store",
+      "note": ""
+    },
+    {
+      "id": "sizes-on-card",
+      "name": "Available sizes shown on product card",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "should",
+      "scope": [
+        "gen-z-store",
+        "fashion-apparel",
+        "sports-fitness"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "gen-z-store",
+      "note": ""
+    },
+    {
+      "id": "fit-info-block",
+      "name": "Fit info block (model height/size, fit type, cm/inch size table)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "must",
+      "scope": [
+        "gen-z-store",
+        "fashion-apparel"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "gen-z-store",
+      "note": "Metaobject-driven."
+    },
+    {
+      "id": "ugc-video-strip",
+      "name": "Short video / UGC strip (merchant-uploaded videos)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "should",
+      "scope": [
+        "gen-z-store",
+        "beauty-skincare",
+        "fashion-apparel"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "gen-z-store",
+      "note": "Uploaded media only, not an Instagram feed."
+    },
+    {
+      "id": "product-compare",
+      "name": "Product comparison (compare toggle on cards, compare bar, compare page) via VSN app",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": false,
+      "theme_store_required": false,
+      "source": "team-rule-12",
+      "note": "Team rule 12. UI + app block slots in theme; data from vsn-wishlist-compare app."
+    },
+    {
+      "id": "wishlist-compare-ui-slots",
+      "name": "Wishlist and compare UI hooks + app block slots (theme side)",
+      "audience": [
+        "shopper",
+        "merchant",
+        "developer"
+      ],
+      "area": "global",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "team-rule-12",
+      "note": "Theme-side buttons, icons and pages that VSN app fills; allowed in Theme Store build."
+    },
+    {
+      "id": "sale-campaign-section",
+      "name": "Sale campaign section (real sale dates as text, discount %, collection link)",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "team-rule-12",
+      "note": "Team rule 12 promotions; no ticking countdown."
+    },
+    {
+      "id": "sale-badge-percent",
+      "name": "Sale badge with % off and compare-at price",
+      "audience": [
+        "shopper"
+      ],
+      "area": "collection",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "team-rule-12",
+      "note": "Team rule 12 promotions."
+    },
+    {
+      "id": "promo-banner-section",
+      "name": "Promo banner section (image/video + text + CTA, several layouts)",
+      "audience": [
+        "merchant"
+      ],
+      "area": "home",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "team-rule-12",
+      "note": "Team rule 12 promotions."
+    },
+    {
+      "id": "article-share",
+      "name": "Share buttons on blog articles",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "page",
+      "priority": "must",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "team-rule-13",
+      "note": "Team rule 13"
+    },
+    {
+      "id": "collection-grid-list-toggle",
+      "name": "Shopper grid/list product display switch with accessible state",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "cross-platform-demo-audit-2026-10-25",
+      "note": "Flatsome/Porto layout variants and BigCommerce Cornerstone listing. Persist preference only if privacy-compliant. Does not replace existing grid-density setting."
+    },
+    {
+      "id": "product-360-spin",
+      "name": "360-degree image-sequence spin viewer with pause and keyboard controls",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "could",
+      "scope": [
+        "electronics-gadgets",
+        "home-furniture",
+        "jewelry-accessories"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "cross-platform-demo-audit-2026-10-25",
+      "note": "Porto official product layout index highlights 360-degree viewer; distinguish image spin from native Shopify 3D model media."
+    },
+    {
+      "id": "b2b-quick-order-table",
+      "name": "Variant SKU quick-order matrix for repeat/wholesale customers",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": [
+        "b2b-wholesale"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "cross-platform-demo-audit-2026-10-25",
+      "note": "Inspired by Shopify Prestige quick order list and multi-vendor layouts; map to native Shopify B2B where available, never override core cart/checkout."
+    },
+    {
+      "id": "brand-directory-navigation",
+      "name": "Brand A-Z directory and indexed brand/collection navigation",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "collection",
+      "priority": "could",
+      "scope": [
+        "electronics-gadgets",
+        "beauty-skincare",
+        "grocery-supermarket"
+      ],
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "cross-platform-demo-audit-2026-10-25",
+      "note": "Scalable category/brand discovery for large catalog navigation; UX hypothesis based on observed multi-category demos, verify in niche testing."
+    },
+    {
+      "id": "product-multi-gallery-layouts",
+      "name": "Alternate product galleries: stacked, vertical thumbnails, wide grid, sticky info",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "area": "product",
+      "priority": "should",
+      "scope": "core",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "cross-platform-demo-audit-2026-10-25",
+      "note": "Porto gallery variants; extends media-gallery-layouts with explicit tested configurations and mobile fallbacks."
+    }
+  ]
+}

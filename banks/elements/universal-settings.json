@@ -1,0 +1,145 @@
+{
+ "about": "Setting groups every element gets (in addition to its own content settings and vsn_extras). R = responsive (3 anchors + advanced overrides, see responsive.json). Values default to the global design system (theme settings) so demos are built by settings only.",
+ "global_design_system": {
+  "colors": "color schemes (background, foreground, accent, button, button label, border, muted) \u2014 unlimited schemes",
+  "typography": "heading + body + accent font pickers, type scale (display, h1-h6, body, small, label), letter spacing, text transform presets",
+  "spacing": "spacing scale tokens (xs..3xl), section padding scale",
+  "radius": "radius tokens (none, sm, md, lg, pill)",
+  "shadows": "shadow tokens + hard offset shadow (neo-brutal)",
+  "buttons": "button variants (primary, secondary, ghost, link) with states",
+  "motion": "motion presets (none, subtle, expressive), duration and easing tokens"
+ },
+ "groups": {
+  "layout": [
+   "width (auto/full/custom, R)",
+   "max width (R)",
+   "min height incl. vh/svh (R)",
+   "display: block/flex/grid (R)",
+   "direction (R)",
+   "wrap (R)",
+   "justify and align (R)",
+   "gap (R)",
+   "order (R)",
+   "grid columns/rows and item span (R)",
+   "overflow"
+  ],
+  "spacing": [
+   "padding per side (R)",
+   "margin per side incl. negative (R)",
+   "use spacing tokens or custom"
+  ],
+  "typography": [
+   "font role or custom font",
+   "size (R, fluid)",
+   "weight",
+   "line height (R)",
+   "letter spacing (R)",
+   "transform",
+   "decoration",
+   "alignment (R)",
+   "max line length (ch)",
+   "text stroke",
+   "gradient or image text fill"
+  ],
+  "color": [
+   "color scheme",
+   "text color",
+   "link color + hover",
+   "accent override"
+  ],
+  "background": [
+   "solid",
+   "gradient (linear/radial/conic)",
+   "image with focal point and art direction (R)",
+   "video",
+   "overlay color + opacity",
+   "blend mode",
+   "grain/texture overlay"
+  ],
+  "border": [
+   "width per side (R)",
+   "style",
+   "color",
+   "radius per corner (R)",
+   "outline offset"
+  ],
+  "effects": [
+   "box shadow",
+   "hard offset shadow",
+   "opacity",
+   "blur / backdrop blur",
+   "filters (grayscale, contrast)",
+   "transform: rotate, scale, skew, translate (R)",
+   "z-index",
+   "position: static/relative/absolute/sticky (R)"
+  ],
+  "states": [
+   "hover",
+   "focus-visible",
+   "active",
+   "selected",
+   "disabled \u2014 each with color, background, border, shadow, transform"
+  ],
+  "motion": [
+   "entrance animation (fade, slide, scale, reveal, split text)",
+   "scroll effects (parallax, scrub, sticky)",
+   "hover animation",
+   "delay and duration",
+   "respects prefers-reduced-motion (always)"
+  ],
+  "visibility": [
+   "show/hide per breakpoint group (R)",
+   "show only to: logged in, customer tag, market/country, language, date range, product tag/type"
+  ],
+  "dynamic": [
+   "connect any text/image/link/number to a metafield, metaobject, product, collection, article or shop field"
+  ],
+  "link": [
+   "link to URL, product, collection, page, article, anchor",
+   "open in new tab",
+   "whole element clickable"
+  ],
+  "accessibility": [
+   "aria label",
+   "heading level",
+   "alt text",
+   "decorative toggle",
+   "focus order note"
+  ],
+  "advanced": [
+   "custom CSS class",
+   "anchor id",
+   "Custom Liquid before/after",
+   "advanced responsive toggle"
+  ],
+  "style_variation": [
+   "choose a named variation of this element (defined per element type, e.g. Button: solid / ghost / brutal / glass)"
+  ],
+  "global_component": [
+   "save as global component (synced design)",
+   "mark any content field as overridable per instance",
+   "detach from global component"
+  ],
+  "simple_mode": [
+   "hide design controls, show content only (merchant-safe editing)"
+  ]
+ },
+ "limits_to_verify": "Shopify limits the number of settings and blocks per section/block and the size of schema; check current shopify.dev limits before Stage 7 and split settings across nested blocks if needed.",
+ "element_defaults": "Each element type has a global default style in theme settings (Gutenberg styles.blocks / styles.elements equivalent); instances inherit and override only what changes.",
+ "shopify_limits_verified": {
+  "source": "https://shopify.dev/docs/storefronts/themes/architecture/limits",
+  "checked": "2026-10-22",
+  "blocks_per_section": 50,
+  "sections_per_template": 25,
+  "blocks_per_template": 1250,
+  "nesting_depth": 8,
+  "theme_block_files": 300,
+  "json_template_kb": 512,
+  "settings_schema_kb": 512,
+  "settings_data_mb": 1.5,
+  "liquid_file_kb": 256,
+  "schema_name_chars": 25,
+  "settings_per_block": "no published limit (keep groups lean)",
+  "visible_if": "supported on basic, sidebar and several specialized settings; expression like {{ block.settings.x == 'y' }}; cannot read runtime/resolved data"
+ }
+}
