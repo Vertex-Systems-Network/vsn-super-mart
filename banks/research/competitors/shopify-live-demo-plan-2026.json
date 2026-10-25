@@ -5,7 +5,7 @@
   "method": "User-requested live-demo audit; mark every page and interaction pending until independently retrieved.",
   "reason": "Public real demo pages successfully retrieved via web. Opera browser was declined, so no visual render/mobile/cart events are claimed.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "live_store_public_html_audit_in_progress_browser_interactions_pending",
+  "status": "eight_public_demo_store_document_audits_six_of_selected_cohort_interactions_pending",
   "checks": [
     "demo_entry_url",
     "home",
@@ -80,10 +80,10 @@
   "counts": {
     "selected_design_records": 127,
     "individual_official_preset_pages_verified": 127,
-    "live_home_demo_verified": 2,
-    "live_collection_verified": 2,
-    "live_product_verified": 2,
-    "live_cart_verified": 2,
+    "live_home_demo_verified": 6,
+    "live_collection_verified": 6,
+    "live_product_verified": 6,
+    "live_cart_verified": 4,
     "live_mobile_verified": 0
   },
   "required_evidence_per_screen": {

@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "Four real Shopify demo stores; 14 individual public HTML pages: 4 homepage, 4 collection, 4 product and 2 empty cart. No button execution, screenshot/mobile/checkout test.",
+  "summary": "8 Shopify public demo stores: home, collection and PDP HTML for all, empty-cart document for 4. Of these, 6 match original 127 preset cohort. No click/checkout/mobile/editor testing.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -345,14 +345,314 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-empire-depot",
+      "family": "Empire",
+      "preset": "Depot",
+      "catalog_preset_id": "empire:depot",
+      "selected_127": true,
+      "focus": "hardware-large-inventory",
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "homepage": {
+        "url": "https://empire-theme-depot.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Multi-level tool/hardware department navigation, quick-shop and compare controls, sale and pre-order states"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "quick-view",
+          "product-compare",
+          "promo-grid"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-card",
+          "compare"
+        ]
+      },
+      "collection": {
+        "url": "https://empire-theme-depot.myshopify.com/collections/by-category",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Category browsing and department hierarchy"
+        ],
+        "option_ids": [
+          "collection-list",
+          "subcollection-nav"
+        ],
+        "element_ids": [
+          "collection-list",
+          "facets"
+        ]
+      },
+      "product": {
+        "url": "https://empire-theme-depot.myshopify.com/products/battery-operated-compact-impact-wrench-1-2-inch-detent-pin-tool-only",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Tool PDP with inventory, purchasing details, technical features and product media"
+        ],
+        "option_ids": [
+          "product-blocks",
+          "inventory-status",
+          "specs-table",
+          "quantity-selector"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "inventory",
+          "spec-table"
+        ]
+      },
+      "cart": null
+    },
+    {
+      "id": "shopify-live-wonder",
+      "family": "Wonder",
+      "preset": "Wonder",
+      "catalog_preset_id": "wonder:wonder",
+      "selected_127": true,
+      "focus": "beauty-dtc",
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "homepage": {
+        "url": "https://wonder-theme-beauty.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Beauty bestseller menu, search suggestions, campaign promos and a quiz navigation entry"
+        ],
+        "option_ids": [
+          "predictive-search",
+          "featured-collection",
+          "promo-banner-section",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "predictive-search",
+          "product-grid",
+          "mega-menu"
+        ]
+      },
+      "collection": {
+        "url": "https://wonder-theme-beauty.myshopify.com/collections",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Collections index for beauty and body-care categories"
+        ],
+        "option_ids": [
+          "list-collections-page",
+          "collection-list"
+        ],
+        "element_ids": [
+          "collection-list",
+          "product-grid"
+        ]
+      },
+      "product": {
+        "url": "https://wonder-theme-beauty.myshopify.com/products/bakuchiol-retinol-alternative-smoothing-serum",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Serum PDP has subscribe/save message, usage guide, ingredient details and frequent pairing recommendations"
+        ],
+        "option_ids": [
+          "selling-plans",
+          "ingredients-nutrition",
+          "complementary-products",
+          "rich-media"
+        ],
+        "element_ids": [
+          "selling-plans",
+          "nutrition",
+          "complementary",
+          "product-gallery"
+        ]
+      },
+      "cart": {
+        "url": "https://wonder-theme-beauty.myshopify.com/cart",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Empty-cart page with category navigation and continue shopping"
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary"
+        ]
+      }
+    },
+    {
+      "id": "shopify-live-be-yours",
+      "family": "Be Yours",
+      "preset": "Be Yours",
+      "catalog_preset_id": "be-yours:be-yours",
+      "selected_127": true,
+      "focus": "beauty-dtc",
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "homepage": {
+        "url": "https://beyours-theme-beauty.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Multilevel skincare category navigation, promotion countdown and localized currency selector"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "countdown-timer",
+          "localization-selectors"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "countdown",
+          "localization"
+        ]
+      },
+      "collection": {
+        "url": "https://beyours-theme-beauty.myshopify.com/collections/skincare",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Skincare product listing with stock/promo navigation and collection content"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "collection-banner",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "collection-banner",
+          "product-grid"
+        ]
+      },
+      "product": {
+        "url": "https://beyours-theme-beauty.myshopify.com/products/enzyme-cleanser",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Cleanser PDP shows stock text, product detail sections, reviews, bundled three-step set add-to-cart form"
+        ],
+        "option_ids": [
+          "inventory-status",
+          "bundle-display",
+          "testimonials",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "inventory",
+          "bundle",
+          "testimonial",
+          "product-gallery"
+        ]
+      },
+      "cart": null
+    },
+    {
+      "id": "shopify-live-taste",
+      "family": "Taste",
+      "preset": "Taste",
+      "catalog_preset_id": "taste:taste",
+      "selected_127": true,
+      "focus": "first-party-beverage",
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "homepage": {
+        "url": "https://theme-taste-demo.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Drink category navigation, light hero, featured product shelves and recipe content"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "hero-slideshow",
+          "featured-collection",
+          "blog-posts"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "slider",
+          "product-grid",
+          "blog-posts"
+        ]
+      },
+      "collection": {
+        "url": "https://theme-taste-demo.myshopify.com/collections/all-drinks",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "31 drinks with filter/sort controls and grid products"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ]
+      },
+      "product": {
+        "url": "https://theme-taste-demo.myshopify.com/products/copy-of-the-good",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Beverage PDP with variant/price and product details"
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "quantity-selector"
+        ],
+        "element_ids": [
+          "variant-picker",
+          "quantity",
+          "buy-buttons"
+        ]
+      },
+      "cart": {
+        "url": "https://theme-taste-demo.myshopify.com/cart",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Empty cart with continue shopping; subtotal $0 CAD and shipping/taxes at checkout text"
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "cart-discounts"
+        ],
+        "element_ids": [
+          "cart-summary",
+          "cart-lines"
+        ]
+      }
     }
   ],
   "counts": {
-    "opened_stores": 4,
-    "opened_home": 4,
-    "opened_collection": 4,
-    "opened_product": 4,
-    "opened_empty_cart": 2,
+    "opened_stores": 8,
+    "opened_home": 8,
+    "opened_collection": 8,
+    "opened_product": 8,
+    "opened_empty_cart": 4,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -360,5 +660,6 @@
     "Store HTML is not a screenshot or live interaction test",
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
-  ]
+  ],
+  "selected_127_document_count": 6
 }

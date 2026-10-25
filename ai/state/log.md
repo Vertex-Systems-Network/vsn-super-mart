@@ -40,3 +40,5 @@
 - 2026-10-25 [Shopify research] Verified official Shopify theme editor data architecture, nested blocks and 2026 hard limits; planned 127 live-demo cross-template audits but interactive browser connection was denied. Correctly preserved zero live-demo claims.
 
 - 2026-10-25 [Shopify demos / PR #4] 4 real demo Shopify storefronts, 14 HTML pages; 4 vendor Impulse homepage recipes, 5 new patterns, 4 qualitative observations; explicitly no interactive/mobile QA.
+
+- 2026-10-25 [Shopify live demos / batch 2] Opened Empire Depot, Wonder, Be Yours and Taste home, collection and PDP documents + two empty cart pages; totals 8 demo stores / 28 HTML pages, 6 from 127 preset cohort, no interactive mobile/checkout tested.

@@ -20,8 +20,8 @@ def check():
         errors.append("live demo plan mismatch with preset inventory")
     live=load(BASE/"shopify-live-demo-evidence-2026.json")
     stores=live.get("stores",[])
-    if len(stores)!=4 or len({d["id"] for d in stores})!=4:
-        errors.append("expected four distinct public demo document records")
+    if len(stores)!=8 or len({d["id"] for d in stores})!=8:
+        errors.append("expected eight distinct public demo document records")
     selected=[d for d in stores if d.get("selected_127")]
     for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
         n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
@@ -67,4 +67,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: 4 Shopify demo HTML stores (2 in cohort), interaction/mobile checks still pending")
+    print("Shopify editor audit OK: 8 Shopify demo HTML stores (6 in cohort), interaction/mobile checks still pending")

@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Shopify live HTML Batch 2: four more selected presets
+
+Opened Empire Depot, Wonder, Be Yours and Taste public Shopify demo home/category/PDP documents plus empty-cart pages for Wonder and Taste. Total now 8 individual live-demo stores with 28 HTML documents (6 within the 127 popular preset inventory). Added 3 source-linked design patterns and 4 qualitative observations, increased cohort counts and expanded validator. Actual button execution, nonempty cart, browser mobile and editor access remain unverified. See `shopify-live-demo-batch2-2026.md`.
+
+
 ## 2026-10-25 — Shopify real demo HTML research, batch 1
 
 Four Shopify demo home/category/product documents inspected: Prestige Couture & Vogue (both in selected 127) plus Area Technical & Flow (outside cohort). Couture/Vogue empty-cart HTML was also opened; no cart mutation. 14 distinct retrieved URLs documented. Official Archetype Impulse 4-preset homepage section sequences separately recorded and mapped to VSN Elements. Updated live-demo counts, source patterns, design observations and evidence-gated CI. No responsive/browser action, checkout or Figma changes claimed. Next: more direct live-demo URLs and screenshot/interactive tests when authorized.

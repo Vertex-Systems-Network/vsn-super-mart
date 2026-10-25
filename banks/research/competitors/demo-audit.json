@@ -5251,6 +5251,163 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-empire-depot",
+      "platform": "shopify",
+      "theme": "Empire",
+      "preset": "Depot",
+      "url": "https://empire-theme-depot.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public live demo Shopify HTML pages inspected; no executed cart, checkout, mobile or theme editor testing.",
+      "feature_option_ids": [
+        "mega-menu",
+        "quick-view",
+        "product-compare",
+        "promo-grid",
+        "collection-list",
+        "subcollection-nav",
+        "product-blocks",
+        "inventory-status",
+        "specs-table",
+        "quantity-selector"
+      ],
+      "design_signals": [
+        "Multi-level tool/hardware department navigation, quick-shop and compare controls, sale and pre-order states"
+      ],
+      "niches": [
+        "hardware-large-inventory"
+      ],
+      "notes": "Page URLs and evidence in shopify-live-demo-evidence-2026.json. Do not treat static document as interaction proof.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-wonder",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Wonder",
+      "url": "https://wonder-theme-beauty.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public live demo Shopify HTML pages inspected; no executed cart, checkout, mobile or theme editor testing.",
+      "feature_option_ids": [
+        "predictive-search",
+        "featured-collection",
+        "promo-banner-section",
+        "mega-menu",
+        "list-collections-page",
+        "collection-list",
+        "selling-plans",
+        "ingredients-nutrition",
+        "complementary-products",
+        "rich-media",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_signals": [
+        "Beauty bestseller menu, search suggestions, campaign promos and a quiz navigation entry"
+      ],
+      "niches": [
+        "beauty-dtc"
+      ],
+      "notes": "Page URLs and evidence in shopify-live-demo-evidence-2026.json. Do not treat static document as interaction proof.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-be-yours",
+      "platform": "shopify",
+      "theme": "Be Yours",
+      "preset": "Be Yours",
+      "url": "https://beyours-theme-beauty.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public live demo Shopify HTML pages inspected; no executed cart, checkout, mobile or theme editor testing.",
+      "feature_option_ids": [
+        "mega-menu",
+        "countdown-timer",
+        "localization-selectors",
+        "faceted-filters",
+        "collection-banner",
+        "product-card-variants",
+        "inventory-status",
+        "bundle-display",
+        "testimonials",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Multilevel skincare category navigation, promotion countdown and localized currency selector"
+      ],
+      "niches": [
+        "beauty-dtc"
+      ],
+      "notes": "Page URLs and evidence in shopify-live-demo-evidence-2026.json. Do not treat static document as interaction proof.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-taste",
+      "platform": "shopify",
+      "theme": "Taste",
+      "preset": "Taste",
+      "url": "https://theme-taste-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public live demo Shopify HTML pages inspected; no executed cart, checkout, mobile or theme editor testing.",
+      "feature_option_ids": [
+        "mega-menu",
+        "hero-slideshow",
+        "featured-collection",
+        "blog-posts",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "product-blocks",
+        "variant-picker-styles",
+        "quantity-selector",
+        "cart-page",
+        "empty-states",
+        "cart-discounts"
+      ],
+      "design_signals": [
+        "Drink category navigation, light hero, featured product shelves and recipe content"
+      ],
+      "niches": [
+        "first-party-beverage"
+      ],
+      "notes": "Page URLs and evidence in shopify-live-demo-evidence-2026.json. Do not treat static document as interaction proof.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
