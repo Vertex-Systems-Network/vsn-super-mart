@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "status": "research_proposed_controls_only_not_liquid_implementation",
+  "sources": [
+    {
+      "id": "shopify-live-warehouse-wood",
+      "homepage": "https://warehouse-theme-wood.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-focal-ivory",
+      "homepage": "https://focal-theme-ivory.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-focal-sapphire",
+      "homepage": "https://focal-theme-sapphire.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-symmetry-beatnik",
+      "homepage": "https://beatnik-5.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-symmetry-duke",
+      "homepage": "https://duke-16.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-expanse-fetch",
+      "homepage": "https://fetch-theme-modern.myshopify.com/"
+    }
+  ],
+  "elements": [
+    {
+      "id": "predictive-search",
+      "option_ids": [
+        "predictive-search",
+        "mega-menu"
+      ],
+      "proposed_controls": [
+        "scope_by_collection_or_category",
+        "suggest_products_collections_and_queries",
+        "announce_results_accessibly"
+      ],
+      "guardrail": "Shopify search/predictive endpoint and real category data; avoid falsely selected category URL scope"
+    },
+    {
+      "id": "product-card",
+      "option_ids": [
+        "inventory-status",
+        "card-badges",
+        "card-swatches"
+      ],
+      "proposed_controls": [
+        "show_variant_availability",
+        "show_real_low_stock_only",
+        "show_restocks_from_merchant_data"
+      ],
+      "guardrail": "Never hardcode exact units/stock counters without inventory-policy and variant-aware data"
+    },
+    {
+      "id": "facets",
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "grid-density"
+      ],
+      "proposed_controls": [
+        "product_type_and_size_filter_dynamic_sources",
+        "filter_count_live_state",
+        "reset_current_filters"
+      ],
+      "guardrail": "Use native collection.filters and selected filters; mobile drawer needs separate actual viewport QA"
+    },
+    {
+      "id": "cart-summary",
+      "option_ids": [
+        "cart-page",
+        "empty-states",
+        "recently-viewed"
+      ],
+      "proposed_controls": [
+        "empty_cart_continue_shopping",
+        "optional_recently_viewed_slot",
+        "accurate_checkout_shipping_disclaimer"
+      ],
+      "guardrail": "Do not claim zero cart HTML proves add-to-cart or nonempty cart behavior"
+    },
+    {
+      "id": "variant-picker",
+      "option_ids": [
+        "variant-picker-styles",
+        "size-chart",
+        "bundle-display"
+      ],
+      "proposed_controls": [
+        "actual_available_options",
+        "bundle_product_type",
+        "size_chart_source_metafield"
+      ],
+      "guardrail": "Bundle-style labels do not prove SKU composition or bundling app; purchase real variant only"
+    }
+  ]
+}

@@ -5615,6 +5615,239 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-warehouse-wood",
+      "platform": "shopify",
+      "theme": "Warehouse",
+      "preset": "Wood",
+      "url": "https://warehouse-theme-wood.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "feature_option_ids": [
+        "mega-menu",
+        "predictive-search",
+        "subcollection-nav",
+        "inventory-status",
+        "featured-product"
+      ],
+      "design_signals": [
+        "home-furniture-category-search-inventory",
+        "Department navigation by Furniture, Lifestyle and Room with promotional category tiles",
+        "Search field with All categories selector; brand directory and new arrivals"
+      ],
+      "niches": [
+        "home-furniture-category-search-inventory"
+      ],
+      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-focal-ivory",
+      "platform": "shopify",
+      "theme": "Focal",
+      "preset": "Ivory",
+      "url": "https://focal-theme-ivory.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "feature_option_ids": [
+        "mega-menu",
+        "image-banner",
+        "collection-list",
+        "cart-drawer",
+        "cart-notes"
+      ],
+      "design_signals": [
+        "fashion-editorial-mega-menu",
+        "Distinct Women and Men taxonomy and rich promotional mega-menu",
+        "Large image-led editorial hero/campaign, Essentials, clothing and Lookbook sections"
+      ],
+      "niches": [
+        "fashion-editorial-mega-menu"
+      ],
+      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-focal-sapphire",
+      "platform": "shopify",
+      "theme": "Focal",
+      "preset": "Sapphire",
+      "url": "https://focal-theme-sapphire.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "feature_option_ids": [
+        "mega-menu",
+        "image-banner",
+        "collection-list",
+        "blog-posts",
+        "localization-selectors",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_signals": [
+        "jewelry-editorial-collection-story",
+        "Jewelry categories by collection, item type and color",
+        "Roma Collection hero, lookbook and editorial product storytelling sections"
+      ],
+      "niches": [
+        "jewelry-editorial-collection-story"
+      ],
+      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-symmetry-beatnik",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Beatnik",
+      "url": "https://beatnik-5.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "feature_option_ids": [
+        "mega-menu",
+        "collection-list",
+        "promo-grid",
+        "countdown-timer",
+        "localization-selectors"
+      ],
+      "design_signals": [
+        "recycled-eyewear-story-commerce",
+        "Eyewear department mega menu with Men/Women and New Arrivals/Best Sellers",
+        "Brand narrative on recycled sustainable frames and split campaign heroes"
+      ],
+      "niches": [
+        "recycled-eyewear-story-commerce"
+      ],
+      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-symmetry-duke",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Duke",
+      "url": "https://duke-16.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "feature_option_ids": [
+        "collection-list",
+        "featured-collection",
+        "card-swatches",
+        "pre-order",
+        "free-shipping-bar",
+        "faceted-filters",
+        "sorting",
+        "pagination-modes",
+        "card-badges",
+        "product-blocks",
+        "variant-picker-styles",
+        "inventory-status",
+        "related-products",
+        "collapsible-tabs"
+      ],
+      "design_signals": [
+        "skate-shop-inventory-preorder",
+        "Skateboard and apparel category hero with inventory states: preorder/sold-out/new arrival",
+        "Product shelves include color swatches and three-in-stock labels"
+      ],
+      "niches": [
+        "skate-shop-inventory-preorder"
+      ],
+      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-expanse-fetch",
+      "platform": "shopify",
+      "theme": "Expanse",
+      "preset": "Fetch",
+      "url": "https://fetch-theme-modern.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "bundle-display",
+        "shop-the-look",
+        "cart-drawer",
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "product-card-variants",
+        "variant-picker-styles",
+        "media-gallery-layouts",
+        "collapsible-tabs",
+        "product-badges-trust",
+        "dynamic-checkout",
+        "cart-page",
+        "empty-states",
+        "recently-viewed"
+      ],
+      "design_signals": [
+        "pet-walking-bundles-sustainability",
+        "Pet essentials mega menu with category and colour drill-down",
+        "Color-coordinated product bundles and positive sale compare-price messaging"
+      ],
+      "niches": [
+        "pet-walking-bundles-sustainability"
+      ],
+      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

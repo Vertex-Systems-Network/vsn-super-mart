@@ -71,3 +71,6 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-live-demo-batch4-2026.md`: Impulse/Salt Yard and historical Expanse live HTML source audit: total 13 stores, 42 pages, 10 from 127. No dynamic action or mobile QA.
 - `competitors/shopify-demo-data-integrity-2026.json`: five source-backed retail data integrity QA cases, not verified runtime defects.
 - `banks/elements/specs/shopify-retail-data-integrity-2026.json`: five proposed VSN element settings, not built.
+
+- `competitors/shopify-live-demo-batch5-2026.md`: six additional selected official preset storefront HTML sources; total 19 demo hosts and 54 page documents. Selected cohort 16/127 (12.6%) with at least opened home HTML, not functional/mobile audits.
+- `banks/elements/specs/shopify-home-category-pdp-controls-2026.json`: proposed original VSN search, inventory, faceting, cart and variant settings, NOT implemented.

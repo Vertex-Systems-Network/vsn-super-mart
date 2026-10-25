@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "13 individual Shopify demo sites and 42 public page documents; 10 selected of 127. Legacy Expanse historical, not Spritz. All interactions untested.",
+  "summary": "19 real demo store roots, 54 indexed HTML documents; 16/127 selected preset demo homes with page content observed. Source crawl ages vary; no real browser interactions, performance, checkout or screen QA.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -1039,15 +1039,425 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-warehouse-wood",
+      "family": "Warehouse",
+      "preset": "Wood",
+      "catalog_preset_id": "warehouse:wood",
+      "selected_127": true,
+      "focus": "home-furniture-category-search-inventory",
+      "homepage": {
+        "url": "https://warehouse-theme-wood.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 months",
+        "signals": [
+          "Department navigation by Furniture, Lifestyle and Room with promotional category tiles",
+          "Search field with All categories selector; brand directory and new arrivals",
+          "Featured collection shows per-product stock messages, 1 left, back in stock, restocking, variant prices",
+          "Featured teapot block has SKU, review indicator, colour and Add to cart markup"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "predictive-search",
+          "subcollection-nav",
+          "inventory-status",
+          "featured-product"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "predictive-search",
+          "product-grid",
+          "product-card",
+          "inventory",
+          "product-gallery"
+        ]
+      },
+      "collection": null,
+      "product": null,
+      "cart": null,
+      "unverified": [
+        "Direct category/product/cart URLs were cache misses",
+        "Category search and inventory accuracy not clicked or checked",
+        "Freshness of 2-month indexed page",
+        "Mobile and theme editor"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-focal-ivory",
+      "family": "Focal",
+      "preset": "Ivory",
+      "catalog_preset_id": "focal:ivory",
+      "selected_127": true,
+      "focus": "fashion-editorial-mega-menu",
+      "homepage": {
+        "url": "https://focal-theme-ivory.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "6 days",
+        "signals": [
+          "Distinct Women and Men taxonomy and rich promotional mega-menu",
+          "Large image-led editorial hero/campaign, Essentials, clothing and Lookbook sections",
+          "Homepage HTML exposes empty cart drawer with notes and continue shopping",
+          "Country/currency selection and localized navigation text"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "image-banner",
+          "collection-list",
+          "cart-drawer",
+          "cart-notes"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "image",
+          "collection-list",
+          "cart-drawer",
+          "cart-summary"
+        ]
+      },
+      "collection": null,
+      "product": null,
+      "cart": null,
+      "unverified": [
+        "Essentials and product URLs failed public fetch",
+        "Image dimensions/responsive visuals not screenshot-tested",
+        "Drawer click/notes not executed",
+        "Merchant settings not inspected"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-focal-sapphire",
+      "family": "Focal",
+      "preset": "Sapphire",
+      "catalog_preset_id": "focal:sapphire",
+      "selected_127": true,
+      "focus": "jewelry-editorial-collection-story",
+      "homepage": {
+        "url": "https://focal-theme-sapphire.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "6 days",
+        "signals": [
+          "Jewelry categories by collection, item type and color",
+          "Roma Collection hero, lookbook and editorial product storytelling sections",
+          "Language/region selection and free delivery threshold presented",
+          "Collection/world journal and sustainability content"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "image-banner",
+          "collection-list",
+          "blog-posts",
+          "localization-selectors"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "image",
+          "collection-list",
+          "blog-posts",
+          "localization"
+        ]
+      },
+      "collection": null,
+      "product": null,
+      "cart": {
+        "url": "https://focal-theme-sapphire.myshopify.com/cart",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "11 months",
+        "signals": [
+          "Individually retrievable cart page with zero item count",
+          "Header still exposes collection-by-type and color navigation",
+          "Empty cart state appears in HTML; checkout or nonempty totals not tested"
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "localization-selectors"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "localization"
+        ]
+      },
+      "unverified": [
+        "Sapphire Roma collection URL fetch was cache miss",
+        "Product purchase/gallery interactions not tested",
+        "Cart source is 11-month indexed crawl; could be stale",
+        "No browser mobile"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-symmetry-beatnik",
+      "family": "Symmetry",
+      "preset": "Beatnik",
+      "catalog_preset_id": "symmetry:beatnik",
+      "selected_127": true,
+      "focus": "recycled-eyewear-story-commerce",
+      "homepage": {
+        "url": "https://beatnik-5.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "4 months",
+        "signals": [
+          "Eyewear department mega menu with Men/Women and New Arrivals/Best Sellers",
+          "Brand narrative on recycled sustainable frames and split campaign heroes",
+          "Sale/countdown and multilingual storefront content in document",
+          "Product shelves link to specific model names, blog and brand stories"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "collection-list",
+          "promo-grid",
+          "countdown-timer",
+          "localization-selectors"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "promo-banner",
+          "countdown",
+          "localization"
+        ]
+      },
+      "collection": null,
+      "product": null,
+      "cart": null,
+      "unverified": [
+        "Shop All, Blackcap and cart URLs failed fetch",
+        "Countdown may be historical/demo data; no real event verified",
+        "Crawl age 4 months; visuals and conversion controls untested"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-symmetry-duke",
+      "family": "Symmetry",
+      "preset": "Duke",
+      "catalog_preset_id": "symmetry:duke",
+      "selected_127": true,
+      "focus": "skate-shop-inventory-preorder",
+      "homepage": {
+        "url": "https://duke-16.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 weeks",
+        "signals": [
+          "Skateboard and apparel category hero with inventory states: preorder/sold-out/new arrival",
+          "Product shelves include color swatches and three-in-stock labels",
+          "Header announcement promises shipping $100 while inner service tile says $35; contexts not confirmed",
+          "Newsletter, collaboration/story sections and marketing reviews"
+        ],
+        "option_ids": [
+          "collection-list",
+          "featured-collection",
+          "card-swatches",
+          "pre-order",
+          "free-shipping-bar"
+        ],
+        "element_ids": [
+          "collection-list",
+          "product-grid",
+          "product-card",
+          "promo-banner",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://duke-16.myshopify.com/collections/skateboards",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 weeks",
+        "signals": [
+          "35 product catalog with availability, price, product type, board-size filters and sort modes",
+          "Preorder, sold out, new arrival, price reductions and product states in grid",
+          "Pagination into second page; selected featured PDP content appears in collection document"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "pagination-modes",
+          "card-badges",
+          "pre-order"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card",
+          "pagination",
+          "inventory"
+        ]
+      },
+      "product": {
+        "url": "https://duke-16.myshopify.com/collections/skateboards/products/libellule-1",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 weeks",
+        "signals": [
+          "Deck PDP has price, supplier/designer attribution, stock message and Add to Cart",
+          "Selected 8.18-inch size variant and shipping accordion content in HTML",
+          "Related products with sold-out/preorder badges, brand storytelling and FAQ material"
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "inventory-status",
+          "related-products",
+          "collapsible-tabs"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "inventory",
+          "buy-buttons",
+          "recommendations"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "Cart route inaccessible; empty cart drawer copy within collection not counted as cart page",
+        "Actual add-to-cart and variant switching",
+        "Ambiguous shipping thresholds without regional/product context",
+        "Mobile browser and merchant editor"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-expanse-fetch",
+      "family": "Expanse",
+      "preset": "Fetch",
+      "catalog_preset_id": "expanse:fetch",
+      "selected_127": true,
+      "focus": "pet-walking-bundles-sustainability",
+      "homepage": {
+        "url": "https://fetch-theme-modern.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "today",
+        "signals": [
+          "Pet essentials mega menu with category and colour drill-down",
+          "Color-coordinated product bundles and positive sale compare-price messaging",
+          "Shop-the-look, customer stories and sustainable material claims in content",
+          "Cart drawer source includes empty subtotal and checkout-calculated taxes/shipping",
+          "Promotion countdown visual placeholders show no resolved timer value"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "bundle-display",
+          "shop-the-look",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "bundle",
+          "shop-the-look",
+          "cart-drawer"
+        ]
+      },
+      "collection": {
+        "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "5 days",
+        "signals": [
+          "Walking Kits category contains 22 products",
+          "Availability, price and size XS/XL filters with product counts and sorting",
+          "Color/style bundle product cards plus sale labels"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "card-badges",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card",
+          "product-grid"
+        ]
+      },
+      "product": {
+        "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/lilac-dog-collar-walk-kit",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "3 months",
+        "signals": [
+          "PDP variant size S/M/L with offer compare-price and Save $5 label",
+          "Media gallery, sustainable materials description, shipping/return and trust details",
+          "Dynamic Buy it now / Add to cart labels appear in HTML, not executed"
+        ],
+        "option_ids": [
+          "variant-picker-styles",
+          "media-gallery-layouts",
+          "collapsible-tabs",
+          "product-badges-trust",
+          "dynamic-checkout"
+        ],
+        "element_ids": [
+          "variant-picker",
+          "product-gallery",
+          "buy-buttons",
+          "trust-badges"
+        ]
+      },
+      "cart": {
+        "url": "https://fetch-theme-modern.myshopify.com/cart",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "1 week",
+        "signals": [
+          "Standalone empty cart page with continue-shopping action",
+          "Recently-viewed content slot and footer trust/service callouts",
+          "No cart mutation and no checkout validation"
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "recently-viewed"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "product-grid"
+        ]
+      },
+      "unverified": [
+        "Whether product kits are native bundles/app: bundle-style card names alone do not verify underlying implementation",
+        "Sustainability and shipping claims are demo copy only",
+        "Countdown actual campaign or expired state cannot be inferred",
+        "Click behavior, screen geometry, mobile/editor/Lighthouse untested"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 13,
+    "opened_stores": 19,
     "interactive_events_tested": 0,
-    "opened_home": 13,
-    "opened_collection": 11,
-    "opened_product": 12,
-    "opened_empty_cart": 6
+    "opened_home": 19,
+    "opened_collection": 13,
+    "opened_product": 14,
+    "opened_empty_cart": 8
   },
   "caveats": [
     "Area/Flow outside selected 127-theme-store-preset cohort",
@@ -1055,5 +1465,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 10
+  "selected_127_document_count": 16
 }

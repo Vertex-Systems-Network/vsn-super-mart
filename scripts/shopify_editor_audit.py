@@ -20,8 +20,8 @@ def check():
         errors.append("live demo plan mismatch with preset inventory")
     live=load(BASE/"shopify-live-demo-evidence-2026.json")
     stores=live.get("stores",[])
-    if len(stores)!=13 or len({d["id"] for d in stores})!=13:
-        errors.append("expected thirteen distinct public demo document records")
+    if len(stores)!=19 or len({d["id"] for d in stores})!=19:
+        errors.append("expected nineteen distinct public demo document records")
     selected=[d for d in stores if d.get("selected_127")]
     for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
         n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
@@ -85,6 +85,23 @@ def check():
         actual=sum(bool(store.get(kind)) for store in stores)
         if live.get("counts",{}).get(count_key)!=actual:
             errors.append("document page count mismatch: "+count_key)
+    deep=load(ROOT/"banks/elements/specs/shopify-home-category-pdp-controls-2026.json")
+    if len(deep.get("elements",[]))!=5:
+        errors.append("shopify category/search/variant proposed controls incomplete")
+    seen_ids={s["id"] for s in stores}
+    for linked in deep.get("sources",[]):
+        if linked.get("id") not in seen_ids:
+            errors.append("deep settings source not in demo bank")
+    for block in deep.get("elements",[]):
+        if block.get("id") not in els:
+            errors.append("unknown planned Shopify element: "+str(block.get("id")))
+        for opt in block.get("option_ids",[]):
+            if opt not in opts: errors.append("unmapped option in deep settings: "+opt)
+    for store in stores:
+        for k in ("homepage","collection","product","cart"):
+            p=store.get(k)
+            if p and store["id"] in {x["id"] for x in deep.get("sources",[])} and not p.get("source_crawl_recency"):
+                errors.append("batch5 page missing source crawl recency: "+store["id"]+"/"+k)
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
@@ -98,4 +115,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: 13 Shopify demo HTML stores (10 in cohort), interaction/mobile checks still pending")
+    print("Shopify editor audit OK: 19 Shopify demo HTML stores (16 in cohort), interaction/mobile checks still pending")
