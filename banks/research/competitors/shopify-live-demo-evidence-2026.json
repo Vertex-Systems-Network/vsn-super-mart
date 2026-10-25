@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "47 identified Shopify demo hosts and 131 primary home/collection/PDP/cart public indexed HTML documents (plus separately labeled supplementary research), selected preset home sources 43/127. No interactive, browser-rendered, checkout or competitor editor verification.",
+  "summary": "49 distinct Shopify demo hosts, 137 independently opened primary HTML documents, 45/127 selected demo homepage sources; all interactive, mobile screenshots, cart mutation and private Theme Editor QA unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -3465,14 +3465,199 @@
           ]
         }
       ]
+    },
+    {
+      "id": "shopify-live-impact-sound",
+      "family": "Impact",
+      "preset": "Impact",
+      "catalog_preset_id": "impact:impact",
+      "selected_127": true,
+      "focus": "premium-audio-conversion-and-product-comparison",
+      "homepage": {
+        "url": "https://impact-theme-sound.myshopify.com/",
+        "signals": [
+          "Header offers country/currency selection, three menu categories and collaboration navigation plus an empty cart drawer scaffold.",
+          "Audio marketing hero sequence, popular requests, bestseller product cards with color choices, quick-add markup and sale/stock labels.",
+          "Dedicated compare learning section lists driver, weight, dimensions and battery metrics for different models; testimonial/review, brand story, FAQ and journal content.",
+          "Banner offers a 20 percent demo code and claims shipping worldwide/fast fulfillment; these are unverified merchant-demo promises."
+        ],
+        "option_ids": [
+          "mega-menu",
+          "localization-selectors",
+          "hero-slideshow",
+          "featured-collection",
+          "quick-add",
+          "product-compare",
+          "comparison-table",
+          "promo-banner-section",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "localization",
+          "product-grid",
+          "product-card",
+          "compare",
+          "comparison-table",
+          "cart-drawer"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "6 days"
+      },
+      "collection": null,
+      "product": {
+        "url": "https://impact-theme-sound.myshopify.com/products/mw07-plus-leica",
+        "signals": [
+          "Leica collaboration product page exposes premium PDP and variant/product storytelling layout with related seller content.",
+          "Source age is five months; option changes, inventory, checkout, metafield editor binding and image interactions were not tested."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "media-gallery-layouts"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "product-title",
+          "variant-picker"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "5 months"
+      },
+      "cart": {
+        "url": "https://impact-theme-sound.myshopify.com/cart",
+        "signals": [
+          "Separate /cart page HTML includes navigation and product promotional text with cart and checkout controls; indexed document is about 1.2 years old.",
+          "Older cart snapshot must not establish current cart state, actual empty/nonempty behavior or any completed cart mutation."
+        ],
+        "option_ids": [
+          "cart-page",
+          "cart-accelerated",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "about 1.2 years"
+      },
+      "unverified": [
+        "Collection URL not independently retrieved; source-linked collection request cache-missed.",
+        "PDP and cart content older than homepage; no current stock or coupon eligibility assertions.",
+        "Shopify Theme Store approval for comparison capability depends on correct theme-vs-app plan and release policy.",
+        "Mobile rendered state and actual interaction/checkout untested."
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-expanse-furniture",
+      "family": "Expanse",
+      "preset": "Expanse",
+      "catalog_preset_id": "expanse:expanse",
+      "selected_127": true,
+      "focus": "furniture-homeware-giant-catalog-facets-and-content",
+      "homepage": {
+        "url": "https://expanse-theme-furniture.myshopify.com/",
+        "signals": [
+          "Deep Homestyle, Lifestyle, Kids, Brands and country/currency navigation; home furniture and kitchen promotional merchandising.",
+          "Category rail, multiple featured collections, shop-the-look, promotional discount tiles, blog and newsletter, local pickup/service claims.",
+          "One indexed countdown section shows sample 12-day/12-hour/12-minute/12-second labels and Black Friday marketing; actual timer and event date not checked.",
+          "Empty cart drawer text/subtotal appears in homepage HTML, not a dedicated /cart source and not a cart mutation."
+        ],
+        "option_ids": [
+          "mega-menu",
+          "collection-list",
+          "featured-collection",
+          "shop-the-look",
+          "promo-grid",
+          "countdown-timer",
+          "blog-posts",
+          "newsletter-signup",
+          "cart-drawer",
+          "localization-selectors"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "collection-list",
+          "product-grid",
+          "shop-the-look",
+          "promo-banner",
+          "countdown",
+          "blog-posts",
+          "cart-drawer",
+          "localization"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 days"
+      },
+      "collection": {
+        "url": "https://expanse-theme-furniture.myshopify.com/collections/furniture",
+        "signals": [
+          "Furniture collection page shows 13 products and sort options such as featured, bestseller, alphabetical, pricing and date.",
+          "Filter groups include product type, price, brand and availability with sample counts, and individual product cards with badges.",
+          "Cart/subscription/size interactions were not tested; product count labels are HTML only."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "collection-banner",
+          "product-card"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "5 days"
+      },
+      "product": {
+        "url": "https://expanse-theme-furniture.myshopify.com/collections/coffee-makers/products/90018-neapolitan-coffee-maker",
+        "signals": [
+          "Alessi Neapolitan coffee-maker has a dedicated product-page route linked from bestseller merchandising.",
+          "Source is about two months old. Actual variation controls, cart actions, current price, gallery behavior and shipping promises untested."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "media-gallery-layouts",
+          "related-products"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "product-title",
+          "product-card"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 months"
+      },
+      "cart": null,
+      "unverified": [
+        "Dedicated /cart route could not be opened; only home empty-drawer markup seen.",
+        "Black Friday countdown source labels do not verify timer validity, end date or actual promotion.",
+        "Merchant seller claims, stock, local pickup and sale discounts are illustrative and unchecked.",
+        "No interactive Shopify editor, mobile, accessibility or checkout test."
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 47,
-    "opened_home": 47,
-    "opened_collection": 37,
-    "opened_product": 38,
-    "opened_empty_cart": 9,
+    "opened_stores": 49,
+    "opened_home": 49,
+    "opened_collection": 38,
+    "opened_product": 40,
+    "opened_empty_cart": 10,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -3481,5 +3666,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 43
+  "selected_127_document_count": 45
 }

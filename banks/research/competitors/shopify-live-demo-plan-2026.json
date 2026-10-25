@@ -5,7 +5,7 @@
   "method": "User-requested live-demo audit; mark every page and interaction pending until independently retrieved.",
   "reason": "Live-demo page documents accessible through public web, but GUI interactions, rendering and screenshot comparison remain unverified. Former Figma Stage 6 superseded; entirely new design planned later.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "shopify_deep_html_batch13_43_selected_home_131_primary_docs",
+  "status": "batch16_two_premium_selected_home_demos_with_html_45_selected",
   "checks": [
     "demo_entry_url",
     "home",
@@ -80,10 +80,10 @@
   "counts": {
     "selected_design_records": 127,
     "individual_official_preset_pages_verified": 127,
-    "live_home_demo_verified": 43,
-    "live_collection_verified": 33,
-    "live_product_verified": 35,
-    "live_cart_verified": 9,
+    "live_home_demo_verified": 45,
+    "live_collection_verified": 34,
+    "live_product_verified": 37,
+    "live_cart_verified": 10,
     "live_mobile_verified": 0
   },
   "required_evidence_per_screen": {
@@ -97,6 +97,6 @@
   "deduplication": "Avoid rechecking same URL with conflicting names; each preset can share engine but must be independently observed for layout claims.",
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
-  "count_semantics": "Primary counts are at most one home/collection/product/cart source per store; additional category/page research separately listed as supplementary. All are read-only indexed HTML, not runtime QA.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch13-2026.md"
+  "count_semantics": "Only one read-only primary indexed HTML URL per page-kind per storefront; vendor/index/third-party reports separate and not counted. Varied source crawl dates are explicit.",
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch16-2026.md"
 }

@@ -118,3 +118,10 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-performance-benchmark-batch15-2026.md`: competitor performance research plus **official Shopify requirements**: Theme Store Lighthouse average >=60 performance and >=90 accessibility across home, PDP and collection, mobile + desktop. Three runs, consistent Chrome/network, report median; compare to actual Shopify benchmark later.
 - Corrected **Batch14 Fetch source-classification mistake**: `expanse:fetch` is selected and its demo home/collection/PDP/cart had already been opened in earlier research. Vendor recipe adds **0** new demo documents.
 - Verified preset homepage HTML stays **43/127 (33.9%), 84 pending**, **47 hosts /131 primary documents**. Do not conflate independent publisher PSI snapshot with in-house Lighthouse or individual opened storefront HTML.
+
+## Batch16 — two additional premium Shopify demo HTML audits (2026-10-25)
+
+- `competitors/shopify-live-demo-batch16-2026.md`: opened **Impact Sound** and **Expanse Furniture** home pages, Impact PDP/empty /cart, Expanse Furniture filtered collection and coffee-maker PDP, each with individual source URL and indexed crawl age. **Actual public HTML, not vendor marketing page and not executed interaction.**
+- `competitors/shopify-source-claims-batch16-2026.json`: 5 source-backed merchant claim/variant/urgency QA cases, including negative saved-amount string in older Expanse coffee PDP and inconsistent dated shipping banner language; **not confirmed current runtime bugs**.
+- Four original reusable VSN option/element patterns plus two qualitative observations mapped.
+- Cumulative **45/127 selected homepage HTML sources (35.4%), 82 pending**, **49 distinct Shopify demo hosts / 137 primary HTML documents**. Selected collection 34, PDP 37, cart 10. No browser/mobile/checkout/private Theme Editor testing.

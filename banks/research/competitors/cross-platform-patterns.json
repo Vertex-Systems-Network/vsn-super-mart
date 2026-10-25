@@ -1130,6 +1130,73 @@
         "sorting"
       ],
       "design_implication": "Distinguish list-collections navigation templates from product collection filters; support merchant-defined metafield attributes and do not sum overlapping dynamic facet counts as stock totals."
+    },
+    {
+      "id": "impact-audio-comparison-structured-specs",
+      "context": "Opened Impact Sound demo homepage indexed HTML and a separate Leica collaboration PDP (source recencies differ)",
+      "signals": [
+        "Homepage combines product comparison panel with explicit driver, battery, dimension and weight attributes; quick add and variant options exist as markup, not executed controls."
+      ],
+      "source_entry_ids": [
+        "shopify-live-impact-sound"
+      ],
+      "option_ids": [
+        "comparison-table",
+        "product-compare",
+        "product-custom-fields",
+        "quick-add"
+      ],
+      "design_implication": "Original VSN structured spec rows should be merchant-supplied metafields/metaobjects with accessible comparison layouts; optional VSN compare app must remain separate from Theme Store build."
+    },
+    {
+      "id": "expanse-large-catalog-furniture-facets",
+      "context": "Opened Expanse furniture home and 13-product furniture collection indexed HTML with dated crawl",
+      "signals": [
+        "Deep hierarchical branded mega menu, brand/type/price/availability facet groups and sorting occur together with small category grid and seller-made pickup claims."
+      ],
+      "source_entry_ids": [
+        "shopify-live-expanse-furniture"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "sorting",
+        "localization-selectors"
+      ],
+      "design_implication": "Global collection recipe should support native Search & Discovery filters, merchant-configurable multi-level navigation, localization and nonadditive facet counts; no fake inventory/pickup claims."
+    },
+    {
+      "id": "demo-countdown-versus-promotion-source",
+      "context": "Opened Expanse furniture homepage and collection with Black Friday 12-day/12-hour/12-minute/12-second sample labels",
+      "signals": [
+        "Countdown section and sale language appear in HTML but no campaign end date or effective running timer was executed."
+      ],
+      "source_entry_ids": [
+        "shopify-live-expanse-furniture"
+      ],
+      "option_ids": [
+        "countdown-timer",
+        "promo-grid",
+        "sale-campaign-section"
+      ],
+      "design_implication": "Require explicit real campaign deadline, market timezone, expiry/sold-out behavior and dynamic price source; never hardcode a perpetual countdown or imply current sale from static demo."
+    },
+    {
+      "id": "marketing-trust-promises-vs-buyer-truth",
+      "context": "Read-only Impact/Expanse sample storefronts showing shipping, discount, claims and inventory texts",
+      "signals": [
+        "Impact code/fast delivery, Expanse next-day pickup and return/discount badges are merchant demonstration copy, potentially stale across pages."
+      ],
+      "source_entry_ids": [
+        "shopify-live-impact-sound",
+        "shopify-live-expanse-furniture"
+      ],
+      "option_ids": [
+        "promo-banner-section",
+        "free-shipping-bar",
+        "product-badges-trust"
+      ],
+      "design_implication": "Treat each customer-facing promise as policy-backed, market-aware merchant data, not built-in VSN defaults. Preserve copy source and avoid invalid geographic/temporal claims."
     }
   ]
 }

@@ -2,6 +2,10 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 16 two newly verified premium live demo homepages (+6 primary HTML pages)
+
+Independently opened Impact Sound and Expanse Furniture demo storefronts, plus Impact MW07 Plus Leica PDP + historical empty /cart, Expanse Furniture 13-product collection and Alessi coffee-maker PDP. Selected preset **homepage 45/127 (35.4%), 82 pending**; **49** distinct hosts; **137** primary indexed public HTML pages (49 home/38 category/40 PDP/10 separate cart). **Two new selected PDPs**, plus one collection and one cart, together with two homes. Four original mapped research patterns, two observations, five source integrity merchant guardrails; source crawl ranges 2 days to 1.2 years. Opened HTML is not browser interaction, screenshot, checkout, mobile, Lighthouse or competitor editor. No Figma/design/theme code. See `banks/research/competitors/shopify-live-demo-batch16-2026.md` and `shopify-source-claims-batch16-2026.json`; research branch PR #9.
+
 ## 2026-10-25 — Batch 15: 18 external PageSpeed samples + correction to Fetch cohort
 
 Added 18 independently **third-party eDIY-reported October 2026 homepage PageSpeed lab score snapshots** (5 Prestige, 5 Broadcast, 5 Expanse, Impulse, Symmetry, Savor), mapping mobile/desktop Lighthouse scores and reported mobile LCP/CLS/TBT per specific source page. These are NOT executed VSN Lighthouse/browser/mobile tests or new opened Shopify demo HTML. Research plan covers true Shopify Theme Store benchmark QA (homepage, collection, PDP on desktop/mobile; average >=60 performance, >=90 accessibility; three comparable runs/route with median). Corrected Batch14 factual error: **expanse:fetch is in selected 127** and was already verified in Batch5 live HTML; vendor-only recipe adds no new home visit. Updated Batch14 evidence/report, validators, research docs, and logs. **Coverage still 43/127 selected homes, 47 hosts, 131 primary HTML pages; 84 homes pending**. PR #9 research branch only; Stage 2 no active Figma or theme development. New report: `banks/research/competitors/shopify-performance-benchmark-batch15-2026.md`.

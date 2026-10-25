@@ -266,6 +266,42 @@ def check():
     limits15=perf15.get("shopify_theme_store_requirement",{})
     if limits15.get("lighthouse_performance_mean_minimum")!=60 or limits15.get("lighthouse_accessibility_mean_minimum")!=90:
         errors.append("Batch15 Theme Store requirements inconsistent")
+    # Batch16 verified public indexed Shopify Impact/Expanse demo HTML.
+    b16=load(BASE/"shopify-source-claims-batch16-2026.json")
+    ref16={
+        "shopify-live-impact-sound":{
+            "catalog_preset_id":"impact:impact",
+            "homepage":"https://impact-theme-sound.myshopify.com/",
+            "product":"https://impact-theme-sound.myshopify.com/products/mw07-plus-leica",
+            "cart":"https://impact-theme-sound.myshopify.com/cart",
+        },
+        "shopify-live-expanse-furniture":{
+            "catalog_preset_id":"expanse:expanse",
+            "homepage":"https://expanse-theme-furniture.myshopify.com/",
+            "collection":"https://expanse-theme-furniture.myshopify.com/collections/furniture",
+            "product":"https://expanse-theme-furniture.myshopify.com/collections/coffee-makers/products/90018-neapolitan-coffee-maker",
+        }
+    }
+    indexed16={s["id"]:s for s in stores}
+    for sid,entry in ref16.items():
+        s=indexed16.get(sid,{})
+        if s.get("catalog_preset_id")!=entry["catalog_preset_id"] or not s.get("selected_127"):
+            errors.append("Batch16 missing exact selected theme/preset: "+sid)
+        for typ,url in entry.items():
+            if typ=="catalog_preset_id":continue
+            page=s.get(typ)
+            if not page or page.get("url")!=url or page.get("verification")!="public_html_document_opened" or not page.get("source_crawl_recency"):
+                errors.append("Batch16 missing individual public indexed HTML source and crawl age: "+sid+"/"+typ)
+    if len(stores)<49 or sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)<137:
+        errors.append("Batch16 historic floor of 49 stores and 137 primary HTML docs")
+    if audit["counts"].get("live_home_demo_verified",0)<45 or audit["counts"].get("live_collection_verified",0)<34 or audit["counts"].get("live_product_verified",0)<37 or audit["counts"].get("live_cart_verified",0)<10:
+        errors.append("Batch16 selected preset document count below historic verified floor")
+    if len(b16.get("cases",[]))!=5 or len({r.get("id") for r in b16.get("cases",[])})!=5:
+        errors.append("Batch16 must retain five source-linked merchant QA cases")
+    allurls={p["url"] for s in stores for p in [s.get("homepage"),s.get("collection"),s.get("product"),s.get("cart")] if p}
+    for c in b16.get("cases",[]):
+        if c.get("source_url") not in allurls or not c.get("vsn_guard") or not c.get("source_crawl_recency"):
+            errors.append("Batch16 unsourced or incomplete risk guard: "+str(c.get("id")))
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):

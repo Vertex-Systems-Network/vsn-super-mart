@@ -704,6 +704,41 @@
         "Age Serum demo PDP: $21 sample price, 0.5% retinol label, benefits, ingredient/claims copy, four media images and pairing section",
         "Merchant ingredient, safety and formula claims cannot be reused or assumed verified"
       ]
+    },
+    {
+      "id": "shopify-live-impact-sound",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Header offers country/currency selection, three menu categories and collaboration navigation plus an empty cart drawer scaffold.",
+        "Audio marketing hero sequence, popular requests, bestseller product cards with color choices, quick-add markup and sale/stock labels.",
+        "Dedicated compare learning section lists driver, weight, dimensions and battery metrics for different models; testimonial/review, brand story, FAQ and journal content.",
+        "Banner offers a 20 percent demo code and claims shipping worldwide/fast fulfillment; these are unverified merchant-demo promises."
+      ],
+      "design_hypothesis": "Open indexed public HTML, not verified visual/screenshot or interactive UX; build original options from merchant-owned sources.",
+      "product_modules": [
+        "Leica collaboration product page exposes premium PDP and variant/product storytelling layout with related seller content.",
+        "Source age is five months; option changes, inventory, checkout, metafield editor binding and image interactions were not tested."
+      ]
+    },
+    {
+      "id": "shopify-live-expanse-furniture",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Deep Homestyle, Lifestyle, Kids, Brands and country/currency navigation; home furniture and kitchen promotional merchandising.",
+        "Category rail, multiple featured collections, shop-the-look, promotional discount tiles, blog and newsletter, local pickup/service claims.",
+        "One indexed countdown section shows sample 12-day/12-hour/12-minute/12-second labels and Black Friday marketing; actual timer and event date not checked.",
+        "Empty cart drawer text/subtotal appears in homepage HTML, not a dedicated /cart source and not a cart mutation."
+      ],
+      "design_hypothesis": "Open indexed public HTML, not verified visual/screenshot or interactive UX; build original options from merchant-owned sources.",
+      "collection_modules": [
+        "Furniture collection page shows 13 products and sort options such as featured, bestseller, alphabetical, pricing and date.",
+        "Filter groups include product type, price, brand and availability with sample counts, and individual product cards with badges.",
+        "Cart/subscription/size interactions were not tested; product count labels are HTML only."
+      ],
+      "product_modules": [
+        "Alessi Neapolitan coffee-maker has a dedicated product-page route linked from bestseller merchandising.",
+        "Source is about two months old. Actual variation controls, cart actions, current price, gallery behavior and shipping promises untested."
+      ]
     }
   ]
 }

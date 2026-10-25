@@ -6899,6 +6899,97 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-impact-sound",
+      "platform": "shopify",
+      "theme": "Impact",
+      "preset": "Impact",
+      "url": "https://impact-theme-sound.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened read-only indexed public demo HTML with page-specific crawler ages. Not functional, cart mutation, mobile viewport or Theme Editor verified.",
+      "feature_option_ids": [
+        "mega-menu",
+        "localization-selectors",
+        "hero-slideshow",
+        "featured-collection",
+        "quick-add",
+        "product-compare",
+        "comparison-table",
+        "promo-banner-section",
+        "cart-drawer",
+        "product-blocks",
+        "variant-picker-styles",
+        "media-gallery-layouts",
+        "cart-page",
+        "cart-accelerated"
+      ],
+      "design_signals": [
+        "Header offers country/currency selection, three menu categories and collaboration navigation plus an empty cart drawer scaffold.",
+        "Audio marketing hero sequence, popular requests, bestseller product cards with color choices, quick-add markup and sale/stock labels.",
+        "Dedicated compare learning section lists driver, weight, dimensions and battery metrics for different models; testimonial/review, brand story, FAQ and journal content."
+      ],
+      "niches": [
+        "premium-audio-conversion-and-product-comparison"
+      ],
+      "notes": "Batch16 independent page URLs and recency in shopify-live-demo-evidence-2026.json. No executed browser interactions; seller content not live facts.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-expanse-furniture",
+      "platform": "shopify",
+      "theme": "Expanse",
+      "preset": "Expanse",
+      "url": "https://expanse-theme-furniture.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened read-only indexed public demo HTML with page-specific crawler ages. Not functional, cart mutation, mobile viewport or Theme Editor verified.",
+      "feature_option_ids": [
+        "mega-menu",
+        "collection-list",
+        "featured-collection",
+        "shop-the-look",
+        "promo-grid",
+        "countdown-timer",
+        "blog-posts",
+        "newsletter-signup",
+        "cart-drawer",
+        "localization-selectors",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "product-card-variants",
+        "product-blocks",
+        "media-gallery-layouts",
+        "related-products"
+      ],
+      "design_signals": [
+        "Deep Homestyle, Lifestyle, Kids, Brands and country/currency navigation; home furniture and kitchen promotional merchandising.",
+        "Category rail, multiple featured collections, shop-the-look, promotional discount tiles, blog and newsletter, local pickup/service claims.",
+        "One indexed countdown section shows sample 12-day/12-hour/12-minute/12-second labels and Black Friday marketing; actual timer and event date not checked."
+      ],
+      "niches": [
+        "furniture-homeware-giant-catalog-facets-and-content"
+      ],
+      "notes": "Batch16 independent page URLs and recency in shopify-live-demo-evidence-2026.json. No executed browser interactions; seller content not live facts.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
