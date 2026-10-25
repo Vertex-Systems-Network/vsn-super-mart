@@ -58,3 +58,5 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-live-demo-evidence-2026.json`: 4 actual public Shopify demo stores, 14 pages opened, with individual URL, option IDs and VSN element IDs. Only 2 demos belong to selected 127 preset cohort.
 - `competitors/shopify-vendor-homepage-recipes-2026.json`: Impulse/Dune/Terrain/Apothecary homepage section orders taken from official Archetype support page; NOT an interactive store visit.
 - `competitors/shopify-live-demo-report-2026.md`: findings and unsupported interaction/mobile/checkout limits.
+
+- `competitors/shopify-live-demo-batch2-2026.md`: four more Shopify live demo HTML stores (Empire Depot/Wonder/Be Yours/Taste). Cumulative 8 stores, 28 documented public pages, 6 belonging to selected 127 design index. Interactive QA remains pending.
