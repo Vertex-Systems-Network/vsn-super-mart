@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "stage": 2,
+  "evidence_type": "shopify_first_party_documentation",
+  "competitor_private_editor_tested": false,
+  "competitor_live_demo_new_documents": 0,
+  "selected_preset_demo_homepages_before": 43,
+  "selected_preset_demo_homepages_after": 43,
+  "theme_code_changed": false,
+  "figma_changed": false,
+  "checked_sources": [
+    "https://shopify.dev/docs/storefronts/themes/architecture/limits",
+    "https://shopify.dev/docs/storefronts/themes/architecture/blocks",
+    "https://shopify.dev/docs/storefronts/themes/architecture/blocks/theme-blocks/schema",
+    "https://shopify.dev/docs/storefronts/themes/architecture/blocks/best-practices",
+    "https://shopify.dev/docs/storefronts/themes/architecture/blocks/theme-blocks/static-blocks",
+    "https://shopify.dev/docs/storefronts/themes/architecture/settings",
+    "https://shopify.dev/docs/storefronts/themes/architecture/settings/input-settings",
+    "https://shopify.dev/docs/storefronts/themes/store/requirements",
+    "https://shopify.dev/docs/storefronts/themes/store/success/updates"
+  ],
+  "decisions": [
+    {
+      "id": "compiled-block-budget",
+      "priority": "high",
+      "finding": "300 physical blocks/*.liquid files maximum; 192 VSN elements are conceptual, not necessarily 192 physical files. Sidekick-generated blocks also count.",
+      "route": "theme_blocks_and_snippets",
+      "option_ids": [
+        "nested-theme-blocks",
+        "section-rendering"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/blocks",
+        "https://shopify.dev/docs/storefronts/themes/architecture/limits"
+      ],
+      "vsn_design_action": "Explicitly map every conceptual element to block, snippet or reusable section; budget headroom for merchant/AI added blocks.",
+      "check": "Measure actual /blocks file count on generated theme; fail above 300; never equate catalog size with compiled count.",
+      "status": "research_only"
+    },
+    {
+      "id": "section-composition-ceilings",
+      "priority": "high",
+      "finding": "25 sections per JSON template; 50 reorderable blocks per section; 1250 blocks per template/section group.",
+      "route": "theme_sections",
+      "option_ids": [
+        "nested-theme-blocks",
+        "section-presets"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/limits"
+      ],
+      "vsn_design_action": "Budget rich home/collection/PDP designs inside template and block ceilings; distinguish static from dynamic counts.",
+      "check": "Count effective JSON template sections and reorderable blocks before building preset.",
+      "status": "research_only"
+    },
+    {
+      "id": "nesting-limit",
+      "priority": "high",
+      "finding": "Theme block nesting maximum 8 levels below section.",
+      "route": "theme_blocks",
+      "option_ids": [
+        "nested-theme-blocks"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/limits",
+        "https://shopify.dev/docs/storefronts/themes/architecture/blocks/theme-blocks/schema"
+      ],
+      "vsn_design_action": "VSN Group/Container hierarchy must collapse wrappers or use snippets before hitting depth 8.",
+      "check": "Walk preset block trees and fail if depth exceeds 8.",
+      "status": "research_only"
+    },
+    {
+      "id": "block-schema-incompatibility",
+      "priority": "high",
+      "finding": "Section-local blocks and reusable theme blocks cannot currently be used together within one section.",
+      "route": "theme_blocks_or_local_blocks",
+      "option_ids": [
+        "nested-theme-blocks",
+        "product-blocks"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/blocks"
+      ],
+      "vsn_design_action": "Prefer theme-block architecture for globally reusable elements; choose local section blocks only when nesting/reuse is unnecessary.",
+      "check": "Static validate section schema does not declare section-local block types alongside @theme.",
+      "status": "research_only"
+    },
+    {
+      "id": "static-component-semantics",
+      "priority": "medium",
+      "finding": "Static blocks can be customized/hidden but cannot be reordered or deleted; they do not count toward dynamic max_blocks.",
+      "route": "static_theme_blocks",
+      "option_ids": [
+        "product-blocks",
+        "nested-theme-blocks"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/blocks/theme-blocks/static-blocks"
+      ],
+      "vsn_design_action": "Use static only for essential fixed UI; dynamic merchant components remain reorderable; do not present static as draggable.",
+      "check": "QA static/merchant-reorder states and count block caps by correct semantics.",
+      "status": "research_only"
+    },
+    {
+      "id": "block-vs-snippet",
+      "priority": "high",
+      "finding": "Theme blocks expose merchant settings and cannot receive parent variables; snippets accept variables but lack editor instance controls.",
+      "route": "hybrid_blocks_snippets",
+      "option_ids": [
+        "nested-theme-blocks",
+        "product-blocks"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/blocks"
+      ],
+      "vsn_design_action": "Reserve theme blocks for merchant-configurable structure; share low-level rendering through snippets to avoid bloated sidebar and file budget.",
+      "check": "Architecture mapping specifies per-element compilation type.",
+      "status": "research_only"
+    },
+    {
+      "id": "setting-visibility-scope",
+      "priority": "high",
+      "finding": "visible_if supports many setting types but cannot evaluate runtime contextual data or resolved dynamic source values.",
+      "route": "settings_schema_with_liquid_guards",
+      "option_ids": [
+        "product-custom-fields",
+        "nested-theme-blocks"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/settings"
+      ],
+      "vsn_design_action": "Separate editor display logic from runtime Liquid conditions for variant, market, customer or metafield values.",
+      "check": "No visible_if expression depends on runtime storefront object/value.",
+      "status": "research_only"
+    },
+    {
+      "id": "platform-owned-css",
+      "priority": "medium",
+      "finding": "Shopify controls custom CSS at theme/section level; themes must not create, hide or overwrite that native setting.",
+      "route": "platform_native",
+      "option_ids": [
+        "color-schemes"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/settings"
+      ],
+      "vsn_design_action": "Expose original token/variation settings, not a fake custom CSS override UI that changes merchant's platform customization.",
+      "check": "No duplicated platform CSS settings or writes to platform_customizations.",
+      "status": "research_only"
+    },
+    {
+      "id": "dynamic-source-translation",
+      "priority": "medium",
+      "finding": "Theme settings and blocks can use dynamic sources; merchant setting text translations work differently from Liquid setting values.",
+      "route": "platform_native",
+      "option_ids": [
+        "product-custom-fields",
+        "localization-selectors"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/settings",
+        "https://shopify.dev/docs/storefronts/themes/architecture/settings/input-settings"
+      ],
+      "vsn_design_action": "Offer metafields/metaobjects where supported; ensure theme locale translations and merchant content translation paths are distinct.",
+      "check": "Audit dynamic binding, blank data, markets and locale fallbacks in Stage 8.",
+      "status": "research_only"
+    },
+    {
+      "id": "theme-store-app-boundary",
+      "priority": "critical",
+      "finding": "Theme Store themes cannot depend on an app or ship incomplete app-like features; demos can only showcase functionality built into the theme. Mandatory VSN wishlist and comparison powered by a VSN app must not be represented as built-in Theme Store demo features.",
+      "route": "theme_store_vs_optional_app_track",
+      "option_ids": [
+        "wishlist",
+        "product-compare",
+        "wishlist-compare-ui-slots",
+        "app-blocks"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/store/requirements"
+      ],
+      "vsn_design_action": "Keep Wishlist/Compare requirement in optional VSN apps/extras, but block those app-dependent interactions in Theme Store submission/demo unless Shopify confirms an allowed representation. Retain standard @app integration support.",
+      "check": "Theme Store release QA flags app-dependent wishlist/compare demo widgets and any implied native functionality.",
+      "status": "decision_required"
+    },
+    {
+      "id": "core-product-section-app-blocks",
+      "priority": "high",
+      "finding": "Main product and featured product sections must support @app; product price, description and vendor need granular product blocks.",
+      "route": "theme_editor_integration",
+      "option_ids": [
+        "product-blocks",
+        "featured-product",
+        "app-blocks"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/store/requirements",
+        "https://shopify.dev/docs/storefronts/themes/architecture/blocks"
+      ],
+      "vsn_design_action": "Theme product layouts must keep independent merchant editability and app-block slots without requiring any app.",
+      "check": "Inspect compiled schema on product/featured product and no-app baseline.",
+      "status": "research_only"
+    },
+    {
+      "id": "presets-per-demo",
+      "priority": "high",
+      "finding": "Each Theme Store preset needs at least one matching demo store; theme must be materially unique beyond cosmetic variations. Multi-preset listings require own preset template folders.",
+      "route": "theme_store_release",
+      "option_ids": [
+        "section-presets",
+        "alt-templates"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/store/requirements",
+        "https://shopify.dev/docs/storefronts/themes/store/success/updates"
+      ],
+      "vsn_design_action": "Evaluate VSN theme identity across all templates; publish each preset with substantive structural/UX differentiation and a demo equivalent to installed state.",
+      "check": "Per-preset demo, listing templates and originality design QA before release.",
+      "status": "research_only"
+    },
+    {
+      "id": "theme-store-code-origin",
+      "priority": "critical",
+      "finding": "Shopify Skeleton is the only approved starting codebase for Theme Store; otherwise code must be fully original, never a Dawn/Horizon-derived submission.",
+      "route": "skeleton_or_original",
+      "option_ids": [
+        "section-rendering"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/store/requirements"
+      ],
+      "vsn_design_action": "Stage 7 inherits Skeleton/original; competitor and Shopify sample code are research only.",
+      "check": "Licensing and source provenance gate at theme development.",
+      "status": "research_only"
+    },
+    {
+      "id": "filesize-and-style-budget",
+      "priority": "high",
+      "finding": "Shopify limits: JSON template and section group 512 KB; settings_schema 512 KB, settings_data 1.5 MB, Liquid code files 256 KB, Liquid setting 50 KB, total zipped theme 50 MB.",
+      "route": "compact_schema_and_assets",
+      "option_ids": [
+        "nested-theme-blocks",
+        "responsive-images"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/architecture/limits"
+      ],
+      "vsn_design_action": "Avoid 192-by-nine-breakpoint settings explosion; only expose selected anchors and advanced overrides where practical. Keep content/media outside bloated packaged theme.",
+      "check": "CI byte-size/zip-size lint once theme code exists.",
+      "status": "research_only"
+    },
+    {
+      "id": "theme-store-performance-and-accessibility",
+      "priority": "high",
+      "finding": "Shopify Theme Store requires average Lighthouse performance >=60 and accessibility >=90 across home, collection, product on desktop and mobile; real content and images are mandatory during testing.",
+      "route": "stage8_qa",
+      "option_ids": [
+        "responsive-images",
+        "quick-view",
+        "product-blocks"
+      ],
+      "shopify_evidence": [
+        "https://shopify.dev/docs/storefronts/themes/store/requirements"
+      ],
+      "vsn_design_action": "Defer runtime claims until benchmark QA; animate with reduced-motion and avoid oversized nested DOM.",
+      "check": "Test six scenarios against benchmark data and browser/touch/keyboard focus.",
+      "status": "research_only"
+    }
+  ],
+  "decision_required": [
+    "theme-store-app-boundary"
+  ],
+  "notes": [
+    "These are Shopify documented platform constraints and original VSN design implications, not a competitor private Theme Editor inspection.",
+    "Do not conflate developer-listed capabilities, open HTML markup and live functional testing.",
+    "Current Figma state is no active design; old Afterhours files remain archival."
+  ]
+}

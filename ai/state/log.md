@@ -60,3 +60,5 @@
 - 2026-10-25 — PR #9 Batch 9 opened 12 Shopify free theme demos, collection HTML for each, 11 PDP; 43/127 selected, 47 hosts /124 public indexed page documents. 5 new research patterns, 12 observations; no runtime/editor/mobile test or design changes.
 
 - 2026-10-25 — Stage 2 Batch 10: reopened official Shopify listings for Impact, Enterprise, Broadcast Relay and Savor; added source-linked capability/risk comparison; demo HTML coverage remains 43/127, not advanced without actual new demo sources; browser access denied.
+
+- 2026-10-25 — Batch 11: 15 official-source-linked Shopify Theme Editor/Theme Store feasibility decisions; synchronized AI Figma/image instructions; CI platform audit. No demo-count increase (43/127), no Figma/theme development.

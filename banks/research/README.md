@@ -84,3 +84,10 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `banks/elements/specs/shopify-controls-batch7-2026.json`: four proposed original VSN merchant setting groups, no runtime implementation.
 
 - Batch 8 Shopify first-party themes: 35 source hosts, 89 HTML pages, 31/127 selected — `competitors/shopify-live-demo-batch8-2026.md`.
+
+## Shopify platform feasibility — Batch 11 (2026-10-25)
+
+- `competitors/shopify-editor-feasibility-batch11-2026.json`: 15 sourced constraints/decisions mapped to existing VSN option IDs; includes serious Theme Store app-dependent wishlist/compare scope conflict. This is **first-party platform documentation only**, not competitor editor or interactive demo inspection.
+- `competitors/shopify-editor-feasibility-batch11-2026.md`: rationale and suggested Stage 4/5/7/8 gates for element compilation, Theme Store rules, responsive settings and image/Figma policy consistency.
+- `python3 scripts/platform_feasibility_audit.py`: checks source mappings, status evidence and that project agents follow `AGENTS.md` and `progress.json` rather than archived Figma/Figma AI instructions.
+- **Cumulative actual demo count remains 43/127 selected homepages, 47 hosts and 124 indexed HTML documents** pending new independently retrieved pages. Listing/vendor docs must not inflate demo coverage.

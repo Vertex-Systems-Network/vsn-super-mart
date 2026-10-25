@@ -2,6 +2,10 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 11 platform editor and Theme Store feasibility audit
+
+Fetched Shopify first-party block/section/setting constraints and Theme Store requirements; documented **15 original source-linked VSN architecture decisions**. Critical product-scope boundary flagged: the user requires Wishlist & Compare on all demos, but Shopify forbids app-dependent functionality in Theme Store themes/demos; preserve optional VSN app track and decide compliant demo representation before design approval. 192 conceptual elements must compile within 300-file block cap and other template/nesting limits. Reconciled CLAUDE.md and WORKFLOW.md with AGENTS.md (Stage 2, no active Figma, ChatGPT images only), added CI for mapping/instruction drift. **No new demo source opened; counts remain 43/127 home, 47 hosts / 124 HTML documents**. No theme or Figma code/design changed. See `banks/research/competitors/shopify-editor-feasibility-batch11-2026.md`; PR #9 remains open.
+
 ## 2026-10-25 — Batch 10 official capability comparison (no demo count change)
 
 Freshly reopened Shopify official listing pages for Impact, Enterprise, Broadcast Relay and Savor. Created source-linked comparison of merchant-facing capabilities, Shopify Plus boundaries, vendor claims and original VSN implementation implications. This is **listing research**, not actual storefront or interactive testing. The Opera browser connector was denied; no real browser screenshots or clicks were performed. Demo count remains 43/127 selected home sources (47 hosts / 124 HTML documents). Stage 2 and archived-Figma policy unchanged. See `banks/research/competitors/shopify-capability-crosscheck-batch10-2026.md`. Continue remaining 84 real demo home audits without counting listings twice. PR #9 remains research-only.
