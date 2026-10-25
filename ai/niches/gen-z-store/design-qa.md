@@ -50,3 +50,7 @@ This QA report describes the former 2026-10-21 Figma canvas only. That canvas is
 ## 2026-10-25 — new Figma restoration verification (not final visual QA)
 
 Target file `y5e3fEpx2eAFhLRFLisP0o`, page `0:1` contains 24/24 named restored frames: 19 desktop and 5 mobile, including 641 editable native text nodes. Native layout shapes/frames exist; this is not a screenshot paste. Home mobile screenshot inspected. Original Figma photos are replaced by visible neutral placeholders; the appearance is source-guided and cannot be declared pixel-identical to lost original. Figma Starter tool quota stopped further screen-by-screen visual QA. **Do not reuse the old clipping audit or approve stage 6 yet.**
+
+## 2026-10-25 user reset
+
+Both old Afterhours Figma versions were superseded. This QA is historical and **not** a fresh design approval. No current Figma design exists. New design QA must start anew when created.

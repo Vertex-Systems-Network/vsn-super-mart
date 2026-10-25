@@ -12,8 +12,7 @@ best themes on the market (Prestige, Impulse, Symmetry, Trademark, Broadcast, Ho
 - Every option a **Shopper**, **Merchant (user)** and **Developer** needs (see `banks/options/`).
 - Built from **Shopify Skeleton theme or original code only** — never Dawn or Horizon
   (Theme Store rule, see `banks/research/platform/theme-store-requirements.json`).
-- Design lives in Figma: restored active file `y5e3fEpx2eAFhLRFLisP0o`, page **"AFTERHOURS — Restored UI"** (node `0:1`). The old file `BxJuIRth8k4cCUbFnPV6ek` is historical/deleted. Screen IDs live in `banks/design/specs/gen-z-store/spec.json`.
-  Afterhours palette: near-black `#0B0B0F`, acid lime `#C6FF3D`, off-white `#F4F4F0` (other niche presets use their own tokens).
+- **No active Figma design.** User explicitly superseded the old Afterhours restoration (`y5e3fEpx2eAFhLRFLisP0o`) and originally deleted file. Those IDs, palettes, layouts and screenshots are historical references only. Create an entirely fresh design direction **later** after research/options are complete; no current Stage 6 or Figma approval applies.
 
 ## 2. Read order (every session)
 
@@ -28,7 +27,7 @@ Then run: `python3 scripts/vsn.py status` — it prints the stage and the exact 
 ## 3. Resume protocol (pick up exactly where it stopped)
 
 1. Run `python3 scripts/vsn.py status`.
-2. Do **only** the `next_action` it prints, inside the current stage.
+2. Do **only** the `next_action` it prints, inside the current stage. When the user explicitly supersedes an outdated stage/design, reset active state and preserve former assets as archival references; do not force old design restoration.
 3. When a step finishes, record it: `python3 scripts/vsn.py log "<what you did>"`.
 4. When a stage's exit gate passes, advance: `python3 scripts/vsn.py advance` (it runs the gate check).
 5. Before ending a session — even mid-task — update `ai/state/HANDOFF.md`
@@ -54,8 +53,8 @@ Never skip stages. Never start development before the design gate passes.
 8. **Language.** Code, file names and bank data in English. Chat with the team may be Urdu/Roman Urdu.
 9. **Images are created outside Figma AI, using ChatGPT image generation only, unless the team explicitly changes this policy.**
    Generate original hero, banner, product, collection, lifestyle and blog assets using ChatGPT.
-   **Do not spend any Figma AI credits.** Upload those files to the active Figma design using
-   Figma's asset upload API (not Figma image generation). Current Figma: `y5e3fEpx2eAFhLRFLisP0o`.
+   **Do not spend any Figma AI credits.** Once a NEW Figma file is approved, upload images to that active design using
+   Figma's asset upload API (not Figma image generation). **There is no active Figma file yet.**
    - Write distinct prompts from the niche research and selected design tokens. Prefer unique photographs
      and do not assign the same image to unrelated placements; repeated actual SKUs must be explicitly justified.
    - Never copy third-party theme demo imagery, logos, text overlays or identifiable brands.
@@ -120,7 +119,7 @@ Never skip stages. Never start development before the design gate passes.
 
 19. **Shopify theme editor constraints.** Competitor preset listings don't reveal their actual editor settings. Use documented Shopify schema (`blocks/`, `sections/`, `config/`) as capability evidence and stay within hard limits (300 theme-block files, 8 nesting levels, 25 sections per JSON template, 50 blocks per section). Keep 192 conceptual elements distinct from compiled theme block file count. Never claim live competitor editor access without credentials and direct evidence.
 
-18. **Figma deletion recovery:** Never treat old Figma frame or image IDs as live after deletion. The original Python/HTML/slot sources are preserved; use `python3 scripts/afterhours_recovery.py check`. A source-only preview is not a restored editable canvas or recovered photo. Require fresh visual QA and design approval.
+18. **Historical Figma concepts:** Never treat superseded Afterhours Figma frame or image IDs as live. The original Python/HTML/slot sources are preserved; use `python3 scripts/afterhours_recovery.py check`. A source-only preview is not a restored editable canvas or recovered photo. Require fresh visual QA and design approval.
 
 ## 5. Repository map
 

@@ -3,7 +3,7 @@
   "updated_at": "2026-10-25",
   "niche": "gen-z-store",
   "preset": "Afterhours",
-  "status": "editable_layouts_restored_assets_pending",
+  "status": "historical_backup_only_not_active_design",
   "screen_ids": [
     "home-desktop",
     "collection-desktop",
@@ -45,7 +45,8 @@
     "full visual QA after artwork replacement",
     "Stage 6 human approval"
   ],
-  "restored_figma": {
+  "note": "Original Afterhours and replacement Figma concepts were superseded by user. Keep source backup and mapping for history but never treat as active or block current Shopify research; a completely new design will be created later.",
+  "historical_restored_figma": {
     "file_key": "y5e3fEpx2eAFhLRFLisP0o",
     "page_node": "0:1",
     "frames": {
@@ -77,7 +78,8 @@
     "editable_text_count": 641,
     "verified_screen_count": 24,
     "verified_mobile_screen_count": 5,
-    "verified_at": "2026-10-25"
+    "verified_at": "2026-10-25",
+    "historical_only": true
   },
-  "note": "Native Figma layout frames are recreated (editable), but original detailed layers and photo assets cannot be recovered. Not guaranteed pixel-identical to HTML source."
+  "superseded_on": "2026-10-25"
 }

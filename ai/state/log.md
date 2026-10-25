@@ -42,3 +42,5 @@
 - 2026-10-25 [Shopify demos / PR #4] 4 real demo Shopify storefronts, 14 HTML pages; 4 vendor Impulse homepage recipes, 5 new patterns, 4 qualitative observations; explicitly no interactive/mobile QA.
 
 - 2026-10-25 [Shopify live demos / batch 2] Opened Empire Depot, Wonder, Be Yours and Taste home, collection and PDP documents + two empty cart pages; totals 8 demo stores / 28 HTML pages, 6 from 127 preset cohort, no interactive mobile/checkout tested.
+
+- 2026-10-25 [user-directed workflow reset] User superseded earlier Figma Stage 6/Afterhours restoration; removed active Figma node references, preserved old files under historical archive, cleared stale stage-4 approval, active Stage 2 research, fresh design later.

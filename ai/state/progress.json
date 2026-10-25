@@ -1,34 +1,27 @@
 {
   "project": "vsn-super-mart",
-  "stage": 6,
-  "stage_name": "Design recovery — editable layouts restored",
+  "stage": 2,
+  "stage_name": "Research — Shopify live demos",
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "24 Afterhours editable desktop/mobile Figma screen layouts rebuilt in file y5e3fEpx2eAFhLRFLisP0o (page 0:1); original Figma image assets not recovered and placeholders remain. Regenerate photos/Full HD, inspect all screen visuals/responsiveness, run QA and get team design approval before Stage 7. Figma Starter MCP tool-call quota reached after screenshot QA; do not falsely mark Stage 6 complete.",
-  "approvals": {
-    "4": {
-      "by": "human: no preference (delegated) -> Afterhours by lead agent",
-      "on": "2026-10-21"
-    }
-  },
+  "next_action": "Continue Shopify Theme Store research and opened demo HTML, source-linked editor settings and cross-platform AI banks. Previous Stage 6/Figma screens are historical and must NOT be treated as active. Start a new design from fresh Stage 4/5 direction only after research/options mapping, not by restoring the old Afterhours file.",
+  "approvals": {},
   "figma": {
-    "file_key": "y5e3fEpx2eAFhLRFLisP0o",
-    "page_node": "0:1",
-    "status": "editable_layouts_restored_assets_pending",
-    "old_file_key": "BxJuIRth8k4cCUbFnPV6ek"
+    "file_key": null,
+    "page_node": null,
+    "status": "no_active_design",
+    "historical_replaced_file_key": "y5e3fEpx2eAFhLRFLisP0o",
+    "historical_original_file_key": "BxJuIRth8k4cCUbFnPV6ek"
   },
   "updated_at": "2026-10-25",
-  "design_delivery_mode": "source_backed",
+  "design_delivery_mode": "fresh_design_to_be_created_later",
   "design_recovery": {
-    "mode": "source_backed",
-    "status": "editable_layouts_restored_assets_pending",
-    "figma_frames_available": true,
-    "original_images_available": false,
-    "visual_qa_passed": false,
+    "status": "archived",
     "manifest": "ai/recovery/afterhours.json",
-    "restored_screen_count": 24,
-    "restored_mobile_screens": 5,
-    "editable_text_count": 641
-  }
+    "active": false,
+    "reason": "user superseded prior design; new visual design will be created later"
+  },
+  "active_workstream": "research",
+  "current_design_status": "not_started"
 }

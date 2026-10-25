@@ -8,7 +8,7 @@ later cycles add a new **preset** (style + listing templates + niche sections) o
  [0 Bootstrap] ─► [1 Niche intake] ─► [2 Research] ─► [3 Options] ─► [4 Design search & direction]
                         ▲                                                         │
                         │                                                         ▼
- [9 Release preset] ◄─ [8 QA] ◄─ [7 Development] ◄─ [6 Design build/recovery] ◄─ [5 Design spec]
+ [9 Release preset] ◄─ [8 QA] ◄─ [7 Development] ◄─ [6 New design build] ◄─ [5 Design spec]
 ```
 
 State lives in `ai/state/progress.json`. Use `python3 scripts/vsn.py status | advance | log`.
@@ -78,7 +78,7 @@ where it can; human gates (🧑) need a recorded approval: `python3 scripts/vsn.
   Theme Store requirements), every app in `banks/options/apps.json` that has a `theme_integration` is in the
   spec's `app_map`, **and** `vsn.py check-design` still passes.
 
-## Stage 6 — Design build / recovery 🧑
+## Stage 6 — Fresh design build 🧑
 - **Reads:** spec.
 - **Does:** build in an accessible Figma page (when available): foundations (variables/tokens), components
   with variants, then desktop + mobile frames for home, collection, product, cart drawer + page, search,
