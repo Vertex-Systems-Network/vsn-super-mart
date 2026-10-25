@@ -5,7 +5,7 @@
   "method": "User-requested live-demo audit; mark every page and interaction pending until independently retrieved.",
   "reason": "Live-demo page documents accessible through public web, but GUI interactions, rendering and screenshot comparison remain unverified. Former Figma Stage 6 superseded; entirely new design planned later.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "ten_public_demo_store_documents_eight_in_selected_cohort_new_design_later",
+  "status": "public_storefront_html_batch4_complete_interactive_audits_pending",
   "checks": [
     "demo_entry_url",
     "home",
@@ -80,10 +80,10 @@
   "counts": {
     "selected_design_records": 127,
     "individual_official_preset_pages_verified": 127,
-    "live_home_demo_verified": 8,
-    "live_collection_verified": 7,
-    "live_product_verified": 7,
-    "live_cart_verified": 5,
+    "live_home_demo_verified": 10,
+    "live_collection_verified": 8,
+    "live_product_verified": 9,
+    "live_cart_verified": 6,
     "live_mobile_verified": 0
   },
   "required_evidence_per_screen": {
@@ -97,5 +97,5 @@
   "deduplication": "Avoid rechecking same URL with conflicting names; each preset can share engine but must be independently observed for layout claims.",
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
-  "count_semantics": "Document-only HTML opened; count not equivalent to interaction tested. Embedded cart markup on Motion homepage is NOT a separate cart page."
+  "count_semantics": "Opened actual HTML URL, not functional click test, screenshot or Theme Editor inspection. Legacy Expanse Food & Drink excluded from selected current preset count."
 }

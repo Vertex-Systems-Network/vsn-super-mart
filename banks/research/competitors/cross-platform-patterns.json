@@ -592,6 +592,58 @@
         "blog-posts"
       ],
       "design_implication": "Use visual image-led premium merchandising with merchant-set object identity; product color variants should not be mistaken for separate SKU groups; no copied campaign photos."
+    },
+    {
+      "id": "contextual-apparel-filter-controls",
+      "context": "Observed HTML from Shopify storefront demos highlights configurable user interface and potential data inconsistency risks.",
+      "signals": [
+        "Only render real Shopify filters relevant to product data. Never infer Salt Yard collection filters from its homepage."
+      ],
+      "source_entry_ids": [
+        "shopify-live-impulse-default",
+        "shopify-live-symmetry-salt-yard"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "card-swatches",
+        "pre-order"
+      ],
+      "design_implication": "Only render real Shopify filters relevant to product data. Never infer Salt Yard collection filters from its homepage."
+    },
+    {
+      "id": "preorder-shipping-pickup-consistency",
+      "context": "Observed HTML from Shopify storefront demos highlights configurable user interface and potential data inconsistency risks.",
+      "signals": [
+        "Selected variant, pickup location and merchant-supported release date must drive stock/pre-order; block stale 2025 dates."
+      ],
+      "source_entry_ids": [
+        "shopify-live-symmetry-salt-yard"
+      ],
+      "option_ids": [
+        "pre-order",
+        "inventory-status",
+        "pickup-availability",
+        "size-chart"
+      ],
+      "design_implication": "Selected variant, pickup location and merchant-supported release date must drive stock/pre-order; block stale 2025 dates."
+    },
+    {
+      "id": "legacy-beverage-price-age-countdown-integrity",
+      "context": "Observed HTML from Shopify storefront demos highlights configurable user interface and potential data inconsistency risks.",
+      "signals": [
+        "Use authenticated price comparisons and campaign/age/region settings; do not borrow unverified countdown, erroneous saving labels."
+      ],
+      "source_entry_ids": [
+        "shopify-live-expanse-food-drink-legacy"
+      ],
+      "option_ids": [
+        "collection-grid-list-toggle",
+        "age-verification",
+        "sale-badge-percent",
+        "countdown-timer"
+      ],
+      "design_implication": "Use authenticated price comparisons and campaign/age/region settings; do not borrow unverified countdown, erroneous saving labels."
     }
   ]
 }

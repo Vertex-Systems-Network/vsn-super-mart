@@ -331,6 +331,30 @@
         "store hours/location cards and newsletter"
       ],
       "design_hypothesis": "HTML content evidence supports feature presence but not interactive functionality, screenshots or a unique visual fingerprint."
+    },
+    {
+      "id": "shopify-live-impulse-default",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source"
+      ],
+      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access."
+    },
+    {
+      "id": "shopify-live-symmetry-salt-yard",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Category/sale rails, pre-order and sold-out cards, size/color swatches and promotional service banners"
+      ],
+      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access."
+    },
+    {
+      "id": "shopify-live-expanse-food-drink-legacy",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Beverage types and brands navigation, product and recipe shelves, static-looking countdown/age gate content; empty drawer copy"
+      ],
+      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access."
     }
   ]
 }

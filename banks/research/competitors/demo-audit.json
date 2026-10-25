@@ -5493,6 +5493,128 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-impulse-default",
+      "platform": "shopify",
+      "theme": "Impulse",
+      "preset": "Impulse",
+      "url": "https://impulse-theme-fashion.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public Shopify storefront document pages only; no clicked interaction/mobile/checkout/editor QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "quick-view",
+        "cart-drawer",
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "media-gallery-layouts",
+        "size-chart",
+        "sale-badge-percent",
+        "inventory-status",
+        "cart-page",
+        "empty-states",
+        "cart-notes",
+        "cart-upsell"
+      ],
+      "design_signals": [
+        "fashion-quickview-and-collection-facets",
+        "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source"
+      ],
+      "niches": [
+        "fashion-quickview-and-collection-facets"
+      ],
+      "notes": "Selected preset document evidence",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-symmetry-salt-yard",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Salt Yard",
+      "url": "https://salt-yard.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public Shopify storefront document pages only; no clicked interaction/mobile/checkout/editor QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "quick-add",
+        "pre-order",
+        "card-swatches",
+        "free-shipping-bar",
+        "variant-picker-styles",
+        "fit-info-block",
+        "size-chart",
+        "pickup-availability"
+      ],
+      "design_signals": [
+        "apparel-preorder-sizeguide-local-pickup",
+        "Category/sale rails, pre-order and sold-out cards, size/color swatches and promotional service banners"
+      ],
+      "niches": [
+        "apparel-preorder-sizeguide-local-pickup"
+      ],
+      "notes": "Selected preset document evidence",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-expanse-food-drink-legacy",
+      "platform": "shopify",
+      "theme": "Expanse",
+      "preset": "Historical Food & Drink demo — not current Spritz",
+      "url": "https://expanse-theme-food-and-drink.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public Shopify storefront document pages only; no clicked interaction/mobile/checkout/editor QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "age-verification",
+        "countdown-timer",
+        "faceted-filters",
+        "sorting",
+        "collection-grid-list-toggle",
+        "quick-add",
+        "product-blocks",
+        "collapsible-tabs",
+        "sale-badge-percent"
+      ],
+      "design_signals": [
+        "historical-large-catalog-beverage",
+        "Beverage types and brands navigation, product and recipe shelves, static-looking countdown/age gate content; empty drawer copy"
+      ],
+      "niches": [
+        "historical-large-catalog-beverage"
+      ],
+      "notes": "Legacy Expanse Food & Drink; NOT a confirmed current Spritz preset.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

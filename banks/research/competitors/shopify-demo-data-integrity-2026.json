@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "status": "research_examples_not_confirmed_interactive_bugs",
+  "cases": [
+    {
+      "id": "salt-yard-shipping-threshold-discrepancy",
+      "source_url": "https://salt-yard.myshopify.com/",
+      "severity": "medium",
+      "visible_evidence": "One homepage shipping ticker $150 versus another promotional promise $100",
+      "required_behavior": "Use consistent merchant/market shipping rules or label distinct contexts"
+    },
+    {
+      "id": "salt-yard-outdated-preorder",
+      "source_url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt",
+      "severity": "high",
+      "visible_evidence": "Expected shipping date says May 2025 despite October 2026 observation",
+      "required_behavior": "Only show valid merchant-controlled future dates for current selected variant"
+    },
+    {
+      "id": "impulse-sizeguide-single-variant",
+      "source_url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
+      "severity": "informational",
+      "visible_evidence": "Size chart present while product source JSON shows only Default Title SKU",
+      "required_behavior": "Do not fabricate variant options; showing an informational chart can be legitimate"
+    },
+    {
+      "id": "legacy-expanse-negative-discount-label",
+      "source_url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher",
+      "severity": "high",
+      "visible_evidence": "Extracted public document Save $-129 with equal price/compare price, rendered visual bug not independently confirmed",
+      "required_behavior": "Only show savings if compare_at_price > current_price > 0"
+    },
+    {
+      "id": "legacy-expanse-countdown-proof",
+      "source_url": "https://expanse-theme-food-and-drink.myshopify.com/",
+      "severity": "high",
+      "visible_evidence": "Giveaway countdown units in HTML, underlying real campaign expiry not checked",
+      "required_behavior": "Countdown must derive from real future merchant campaign date and truthful expiry"
+    }
+  ]
+}

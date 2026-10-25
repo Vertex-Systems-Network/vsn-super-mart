@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Shopify actual demo HTML, batch 4
+
+Verified Impulse original Home/Collection/PDP/empty cart and Symmetry Salt Yard Home/PDP. Opened legacy Expanse Food & Drink Home/Collection/PDP **without** misclassifying it as current Spritz. Totals now **13 Shopify demos / 42 HTML pages**; **10** selected popular preset demos. Added 3 patterns, 3 observations, 5 research data-integrity issues and 5 proposed original element-setting specs. Interactive/mobile/editor remains untested. Figma Stage 6 superseded; new visual design later.
+
+
 ## 2026-10-25 — Shopify demo Batch 3 and deeper merchant settings
 
 Added Motion Satchel **homepage** plus Local default **home/37-product collection/food PDP/empty cart**, totaling 10 stores and 33 documented HTML pages; 8 among original 127 preset index. Local evidence includes pickup locations, allergens, Nutri-score, variant choice and cart estimation form. Vendor docs for Local cart/popups/blog/style and Impulse v10 high-variant behavior separated as *vendor documentation*. Added 4 optional Options IDs, original suggested 6-element settings schema, 3 source patterns and 2 design observations. No interactions/mobile/editor claims. **Earlier Afterhours Stage 6 is superseded per user; active work remains research.**

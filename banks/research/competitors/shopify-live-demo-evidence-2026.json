@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "10 real Shopify demo storefronts with 33 public HTML documents; 8 selected 127 designs. One new Local home+collection+PDP+empty cart, Motion Satchel homepage only. Never claim button/mobile testing.",
+  "summary": "13 individual Shopify demo sites and 42 public page documents; 10 selected of 127. Legacy Expanse historical, not Spritz. All interactions untested.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -805,15 +805,249 @@
         "live mobile UX",
         "private Theme Editor access"
       ]
+    },
+    {
+      "id": "shopify-live-impulse-default",
+      "family": "Impulse",
+      "preset": "Impulse",
+      "catalog_preset_id": "impulse:impulse",
+      "selected_127": true,
+      "focus": "fashion-quickview-and-collection-facets",
+      "homepage": {
+        "url": "https://impulse-theme-fashion.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "quick-view",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "quick-view",
+          "cart-drawer"
+        ]
+      },
+      "collection": {
+        "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Seven products, availability/price/product-type filters, sort, quick view and sale labels"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "quick-view",
+          "card-badges"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card",
+          "quick-view"
+        ]
+      },
+      "product": {
+        "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Three product media images, size chart, compare at $120/current $96, stock message, materials and care; only Default Title product variant in source"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "size-chart",
+          "sale-badge-percent",
+          "inventory-status"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "size-guide",
+          "inventory",
+          "buy-buttons"
+        ]
+      },
+      "cart": {
+        "url": "https://impulse-theme-fashion.myshopify.com/cart",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Separate empty-cart HTML with continue shopping, popular recommendations; order note and checkout fee disclaimer in shared drawer markup"
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "cart-notes",
+          "cart-upsell"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "product-grid"
+        ]
+      },
+      "unverified": [
+        "cart mutation",
+        "filter/Quick View clicks",
+        "real mobile viewport",
+        "checkout and Theme Editor"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-symmetry-salt-yard",
+      "family": "Symmetry",
+      "preset": "Salt Yard",
+      "catalog_preset_id": "symmetry:salt-yard",
+      "selected_127": true,
+      "focus": "apparel-preorder-sizeguide-local-pickup",
+      "homepage": {
+        "url": "https://salt-yard.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Category/sale rails, pre-order and sold-out cards, size/color swatches and promotional service banners"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "quick-add",
+          "pre-order",
+          "card-swatches",
+          "free-shipping-bar"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-card",
+          "product-grid",
+          "promo-banner"
+        ]
+      },
+      "collection": null,
+      "product": {
+        "url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Three colors, S-XL sizes, fit scale and size guide; 4 in stock plus backorder/preorder, location pickup for two shops; stale May 2025 release text"
+        ],
+        "option_ids": [
+          "variant-picker-styles",
+          "fit-info-block",
+          "size-chart",
+          "pre-order",
+          "pickup-availability"
+        ],
+        "element_ids": [
+          "variant-picker",
+          "fit-info",
+          "size-guide",
+          "inventory",
+          "pickup"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "collection and cart fetch failed",
+        "preorder/variant state changes",
+        "pickup accuracy",
+        "responsive UI"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-expanse-food-drink-legacy",
+      "family": "Expanse",
+      "preset": "Historical Food & Drink demo — not current Spritz",
+      "catalog_preset_id": null,
+      "selected_127": false,
+      "focus": "historical-large-catalog-beverage",
+      "homepage": {
+        "url": "https://expanse-theme-food-and-drink.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Beverage types and brands navigation, product and recipe shelves, static-looking countdown/age gate content; empty drawer copy"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "age-verification",
+          "countdown-timer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "countdown",
+          "cart-drawer"
+        ]
+      },
+      "collection": {
+        "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Five products, price/brand/availability facets, Large/Small/List density, Quick shop/Cart labels"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-grid-list-toggle",
+          "quick-add"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid",
+          "quick-view"
+        ]
+      },
+      "product": {
+        "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Trust badges and tabs, product Q&A; extracted malformed Save $-129 text with unchanged $129 compare price; not screenshot confirmed"
+        ],
+        "option_ids": [
+          "product-blocks",
+          "collapsible-tabs",
+          "sale-badge-percent"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "inventory",
+          "buy-buttons"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "not validated as current Spritz preset",
+        "age gate",
+        "rendered savings bug",
+        "cart and mobile QA"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 10,
-    "opened_home": 10,
-    "opened_collection": 9,
-    "opened_product": 9,
-    "opened_empty_cart": 5,
-    "interactive_events_tested": 0
+    "opened_stores": 13,
+    "interactive_events_tested": 0,
+    "opened_home": 13,
+    "opened_collection": 11,
+    "opened_product": 12,
+    "opened_empty_cart": 6
   },
   "caveats": [
     "Area/Flow outside selected 127-theme-store-preset cohort",
@@ -821,5 +1055,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 8
+  "selected_127_document_count": 10
 }

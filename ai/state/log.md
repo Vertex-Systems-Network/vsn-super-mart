@@ -46,3 +46,5 @@
 - 2026-10-25 [user-directed workflow reset] User superseded earlier Figma Stage 6/Afterhours restoration; removed active Figma node references, preserved old files under historical archive, cleared stale stage-4 approval, active Stage 2 research, fresh design later.
 
 - 2026-10-25 [Shopify Batch 3] Motion Satchel home plus Local default home/collection/product/empty cart HTML; 5 official vendor settings docs, 4 optional options, 6 element specs, 3 patterns, 2 observations. Active Stage 2 research; new design will be made later.
+
+- 2026-10-25 [Shopify research / batch 4] Opened Impulse, Salt Yard and legacy Expanse Shopify demos (9 public HTML pages); added guardrails for pre-order dates, stock/pickup, price savings and real countdowns. Prior Figma remains archived.
