@@ -2,6 +2,13 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — PR #3 Shopify live-demo next-phase audit and platform editor constraints
+
+**Actual browser status:** Opera connector authorization denied. Public Shopify listings were previously opened but cannot be counted as interactive live demo UX. No competing merchant Theme Editor credentials exist, so editor feature details are drawn from official Shopify docs, not private editors.
+
+**Deliverables:** `shopify-editor-matrix-2026.json` first-party settings capabilities and source URLs; `shopify-platform-limits-2026.json` confirms 300 theme block files, 8 nested levels, 50 blocks/section, 25 sections/template and other limits; `shopify-live-demo-plan-2026.json` reserves all 127 records for documented home/category/PDP/cart/mobile audits. Scripts validate research scope and block cap. **Next:** Continue once a browser capable of opening View demo is authorized; do not record fictional live-demo URLs.
+
+
 ## 2026-10-25 — Official Shopify preset URLs: 127 of 127 verified
 
 Opened the remaining **71** individual Shopify Theme Store premium preset listing pages (36 in the earlier and 35 in final verification batches). All selected 127 official theme/preset pages now have real individual opened URLs. Updated individual catalog, general research audit, Shopify report, validation and README. **This is source/listing page verification, not live storefront demo verification.** No shopping cart, mobile interaction, Theme Editor or checkout was tested.

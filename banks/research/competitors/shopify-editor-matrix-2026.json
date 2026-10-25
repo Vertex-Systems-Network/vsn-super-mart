@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "verified_on": "2026-10-25",
+  "source_type": "official_shopify_documentation",
+  "status": "platform_editor_implementation_matrix_not_preset_editor_inspection",
+  "sources": [
+    "https://shopify.dev/docs/storefronts/themes/architecture",
+    "https://shopify.dev/docs/storefronts/themes/architecture/blocks",
+    "https://shopify.dev/docs/storefronts/themes/architecture/blocks/theme-blocks/schema",
+    "https://shopify.dev/docs/storefronts/themes/architecture/blocks/best-practices",
+    "https://shopify.dev/docs/storefronts/themes/architecture/limits",
+    "https://shopify.dev/docs/storefronts/themes/store/requirements",
+    "https://help.shopify.com/en/manual/online-store/themes/theme-structure/sections-and-blocks"
+  ],
+  "groups": [
+    {
+      "id": "global-theme-settings",
+      "shopify_location": "config/settings_schema.json",
+      "merchant_controls": [
+        "color schemes",
+        "typography (font picker)",
+        "layout width/spacing",
+        "logos & favicon",
+        "button/card design"
+      ],
+      "settings_types": [
+        "color",
+        "font_picker",
+        "range",
+        "select",
+        "image_picker"
+      ],
+      "scope": "global",
+      "status": "documented_platform"
+    },
+    {
+      "id": "theme-block-system",
+      "shopify_location": "blocks/*.liquid",
+      "merchant_controls": [
+        "name",
+        "instance settings",
+        "preset options",
+        "nesting via @theme",
+        "app slots via @app"
+      ],
+      "settings_types": [
+        "text",
+        "richtext",
+        "image_picker",
+        "color_background",
+        "select",
+        "range"
+      ],
+      "scope": "nested reusable",
+      "status": "documented_platform"
+    },
+    {
+      "id": "section-level-settings",
+      "shopify_location": "sections/*.liquid",
+      "merchant_controls": [
+        "heading/description",
+        "product or collection source",
+        "layout",
+        "spacing",
+        "content blocks"
+      ],
+      "settings_types": [
+        "text",
+        "collection",
+        "product",
+        "range",
+        "select"
+      ],
+      "scope": "section",
+      "status": "documented_platform"
+    },
+    {
+      "id": "section-groups",
+      "shopify_location": "sections/*.json",
+      "merchant_controls": [
+        "header",
+        "footer",
+        "announcement and utilities"
+      ],
+      "settings_types": [
+        "link_list",
+        "image_picker",
+        "checkbox"
+      ],
+      "scope": "all pages",
+      "status": "documented_platform"
+    },
+    {
+      "id": "template-structure",
+      "shopify_location": "templates/*.json",
+      "merchant_controls": [
+        "section ordering",
+        "per-template product/collection/blog templates"
+      ],
+      "settings_types": [
+        "section presets"
+      ],
+      "scope": "per template",
+      "status": "documented_platform"
+    },
+    {
+      "id": "app-integrations",
+      "shopify_location": "@app / theme app extensions",
+      "merchant_controls": [
+        "reviews app",
+        "wishlist/compare app",
+        "additional merchant app blocks"
+      ],
+      "settings_types": [
+        "app block"
+      ],
+      "scope": "per compatible section/block",
+      "status": "documented_platform"
+    }
+  ],
+  "requirements": [
+    {
+      "category": "naming",
+      "fact": "Use sentence case, descriptive labels, merchant vocabulary, no uninformative numbered options",
+      "source": "https://shopify.dev/docs/storefronts/themes/store/requirements"
+    },
+    {
+      "category": "products",
+      "fact": "Main product/featured product support @app blocks and flexible individual product blocks",
+      "source": "https://shopify.dev/docs/storefronts/themes/store/requirements"
+    },
+    {
+      "category": "custom-liquid",
+      "fact": "Custom Liquid sections available on all supported section templates",
+      "source": "https://shopify.dev/docs/storefronts/themes/store/requirements"
+    },
+    {
+      "category": "presets",
+      "fact": "Theme block presets can provide settings and nested child blocks",
+      "source": "https://shopify.dev/docs/storefronts/themes/architecture/blocks/theme-blocks/schema"
+    },
+    {
+      "category": "nested-limits",
+      "fact": "Theme blocks can nest 8 levels below sections; 300 block files total",
+      "source": "https://shopify.dev/docs/storefronts/themes/architecture/limits"
+    }
+  ],
+  "competitor_editor_tested": false,
+  "reason": "Cannot log into competitors' Shopify editors; public Theme Store showcases storefront and vendor claims, not privileged theme editor settings."
+}

@@ -118,6 +118,8 @@ Never skip stages. Never start development before the design gate passes.
     demo backlog for unvisited sites. Original code, imagery, brand assets and recognizable layouts must
     never be copied. Apply Theme Store policy and app-first architecture to every imported idea.
 
+19. **Shopify theme editor constraints.** Competitor preset listings don't reveal their actual editor settings. Use documented Shopify schema (`blocks/`, `sections/`, `config/`) as capability evidence and stay within hard limits (300 theme-block files, 8 nesting levels, 25 sections per JSON template, 50 blocks per section). Keep 192 conceptual elements distinct from compiled theme block file count. Never claim live competitor editor access without credentials and direct evidence.
+
 18. **Figma deletion recovery:** Never treat old Figma frame or image IDs as live after deletion. The original Python/HTML/slot sources are preserved; use `python3 scripts/afterhours_recovery.py check`. A source-only preview is not a restored editable canvas or recovered photo. Require fresh visual QA and design approval.
 
 ## 5. Repository map

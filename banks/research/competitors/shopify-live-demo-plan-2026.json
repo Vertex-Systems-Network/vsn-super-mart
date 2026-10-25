@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "scope": "The 127 selected popular Shopify theme/preset records",
+  "method": "User-requested live-demo audit; mark every page and interaction pending until independently retrieved.",
+  "reason": "Theme Store View demo destinations require browser interaction. Connected Opera browser access was denied; browser automation was not authorized. No live-demo URL or screenshot is invented.",
+  "input_bank": "banks/research/competitors/shopify-presets-2026.json",
+  "status": "live_demo_access_blocked_editor_platform_research_completed",
+  "checks": [
+    "demo_entry_url",
+    "home",
+    "collection",
+    "product",
+    "cart",
+    "mobile",
+    "quick_view",
+    "filters",
+    "variants",
+    "theme_editor",
+    "keyboard",
+    "lighthouse"
+  ],
+  "priority_groups": [
+    {
+      "tier": 1,
+      "families": [
+        "Impulse",
+        "Prestige",
+        "Symmetry",
+        "Broadcast",
+        "Enterprise",
+        "Warehouse",
+        "Empire",
+        "Impact"
+      ],
+      "objective": "Top paid/large-catalog and premium merchandisers; inspect home/category/PDP/cart"
+    },
+    {
+      "tier": 2,
+      "families": [
+        "Expanse",
+        "Local",
+        "Palo Alto",
+        "Pipeline",
+        "Motion",
+        "Focal",
+        "Stiletto",
+        "Concept"
+      ],
+      "objective": "Food, premium, high-motion and editorial behaviors"
+    },
+    {
+      "tier": 3,
+      "families": [
+        "Horizon",
+        "Dawn",
+        "Savor",
+        "Tinker",
+        "Atelier",
+        "Trade"
+      ],
+      "objective": "First-party free reference and native Shopify editor baseline"
+    },
+    {
+      "tier": 4,
+      "families": [
+        "Be Yours",
+        "Sleek",
+        "Wonder",
+        "Eurus",
+        "Release",
+        "Ignite",
+        "Shapes",
+        "Vision"
+      ],
+      "objective": "Remaining paid family variations and niche handling"
+    }
+  ],
+  "additional_families": "All 47 selected families remain in registry; priorities not exclusions.",
+  "counts": {
+    "selected_design_records": 127,
+    "individual_official_preset_pages_verified": 127,
+    "live_home_demo_verified": 0,
+    "live_collection_verified": 0,
+    "live_product_verified": 0,
+    "live_cart_verified": 0,
+    "live_mobile_verified": 0
+  },
+  "required_evidence_per_screen": {
+    "url": "Actual visited live demo URL, not Theme Store listing",
+    "observed_on": "Timestamp",
+    "screen": "home|collection|product|cart|mobile",
+    "source": "Fetched public HTML and/or real screenshot",
+    "notes": "Observed elements, design hierarchy and merchant-facing settings (only if actually accessible)",
+    "confidence": "document|browser_render|interactive_test"
+  },
+  "deduplication": "Avoid rechecking same URL with conflicting names; each preset can share engine but must be independently observed for layout claims."
+}
