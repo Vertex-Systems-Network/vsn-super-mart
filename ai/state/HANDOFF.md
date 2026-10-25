@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 10 official capability comparison (no demo count change)
+
+Freshly reopened Shopify official listing pages for Impact, Enterprise, Broadcast Relay and Savor. Created source-linked comparison of merchant-facing capabilities, Shopify Plus boundaries, vendor claims and original VSN implementation implications. This is **listing research**, not actual storefront or interactive testing. The Opera browser connector was denied; no real browser screenshots or clicks were performed. Demo count remains 43/127 selected home sources (47 hosts / 124 HTML documents). Stage 2 and archived-Figma policy unchanged. See `banks/research/competitors/shopify-capability-crosscheck-batch10-2026.md`. Continue remaining 84 real demo home audits without counting listings twice. PR #9 remains research-only.
+
+
 ## 2026-10-25 — PR #9 Batch 9: 43/127 selected demo HTML homepages
 
 12 additional first-party Shopify demo hosts (Tinker, Origin, Atelier, Rise, Ride, Crave, Fabric, Vessel, Dwell, Heritage, Ritual, Pitch), each with home and collection HTML, plus 11 independently opened PDPs (Pitch PDP unverified). Totals **47 hosts / 124 indexed public HTML documents / 43 of 127 selected homepage sources (33.9%)**. Progress **███████░░░░░░░░░░░░░**. Added 5 source-linked AI patterns + 12 qualitative design observations and adjusted cumulative validator floor. Source crawl ages include last-year Ride collection and 9-month-old Rise PDP; no real interactive QA, mobile rendering, checkout or competitor Theme Editor. Stage 2 remains; old Figma superseded. All work on PR #9 branch, main unmodified pending merge. Next audit remaining 84 demo home sources. See `banks/research/competitors/shopify-live-demo-batch9-2026.md`.

@@ -58,3 +58,5 @@
 - 2026-10-25 [Shopify research batch 8] Seven first-party demo sources, 15 additional HTML pages, five AI patterns, seven observations. Cumulative 35/89, selected 31/127.
 
 - 2026-10-25 — PR #9 Batch 9 opened 12 Shopify free theme demos, collection HTML for each, 11 PDP; 43/127 selected, 47 hosts /124 public indexed page documents. 5 new research patterns, 12 observations; no runtime/editor/mobile test or design changes.
+
+- 2026-10-25 — Stage 2 Batch 10: reopened official Shopify listings for Impact, Enterprise, Broadcast Relay and Savor; added source-linked capability/risk comparison; demo HTML coverage remains 43/127, not advanced without actual new demo sources; browser access denied.
