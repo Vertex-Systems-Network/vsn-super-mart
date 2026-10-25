@@ -121,7 +121,8 @@
     "Horizon raised the bar on editor flexibility: nested theme blocks and group blocks. VSN must match this with theme blocks.",
     "Since 2025 Theme Store rules forbid Dawn/Horizon-derived code and require real uniqueness, so VSN starts from Skeleton.",
     "Opportunity: speed, built-in conversion features that are Theme Store compliant, large-catalog (super mart) UX, RTL.",
-    "Cross-platform evidence must retain source type: official feature listing is not an interactive demo audit; WooCommerce/Magento functionality is not necessarily portable to Shopify."
+    "Cross-platform evidence must retain source type: official feature listing is not an interactive demo audit; WooCommerce/Magento functionality is not necessarily portable to Shopify.",
+    "Oct 19 Koala tracked-store chart puts Dawn/Trademark joint-leading by rounded count; do not treat older rank_koala_2026 as current. Large catalogs: prioritize Warehouse/Empire; DTC narration: Impact/Porto Single Product; food trust: Local/Porto Grocery."
   ],
   "sources": [
     {
@@ -159,8 +160,78 @@
     {
       "title": "Hyva Magento live demo",
       "url": "https://demo.hyva.io/"
+    },
+    {
+      "title": "Koala Inspector Top Shopify Themes Oct 19 2026",
+      "url": "https://koala-apps.io/shopify-leaderboards/top-themes/"
+    },
+    {
+      "title": "Astra starter templates official catalog",
+      "url": "https://startertemplates.com/"
+    },
+    {
+      "title": "BigCommerce Cornerstone config styles",
+      "url": "https://github.com/bigcommerce/cornerstone/blob/master/config.json"
     }
   ],
   "cross_platform_audit": "banks/research/competitors/demo-audit.json",
-  "cross_platform_patterns": "banks/research/competitors/cross-platform-patterns.json"
+  "cross_platform_patterns": "banks/research/competitors/cross-platform-patterns.json",
+  "popularity_snapshot": {
+    "source": "https://koala-apps.io/shopify-leaderboards/top-themes/",
+    "source_date": "2026-10-19",
+    "method": "Koala Inspector tracked storefront sample; counts and ranks are approximate snapshots, not worldwide market shares",
+    "top_10": [
+      {
+        "rank": 1,
+        "theme": "Dawn",
+        "tracked_stores": "66K"
+      },
+      {
+        "rank": 2,
+        "theme": "Trademark",
+        "tracked_stores": "66K"
+      },
+      {
+        "rank": 3,
+        "theme": "Impulse",
+        "tracked_stores": "23K"
+      },
+      {
+        "rank": 4,
+        "theme": "Prestige",
+        "tracked_stores": "23K"
+      },
+      {
+        "rank": 5,
+        "theme": "Debut",
+        "tracked_stores": "20K"
+      },
+      {
+        "rank": 6,
+        "theme": "Horizon",
+        "tracked_stores": "18K"
+      },
+      {
+        "rank": 7,
+        "theme": "Refresh",
+        "tracked_stores": "15K"
+      },
+      {
+        "rank": 8,
+        "theme": "Rise",
+        "tracked_stores": "15K"
+      },
+      {
+        "rank": 9,
+        "theme": "Impact",
+        "tracked_stores": "12K"
+      },
+      {
+        "rank": 10,
+        "theme": "Origin",
+        "tracked_stores": "11K"
+      }
+    ],
+    "note": "Legacy Koala ranks in themes[] are historical and not the current October 19 ordering. Popularity alone is not a design quality signal."
+  }
 }

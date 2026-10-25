@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated_at": "2026-10-25",
   "purpose": "Evidence -> VSN option IDs -> design decisions. Research only; never copy competitor code or pixels.",
   "patterns": [
@@ -191,6 +191,112 @@
         "collection-list"
       ],
       "design_implication": "Offer niche-aware category landing templates with accessible filter and review slots; never equate Woo plugin capabilities with Shopify native."
+    },
+    {
+      "id": "department-taxonomy-depth",
+      "context": "Large multidepartment shops need taxonomy that scales to high SKU count without hiding product discovery.",
+      "signals": [
+        "Warehouse collections claim to handle thousands of products",
+        "Porto Shop 35 multi-depth department navigation",
+        "Porto Grocery 3 custom categories"
+      ],
+      "source_entry_ids": [
+        "shopify-warehouse",
+        "woo-porto-shop35",
+        "woo-porto-grocery3"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "multi-level-menu",
+        "faceted-filters",
+        "subcollection-nav"
+      ],
+      "design_implication": "Use explicit L1/L2/L3 navigation configurations, mobile progressive disclosure, and filters driven by Shopify Search & Discovery."
+    },
+    {
+      "id": "single-product-sales-story",
+      "context": "DTC pages often need a different narrative from regular PDP templates.",
+      "signals": [
+        "Porto Shop 28 features, specs and reviews as continuous chapters",
+        "Shopify Impact quick-add and complementary products"
+      ],
+      "source_entry_ids": [
+        "woo-porto-single",
+        "shopify-impact"
+      ],
+      "option_ids": [
+        "featured-product",
+        "image-with-text",
+        "specs-table",
+        "product-reviews-slot",
+        "sticky-atc"
+      ],
+      "design_implication": "Offer optional product-led landing template and reusable benefits/specification sections; checkout remains native Shopify."
+    },
+    {
+      "id": "grocery-fulfillment-clarity",
+      "context": "Food shoppers need reliable service information before comparing products.",
+      "signals": [
+        "Porto Grocery 2 shipping/support messages",
+        "Porto Grocery 3 categories and delivery promises",
+        "Local pickup support"
+      ],
+      "source_entry_ids": [
+        "woo-porto-grocery2",
+        "woo-porto-grocery3",
+        "shopify-local"
+      ],
+      "option_ids": [
+        "free-shipping-bar",
+        "pickup-availability",
+        "collection-list",
+        "ingredients-nutrition"
+      ],
+      "design_implication": "Display merchant-configured thresholds and real pickup availability, separate delivery estimates from actual shipping rates."
+    },
+    {
+      "id": "variant-discovery-across-catalogs",
+      "context": "Shoppers in footwear, apparel and bikes need options before committing.",
+      "signals": [
+        "Blocksy E-Bike promotes variation swatches",
+        "Porto product gallery menu exposes layout variations",
+        "Prestige editorial media layouts"
+      ],
+      "source_entry_ids": [
+        "woo-blocksy-ebike",
+        "woo-porto-bookstore",
+        "shopify-prestige-vogue"
+      ],
+      "option_ids": [
+        "variant-picker-styles",
+        "card-swatches",
+        "media-gallery-layouts",
+        "product-multi-gallery-layouts"
+      ],
+      "design_implication": "Use accessible swatches, real variant media mappings and native deep links; never silently choose an unavailable variant."
+    },
+    {
+      "id": "style-versus-engine-separation",
+      "context": "Different niche presets should share one robust editor and commerce behavior.",
+      "signals": [
+        "Warehouse and Wood preset pages share a theme engine",
+        "Cornerstone Light/Warm are different visual channels",
+        "Shopify Prestige/Vogue share a feature platform"
+      ],
+      "source_entry_ids": [
+        "shopify-warehouse",
+        "shopify-warehouse-wood",
+        "bigcommerce-cornerstone",
+        "bigcommerce-cornerstone-warm",
+        "shopify-prestige-vogue"
+      ],
+      "option_ids": [
+        "theme-styles-presets",
+        "section-presets",
+        "nested-theme-blocks",
+        "color-schemes"
+      ],
+      "design_implication": "Presets vary typography/layout/density/tokens/content, not forked cart, navigation or PDP code."
     }
   ]
 }

@@ -79,6 +79,81 @@
         "claimed configurable sections"
       ],
       "design_hypothesis": "Premium editorial visual hierarchy; no exact screenshot fingerprint captured."
+    },
+    {
+      "id": "shopify-warehouse",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "vendor: deep filters",
+        "vendor: very large catalog support"
+      ],
+      "design_hypothesis": "Large-SKU navigation & filtering is a design and performance priority, not independently performance tested."
+    },
+    {
+      "id": "shopify-impact",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "vendor: big type and subtle animations",
+        "vendor: conversion components"
+      ],
+      "design_hypothesis": "Fashion/streetwear direction should use own typography and motion, not copy Impact."
+    },
+    {
+      "id": "shopify-empire",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "vendor: catalog comparisons",
+        "vendor: extensive menus"
+      ],
+      "design_hypothesis": "Comparison UX can be supported through an app slot while preserving theme listing functionality."
+    },
+    {
+      "id": "woo-porto-grocery2",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "delivery/service promise area",
+        "featured grocery offers"
+      ],
+      "design_hypothesis": "Place real threshold messaging close to departments and first product shelf."
+    },
+    {
+      "id": "woo-porto-grocery3",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "grocery taxonomy",
+        "sale/featured tabs",
+        "trust promise band"
+      ],
+      "design_hypothesis": "Advanced grocery nav calls for compact categories, editorial merchandising and pickup facts."
+    },
+    {
+      "id": "woo-porto-single",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "single product hero",
+        "narrative feature sections",
+        "360 tour and review sections"
+      ],
+      "design_hypothesis": "Long-form DTC product-template option can coexist with normal collection/detail templates."
+    },
+    {
+      "id": "bigcommerce-cornerstone-warm",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "home slider",
+        "shop-by-country and product-type nav",
+        "quick-view"
+      ],
+      "design_hypothesis": "Shared feature engine + multiple distinct visual presets."
+    },
+    {
+      "id": "woo-astra-clothing",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "vendor: full-screen apparel hero",
+        "vendor: parallax"
+      ],
+      "design_hypothesis": "Motion should respect reduced-motion and page performance; not independently audited."
     }
   ]
 }

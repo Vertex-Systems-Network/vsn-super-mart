@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — PR #1 research curated cohort finalized
+
+Added 23 new source-linked pages (Shopify major presets, Porto Grocery 2/3 & Shop 35/Book/Single Product, Astra, Blocksy E-Bike/Kiddy, Kadence directory and BigCommerce Cornerstone Warm). Research cohort now **55 entries**, 14 reusable patterns, 16 qualitative observations, with evidence-level verification and per-template (home/collection/PDP/cart/mobile) gaps. Wrote `banks/research/competitors/research-closeout.md` with implementation route and explicit limitations; updated Oct 19 Koala sample popularity baseline. Source records and mapping validated; no claim of testing every worldwide theme/demo or live cart/checkout. Stage 6 Figma is still not approved.
+
+
 ## 2026-10-25 — RESTORED EDITABLE LAYOUTS IN NEW FIGMA FILE
 
 **Destination:** https://www.figma.com/design/y5e3fEpx2eAFhLRFLisP0o/VSN-Super-Mart?node-id=0-1

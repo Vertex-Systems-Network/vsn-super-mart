@@ -28,3 +28,5 @@
 - 2026-10-25 [stage 0b / gen-z-store] Wrote five reusable element settings specifications for Afterhours (header/menu/gallery/quick-view/cart drawer), updated element statuses to spec, created unchecked stage-7 work units; no runtime build claimed.
 
 - 2026-10-25 [stage 6 / gen-z-store] Rebuilt Afterhours UI directly in new Figma file y5e3fEpx2eAFhLRFLisP0o: 24 native editable screens (19 desktop, 5 mobile), 641 text layers. Updated active IDs in spec/registry/state, historical old IDs preserved; original image assets/visual approval remain pending.
+
+- 2026-10-25 [research / gen-z-store] Closed curated competitive intelligence cohort for PR #1: 55 individually sourced records, 14 patterns, 16 design observations; excluded unsupported marketplace-exhaustive/browser-interaction claims; produced research closeout and October Shopify popularity snapshot.

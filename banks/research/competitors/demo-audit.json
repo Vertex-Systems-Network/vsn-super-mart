@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated_at": "2026-10-25",
   "purpose": "Source-traceable competitor research for VSN's AI workflow; NOT copies of third-party themes.",
   "evidence_levels": {
@@ -31,7 +31,17 @@
         "fashion-apparel",
         "gen-z-store"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-prestige",
@@ -57,7 +67,17 @@
         "jewelry-accessories",
         "beauty-skincare"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-prestige-couture",
@@ -78,7 +98,17 @@
       "niches": [
         "fashion-apparel"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-broadcast",
@@ -103,7 +133,17 @@
         "fashion-apparel",
         "beauty-skincare"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-broadcast-relay",
@@ -124,7 +164,17 @@
       "niches": [
         "electronics-gadgets"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-enterprise",
@@ -150,7 +200,17 @@
         "electronics-gadgets",
         "grocery-supermarket"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-enterprise-outlet",
@@ -171,7 +231,17 @@
       "niches": [
         "electronics-gadgets"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-symmetry",
@@ -195,7 +265,17 @@
         "fashion-apparel",
         "home-furniture"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-symmetry-salt-yard",
@@ -216,7 +296,17 @@
       "niches": [
         "food-beverage"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-horizon",
@@ -240,7 +330,17 @@
         "single-product-dtc",
         "fashion-apparel"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-local",
@@ -264,7 +364,17 @@
         "grocery-supermarket",
         "food-beverage"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-expanse",
@@ -289,7 +399,17 @@
         "grocery-supermarket",
         "electronics-gadgets"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "shopify-expanse-fetch",
@@ -310,7 +430,17 @@
       "niches": [
         "pets"
       ],
-      "notes": ""
+      "notes": "",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
+      "document_verification_status": "official_listing",
+      "document_verified_on": "2026-10-25",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-flatsome-classic",
@@ -335,7 +465,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-flatsome-mega",
@@ -363,7 +500,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-flatsome-big-sale",
@@ -386,7 +530,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-flatsome-fullscreen",
@@ -409,7 +560,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-flatsome-vendor",
@@ -432,7 +590,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-woodmart-vegetables",
@@ -457,7 +622,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-woodmart-furniture2",
@@ -481,7 +653,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-woodmart-electronics3",
@@ -505,7 +684,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-woodmart-pets",
@@ -529,7 +715,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-woodmart-marketplace2",
@@ -554,7 +747,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-woodmart-mega-electronics",
@@ -579,7 +779,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-porto-shop6",
@@ -603,7 +810,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-porto-shop4-category",
@@ -627,7 +841,14 @@
       "notes": "",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "bigcommerce-cornerstone",
@@ -655,7 +876,14 @@
       "notes": "Feature claims cross-checked with https://www.bigcommerce.com/theme/cornerstone-light/; interactions not tested.",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "magento-hyva",
@@ -683,7 +911,14 @@
       "notes": "Default Hyvä Magento 2 demo; do not assume Magento features can be ported directly to Shopify.",
       "document_verified_on": "2026-10-25",
       "document_verification_scope": "public HTML/text page opened; no end-to-end interaction, visual pixel comparison or mobile testing",
-      "document_verification_status": "accessible"
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-blocksy-modern-shop",
@@ -709,7 +944,14 @@
         "fashion-apparel",
         "single-product-dtc"
       ],
-      "notes": "Vendor page inspected; live startersites.io demo 403."
+      "notes": "Vendor page inspected; live startersites.io demo 403.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-blocksy-petsy",
@@ -734,7 +976,14 @@
       "niches": [
         "pets"
       ],
-      "notes": "Vendor page inspected; live startersites.io demo 403."
+      "notes": "Vendor page inspected; live startersites.io demo 403.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-blocksy-book-store",
@@ -759,7 +1008,14 @@
       "niches": [
         "books-stationery-art"
       ],
-      "notes": "Vendor page opened; live site not independently opened."
+      "notes": "Vendor page opened; live site not independently opened.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     },
     {
       "id": "woo-blocksy-furniture",
@@ -784,7 +1040,782 @@
       "niches": [
         "home-furniture"
       ],
-      "notes": "Vendor page opened; comparison is WooCommerce/plugin capability, not automatically native Shopify."
+      "notes": "Vendor page opened; comparison is WooCommerce/plugin capability, not automatically native Shopify.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-dawn",
+      "platform": "shopify",
+      "theme": "Dawn",
+      "preset": "Dawn",
+      "url": "https://themes.shopify.com/themes/dawn/presets/dawn",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "sticky-header",
+        "hero-slideshow",
+        "responsive-images",
+        "cart-page"
+      ],
+      "design_signals": [
+        "Low-density image-led native theme baseline"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "single-product-dtc"
+      ],
+      "notes": "Benchmark native OS2 behavior; NOT permissible to derive new Theme Store code from Dawn.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-impact",
+      "platform": "shopify",
+      "theme": "Impact",
+      "preset": "Impact",
+      "url": "https://themes.shopify.com/themes/impact/presets/impact",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "quick-add",
+        "sticky-atc",
+        "complementary-products",
+        "animation-settings",
+        "color-schemes"
+      ],
+      "design_signals": [
+        "Oversized typography and gradients per vendor",
+        "Conversion surfaces across collection and PDP"
+      ],
+      "niches": [
+        "electronics-gadgets",
+        "gen-z-store"
+      ],
+      "notes": "35+ sections claimed by official listing; not separately verified.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-warehouse",
+      "platform": "shopify",
+      "theme": "Warehouse",
+      "preset": "Warehouse",
+      "url": "https://themes.shopify.com/themes/warehouse/presets/warehouse",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "grid-density",
+        "metafield-dynamic-sources",
+        "sorting"
+      ],
+      "design_signals": [
+        "Very large catalog merchandising and collection filters",
+        "Technology and hardware category density"
+      ],
+      "niches": [
+        "electronics-gadgets",
+        "grocery-supermarket"
+      ],
+      "notes": "Vendor says collection pages handle thousands of products; load/speed claims untested.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-warehouse-wood",
+      "platform": "shopify",
+      "theme": "Warehouse",
+      "preset": "Wood",
+      "url": "https://themes.shopify.com/themes/warehouse/presets/wood",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "faceted-filters",
+        "sorting",
+        "grid-density"
+      ],
+      "design_signals": [
+        "Preset variation of high-SKU catalog system"
+      ],
+      "niches": [
+        "home-furniture",
+        "electronics-gadgets"
+      ],
+      "notes": "Shared Warehouse capabilities; no independent live demo testing.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-empire",
+      "platform": "shopify",
+      "theme": "Empire",
+      "preset": "Empire",
+      "url": "https://themes.shopify.com/themes/empire/presets/empire",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "product-compare",
+        "shop-the-look",
+        "localization-selectors"
+      ],
+      "design_signals": [
+        "Comparison-led catalog navigation",
+        "Large catalog with lifestyle editorial"
+      ],
+      "niches": [
+        "electronics-gadgets",
+        "home-furniture"
+      ],
+      "notes": "Feature claim product comparison belongs to vendor theme; Shopify integration must be reviewed.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-focal",
+      "platform": "shopify",
+      "theme": "Focal",
+      "preset": "Focal",
+      "url": "https://themes.shopify.com/themes/focal/presets/focal",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "video-section",
+        "image-banner",
+        "promo-grid"
+      ],
+      "design_signals": [
+        "Editorial and lookbook-oriented merchandising"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "beauty-skincare"
+      ],
+      "notes": "Official preset page reviewed; full interaction untested.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-trade",
+      "platform": "shopify",
+      "theme": "Trade",
+      "preset": "Trade",
+      "url": "https://themes.shopify.com/themes/trade/presets/trade",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "mega-menu",
+        "quantity-selector",
+        "volume-pricing",
+        "product-card-variants"
+      ],
+      "design_signals": [
+        "Wholesale/B2B product navigation baseline"
+      ],
+      "niches": [
+        "b2b-wholesale"
+      ],
+      "notes": "Official listing accessed; do not claim wholesale functionality fully tested.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-stiletto",
+      "platform": "shopify",
+      "theme": "Stiletto",
+      "preset": "Stiletto",
+      "url": "https://themes.shopify.com/themes/stiletto/presets/stiletto",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "promo-grid",
+        "product-card-variants",
+        "video-section",
+        "before-after"
+      ],
+      "design_signals": [
+        "Lifestyle editorial with conversion surfaces"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "beauty-skincare"
+      ],
+      "notes": "Official vendor positioning, not storefront UX test.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-sense",
+      "platform": "shopify",
+      "theme": "Sense",
+      "preset": "Sense",
+      "url": "https://themes.shopify.com/themes/sense/presets/sense",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "product-blocks",
+        "product-reviews-slot",
+        "rich-media"
+      ],
+      "design_signals": [
+        "Visual beauty/wellness product storytelling"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Shopify free theme feature listing; other details untested.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-craft",
+      "platform": "shopify",
+      "theme": "Craft",
+      "preset": "Craft",
+      "url": "https://themes.shopify.com/themes/craft/presets/craft",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "image-banner",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Artisan brand and story-led content"
+      ],
+      "niches": [
+        "home-furniture",
+        "handmade-gifts"
+      ],
+      "notes": "Shopify free theme listing; demo interaction unverified.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-refresh",
+      "platform": "shopify",
+      "theme": "Refresh",
+      "preset": "Refresh",
+      "url": "https://themes.shopify.com/themes/refresh/presets/refresh",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "collapsible-tabs",
+        "ingredients-nutrition",
+        "testimonials"
+      ],
+      "design_signals": [
+        "Health/beauty benefits, ingredients and trust details"
+      ],
+      "niches": [
+        "beauty-skincare",
+        "food-beverage"
+      ],
+      "notes": "Official free theme; features recheck per preset before implementation.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-prestige-vogue",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Vogue",
+      "url": "https://themes.shopify.com/themes/prestige/presets/vogue",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Luxury/high-end editorial variant within Prestige"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "jewelry-accessories"
+      ],
+      "notes": "Shopify official preset page opened; does not validate exact visual fingerprints.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-porto-shop35",
+      "platform": "woocommerce",
+      "theme": "Porto",
+      "preset": "Shop 35 (Full Site Editing)",
+      "url": "https://www.portotheme.com/wordpress/porto/shop35/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Public individual live demo home document inspected; no interaction/mobile QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "subcollection-nav",
+        "media-gallery-layouts",
+        "product-multi-gallery-layouts",
+        "product-360-spin"
+      ],
+      "design_signals": [
+        "Dense department taxonomy, multiple product page layouts",
+        "Varied product galleries and merchandising components"
+      ],
+      "niches": [
+        "electronics-gadgets",
+        "grocery-supermarket"
+      ],
+      "notes": "Live home HTML inspected. Product layout names appeared in menu; subpage interactions not tested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-porto-grocery2",
+      "platform": "woocommerce",
+      "theme": "Porto",
+      "preset": "Shop 40 (Grocery 2)",
+      "url": "https://www.portotheme.com/wordpress/porto/shop40/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Public individual live demo home document inspected; no interaction/mobile QA.",
+      "feature_option_ids": [
+        "free-shipping-bar",
+        "featured-collection",
+        "sale-badge-percent",
+        "product-reviews-slot"
+      ],
+      "design_signals": [
+        "Above-fold shipping/service promises",
+        "Featured-sale shelves and grocery product cards"
+      ],
+      "niches": [
+        "grocery-supermarket",
+        "food-beverage"
+      ],
+      "notes": "Opened live grocery demo; functionality provided by Woo/plugins not automatically Shopify-native.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-porto-grocery3",
+      "platform": "woocommerce",
+      "theme": "Porto",
+      "preset": "Shop 41 (Grocery 3)",
+      "url": "https://www.portotheme.com/wordpress/porto/shop41/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Public individual live demo home document inspected; no interaction/mobile QA.",
+      "feature_option_ids": [
+        "collection-list",
+        "mega-menu",
+        "promo-grid",
+        "featured-collection",
+        "cart-icon-count"
+      ],
+      "design_signals": [
+        "Deep grocery taxonomy, recipes, deals and delivery message",
+        "Tab-based featured/bestseller/sale merchandising"
+      ],
+      "niches": [
+        "grocery-supermarket",
+        "food-beverage"
+      ],
+      "notes": "Live home inspected; promo count claims not verified as real.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-porto-bookstore",
+      "platform": "woocommerce",
+      "theme": "Porto",
+      "preset": "Shop 25 (Book Store)",
+      "url": "https://www.portotheme.com/wordpress/porto/shop25/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Public individual live demo home document inspected; no interaction/mobile QA.",
+      "feature_option_ids": [
+        "collection-list",
+        "product-reviews-slot",
+        "media-gallery-layouts",
+        "product-360-spin",
+        "size-chart"
+      ],
+      "design_signals": [
+        "Category-first book discovery with multiple product types",
+        "Navigation exposing varied PDP layouts"
+      ],
+      "niches": [
+        "books-stationery-art"
+      ],
+      "notes": "Live home HTML inspected. The menu lists 360 and gallery configurations; not directly tested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-porto-single",
+      "platform": "woocommerce",
+      "theme": "Porto",
+      "preset": "Shop 28 (Single Product)",
+      "url": "https://www.portotheme.com/wordpress/porto/shop28/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Public individual live demo home document inspected; no interaction/mobile QA.",
+      "feature_option_ids": [
+        "featured-product",
+        "image-with-text",
+        "specs-table",
+        "product-reviews-slot",
+        "sticky-atc"
+      ],
+      "design_signals": [
+        "Long-form product landing with feature chapters and CTA",
+        "Specs/reviews/360 tour sections"
+      ],
+      "niches": [
+        "single-product-dtc",
+        "electronics-gadgets"
+      ],
+      "notes": "360 tour is demo copy, not native Shopify media proof.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-astra-brandstore",
+      "platform": "woocommerce",
+      "theme": "Astra Starter Templates",
+      "preset": "Brandstore",
+      "url": "https://startertemplates.com/templates/brandstore-02/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "hero-slideshow",
+        "featured-collection",
+        "color-schemes",
+        "typography-settings"
+      ],
+      "design_signals": [
+        "Mobile-friendly branded product hero and retail storefront"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official starter description opened; interactive WooCommerce demo not independently tested.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-astra-clothing",
+      "platform": "woocommerce",
+      "theme": "Astra Starter Templates",
+      "preset": "Clothing Store",
+      "url": "https://startertemplates.com/templates/clothing-store-02/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "hero-slideshow",
+        "cart-page",
+        "animation-settings",
+        "product-card-variants"
+      ],
+      "design_signals": [
+        "Full screen fashion hero",
+        "Parallax and shoppable product to checkout narrative"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official starter description, not interactive demo; avoid copying parallax literally.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-blocksy-kiddy",
+      "platform": "woocommerce",
+      "theme": "Blocksy",
+      "preset": "Kiddy Pro",
+      "url": "https://creativethemes.com/blocksy/starter-site/kiddy/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "faceted-filters",
+        "product-compare",
+        "size-chart",
+        "free-shipping-bar"
+      ],
+      "design_signals": [
+        "Kid fashion catalog filters and size guidance"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official vendor feature listing; live startersites.io not validated.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-blocksy-ebike",
+      "platform": "woocommerce",
+      "theme": "Blocksy",
+      "preset": "E-Bike Pro",
+      "url": "https://creativethemes.com/blocksy/starter-site/e-bike/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "faceted-filters",
+        "variant-picker-styles",
+        "card-swatches"
+      ],
+      "design_signals": [
+        "Technical product variant swatches",
+        "Bold color-coded adventure bike merchandising"
+      ],
+      "niches": [
+        "sports-outdoors",
+        "electronics-gadgets"
+      ],
+      "notes": "Vendor listing. Do not reproduce theme's design.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "woo-kadence-main",
+      "platform": "woocommerce",
+      "theme": "Kadence",
+      "preset": "Theme and starter templates overview",
+      "url": "https://wordpress.org/themes/kadence/",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "feature_option_ids": [
+        "header-layouts",
+        "footer-builder",
+        "color-schemes",
+        "rtl-support",
+        "typography-settings"
+      ],
+      "design_signals": [
+        "Customizable header/footer and global visual tokens",
+        "Ecommerce integration declared"
+      ],
+      "niches": [
+        "fashion-apparel",
+        "home-furniture"
+      ],
+      "notes": "This is a theme directory listing, NOT a particular Kadence store demo; live demo remains a backlog item.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "bigcommerce-cornerstone-warm",
+      "platform": "bigcommerce",
+      "theme": "Cornerstone",
+      "preset": "Warm",
+      "url": "https://cornerstone-warm-demo.mybigcommerce.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Public individual live demo home document inspected; no interaction/mobile QA.",
+      "feature_option_ids": [
+        "product-compare",
+        "quick-view",
+        "quick-add",
+        "hero-slideshow",
+        "collection-list"
+      ],
+      "design_signals": [
+        "Multi-tier categories and direct product purchase actions",
+        "Distinct light vs warm visual variant"
+      ],
+      "niches": [
+        "food-beverage",
+        "grocery-supermarket"
+      ],
+      "notes": "Warm individual live demo homepage inspected; BigCommerce compare/cart mechanics not tested.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
@@ -822,48 +1853,63 @@
       "platform": "woocommerce",
       "url": "https://creativethemes.com/blocksy/starter-sites/",
       "meaning": "Blocksy ecommerce starter catalog, official descriptions; demos may block automated access"
+    },
+    {
+      "platform": "shopify",
+      "url": "https://koala-apps.io/shopify-leaderboards/top-themes/",
+      "meaning": "2026-10-19 sample-based theme popularity baseline; not the entire Shopify store population."
+    },
+    {
+      "platform": "woocommerce",
+      "url": "https://startertemplates.com/",
+      "meaning": "Official Astra starter templates index, ecommerce variations."
+    },
+    {
+      "platform": "woocommerce",
+      "url": "https://wordpress.org/themes/kadence/",
+      "meaning": "Kadence official WP directory feature/compatibility evidence, not a specific demo."
+    },
+    {
+      "platform": "bigcommerce",
+      "url": "https://github.com/bigcommerce/cornerstone/blob/master/config.json",
+      "meaning": "Cornerstone Light/Bold/Warm channels documented in first-party theme config."
     }
   ],
   "backlog": [
     {
       "platform": "shopify",
-      "theme": "Impulse",
-      "reason": "Open interactive demo and inspect collection + PDP via browser"
-    },
-    {
-      "platform": "shopify",
-      "theme": "Prestige",
-      "reason": "Open interactive demo and test variants/cart on desktop and mobile"
-    },
-    {
-      "platform": "woocommerce",
-      "theme": "Astra",
-      "reason": "Identify and open commerce starter templates"
-    },
-    {
-      "platform": "woocommerce",
-      "theme": "Kadence",
-      "reason": "Open shop starter site and product templates"
-    },
-    {
-      "platform": "woocommerce",
-      "theme": "Porto",
-      "reason": "Audit separate grocery demos and product layouts"
-    },
-    {
-      "platform": "bigcommerce",
-      "theme": "Cornerstone",
-      "reason": "Audit additional preset styles and mobile interactions"
-    },
-    {
-      "platform": "magento",
-      "theme": "Hyvä",
-      "reason": "Check category/product/cart pages and performance"
+      "theme": "Selected official Shopify presets",
+      "reason": "Shopify Theme Store View demo buttons not accessible as direct links via retrieved HTML. Real storefront home/collection/PDP/cart/mobile testing awaits browser/session."
     },
     {
       "platform": "woocommerce",
       "theme": "Blocksy",
-      "reason": "Live demos for Modern Shop and Petsy linked from official pages returned 403. Recheck with real browser before upgrading evidence; inspect shop, PDP and mobile."
+      "reason": "startersites.io live demos denied automated access (403); vendor feature listings recorded accurately."
+    },
+    {
+      "platform": "woocommerce",
+      "theme": "Astra",
+      "reason": "Official starter template pages verified; specific live demos and product/checkout flows require interactive browser."
+    },
+    {
+      "platform": "woocommerce",
+      "theme": "Kadence",
+      "reason": "Theme WordPress.org listing verified; specific live store demo not yet accessible/verified."
+    },
+    {
+      "platform": "bigcommerce",
+      "theme": "Cornerstone Bold",
+      "reason": "Official config lists Bold variant but live URL was inaccessible in current fetch; only Light and Warm live sites inspected."
+    },
+    {
+      "platform": "magento",
+      "theme": "Hyvä",
+      "reason": "Home demo inspected; product/cart/checkout paths and mobile performance remain unverified."
+    },
+    {
+      "platform": "cross-platform",
+      "theme": "Future market coverage",
+      "reason": "New presets/releases after 2026-10-25 must be separately inspected. This is an ongoing research backlog, not a blocker for the curated research deliverable."
     }
   ],
   "verification_gaps": [
@@ -872,5 +1918,18 @@
     "Theme/preset universe is much larger than this initial curated research cohort. An entry in backlog is not an opened demo.",
     "Features listed on product pages are vendor claims unless independently visible in an opened demo.",
     "Live Blocksy starter sites on startersites.io returned HTTP 403 from current page fetch; only official preset description pages are verified."
-  ]
+  ],
+  "research_scope": {
+    "status": "curated_cohort_complete_not_marketplace_exhaustive",
+    "coverage_date": "2026-10-25",
+    "source_types": "official_listing_and_public_demo_document_only",
+    "excluded_from_claims": [
+      "interactive checkout",
+      "real mobile testing",
+      "image screenshot comparison",
+      "Lighthouse performance",
+      "all known worldwide theme demos"
+    ],
+    "report": "banks/research/competitors/research-closeout.md"
+  }
 }
