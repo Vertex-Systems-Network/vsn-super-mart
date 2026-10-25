@@ -5,7 +5,7 @@
   "method": "User-requested live-demo audit; mark every page and interaction pending until independently retrieved.",
   "reason": "Live-demo page documents accessible through public web, but GUI interactions, rendering and screenshot comparison remain unverified. Former Figma Stage 6 superseded; entirely new design planned later.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "shopify_live_demo_batch5_html_only_16_selected_presets",
+  "status": "batch6_public_demo_document_coverage_22_selected_out_of_127",
   "checks": [
     "demo_entry_url",
     "home",
@@ -80,9 +80,9 @@
   "counts": {
     "selected_design_records": 127,
     "individual_official_preset_pages_verified": 127,
-    "live_home_demo_verified": 16,
-    "live_collection_verified": 10,
-    "live_product_verified": 11,
+    "live_home_demo_verified": 22,
+    "live_collection_verified": 14,
+    "live_product_verified": 15,
     "live_cart_verified": 8,
     "live_mobile_verified": 0
   },
@@ -97,6 +97,6 @@
   "deduplication": "Avoid rechecking same URL with conflicting names; each preset can share engine but must be independently observed for layout claims.",
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
-  "count_semantics": "Source pages are indexed public HTML with differing crawl ages, not guaranteed current live store state. Interactive/cart mutation/mobile/theme editor and speed remain untested.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch5-2026.md"
+  "count_semantics": "Source-level public Shopify pages with crawl dates, NOT live browser action/transaction, true current inventory, mobile responsiveness, keyboard accessibility or merchant Theme Editor access.",
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch6-2026.md"
 }

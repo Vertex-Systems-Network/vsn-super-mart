@@ -422,6 +422,73 @@
         "Promotion countdown visual placeholders show no resolved timer value"
       ],
       "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+    },
+    {
+      "id": "shopify-live-stiletto-linen",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shoes navigated by category (heels/flats/mules/wedges) and material-neutral colors",
+        "New-arrival tabs, Quick View product shelves and real compare-at labels",
+        "Shoppable outfit, best-seller products, journal and repair/care style storytelling",
+        "Cart drawer source has contextual empty-cart collection suggestions"
+      ],
+      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+    },
+    {
+      "id": "shopify-live-stiletto-glimmer",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shop by Concern (face/hair/body/lip), skin type and format (elixirs/serums/masks) menus",
+        "Category hero, skincare bundle pricing and Minis purchase-more promotional text",
+        "Product cards list 3 sizes and Quick View, newsletter and brand values sections",
+        "Homepage empty drawer copy includes browse Body/Bath/Face/Hair categories"
+      ],
+      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+    },
+    {
+      "id": "shopify-live-stiletto-tapestry",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Ceramics navigation by form, glaze/finish, room/ritual and store workshops",
+        "One-of-a-kind numbered pieces, lighting and bowls with low stock/sold out messaging",
+        "Editorial craft hero, classes/calendar-like listings, appointment/course CTA and journal",
+        "Cart drawer has contextual empty state but no proof course bookings work"
+      ],
+      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+    },
+    {
+      "id": "shopify-live-prestige-strass",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Minimal gold-tone jewelry editorial, brand heritage and mineral-stone collection navigation",
+        "Menu by rings/earrings/necklaces/bracelets and story collections",
+        "Regional currency selector across multiple countries and empty drawer copy",
+        "Product shelf with Choose Options vs Add to Cart states"
+      ],
+      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+    },
+    {
+      "id": "shopify-live-sleek-wildpeak",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Tabbed category merchandising and color swatches with extra +4 option state",
+        "Mix & Max outfit with three product selectors and Add All to Cart markup",
+        "Flash Sale countdown copy and Selling Fast claims without verified stock/deadline",
+        "Compare-at placeholders $0.00 and customer review snippets from unrelated merchandise, indicating demo data requires scrutiny",
+        "French/English locale switch evidenced by /fr HTML"
+      ],
+      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+    },
+    {
+      "id": "shopify-live-dawn-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Handbag/footwear taxonomy and sections with hero storytelling and product collections",
+        "Simple sold-out, sale product cards using native color/price presentation",
+        "Currency/region selection, newsletter and standard cart notification strings in page HTML",
+        "This is a demonstration storefront—real commercial checkout not attempted"
+      ],
+      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
     }
   ]
 }

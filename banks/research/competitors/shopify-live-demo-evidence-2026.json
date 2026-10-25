@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "19 real demo store roots, 54 indexed HTML documents; 16/127 selected preset demo homes with page content observed. Source crawl ages vary; no real browser interactions, performance, checkout or screen QA.",
+  "summary": "25 Shopify demo stores, 68 opened page HTML documents; 22 of selected 127 have independently opened homepage documents, no browser transaction/mobile/editor QA. Six new live storefront examples include Stiletto 3, Prestige Strass, Sleek Wildpeak, Dawn.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -1449,15 +1449,474 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-stiletto-linen",
+      "family": "Stiletto",
+      "preset": "Linen",
+      "catalog_preset_id": "stiletto:linen",
+      "selected_127": true,
+      "focus": "quiet-luxury-footwear",
+      "homepage": {
+        "url": "https://stiletto-theme-linen.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "3 days",
+        "signals": [
+          "Shoes navigated by category (heels/flats/mules/wedges) and material-neutral colors",
+          "New-arrival tabs, Quick View product shelves and real compare-at labels",
+          "Shoppable outfit, best-seller products, journal and repair/care style storytelling",
+          "Cart drawer source has contextual empty-cart collection suggestions"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "quick-view",
+          "card-swatches",
+          "shop-the-look",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "product-card",
+          "shop-the-look",
+          "cart-drawer"
+        ]
+      },
+      "collection": null,
+      "product": null,
+      "cart": null,
+      "unverified": [
+        "All Footwear collection and Teddy Heel PDP links were cache misses",
+        "Cart page was not retrievable; drawer markup is not route",
+        "Any live Quick View/swatches or mobile rendering"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-stiletto-glimmer",
+      "family": "Stiletto",
+      "preset": "Glimmer",
+      "catalog_preset_id": "stiletto:glimmer",
+      "selected_127": true,
+      "focus": "skincare-concern-taxonomy",
+      "homepage": {
+        "url": "https://stiletto-theme-glimmer.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 days",
+        "signals": [
+          "Shop by Concern (face/hair/body/lip), skin type and format (elixirs/serums/masks) menus",
+          "Category hero, skincare bundle pricing and Minis purchase-more promotional text",
+          "Product cards list 3 sizes and Quick View, newsletter and brand values sections",
+          "Homepage empty drawer copy includes browse Body/Bath/Face/Hair categories"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "collection-list",
+          "featured-collection",
+          "bundle-display",
+          "quick-view",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "collection-list",
+          "product-grid",
+          "bundle",
+          "quick-view",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://stiletto-theme-glimmer.myshopify.com/collections",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 months",
+        "signals": [
+          "Collections index lists 29 categories, 16 visible on first index page with pagination",
+          "Concern/product-type browsing includes Bath, Balms, Face, Mists, Minis and Kits",
+          "This is collections index, NOT faceted product listing; do not claim collection filters"
+        ],
+        "option_ids": [
+          "list-collections-page",
+          "collection-list",
+          "pagination-modes"
+        ],
+        "element_ids": [
+          "collection-list",
+          "pagination"
+        ]
+      },
+      "product": null,
+      "cart": null,
+      "unverified": [
+        "Specific bundle PDP fetch missed",
+        "Quick View / size switching and bundle discount not clicked",
+        "No independent cart route or mobile renders"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-stiletto-tapestry",
+      "family": "Stiletto",
+      "preset": "Tapestry",
+      "catalog_preset_id": "stiletto:tapestry",
+      "selected_127": true,
+      "focus": "handmade-ceramics-workshops",
+      "homepage": {
+        "url": "https://stiletto-theme-tapestry.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "6 days",
+        "signals": [
+          "Ceramics navigation by form, glaze/finish, room/ritual and store workshops",
+          "One-of-a-kind numbered pieces, lighting and bowls with low stock/sold out messaging",
+          "Editorial craft hero, classes/calendar-like listings, appointment/course CTA and journal",
+          "Cart drawer has contextual empty state but no proof course bookings work"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "collection-list",
+          "blog-posts",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "collection-list",
+          "event-calendar",
+          "cart-drawer"
+        ]
+      },
+      "collection": {
+        "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all-ceramics",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "1 week",
+        "signals": [
+          "68 items, 16 visible per page, 5 pagination pages in source",
+          "Filter groups Form, Finish, Price and Availability with category counts",
+          "Sorting and clear-filters controls, item cards with Quick View",
+          "Ceramic attributes such as smoke-fired, raku, bronze, crawl and stone"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "pagination-modes",
+          "quick-view"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "pagination",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://stiletto-theme-tapestry.myshopify.com/products/4-piece-dinnerware-set",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "1 month",
+        "signals": [
+          "5-Piece Dinnerware Set PDP despite URL handle '4-piece-dinnerware-set'",
+          "Stone/Anthracite selectable finish, quantity and Add to Bag markup",
+          "Detailed set contents and microwave/dishwasher care guidance",
+          "PDP shipping >$150 differs from home shipping over $250; product vs general-context rules unverified"
+        ],
+        "option_ids": [
+          "variant-picker-styles",
+          "quantity-selector",
+          "product-blocks",
+          "collapsible-tabs",
+          "free-shipping-bar"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "quantity",
+          "buy-buttons",
+          "spec-table"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "Classes appointment/checkout route behavior",
+        "Conflicting thresholds not verified as same shipping zone",
+        "Actual variant change/cart mutation, screen render or checkout"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-prestige-strass",
+      "family": "Prestige",
+      "preset": "Strass",
+      "catalog_preset_id": "prestige:strass",
+      "selected_127": true,
+      "focus": "fine-jewelry-editorial",
+      "homepage": {
+        "url": "https://prestige-theme-strass2.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "3 days",
+        "signals": [
+          "Minimal gold-tone jewelry editorial, brand heritage and mineral-stone collection navigation",
+          "Menu by rings/earrings/necklaces/bracelets and story collections",
+          "Regional currency selector across multiple countries and empty drawer copy",
+          "Product shelf with Choose Options vs Add to Cart states"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "localization-selectors",
+          "featured-collection",
+          "quick-add",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "localization",
+          "product-grid",
+          "product-card",
+          "cart-drawer"
+        ]
+      },
+      "collection": {
+        "url": "https://prestige-theme-strass2.myshopify.com/collections/earrings",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 weeks",
+        "signals": [
+          "18 earrings with Availability/Price/Color facets, 8 named colors and filter result action",
+          "Per-product direct Add to Cart markup and collection benefit tile",
+          "Collection HTML lists 3-year warranty, but a PDP lists 2-year warranty—product/collection context not established"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "card-swatches",
+          "promo-tile-in-grid"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card",
+          "promo-banner"
+        ]
+      },
+      "product": {
+        "url": "https://prestige-theme-strass2.myshopify.com/products/wave-silver-necklace",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "3 days",
+        "signals": [
+          "Four gallery images and Sale price €2,150 localized",
+          "Gold/Rose Gold/Silver color references and a product purchase form",
+          "Product description, repair/warranty terms and shipping/returns content",
+          "PDP warranty text 2 years vs earrings category 3-year trust tile; context unresolved"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks",
+          "collapsible-tabs"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "buy-buttons",
+          "spec-table"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "Actual 18k/stones/provenance not fact-checked",
+        "Variations link vs same-product variants untested",
+        "Collection vs PDP warranty claim scope and locale UI behavior",
+        "Cart or mobile and Theme Editor"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-sleek-wildpeak",
+      "family": "Sleek",
+      "preset": "Wildpeak",
+      "catalog_preset_id": "sleek:wildpeak",
+      "selected_127": true,
+      "focus": "outdoor-apparel-bundle-promo",
+      "homepage": {
+        "url": "https://sleek-wildpeak.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "1 week",
+        "signals": [
+          "Tabbed category merchandising and color swatches with extra +4 option state",
+          "Mix & Max outfit with three product selectors and Add All to Cart markup",
+          "Flash Sale countdown copy and Selling Fast claims without verified stock/deadline",
+          "Compare-at placeholders $0.00 and customer review snippets from unrelated merchandise, indicating demo data requires scrutiny",
+          "French/English locale switch evidenced by /fr HTML"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "card-swatches",
+          "bundle-display",
+          "countdown-timer",
+          "localization-selectors",
+          "sale-badge-percent"
+        ],
+        "element_ids": [
+          "product-grid",
+          "product-card",
+          "bundle",
+          "countdown",
+          "localization",
+          "testimonial"
+        ]
+      },
+      "collection": null,
+      "product": {
+        "url": "https://sleek-wildpeak.myshopify.com/products/amelia-hiking-pants-with-adjustable-waist-camel",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "1 month",
+        "signals": [
+          "Fashion PDP includes fit measurement guide and collapsible Material/Care, Fit/Sizing, Shipping/Returns sections",
+          "Add to Cart, size/stock text and product question form appear in document",
+          "Testimonials are reused across multiple different products; demo-only data not trusted",
+          "Shipping threshold $500 on product matches homepage announcement"
+        ],
+        "option_ids": [
+          "size-chart",
+          "fit-info-block",
+          "collapsible-tabs",
+          "contact-form",
+          "product-reviews-slot"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "size-guide",
+          "fit-info",
+          "accordion",
+          "contact-form"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "Mix & Max group purchase and discount logic not clicked",
+        "Unverified live stock/flash sale expiry and review authenticity",
+        "Actual cart result and responsive layouts"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-dawn-free",
+      "family": "Dawn",
+      "preset": "Dawn",
+      "catalog_preset_id": "dawn:standalone",
+      "selected_127": true,
+      "focus": "shopify-free-native-baseline",
+      "homepage": {
+        "url": "https://theme-dawn-demo.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "same day",
+        "signals": [
+          "Handbag/footwear taxonomy and sections with hero storytelling and product collections",
+          "Simple sold-out, sale product cards using native color/price presentation",
+          "Currency/region selection, newsletter and standard cart notification strings in page HTML",
+          "This is a demonstration storefront—real commercial checkout not attempted"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "card-badges",
+          "localization-selectors",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "product-card",
+          "localization",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://theme-dawn-demo.myshopify.com/collections/bags",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "same day",
+        "signals": [
+          "26-bag product listing, category navigation and Filter/Sort UI labels",
+          "Sold-out and sale cards with accurate-looking compare prices; no actual filtering click",
+          "Native-looking product grid and all 26 listing entries in page HTML"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "card-badges",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card",
+          "collection-banner"
+        ]
+      },
+      "product": {
+        "url": "https://theme-dawn-demo.myshopify.com/products/small-convertible-flex-bag-cappuccino",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "same day",
+        "signals": [
+          "22 media count in gallery UI",
+          "Cappuccino/Clay/Denim/Harvest color options shown; variant currently Sold out",
+          "Compare-at $395 vs current $320 CAD with no invalid negative-saving label",
+          "Materials description, shipping/returns copy, disabled purchase state"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "inventory-status",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "inventory",
+          "buy-buttons"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "Homepage says Item added to cart as inert modal markup—not a transaction test",
+        "All sales/stock states and locale pricing only from HTML",
+        "No actual mobile/device or Shopify Theme Editor"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 19,
-    "interactive_events_tested": 0,
-    "opened_home": 19,
-    "opened_collection": 13,
-    "opened_product": 14,
-    "opened_empty_cart": 8
+    "opened_stores": 25,
+    "opened_home": 25,
+    "opened_collection": 17,
+    "opened_product": 18,
+    "opened_empty_cart": 8,
+    "interactive_events_tested": 0
   },
   "caveats": [
     "Area/Flow outside selected 127-theme-store-preset cohort",
@@ -1465,5 +1924,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 16
+  "selected_127_document_count": 22
 }

@@ -50,3 +50,5 @@
 - 2026-10-25 [Shopify research / batch 4] Opened Impulse, Salt Yard and legacy Expanse Shopify demos (9 public HTML pages); added guardrails for pre-order dates, stock/pickup, price savings and real countdowns. Prior Figma remains archived.
 
 - 2026-10-25 [Shopify demo batch 5] Six additional selected Theme Store presets verified in actual indexed HTML, 12 new page documents, 4 research patterns and 5 planned control sets; 16/127 demo homepage coverage. No mobile/cart mutations/editor access.
+
+- 2026-10-25 [Shopify research / batch 6] Six more official preset demo home HTML sources and 8 deeper indexed pages; 25 store roots/68 pages, 22/127 selected coverage. Source claim hygiene, Shopify free Dawn baseline and original design settings recorded. CI expected before merge.

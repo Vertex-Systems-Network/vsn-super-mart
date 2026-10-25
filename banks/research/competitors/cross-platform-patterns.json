@@ -719,6 +719,105 @@
         "countdown-timer"
       ],
       "design_implication": "Derive preorder and shipping promises from current merchant/market/variant data; avoid hardcoded inconsistent thresholds and unverified sales countdown."
+    },
+    {
+      "id": "three-presets-one-editorial-engine",
+      "context": "Stiletto Linen/Glimmer/Tapestry actual storefront documents show footwear, skincare and ceramics/workshops layouts on one paid theme family.",
+      "source_entry_ids": [
+        "shopify-live-stiletto-linen",
+        "shopify-live-stiletto-glimmer",
+        "shopify-live-stiletto-tapestry"
+      ],
+      "signals": [
+        "Linen: footwear and color rails plus Shop the Look",
+        "Glimmer: skin concern, type and Mini Kits/collections index",
+        "Tapestry: ceramics by form/finish, classes and one-off inventory"
+      ],
+      "option_ids": [
+        "theme-styles-presets",
+        "collection-list",
+        "shop-the-look",
+        "featured-collection"
+      ],
+      "design_implication": "Keep shared native Shopify commerce engine but let merchants compose editorial sections and customize taxonomy/metafield content by niche; no cloned competitor visuals."
+    },
+    {
+      "id": "faceted-collection-by-merchandise-attribute",
+      "context": "Tapestry ceramics and Prestige Strass jewelry show distinct faceted schema (form/finish vs color/price).",
+      "source_entry_ids": [
+        "shopify-live-stiletto-tapestry",
+        "shopify-live-prestige-strass"
+      ],
+      "signals": [
+        "Tapestry 68 ceramic items faceted by Form and Finish, with Price/Availability",
+        "Strass 18 earrings filtered by Availability/Price/Color"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "metafield-dynamic-sources",
+        "pagination-modes"
+      ],
+      "design_implication": "Use Shopify Search & Discovery filter objects and merchant-configured metafields; avoid hardcoded facet groups or copying static counts."
+    },
+    {
+      "id": "demo-claim-scope-and-pricing-hygiene",
+      "context": "Demo pages can contain conflicting shipping/warranty claims or compare-at placeholders; content must not be trusted blindly.",
+      "source_entry_ids": [
+        "shopify-live-stiletto-tapestry",
+        "shopify-live-prestige-strass",
+        "shopify-live-sleek-wildpeak"
+      ],
+      "signals": [
+        "Tapestry homepage vs PDP $250/$150 free-shipping lines",
+        "Strass 3-year earrings tile vs 2-year Wave Silver PDP warranty copy",
+        "Wildpeak crossed-out $0.00 compare-at and time-limited sale messaging"
+      ],
+      "option_ids": [
+        "free-shipping-bar",
+        "product-badges-trust",
+        "sale-badge-percent",
+        "countdown-timer"
+      ],
+      "design_implication": "Determine merchant/region/product rule scope before exposing promises; only print positive compare-at discounts and real event timers."
+    },
+    {
+      "id": "native-free-dawn-reference",
+      "context": "A public first-party Dawn demo offers useful baseline behavior separate from premium theme add-ons.",
+      "source_entry_ids": [
+        "shopify-live-dawn-free"
+      ],
+      "signals": [
+        "26-product bag listing with basic filters/sort",
+        "One product with 22 gallery media, four color labels and Sold-out/compare price state",
+        "No proof that sample cart 'Item added' notification occurred"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "variant-picker-styles",
+        "inventory-status",
+        "cart-page"
+      ],
+      "design_implication": "Use documented Shopify OS 2.0 API behavior as functional baseline, but build original VSN theme markup and design; do not derive Theme Store implementation from Dawn code."
+    },
+    {
+      "id": "outfit-builder-versus-static-shop-the-look",
+      "context": "Wildpeak's Mix & Max selectors and Tapestry one-of-a-kind ceramic cards are different shopping interaction classes.",
+      "source_entry_ids": [
+        "shopify-live-sleek-wildpeak",
+        "shopify-live-stiletto-tapestry"
+      ],
+      "signals": [
+        "Mix & Max offers three selectors and Add All to Cart label (not clicked)",
+        "Tapestry sells signed limited-quantity unique physical objects and lists workshops"
+      ],
+      "option_ids": [
+        "bundle-display",
+        "shop-the-look",
+        "inventory-status",
+        "featured-collection"
+      ],
+      "design_implication": "Explicitly classify bundles/multi-item cart rules and single-SKU products; do not conflate a static lookbook with a validated bundle/cart engine."
     }
   ]
 }

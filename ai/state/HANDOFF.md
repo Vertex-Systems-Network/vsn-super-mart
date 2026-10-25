@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Shopify demo research batch 6 (progress 22/127 = 17.3%)
+
+Six new selected storefronts: Stiletto Linen/Glimmer/Tapestry, Prestige Strass, Sleek Wildpeak, and Shopify Dawn. Total 25 demo hosts, 68 retrieved public indexed HTML documents; 22 of 127 selected demos now have opened home documents (17.3%). Deep category/product pages where retrievable, exact source-crawl recency, five new system patterns, six design observations and six truthful-claims QA cases. Added six **proposed** VSN control sets. This is not real-time click, checkout, responsive screenshot or Theme Editor verification. Keep displaying a per-batch progress bar. Stage 2 Research remains; old Figma is historical.
+
+
 ## 2026-10-25 — PR #8 Shopify live demo Batch 5; progress bar 16/127
 
 Six newly opened selected preset store homes: Warehouse Wood, Focal Ivory & Sapphire, Symmetry Beatnik & Duke, Expanse Fetch. Additional actual documents for Duke collection/PDP, Fetch collection/PDP/empty cart, Focal Sapphire empty cart. Totals **19 storefronts / 54 indexed HTML documents; 16/127 selected homepage sources (12.6%)**. Many page crawl dates are older, so document evidence is NOT live click/device testing. Four new source-backed patterns, six design observations and five original proposed merchant settings added. User requested progress bar each time; show coverage 16/127 and change with each batch. Fresh design later; old Figma remains archived.

@@ -74,3 +74,7 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 
 - `competitors/shopify-live-demo-batch5-2026.md`: six additional selected official preset storefront HTML sources; total 19 demo hosts and 54 page documents. Selected cohort 16/127 (12.6%) with at least opened home HTML, not functional/mobile audits.
 - `banks/elements/specs/shopify-home-category-pdp-controls-2026.json`: proposed original VSN search, inventory, faceting, cart and variant settings, NOT implemented.
+
+- `competitors/shopify-live-demo-batch6-2026.md`: Six new actual Shopify live HTML stores (Stiletto Linen/Glimmer/Tapestry, Prestige Strass, Sleek Wildpeak, Dawn); 25 store hosts, 68 page documents and 22/127 selected presets with live homepage evidence.
+- `competitors/shopify-demo-source-claims-batch6-2026.json`: six merchant claim/pricing/urgency/source-evidence QA cases; not executed bugs.
+- `banks/elements/specs/shopify-merchandising-controls-batch6-2026.json`: six merchant control groups proposed to preserve authentic filters, variants, bundles, offer promises and carts; not implemented.

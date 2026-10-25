@@ -20,8 +20,8 @@ def check():
         errors.append("live demo plan mismatch with preset inventory")
     live=load(BASE/"shopify-live-demo-evidence-2026.json")
     stores=live.get("stores",[])
-    if len(stores)!=19 or len({d["id"] for d in stores})!=19:
-        errors.append("expected nineteen distinct public demo document records")
+    if len(stores)!=25 or len({d["id"] for d in stores})!=25:
+        errors.append("expected twenty-five distinct public demo document records")
     selected=[d for d in stores if d.get("selected_127")]
     for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
         n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
@@ -102,6 +102,27 @@ def check():
             p=store.get(k)
             if p and store["id"] in {x["id"] for x in deep.get("sources",[])} and not p.get("source_crawl_recency"):
                 errors.append("batch5 page missing source crawl recency: "+store["id"]+"/"+k)
+    batch6=load(BASE/"shopify-demo-source-claims-batch6-2026.json")
+    ui=load(ROOT/"banks/elements/specs/shopify-merchandising-controls-batch6-2026.json")
+    if len(batch6.get("examples",[]))!=6 or len(ui.get("controls",[]))!=6:
+        errors.append("batch6 evidence issues/merchant controls incomplete")
+    batch_urls={p["url"] for store in stores for p in (store.get("homepage"),store.get("collection"),store.get("product"),store.get("cart")) if p}
+    for example in batch6.get("examples",[]):
+        for key in ("source_url","other_source_url"):
+            if key in example and example[key] not in batch_urls:
+                errors.append("batch6 issue missing inspected source: "+example["id"])
+    for item in ui.get("controls",[]):
+        if item.get("id") not in els:
+            errors.append("batch6 unknown element "+str(item.get("id")))
+        for oid in item.get("option_ids",[]):
+            if oid not in opts:
+                errors.append("batch6 unknown option "+oid)
+    for store in stores:
+        if store["id"] in {s["id"] for s in ui.get("sources",[])}:
+            for kind in ("homepage","collection","product","cart"):
+                p=store.get(kind)
+                if p and not p.get("source_crawl_recency"):
+                    errors.append("batch6 missing page crawl provenance "+store["id"]+"/"+kind)
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
@@ -115,4 +136,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: 19 Shopify demo HTML stores (16 in cohort), interaction/mobile checks still pending")
+    print("Shopify editor audit OK: 25 Shopify demo HTML stores (22 in cohort), interaction/mobile checks still pending")

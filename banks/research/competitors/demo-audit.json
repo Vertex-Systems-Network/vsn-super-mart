@@ -5848,6 +5848,250 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-stiletto-linen",
+      "platform": "shopify",
+      "theme": "Stiletto",
+      "preset": "Linen",
+      "url": "https://stiletto-theme-linen.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "indexed_public_demo_html_accessible",
+      "document_verification_scope": "Opened real public Shopify demo source HTML; indexed crawl age recorded by page. No executed interactions/checkout/mobile/screenshots/Theme Editor.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "quick-view",
+        "card-swatches",
+        "shop-the-look",
+        "cart-drawer"
+      ],
+      "design_signals": [
+        "quiet-luxury-footwear",
+        "Shoes navigated by category (heels/flats/mules/wedges) and material-neutral colors",
+        "New-arrival tabs, Quick View product shelves and real compare-at labels"
+      ],
+      "niches": [
+        "quiet-luxury-footwear"
+      ],
+      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-stiletto-glimmer",
+      "platform": "shopify",
+      "theme": "Stiletto",
+      "preset": "Glimmer",
+      "url": "https://stiletto-theme-glimmer.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "indexed_public_demo_html_accessible",
+      "document_verification_scope": "Opened real public Shopify demo source HTML; indexed crawl age recorded by page. No executed interactions/checkout/mobile/screenshots/Theme Editor.",
+      "feature_option_ids": [
+        "mega-menu",
+        "collection-list",
+        "featured-collection",
+        "bundle-display",
+        "quick-view",
+        "newsletter-signup",
+        "list-collections-page",
+        "pagination-modes"
+      ],
+      "design_signals": [
+        "skincare-concern-taxonomy",
+        "Shop by Concern (face/hair/body/lip), skin type and format (elixirs/serums/masks) menus",
+        "Category hero, skincare bundle pricing and Minis purchase-more promotional text"
+      ],
+      "niches": [
+        "skincare-concern-taxonomy"
+      ],
+      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-stiletto-tapestry",
+      "platform": "shopify",
+      "theme": "Stiletto",
+      "preset": "Tapestry",
+      "url": "https://stiletto-theme-tapestry.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "indexed_public_demo_html_accessible",
+      "document_verification_scope": "Opened real public Shopify demo source HTML; indexed crawl age recorded by page. No executed interactions/checkout/mobile/screenshots/Theme Editor.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "collection-list",
+        "blog-posts",
+        "cart-drawer",
+        "faceted-filters",
+        "sorting",
+        "pagination-modes",
+        "quick-view",
+        "variant-picker-styles",
+        "quantity-selector",
+        "product-blocks",
+        "collapsible-tabs",
+        "free-shipping-bar"
+      ],
+      "design_signals": [
+        "handmade-ceramics-workshops",
+        "Ceramics navigation by form, glaze/finish, room/ritual and store workshops",
+        "One-of-a-kind numbered pieces, lighting and bowls with low stock/sold out messaging"
+      ],
+      "niches": [
+        "handmade-ceramics-workshops"
+      ],
+      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-prestige-strass",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Strass",
+      "url": "https://prestige-theme-strass2.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "indexed_public_demo_html_accessible",
+      "document_verification_scope": "Opened real public Shopify demo source HTML; indexed crawl age recorded by page. No executed interactions/checkout/mobile/screenshots/Theme Editor.",
+      "feature_option_ids": [
+        "mega-menu",
+        "localization-selectors",
+        "featured-collection",
+        "quick-add",
+        "cart-drawer",
+        "faceted-filters",
+        "sorting",
+        "card-swatches",
+        "promo-tile-in-grid",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks",
+        "collapsible-tabs"
+      ],
+      "design_signals": [
+        "fine-jewelry-editorial",
+        "Minimal gold-tone jewelry editorial, brand heritage and mineral-stone collection navigation",
+        "Menu by rings/earrings/necklaces/bracelets and story collections"
+      ],
+      "niches": [
+        "fine-jewelry-editorial"
+      ],
+      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-sleek-wildpeak",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Wildpeak",
+      "url": "https://sleek-wildpeak.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "indexed_public_demo_html_accessible",
+      "document_verification_scope": "Opened real public Shopify demo source HTML; indexed crawl age recorded by page. No executed interactions/checkout/mobile/screenshots/Theme Editor.",
+      "feature_option_ids": [
+        "featured-collection",
+        "card-swatches",
+        "bundle-display",
+        "countdown-timer",
+        "localization-selectors",
+        "sale-badge-percent",
+        "size-chart",
+        "fit-info-block",
+        "collapsible-tabs",
+        "contact-form",
+        "product-reviews-slot"
+      ],
+      "design_signals": [
+        "outdoor-apparel-bundle-promo",
+        "Tabbed category merchandising and color swatches with extra +4 option state",
+        "Mix & Max outfit with three product selectors and Add All to Cart markup"
+      ],
+      "niches": [
+        "outdoor-apparel-bundle-promo"
+      ],
+      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-dawn-free",
+      "platform": "shopify",
+      "theme": "Dawn",
+      "preset": "Dawn",
+      "url": "https://theme-dawn-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "indexed_public_demo_html_accessible",
+      "document_verification_scope": "Opened real public Shopify demo source HTML; indexed crawl age recorded by page. No executed interactions/checkout/mobile/screenshots/Theme Editor.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "card-badges",
+        "localization-selectors",
+        "newsletter-signup",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "inventory-status",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "shopify-free-native-baseline",
+        "Handbag/footwear taxonomy and sections with hero storytelling and product collections",
+        "Simple sold-out, sale product cards using native color/price presentation"
+      ],
+      "niches": [
+        "shopify-free-native-baseline"
+      ],
+      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
