@@ -154,6 +154,89 @@
         "vendor: parallax"
       ],
       "design_hypothesis": "Motion should respect reduced-motion and page performance; not independently audited."
+    },
+    {
+      "id": "shopify-impulse",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: shoppable hero",
+        "Vendor: campaign banners and testimonials"
+      ],
+      "design_hypothesis": "Prototype original editorial promotion modules."
+    },
+    {
+      "id": "shopify-symmetry",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: drag-and-drop section variants",
+        "Vendor: filters"
+      ],
+      "design_hypothesis": "Separate visual presets from robust navigation."
+    },
+    {
+      "id": "shopify-local",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: local pickup",
+        "Vendor: ingredient blocks"
+      ],
+      "design_hypothesis": "Need true fulfillment and nutrition data."
+    },
+    {
+      "id": "shopify-concept",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: mobile-swipe experience and popup controls"
+      ],
+      "design_hypothesis": "Record mobile gestures as UX hypotheses, not measured behavior."
+    },
+    {
+      "id": "shopify-pipeline",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: nested block editor"
+      ],
+      "design_hypothesis": "Composable design without theme code forks."
+    },
+    {
+      "id": "shopify-tinker",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: image/layout customizations"
+      ],
+      "design_hypothesis": "Separate Horizon first-party templates from commercial preset sets."
+    },
+    {
+      "id": "shopify-release",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: configurable layouts"
+      ],
+      "design_hypothesis": "Potential hero/product narrative variants."
+    },
+    {
+      "id": "shopify-shapes",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: bold visual customization"
+      ],
+      "design_hypothesis": "Original expressive design directions, not imitation."
+    },
+    {
+      "id": "shopify-eurus",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: multi-category merchant controls"
+      ],
+      "design_hypothesis": "Configurable navigation and product settings."
+    },
+    {
+      "id": "shopify-sleek",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Vendor: configurable product and responsive controls"
+      ],
+      "design_hypothesis": "Mobile/variant/cart test matrix for future Stage 7."
     }
   ]
 }

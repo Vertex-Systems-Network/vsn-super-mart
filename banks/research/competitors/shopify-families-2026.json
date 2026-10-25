@@ -1,0 +1,1184 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "scope": "Shopify popular-theme first-party/Theme Store editorial research, not all Shopify Theme Store families",
+  "counts": {
+    "families": 47,
+    "paid_multi_preset_families": 24,
+    "first_party_free_themes": 23,
+    "listed_paid_presets": 104,
+    "individual_free_theme_listings": 23
+  },
+  "method": "Opened each family official Theme Store page; enumerated explicit Presets section for paid families. For free Shopify themes listed individual theme pages, do NOT misclassify the Horizon collection as presets of a single purchased family.",
+  "source_ranking": {
+    "url": "https://koala-apps.io/shopify-leaderboards/top-themes/",
+    "as_of": "2026-10-19",
+    "sample_based": true
+  },
+  "limitations": [
+    "Official Theme Store View demo button is dynamic; storefront interaction testing not performed",
+    "External Shopify templates Ella/Minimog/Kalles tracked separately",
+    "Detected Trademark and retired Debut are not current purchasable Theme Store listings",
+    "Feature mappings are VSN research targets, not verified implementation claims"
+  ],
+  "families": [
+    {
+      "family_id": "impulse",
+      "name": "Impulse",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/impulse/presets/impulse",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Impulse",
+        "Dune",
+        "Terrain",
+        "Apothecary"
+      ],
+      "official_preset_count": 4,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "promotion and conversion merchandising",
+      "angle": "promo",
+      "feature_option_ids": [
+        "promo-grid",
+        "quick-add",
+        "shop-the-look",
+        "cart-upsell"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "prestige",
+      "name": "Prestige",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/prestige/presets/prestige",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Prestige",
+        "Couture",
+        "Vogue",
+        "Strass",
+        "Signature"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "jewelry-accessories",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "symmetry",
+      "name": "Symmetry",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/symmetry/presets/symmetry",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Symmetry",
+        "Salt Yard",
+        "Beatnik",
+        "Duke",
+        "Amara"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "broadcast",
+      "name": "Broadcast",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/broadcast/presets/broadcast",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Broadcast",
+        "Relay",
+        "Airwave",
+        "Motif",
+        "Stellar"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "promotion and conversion merchandising",
+      "angle": "promo",
+      "feature_option_ids": [
+        "promo-grid",
+        "quick-add",
+        "shop-the-look",
+        "cart-upsell"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "enterprise",
+      "name": "Enterprise",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/enterprise/presets/enterprise",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Enterprise",
+        "Outlet",
+        "Homestead"
+      ],
+      "official_preset_count": 3,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "electronics-gadgets",
+      "design_research_angle": "large-inventory browsing and layered category discovery",
+      "angle": "dense",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "impact",
+      "name": "Impact",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/impact/presets/impact",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Impact",
+        "Cocoon",
+        "Balance"
+      ],
+      "official_preset_count": 3,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "gen-z-store",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "focal",
+      "name": "Focal",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/focal/presets/focal",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Focal",
+        "Ivory",
+        "Quartz",
+        "Sapphire"
+      ],
+      "official_preset_count": 4,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "warehouse",
+      "name": "Warehouse",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/warehouse/presets/warehouse",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Warehouse",
+        "Wood",
+        "Mesh"
+      ],
+      "official_preset_count": 3,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "electronics-gadgets",
+      "design_research_angle": "large-inventory browsing and layered category discovery",
+      "angle": "dense",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "expanse",
+      "name": "Expanse",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/expanse/presets/expanse",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Expanse",
+        "Revive",
+        "Spritz",
+        "Fetch",
+        "Gem"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "grocery-supermarket",
+      "design_research_angle": "large-inventory browsing and layered category discovery",
+      "angle": "dense",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "local",
+      "name": "Local",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/local/presets/local",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Local",
+        "Soleway",
+        "Thrive",
+        "Caffeine",
+        "Lively"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "food-beverage",
+      "design_research_angle": "food and product-detail trust with merchandising",
+      "angle": "food",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "empire",
+      "name": "Empire",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/empire/presets/empire",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Empire",
+        "Circuit",
+        "Depot",
+        "Forma"
+      ],
+      "official_preset_count": 4,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "electronics-gadgets",
+      "design_research_angle": "large-inventory browsing and layered category discovery",
+      "angle": "dense",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false,
+      "official_release_note_discrepancy": {
+        "source_url": "https://support.pixelunion.net/hc/en-us/articles/360022155054-Empire-release-notes",
+        "source_date": "2026-10-23",
+        "reported_preset_added": "Vast",
+        "current_official_page_visible_presets": [
+          "Empire",
+          "Circuit",
+          "Depot",
+          "Forma"
+        ],
+        "policy": "Do not silently add Vast as verified official listing preset until it is visible/opened. Recheck Theme Store URL."
+      }
+    },
+    {
+      "family_id": "be-yours",
+      "name": "Be Yours",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/be-yours/presets/be-yours",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Be Yours",
+        "Sheen",
+        "Peace",
+        "Harmony"
+      ],
+      "official_preset_count": 4,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "beauty-skincare",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "stiletto",
+      "name": "Stiletto",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/stiletto/presets/stiletto",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Stiletto",
+        "Luster",
+        "Linen",
+        "Glimmer",
+        "Tapestry"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "motion",
+      "name": "Motion",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/motion/presets/motion",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Motion",
+        "Satchel",
+        "Memo"
+      ],
+      "official_preset_count": 3,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "palo-alto",
+      "name": "Palo Alto",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/palo-alto/presets/palo-alto",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Palo Alto",
+        "Dynamo",
+        "Skylight",
+        "Phenomena",
+        "Pluma"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "pipeline",
+      "name": "Pipeline",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/pipeline/presets/pipeline",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Pipeline",
+        "Petra",
+        "Pahoa",
+        "Phantom"
+      ],
+      "official_preset_count": 4,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "concept",
+      "name": "Concept",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/concept/presets/concept",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Concept",
+        "Inova"
+      ],
+      "official_preset_count": 2,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "electronics-gadgets",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "sleek",
+      "name": "Sleek",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/sleek/presets/sleek",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Sleek",
+        "Wildpeak",
+        "Jumped",
+        "Modiva",
+        "Glint"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "wonder",
+      "name": "Wonder",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/wonder/presets/wonder",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Wonder",
+        "Root",
+        "Velour",
+        "Nook",
+        "Petit"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "beauty-skincare",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "eurus",
+      "name": "Eurus",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/eurus/presets/eurus",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Eurus",
+        "Arise",
+        "Placid",
+        "Mystique",
+        "Whiff"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "beauty-skincare",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "release",
+      "name": "Release",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/release/presets/release",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Release",
+        "Grasse",
+        "Serenity",
+        "Forest",
+        "Renaissance"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "beauty-skincare",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "ignite",
+      "name": "Ignite",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/ignite/presets/ignite",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Ignite",
+        "Playtime",
+        "Tails",
+        "Alpha",
+        "Peak"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "electronics-gadgets",
+      "design_research_angle": "large-inventory browsing and layered category discovery",
+      "angle": "dense",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "shapes",
+      "name": "Shapes",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/shapes/presets/shapes",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Shapes",
+        "Fizz",
+        "Candy",
+        "Aura",
+        "Scratch"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "food-beverage",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "vision",
+      "name": "Vision",
+      "mode": "paid_multi_preset",
+      "official_url": "https://themes.shopify.com/themes/vision/presets/vision",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": [
+        "Vision",
+        "Onyx",
+        "Poochy",
+        "Velocite",
+        "Solstice"
+      ],
+      "official_preset_count": 5,
+      "preset_count_evidence": "Explicit official Shopify Presets section",
+      "priority_niche": "electronics-gadgets",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "dawn",
+      "name": "Dawn",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/dawn/presets/dawn",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "horizon",
+      "name": "Horizon",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/horizon/presets/horizon",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "refresh",
+      "name": "Refresh",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/refresh/presets/refresh",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "beauty-skincare",
+      "design_research_angle": "food and product-detail trust with merchandising",
+      "angle": "food",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "rise",
+      "name": "Rise",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/rise/presets/rise",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "beauty-skincare",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "origin",
+      "name": "Origin",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/origin/presets/origin",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "tinker",
+      "name": "Tinker",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/tinker/presets/tinker",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "electronics-gadgets",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "savor",
+      "name": "Savor",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/savor/presets/savor",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "food-beverage",
+      "design_research_angle": "food and product-detail trust with merchandising",
+      "angle": "food",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "craft",
+      "name": "Craft",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/craft/presets/craft",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "home-furniture",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "publisher",
+      "name": "Publisher",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/publisher/presets/publisher",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "books-stationery-art",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "ride",
+      "name": "Ride",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/ride/presets/ride",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "sports-outdoors",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "sense",
+      "name": "Sense",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/sense/presets/sense",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "beauty-skincare",
+      "design_research_angle": "food and product-detail trust with merchandising",
+      "angle": "food",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "studio",
+      "name": "Studio",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/studio/presets/studio",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "books-stationery-art",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "taste",
+      "name": "Taste",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/taste/presets/taste",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "food-beverage",
+      "design_research_angle": "food and product-detail trust with merchandising",
+      "angle": "food",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "crave",
+      "name": "Crave",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/crave/presets/crave",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "food-beverage",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "spotlight",
+      "name": "Spotlight",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/spotlight/presets/spotlight",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "modular editor flexibility and reusable commerce sections",
+      "angle": "general",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "trade",
+      "name": "Trade",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/trade/presets/trade",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "b2b-wholesale",
+      "design_research_angle": "large-inventory browsing and layered category discovery",
+      "angle": "dense",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": false,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "vessel",
+      "name": "Vessel",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/vessel/presets/vessel",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "home-furniture",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "heritage",
+      "name": "Heritage",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/heritage/presets/heritage",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "home-furniture",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "pitch",
+      "name": "Pitch",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/pitch/presets/pitch",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "single-product-dtc",
+      "design_research_angle": "expressive visuals, motion and rich product features",
+      "angle": "motion",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "dwell",
+      "name": "Dwell",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/dwell/presets/dwell",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "home-furniture",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "ritual",
+      "name": "Ritual",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/ritual/presets/ritual",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "fabric",
+      "name": "Fabric",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/fabric/presets/fabric",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "fashion-apparel",
+      "design_research_angle": "large-inventory browsing and layered category discovery",
+      "angle": "dense",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    },
+    {
+      "family_id": "atelier",
+      "name": "Atelier",
+      "mode": "standalone_free_theme",
+      "official_url": "https://themes.shopify.com/themes/atelier/presets/atelier",
+      "parent_listing_opened_on": "2026-10-25",
+      "presets": null,
+      "official_preset_count": null,
+      "preset_count_evidence": "Individual free Shopify Theme Store listing without multi-preset section",
+      "priority_niche": "home-furniture",
+      "design_research_angle": "premium editorial product storytelling",
+      "angle": "luxury",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
+      "horizon_collection": true,
+      "live_demo_verified": false
+    }
+  ],
+  "known_discrepancies": [
+    {
+      "family": "Empire",
+      "finding": "Developer 2026-10-23 release note mentions Vast, visible official Shopify Theme Store Presets section lists 4 designs only",
+      "status": "unresolved_release_note_vs_preset_listing",
+      "source_url": "https://support.pixelunion.net/hc/en-us/articles/360022155054-Empire-release-notes"
+    }
+  ]
+}

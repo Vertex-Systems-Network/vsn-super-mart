@@ -1816,6 +1816,3270 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-be-yours",
+      "platform": "shopify",
+      "theme": "Be Yours",
+      "preset": "Be Yours",
+      "url": "https://themes.shopify.com/themes/be-yours/presets/be-yours",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "modular editor flexibility and reusable commerce sections"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-motion",
+      "platform": "shopify",
+      "theme": "Motion",
+      "preset": "Motion",
+      "url": "https://themes.shopify.com/themes/motion/presets/motion",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "expressive visuals, motion and rich product features"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-palo-alto",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Palo Alto",
+      "url": "https://themes.shopify.com/themes/palo-alto/presets/palo-alto",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-pipeline",
+      "platform": "shopify",
+      "theme": "Pipeline",
+      "preset": "Pipeline",
+      "url": "https://themes.shopify.com/themes/pipeline/presets/pipeline",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-concept",
+      "platform": "shopify",
+      "theme": "Concept",
+      "preset": "Concept",
+      "url": "https://themes.shopify.com/themes/concept/presets/concept",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "expressive visuals, motion and rich product features"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-sleek",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Sleek",
+      "url": "https://themes.shopify.com/themes/sleek/presets/sleek",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "modular editor flexibility and reusable commerce sections"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-wonder",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Wonder",
+      "url": "https://themes.shopify.com/themes/wonder/presets/wonder",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-eurus",
+      "platform": "shopify",
+      "theme": "Eurus",
+      "preset": "Eurus",
+      "url": "https://themes.shopify.com/themes/eurus/presets/eurus",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "modular editor flexibility and reusable commerce sections"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-release",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Release",
+      "url": "https://themes.shopify.com/themes/release/presets/release",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-ignite",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Ignite",
+      "url": "https://themes.shopify.com/themes/ignite/presets/ignite",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "large-inventory browsing and layered category discovery"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-shapes",
+      "platform": "shopify",
+      "theme": "Shapes",
+      "preset": "Shapes",
+      "url": "https://themes.shopify.com/themes/shapes/presets/shapes",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "expressive visuals, motion and rich product features"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-vision",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Vision",
+      "url": "https://themes.shopify.com/themes/vision/presets/vision",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "expressive visuals, motion and rich product features"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-rise",
+      "platform": "shopify",
+      "theme": "Rise",
+      "preset": "Rise",
+      "url": "https://themes.shopify.com/themes/rise/presets/rise",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-origin",
+      "platform": "shopify",
+      "theme": "Origin",
+      "preset": "Origin",
+      "url": "https://themes.shopify.com/themes/origin/presets/origin",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "modular editor flexibility and reusable commerce sections"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-tinker",
+      "platform": "shopify",
+      "theme": "Tinker",
+      "preset": "Tinker",
+      "url": "https://themes.shopify.com/themes/tinker/presets/tinker",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "expressive visuals, motion and rich product features"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-savor",
+      "platform": "shopify",
+      "theme": "Savor",
+      "preset": "Savor",
+      "url": "https://themes.shopify.com/themes/savor/presets/savor",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "design_signals": [
+        "food and product-detail trust with merchandising"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-publisher",
+      "platform": "shopify",
+      "theme": "Publisher",
+      "preset": "Publisher",
+      "url": "https://themes.shopify.com/themes/publisher/presets/publisher",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "modular editor flexibility and reusable commerce sections"
+      ],
+      "niches": [
+        "books-stationery-art"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-ride",
+      "platform": "shopify",
+      "theme": "Ride",
+      "preset": "Ride",
+      "url": "https://themes.shopify.com/themes/ride/presets/ride",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "expressive visuals, motion and rich product features"
+      ],
+      "niches": [
+        "sports-outdoors"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-studio",
+      "platform": "shopify",
+      "theme": "Studio",
+      "preset": "Studio",
+      "url": "https://themes.shopify.com/themes/studio/presets/studio",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "books-stationery-art"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-taste",
+      "platform": "shopify",
+      "theme": "Taste",
+      "preset": "Taste",
+      "url": "https://themes.shopify.com/themes/taste/presets/taste",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "design_signals": [
+        "food and product-detail trust with merchandising"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-crave",
+      "platform": "shopify",
+      "theme": "Crave",
+      "preset": "Crave",
+      "url": "https://themes.shopify.com/themes/crave/presets/crave",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "expressive visuals, motion and rich product features"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-spotlight",
+      "platform": "shopify",
+      "theme": "Spotlight",
+      "preset": "Spotlight",
+      "url": "https://themes.shopify.com/themes/spotlight/presets/spotlight",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "modular editor flexibility and reusable commerce sections"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-vessel",
+      "platform": "shopify",
+      "theme": "Vessel",
+      "preset": "Vessel",
+      "url": "https://themes.shopify.com/themes/vessel/presets/vessel",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "home-furniture"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-heritage",
+      "platform": "shopify",
+      "theme": "Heritage",
+      "preset": "Heritage",
+      "url": "https://themes.shopify.com/themes/heritage/presets/heritage",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "home-furniture"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-pitch",
+      "platform": "shopify",
+      "theme": "Pitch",
+      "preset": "Pitch",
+      "url": "https://themes.shopify.com/themes/pitch/presets/pitch",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "expressive visuals, motion and rich product features"
+      ],
+      "niches": [
+        "single-product-dtc"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-dwell",
+      "platform": "shopify",
+      "theme": "Dwell",
+      "preset": "Dwell",
+      "url": "https://themes.shopify.com/themes/dwell/presets/dwell",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "home-furniture"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-ritual",
+      "platform": "shopify",
+      "theme": "Ritual",
+      "preset": "Ritual",
+      "url": "https://themes.shopify.com/themes/ritual/presets/ritual",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-fabric",
+      "platform": "shopify",
+      "theme": "Fabric",
+      "preset": "Fabric",
+      "url": "https://themes.shopify.com/themes/fabric/presets/fabric",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "large-inventory browsing and layered category discovery"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-atelier",
+      "platform": "shopify",
+      "theme": "Atelier",
+      "preset": "Atelier",
+      "url": "https://themes.shopify.com/themes/atelier/presets/atelier",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "premium editorial product storytelling"
+      ],
+      "niches": [
+        "home-furniture"
+      ],
+      "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-impulse-dune",
+      "platform": "shopify",
+      "theme": "Impulse",
+      "preset": "Dune",
+      "url": "https://themes.shopify.com/themes/impulse/presets/dune",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset page opened. No storefront interactions were tested.",
+      "feature_option_ids": [
+        "promo-grid",
+        "quick-add",
+        "shop-the-look",
+        "cart-upsell"
+      ],
+      "design_signals": [
+        "Individual Impulse preset: Dune; visual fingerprint unverified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Vendor page only, feature IDs are research targets",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-prestige-strass",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Strass",
+      "url": "https://themes.shopify.com/themes/prestige/presets/strass",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset page opened. No storefront interactions were tested.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Individual Prestige preset: Strass; visual fingerprint unverified"
+      ],
+      "niches": [
+        "jewelry-accessories"
+      ],
+      "notes": "Vendor page only, feature IDs are research targets",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-broadcast-motif",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Motif",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/motif",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset page opened. No storefront interactions were tested.",
+      "feature_option_ids": [
+        "promo-grid",
+        "quick-add",
+        "shop-the-look",
+        "cart-upsell"
+      ],
+      "design_signals": [
+        "Individual Broadcast preset: Motif; visual fingerprint unverified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Vendor page only, feature IDs are research targets",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-impact-cocoon",
+      "platform": "shopify",
+      "theme": "Impact",
+      "preset": "Cocoon",
+      "url": "https://themes.shopify.com/themes/impact/presets/cocoon",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset page opened. No storefront interactions were tested.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Individual Impact preset: Cocoon; visual fingerprint unverified"
+      ],
+      "niches": [
+        "gen-z-store"
+      ],
+      "notes": "Vendor page only, feature IDs are research targets",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-local-caffeine",
+      "platform": "shopify",
+      "theme": "Local",
+      "preset": "Caffeine",
+      "url": "https://themes.shopify.com/themes/local/presets/caffeine",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset page opened. No storefront interactions were tested.",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "design_signals": [
+        "Individual Local preset: Caffeine; visual fingerprint unverified"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Vendor page only, feature IDs are research targets",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-empire-circuit",
+      "platform": "shopify",
+      "theme": "Empire",
+      "preset": "Circuit",
+      "url": "https://themes.shopify.com/themes/empire/presets/circuit",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset page opened. No storefront interactions were tested.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Individual Empire preset: Circuit; visual fingerprint unverified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Vendor page only, feature IDs are research targets",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-impulse-terrain",
+      "platform": "shopify",
+      "theme": "Impulse",
+      "preset": "Terrain",
+      "url": "https://themes.shopify.com/themes/impulse/presets/terrain",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "promo-grid",
+        "quick-add",
+        "shop-the-look",
+        "cart-upsell"
+      ],
+      "design_signals": [
+        "Terrain variant of Impulse; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-impulse-apothecary",
+      "platform": "shopify",
+      "theme": "Impulse",
+      "preset": "Apothecary",
+      "url": "https://themes.shopify.com/themes/impulse/presets/apothecary",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "promo-grid",
+        "quick-add",
+        "shop-the-look",
+        "cart-upsell"
+      ],
+      "design_signals": [
+        "Apothecary variant of Impulse; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-prestige-signature",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Signature",
+      "url": "https://themes.shopify.com/themes/prestige/presets/signature",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Signature variant of Prestige; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "jewelry-accessories"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-symmetry-beatnik",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Beatnik",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/beatnik",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Beatnik variant of Symmetry; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-symmetry-duke",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Duke",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/duke",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Duke variant of Symmetry; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-symmetry-amara",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Amara",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/amara",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Amara variant of Symmetry; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-broadcast-airwave",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Airwave",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/airwave",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "promo-grid",
+        "quick-add",
+        "shop-the-look",
+        "cart-upsell"
+      ],
+      "design_signals": [
+        "Airwave variant of Broadcast; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-broadcast-stellar",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Stellar",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/stellar",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "promo-grid",
+        "quick-add",
+        "shop-the-look",
+        "cart-upsell"
+      ],
+      "design_signals": [
+        "Stellar variant of Broadcast; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-enterprise-homestead",
+      "platform": "shopify",
+      "theme": "Enterprise",
+      "preset": "Homestead",
+      "url": "https://themes.shopify.com/themes/enterprise/presets/homestead",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Homestead variant of Enterprise; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-impact-balance",
+      "platform": "shopify",
+      "theme": "Impact",
+      "preset": "Balance",
+      "url": "https://themes.shopify.com/themes/impact/presets/balance",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Balance variant of Impact; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "gen-z-store"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-focal-ivory",
+      "platform": "shopify",
+      "theme": "Focal",
+      "preset": "Ivory",
+      "url": "https://themes.shopify.com/themes/focal/presets/ivory",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Ivory variant of Focal; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-focal-quartz",
+      "platform": "shopify",
+      "theme": "Focal",
+      "preset": "Quartz",
+      "url": "https://themes.shopify.com/themes/focal/presets/quartz",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Quartz variant of Focal; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-focal-sapphire",
+      "platform": "shopify",
+      "theme": "Focal",
+      "preset": "Sapphire",
+      "url": "https://themes.shopify.com/themes/focal/presets/sapphire",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Sapphire variant of Focal; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-warehouse-mesh",
+      "platform": "shopify",
+      "theme": "Warehouse",
+      "preset": "Mesh",
+      "url": "https://themes.shopify.com/themes/warehouse/presets/mesh",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Mesh variant of Warehouse; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-expanse-revive",
+      "platform": "shopify",
+      "theme": "Expanse",
+      "preset": "Revive",
+      "url": "https://themes.shopify.com/themes/expanse/presets/revive",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Revive variant of Expanse; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "grocery-supermarket"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-expanse-spritz",
+      "platform": "shopify",
+      "theme": "Expanse",
+      "preset": "Spritz",
+      "url": "https://themes.shopify.com/themes/expanse/presets/spritz",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Spritz variant of Expanse; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "grocery-supermarket"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-expanse-gem",
+      "platform": "shopify",
+      "theme": "Expanse",
+      "preset": "Gem",
+      "url": "https://themes.shopify.com/themes/expanse/presets/gem",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Gem variant of Expanse; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "grocery-supermarket"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-local-soleway",
+      "platform": "shopify",
+      "theme": "Local",
+      "preset": "Soleway",
+      "url": "https://themes.shopify.com/themes/local/presets/soleway",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "design_signals": [
+        "Soleway variant of Local; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-local-thrive",
+      "platform": "shopify",
+      "theme": "Local",
+      "preset": "Thrive",
+      "url": "https://themes.shopify.com/themes/local/presets/thrive",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "design_signals": [
+        "Thrive variant of Local; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-local-lively",
+      "platform": "shopify",
+      "theme": "Local",
+      "preset": "Lively",
+      "url": "https://themes.shopify.com/themes/local/presets/lively",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "ingredients-nutrition",
+        "pickup-availability",
+        "collection-list",
+        "image-with-text"
+      ],
+      "design_signals": [
+        "Lively variant of Local; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-empire-depot",
+      "platform": "shopify",
+      "theme": "Empire",
+      "preset": "Depot",
+      "url": "https://themes.shopify.com/themes/empire/presets/depot",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Depot variant of Empire; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-empire-forma",
+      "platform": "shopify",
+      "theme": "Empire",
+      "preset": "Forma",
+      "url": "https://themes.shopify.com/themes/empire/presets/forma",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Forma variant of Empire; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-be-yours-sheen",
+      "platform": "shopify",
+      "theme": "Be Yours",
+      "preset": "Sheen",
+      "url": "https://themes.shopify.com/themes/be-yours/presets/sheen",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Sheen variant of Be Yours; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-be-yours-peace",
+      "platform": "shopify",
+      "theme": "Be Yours",
+      "preset": "Peace",
+      "url": "https://themes.shopify.com/themes/be-yours/presets/peace",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Peace variant of Be Yours; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-be-yours-harmony",
+      "platform": "shopify",
+      "theme": "Be Yours",
+      "preset": "Harmony",
+      "url": "https://themes.shopify.com/themes/be-yours/presets/harmony",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Harmony variant of Be Yours; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-stiletto-luster",
+      "platform": "shopify",
+      "theme": "Stiletto",
+      "preset": "Luster",
+      "url": "https://themes.shopify.com/themes/stiletto/presets/luster",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Luster variant of Stiletto; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-stiletto-linen",
+      "platform": "shopify",
+      "theme": "Stiletto",
+      "preset": "Linen",
+      "url": "https://themes.shopify.com/themes/stiletto/presets/linen",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Linen variant of Stiletto; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-stiletto-glimmer",
+      "platform": "shopify",
+      "theme": "Stiletto",
+      "preset": "Glimmer",
+      "url": "https://themes.shopify.com/themes/stiletto/presets/glimmer",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Glimmer variant of Stiletto; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-stiletto-tapestry",
+      "platform": "shopify",
+      "theme": "Stiletto",
+      "preset": "Tapestry",
+      "url": "https://themes.shopify.com/themes/stiletto/presets/tapestry",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Tapestry variant of Stiletto; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-motion-satchel",
+      "platform": "shopify",
+      "theme": "Motion",
+      "preset": "Satchel",
+      "url": "https://themes.shopify.com/themes/motion/presets/satchel",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Satchel variant of Motion; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-motion-memo",
+      "platform": "shopify",
+      "theme": "Motion",
+      "preset": "Memo",
+      "url": "https://themes.shopify.com/themes/motion/presets/memo",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Memo variant of Motion; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-palo-alto-dynamo",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Dynamo",
+      "url": "https://themes.shopify.com/themes/palo-alto/presets/dynamo",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Dynamo variant of Palo Alto; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-palo-alto-skylight",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Skylight",
+      "url": "https://themes.shopify.com/themes/palo-alto/presets/skylight",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Skylight variant of Palo Alto; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-palo-alto-phenomena",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Phenomena",
+      "url": "https://themes.shopify.com/themes/palo-alto/presets/phenomena",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Phenomena variant of Palo Alto; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-palo-alto-pluma",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Pluma",
+      "url": "https://themes.shopify.com/themes/palo-alto/presets/pluma",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Pluma variant of Palo Alto; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-pipeline-petra",
+      "platform": "shopify",
+      "theme": "Pipeline",
+      "preset": "Petra",
+      "url": "https://themes.shopify.com/themes/pipeline/presets/petra",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Petra variant of Pipeline; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-pipeline-pahoa",
+      "platform": "shopify",
+      "theme": "Pipeline",
+      "preset": "Pahoa",
+      "url": "https://themes.shopify.com/themes/pipeline/presets/pahoa",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Pahoa variant of Pipeline; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-pipeline-phantom",
+      "platform": "shopify",
+      "theme": "Pipeline",
+      "preset": "Phantom",
+      "url": "https://themes.shopify.com/themes/pipeline/presets/phantom",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Phantom variant of Pipeline; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-concept-inova",
+      "platform": "shopify",
+      "theme": "Concept",
+      "preset": "Inova",
+      "url": "https://themes.shopify.com/themes/concept/presets/inova",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Inova variant of Concept; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-sleek-wildpeak",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Wildpeak",
+      "url": "https://themes.shopify.com/themes/sleek/presets/wildpeak",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Wildpeak variant of Sleek; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-sleek-jumped",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Jumped",
+      "url": "https://themes.shopify.com/themes/sleek/presets/jumped",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Jumped variant of Sleek; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-sleek-modiva",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Modiva",
+      "url": "https://themes.shopify.com/themes/sleek/presets/modiva",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Modiva variant of Sleek; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-sleek-glint",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Glint",
+      "url": "https://themes.shopify.com/themes/sleek/presets/glint",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Glint variant of Sleek; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "fashion-apparel"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-wonder-root",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Root",
+      "url": "https://themes.shopify.com/themes/wonder/presets/root",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Root variant of Wonder; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-wonder-velour",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Velour",
+      "url": "https://themes.shopify.com/themes/wonder/presets/velour",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Velour variant of Wonder; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-wonder-nook",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Nook",
+      "url": "https://themes.shopify.com/themes/wonder/presets/nook",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Nook variant of Wonder; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-wonder-petit",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Petit",
+      "url": "https://themes.shopify.com/themes/wonder/presets/petit",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Petit variant of Wonder; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-eurus-arise",
+      "platform": "shopify",
+      "theme": "Eurus",
+      "preset": "Arise",
+      "url": "https://themes.shopify.com/themes/eurus/presets/arise",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Arise variant of Eurus; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-eurus-placid",
+      "platform": "shopify",
+      "theme": "Eurus",
+      "preset": "Placid",
+      "url": "https://themes.shopify.com/themes/eurus/presets/placid",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Placid variant of Eurus; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-eurus-mystique",
+      "platform": "shopify",
+      "theme": "Eurus",
+      "preset": "Mystique",
+      "url": "https://themes.shopify.com/themes/eurus/presets/mystique",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Mystique variant of Eurus; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-eurus-whiff",
+      "platform": "shopify",
+      "theme": "Eurus",
+      "preset": "Whiff",
+      "url": "https://themes.shopify.com/themes/eurus/presets/whiff",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets"
+      ],
+      "design_signals": [
+        "Whiff variant of Eurus; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-release-grasse",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Grasse",
+      "url": "https://themes.shopify.com/themes/release/presets/grasse",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Grasse variant of Release; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-release-serenity",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Serenity",
+      "url": "https://themes.shopify.com/themes/release/presets/serenity",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Serenity variant of Release; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-release-forest",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Forest",
+      "url": "https://themes.shopify.com/themes/release/presets/forest",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Forest variant of Release; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-release-renaissance",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Renaissance",
+      "url": "https://themes.shopify.com/themes/release/presets/renaissance",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "shop-the-look",
+        "media-gallery-layouts",
+        "image-with-text",
+        "featured-collection"
+      ],
+      "design_signals": [
+        "Renaissance variant of Release; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "beauty-skincare"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-ignite-playtime",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Playtime",
+      "url": "https://themes.shopify.com/themes/ignite/presets/playtime",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Playtime variant of Ignite; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-ignite-tails",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Tails",
+      "url": "https://themes.shopify.com/themes/ignite/presets/tails",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Tails variant of Ignite; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-ignite-alpha",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Alpha",
+      "url": "https://themes.shopify.com/themes/ignite/presets/alpha",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Alpha variant of Ignite; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-ignite-peak",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Peak",
+      "url": "https://themes.shopify.com/themes/ignite/presets/peak",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "subcollection-nav",
+        "sorting"
+      ],
+      "design_signals": [
+        "Peak variant of Ignite; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-shapes-fizz",
+      "platform": "shopify",
+      "theme": "Shapes",
+      "preset": "Fizz",
+      "url": "https://themes.shopify.com/themes/shapes/presets/fizz",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Fizz variant of Shapes; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-shapes-candy",
+      "platform": "shopify",
+      "theme": "Shapes",
+      "preset": "Candy",
+      "url": "https://themes.shopify.com/themes/shapes/presets/candy",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Candy variant of Shapes; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-shapes-aura",
+      "platform": "shopify",
+      "theme": "Shapes",
+      "preset": "Aura",
+      "url": "https://themes.shopify.com/themes/shapes/presets/aura",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Aura variant of Shapes; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-shapes-scratch",
+      "platform": "shopify",
+      "theme": "Shapes",
+      "preset": "Scratch",
+      "url": "https://themes.shopify.com/themes/shapes/presets/scratch",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Scratch variant of Shapes; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "food-beverage"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-vision-onyx",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Onyx",
+      "url": "https://themes.shopify.com/themes/vision/presets/onyx",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Onyx variant of Vision; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-vision-poochy",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Poochy",
+      "url": "https://themes.shopify.com/themes/vision/presets/poochy",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Poochy variant of Vision; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-vision-velocite",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Velocite",
+      "url": "https://themes.shopify.com/themes/vision/presets/velocite",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Velocite variant of Vision; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-vision-solstice",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Solstice",
+      "url": "https://themes.shopify.com/themes/vision/presets/solstice",
+      "evidence_level": "official_preset_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "official_listing_accessible",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "feature_option_ids": [
+        "video-section",
+        "animation-settings",
+        "hero-slideshow",
+        "quick-view"
+      ],
+      "design_signals": [
+        "Solstice variant of Vision; no screenshot fingerprint verified"
+      ],
+      "niches": [
+        "electronics-gadgets"
+      ],
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "page_coverage": {
+        "home": "listing_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
@@ -1931,5 +5195,15 @@
       "all known worldwide theme demos"
     ],
     "report": "banks/research/competitors/research-closeout.md"
+  },
+  "popular_shopify_family_index": "banks/research/competitors/shopify-families-2026.json",
+  "popular_shopify_preset_index": "banks/research/competitors/shopify-presets-2026.json",
+  "shopify_popular_preset_listing_coverage": {
+    "total": 127,
+    "individual_official_listings_opened": 127,
+    "official_listing_coverage_complete": true,
+    "live_demo_sessions_verified": 0,
+    "interactive_pdp_cart_mobile_tested": false,
+    "scope": "47 selected theme families; NOT whole Shopify marketplace"
   }
 }

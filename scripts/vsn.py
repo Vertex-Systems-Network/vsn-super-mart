@@ -155,6 +155,11 @@ def validate(verbose=True):
     except (OSError, ValueError, KeyError) as exc:
         errs.append("competitor audit failed: " + str(exc))
     try:
+        from shopify_theme_research import check_research
+        errs.extend("shopify theme research: "+e for e in check_research())
+    except (OSError, ValueError, KeyError) as exc:
+        errs.append("shopify theme research validation error: "+str(exc))
+    try:
         from afterhours_recovery import check as check_afterhours
         if check_afterhours() != 0:
             errs.append("afterhours recovery source consistency failure")

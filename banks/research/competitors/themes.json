@@ -122,7 +122,8 @@
     "Since 2025 Theme Store rules forbid Dawn/Horizon-derived code and require real uniqueness, so VSN starts from Skeleton.",
     "Opportunity: speed, built-in conversion features that are Theme Store compliant, large-catalog (super mart) UX, RTL.",
     "Cross-platform evidence must retain source type: official feature listing is not an interactive demo audit; WooCommerce/Magento functionality is not necessarily portable to Shopify.",
-    "Oct 19 Koala tracked-store chart puts Dawn/Trademark joint-leading by rounded count; do not treat older rank_koala_2026 as current. Large catalogs: prioritize Warehouse/Empire; DTC narration: Impact/Porto Single Product; food trust: Local/Porto Grocery."
+    "Oct 19 Koala tracked-store chart puts Dawn/Trademark joint-leading by rounded count; do not treat older rank_koala_2026 as current. Large catalogs: prioritize Warehouse/Empire; DTC narration: Impact/Porto Single Product; food trust: Local/Porto Grocery.",
+    "Popular Shopify Theme Store research covers 47 official parent theme listings, with 104 names for 24 premium multi-preset families and 23 individually listed Shopify free themes. Full storefront/checkout interactions remain unverified."
   ],
   "sources": [
     {
@@ -233,5 +234,9 @@
       }
     ],
     "note": "Legacy Koala ranks in themes[] are historical and not the current October 19 ordering. Popularity alone is not a design quality signal."
-  }
+  },
+  "shopify_families_index": "banks/research/competitors/shopify-families-2026.json",
+  "shopify_presets_index": "banks/research/competitors/shopify-presets-2026.json",
+  "shopify_popularity_top25": "banks/research/competitors/shopify-popularity-top25-2026.json",
+  "shopify_external_theme_references": "banks/research/competitors/shopify-external-themes-2026.json"
 }

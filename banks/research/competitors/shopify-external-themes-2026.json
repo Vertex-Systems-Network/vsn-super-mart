@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "separate_channel": "Popular Shopify themes sold outside Shopify Theme Store; vendor claims not official Theme Store compliance",
+  "themes": [
+    {
+      "name": "Ella",
+      "vendor": "HaloThemes",
+      "listing_url": "https://halothemes.net/products/ella-shopify-theme",
+      "vendor_claimed_demo_scale": "16+ home layouts and multiple category/PDP layouts",
+      "signals": [
+        "nested flex sections",
+        "variation swatches",
+        "category/product layout variations"
+      ],
+      "risk": "Vendor advertises fake recent-sales popup; do not add deceptive urgency to VSN.",
+      "live_home_checked": false
+    },
+    {
+      "name": "Minimog OS 2.0",
+      "vendor": "FoxEcom",
+      "listing_url": "https://foxecom.com/products/minimog-shopify-theme",
+      "opened_demo_url": "https://demo.minimog.co/",
+      "vendor_claimed_demo_scale": "85+ demos",
+      "signals": [
+        "quick view",
+        "swatches",
+        "mega menu",
+        "wishlist"
+      ],
+      "risk": "Companion FoxKit integrations and external code require app/IP review.",
+      "live_home_checked": "public_html_only"
+    },
+    {
+      "name": "Kalles",
+      "vendor": "The4",
+      "listing_url": "https://the4.co/products/kalles-shopify-theme",
+      "vendor_claimed_demo_scale": "60+ demos",
+      "signals": [
+        "mega-menu",
+        "compare",
+        "wishlist",
+        "mobile bottom nav"
+      ],
+      "risk": "Vendor conversion ROI metrics unverified; wishlist/compare need app architecture.",
+      "live_home_checked": false
+    }
+  ]
+}

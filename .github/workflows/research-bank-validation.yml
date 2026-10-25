@@ -8,6 +8,7 @@ on:
       - 'banks/options/**'
       - 'scripts/vsn.py'
       - 'scripts/competitor_audit.py'
+      - 'scripts/shopify_theme_research.py'
       - 'scripts/afterhours_recovery.py'
       - 'ai/recovery/**'
       - 'ai/state/**'
@@ -23,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate Shopify popular family and preset inventory
+        run: python3 scripts/shopify_theme_research.py validate
       - name: Validate competitor evidence and mapped options
         run: python3 scripts/competitor_audit.py validate
       - name: Validate VSN banks and reference fingerprints

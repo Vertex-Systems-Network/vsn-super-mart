@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated_at": "2026-10-25",
   "purpose": "Evidence -> VSN option IDs -> design decisions. Research only; never copy competitor code or pixels.",
   "patterns": [
@@ -297,6 +297,101 @@
         "color-schemes"
       ],
       "design_implication": "Presets vary typography/layout/density/tokens/content, not forked cart, navigation or PDP code."
+    },
+    {
+      "id": "shopify-preset-one-engine",
+      "context": "A popular paid Shopify theme family typically offers multiple presets without rewriting its commerce engine.",
+      "signals": [
+        "Impulse official four presets",
+        "Prestige official five presets",
+        "Symmetry official five presets",
+        "Sleek official five presets"
+      ],
+      "source_entry_ids": [
+        "shopify-impulse",
+        "shopify-prestige",
+        "shopify-symmetry",
+        "shopify-sleek"
+      ],
+      "option_ids": [
+        "theme-styles-presets",
+        "section-presets",
+        "color-schemes",
+        "typography-settings"
+      ],
+      "design_implication": "VSN presets should be global style/layout/content variations over shared Shopify blocks and native cart/checkout; do not fork commerce logic for each preset."
+    },
+    {
+      "id": "shopify-free-collection-vs-presets",
+      "context": "Shopify Horizon collection variants are independently listed free theme designs; paid multi-preset families are a different packaging concept.",
+      "signals": [
+        "Horizon, Fabric, Savor, Tinker, Atelier first-party separate pages",
+        "Paid Impulse and Prestige show explicit Presets sections"
+      ],
+      "source_entry_ids": [
+        "shopify-horizon",
+        "shopify-fabric",
+        "shopify-savor",
+        "shopify-tinker",
+        "shopify-atelier",
+        "shopify-impulse"
+      ],
+      "option_ids": [
+        "nested-theme-blocks",
+        "section-presets",
+        "theme-styles-presets"
+      ],
+      "design_implication": "In VSN data model distinguish theme family, named preset and first-party standalone free theme; never label Horizon siblings as verified child presets."
+    },
+    {
+      "id": "shopify-premium-merchandising-modes",
+      "context": "Top paid themes emphasize varied product journeys for fashion, large catalog, food, and one-product storytelling.",
+      "signals": [
+        "Warehouse/Enterprise department nav",
+        "Local grocery and pickup",
+        "Prestige/Palo Alto editorial storytelling",
+        "Impact conversion CTA"
+      ],
+      "source_entry_ids": [
+        "shopify-warehouse",
+        "shopify-enterprise",
+        "shopify-local",
+        "shopify-prestige",
+        "shopify-palo-alto",
+        "shopify-impact"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "faceted-filters",
+        "pickup-availability",
+        "shop-the-look",
+        "quick-add"
+      ],
+      "design_implication": "Feed niche-aware choices into Shopify-native product/media/filter settings, using VSN original visual direction and data validation."
+    },
+    {
+      "id": "shopify-mobile-and-motion-rules",
+      "context": "Theme Store vendors increasingly foreground mobile swipes, dynamic blocks and video, but performance claims require measurement.",
+      "signals": [
+        "Concept promotes mobile swipe UX",
+        "Motion promotes animation/video",
+        "Pipeline promotes nested theme blocks",
+        "Focal supports product storytelling"
+      ],
+      "source_entry_ids": [
+        "shopify-concept",
+        "shopify-motion",
+        "shopify-pipeline",
+        "shopify-focal"
+      ],
+      "option_ids": [
+        "touch-targets",
+        "animation-settings",
+        "video-section",
+        "nested-theme-blocks",
+        "a11y-lighthouse"
+      ],
+      "design_implication": "Prototype accessible mobile interactions and reduced motion; measure real Core Web Vitals before making speed/conversion claims."
     }
   ]
 }
