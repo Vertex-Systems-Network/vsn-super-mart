@@ -8,6 +8,8 @@ _Update at the end of every session (even mid-task). Newest entry on top._
 
 **AI feed:** Added source-linked Shopify-specific patterns and qualitative Design Bank notes. Validation added for family/preset integrity and research-vs-runtime verification; CI updated. The larger research demo universe and actual live-cart/mobile tests remain unverified. Stage 6 Figma imagery/approval is unchanged.
 
+**Known source disagreement:** Empire vendor release note dated 2026-10-23 names Vast, but official visible preset selector lists four; marked unresolved in family index/report, not falsely verified.
+
 **Next:** PR #2 review/merge after CI. Real Shopify "View demo" interactions, preset screenshots, performance and editor capability testing require browser/store access; never claim the HTML-only official page audit covers them.
 
 

@@ -2168,5 +2168,13 @@
       "mobile_verified": false,
       "notes": "Official preset listing opened, not demo storefront"
     }
+  ],
+  "source_discrepancies": [
+    {
+      "family": "Empire",
+      "finding": "Developer 2026-10-23 release note mentions Vast, visible official Shopify Theme Store Presets section lists 4 designs only",
+      "status": "unresolved_release_note_vs_preset_listing",
+      "source_url": "https://support.pixelunion.net/hc/en-us/articles/360022155054-Empire-release-notes"
+    }
   ]
 }

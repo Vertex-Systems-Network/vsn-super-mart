@@ -308,7 +308,19 @@
         "sorting"
       ],
       "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
-      "live_demo_verified": false
+      "live_demo_verified": false,
+      "official_release_note_discrepancy": {
+        "source_url": "https://support.pixelunion.net/hc/en-us/articles/360022155054-Empire-release-notes",
+        "source_date": "2026-10-23",
+        "reported_preset_added": "Vast",
+        "current_official_page_visible_presets": [
+          "Empire",
+          "Circuit",
+          "Depot",
+          "Forma"
+        ],
+        "policy": "Do not silently add Vast as verified official listing preset until it is visible/opened. Recheck Theme Store URL."
+      }
     },
     {
       "family_id": "be-yours",
@@ -1159,6 +1171,14 @@
       "feature_evidence": "theme_family_research_hypotheses_not_runtime_verified",
       "horizon_collection": true,
       "live_demo_verified": false
+    }
+  ],
+  "known_discrepancies": [
+    {
+      "family": "Empire",
+      "finding": "Developer 2026-10-23 release note mentions Vast, visible official Shopify Theme Store Presets section lists 4 designs only",
+      "status": "unresolved_release_note_vs_preset_listing",
+      "source_url": "https://support.pixelunion.net/hc/en-us/articles/360022155054-Empire-release-notes"
     }
   ]
 }

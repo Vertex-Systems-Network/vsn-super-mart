@@ -41,6 +41,10 @@ Checked: **2026-10-25**. Primary evidence: official [Shopify Theme Store](https:
 | [Shapes](https://themes.shopify.com/themes/shapes/presets/shapes) | Shapes, Fizz, Candy, Aura, Scratch |
 | [Vision](https://themes.shopify.com/themes/vision/presets/vision) | Vision, Onyx, Poochy, Velocite, Solstice |
 
+### Source disagreement: Empire / Vast
+
+The public [Empire Presets listing](https://themes.shopify.com/themes/empire/presets/empire) currently exposes four names (Empire, Circuit, Depot, Forma), while the vendor's [October 23, 2026 release notes](https://support.pixelunion.net/hc/en-us/articles/360022155054-Empire-release-notes) claim **Vast** was added. It is recorded as a **pending discrepancy** instead of being counted as a verified fifth preset. This is why inventory counts are exact for *visible listings checked*, not guaranteed exhaustive across unpublished/unindexed updates.
+
 ## VSN AI decisions
 
 | Goal | Grounded theme signal | Original Shopify-native / VSN implementation |
