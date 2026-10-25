@@ -20,8 +20,8 @@ def check():
         errors.append("live demo plan mismatch with preset inventory")
     live=load(BASE/"shopify-live-demo-evidence-2026.json")
     stores=live.get("stores",[])
-    if len(stores)!=10 or len({d["id"] for d in stores})!=10:
-        errors.append("expected ten distinct public demo document records")
+    if len(stores)!=13 or len({d["id"] for d in stores})!=13:
+        errors.append("expected thirteen distinct public demo document records")
     selected=[d for d in stores if d.get("selected_127")]
     for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
         n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
@@ -68,6 +68,23 @@ def check():
         if block.get("id") not in els: errors.append("unknown settings element id "+str(block.get("id")))
         for oid in block.get("option_ids",[]):
             if oid not in known_opts: errors.append("unknown element control option "+oid)
+    issues=load(BASE/"shopify-demo-data-integrity-2026.json")
+    ui=load(ROOT/"banks/elements/specs/shopify-retail-data-integrity-2026.json")
+    if len(issues.get("cases",[]))!=5 or len(ui.get("elements",[]))!=5:
+        errors.append("data QA and element settings specs incomplete")
+    document_urls={p["url"] for store in stores for p in (store.get("homepage"),store.get("collection"),store.get("product"),store.get("cart")) if p}
+    for issue in issues.get("cases",[]):
+        if issue.get("source_url") not in document_urls:
+            errors.append("data issue does not link an inspected page: "+str(issue.get("id")))
+    for part in ui.get("elements",[]):
+        if part["id"] not in els: errors.append("unknown QA element: "+part["id"])
+        for oid in part.get("option_ids",[]):
+            if oid not in opts: errors.append("unknown QA option: "+oid)
+    count_map=(("opened_home","homepage"),("opened_collection","collection"),("opened_product","product"),("opened_empty_cart","cart"))
+    for count_key,kind in count_map:
+        actual=sum(bool(store.get(kind)) for store in stores)
+        if live.get("counts",{}).get(count_key)!=actual:
+            errors.append("document page count mismatch: "+count_key)
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
@@ -81,4 +98,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: 10 Shopify demo HTML stores (8 in cohort), interaction/mobile checks still pending")
+    print("Shopify editor audit OK: 13 Shopify demo HTML stores (10 in cohort), interaction/mobile checks still pending")

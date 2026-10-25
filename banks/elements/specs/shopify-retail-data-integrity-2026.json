@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "status": "proposed_vsn_element_settings_only_not_implemented",
+  "elements": [
+    {
+      "id": "product-card",
+      "option_ids": [
+        "card-swatches",
+        "pre-order",
+        "sale-badge-percent"
+      ],
+      "settings": [
+        "show_variation_swatches",
+        "show_preorder_status",
+        "show_savings_if_real"
+      ],
+      "states": [
+        "available",
+        "sold-out",
+        "preorder",
+        "invalid-compare-price"
+      ],
+      "validation": "Use real selected SKU data and positive compare_at_price delta"
+    },
+    {
+      "id": "facets",
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "grid-density"
+      ],
+      "settings": [
+        "show_filters",
+        "show_active_chips",
+        "mobile_drawer"
+      ],
+      "states": [
+        "ready",
+        "pending",
+        "zero-results"
+      ],
+      "validation": "Shopify collection.filters data only"
+    },
+    {
+      "id": "inventory",
+      "option_ids": [
+        "pre-order",
+        "inventory-status",
+        "pickup-availability"
+      ],
+      "settings": [
+        "show_stock",
+        "show_pickup",
+        "expected_ship_date_metafield"
+      ],
+      "states": [
+        "in-stock",
+        "preorder",
+        "backorder",
+        "stale-date-hidden"
+      ],
+      "validation": "Shipping date must be future and variant/location-aware"
+    },
+    {
+      "id": "cart-summary",
+      "option_ids": [
+        "cart-page",
+        "cart-notes",
+        "cart-upsell"
+      ],
+      "settings": [
+        "empty_cart_recommendations",
+        "show_order_note"
+      ],
+      "states": [
+        "empty",
+        "with-items",
+        "error"
+      ],
+      "validation": "Never present shipping/taxes as finalized before checkout"
+    },
+    {
+      "id": "countdown",
+      "option_ids": [
+        "countdown-timer",
+        "sale-campaign-section"
+      ],
+      "settings": [
+        "verified_campaign_end_timestamp",
+        "expired_message"
+      ],
+      "states": [
+        "unset",
+        "scheduled",
+        "active",
+        "expired"
+      ],
+      "validation": "Merchant-confirmed deadline only; no fake urgency"
+    }
+  ]
+}
