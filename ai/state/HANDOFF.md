@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — PR research quality gates and ChatGPT image policy
+
+Added 20 evidence-to-implementation route decisions (Shopify native / original theme component / app block / VSN app), with explicit rule protection for app-only wishlist/compare. Expanded audit validation to require the 5 template-scope states and mapped evidence. Updated AGENTS image policy to use **ChatGPT image generation and Figma asset uploads, never Figma AI credits**, per team's current requirement. Corrected stale README status and Afterhours color references. Source research is ready for infrastructure merge; Stage 6 image placement and approval still pending.
+
+
 ## 2026-10-25 — PR #1 research curated cohort finalized
 
 Added 23 new source-linked pages (Shopify major presets, Porto Grocery 2/3 & Shop 35/Book/Single Product, Astra, Blocksy E-Bike/Kiddy, Kadence directory and BigCommerce Cornerstone Warm). Research cohort now **55 entries**, 14 reusable patterns, 16 qualitative observations, with evidence-level verification and per-template (home/collection/PDP/cart/mobile) gaps. Wrote `banks/research/competitors/research-closeout.md` with implementation route and explicit limitations; updated Oct 19 Koala sample popularity baseline. Source records and mapping validated; no claim of testing every worldwide theme/demo or live cart/checkout. Stage 6 Figma is still not approved.

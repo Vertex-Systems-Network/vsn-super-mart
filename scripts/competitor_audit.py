@@ -21,6 +21,7 @@ AUDIT = ROOT / "banks/research/competitors/demo-audit.json"
 PATTERNS = ROOT / "banks/research/competitors/cross-platform-patterns.json"
 OPTIONS = ROOT / "banks/options/options.json"
 OBSERVATIONS = ROOT / "banks/design/competitor-observations.json"
+IMPLEMENTATIONS = ROOT / "banks/research/competitors/shopify-implementation-matrix.json"
 ALLOWED = {"official_preset_page", "live_demo_page"}
 PLATFORMS = {"shopify", "woocommerce", "bigcommerce", "magento"}
 
@@ -32,7 +33,7 @@ def read(path):
 
 def check_repo():
     errors = []
-    for path in (AUDIT, PATTERNS, OPTIONS, OBSERVATIONS):
+    for path in (AUDIT, PATTERNS, OPTIONS, OBSERVATIONS, IMPLEMENTATIONS):
         if not path.is_file():
             return ["missing required audit file: " + str(path.relative_to(ROOT))]
     audit, patterns, options, observations = map(
@@ -42,6 +43,7 @@ def check_repo():
     known_options = {o["id"] for o in options.get("options", [])}
     ids = set()
     urls = set()
+    valid_coverage = {"document_only", "listing_only", "not_verified"}
     for entry in entries:
         eid = entry.get("id")
         if not eid or eid in ids:
@@ -60,6 +62,16 @@ def check_repo():
             errors.append(str(eid) + ": bad evidence level")
         if not entry.get("opened_on") or not entry.get("design_signals"):
             errors.append(str(eid) + ": missing visit date or design signals")
+        if not entry.get("document_verification_status") or not entry.get("document_verification_scope"):
+            errors.append(str(eid) + ": evidence verification status/scope missing")
+        pages = entry.get("page_coverage", {})
+        if set(pages) != {"home", "collection", "product", "cart", "mobile"}:
+            errors.append(str(eid) + ": must enumerate homepage, collection, PDP, cart and mobile evidence")
+        for page, status in pages.items():
+            if status not in valid_coverage:
+                errors.append(str(eid) + ": invalid page coverage " + page + "=" + str(status))
+        if entry.get("evidence_level") == "official_preset_page" and pages.get("home") == "document_only":
+            errors.append(str(eid) + ": vendor listing cannot be labelled live demo")
         for option_id in entry.get("feature_option_ids", []):
             if option_id not in known_options:
                 errors.append(str(eid) + ": unmapped option " + option_id)
@@ -83,6 +95,29 @@ def check_repo():
             errors.append("design observation without audit entry: " + str(sid))
         elif item.get("evidence_level") != match["evidence_level"]:
             errors.append("evidence level mismatch in design observation: " + str(sid))
+    impl = read(IMPLEMENTATIONS)
+    decisions = impl.get("decisions", [])
+    decision_ids = set()
+    app_options = {"wishlist", "product-compare"}
+    for decision in decisions:
+        did = decision.get("id")
+        if not did or did in decision_ids:
+            errors.append("duplicate or missing implementation decision id: " + str(did))
+        decision_ids.add(did)
+        oid = decision.get("option_id")
+        if oid not in known_options:
+            errors.append("implementation " + str(did) + ": unknown option " + str(oid))
+        if decision.get("route") not in impl.get("routes", {}):
+            errors.append("implementation " + str(did) + ": unsupported route")
+        if oid in app_options and decision.get("route") != "vsn_app":
+            errors.append("app-only feature improperly marked native: " + str(oid))
+        if not decision.get("guardrail"):
+            errors.append("implementation " + str(did) + ": missing compliance guardrail")
+        if not decision.get("evidence_ids"):
+            errors.append("implementation " + str(did) + ": missing evidence links")
+        for sid in decision.get("evidence_ids", []):
+            if sid not in ids:
+                errors.append("implementation " + str(did) + ": unknown evidence " + str(sid))
     if not entries:
         errors.append("empty audit")
     if len({e.get("platform") for e in entries}) < 3:
@@ -100,6 +135,7 @@ def summary():
     for level, count in sorted(by_level.items()):
         print("  %-22s %d" % (level, count))
     print("Patterns: %d" % len(read(PATTERNS)["patterns"]))
+    print("Implementation mappings: %d" % len(read(IMPLEMENTATIONS).get("decisions", [])))
     print("Backlog: %d" % len(read(AUDIT).get("backlog", [])))
 
 

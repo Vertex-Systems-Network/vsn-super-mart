@@ -28,8 +28,10 @@ Details: [`ai/WORKFLOW.md`](ai/WORKFLOW.md).
 
 Design: Figma file `y5e3fEpx2eAFhLRFLisP0o`, page "AFTERHOURS — Restored UI". Source-backed 24-screen editable restoration; original photos missing.
 
-## Current status (2026-10-22 — paused)
-- Gen-Z preset **Afterhours**: 24 screens designed and QA'd in Figma (Stage 6), waiting for Full HD images and approval.
-- **Element library** (rule 15): 192 elements catalogued in `banks/elements/` — Elementor + addons + Gutenberg + Shopify + creative, smart responsive (2448–320).
-- **Theme prototype** in `theme/`: tokens, element defaults, smart responsive, 5 elements, global components (Theme Check clean).
-- Next steps: `ai/state/HANDOFF.md` → "Open items".
+## Current status (2026-10-25)
+
+- **PR #1 research cohort:** 55 individually referenced theme/preset/demo entries, 14 evidence-linked patterns, 16 qualitative design observations and 20 Shopify capability route decisions. See [research closeout](banks/research/competitors/research-closeout.md) and [implementation matrix](banks/research/competitors/shopify-implementation-matrix.json).
+- **Afterhours Figma:** 24 editable layout frames restored (19 desktop / 5 mobile) in [this file](https://www.figma.com/design/y5e3fEpx2eAFhLRFLisP0o/VSN-Super-Mart?node-id=0-1). Generated images still require upload and full visual QA; Stage 6 design approval is **pending**.
+- **Core theme:** 192 elements catalogued, 5 core new specs ready; prototype blocks in `theme/` are not release-ready and have not been tested in a live Shopify development store.
+- The research/AI workflow PR can be merged as infrastructure. It does **not** indicate Stage 7 theme development or Store release approval.
+- Run `python3 scripts/competitor_audit.py validate` and `python3 scripts/vsn.py validate` before changes.

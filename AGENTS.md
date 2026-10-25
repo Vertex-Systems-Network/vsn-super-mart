@@ -13,7 +13,7 @@ best themes on the market (Prestige, Impulse, Symmetry, Trademark, Broadcast, Ho
 - Built from **Shopify Skeleton theme or original code only** — never Dawn or Horizon
   (Theme Store rule, see `banks/research/platform/theme-store-requirements.json`).
 - Design lives in Figma: restored active file `y5e3fEpx2eAFhLRFLisP0o`, page **"AFTERHOURS — Restored UI"** (node `0:1`). The old file `BxJuIRth8k4cCUbFnPV6ek` is historical/deleted. Screen IDs live in `banks/design/specs/gen-z-store/spec.json`.
-  Brand colors: Teal `#5BC8D6`, Blue `#5F8CC4`, Purple `#615BA8`, Ink `#17251B`.
+  Afterhours palette: near-black `#0B0B0F`, acid lime `#C6FF3D`, off-white `#F4F4F0` (other niche presets use their own tokens).
 
 ## 2. Read order (every session)
 
@@ -52,19 +52,20 @@ Never skip stages. Never start development before the design gate passes.
 6. **Small, verifiable steps.** One work unit per commit. Run `shopify theme check` once theme code exists.
 7. **Evidence.** Claims about competitors or the market need a URL in the bank's `sources`.
 8. **Language.** Code, file names and bank data in English. Chat with the team may be Urdu/Roman Urdu.
-9. **Images come from Figma AI.** Every image in designs and demo stores (hero, banners, product shots,
-   collection tiles, lifestyle, blog) is generated with **Figma AI** (Figma MCP `generate_image`) directly in
-   the Figma file — no stock photos, no images copied from other sites. Rules:
-   - Generate into the Figma file `BxJuIRth8k4cCUbFnPV6ek`; to fill a placeholder frame pass its `nodeId`.
-   - Write prompts from the niche research + chosen design direction (mood, palette, imagery style).
-   - No text, logos, brand names or real/recognizable people baked into images (Theme Store demo rule).
-   - It costs Figma AI credits: draft with `gemini-3.1-flash-lite-image`, final hero/key shots with a higher
-     model, and never regenerate without a reason.
-   - **Full HD minimum:** every image must be at least **1920 px on its long edge** (1920×1080 for 16:9,
-     1080×1920 for 9:16, ≥1536×1920 for 4:5). Request the largest size (2048) and use a model that returns
-     Full HD; if the output is smaller, it is not final — regenerate or upscale (with the team's approved
-     upscaler) and record `full_hd: true` only when the final file meets the minimum.
-   - Log every image in `banks/design/image-log.json` (prompt, model, node id, where used, size).
+9. **Images are created outside Figma AI, using ChatGPT image generation only, unless the team explicitly changes this policy.**
+   Generate original hero, banner, product, collection, lifestyle and blog assets using ChatGPT.
+   **Do not spend any Figma AI credits.** Upload those files to the active Figma design using
+   Figma's asset upload API (not Figma image generation). Current Figma: `y5e3fEpx2eAFhLRFLisP0o`.
+   - Write distinct prompts from the niche research and selected design tokens. Prefer unique photographs
+     and do not assign the same image to unrelated placements; repeated actual SKUs must be explicitly justified.
+   - Never copy third-party theme demo imagery, logos, text overlays or identifiable brands.
+   - Generated output is not “placed in Figma” until upload response/asset fill is confirmed; preserve
+     files in an asset pack with a deterministic slot manifest when Figma API permissions are exhausted.
+   - **Full HD policy:** ≥1920 pixels on the longer edge for final editorial assets. Product assets
+     need sufficient source resolution for their largest displayed width; do not invent dimensions.
+     If a generated image does not meet source resolution, flag for approved upscale/new generation.
+   - Log source prompt, generation origin, dimensions, target node, upload state and placement in
+     `banks/design/image-log.json`. Old deleted Figma node IDs are historical only.
 10. **Never remove a Shopify option — Shopify first, then VSN apps.** Every feature, setting and option that
    Shopify provides (checkout options, discounts, selling plans, markets, filters, metafields/metaobjects,
    gift cards, pickup, Shop Pay, accelerated checkout, customer accounts, etc.) must stay supported and

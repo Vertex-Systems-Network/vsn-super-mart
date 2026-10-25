@@ -37,3 +37,9 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - Every entry has source URL, date, platform, theme + preset, mapped option IDs and qualitative design signals; patterns cite entry IDs.
 - Transfer **ideas**, not copyrighted code, images, brands, or pixel-identical designs. WooCommerce/Magento/BigCommerce features require a separate Shopify capability and Theme Store compliance check.
 - The `backlog` is explicitly unvisited research. Do not claim that the entire theme marketplace has been inspected.
+
+## Research closeout and executable decisions (2026-10-25)
+
+- `competitors/research-closeout.md` is the curated cohort evidence summary and limitation ledger, not a claim of exhaustively visiting every public ecommerce demo.
+- `competitors/shopify-implementation-matrix.json` maps the most important evidence-backed option IDs to native Shopify, original theme components, VSN apps, or app-block slots; all entries remain `planned` until development/QA.
+- `scripts/competitor_audit.py validate` now checks per-template evidence coverage and these mappings, and prevents app-only wishlist/compare from being misclassified as native theme features.
