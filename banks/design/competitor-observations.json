@@ -489,6 +489,41 @@
         "This is a demonstration storefront—real commercial checkout not attempted"
       ],
       "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+    },
+    {
+      "id": "shopify-live-prestige-signature",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "2026 shoes collection menu Pumps, Mules, Flats, Boots; EUR localized pricing and country switch",
+        "Hero, split editorial campaign, best-selling product slider and Shop-the-Look shoe outfits",
+        "Product cards show Choose Options, campaign and local boutique pages",
+        "Coming-soon countdown displays all zero units in HTML; event date not verified",
+        "Empty cart drawer markup on homepage with no separately fetched cart route"
+      ],
+      "design_hypothesis": "Indexed static HTML element existence only; no pixel screenshot or working cart/menu performance proven."
+    },
+    {
+      "id": "shopify-live-broadcast-airwave",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Small coffee catalog with three beans, logo mugs/shirt and brew-guide navigation",
+        "Campaign promo, hero and product best-sellers plus workshop/event storytelling",
+        "Home free-shipping threshold $100 and embedded drawer says $100 until free shipping",
+        "New roast countdown shows 40 days from source but no underlying merchant event verified",
+        "Testimonials and newsletter show sample/filler content not customer review verification"
+      ],
+      "design_hypothesis": "Indexed static HTML element existence only; no pixel screenshot or working cart/menu performance proven."
+    },
+    {
+      "id": "shopify-enterprise-sections-reference",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Developer-owned Enterprise Theme Sections test page, not a specific Enterprise/Outlet/Homestead demo",
+        "Department scoped search, quick order, empty comparison table, top brands and campaign promo tiles",
+        "Flash sale countdown end date October 2026 already passed relative to research date",
+        "Product compare table and placeholder products visible in static HTML, not live commerce proof"
+      ],
+      "design_hypothesis": "Indexed static HTML element existence only; no pixel screenshot or working cart/menu performance proven."
     }
   ]
 }

@@ -20,8 +20,8 @@ def check():
         errors.append("live demo plan mismatch with preset inventory")
     live=load(BASE/"shopify-live-demo-evidence-2026.json")
     stores=live.get("stores",[])
-    if len(stores)!=25 or len({d["id"] for d in stores})!=25:
-        errors.append("expected twenty-five distinct public demo document records")
+    if len(stores)!=28 or len({d["id"] for d in stores})!=28:
+        errors.append("expected twenty-eight distinct public demo document records")
     selected=[d for d in stores if d.get("selected_127")]
     for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
         n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
@@ -123,6 +123,23 @@ def check():
                 p=store.get(kind)
                 if p and not p.get("source_crawl_recency"):
                     errors.append("batch6 missing page crawl provenance "+store["id"]+"/"+kind)
+    batch7=load(BASE/"shopify-demo-source-claims-batch7-2026.json")
+    ui7=load(ROOT/"banks/elements/specs/shopify-controls-batch7-2026.json")
+    if len(batch7.get("examples",[]))!=6 or len(ui7.get("controls",[]))!=4:
+        errors.append("batch7 risk cases/control specs incomplete")
+    evidence_urls={p["url"] for s in stores for p in (s.get("homepage"),s.get("collection"),s.get("product"),s.get("cart")) if p}
+    for ex in batch7.get("examples",[]):
+        for k in ("source_url","related_url"):
+            if ex.get(k) and ex[k] not in evidence_urls:
+                errors.append("batch7 finding not linked to inspected document: "+ex["id"])
+    for c in ui7.get("controls",[]):
+        if c["id"] not in els: errors.append("batch7 unknown element: "+c["id"])
+        for opt in c.get("option_ids",[]):
+            if opt not in opts: errors.append("batch7 unknown option: "+opt)
+    if live.get("selected_127_document_count")!=24:
+        errors.append("batch7 expected 24 selected preset home documents")
+    if sum(sum(bool(s.get(p)) for p in ("homepage","collection","product","cart")) for s in stores)!=74:
+        errors.append("batch7 expected exactly 74 independently opened page documents")
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
@@ -136,4 +153,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: 25 Shopify demo HTML stores (22 in cohort), interaction/mobile checks still pending")
+    print("Shopify editor audit OK: 28 Shopify demo HTML stores (24 in cohort), interaction/mobile checks still pending")

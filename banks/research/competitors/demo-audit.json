@@ -6092,6 +6092,125 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-prestige-signature",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Signature",
+      "url": "https://prestige-theme-signature.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Individual public Shopify indexed HTML documents. No interactive UX/cart/checkout/device/editor test; source crawl recency per page.",
+      "feature_option_ids": [
+        "mega-menu",
+        "localization-selectors",
+        "featured-collection",
+        "shop-the-look",
+        "countdown-timer",
+        "cart-drawer"
+      ],
+      "design_signals": [
+        "luxury-footwear-editorial",
+        "2026 shoes collection menu Pumps, Mules, Flats, Boots; EUR localized pricing and country switch",
+        "Hero, split editorial campaign, best-selling product slider and Shop-the-Look shoe outfits"
+      ],
+      "niches": [
+        "luxury-footwear-editorial"
+      ],
+      "notes": "Verified specific cataloged preset live demo host",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-broadcast-airwave",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Airwave",
+      "url": "https://broadcast-theme-airwave.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Individual public Shopify indexed HTML documents. No interactive UX/cart/checkout/device/editor test; source crawl recency per page.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "pre-order",
+        "free-shipping-bar",
+        "countdown-timer",
+        "newsletter-signup",
+        "faceted-filters",
+        "sorting",
+        "quick-add",
+        "product-card-variants",
+        "variant-picker-styles",
+        "quantity-selector",
+        "back-in-stock-slot",
+        "collapsible-tabs",
+        "complementary-products"
+      ],
+      "design_signals": [
+        "coffee-small-catalog-education",
+        "Small coffee catalog with three beans, logo mugs/shirt and brew-guide navigation",
+        "Campaign promo, hero and product best-sellers plus workshop/event storytelling"
+      ],
+      "niches": [
+        "coffee-small-catalog-education"
+      ],
+      "notes": "Verified specific cataloged preset live demo host",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-enterprise-sections-reference",
+      "platform": "shopify",
+      "theme": "Enterprise",
+      "preset": "Theme sections developer showcase, not one of the three named presets",
+      "url": "https://enterprise-sections.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Individual public Shopify indexed HTML documents. No interactive UX/cart/checkout/device/editor test; source crawl recency per page.",
+      "feature_option_ids": [
+        "mega-menu",
+        "predictive-search",
+        "b2b-quick-order-table",
+        "product-compare",
+        "countdown-timer",
+        "faceted-filters",
+        "sorting",
+        "grid-density"
+      ],
+      "design_signals": [
+        "enterprise-product-discovery-sections-only",
+        "Developer-owned Enterprise Theme Sections test page, not a specific Enterprise/Outlet/Homestead demo",
+        "Department scoped search, quick order, empty comparison table, top brands and campaign promo tiles"
+      ],
+      "niches": [
+        "enterprise-product-discovery-sections-only"
+      ],
+      "notes": "Standalone Enterprise sections developer testing store, not a verified Enterprise parent/preset demo. Do not add to 127 cohort.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

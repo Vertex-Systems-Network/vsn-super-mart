@@ -818,6 +818,60 @@
         "featured-collection"
       ],
       "design_implication": "Explicitly classify bundles/multi-item cart rules and single-SKU products; do not conflate a static lookbook with a validated bundle/cart engine."
+    },
+    {
+      "id": "premium-footwear-story-versus-coffee-conversion",
+      "context": "Prestige Signature shoes and Broadcast Airwave coffee document sources share commerce primitives while using different editorial storytelling and contextual needs.",
+      "source_entry_ids": [
+        "shopify-live-prestige-signature",
+        "shopify-live-broadcast-airwave"
+      ],
+      "signals": [
+        "Signature luxury campaign/showroom and shop-the-look shoes",
+        "Airwave brewing education, preorder shelf, five SKU catalog and coffee FAQ"
+      ],
+      "option_ids": [
+        "shop-the-look",
+        "featured-collection",
+        "pre-order",
+        "blog-posts"
+      ],
+      "design_implication": "Original niche-specific section/preset composition over common product forms. Do not infer working preorder or merchandising from HTML alone."
+    },
+    {
+      "id": "shipping-message-source-consistency",
+      "context": "Coffee demo homepage and PDP expose different free shipping thresholds; source copies may target distinct contexts.",
+      "source_entry_ids": [
+        "shopify-live-broadcast-airwave"
+      ],
+      "signals": [
+        "Airwave homepage/cart drawer threshold $100",
+        "Airwave House Blend PDP content says free shipping over $50"
+      ],
+      "option_ids": [
+        "free-shipping-bar",
+        "cart-drawer",
+        "product-blocks"
+      ],
+      "design_implication": "Use merchant and market policy provenance for offer copy; label conditions clearly, do not guess whether differing thresholds are bugs."
+    },
+    {
+      "id": "developer-section-demo-vs-preset-evidence",
+      "context": "Enterprise public standalone section showcase contains compare and quick-order UI but isn't the live storefront of a selected Enterprise preset.",
+      "source_entry_ids": [
+        "shopify-enterprise-sections-reference"
+      ],
+      "signals": [
+        "Compare table with sample data and /5 selection UI",
+        "Quick Order quantity controls",
+        "Expired-looking Oct 2026 flash-sale copy"
+      ],
+      "option_ids": [
+        "product-compare",
+        "b2b-quick-order-table",
+        "countdown-timer"
+      ],
+      "design_implication": "Map developer section capabilities separately from actual preset evidence; theme-owned comparison state needs app-first compliance and runtime tests."
     }
   ]
 }

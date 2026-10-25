@@ -78,3 +78,7 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-live-demo-batch6-2026.md`: Six new actual Shopify live HTML stores (Stiletto Linen/Glimmer/Tapestry, Prestige Strass, Sleek Wildpeak, Dawn); 25 store hosts, 68 page documents and 22/127 selected presets with live homepage evidence.
 - `competitors/shopify-demo-source-claims-batch6-2026.json`: six merchant claim/pricing/urgency/source-evidence QA cases; not executed bugs.
 - `banks/elements/specs/shopify-merchandising-controls-batch6-2026.json`: six merchant control groups proposed to preserve authentic filters, variants, bundles, offer promises and carts; not implemented.
+
+- `competitors/shopify-live-demo-batch7-2026.md`: Prestige Signature and Broadcast Airwave real Shopify demo public HTML, plus Enterprise developer section showcase (not a selected preset). Coverage 24/127, 28 store roots, 74 documents. No UI/checkout/mobile testing.
+- `competitors/shopify-demo-source-claims-batch7-2026.json`: six contextual shipping/inventory/countdown/compare checks with source URLs.
+- `banks/elements/specs/shopify-controls-batch7-2026.json`: four proposed original VSN merchant setting groups, no runtime implementation.

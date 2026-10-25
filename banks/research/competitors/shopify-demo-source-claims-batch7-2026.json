@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "status": "static_html_risk_examples_not_interactive_reproductions",
+  "examples": [
+    {
+      "id": "coffee-shipping-policy-scope",
+      "source_url": "https://broadcast-theme-airwave.myshopify.com/",
+      "related_url": "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend",
+      "seen": "Homepage promises $100 shipping threshold; House Blend PDP says $50; no eligibility or location tests",
+      "recommendation": "Consistent market/product-level free-shipping policy or explicit scoped offer labeling"
+    },
+    {
+      "id": "coffee-cart-static-counters",
+      "source_url": "https://broadcast-theme-airwave.myshopify.com/",
+      "seen": "Empty cart drawer source says Subtotal Free, qualifies for free shipping and $100 away simultaneously; modal state not tested",
+      "recommendation": "Render only cart-derived monetary values and valid progress for chosen market/currency; no contradictory empty-cart state"
+    },
+    {
+      "id": "coffee-inventory-copy",
+      "source_url": "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend",
+      "seen": "Product source contains both Add to Cart and Sold Out Notify Me markup, which may be alternate hidden states",
+      "recommendation": "Drive correct visible action from currently selected variant availability, never infer a runtime bug from both states in HTML"
+    },
+    {
+      "id": "signature-zero-countdown",
+      "source_url": "https://prestige-theme-signature.myshopify.com/",
+      "seen": "Coming soon counter includes all 00 time units; actual campaign end unknown",
+      "recommendation": "Require future merchant deadline and accessible expiry state, no arbitrary urgency"
+    },
+    {
+      "id": "enterprise-expired-campaign-copy",
+      "source_url": "https://enterprise-sections.myshopify.com/",
+      "seen": "Demo countdown section says ending in October 2026 and shows all zeros on Oct 25",
+      "recommendation": "Only show live event if deadline exists and is in the future; developer test demo not real commerce"
+    },
+    {
+      "id": "enterprise-comparison-inert-example",
+      "source_url": "https://enterprise-sections.myshopify.com/collections/all",
+      "seen": "Compare /5 and test-product labels in static source, no comparison interaction performed",
+      "recommendation": "Mark UI only, not functional product comparison; app integration and accessibility test separately"
+    }
+  ]
+}

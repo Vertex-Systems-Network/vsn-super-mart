@@ -52,3 +52,5 @@
 - 2026-10-25 [Shopify demo batch 5] Six additional selected Theme Store presets verified in actual indexed HTML, 12 new page documents, 4 research patterns and 5 planned control sets; 16/127 demo homepage coverage. No mobile/cart mutations/editor access.
 
 - 2026-10-25 [Shopify research / batch 6] Six more official preset demo home HTML sources and 8 deeper indexed pages; 25 store roots/68 pages, 22/127 selected coverage. Source claim hygiene, Shopify free Dawn baseline and original design settings recorded. CI expected before merge.
+
+- 2026-10-25 [Shopify live demo / batch7] Two new selected preset home HTML pages (Prestige Signature, Broadcast Airwave) + 4 other Shopify demo HTML pages; 28 stores/74 documents; 24/127 selected coverage. Enterprise Section example excluded from 127. PR #9 remains open until permitted merge.

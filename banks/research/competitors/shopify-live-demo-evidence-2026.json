@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "25 Shopify demo stores, 68 opened page HTML documents; 22 of selected 127 have independently opened homepage documents, no browser transaction/mobile/editor QA. Six new live storefront examples include Stiletto 3, Prestige Strass, Sleek Wildpeak, Dawn.",
+  "summary": "28 public Shopify demo store roots and 74 retrievable indexed HTML page documents. 24/127 selected preset storefronts have an opened home source (18.9%). No browser interactions, actual mobile, checkout or private editor.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -1908,13 +1908,229 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-prestige-signature",
+      "family": "Prestige",
+      "preset": "Signature",
+      "catalog_preset_id": "prestige:signature",
+      "selected_127": true,
+      "focus": "luxury-footwear-editorial",
+      "homepage": {
+        "url": "https://prestige-theme-signature.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "1 month",
+        "signals": [
+          "2026 shoes collection menu Pumps, Mules, Flats, Boots; EUR localized pricing and country switch",
+          "Hero, split editorial campaign, best-selling product slider and Shop-the-Look shoe outfits",
+          "Product cards show Choose Options, campaign and local boutique pages",
+          "Coming-soon countdown displays all zero units in HTML; event date not verified",
+          "Empty cart drawer markup on homepage with no separately fetched cart route"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "localization-selectors",
+          "featured-collection",
+          "shop-the-look",
+          "countdown-timer",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "localization",
+          "product-grid",
+          "product-card",
+          "shop-the-look",
+          "countdown",
+          "cart-drawer"
+        ]
+      },
+      "collection": null,
+      "product": null,
+      "cart": null,
+      "unverified": [
+        "Shoe gallery PDP and collection and cart links cache missed",
+        "Real offer countdown, 2026 campaign and consumer conversion",
+        "Device/mobile and variants/editor access"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-broadcast-airwave",
+      "family": "Broadcast",
+      "preset": "Airwave",
+      "catalog_preset_id": "broadcast:airwave",
+      "selected_127": true,
+      "focus": "coffee-small-catalog-education",
+      "homepage": {
+        "url": "https://broadcast-theme-airwave.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "4 days",
+        "signals": [
+          "Small coffee catalog with three beans, logo mugs/shirt and brew-guide navigation",
+          "Campaign promo, hero and product best-sellers plus workshop/event storytelling",
+          "Home free-shipping threshold $100 and embedded drawer says $100 until free shipping",
+          "New roast countdown shows 40 days from source but no underlying merchant event verified",
+          "Testimonials and newsletter show sample/filler content not customer review verification"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "pre-order",
+          "free-shipping-bar",
+          "countdown-timer",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "product-card",
+          "countdown",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://broadcast-theme-airwave.myshopify.com/collections/all",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "about 1 year",
+        "signals": [
+          "Five total SKUs in indexed collection: coffees, mug and shirt",
+          "Facets Availability, Price and Product type; sorting and Quick Add/Preorder states",
+          "Index was crawled about one year earlier, so category membership/settings may have changed"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "quick-add",
+          "pre-order",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card",
+          "product-grid"
+        ]
+      },
+      "product": {
+        "url": "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 months",
+        "signals": [
+          "House Blend 250g and grind options Whole Bean, Espresso, Medium plus $33 price",
+          "PDP says free shipping over $50, conflicting with $100 home text unless different terms apply",
+          "Product purchase form shows cart counter, notifications, extra FAQ, brewing info and mug upsell",
+          "Text includes 'Sold Out - Notify Me' concurrently with Add to Cart markup; no variant event tested"
+        ],
+        "option_ids": [
+          "variant-picker-styles",
+          "quantity-selector",
+          "back-in-stock-slot",
+          "collapsible-tabs",
+          "complementary-products",
+          "free-shipping-bar"
+        ],
+        "element_ids": [
+          "variant-picker",
+          "quantity",
+          "buy-buttons",
+          "back-in-stock",
+          "complementary",
+          "faq"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "Standalone /cart route not retrievable; homepage drawer does not count as cart page",
+        "Menu/subscribe/add-to-cart/variant quantity tested",
+        "Dynamic shipping threshold and inventory/notify-state consistency",
+        "Screenshots or Theme Editor"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-enterprise-sections-reference",
+      "family": "Enterprise",
+      "preset": "Theme sections developer showcase, not one of the three named presets",
+      "catalog_preset_id": null,
+      "selected_127": false,
+      "focus": "enterprise-product-discovery-sections-only",
+      "homepage": {
+        "url": "https://enterprise-sections.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 weeks",
+        "signals": [
+          "Developer-owned Enterprise Theme Sections test page, not a specific Enterprise/Outlet/Homestead demo",
+          "Department scoped search, quick order, empty comparison table, top brands and campaign promo tiles",
+          "Flash sale countdown end date October 2026 already passed relative to research date",
+          "Product compare table and placeholder products visible in static HTML, not live commerce proof"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "predictive-search",
+          "b2b-quick-order-table",
+          "product-compare",
+          "countdown-timer"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "predictive-search",
+          "quick-order",
+          "compare",
+          "countdown"
+        ]
+      },
+      "collection": {
+        "url": "https://enterprise-sections.myshopify.com/collections/all",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "2 months",
+        "signals": [
+          "Two test products with availability and price filters, sort and Compare UI",
+          "Quick Order quantity rows and Compare /5 drawer markup plus cart total $0.00",
+          "Static source contains both in-stock and unavailable labels on test entries; no click/transaction test"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-compare",
+          "b2b-quick-order-table",
+          "grid-density"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "compare",
+          "quick-order",
+          "product-card"
+        ]
+      },
+      "product": null,
+      "cart": null,
+      "unverified": [
+        "Test products and section demo are not one merchant-ready theme preset",
+        "Date and availability states from HTML not proof of runtime bug",
+        "No add-to-cart/compare/checkout or mobile/editor test"
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 25,
-    "opened_home": 25,
-    "opened_collection": 17,
-    "opened_product": 18,
+    "opened_stores": 28,
+    "opened_home": 28,
+    "opened_collection": 19,
+    "opened_product": 19,
     "opened_empty_cart": 8,
     "interactive_events_tested": 0
   },
@@ -1924,5 +2140,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 22
+  "selected_127_document_count": 24
 }

@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 7 appended to open PR #9, 24/127 coverage
+
+Opened **Prestige Signature** and **Broadcast Airwave** live demo HTML home pages, Airwave public collection and PDP, plus Enterprise **sections test storefront** home+collection (excluded from 127 preset denominator). Total 28 distinct hosts and 74 public HTML docs, 24/127 selected preset home coverage (18.9%). Three mapped patterns, three design observations, four proposed control groups and six source-bound risk notes. Continue using existing PR #9 branch until GitHub merge is permitted; prior merge call was blocked, don't claim `main` updated. No browser action/mobile/editor/checkout testing. Old Figma Stage 6 archived.
+
+
 ## 2026-10-25 — Shopify demo research batch 6 (progress 22/127 = 17.3%)
 
 Six new selected storefronts: Stiletto Linen/Glimmer/Tapestry, Prestige Strass, Sleek Wildpeak, and Shopify Dawn. Total 25 demo hosts, 68 retrieved public indexed HTML documents; 22 of 127 selected demos now have opened home documents (17.3%). Deep category/product pages where retrievable, exact source-crawl recency, five new system patterns, six design observations and six truthful-claims QA cases. Added six **proposed** VSN control sets. This is not real-time click, checkout, responsive screenshot or Theme Editor verification. Keep displaying a per-batch progress bar. Stage 2 Research remains; old Figma is historical.
