@@ -343,6 +343,36 @@ def check():
     for case in b17.get("cases",[]):
         if case.get("source_url") not in all17 or not case.get("vsn_guard") or not case.get("source_age"):
             errors.append("Batch17 unsourced merchant QA case "+str(case.get("id")))
+    # Batch18 vendor source and independent reviewer scope: zero new firsthand demo HTML or interactions.
+    b18=load(BASE/"shopify-vendor-regression-batch18-2026.json")
+    review18=load(BASE/"shopify-independent-review-batch18-2026.json")
+    if b18.get("evidence_scope")!="official Shopify Theme Store vendor release notes and first-party vendor marketing; NOT competitor live storefront HTML, NOT executed VSN functional QA":
+        errors.append("Batch18 vendor notes mislabeled as firsthand demo")
+    if b18.get("demo_homepage_newly_opened")!=0 or b18.get("interactions_executed_by_vsn")!=0:
+        errors.append("Batch18 unexecuted vendor regression tests falsely counted")
+    if len(b18.get("checks",[]))!=8 or len({i.get("id") for i in b18.get("checks",[])})!=8:
+        errors.append("Batch18 missing 8 distinct release-derived QA scenarios")
+    source18={i.get("id"):i.get("url") for i in b18.get("sources",[])}
+    for check in b18.get("checks",[]):
+        if check.get("status")!="not_executed" or check.get("evidence_level")!="vendor_published_change_note_or_marketing":
+            errors.append("Batch18 QA executed without actual test "+str(check.get("id")))
+        if check.get("source_url")!=source18.get(check.get("source_key")) or not check.get("source_url","").startswith("https://"):
+            errors.append("Batch18 missing source link for "+str(check.get("id")))
+        if check.get("catalog_preset_id") not in cohort or not check.get("planned_qa") or not check.get("original_vsn_design_rule"):
+            errors.append("Batch18 unknown selected theme or missing QA plan "+str(check.get("id")))
+        for oid in check.get("option_ids",[]):
+            if oid not in opts:errors.append("Batch18 unknown option "+oid)
+        for eid in check.get("element_ids",[]):
+            if eid not in els:errors.append("Batch18 unknown element "+eid)
+    if review18.get("direct_storefront_url_opened_by_vsn") is not False or review18.get("vsn_mobile_or_interactive_tests")!=0:
+        errors.append("Batch18 third party article is not own browser interaction QA")
+    if len(review18.get("items",[]))!=5 or len(set(i.get("id") for i in review18.get("items",[])))!=5:
+        errors.append("Batch18 requires 5 third-party reviewed examples")
+    for item in review18.get("items",[]):
+        if item.get("preset") not in cohort or not item.get("claim") or not item.get("original_implication"):
+            errors.append("Batch18 reviewer claim not traceable: "+str(item.get("id")))
+        for oid in item.get("mapped_option_ids",[]):
+            if oid not in opts:errors.append("Batch18 unknown review option "+oid)
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):

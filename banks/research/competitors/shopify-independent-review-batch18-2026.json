@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "batch": 18,
+  "updated_at": "2026-10-25",
+  "source_url": "https://www.theme-hub.com/vision-shopify-theme-review",
+  "evidence_type": "independent_third_party_reviewer_reported_visual_and_manual_interaction_claims_not_our_own_demo_qa",
+  "direct_storefront_url_opened_by_vsn": false,
+  "vsn_mobile_or_interactive_tests": 0,
+  "evaluated_preset_ids": [
+    "vision:vision",
+    "vision:onyx",
+    "vision:poochy",
+    "vision:velocite",
+    "vision:solstice"
+  ],
+  "items": [
+    {
+      "id": "vision-variant-media-review",
+      "preset": "vision:vision",
+      "claim": "Reviewer says clicking blue swatch on speaker regrouped imagery for four colors, with color and material controls plus sticky purchase bar.",
+      "mapped_option_ids": [
+        "variant-picker-styles",
+        "variant-images",
+        "sticky-atc"
+      ],
+      "original_implication": "Preserve variant media association and same selected variant across floating purchase controls; test source directly when accessible."
+    },
+    {
+      "id": "vision-comparison-tray-review",
+      "preset": "vision:vision",
+      "claim": "Reviewer reports category compare checkboxes feeding a tray for up to five products and spec rows.",
+      "mapped_option_ids": [
+        "product-compare",
+        "comparison-table",
+        "faceted-filters"
+      ],
+      "original_implication": "Inform optional-app comparison UX only, do not infer Shopify Theme Store compliance for shipping app-like comparison built-in."
+    },
+    {
+      "id": "poochy-embedded-product-review",
+      "preset": "vision:poochy",
+      "claim": "Reviewer says full featured product purchase component embedded on homepage with thumbnail gallery, size/color and size chart.",
+      "mapped_option_ids": [
+        "featured-product",
+        "variant-picker-styles",
+        "size-chart"
+      ],
+      "original_implication": "Original embedded featured product shares the native variant/product form logic with PDP and app slot; no duplicate unsupported business state."
+    },
+    {
+      "id": "onyx-before-after-review",
+      "preset": "vision:onyx",
+      "claim": "Reviewer describes before/after slider alongside jewelry editorial content and press quotes.",
+      "mapped_option_ids": [
+        "image-banner",
+        "testimonials",
+        "media-gallery-layouts"
+      ],
+      "original_implication": "Confirms demand for an original dedicated accessible image comparison slider; planned element catalog gap persists."
+    },
+    {
+      "id": "solstice-price-category-review",
+      "preset": "vision:solstice",
+      "claim": "Reviewer describes five budget-first category tiles and campaign-video homepage blocks.",
+      "mapped_option_ids": [
+        "collection-list",
+        "video-section",
+        "promo-grid"
+      ],
+      "original_implication": "Allow merchant-configured price-band collection tiles tied to real assortment and seasonal campaign expiry, not hardcoded catalog promises."
+    }
+  ],
+  "notes": [
+    "Reviewer's claimed test actions were performed by author of the linked third-party source, not VSN. Do not increment demo HTML/mobile/interaction counts.",
+    "Review opinions and compatibility claims are not authoritative Shopify policy or objective performance data."
+  ]
+}

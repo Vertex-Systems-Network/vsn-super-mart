@@ -131,3 +131,9 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-live-demo-batch17-2026.md`: 2 selected paid **Release/Release** and **Release/Forest** Shopify demo homes, plus default clothing collection/PDP/cart and Forest furniture category, each with exact independently opened indexed HTML URL and crawler age.
 - `competitors/shopify-source-claims-batch17-2026.json`: four merchant policy/preorder/material filter/countdown provenance risks, not executed UI defects.
 - Three source-linked, original merchant-control patterns and two catalog observations mapped. Cumulative **47/127 selected demo homes (37.0%)**, **51 hosts /143 primary HTML documents**. Selected: 36 collections, 38 PDPs, 11 carts; interactive/mobile/editor remain 0.
+
+## Batch 18 — vendor release compatibility and independent reviewer notes (2026-10-25)
+
+- `competitors/shopify-vendor-regression-batch18-2026.json`: **8 unexecuted** source-linked original VSN QA gates arising from actual Shopify Theme Store/first-party vendor release notes for Vision/Poochy v18.0.0, Ignite/Tails v2.7.0, Sleek/Jumped v2.3.0.
+- `competitors/shopify-independent-review-batch18-2026.json`: 5 Vision preset visual/interaction findings reported by **a third-party reviewer**, never VSN's own tested clicks; theme app-like compare is not automatic Theme Store approval.
+- `competitors/shopify-vendor-regression-report-batch18-2026.md`: sources, release scope, boundary of evidence and architectural/test implications. **No new live demo HTML visited**: 47/127 selected home sources, 51 hosts/143 primary documents.

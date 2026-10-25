@@ -76,3 +76,5 @@
 - 2026-10-25 — Batch16 CI follow-up: repaired platform feasibility validator's historical Batch11 43-home equals-current assumption; now requires current verified home count >= historical and matches distinct selected preset records/plan. Existing Shopify editor audit already passed at 45 selected homes.
 
 - 2026-10-25 — Shopify indexed HTML Batch17: opened Release/default fashion (home, 21-product category, PDP, empty cart) and Release Forest furniture (home and 49-item material-filter collection), six primary source docs in total, 3 mapped original patterns and 4 source-copy risks. 51 hosts/143 HTML; 47/127 selected homes (37.0%). No device/cart/variant/editor QA.
+
+- 2026-10-25 — Batch18: 8 official vendor-release-derived unexecuted VSN QA checks (Vision v18, Ignite v2.7, Sleek v2.3) and 5 separately attributed independent reviewer-described Vision behaviors. Verified evidence classifications and existing option/element IDs; 0 new actual demo HTML, mobile click or checkout tests. 47/127 home, 51 hosts/143 primary documents unchanged.
