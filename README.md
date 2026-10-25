@@ -26,14 +26,14 @@ Details: [`ai/WORKFLOW.md`](ai/WORKFLOW.md).
 | `ai/` | Workflow, state (resume point), prompts, templates |
 | `theme/` | Shopify theme source (created in Stage 7 from Skeleton theme) |
 
-Design: Figma file `y5e3fEpx2eAFhLRFLisP0o`, page "AFTERHOURS — Restored UI". Source-backed 24-screen editable restoration; original photos missing.
+**Design:** No active Figma design. Previous Afterhours drafts are archived/superseded; a completely new design will be created after current research.
 
 **Popular Shopify theme research, PR #2:** [47 family listings](banks/research/competitors/shopify-families-2026.json), [127 individually opened official listing design/preset records](banks/research/competitors/shopify-presets-2026.json) and [research report](banks/research/competitors/shopify-research-report.md). Real live-store interactions are not yet verified; this is source-backed catalog research.
 
 ## Current status (2026-10-25)
 
 - **PR #1 research cohort:** 55 individually referenced theme/preset/demo entries, 14 evidence-linked patterns, 16 qualitative design observations and 20 Shopify capability route decisions. See [research closeout](banks/research/competitors/research-closeout.md) and [implementation matrix](banks/research/competitors/shopify-implementation-matrix.json).
-- **Afterhours Figma:** 24 editable layout frames restored (19 desktop / 5 mobile) in [this file](https://www.figma.com/design/y5e3fEpx2eAFhLRFLisP0o/VSN-Super-Mart?node-id=0-1). Generated images still require upload and full visual QA; Stage 6 design approval is **pending**.
+- **Design workstream:** Previous Afterhours UI is not current. User requested a fresh design later; do not treat historical 24 frames as active, approved or an immediate research blocker.
 - **Core theme:** 192 elements catalogued, 5 core new specs ready; prototype blocks in `theme/` are not release-ready and have not been tested in a live Shopify development store.
 - The research/AI workflow PR can be merged as infrastructure. It does **not** indicate Stage 7 theme development or Store release approval.
 - Run `python3 scripts/competitor_audit.py validate` and `python3 scripts/vsn.py validate` before changes.

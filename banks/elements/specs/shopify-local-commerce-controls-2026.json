@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "status": "settings_research_only_not_implemented",
+  "source_store": "https://local-theme-main.myshopify.com/",
+  "source_docs": [
+    "https://shopify-support.krownthemes.com/article/796-cart",
+    "https://shopify-support.krownthemes.com/article/800-local-popups",
+    "https://shopify-support.krownthemes.com/article/810-local-blogs-article",
+    "https://shopify-support.krownthemes.com/article/794-layout-borders-shadows",
+    "https://help.archetypethemes.co/hc/en-us/articles/46027069235091-Impulse-release-notes"
+  ],
+  "elements": [
+    {
+      "id": "cart-summary",
+      "option_ids": [
+        "cart-shipping-estimator",
+        "cart-notes",
+        "cart-discounts"
+      ],
+      "merchant_settings": [
+        {
+          "id": "show_shipping_estimator",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "estimator_country",
+          "type": "select",
+          "data_source": "Shopify localization countries, not hardcoded list"
+        },
+        {
+          "id": "estimator_postal_code",
+          "type": "input",
+          "data_source": "Shopify shipping estimate service/server API if supported"
+        },
+        {
+          "id": "show_order_note",
+          "type": "checkbox",
+          "default": true
+        }
+      ],
+      "shopper_states": [
+        "cart-empty",
+        "awaiting-estimate",
+        "estimate-result",
+        "estimate-error",
+        "checkout-total-unknown"
+      ],
+      "guardrails": [
+        "Shipping remains estimate until checkout, do not compute fake final totals.",
+        "Handle different address/currency/localization combinations."
+      ]
+    },
+    {
+      "id": "product-card",
+      "option_ids": [
+        "dietary-allergen-badges"
+      ],
+      "merchant_settings": [
+        {
+          "id": "show_dietary_badges",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "allergen_source",
+          "type": "metafield",
+          "data_source": "merchant-managed product metafield/metaobject"
+        },
+        {
+          "id": "badge_max_visible",
+          "type": "range",
+          "default": 4,
+          "min": 1,
+          "max": 8
+        }
+      ],
+      "shopper_states": [
+        "verified-claims",
+        "no-data",
+        "sold-out",
+        "badge-overflow"
+      ],
+      "guardrails": [
+        "Never infer allergens or medical/safety claims from product names.",
+        "Always provide visible text alongside icons."
+      ]
+    },
+    {
+      "id": "pickup",
+      "option_ids": [
+        "pickup-availability",
+        "pickup-location-preference"
+      ],
+      "merchant_settings": [
+        {
+          "id": "show_pickup_availability",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "id": "show_preferred_location",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "pickup_copy",
+          "type": "text",
+          "default": "Check pickup availability"
+        }
+      ],
+      "shopper_states": [
+        "unset-location",
+        "available",
+        "unavailable",
+        "unknown",
+        "loading"
+      ],
+      "guardrails": [
+        "Use Shopify availability per selected variant and location.",
+        "No confirmed pickup reservation through the theme alone."
+      ]
+    },
+    {
+      "id": "blog-posts",
+      "option_ids": [
+        "article-product-quickbuy",
+        "blog-posts"
+      ],
+      "merchant_settings": [
+        {
+          "id": "enable_article_product_blocks",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "id": "product_reference",
+          "type": "product",
+          "data_source": "merchant-selected product reference"
+        },
+        {
+          "id": "show_product_price",
+          "type": "checkbox",
+          "default": true
+        }
+      ],
+      "shopper_states": [
+        "valid-product",
+        "unavailable",
+        "sold-out"
+      ],
+      "guardrails": [
+        "Do not rewrite arbitrary article URLs into purchasable products without merchant control.",
+        "Use native cart and product variant validation."
+      ]
+    },
+    {
+      "id": "popup",
+      "option_ids": [
+        "newsletter-popup",
+        "age-verification",
+        "cookie-consent"
+      ],
+      "merchant_settings": [
+        {
+          "id": "display_delay_seconds",
+          "type": "range",
+          "default": 10,
+          "min": 0,
+          "max": 60
+        },
+        {
+          "id": "frequency",
+          "type": "select",
+          "values": [
+            "once",
+            "daily",
+            "weekly",
+            "monthly"
+          ]
+        },
+        {
+          "id": "stack_priority",
+          "type": "select",
+          "values": [
+            "consent",
+            "age",
+            "marketing"
+          ]
+        }
+      ],
+      "shopper_states": [
+        "dismissed",
+        "visible",
+        "session-eligible",
+        "consent-required"
+      ],
+      "guardrails": [
+        "Cookie consent requirements take precedence over marketing popups.",
+        "Do not use deceptive urgency or trap navigation."
+      ]
+    },
+    {
+      "id": "variant-picker",
+      "option_ids": [
+        "variant-picker-styles",
+        "size-chart",
+        "quick-view"
+      ],
+      "merchant_settings": [
+        {
+          "id": "picker_style",
+          "type": "select",
+          "values": [
+            "buttons",
+            "dropdown",
+            "swatches"
+          ]
+        },
+        {
+          "id": "size_chart_option_name",
+          "type": "text",
+          "default": "Size"
+        },
+        {
+          "id": "load_state",
+          "type": "read-only",
+          "value": "loading/unavailable"
+        }
+      ],
+      "shopper_states": [
+        "unselected",
+        "loading",
+        "available",
+        "sold-out",
+        "not-a-combination"
+      ],
+      "guardrails": [
+        "Preserve selectedVariant SKU and media in native Shopify state.",
+        "Variant scale up to 2048 mentioned by vendor, not yet independently performance-tested."
+      ]
+    }
+  ]
+}

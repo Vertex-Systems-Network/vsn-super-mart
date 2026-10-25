@@ -539,6 +539,59 @@
         "empty-states"
       ],
       "design_implication": "Ensure free-theme baseline features in VSN even when preset visual styling is more expressive."
+    },
+    {
+      "id": "location-aware-grocery-journey",
+      "context": "Local grocery demo shows store selection, location pickup messages and shipping estimator on separate templates.",
+      "signals": [
+        "Local home allows setting preferred store; PDP exposes location-specific availability",
+        "Cart exposes country/province/postal estimator but shipping still finalized at checkout"
+      ],
+      "source_entry_ids": [
+        "shopify-live-local-default"
+      ],
+      "option_ids": [
+        "pickup-availability",
+        "pickup-location-preference",
+        "cart-shipping-estimator",
+        "localization-selectors"
+      ],
+      "design_implication": "Single merchant-managed fulfilment state across header, PDP and cart. Prefer native Shopify pickup and country/province states; never promise a final shipping fee from theme calculations."
+    },
+    {
+      "id": "allergen-and-dietary-data-merchandising",
+      "context": "Local grocery document renders dietary and allergen labels within collection cards and nutrition data on PDPs.",
+      "signals": [
+        "37 product collection with Gluten, Eggs, Nuts, Organic badges in various items",
+        "Tomato puree PDP shows Allergen and Nutri-score labels and nutrition table"
+      ],
+      "source_entry_ids": [
+        "shopify-live-local-default"
+      ],
+      "option_ids": [
+        "dietary-allergen-badges",
+        "ingredients-nutrition",
+        "product-card-variants"
+      ],
+      "design_implication": "Build clear icon+text food tags from merchant-maintained metafields and audit allergy claims; link PDP table and collection chips to same source of truth."
+    },
+    {
+      "id": "accessories-hero-to-quick-view",
+      "context": "Motion Satchel homepage mixes editorial handbag story, color variants and Quick View rails.",
+      "signals": [
+        "Five color-specific bags in document-level Quick View shelf",
+        "Services, collection story, newsletter and three journal stories"
+      ],
+      "source_entry_ids": [
+        "shopify-live-motion-satchel"
+      ],
+      "option_ids": [
+        "quick-view",
+        "featured-collection",
+        "image-with-text",
+        "blog-posts"
+      ],
+      "design_implication": "Use visual image-led premium merchandising with merchant-set object identity; product color variants should not be mistaken for separate SKU groups; no copied campaign photos."
     }
   ]
 }

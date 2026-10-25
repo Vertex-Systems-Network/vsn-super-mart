@@ -309,6 +309,28 @@
         "Drink category navigation, light hero, featured product shelves and recipe content"
       ],
       "design_hypothesis": "Public HTML confirms element semantics, not exact layout/behaviour on devices; future screenshot-based fingerprint required."
+    },
+    {
+      "id": "shopify-live-motion-satchel",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "five colour-variant bag cards shown with Quick View",
+        "editorial handbags hero and story sections",
+        "customer promises for returns, gift wrapping, pickup and shipping",
+        "journal section and empty slide-out cart markup on same homepage"
+      ],
+      "design_hypothesis": "HTML content evidence supports feature presence but not interactive functionality, screenshots or a unique visual fingerprint."
+    },
+    {
+      "id": "shopify-live-local-default",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "multi-level pantry/produce/bakery/dairy/drinks navigation with promo cards",
+        "pickup store preference and delivery estimate labels",
+        "best sellers, organic diet badges and food content sections",
+        "store hours/location cards and newsletter"
+      ],
+      "design_hypothesis": "HTML content evidence supports feature presence but not interactive functionality, screenshots or a unique visual fingerprint."
     }
   ]
 }

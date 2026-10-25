@@ -57,7 +57,7 @@ def check():
     if errors:
         print("Afterhours recovery FAIL: " + "; ".join(errors))
         return 1
-    print("Afterhours recovery OK: 24 source screens, 108 placeholders, 22 historic prompts; active Figma frames recorded; original Figma photos unavailable")
+    print("Afterhours historical backup OK: 24 source screens, 108 placeholder mappings, 22 old prompts; no active Figma design asserted")
     return 0
 
 

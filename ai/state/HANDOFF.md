@@ -2,6 +2,18 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Shopify demo Batch 3 and deeper merchant settings
+
+Added Motion Satchel **homepage** plus Local default **home/37-product collection/food PDP/empty cart**, totaling 10 stores and 33 documented HTML pages; 8 among original 127 preset index. Local evidence includes pickup locations, allergens, Nutri-score, variant choice and cart estimation form. Vendor docs for Local cart/popups/blog/style and Impulse v10 high-variant behavior separated as *vendor documentation*. Added 4 optional Options IDs, original suggested 6-element settings schema, 3 source patterns and 2 design observations. No interactions/mobile/editor claims. **Earlier Afterhours Stage 6 is superseded per user; active work remains research.**
+
+
+## 2026-10-25 — USER RESET: Old Figma Stage 6 superseded, continue research
+
+**Authoritative instruction:** Stop treating former Stage 6/Afterhours file or replacement as a current design. There is no active Figma. User wants a wholly new design later, so `ai/state/progress.json` active stage moved back to **2 (research)** and former stage-4 approvals cleared. Spec/registry/manifest retain old IDs **only under historical fields**; main design is marked not started. Historical HTML generator remains a backup; it does NOT confer design approval.
+
+**Immediate workstream:** Shopify demo storefront research + vendor documentation + AI options and element settings. No attempts to re-create original Stage 6 Figma; no premature development approval.
+
+
 ## 2026-10-25 — Shopify live HTML Batch 2: four more selected presets
 
 Opened Empire Depot, Wonder, Be Yours and Taste public Shopify demo home/category/PDP documents plus empty-cart pages for Wonder and Taste. Total now 8 individual live-demo stores with 28 HTML documents (6 within the 127 popular preset inventory). Added 3 source-linked design patterns and 4 qualitative observations, increased cohort counts and expanded validator. Actual button execution, nonempty cart, browser mobile and editor access remain unverified. See `shopify-live-demo-batch2-2026.md`.

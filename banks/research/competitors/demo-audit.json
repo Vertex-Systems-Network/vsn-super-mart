@@ -5408,6 +5408,91 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-motion-satchel",
+      "platform": "shopify",
+      "theme": "Motion",
+      "preset": "Satchel",
+      "url": "https://motion-theme-accessories.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Actual demo storefront public HTML opened only for pages listed in linked evidence; no browser UI interactions, checkout, mobile or Theme Editor testing.",
+      "feature_option_ids": [
+        "quick-view",
+        "featured-collection",
+        "image-with-text",
+        "blog-posts",
+        "cart-drawer"
+      ],
+      "design_signals": [
+        "premium-accessories-editorial",
+        "five colour-variant bag cards shown with Quick View",
+        "editorial handbags hero and story sections"
+      ],
+      "niches": [
+        "premium-accessories-editorial"
+      ],
+      "notes": "Per-page evidence in shopify-live-demo-evidence-2026.json; not permission to copy theme code/assets or infer real order outcomes.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-local-default",
+      "platform": "shopify",
+      "theme": "Local",
+      "preset": "Local",
+      "url": "https://local-theme-main.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Actual demo storefront public HTML opened only for pages listed in linked evidence; no browser UI interactions, checkout, mobile or Theme Editor testing.",
+      "feature_option_ids": [
+        "mega-menu",
+        "multi-level-menu",
+        "collection-list",
+        "free-shipping-bar",
+        "pickup-availability",
+        "localization-selectors",
+        "faceted-filters",
+        "sorting",
+        "dietary-allergen-badges",
+        "product-compare",
+        "card-badges",
+        "pickup-location-preference",
+        "ingredients-nutrition",
+        "variant-picker-styles",
+        "complementary-products",
+        "cart-page",
+        "cart-shipping-estimator",
+        "cart-notes",
+        "cart-discounts",
+        "empty-states"
+      ],
+      "design_signals": [
+        "local-grocery-fulfillment",
+        "multi-level pantry/produce/bakery/dairy/drinks navigation with promo cards",
+        "pickup store preference and delivery estimate labels"
+      ],
+      "niches": [
+        "local-grocery-fulfillment"
+      ],
+      "notes": "Per-page evidence in shopify-live-demo-evidence-2026.json; not permission to copy theme code/assets or infer real order outcomes.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
