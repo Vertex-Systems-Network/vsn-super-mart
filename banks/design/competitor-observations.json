@@ -547,7 +547,11 @@
       "homepage_modules": [
         "Wholesale category hierarchy, partner request and locale selectors"
       ],
-      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "Turkish Cotton Towels PDP: table of size/color variants, per-unit labels, quantity rule links, multiple sold-out entries and materials/care content",
+        "Variant table is public sample markup only, not evidence of activated wholesale buyer pricing, Shopify Plus or completed quantity-rule action"
+      ]
     },
     {
       "id": "shopify-live-publisher-free",
@@ -555,7 +559,11 @@
       "homepage_modules": [
         "Books, artist publishing, editorial grid, $0 empty cart HTML"
       ],
-      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "Book PDP lists dimensions, 232 pages, ISBN, publisher, five source gallery images and quantity control",
+        "Same PDP includes free shipping over $15 near product and over $150 in North America in footer; geographic/policy scope not authenticated"
+      ]
     },
     {
       "id": "shopify-live-sense-free",
@@ -563,7 +571,11 @@
       "homepage_modules": [
         "Skincare, hair care, body and nail goods; promotional 15% conditional copy"
       ],
-      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "BKIND Lip Balm PDP: flavor choices, 7-image source gallery, ingredient list, directions, shipping and returns",
+        "Source includes both sold-out and add-to-cart markup; actual selected-variant visible state not tested"
+      ]
     },
     {
       "id": "shopify-live-spotlight-free",
@@ -579,7 +591,11 @@
       "homepage_modules": [
         "Art gallery prints, originals, artist menu, journal"
       ],
-      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "Rhyme artwork PDP: gouache work dimensions, authenticity/signed-artist note, suggested framing, four media images, artist biography and related works",
+        "Authenticity and shipping language is demo content, not externally validated provenance or fulfillment"
+      ]
     },
     {
       "id": "shopify-live-tinker-free",
@@ -675,7 +691,11 @@
       "homepage_modules": [
         "Skincare philosophy, bundles, promotional badges, newsletter"
       ],
-      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls.",
+      "product_modules": [
+        "Age Serum demo PDP: $21 sample price, 0.5% retinol label, benefits, ingredient/claims copy, four media images and pairing section",
+        "Merchant ingredient, safety and formula claims cannot be reused or assumed verified"
+      ]
     }
   ]
 }

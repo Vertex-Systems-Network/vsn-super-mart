@@ -1033,6 +1033,55 @@
         "variant-picker-styles"
       ],
       "design_implication": "Original reusable category merchandising and product variant components should cover contrasting niches."
+    },
+    {
+      "id": "shopify-free-pdp-composable-dynamic-disclosure",
+      "context": "Opened first-party Pitch, Sense and Studio PDP HTML pages individually",
+      "signals": [
+        "Skincare needs formula/usage blocks; artwork benefits from provenance, framing, artist bio; avoid universal hardcoded claims"
+      ],
+      "source_entry_ids": [
+        "shopify-live-pitch-free",
+        "shopify-live-sense-free",
+        "shopify-live-studio-free"
+      ],
+      "option_ids": [
+        "product-blocks",
+        "product-custom-fields",
+        "ingredients-nutrition"
+      ],
+      "design_implication": "Use content-type-aware, optional native metafield/metaobject-linked disclosure and storytelling blocks, with blank-state handling. Claims and authenticity must be provided and reviewed by merchant."
+    },
+    {
+      "id": "shopify-free-trade-variant-quantity-table",
+      "context": "Opened Trade Turkish Cotton Towels PDP",
+      "signals": [
+        "Dense size/color product variant matrix shows per-unit prices, sold-out variant rows, quantity rule links"
+      ],
+      "source_entry_ids": [
+        "shopify-live-trade-free"
+      ],
+      "option_ids": [
+        "b2b-quick-order-table",
+        "variant-picker-styles",
+        "inventory-status"
+      ],
+      "design_implication": "Support accessible variant/quantity matrix driven by actual Shopify catalog, availability and plan eligibility; public sample does not prove B2B entitlement or native wholesale checkout."
+    },
+    {
+      "id": "shopify-free-publisher-shipping-claim-conflicts",
+      "context": "Opened Publisher book PDP",
+      "signals": [
+        "Two distinct sample shipping thresholds appear on the same PDP, $15 near product and $150 in North America in a footer banner"
+      ],
+      "source_entry_ids": [
+        "shopify-live-publisher-free"
+      ],
+      "option_ids": [
+        "free-shipping-bar",
+        "product-blocks"
+      ],
+      "design_implication": "Centralize shipping-threshold policies by market, customer segment and currency so PDP trust callouts and site-wide bars cannot silently disagree; treat HTML discrepancy as copy audit, not executed policy defect."
     }
   ]
 }

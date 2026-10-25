@@ -2,6 +2,10 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 12 Shopify free-preset PDP deep evidence
+
+Opened five actual indexed PDP HTML source URLs (Pitch Age Serum, Sense BKIND Lip Balm, Publisher Braulio Amado 2021, Trade Turkish Cotton Towels, Studio Rhyme) and linked to existing selected preset records. Five source-integrity/merchant claim cases (not executed bugs), three new mapped patterns, five expanded observations. **47 hosts / 129 public HTML documents, 43/127 selected homepage sources unchanged, 34 selected PDPs (37 total).** Per-page indexed crawl age recorded; no cart/variant/mobile/editor interactions. PR #9 research branch; no active Figma, no theme development. Next remaining 84 selected home demos or deeper verified URLs. Report: `banks/research/competitors/shopify-live-demo-batch12-2026.md`.
+
 ## 2026-10-25 — Batch 11 platform editor and Theme Store feasibility audit
 
 Fetched Shopify first-party block/section/setting constraints and Theme Store requirements; documented **15 original source-linked VSN architecture decisions**. Critical product-scope boundary flagged: the user requires Wishlist & Compare on all demos, but Shopify forbids app-dependent functionality in Theme Store themes/demos; preserve optional VSN app track and decide compliant demo representation before design approval. 192 conceptual elements must compile within 300-file block cap and other template/nesting limits. Reconciled CLAUDE.md and WORKFLOW.md with AGENTS.md (Stage 2, no active Figma, ChatGPT images only), added CI for mapping/instruction drift. **No new demo source opened; counts remain 43/127 home, 47 hosts / 124 HTML documents**. No theme or Figma code/design changed. See `banks/research/competitors/shopify-editor-feasibility-batch11-2026.md`; PR #9 remains open.

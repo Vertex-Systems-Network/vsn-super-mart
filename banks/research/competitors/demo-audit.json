@@ -6288,12 +6288,15 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "document_verification_scope": "Public indexed homepage, category and product HTML; read-only documents with crawl age; no add-to-cart, private editor or device QA",
       "feature_option_ids": [
         "mega-menu",
         "localization-selectors",
         "collection-list",
-        "sorting"
+        "sorting",
+        "b2b-quick-order-table",
+        "variant-picker-styles",
+        "product-blocks"
       ],
       "design_signals": [
         "Wholesale category hierarchy, partner request and locale selectors"
@@ -6301,11 +6304,11 @@
       "niches": [
         "shopify-first-party-trade"
       ],
-      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "notes": "Indexed documents; separate source recency. Not functional verification. Product page individually reopened in Batch 12, merchant content may be historical or sample-only.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
-        "product": "not_verified",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }
@@ -6320,12 +6323,15 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "document_verification_scope": "Public indexed homepage, category and product HTML; read-only documents with crawl age; no add-to-cart, private editor or device QA",
       "feature_option_ids": [
         "image-banner",
         "cart-drawer",
         "featured-collection",
-        "collection-list"
+        "collection-list",
+        "product-blocks",
+        "product-custom-fields",
+        "free-shipping-bar"
       ],
       "design_signals": [
         "Books, artist publishing, editorial grid, $0 empty cart HTML"
@@ -6333,11 +6339,11 @@
       "niches": [
         "shopify-first-party-publisher"
       ],
-      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "notes": "Indexed documents; separate source recency. Not functional verification. Product page individually reopened in Batch 12, merchant content may be historical or sample-only.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
-        "product": "not_verified",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }
@@ -6352,12 +6358,15 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "document_verification_scope": "Public indexed homepage, category and product HTML; read-only documents with crawl age; no add-to-cart, private editor or device QA",
       "feature_option_ids": [
         "featured-collection",
         "promo-banner-section",
         "collection-banner",
-        "product-card-variants"
+        "product-card-variants",
+        "variant-picker-styles",
+        "ingredients-nutrition",
+        "inventory-status"
       ],
       "design_signals": [
         "Skincare, hair care, body and nail goods; promotional 15% conditional copy"
@@ -6365,11 +6374,11 @@
       "niches": [
         "shopify-first-party-sense"
       ],
-      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "notes": "Indexed documents; separate source recency. Not functional verification. Product page individually reopened in Batch 12, merchant content may be historical or sample-only.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
-        "product": "not_verified",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }
@@ -6416,12 +6425,15 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "document_verification_scope": "Public indexed homepage, category and product HTML; read-only documents with crawl age; no add-to-cart, private editor or device QA",
       "feature_option_ids": [
         "collection-list",
         "blog-posts",
         "featured-collection",
-        "collection-banner"
+        "collection-banner",
+        "product-custom-fields",
+        "media-gallery-layouts",
+        "related-products"
       ],
       "design_signals": [
         "Art gallery prints, originals, artist menu, journal"
@@ -6429,11 +6441,11 @@
       "niches": [
         "shopify-first-party-studio"
       ],
-      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "notes": "Indexed documents; separate source recency. Not functional verification. Product page individually reopened in Batch 12, merchant content may be historical or sample-only.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
-        "product": "not_verified",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }
@@ -6855,13 +6867,16 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Public indexed homepage and collection HTML; never interpreted as an interactive test",
+      "document_verification_scope": "Public indexed homepage, category and product HTML; read-only documents with crawl age; no add-to-cart, private editor or device QA",
       "feature_option_ids": [
         "featured-collection",
         "collection-list",
         "faceted-filters",
         "sorting",
-        "collection-banner"
+        "collection-banner",
+        "product-blocks",
+        "ingredients-nutrition",
+        "product-badges-trust"
       ],
       "design_signals": [
         "Skincare philosophy, bundles, promotional badges, newsletter",
@@ -6870,11 +6885,11 @@
       "niches": [
         "shopify-first-party-pitch"
       ],
-      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions. Product page individually reopened in Batch 12, merchant content may be historical or sample-only.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
-        "product": "not_verified",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }

@@ -146,6 +146,30 @@ def check():
         errors.append("batch8 baseline fewer than 89 documents")
     if live.get("selected_127_document_count",0)<43 or sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)<124:
         errors.append("batch9 historical minimum: fewer than 43 selected homes or 124 indexed HTML documents")
+    # Batch 12: independently verified five Shopify demo PDP indexed HTML pages.
+    b12=load(BASE/"shopify-pdp-source-claims-batch12-2026.json")
+    expected_products={
+        "shopify-live-pitch-free":"https://theme-pitch-demo.myshopify.com/products/age-serum",
+        "shopify-live-sense-free":"https://theme-sense-demo.myshopify.com/products/natural-vegan-lip-balm-lemon-lime",
+        "shopify-live-publisher-free":"https://theme-publisher-demo.myshopify.com/products/braulio-amado-2021",
+        "shopify-live-trade-free":"https://theme-trade-demo.myshopify.com/products/classic-towels",
+        "shopify-live-studio-free":"https://theme-studio-demo.myshopify.com/products/rhyme",
+    }
+    by_id={s["id"]:s for s in stores}
+    for sid,url in expected_products.items():
+        p=by_id.get(sid,{}).get("product")
+        if not p or p.get("url")!=url or p.get("verification")!="public_html_document_opened" or not p.get("source_crawl_recency"):
+            errors.append("Batch12 source/crawl age missing: "+sid)
+    if len(b12.get("cases",[]))!=5 or len({x.get("id") for x in b12.get("cases",[])})!=5:
+        errors.append("Batch12 source risk count/unique IDs inconsistent")
+    seen_urls={s["product"]["url"] for s in stores if s.get("product")}
+    for case in b12.get("cases",[]):
+        if case.get("source_url") not in seen_urls or not case.get("vsn_guard"):
+            errors.append("Batch12 unsourced/incomplete integrity guard "+str(case.get("id")))
+    if sum(bool(s.get("product")) for s in stores)<37 or sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)<129:
+        errors.append("Batch12 minimum expected 37 PDP and 129 opened HTML documents")
+    if audit["counts"].get("live_product_verified",0)<34:
+        errors.append("Batch12 selected-PDP minimum fewer than 34")
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):

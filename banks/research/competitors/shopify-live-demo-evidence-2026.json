@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "47 Shopify demo hosts, 124 public HTML source pages; 43 of 127 selected homepage demo sources, no real interactions or device/editor tests.",
+  "summary": "47 Shopify public sample demo hosts, 129 individually opened indexed HTML page documents, 43/127 selected home demo sources; no interactive, checkout, screenshot or competitor Theme Editor tests. Batch 12 added 5 PDP documents.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -2276,7 +2276,26 @@
         "observed_on": "2026-10-25",
         "source_crawl_recency": "yesterday"
       },
-      "product": null,
+      "product": {
+        "url": "https://theme-trade-demo.myshopify.com/products/classic-towels",
+        "signals": [
+          "Turkish Cotton Towels PDP: table of size/color variants, per-unit labels, quantity rule links, multiple sold-out entries and materials/care content",
+          "Variant table is public sample markup only, not evidence of activated wholesale buyer pricing, Shopify Plus or completed quantity-rule action"
+        ],
+        "option_ids": [
+          "b2b-quick-order-table",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "quantity"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "yesterday"
+      },
       "cart": null,
       "interactive_tested": false,
       "mobile_render_tested": false,
@@ -2330,7 +2349,26 @@
         "observed_on": "2026-10-25",
         "source_crawl_recency": "last month"
       },
-      "product": null,
+      "product": {
+        "url": "https://theme-publisher-demo.myshopify.com/products/braulio-amado-2021",
+        "signals": [
+          "Book PDP lists dimensions, 232 pages, ISBN, publisher, five source gallery images and quantity control",
+          "Same PDP includes free shipping over $15 near product and over $150 in North America in footer; geographic/policy scope not authenticated"
+        ],
+        "option_ids": [
+          "product-blocks",
+          "product-custom-fields",
+          "free-shipping-bar"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "metafield-block",
+          "quantity"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 weeks"
+      },
       "cart": null,
       "interactive_tested": false,
       "mobile_render_tested": false,
@@ -2377,7 +2415,26 @@
         "observed_on": "2026-10-25",
         "source_crawl_recency": "3 days"
       },
-      "product": null,
+      "product": {
+        "url": "https://theme-sense-demo.myshopify.com/products/natural-vegan-lip-balm-lemon-lime",
+        "signals": [
+          "BKIND Lip Balm PDP: flavor choices, 7-image source gallery, ingredient list, directions, shipping and returns",
+          "Source includes both sold-out and add-to-cart markup; actual selected-variant visible state not tested"
+        ],
+        "option_ids": [
+          "variant-picker-styles",
+          "ingredients-nutrition",
+          "inventory-status"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "inventory"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "yesterday"
+      },
       "cart": null,
       "interactive_tested": false,
       "mobile_render_tested": false,
@@ -2471,7 +2528,26 @@
         "observed_on": "2026-10-25",
         "source_crawl_recency": "last month"
       },
-      "product": null,
+      "product": {
+        "url": "https://theme-studio-demo.myshopify.com/products/rhyme",
+        "signals": [
+          "Rhyme artwork PDP: gouache work dimensions, authenticity/signed-artist note, suggested framing, four media images, artist biography and related works",
+          "Authenticity and shipping language is demo content, not externally validated provenance or fulfillment"
+        ],
+        "option_ids": [
+          "product-custom-fields",
+          "media-gallery-layouts",
+          "related-products"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "product-title",
+          "metafield-block"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last month"
+      },
       "cart": null,
       "interactive_tested": false,
       "mobile_render_tested": false,
@@ -3281,7 +3357,26 @@
         "observed_on": "2026-10-25",
         "source_crawl_recency": "2 weeks"
       },
-      "product": null,
+      "product": {
+        "url": "https://theme-pitch-demo.myshopify.com/products/age-serum",
+        "signals": [
+          "Age Serum demo PDP: $21 sample price, 0.5% retinol label, benefits, ingredient/claims copy, four media images and pairing section",
+          "Merchant ingredient, safety and formula claims cannot be reused or assumed verified"
+        ],
+        "option_ids": [
+          "product-blocks",
+          "ingredients-nutrition",
+          "product-badges-trust"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "product-title",
+          "metafield-block"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 days"
+      },
       "cart": null,
       "interactive_tested": false,
       "mobile_render_tested": false,
@@ -3292,7 +3387,7 @@
     "opened_stores": 47,
     "opened_home": 47,
     "opened_collection": 37,
-    "opened_product": 32,
+    "opened_product": 37,
     "opened_empty_cart": 8,
     "interactive_events_tested": 0
   },

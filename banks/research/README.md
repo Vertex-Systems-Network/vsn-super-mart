@@ -91,3 +91,9 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-editor-feasibility-batch11-2026.md`: rationale and suggested Stage 4/5/7/8 gates for element compilation, Theme Store rules, responsive settings and image/Figma policy consistency.
 - `python3 scripts/platform_feasibility_audit.py`: checks source mappings, status evidence and that project agents follow `AGENTS.md` and `progress.json` rather than archived Figma/Figma AI instructions.
 - **Cumulative actual demo count remains 43/127 selected homepages, 47 hosts and 124 indexed HTML documents** pending new independently retrieved pages. Listing/vendor docs must not inflate demo coverage.
+
+## Shopify first-party PDP HTML — Batch 12 (2026-10-25)
+
+- `competitors/shopify-live-demo-batch12-2026.md`: five individually opened Pitch/Sense/Publisher/Trade/Studio product pages with source crawl age.
+- `competitors/shopify-pdp-source-claims-batch12-2026.json`: five merchant data/policy claim risk checks (not confirmed runtime defects).
+- Cumulative 47 demo hosts / **129 opened indexed HTML documents**, **43/127 selected demo homepages** and **34 selected PDP documents**. No new interactive/browser/device/checkout verification.

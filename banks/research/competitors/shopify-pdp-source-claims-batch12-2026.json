@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-25",
+  "status": "read_only_indexed_public_html_not_live_checkout_or_interactive_testing",
+  "cases": [
+    {
+      "id": "publisher-shipping-threshold-conflict",
+      "source_url": "https://theme-publisher-demo.myshopify.com/products/braulio-amado-2021",
+      "seen": "Product info offers free shipping over $15; footer claims free shipping over $150 in North America",
+      "risk": "Unscoped policy copy can contradict buyer's market and product-level trust text",
+      "vsn_guard": "Single market/currency-specific policy source; resolve precedence and show eligibility accurately"
+    },
+    {
+      "id": "trade-quantity-table-plan-scope",
+      "source_url": "https://theme-trade-demo.myshopify.com/products/classic-towels",
+      "seen": "Variant table with per-unit price, quantity-rule links, sold out lines, zero extended totals in static HTML",
+      "risk": "Merchant may misinterpret demo markup as activated wholesale entitlements or a functional B2B order flow",
+      "vsn_guard": "Require plan-aware native eligibility, tested quantity rules and meaningful empty totals; never claim Shopify Plus verified"
+    },
+    {
+      "id": "sense-alternate-availability-markup",
+      "source_url": "https://theme-sense-demo.myshopify.com/products/natural-vegan-lip-balm-lemon-lime",
+      "seen": "PDP source contains Sold out and Add to cart in same fetched document plus multiple flavor options",
+      "risk": "HTML-only reading could falsely classify hidden alternate states as an actual UX defect",
+      "vsn_guard": "Render selected variant availability consistently; test actual variant changes before claiming malfunction"
+    },
+    {
+      "id": "pitch-demo-safety-claims",
+      "source_url": "https://theme-pitch-demo.myshopify.com/products/age-serum",
+      "seen": "Serum product copy describes retinol strength, skin benefit and safety/ingredient marketing",
+      "risk": "Demo medical/cosmetic copy might be transferred without independently verified merchant evidence",
+      "vsn_guard": "Merchant-owned metafields, claim review workflow and optional evidence/reference, not fixed theme claims"
+    },
+    {
+      "id": "studio-art-authenticity-claims",
+      "source_url": "https://theme-studio-demo.myshopify.com/products/rhyme",
+      "seen": "Artist authenticity, original artwork and preservation/framing statements in PDP copy",
+      "risk": "Artwork provenance and valuation cannot be inferred from demonstration text",
+      "vsn_guard": "Structured optional authenticity fields with merchant verification and empty-state controls"
+    }
+  ]
+}
