@@ -40,8 +40,23 @@ def check():
         errors.append("Physical block/nesting limit mismatch")
     if registry.get("competitor_live_demo_new_documents") != 0 or registry.get("competitor_private_editor_tested") is not False:
         errors.append("Platform document research misrepresented as private editor or demo access")
-    if live["selected_127_document_count"] != registry.get("selected_preset_demo_homepages_after"):
-        errors.append("New verified demos require a separate evidence update")
+    # Batch 11 is a fixed historical snapshot, not a permanent cap on new verified demos.
+    # New selected homepages must be independently recorded in the live evidence bank
+    # and reconciled with the cumulative plan; do not manufacture counts from listings.
+    historical_home = registry.get("selected_preset_demo_homepages_after")
+    if historical_home != registry.get("selected_preset_demo_homepages_before") or historical_home != 43:
+        errors.append("Batch 11 historical home baseline was modified")
+    selected_stores = [s for s in live.get("stores", []) if s.get("selected_127")]
+    selected_home = [s for s in selected_stores if s.get("homepage", {}).get("verification") == "public_html_document_opened"]
+    distinct_preset_ids = {s.get("catalog_preset_id") for s in selected_home}
+    plan = read_json("banks/research/competitors/shopify-live-demo-plan-2026.json")
+    actual = len(selected_home)
+    if (actual < historical_home
+        or actual != len(distinct_preset_ids)
+        or live.get("selected_127_document_count") != actual
+        or plan["counts"].get("live_home_demo_verified") != actual
+        or any(not s["homepage"].get("url", "").startswith("https://") for s in selected_home)):
+        errors.append("Cumulative selected homepage evidence differs from actual verified URLs and plan")
     if state["stage"] == 2 and state.get("figma", {}).get("status") != "no_active_design":
         errors.append("Stage 2 active design state inconsistent")
     if state["stage"] == 2:

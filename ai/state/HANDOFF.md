@@ -4,6 +4,8 @@ _Update at the end of every session (even mid-task). Newest entry on top._
 
 ## 2026-10-25 — Batch 16 two newly verified premium live demo homepages (+6 primary HTML pages)
 
+CI failure was caused by stale Batch11 snapshot equality in `scripts/platform_feasibility_audit.py` (43==current), even after valid Batch16 45 selected verified home documents. Replaced with preserved historical 43 baseline and cumulative URL/preset/plan reconciliation. This is a test fix, not invented demo evidence. 
+
 Independently opened Impact Sound and Expanse Furniture demo storefronts, plus Impact MW07 Plus Leica PDP + historical empty /cart, Expanse Furniture 13-product collection and Alessi coffee-maker PDP. Selected preset **homepage 45/127 (35.4%), 82 pending**; **49** distinct hosts; **137** primary indexed public HTML pages (49 home/38 category/40 PDP/10 separate cart). **Two new selected PDPs**, plus one collection and one cart, together with two homes. Four original mapped research patterns, two observations, five source integrity merchant guardrails; source crawl ranges 2 days to 1.2 years. Opened HTML is not browser interaction, screenshot, checkout, mobile, Lighthouse or competitor editor. No Figma/design/theme code. See `banks/research/competitors/shopify-live-demo-batch16-2026.md` and `shopify-source-claims-batch16-2026.json`; research branch PR #9.
 
 ## 2026-10-25 — Batch 15: 18 external PageSpeed samples + correction to Fetch cohort
