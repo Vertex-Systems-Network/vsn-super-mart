@@ -1823,7 +1823,7 @@
       "id": "shopify-live-dawn-free",
       "family": "Dawn",
       "preset": "Dawn",
-      "catalog_preset_id": "dawn:standalone",
+      "catalog_preset_id": "dawn:dawn",
       "selected_127": true,
       "focus": "shopify-free-native-baseline",
       "homepage": {
