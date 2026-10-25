@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "family": "Expanse",
+  "source_url": "https://help.archetypethemes.co/hc/en-us/articles/51462622741523-Expanse-theme-homepage-breakdown",
+  "source_published": "2026-05-15",
+  "evidence_type": "official_vendor_documentation_only",
+  "selected_demo_homepage_count_added": 0,
+  "presets": [
+    {
+      "name": "Expanse",
+      "catalog_preset_id": "expanse:expanse",
+      "selected_127": true,
+      "verification": "vendor_documented_homepage_sections_not_live_demo_html",
+      "homepage_sections": [
+        "header-group",
+        "split-hero",
+        "collection-list",
+        "featured-collection",
+        "image-hotspots",
+        "promotional-grid",
+        "hero-slideshow",
+        "logo-list",
+        "email-signup",
+        "featured-collection",
+        "promotional-grid",
+        "countdown",
+        "split-hero",
+        "text-columns-icons",
+        "blog-posts",
+        "footer-promotions",
+        "footer"
+      ],
+      "documented_total_including_groups": 17,
+      "template_sections_excluding_header_footer": 14,
+      "notes": "Official vendor recipe is not direct browser or public HTML evidence."
+    },
+    {
+      "name": "Revive",
+      "catalog_preset_id": "expanse:revive",
+      "selected_127": true,
+      "verification": "vendor_documented_homepage_sections_not_live_demo_html",
+      "homepage_sections": [
+        "header-group",
+        "hero-slideshow",
+        "featured-collection",
+        "countdown",
+        "collection-list",
+        "image-hotspots",
+        "testimonials",
+        "featured-collection",
+        "split-hero",
+        "logo-list",
+        "image-comparison",
+        "split-hero",
+        "promotional-grid",
+        "featured-collection",
+        "split-hero",
+        "text-columns-images",
+        "rich-text",
+        "blog-posts",
+        "email-signup",
+        "footer-promotions",
+        "footer"
+      ],
+      "documented_total_including_groups": 21,
+      "template_sections_excluding_header_footer": 18,
+      "notes": "Official vendor recipe is not direct browser or public HTML evidence."
+    },
+    {
+      "name": "Spritz",
+      "catalog_preset_id": "expanse:spritz",
+      "selected_127": true,
+      "verification": "vendor_documented_homepage_sections_not_live_demo_html",
+      "homepage_sections": [
+        "header-group",
+        "split-hero",
+        "featured-collection",
+        "countdown",
+        "featured-collection",
+        "image-hotspots",
+        "collection-list",
+        "promotional-grid",
+        "split-hero",
+        "promotional-grid",
+        "hero-slideshow",
+        "testimonials",
+        "featured-collection",
+        "logo-list",
+        "image-with-text",
+        "email-signup",
+        "blog-posts",
+        "rich-text",
+        "footer-promotions",
+        "footer"
+      ],
+      "documented_total_including_groups": 20,
+      "template_sections_excluding_header_footer": 17,
+      "notes": "Official vendor recipe is not direct browser or public HTML evidence."
+    },
+    {
+      "name": "Fetch",
+      "catalog_preset_id": null,
+      "selected_127": false,
+      "verification": "vendor_documented_homepage_sections_not_live_demo_html",
+      "homepage_sections": [
+        "header-group",
+        "image-with-text",
+        "featured-collection",
+        "video-hero",
+        "logo-list",
+        "featured-collection",
+        "promotional-grid",
+        "text-columns-icons",
+        "image-hotspots",
+        "testimonials",
+        "split-hero",
+        "collection-list",
+        "countdown",
+        "blog-posts",
+        "scrolling-text",
+        "footer-promotions",
+        "footer"
+      ],
+      "documented_total_including_groups": 17,
+      "template_sections_excluding_header_footer": 14,
+      "notes": "Vendor-documented Fetch preset is supplementary; outside chosen 127 inventory."
+    },
+    {
+      "name": "Gem",
+      "catalog_preset_id": "expanse:gem",
+      "selected_127": true,
+      "verification": "vendor_documented_homepage_sections_not_live_demo_html",
+      "homepage_sections": [
+        "header-group",
+        "promotional-grid",
+        "collection-list",
+        "logo-list",
+        "featured-collection",
+        "image-hotspots",
+        "gallery",
+        "testimonials",
+        "hero-slideshow",
+        "media-with-text",
+        "blog-posts",
+        "text-columns-icons",
+        "footer"
+      ],
+      "documented_total_including_groups": 13,
+      "template_sections_excluding_header_footer": 11,
+      "notes": "Official vendor recipe is not direct browser or public HTML evidence."
+    }
+  ],
+  "section_to_vsn": {
+    "header-group": {
+      "option_ids": [
+        "section-groups-header-footer"
+      ],
+      "element_ids": [
+        "header-builder",
+        "announcement-bar"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "split-hero": {
+      "option_ids": [
+        "image-with-text"
+      ],
+      "element_ids": [
+        "media-text"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "collection-list": {
+      "option_ids": [
+        "collection-list"
+      ],
+      "element_ids": [
+        "collection-list"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "featured-collection": {
+      "option_ids": [
+        "featured-collection"
+      ],
+      "element_ids": [
+        "product-grid",
+        "product-card"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "image-hotspots": {
+      "option_ids": [
+        "shop-the-look"
+      ],
+      "element_ids": [
+        "image-hotspots"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "promotional-grid": {
+      "option_ids": [
+        "promo-grid"
+      ],
+      "element_ids": [
+        "promo-banner",
+        "grid"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "hero-slideshow": {
+      "option_ids": [
+        "hero-slideshow"
+      ],
+      "element_ids": [
+        "slider"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "logo-list": {
+      "option_ids": [
+        "logo-list"
+      ],
+      "element_ids": [
+        "logo-list"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "email-signup": {
+      "option_ids": [
+        "newsletter-signup"
+      ],
+      "element_ids": [
+        "newsletter"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "countdown": {
+      "option_ids": [
+        "countdown-timer"
+      ],
+      "element_ids": [
+        "countdown"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "text-columns-icons": {
+      "option_ids": [
+        "rich-text"
+      ],
+      "element_ids": [
+        "icon-box"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "blog-posts": {
+      "option_ids": [
+        "blog-posts"
+      ],
+      "element_ids": [
+        "blog-posts"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "footer-promotions": {
+      "option_ids": [
+        "promo-banner-section"
+      ],
+      "element_ids": [
+        "promo-banner"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "footer": {
+      "option_ids": [
+        "footer-builder"
+      ],
+      "element_ids": [
+        "footer-builder"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "testimonials": {
+      "option_ids": [
+        "testimonials"
+      ],
+      "element_ids": [
+        "testimonial"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "image-comparison": {
+      "option_ids": [
+        "comparison-table"
+      ],
+      "element_ids": [
+        "image",
+        "media-carousel"
+      ],
+      "mapping_status": "related primitives only, requires new native before-after image comparison element"
+    },
+    "text-columns-images": {
+      "option_ids": [
+        "image-with-text"
+      ],
+      "element_ids": [
+        "image-box"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "rich-text": {
+      "option_ids": [
+        "rich-text"
+      ],
+      "element_ids": [
+        "text"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "image-with-text": {
+      "option_ids": [
+        "image-with-text"
+      ],
+      "element_ids": [
+        "media-text"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "video-hero": {
+      "option_ids": [
+        "video-section"
+      ],
+      "element_ids": [
+        "background-video"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "scrolling-text": {
+      "option_ids": [
+        "scrolling-text"
+      ],
+      "element_ids": [
+        "marquee"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "gallery": {
+      "option_ids": [
+        "media-gallery-layouts"
+      ],
+      "element_ids": [
+        "gallery"
+      ],
+      "mapping_status": "existing reusable elements"
+    },
+    "media-with-text": {
+      "option_ids": [
+        "image-with-text"
+      ],
+      "element_ids": [
+        "media-text"
+      ],
+      "mapping_status": "existing reusable elements"
+    }
+  },
+  "notes": [
+    "Section order is normalized source-based research, not copied Shopify/Liquid code, visual composition, colors or images.",
+    "Header/footer section groups are listed for recipe completeness but should not count as JSON template sections.",
+    "Vendor countdown sections are not permission to fabricate urgency; merchant-configured valid time-bound events only.",
+    "The image-comparison pattern currently has only related primitives; flag global element library gap explicitly.",
+    "Fetch is not in selected 127. Do not count it as independently visited demo."
+  ]
+}

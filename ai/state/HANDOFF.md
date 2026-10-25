@@ -2,6 +2,10 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 14 official Expanse recipes and Shopify CSS/variant risks
+
+Official Archetype documentation independently rechecked; stored **5 source-linked ordered homepage recipes** (Expanse/Revive/Spritz/**Fetch supplementary**/Gem; 4 in selected cohort and 1 outside), **23 normalized section mappings** to existing VSN elements/options and **6 unexecuted Shopify CSS-subsetting/high-variant/editor quality gates** based on official Shopify developers and Expanse v10 vendor notes. Noted missing native image comparison slider element as Stage 3 gap; do not pretend existing `comparison-table` is equivalent. No accessible new live preset home HTML verified, so **43/127 selected homes, 47 hosts, 131 primary HTML documents** unchanged. Old Figma archived, no theme development. Research is in `banks/research/competitors/shopify-vendor-homepage-recipes-expanse-batch14-2026.json`, `shopify-dynamic-render-qa-batch14-2026.json`, `shopify-vendor-homepage-research-batch14-2026.md`. CI rechecks mapping and claims.
+
 ## 2026-10-25 — Batch 13 Horizon PDP / Spotlight empty cart + supplemental collection evidence
 
 Opened **2 new primary demo HTML documents**: Horizon tapered trousers PDP (six-image gallery, XS–XXL options) and Spotlight separately fetched empty /cart ($0 CAD). Recorded two separate supplemental faceted collections: Stiletto Glimmer Minis & Kits and Pitch Bundles. **47 hosts / 131 primary indexed HTML docs / 43 of 127 selected demo home sources (33.9%), 38 total PDPs, 9 cart sources**; selected PDP 35 / cart 9. Three evidence-linked patterns, three content integrity QA cases, and CI historical gates added. Browser UI/cart mutation/mobile/editor remain untested; no old Figma or theme code changes. Report: `banks/research/competitors/shopify-live-demo-batch13-2026.md`. Continue missing 84 demo homepages when independently retrievable; avoid vendor listing inflation.

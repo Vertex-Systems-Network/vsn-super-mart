@@ -201,6 +201,49 @@ def check():
         errors.append("Batch13 history floor: 131 primary HTML pages, 38 PDP and 9 cart")
     if audit["counts"].get("live_product_verified",0)<35 or audit["counts"].get("live_cart_verified",0)<9:
         errors.append("Batch13 selected PDP/cart cohort floor")
+    # Batch 14 Expanse homepage vendor document recipes / Shopify current CSS & variant risks.
+    b14=load(BASE/"shopify-vendor-homepage-recipes-expanse-batch14-2026.json")
+    css14=load(BASE/"shopify-dynamic-render-qa-batch14-2026.json")
+    source="https://help.archetypethemes.co/hc/en-us/articles/51462622741523-Expanse-theme-homepage-breakdown"
+    if b14.get("source_url")!=source or b14.get("evidence_type")!="official_vendor_documentation_only":
+        errors.append("Batch14 vendor homepage source/provenance missing")
+    all_recipes=b14.get("presets",[])
+    if len(all_recipes)!=5 or {p.get("name") for p in all_recipes}!={"Expanse","Revive","Spritz","Fetch","Gem"}:
+        errors.append("Batch14 requires five unique sourced Expanse-family recipes")
+    if b14.get("selected_demo_homepage_count_added")!=0:
+        errors.append("Vendor recipes must never increase live demo count")
+    for recipe in all_recipes:
+        arr=recipe.get("homepage_sections",[])
+        if len(arr)!=recipe.get("documented_total_including_groups") or len(arr)<10:
+            errors.append("Batch14 recipe section-order size mismatch "+str(recipe.get("name")))
+        if any(section not in b14.get("section_to_vsn",{}) for section in arr):
+            errors.append("Batch14 recipe has unmapped module "+str(recipe.get("name")))
+        if recipe.get("template_sections_excluding_header_footer")!=sum(x not in ("header-group","footer","footer-promotions") for x in arr):
+            errors.append("Batch14 recipe has incorrect template section count")
+        if recipe.get("selected_127") and recipe.get("catalog_preset_id") not in cohort:
+            errors.append("Batch14 selected preset not in 127 cohort")
+        if recipe.get("name")=="Fetch" and (recipe.get("selected_127") or recipe.get("catalog_preset_id") is not None):
+            errors.append("Batch14 Fetch is supplemental and not selected")
+        if recipe.get("verification")!="vendor_documented_homepage_sections_not_live_demo_html":
+            errors.append("Batch14 vendor recipe falsely presented as live source")
+    for kind, mapping in b14.get("section_to_vsn",{}).items():
+        for oid in mapping.get("option_ids",[]):
+            if oid not in opts:
+                errors.append("Batch14 unknown option "+kind+"/"+oid)
+        for eid in mapping.get("element_ids",[]):
+            if eid not in els:
+                errors.append("Batch14 unknown element "+kind+"/"+eid)
+    if "requires new native" not in b14.get("section_to_vsn",{}).get("image-comparison",{}).get("mapping_status",""):
+        errors.append("Batch14 before-after image comparison element gap must be explicit")
+    srcs=css14.get("sources",{})
+    if len(css14.get("cases",[]))!=6 or css14.get("vsn_qa_executed") is not False:
+        errors.append("Batch14 needs six unexecuted source-linked QA scenarios")
+    for c in css14.get("cases",[]):
+        if not c.get("qa_gate") or not c.get("vsn_design_action") or not c.get("source_ids"):
+            errors.append("Batch14 QA case lacks source, action or test: "+str(c.get("id")))
+        for sid in c.get("source_ids",[]):
+            if sid not in srcs or not srcs[sid].startswith("https://"):
+                errors.append("Batch14 bad QA citation key: "+str(sid))
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):

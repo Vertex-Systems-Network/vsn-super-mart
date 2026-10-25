@@ -104,3 +104,10 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-source-claims-batch13-2026.json`: 3 source integrity guards, not confirmed runtime defects.
 - Stiletto Glimmer Minis and Pitch Bundles faceted collection documents recorded under `supplemental_documentation` rather than double counting primary category screens.
 - Cumulative **47 storefront hosts / 131 primary indexed HTML pages**, **43/127 selected preset demo homes (33.9%)**, **35 selected PDPs / 9 selected carts**; no browser interaction/mobile/editor QA.
+
+## Shopify Expanse documented demo recipes — Batch 14 (2026-10-25)
+
+- `competitors/shopify-vendor-homepage-recipes-expanse-batch14-2026.json`: five vendor-published ordered homepage recipes (Expanse, Revive, Spritz, Gem selected and Fetch supplemental); 23 normalized section kinds linked to actual option/element IDs. **Vendor documentation only — no live HTML pages credited.**
+- `competitors/shopify-dynamic-render-qa-batch14-2026.json`: six *not-yet-executed* original Shopify CSS subsetting/Section Rendering/high-variant/Theme Editor QA cases with official sources and vendor release note context. No implemented code claims.
+- `competitors/shopify-vendor-homepage-research-batch14-2026.md`: distinction between five vendor recipes and verified demo count; image comparison slider missing as a dedicated VSN reusable element.
+- Confirmed live demo progress still **43/127 selected homepage HTML (33.9%), 47 hosts /131 primary HTML documents**, pending 84 actual preset homepages.
