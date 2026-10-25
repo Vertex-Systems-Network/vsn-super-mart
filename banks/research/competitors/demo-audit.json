@@ -6211,6 +6211,232 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-horizon-free",
+      "platform": "shopify",
+      "theme": "Horizon",
+      "preset": "Horizon",
+      "url": "https://theme-horizon-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "feature_option_ids": [
+        "featured-collection",
+        "cart-drawer",
+        "faceted-filters",
+        "sorting"
+      ],
+      "design_signals": [
+        "Featured clothing and knitwear; 8 home product cards; empty cart source"
+      ],
+      "niches": [
+        "shopify-first-party-horizon"
+      ],
+      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-craft-free",
+      "platform": "shopify",
+      "theme": "Craft",
+      "preset": "Craft",
+      "url": "https://theme-craft-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "feature_option_ids": [
+        "collection-list",
+        "image-with-text",
+        "faceted-filters",
+        "bundle-display",
+        "media-gallery-layouts",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Artisan dinnerware, glassware, ceramics stories and bundles"
+      ],
+      "niches": [
+        "shopify-first-party-craft"
+      ],
+      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-trade-free",
+      "platform": "shopify",
+      "theme": "Trade",
+      "preset": "Trade",
+      "url": "https://theme-trade-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "feature_option_ids": [
+        "mega-menu",
+        "localization-selectors",
+        "collection-list",
+        "sorting"
+      ],
+      "design_signals": [
+        "Wholesale category hierarchy, partner request and locale selectors"
+      ],
+      "niches": [
+        "shopify-first-party-trade"
+      ],
+      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-publisher-free",
+      "platform": "shopify",
+      "theme": "Publisher",
+      "preset": "Publisher",
+      "url": "https://theme-publisher-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "feature_option_ids": [
+        "image-banner",
+        "cart-drawer",
+        "featured-collection",
+        "collection-list"
+      ],
+      "design_signals": [
+        "Books, artist publishing, editorial grid, $0 empty cart HTML"
+      ],
+      "niches": [
+        "shopify-first-party-publisher"
+      ],
+      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-sense-free",
+      "platform": "shopify",
+      "theme": "Sense",
+      "preset": "Sense",
+      "url": "https://theme-sense-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "feature_option_ids": [
+        "featured-collection",
+        "promo-banner-section",
+        "collection-banner",
+        "product-card-variants"
+      ],
+      "design_signals": [
+        "Skincare, hair care, body and nail goods; promotional 15% conditional copy"
+      ],
+      "niches": [
+        "shopify-first-party-sense"
+      ],
+      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-spotlight-free",
+      "platform": "shopify",
+      "theme": "Spotlight",
+      "preset": "Spotlight",
+      "url": "https://theme-spotlight-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "feature_option_ids": [
+        "featured-collection",
+        "inventory-status",
+        "media-gallery-layouts",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Compact caps/apparel/music shelf, sold-out labels and hidden cart success modal"
+      ],
+      "niches": [
+        "shopify-first-party-spotlight"
+      ],
+      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-studio-free",
+      "platform": "shopify",
+      "theme": "Studio",
+      "preset": "Studio",
+      "url": "https://theme-studio-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "feature_option_ids": [
+        "collection-list",
+        "blog-posts",
+        "featured-collection",
+        "collection-banner"
+      ],
+      "design_signals": [
+        "Art gallery prints, originals, artist menu, journal"
+      ],
+      "niches": [
+        "shopify-first-party-studio"
+      ],
+      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

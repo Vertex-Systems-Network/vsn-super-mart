@@ -20,8 +20,8 @@ def check():
         errors.append("live demo plan mismatch with preset inventory")
     live=load(BASE/"shopify-live-demo-evidence-2026.json")
     stores=live.get("stores",[])
-    if len(stores)!=28 or len({d["id"] for d in stores})!=28:
-        errors.append("expected twenty-eight distinct public demo document records")
+    if len(stores)!=35 or len({d["id"] for d in stores})!=35:
+        errors.append("expected thirty-five distinct public demo document records")
     selected=[d for d in stores if d.get("selected_127")]
     for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
         n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
@@ -140,6 +140,10 @@ def check():
         errors.append("batch7 expected 24 selected preset home documents")
     if sum(sum(bool(s.get(p)) for p in ("homepage","collection","product","cart")) for s in stores)!=74:
         errors.append("batch7 expected exactly 74 independently opened page documents")
+    if live.get("selected_127_document_count")!=31:
+        errors.append("batch8 coverage mismatch")
+    if sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)!=89:
+        errors.append("batch8 HTML document count mismatch")
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
@@ -153,4 +157,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: 28 Shopify demo HTML stores (24 in cohort), interaction/mobile checks still pending")
+    print("Shopify editor audit OK: 35 Shopify demo HTML stores (31 in cohort), interaction/mobile checks still pending")

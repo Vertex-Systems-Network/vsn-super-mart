@@ -872,6 +872,83 @@
         "countdown-timer"
       ],
       "design_implication": "Map developer section capabilities separately from actual preset evidence; theme-owned comparison state needs app-first compliance and runtime tests."
+    },
+    {
+      "id": "native-horizon-facet-baseline",
+      "context": "Source-backed baseline from individually opened Shopify first-party demo pages",
+      "signals": [
+        "Rely on real Shopify Color/Availability collection facets."
+      ],
+      "source_entry_ids": [
+        "shopify-live-horizon-free"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting"
+      ],
+      "design_implication": "Rely on real Shopify Color/Availability collection facets."
+    },
+    {
+      "id": "craft-bundle-category-is-not-cart-bundle",
+      "context": "Source-backed baseline from individually opened Shopify first-party demo pages",
+      "signals": [
+        "Category Bundles label doesn't establish multi-SKU cart mechanics; preserve real product care data."
+      ],
+      "source_entry_ids": [
+        "shopify-live-craft-free"
+      ],
+      "option_ids": [
+        "bundle-display",
+        "product-blocks"
+      ],
+      "design_implication": "Category Bundles label doesn't establish multi-SKU cart mechanics; preserve real product care data."
+    },
+    {
+      "id": "trade-public-b2b-vs-entitlement",
+      "context": "Source-backed baseline from individually opened Shopify first-party demo pages",
+      "signals": [
+        "Wholesale-theme account page not proof Shopify Plus company/quantity rule entitlements."
+      ],
+      "source_entry_ids": [
+        "shopify-live-trade-free"
+      ],
+      "option_ids": [
+        "volume-pricing",
+        "localization-selectors"
+      ],
+      "design_implication": "Wholesale-theme account page not proof Shopify Plus company/quantity rule entitlements."
+    },
+    {
+      "id": "editorial-versus-compact-native-presets",
+      "context": "Source-backed baseline from individually opened Shopify first-party demo pages",
+      "signals": [
+        "Use original editorial layouts with functional native cart/variant states."
+      ],
+      "source_entry_ids": [
+        "shopify-live-publisher-free",
+        "shopify-live-studio-free",
+        "shopify-live-spotlight-free"
+      ],
+      "option_ids": [
+        "collection-list",
+        "featured-collection"
+      ],
+      "design_implication": "Use original editorial layouts with functional native cart/variant states."
+    },
+    {
+      "id": "sense-natural-product-claims",
+      "context": "Source-backed baseline from individually opened Shopify first-party demo pages",
+      "signals": [
+        "Ingredients and discounts must be merchant-verified, not copied from sample content."
+      ],
+      "source_entry_ids": [
+        "shopify-live-sense-free"
+      ],
+      "option_ids": [
+        "ingredients-nutrition",
+        "promo-banner-section"
+      ],
+      "design_implication": "Ingredients and discounts must be merchant-verified, not copied from sample content."
     }
   ]
 }

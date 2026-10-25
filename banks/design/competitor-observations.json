@@ -524,6 +524,62 @@
         "Product compare table and placeholder products visible in static HTML, not live commerce proof"
       ],
       "design_hypothesis": "Indexed static HTML element existence only; no pixel screenshot or working cart/menu performance proven."
+    },
+    {
+      "id": "shopify-live-horizon-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Featured clothing and knitwear; 8 home product cards; empty cart source"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+    },
+    {
+      "id": "shopify-live-craft-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Artisan dinnerware, glassware, ceramics stories and bundles"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+    },
+    {
+      "id": "shopify-live-trade-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Wholesale category hierarchy, partner request and locale selectors"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+    },
+    {
+      "id": "shopify-live-publisher-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Books, artist publishing, editorial grid, $0 empty cart HTML"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+    },
+    {
+      "id": "shopify-live-sense-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skincare, hair care, body and nail goods; promotional 15% conditional copy"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+    },
+    {
+      "id": "shopify-live-spotlight-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Compact caps/apparel/music shelf, sold-out labels and hidden cart success modal"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+    },
+    {
+      "id": "shopify-live-studio-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Art gallery prints, originals, artist menu, journal"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
     }
   ]
 }

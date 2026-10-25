@@ -82,3 +82,5 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-live-demo-batch7-2026.md`: Prestige Signature and Broadcast Airwave real Shopify demo public HTML, plus Enterprise developer section showcase (not a selected preset). Coverage 24/127, 28 store roots, 74 documents. No UI/checkout/mobile testing.
 - `competitors/shopify-demo-source-claims-batch7-2026.json`: six contextual shipping/inventory/countdown/compare checks with source URLs.
 - `banks/elements/specs/shopify-controls-batch7-2026.json`: four proposed original VSN merchant setting groups, no runtime implementation.
+
+- Batch 8 Shopify first-party themes: 35 source hosts, 89 HTML pages, 31/127 selected — `competitors/shopify-live-demo-batch8-2026.md`.

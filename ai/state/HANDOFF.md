@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 8: Seven Shopify first-party demo pages
+
+Added Horizon, Craft, Trade, Publisher, Sense, Spotlight and Studio public demo document sources. Total **35 hosts / 89 documents / 31 of 127 selected (24.4%)**. Added five mappings to AI pattern bank and seven design observations. Trade B2B account route is documentary evidence, not Shopify Plus plan entitlement. PR #9 still open; old Figma historical.
+
+
 ## 2026-10-25 — Batch 7 appended to open PR #9, 24/127 coverage
 
 Opened **Prestige Signature** and **Broadcast Airwave** live demo HTML home pages, Airwave public collection and PDP, plus Enterprise **sections test storefront** home+collection (excluded from 127 preset denominator). Total 28 distinct hosts and 74 public HTML docs, 24/127 selected preset home coverage (18.9%). Three mapped patterns, three design observations, four proposed control groups and six source-bound risk notes. Continue using existing PR #9 branch until GitHub merge is permitted; prior merge call was blocked, don't claim `main` updated. No browser action/mobile/editor/checkout testing. Old Figma Stage 6 archived.

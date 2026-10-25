@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "28 public Shopify demo store roots and 74 retrievable indexed HTML page documents. 24/127 selected preset storefronts have an opened home source (18.9%). No browser interactions, actual mobile, checkout or private editor.",
+  "summary": "35 Shopify live demo stores, 89 individual public HTML pages; 31/127 selected demo home documents. Interactive/device/cart/checkout/editor unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -2124,13 +2124,365 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-horizon-free",
+      "family": "Horizon",
+      "preset": "Horizon",
+      "catalog_preset_id": "horizon:horizon",
+      "selected_127": true,
+      "focus": "first_party_horizon",
+      "homepage": {
+        "url": "https://theme-horizon-demo.myshopify.com/",
+        "signals": [
+          "Featured clothing and knitwear; 8 home product cards; empty cart source"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "product-grid",
+          "cart-drawer"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "collection": {
+        "url": "https://theme-horizon-demo.myshopify.com/collections/front-page",
+        "signals": [
+          "13 items with Color, Availability facets, sort and Add/Choose card text"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting"
+        ],
+        "element_ids": [
+          "facets",
+          "sort"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last month"
+      },
+      "product": null,
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-craft-free",
+      "family": "Craft",
+      "preset": "Craft",
+      "catalog_preset_id": "craft:craft",
+      "selected_127": true,
+      "focus": "first_party_craft",
+      "homepage": {
+        "url": "https://theme-craft-demo.myshopify.com/",
+        "signals": [
+          "Artisan dinnerware, glassware, ceramics stories and bundles"
+        ],
+        "option_ids": [
+          "collection-list",
+          "image-with-text"
+        ],
+        "element_ids": [
+          "collection-list",
+          "media-text"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "yesterday"
+      },
+      "collection": {
+        "url": "https://theme-craft-demo.myshopify.com/collections/dinnerware",
+        "signals": [
+          "12 indexed products and Availability, Price, Product type facets; four Bundle-type"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "bundle-display"
+        ],
+        "element_ids": [
+          "facets",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "1.1 years old"
+      },
+      "product": {
+        "url": "https://theme-craft-demo.myshopify.com/products/the-everything-bowls",
+        "signals": [
+          "Four media; Speckled White; set of four, dimensions and material care"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "spec-table"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "yesterday"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-trade-free",
+      "family": "Trade",
+      "preset": "Trade",
+      "catalog_preset_id": "trade:trade",
+      "selected_127": true,
+      "focus": "first_party_trade",
+      "homepage": {
+        "url": "https://theme-trade-demo.myshopify.com/",
+        "signals": [
+          "Wholesale category hierarchy, partner request and locale selectors"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "localization-selectors"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "localization"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "collection": {
+        "url": "https://theme-trade-demo.myshopify.com/collections/all",
+        "signals": [
+          "Wholesale product listing and catalog navigation"
+        ],
+        "option_ids": [
+          "collection-list",
+          "sorting"
+        ],
+        "element_ids": [
+          "collection-list",
+          "sort"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "yesterday"
+      },
+      "product": null,
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "supplemental_documentation": [
+        {
+          "url": "https://theme-trade-demo.myshopify.com/pages/company-account-request",
+          "evidence": "Company account request document only, not Shopify Plus verified",
+          "crawl": "2 months"
+        }
+      ]
+    },
+    {
+      "id": "shopify-live-publisher-free",
+      "family": "Publisher",
+      "preset": "Publisher",
+      "catalog_preset_id": "publisher:publisher",
+      "selected_127": true,
+      "focus": "first_party_publisher",
+      "homepage": {
+        "url": "https://theme-publisher-demo.myshopify.com/",
+        "signals": [
+          "Books, artist publishing, editorial grid, $0 empty cart HTML"
+        ],
+        "option_ids": [
+          "image-banner",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "image",
+          "cart-drawer"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 days"
+      },
+      "collection": {
+        "url": "https://theme-publisher-demo.myshopify.com/collections/books",
+        "signals": [
+          "Book titles and large editorial product cards"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last month"
+      },
+      "product": null,
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-sense-free",
+      "family": "Sense",
+      "preset": "Sense",
+      "catalog_preset_id": "sense:sense",
+      "selected_127": true,
+      "focus": "first_party_sense",
+      "homepage": {
+        "url": "https://theme-sense-demo.myshopify.com/",
+        "signals": [
+          "Skincare, hair care, body and nail goods; promotional 15% conditional copy"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "promo-banner-section"
+        ],
+        "element_ids": [
+          "product-grid",
+          "promo-banner"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "collection": {
+        "url": "https://theme-sense-demo.myshopify.com/collections/skin",
+        "signals": [
+          "Skincare products and sale labels; filter click not tested"
+        ],
+        "option_ids": [
+          "collection-banner",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "collection-banner",
+          "product-card"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 days"
+      },
+      "product": null,
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-spotlight-free",
+      "family": "Spotlight",
+      "preset": "Spotlight",
+      "catalog_preset_id": "spotlight:spotlight",
+      "selected_127": true,
+      "focus": "first_party_spotlight",
+      "homepage": {
+        "url": "https://theme-spotlight-demo.myshopify.com/",
+        "signals": [
+          "Compact caps/apparel/music shelf, sold-out labels and hidden cart success modal"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "inventory-status"
+        ],
+        "element_ids": [
+          "product-grid",
+          "product-card"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "6 days"
+      },
+      "collection": null,
+      "product": {
+        "url": "https://theme-spotlight-demo.myshopify.com/products/copy-of-ebbets-wool-c-cap-navy",
+        "signals": [
+          "Cap product media and availability source, no executed order"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 months"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-studio-free",
+      "family": "Studio",
+      "preset": "Studio",
+      "catalog_preset_id": "studio:studio",
+      "selected_127": true,
+      "focus": "first_party_studio",
+      "homepage": {
+        "url": "https://theme-studio-demo.myshopify.com/",
+        "signals": [
+          "Art gallery prints, originals, artist menu, journal"
+        ],
+        "option_ids": [
+          "collection-list",
+          "blog-posts"
+        ],
+        "element_ids": [
+          "collection-list",
+          "blog-posts"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 days"
+      },
+      "collection": {
+        "url": "https://theme-studio-demo.myshopify.com/collections/prints",
+        "signals": [
+          "Prints and artist-focused category products"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-banner"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last month"
+      },
+      "product": null,
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 28,
-    "opened_home": 28,
-    "opened_collection": 19,
-    "opened_product": 19,
+    "opened_stores": 35,
+    "opened_home": 35,
+    "opened_collection": 25,
+    "opened_product": 21,
     "opened_empty_cart": 8,
     "interactive_events_tested": 0
   },
@@ -2140,5 +2492,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 24
+  "selected_127_document_count": 31
 }
