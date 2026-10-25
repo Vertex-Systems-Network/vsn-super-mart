@@ -125,3 +125,9 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-source-claims-batch16-2026.json`: 5 source-backed merchant claim/variant/urgency QA cases, including negative saved-amount string in older Expanse coffee PDP and inconsistent dated shipping banner language; **not confirmed current runtime bugs**.
 - Four original reusable VSN option/element patterns plus two qualitative observations mapped.
 - Cumulative **45/127 selected homepage HTML sources (35.4%), 82 pending**, **49 distinct Shopify demo hosts / 137 primary HTML documents**. Selected collection 34, PDP 37, cart 10. No browser/mobile/checkout/private Theme Editor testing.
+
+## Shopify premium storefront HTML — Batch 17 (2026-10-25)
+
+- `competitors/shopify-live-demo-batch17-2026.md`: 2 selected paid **Release/Release** and **Release/Forest** Shopify demo homes, plus default clothing collection/PDP/cart and Forest furniture category, each with exact independently opened indexed HTML URL and crawler age.
+- `competitors/shopify-source-claims-batch17-2026.json`: four merchant policy/preorder/material filter/countdown provenance risks, not executed UI defects.
+- Three source-linked, original merchant-control patterns and two catalog observations mapped. Cumulative **47/127 selected demo homes (37.0%)**, **51 hosts /143 primary HTML documents**. Selected: 36 collections, 38 PDPs, 11 carts; interactive/mobile/editor remain 0.

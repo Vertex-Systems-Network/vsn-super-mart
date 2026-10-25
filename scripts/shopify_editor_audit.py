@@ -302,6 +302,47 @@ def check():
     for c in b16.get("cases",[]):
         if c.get("source_url") not in allurls or not c.get("vsn_guard") or not c.get("source_crawl_recency"):
             errors.append("Batch16 unsourced or incomplete risk guard: "+str(c.get("id")))
+    # Batch17 Release default + Forest premium demo independently opened source URLs.
+    b17=load(BASE/"shopify-source-claims-batch17-2026.json")
+    expected17={
+        "shopify-live-release-release":{
+            "catalog_preset_id":"release:release",
+            "homepage":"https://release-main.myshopify.com/",
+            "collection":"https://release-main.myshopify.com/collections/new-collection",
+            "product":"https://release-main.myshopify.com/products/black-puffer-edge?variant=42204594929743",
+            "cart":"https://release-main.myshopify.com/cart",
+        },
+        "shopify-live-release-forest":{
+            "catalog_preset_id":"release:forest",
+            "homepage":"https://release-living.myshopify.com/",
+            "collection":"https://release-living.myshopify.com/collections/living-room",
+        }
+    }
+    by_id17={s["id"]:s for s in stores}
+    for sid,expect in expected17.items():
+        store=by_id17.get(sid,{})
+        if store.get("catalog_preset_id")!=expect["catalog_preset_id"] or not store.get("selected_127"):
+            errors.append("Batch17 selected preset ID wrong: "+sid)
+        for page,url in expect.items():
+            if page=="catalog_preset_id":continue
+            item=store.get(page)
+            if not item or item.get("url")!=url or item.get("verification")!="public_html_document_opened" or not item.get("source_crawl_recency"):
+                errors.append("Batch17 source/crawl age missing: "+sid+"/"+page)
+        if any(store.get(f) for f in ("interactive_tested","mobile_render_tested","editor_tested")):
+            errors.append("Batch17 falsely claimed functional/mobile/editor visit: "+sid)
+    if by_id17.get("shopify-live-release-forest",{}).get("product") or by_id17.get("shopify-live-release-forest",{}).get("cart"):
+        errors.append("Batch17 Forest PDP/cart were not retrieved; never count without evidence")
+    total17=sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)
+    if len(stores)<51 or total17<143:
+        errors.append("Batch17 historic minimum: 51 demo hosts, 143 primary HTML documents")
+    if audit["counts"].get("live_home_demo_verified",0)<47 or audit["counts"].get("live_collection_verified",0)<36 or audit["counts"].get("live_product_verified",0)<38 or audit["counts"].get("live_cart_verified",0)<11:
+        errors.append("Batch17 selected cohort count below independently opened source floor")
+    all17={p["url"] for s in stores for p in (s.get("homepage"),s.get("collection"),s.get("product"),s.get("cart")) if p}
+    if len(b17.get("cases",[]))!=4 or len({c.get("id") for c in b17.get("cases",[])})!=4:
+        errors.append("Batch17 requires exactly four unique source claim QA cases")
+    for case in b17.get("cases",[]):
+        if case.get("source_url") not in all17 or not case.get("vsn_guard") or not case.get("source_age"):
+            errors.append("Batch17 unsourced merchant QA case "+str(case.get("id")))
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):

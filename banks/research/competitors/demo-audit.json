@@ -6990,6 +6990,96 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-release-release",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Release",
+      "url": "https://release-main.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Separately opened indexed HTML URL for each recorded page with crawl recency. No real browser click, merchant editor, checkout, mobile screenshot or Lighthouse.",
+      "feature_option_ids": [
+        "mega-menu",
+        "localization-selectors",
+        "featured-collection",
+        "collection-list",
+        "pre-order",
+        "product-card-variants",
+        "size-chart",
+        "blog-posts",
+        "faceted-filters",
+        "sorting",
+        "promo-tile-in-grid",
+        "collection-banner",
+        "product-blocks",
+        "variant-picker-styles",
+        "cart-page",
+        "empty-states",
+        "related-products",
+        "newsletter-popup"
+      ],
+      "design_signals": [
+        "Clothing/fashion homepage with two-level category navigation, editorial collection rails and product cards with size/color availability notes.",
+        "First-party Shopify Markets/country selector and real storefront navigation markup; newsletter, detailed size guide, featured product media and journal.",
+        "Pre-order/sold-out/new/last-few labels co-occur in seller demo; none confirms current stock or successful pre-order."
+      ],
+      "niches": [
+        "editorial-fashion-preorder-multivariant-content"
+      ],
+      "notes": "Batch17 read-only Shopify premium demo source; content is sample merchant data with different historical crawl dates.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-release-forest",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Forest",
+      "url": "https://release-living.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Separately opened indexed HTML URL for each recorded page with crawl recency. No real browser click, merchant editor, checkout, mobile screenshot or Lighthouse.",
+      "feature_option_ids": [
+        "mega-menu",
+        "collection-list",
+        "featured-collection",
+        "image-with-text",
+        "testimonials",
+        "blog-posts",
+        "newsletter-signup",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "product-card-variants",
+        "pre-order"
+      ],
+      "design_signals": [
+        "Forest Theme — DigiFist identified on Shopify demo; furniture assortment across Sofas, Lighting, Beds, Tables and editorial room stories.",
+        "Multi-level menu with collection banners, latest-arrivals product list, product-story tiles, seasonal lifestyle editorial, blog and customer testimonials.",
+        "Shipping/financing/service claims presented as merchant demo content; homepage empty cart drawer text is not a separate /cart visit."
+      ],
+      "niches": [
+        "home-furniture-material-taxonomy-and-editorial-spaces"
+      ],
+      "notes": "Batch17 read-only Shopify premium demo source; content is sample merchant data with different historical crawl dates.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

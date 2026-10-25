@@ -74,3 +74,5 @@
 - 2026-10-25 — Stage2 Batch16: 2 new verified selected preset public sample homes Impact Sound and Expanse Furniture; 6 independently opened primary HTML docs total, four original pattern mappings, five historical HTML claim risks. New 49 storefronts / 137 indexed primary docs; 45/127 selected homes (35.4%); 34 collection/37 PDP/10 cart selected. No interactive/mobile/editor QA, Figma or theme development.
 
 - 2026-10-25 — Batch16 CI follow-up: repaired platform feasibility validator's historical Batch11 43-home equals-current assumption; now requires current verified home count >= historical and matches distinct selected preset records/plan. Existing Shopify editor audit already passed at 45 selected homes.
+
+- 2026-10-25 — Shopify indexed HTML Batch17: opened Release/default fashion (home, 21-product category, PDP, empty cart) and Release Forest furniture (home and 49-item material-filter collection), six primary source docs in total, 3 mapped original patterns and 4 source-copy risks. 51 hosts/143 HTML; 47/127 selected homes (37.0%). No device/cart/variant/editor QA.

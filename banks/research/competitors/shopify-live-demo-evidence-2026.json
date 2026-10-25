@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "49 distinct Shopify demo hosts, 137 independently opened primary HTML documents, 45/127 selected demo homepage sources; all interactive, mobile screenshots, cart mutation and private Theme Editor QA unverified.",
+  "summary": "51 public demo hosts and 143 primary indexed HTML document URLs (47 selected/127 preset home pages), no functional interaction/mobile/checkout/editor QA.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -3650,14 +3650,199 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-release-release",
+      "family": "Release",
+      "preset": "Release",
+      "catalog_preset_id": "release:release",
+      "focus": "editorial-fashion-preorder-multivariant-content",
+      "homepage": {
+        "url": "https://release-main.myshopify.com/",
+        "source_crawl_recency": "2 days",
+        "signals": [
+          "Clothing/fashion homepage with two-level category navigation, editorial collection rails and product cards with size/color availability notes.",
+          "First-party Shopify Markets/country selector and real storefront navigation markup; newsletter, detailed size guide, featured product media and journal.",
+          "Pre-order/sold-out/new/last-few labels co-occur in seller demo; none confirms current stock or successful pre-order."
+        ],
+        "option_ids": [
+          "mega-menu",
+          "localization-selectors",
+          "featured-collection",
+          "collection-list",
+          "pre-order",
+          "product-card-variants",
+          "size-chart",
+          "blog-posts"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "localization",
+          "product-grid",
+          "collection-list",
+          "product-card",
+          "size-guide",
+          "blog-posts"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25"
+      },
+      "collection": {
+        "url": "https://release-main.myshopify.com/collections/new-collection",
+        "source_crawl_recency": "6 months",
+        "signals": [
+          "21-product New Collection with price, standardized Color taxonomy values and availability filters; sort and product size/color choices.",
+          "Custom editorial tile occurs within listing; 0d/0h/0m/0s countdown text and sale-ended message embedded in old source.",
+          "Indexed HTML only; filters, pagination, interactive variant and user cart not tested."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-card-variants",
+          "promo-tile-in-grid",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card",
+          "collection-banner"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25"
+      },
+      "product": {
+        "url": "https://release-main.myshopify.com/products/black-puffer-edge?variant=42204594929743",
+        "source_crawl_recency": "last week",
+        "signals": [
+          "Black Puffer Edge individually opened PDP with variant query param; clothing size/media merchandising and pre-order indicators.",
+          "Cannot infer whether selected variant was actually activated in browser or buyer data persisted; no add-to-cart/checkout action."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "size-chart",
+          "pre-order"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "size-guide",
+          "buy-buttons"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25"
+      },
+      "cart": {
+        "url": "https://release-main.myshopify.com/cart",
+        "source_crawl_recency": "6 months",
+        "signals": [
+          "Dedicated empty cart route, cart count 0, continue-shopping link, recommended products heading and empty quick-cart scaffold.",
+          "Old source also contains promotional countdown expired text, age verifier and newsletter popups; these may be hidden components, not visible active states."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "related-products",
+          "newsletter-popup"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "product-grid",
+          "newsletter"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25"
+      },
+      "unverified": [
+        "No clicked cart/pre-order/variant/filter; backend entitlement or checkout not verified.",
+        "Older collection/cart HTML snapshots do not prove current product prices, shipping or state.",
+        "No mobile, accessibility, actual editor or screenshots."
+      ],
+      "selected_127": true,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-release-forest",
+      "family": "Release",
+      "preset": "Forest",
+      "catalog_preset_id": "release:forest",
+      "focus": "home-furniture-material-taxonomy-and-editorial-spaces",
+      "homepage": {
+        "url": "https://release-living.myshopify.com/",
+        "source_crawl_recency": "3 weeks",
+        "signals": [
+          "Forest Theme — DigiFist identified on Shopify demo; furniture assortment across Sofas, Lighting, Beds, Tables and editorial room stories.",
+          "Multi-level menu with collection banners, latest-arrivals product list, product-story tiles, seasonal lifestyle editorial, blog and customer testimonials.",
+          "Shipping/financing/service claims presented as merchant demo content; homepage empty cart drawer text is not a separate /cart visit."
+        ],
+        "option_ids": [
+          "mega-menu",
+          "collection-list",
+          "featured-collection",
+          "image-with-text",
+          "testimonials",
+          "blog-posts",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "collection-list",
+          "product-grid",
+          "media-text",
+          "testimonial",
+          "blog-posts",
+          "newsletter"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25"
+      },
+      "collection": {
+        "url": "https://release-living.myshopify.com/collections/living-room",
+        "source_crawl_recency": "last month",
+        "signals": [
+          "Living Room collection shows 28 of 49 products in indexed HTML with material (Fabric/Wood, Oak/Walnut), availability and price facets.",
+          "Product cards list furniture and one Pre-order item, and repeated filter controls from desktop/mobile markup; no filter action performed.",
+          "Source contains duplicate-looking Material CM, Material and Material VM facet group labels; preserve actual merchandising semantics, never treat this as tested defect."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner",
+          "product-card-variants",
+          "pre-order"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "collection-banner",
+          "product-card"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25"
+      },
+      "product": null,
+      "cart": null,
+      "unverified": [
+        "PDP and standalone cart link fetches could not be independently verified, so not counted.",
+        "Theme Store Forest preset match is corroborated by explicit Forest Theme — DigiFist storefront title and official Release/Forest listing; no private editor access.",
+        "No native filter/cart/variant action, device layout or Lighthouse run."
+      ],
+      "selected_127": true,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 49,
-    "opened_home": 49,
-    "opened_collection": 38,
-    "opened_product": 40,
-    "opened_empty_cart": 10,
+    "opened_stores": 51,
+    "opened_home": 51,
+    "opened_collection": 40,
+    "opened_product": 41,
+    "opened_empty_cart": 11,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -3666,5 +3851,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 45
+  "selected_127_document_count": 47
 }

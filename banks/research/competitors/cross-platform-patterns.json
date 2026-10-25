@@ -1197,6 +1197,55 @@
         "product-badges-trust"
       ],
       "design_implication": "Treat each customer-facing promise as policy-backed, market-aware merchant data, not built-in VSN defaults. Preserve copy source and avoid invalid geographic/temporal claims."
+    },
+    {
+      "id": "release-clothing-variant-taxonomy-states",
+      "context": "Release default indexed Shopify home + New Collection + Black Puffer Edge PDP",
+      "signals": [
+        "Fashion listing mixes multi-attribute Color/Size options, real taxonomy color IDs, pre-order/sold-out badges and seller-made editorial promo tile."
+      ],
+      "source_entry_ids": [
+        "shopify-live-release-release"
+      ],
+      "option_ids": [
+        "product-card-variants",
+        "faceted-filters",
+        "pre-order",
+        "promo-tile-in-grid"
+      ],
+      "design_implication": "VSN reusable collection/card state must use variant availability and Shopify standard taxonomy/metaobject data for color/size and genuine order eligibility, keeping promo tile composable."
+    },
+    {
+      "id": "release-forest-material-filter-context",
+      "context": "Release Forest furniture Living Room collection indexed HTML",
+      "signals": [
+        "Facet groups Material CM/Material/Material VM may coexist with price and availability; 28 shown/49 total products in source."
+      ],
+      "source_entry_ids": [
+        "shopify-live-release-forest"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "collection-banner",
+        "product-custom-fields"
+      ],
+      "design_implication": "Theme should preserve merchant Search & Discovery facet labels and metafield sources, avoid merging logically distinct labels or assuming duplicated facets from HTML alone."
+    },
+    {
+      "id": "release-empty-cart-overlay-vs-pages",
+      "context": "Separately opened Release /cart public indexed HTML",
+      "signals": [
+        "Empty cart route includes recommendation title, overlays/popup strings and empty quick cart fragment; homepage has stock and promo states."
+      ],
+      "source_entry_ids": [
+        "shopify-live-release-release"
+      ],
+      "option_ids": [
+        "cart-page",
+        "empty-states",
+        "newsletter-popup"
+      ],
+      "design_implication": "Separate actual cart empty state from hidden promo modal scaffolds; only surface active UI from real shopper state and applicable policies."
     }
   ]
 }

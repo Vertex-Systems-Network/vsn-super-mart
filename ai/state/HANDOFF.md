@@ -2,6 +2,10 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 17 Release + Forest independently opened demo HTML
+
+Opened 2 more selected Shopify premium **Release-family** sample storefront homes: `release-main.myshopify.com` (Release/default fashion) and `release-living.myshopify.com` (Forest furniture, explicit vendor/theme proof). Added four source pages from default (home, collection, Black Puffer Edge PDP, empty cart) and two Forest pages (home, Living Room material-facet collection): **6 new primary documents**. Total now **51 stores /143 primary indexed HTML documents**; **47/127 selected homepages (37.0%, 80 pending)**; selected 36 collections, 38 PDPs, 11 carts. Three mapped original patterns, two observations and four merchant data/provenance cases added; historical CI floor updated. No browser interaction, checkout, mobile screenshots, Lighthouse or private Theme Editor. Forest PDP/cart still pending. Stage2 no active Figma; PR #9 open. Report `banks/research/competitors/shopify-live-demo-batch17-2026.md`.
+
 ## 2026-10-25 — Batch 16 two newly verified premium live demo homepages (+6 primary HTML pages)
 
 CI failure was caused by stale Batch11 snapshot equality in `scripts/platform_feasibility_audit.py` (43==current), even after valid Batch16 45 selected verified home documents. Replaced with preserved historical 43 baseline and cumulative URL/preset/plan reconciliation. This is a test fix, not invented demo evidence. 

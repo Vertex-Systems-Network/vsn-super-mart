@@ -739,6 +739,44 @@
         "Alessi Neapolitan coffee-maker has a dedicated product-page route linked from bestseller merchandising.",
         "Source is about two months old. Actual variation controls, cart actions, current price, gallery behavior and shipping promises untested."
       ]
+    },
+    {
+      "id": "shopify-live-release-release",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Clothing/fashion homepage with two-level category navigation, editorial collection rails and product cards with size/color availability notes.",
+        "First-party Shopify Markets/country selector and real storefront navigation markup; newsletter, detailed size guide, featured product media and journal.",
+        "Pre-order/sold-out/new/last-few labels co-occur in seller demo; none confirms current stock or successful pre-order."
+      ],
+      "collection_modules": [
+        "21-product New Collection with price, standardized Color taxonomy values and availability filters; sort and product size/color choices.",
+        "Custom editorial tile occurs within listing; 0d/0h/0m/0s countdown text and sale-ended message embedded in old source.",
+        "Indexed HTML only; filters, pagination, interactive variant and user cart not tested."
+      ],
+      "design_hypothesis": "Document-level Shopify demo research only; original merchant-controlled layout/attribute options, not copied visual design.",
+      "product_modules": [
+        "Black Puffer Edge individually opened PDP with variant query param; clothing size/media merchandising and pre-order indicators.",
+        "Cannot infer whether selected variant was actually activated in browser or buyer data persisted; no add-to-cart/checkout action."
+      ],
+      "cart_modules": [
+        "Dedicated empty cart route, cart count 0, continue-shopping link, recommended products heading and empty quick-cart scaffold.",
+        "Old source also contains promotional countdown expired text, age verifier and newsletter popups; these may be hidden components, not visible active states."
+      ]
+    },
+    {
+      "id": "shopify-live-release-forest",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Forest Theme — DigiFist identified on Shopify demo; furniture assortment across Sofas, Lighting, Beds, Tables and editorial room stories.",
+        "Multi-level menu with collection banners, latest-arrivals product list, product-story tiles, seasonal lifestyle editorial, blog and customer testimonials.",
+        "Shipping/financing/service claims presented as merchant demo content; homepage empty cart drawer text is not a separate /cart visit."
+      ],
+      "collection_modules": [
+        "Living Room collection shows 28 of 49 products in indexed HTML with material (Fabric/Wood, Oak/Walnut), availability and price facets.",
+        "Product cards list furniture and one Pre-order item, and repeated filter controls from desktop/mobile markup; no filter action performed.",
+        "Source contains duplicate-looking Material CM, Material and Material VM facet group labels; preserve actual merchandising semantics, never treat this as tested defect."
+      ],
+      "design_hypothesis": "Document-level Shopify demo research only; original merchant-controlled layout/attribute options, not copied visual design."
     }
   ]
 }
