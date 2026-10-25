@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "52 distinct Shopify demo storefront hosts; 144 primary indexed HTML documents and 48/127 selected preset homepage sources; interaction, mobile, checkout and private Theme Editor untested.",
+  "summary": "55 distinct Shopify demo hosts, 151 primary indexed HTML docs; 51/127 selected home demo sources. All interactive/mobile/editor tests pending.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -99,7 +99,29 @@
       },
       "interactive_tested": false,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "supplemental_documentation": [
+        {
+          "url": "https://prestige-theme-couture.myshopify.com/collections/dresses",
+          "observed_on": "2026-10-26",
+          "source_crawl_recency": "today",
+          "verification": "public_html_document_opened",
+          "signals": [
+            "Dedicated Dresses collection behind apparel capsule navigation, existing primary /collections/shop remains separate"
+          ],
+          "option_ids": [
+            "faceted-filters",
+            "sorting",
+            "collection-banner"
+          ],
+          "element_ids": [
+            "facets",
+            "sort",
+            "collection-banner"
+          ],
+          "kind": "additional_collection"
+        }
+      ]
     },
     {
       "id": "shopify-live-prestige-vogue",
@@ -194,7 +216,27 @@
       },
       "interactive_tested": false,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "supplemental_documentation": [
+        {
+          "url": "https://prestige-theme-vogue.myshopify.com/products/cinnamon-sage-lip-balm",
+          "observed_on": "2026-10-26",
+          "source_crawl_recency": "2 months",
+          "verification": "public_html_document_opened",
+          "signals": [
+            "Cinnamon Sage Lip Balm independently opened product-page HTML, additional to previously opened Bali Papaya Rice Masque PDP"
+          ],
+          "option_ids": [
+            "product-blocks",
+            "media-gallery-layouts"
+          ],
+          "element_ids": [
+            "product-gallery",
+            "product-title"
+          ],
+          "kind": "additional_product"
+        }
+      ]
     },
     {
       "id": "shopify-live-area-technical",
@@ -1768,7 +1810,29 @@
       ],
       "interactive_tested": false,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "supplemental_documentation": [
+        {
+          "url": "https://prestige-theme-strass2.myshopify.com/collections/bracelets",
+          "observed_on": "2026-10-26",
+          "source_crawl_recency": "today",
+          "verification": "public_html_document_opened",
+          "signals": [
+            "15 bracelets EUR grid with availability/price/color filters, a 00:00 countdown copy and country/currency selection"
+          ],
+          "option_ids": [
+            "faceted-filters",
+            "sorting",
+            "localization-selectors"
+          ],
+          "element_ids": [
+            "facets",
+            "sort",
+            "localization"
+          ],
+          "kind": "additional_collection"
+        }
+      ]
     },
     {
       "id": "shopify-live-sleek-wildpeak",
@@ -3909,13 +3973,238 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-eurus-arise",
+      "family": "Eurus",
+      "preset": "Arise",
+      "catalog_preset_id": "eurus:arise",
+      "focus": "supplements-quiz-subscription-bundle-builder",
+      "homepage": {
+        "url": "https://eurus-arise.myshopify.com/",
+        "observed_on": "2026-10-26",
+        "source_crawl_recency": "today",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Supplements homepage with best sellers and a four-question personalized product finder, prompts retrieved but no answer-selection executed.",
+          "Build Your Own Wellness Bundle chooser shows variant and selling-plan source data, sale 10/20/30% messaging and empty selection state.",
+          "Ingredient/scientific marketing, individual customer reviews and shipping/sustainability copy are merchant sample claims, not verified health data."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "selling-plans",
+          "bundle-display",
+          "product-custom-fields",
+          "testimonials"
+        ],
+        "element_ids": [
+          "product-grid",
+          "bundle",
+          "recommendations",
+          "testimonial"
+        ]
+      },
+      "collection": null,
+      "product": {
+        "url": "https://eurus-arise.myshopify.com/collections/subscribers-favorite/products/maca-root-energy-libido",
+        "observed_on": "2026-10-26",
+        "source_crawl_recency": "2 days",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Maca Root Energy & Libido dedicated public indexed PDP, supplement packaging-size choices and ingredients/benefit story.",
+          "Retinol/medical etc not assumed; current supplement effects and selling plan execution unverified."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "selling-plans"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "price"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "Quiz not clicked and result mapping unavailable",
+        "Subscription checkout/bundle Add All not executed; marketing and medical claims not authenticated"
+      ],
+      "selected_127": true,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-eurus-whiff",
+      "family": "Eurus",
+      "preset": "Whiff",
+      "catalog_preset_id": "eurus:whiff",
+      "focus": "jewelry-gift-quiz-gated-b2b-prices",
+      "homepage": {
+        "url": "https://eurus-whiff.myshopify.com/",
+        "observed_on": "2026-10-26",
+        "source_crawl_recency": "today",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Jewelry products and four-question gifting style quiz markup with a three-piece discount bundle chooser; no quiz/cart click performed.",
+          "AED and localized Japan/Arabic/English example content in HTML, with appointment and bespoke-jewelry seller claims.",
+          "Certification, sourcing and bespoke materials are seller-owned copy; do not infer verified certifications."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "bundle-display",
+          "testimonials",
+          "localization-selectors",
+          "product-custom-fields"
+        ],
+        "element_ids": [
+          "product-grid",
+          "bundle",
+          "localization",
+          "recommendations",
+          "trust-badges"
+        ]
+      },
+      "collection": {
+        "url": "https://eurus-whiff.myshopify.com/collections/best-sellers-1",
+        "observed_on": "2026-10-26",
+        "source_crawl_recency": "2 months",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Eight selected products, availability/material/brand facet groups with 'Register to see prices' product cards.",
+          "Unused Advanced filter 3 and 4 placeholders in indexed collection; this is source HTML, not a confirmed visible runtime defect."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-custom-fields"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": null,
+      "cart": null,
+      "supplemental_documentation": [
+        {
+          "url": "https://eurus-whiff.myshopify.com/pages/our-sustainability",
+          "observed_on": "2026-10-26",
+          "source_crawl_recency": "yesterday",
+          "verification": "public_html_document_opened",
+          "signals": [
+            "Jewellery sustainability seller-copy page with recycled material/carbon-neutral claims and mixed brand naming; not verified certifications."
+          ],
+          "option_ids": [
+            "image-with-text",
+            "product-badges-trust"
+          ],
+          "element_ids": [
+            "media-text",
+            "trust-badges"
+          ]
+        }
+      ],
+      "unverified": [
+        "Buyer account entitlements on gated prices not tested",
+        "Bundle savings and appointment booking not executed",
+        "Sustainability copy contains potential source-brand contamination"
+      ],
+      "selected_127": true,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-vision-poochy",
+      "family": "Vision",
+      "preset": "Poochy",
+      "catalog_preset_id": "vision:poochy",
+      "focus": "pet-merchandising-size-color-compare",
+      "homepage": {
+        "url": "https://vision-pets.myshopify.com/",
+        "observed_on": "2026-10-26",
+        "source_crawl_recency": "last month",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Pet-food and toys homepage with promo/review/inventory badges, categories and pet brand storytelling.",
+          "Shopper menus, rich product assortment with quick variant names and stock amounts as source text; marketing promises are not validated."
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "product-card-variants",
+          "promo-banner-section",
+          "blog-posts"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "product-card",
+          "promo-banner",
+          "blog-posts"
+        ]
+      },
+      "collection": {
+        "url": "https://vision-pets.myshopify.com/collections/all",
+        "observed_on": "2026-10-26",
+        "source_crawl_recency": "about 1.1 years",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "16 pet products, color and size facets, sorting, Compare checkbox source and cart empty source scaffold.",
+          "Colors, size facets and compare markup were not clicked; source over a year old and not current inventory."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-compare",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "compare",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://vision-pets.myshopify.com/products/holiday-penguin-dog-toy",
+        "observed_on": "2026-10-26",
+        "source_crawl_recency": "about 1.1 years",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Dedicated Holiday Crinkle Penguin Dog Toy historical PDP; product image/variant form markup in old indexed source.",
+          "Stock/variant/checkout interaction not executed."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "media-gallery-layouts"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ]
+      },
+      "cart": null,
+      "unverified": [
+        "Compare toggle is optional-app strategy concern, not Theme Store approval",
+        "No mobile or actual cart mutation; collection/PDP crawl ages differ from homepage"
+      ],
+      "selected_127": true,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 52,
-    "opened_home": 52,
-    "opened_collection": 40,
-    "opened_product": 41,
+    "opened_stores": 55,
+    "opened_home": 55,
+    "opened_collection": 42,
+    "opened_product": 43,
     "opened_empty_cart": 11,
     "interactive_events_tested": 0
   },
@@ -3925,5 +4214,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 48
+  "selected_127_document_count": 51
 }

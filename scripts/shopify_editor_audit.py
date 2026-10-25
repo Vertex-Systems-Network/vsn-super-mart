@@ -401,6 +401,57 @@ def check():
     for item in b19.get("cases",[]):
         if item.get("source_url") not in urls19 or not item.get("vsn_guard") or not item.get("source_crawl_recency"):
             errors.append("Batch19 QA case missing source, recency or merchant guard: "+str(item.get("id")))
+    # Batch20 three genuinely new selected stores and historical Prestige page supplements.
+    b20 = load(BASE/"shopify-source-claims-batch20-2026.json")
+    new20 = {
+        "shopify-live-eurus-arise": {
+            "catalog_preset_id":"eurus:arise",
+            "homepage":"https://eurus-arise.myshopify.com/",
+            "product":"https://eurus-arise.myshopify.com/collections/subscribers-favorite/products/maca-root-energy-libido"
+        },
+        "shopify-live-eurus-whiff": {
+            "catalog_preset_id":"eurus:whiff",
+            "homepage":"https://eurus-whiff.myshopify.com/",
+            "collection":"https://eurus-whiff.myshopify.com/collections/best-sellers-1"
+        },
+        "shopify-live-vision-poochy": {
+            "catalog_preset_id":"vision:poochy",
+            "homepage":"https://vision-pets.myshopify.com/",
+            "collection":"https://vision-pets.myshopify.com/collections/all",
+            "product":"https://vision-pets.myshopify.com/products/holiday-penguin-dog-toy"
+        }
+    }
+    source_by_id20 = {x["id"]:x for x in stores}
+    for sid, expected in new20.items():
+        store = source_by_id20.get(sid,{})
+        if store.get("catalog_preset_id")!=expected["catalog_preset_id"] or not store.get("selected_127"):
+            errors.append("Batch20 missing unique selected preset "+sid)
+        for kind,url in expected.items():
+            if kind=="catalog_preset_id": continue
+            document=store.get(kind)
+            if not document or document.get("url")!=url or document.get("verification")!="public_html_document_opened" or not document.get("source_crawl_recency"):
+                errors.append("Batch20 opened public source missing: "+sid+"/"+kind)
+    extra20={
+        "shopify-live-prestige-strass":"https://prestige-theme-strass2.myshopify.com/collections/bracelets",
+        "shopify-live-prestige-couture":"https://prestige-theme-couture.myshopify.com/collections/dresses",
+        "shopify-live-prestige-vogue":"https://prestige-theme-vogue.myshopify.com/products/cinnamon-sage-lip-balm",
+    }
+    for sid,url in extra20.items():
+        source=source_by_id20.get(sid,{})
+        if not any(p.get("url")==url and p.get("verification")=="public_html_document_opened" for p in source.get("supplemental_documentation",[])):
+            errors.append("Batch20 supplemental Prestige source missing: "+sid)
+    historical20=sum(sum(bool(x.get(k)) for k in ("homepage","collection","product","cart")) for x in stores)
+    if len(stores)<55 or historical20<151:
+        errors.append("Batch20 floor must retain 55 hosts and 151 primary indexed HTML docs")
+    if audit["counts"].get("live_home_demo_verified",0)<51 or audit["counts"].get("live_collection_verified",0)<38 or audit["counts"].get("live_product_verified",0)<40:
+        errors.append("Batch20 selected homepage/collection/PDP record floor missing")
+    sources20={p["url"] for x in stores for p in (x.get("homepage"),x.get("collection"),x.get("product"),x.get("cart")) if p}
+    sources20.update({p["url"] for x in stores for p in x.get("supplemental_documentation",[])})
+    if len(b20.get("cases",[]))!=6 or len({c.get("id") for c in b20.get("cases",[])})!=6:
+        errors.append("Batch20 merchant-risk source registry needs six unique items")
+    for c in b20.get("cases",[]):
+        if c.get("source_url") not in sources20 or not c.get("vsn_guard") or not c.get("indexed_crawl_recency"):
+            errors.append("Batch20 risk claim missing source/age/guard "+str(c.get("id")))
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):

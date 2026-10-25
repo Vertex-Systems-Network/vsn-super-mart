@@ -144,3 +144,12 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-source-claims-batch19-2026.json`: four merchant policy/testimonial relevance/preorder QA cases with source provenance, **not live-confirmed bugs**. Notably sample bikini testimonial on handbag site.
 - Three new evidence-linked reusable VSN architecture/merchant option patterns, one qualitative design observation; CI guard preventing counting supplemental FAQ as a selected PDP/collection/cart.
 - Cumulative **48/127 selected homepage sources (37.8%, 79 pending)**, **52 hosts /144 primary HTML documents** (52 home, 40 collection, 41 PDP, 11 cart). Selected 36 collections, 38 PDPs, 11 carts unchanged; interactive/mobile/editor still 0.
+
+## Batch20 and complete selected-127 evidence-status matrix (2026-10-26)
+
+- `competitors/shopify-live-demo-batch20-2026.md`: three **net-new** indexed selected storefront homes Eurus/Arise, Eurus/Whiff and Vision/Poochy, plus four separately retrieved supplementary (not double counted) Prestige/Eurus sources; sourced page crawled ages, architectural implications and unresolved QA.
+- `competitors/shopify-127-completion-matrix-2026.json`: exhaustive per-preset **127-row audit status** covering official Shopify listing plus actual independently retrieved home/collection/PDP/cart, source recency, blockers, priority missing demo URLs and unexecuted interactions. The matrix is complete; the direct live demo audit is not.
+- `competitors/shopify-127-audit-readiness-2026.md`: explicit verified/incomplete release gate and deterministic next evidence plan; **76 homepages still missing**.
+- `competitors/shopify-source-claims-batch20-2026.json`: six source-specific merchant copy, health, pricing, sustainability and promo guards; not live tested defects.
+- `python3 scripts/research_127_coverage.py`: GitHub Actions gate ensuring each of 127 rows equals actual documented page sources, crawled recency and Stage 2 state, with no fictitious QA pass/advance.
+- Honest checkpoint: **51/127 verified selected demo homepages (40.2%)**, **55 hosts/151 primary indexed public HTML documents**; 38 selected collection/40 product/11 cart; 74 patterns/81 qualitative observations. **76 direct demo homes pending**, no browser/checkout/private editor tests.

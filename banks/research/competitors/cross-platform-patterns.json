@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "purpose": "Evidence -> VSN option IDs -> design decisions. Research only; never copy competitor code or pixels.",
   "patterns": [
     {
@@ -1295,6 +1295,73 @@
         "product-badges-trust"
       ],
       "design_implication": "Testimonials, legal/return timelines and sustainability/warranty promises require merchant-approved evidence and centralized current policies; no default theme endorsements, false certifications or copy mismatches."
+    },
+    {
+      "id": "e20-eurus-quiz-bundle-selling-plan",
+      "context": "Individually opened Eurus Arise and Whiff home HTML with quiz and mixed SKU bundle widgets",
+      "signals": [
+        "Questions/answers and editable product/variant list exist in HTML, including Arise seller selling-plan JSON; interactions not executed."
+      ],
+      "source_entry_ids": [
+        "shopify-live-eurus-arise",
+        "shopify-live-eurus-whiff"
+      ],
+      "option_ids": [
+        "selling-plans",
+        "bundle-display",
+        "product-custom-fields"
+      ],
+      "design_implication": "VSN content-driven buyer quiz with merchant-configured rules and no-result state may route products without invented personal claims; never override native Shopify subscription allocations or backend discounts."
+    },
+    {
+      "id": "e20-eurus-price-gating-and-empty-facets",
+      "context": "Eurus Whiff Best Sellers collection HTML fetched independently",
+      "signals": [
+        "Some product rows say Register to see prices; Advanced filter 3/4 placeholders and material availability options exist in source."
+      ],
+      "source_entry_ids": [
+        "shopify-live-eurus-whiff"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "product-custom-fields",
+        "tpl-customer-accounts"
+      ],
+      "design_implication": "Enforce buyer market/account price entitlement at the data source; don't leak through JSON/quick view; unconfigured facets omitted entirely."
+    },
+    {
+      "id": "e20-vision-poochy-compare-catalog",
+      "context": "Vision Pets public HTML home and historical 16-item collection",
+      "signals": [
+        "Compare checkbox markup, repeated color and size facets and stock labels with older PDP snapshots."
+      ],
+      "source_entry_ids": [
+        "shopify-live-vision-poochy"
+      ],
+      "option_ids": [
+        "product-compare",
+        "wishlist-compare-ui-slots",
+        "faceted-filters"
+      ],
+      "design_implication": "Theme Store comparison stays app integration only until compliance approved; native catalog facets independent. Do not infer compare click success from HTML."
+    },
+    {
+      "id": "e20-merchant-claims-and-multi-market",
+      "context": "Prestige Strass EUR collection; Eurus Whiff/Arise localized HTML, seller promo copy",
+      "signals": [
+        "Mixed EUR and dollar shipping threshold, AED/Japanese text, and sustainability/health claims vary by store and locale."
+      ],
+      "source_entry_ids": [
+        "shopify-live-prestige-strass",
+        "shopify-live-eurus-whiff",
+        "shopify-live-eurus-arise"
+      ],
+      "option_ids": [
+        "localization-selectors",
+        "free-shipping-bar",
+        "product-badges-trust"
+      ],
+      "design_implication": "Market-aware shipping, region/language policy content, separate quote/certification review; do not introduce false urgency or unsupported health/sustainability claims."
     }
   ]
 }

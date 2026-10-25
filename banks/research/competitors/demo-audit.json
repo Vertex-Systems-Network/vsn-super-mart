@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "purpose": "Source-traceable competitor research for VSN's AI workflow; NOT copies of third-party themes.",
   "evidence_levels": {
     "official_preset_page": "Official product/preset listing opened; listed features are vendor claims; interactive demo NOT independently tested.",
@@ -7118,6 +7118,120 @@
         "home": "document_only",
         "collection": "not_verified",
         "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-eurus-arise",
+      "platform": "shopify",
+      "theme": "Eurus",
+      "preset": "Arise",
+      "url": "https://eurus-arise.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Only individually opened indexed HTML for listed home/category/PDP. No browser UI clicks, mobile, checkout, user cart mutation, private Theme Editor or Lighthouse.",
+      "feature_option_ids": [
+        "featured-collection",
+        "selling-plans",
+        "bundle-display",
+        "product-custom-fields",
+        "testimonials",
+        "product-blocks",
+        "variant-picker-styles"
+      ],
+      "design_signals": [
+        "Supplements homepage with best sellers and a four-question personalized product finder, prompts retrieved but no answer-selection executed.",
+        "Build Your Own Wellness Bundle chooser shows variant and selling-plan source data, sale 10/20/30% messaging and empty selection state.",
+        "Ingredient/scientific marketing, individual customer reviews and shipping/sustainability copy are merchant sample claims, not verified health data."
+      ],
+      "niches": [
+        "supplements-quiz-subscription-bundle-builder"
+      ],
+      "notes": "Batch20 source-linked, source crawl ages per document; no current stock/medical/trust promises independently verified.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-eurus-whiff",
+      "platform": "shopify",
+      "theme": "Eurus",
+      "preset": "Whiff",
+      "url": "https://eurus-whiff.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Only individually opened indexed HTML for listed home/category/PDP. No browser UI clicks, mobile, checkout, user cart mutation, private Theme Editor or Lighthouse.",
+      "feature_option_ids": [
+        "featured-collection",
+        "bundle-display",
+        "testimonials",
+        "localization-selectors",
+        "product-custom-fields",
+        "faceted-filters",
+        "sorting"
+      ],
+      "design_signals": [
+        "Jewelry products and four-question gifting style quiz markup with a three-piece discount bundle chooser; no quiz/cart click performed.",
+        "AED and localized Japan/Arabic/English example content in HTML, with appointment and bespoke-jewelry seller claims.",
+        "Certification, sourcing and bespoke materials are seller-owned copy; do not infer verified certifications."
+      ],
+      "niches": [
+        "jewelry-gift-quiz-gated-b2b-prices"
+      ],
+      "notes": "Batch20 source-linked, source crawl ages per document; no current stock/medical/trust promises independently verified.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-vision-poochy",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Poochy",
+      "url": "https://vision-pets.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Only individually opened indexed HTML for listed home/category/PDP. No browser UI clicks, mobile, checkout, user cart mutation, private Theme Editor or Lighthouse.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "product-card-variants",
+        "promo-banner-section",
+        "blog-posts",
+        "faceted-filters",
+        "sorting",
+        "product-compare",
+        "product-blocks",
+        "variant-picker-styles",
+        "media-gallery-layouts"
+      ],
+      "design_signals": [
+        "Pet-food and toys homepage with promo/review/inventory badges, categories and pet brand storytelling.",
+        "Shopper menus, rich product assortment with quick variant names and stock amounts as source text; marketing promises are not validated."
+      ],
+      "niches": [
+        "pet-merchandising-size-color-compare"
+      ],
+      "notes": "Batch20 source-linked, source crawl ages per document; no current stock/medical/trust promises independently verified.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }

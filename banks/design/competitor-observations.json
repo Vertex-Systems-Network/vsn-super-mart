@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "note": "Qualitative observations only; do not mark exact 12-dimensional fingerprints verified until a human or visual screenshot audit captures the live demo across templates and breakpoints.",
   "observations": [
     {
@@ -792,6 +792,51 @@
       "supplementary_modules": [
         "Supplemental FAQ page includes 30-day return language, fourteen-business-day post-receipt refund claim and delivery/account FAQ.",
         "These are unverified merchant-demo policy statements, not a real order/return-policy test."
+      ]
+    },
+    {
+      "id": "shopify-live-eurus-arise",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Supplements homepage with best sellers and a four-question personalized product finder, prompts retrieved but no answer-selection executed.",
+        "Build Your Own Wellness Bundle chooser shows variant and selling-plan source data, sale 10/20/30% messaging and empty selection state.",
+        "Ingredient/scientific marketing, individual customer reviews and shipping/sustainability copy are merchant sample claims, not verified health data."
+      ],
+      "design_hypothesis": "Original features mapping from independent public indexed HTML, not copied layouts or tested interactions.",
+      "product_modules": [
+        "Maca Root Energy & Libido dedicated public indexed PDP, supplement packaging-size choices and ingredients/benefit story.",
+        "Retinol/medical etc not assumed; current supplement effects and selling plan execution unverified."
+      ]
+    },
+    {
+      "id": "shopify-live-eurus-whiff",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Jewelry products and four-question gifting style quiz markup with a three-piece discount bundle chooser; no quiz/cart click performed.",
+        "AED and localized Japan/Arabic/English example content in HTML, with appointment and bespoke-jewelry seller claims.",
+        "Certification, sourcing and bespoke materials are seller-owned copy; do not infer verified certifications."
+      ],
+      "design_hypothesis": "Original features mapping from independent public indexed HTML, not copied layouts or tested interactions.",
+      "collection_modules": [
+        "Eight selected products, availability/material/brand facet groups with 'Register to see prices' product cards.",
+        "Unused Advanced filter 3 and 4 placeholders in indexed collection; this is source HTML, not a confirmed visible runtime defect."
+      ]
+    },
+    {
+      "id": "shopify-live-vision-poochy",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Pet-food and toys homepage with promo/review/inventory badges, categories and pet brand storytelling.",
+        "Shopper menus, rich product assortment with quick variant names and stock amounts as source text; marketing promises are not validated."
+      ],
+      "design_hypothesis": "Original features mapping from independent public indexed HTML, not copied layouts or tested interactions.",
+      "collection_modules": [
+        "16 pet products, color and size facets, sorting, Compare checkbox source and cart empty source scaffold.",
+        "Colors, size facets and compare markup were not clicked; source over a year old and not current inventory."
+      ],
+      "product_modules": [
+        "Dedicated Holiday Crinkle Penguin Dog Toy historical PDP; product image/variant form markup in old indexed source.",
+        "Stock/variant/checkout interaction not executed."
       ]
     }
   ]
