@@ -100,8 +100,8 @@
     },
     {
       "name": "Fetch",
-      "catalog_preset_id": null,
-      "selected_127": false,
+      "catalog_preset_id": "expanse:fetch",
+      "selected_127": true,
       "verification": "vendor_documented_homepage_sections_not_live_demo_html",
       "homepage_sections": [
         "header-group",
@@ -124,7 +124,7 @@
       ],
       "documented_total_including_groups": 17,
       "template_sections_excluding_header_footer": 14,
-      "notes": "Vendor-documented Fetch preset is supplementary; outside chosen 127 inventory."
+      "notes": "Selected expanse:fetch preset; separately visited demo homepage already counted in earlier Batch 5. Vendor-only recipe is not a new visited storefront."
     },
     {
       "name": "Gem",
@@ -369,6 +369,12 @@
     "Header/footer section groups are listed for recipe completeness but should not count as JSON template sections.",
     "Vendor countdown sections are not permission to fabricate urgency; merchant-configured valid time-bound events only.",
     "The image-comparison pattern currently has only related primitives; flag global element library gap explicitly.",
-    "Fetch is not in selected 127. Do not count it as independently visited demo."
-  ]
+    "Fetch is selected and an earlier independently opened demo record already exists; this vendor recipe adds zero opened HTML pages."
+  ],
+  "correction": {
+    "batch": 15,
+    "recorded_at": "2026-10-25",
+    "note": "Incorrectly excluded Fetch in Batch14; both preset inventory and live demo evidence contain expanse:fetch; fix without incrementing demo counts.",
+    "new_html_documents": 0
+  }
 }

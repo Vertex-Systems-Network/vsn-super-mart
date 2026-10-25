@@ -107,7 +107,14 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 
 ## Shopify Expanse documented demo recipes — Batch 14 (2026-10-25)
 
-- `competitors/shopify-vendor-homepage-recipes-expanse-batch14-2026.json`: five vendor-published ordered homepage recipes (Expanse, Revive, Spritz, Gem selected and Fetch supplemental); 23 normalized section kinds linked to actual option/element IDs. **Vendor documentation only — no live HTML pages credited.**
+- `competitors/shopify-vendor-homepage-recipes-expanse-batch14-2026.json`: five vendor-published ordered homepage recipes (Expanse, Revive, Spritz, Fetch and Gem all selected; corrected in Batch15); 23 normalized section kinds linked to actual option/element IDs. **Vendor documentation only — no live HTML pages credited.**
 - `competitors/shopify-dynamic-render-qa-batch14-2026.json`: six *not-yet-executed* original Shopify CSS subsetting/Section Rendering/high-variant/Theme Editor QA cases with official sources and vendor release note context. No implemented code claims.
 - `competitors/shopify-vendor-homepage-research-batch14-2026.md`: distinction between five vendor recipes and verified demo count; image comparison slider missing as a dedicated VSN reusable element.
 - Confirmed live demo progress still **43/127 selected homepage HTML (33.9%), 47 hosts /131 primary HTML documents**, pending 84 actual preset homepages.
+
+## Batch 15 external October PageSpeed comparison (2026-10-25)
+
+- `competitors/shopify-third-party-pagespeed-batch15-2026.json`: 18 selected Shopify preset homepage mobile/desktop PageSpeed lab measurements **reported by independent eDIY October 2026 pages** (six URLs), reported LCP/CLS/TBT, explicit evidence-class and three unexecuted VSN performance QA hypotheses. No raw PSI runs reproduced or mobile demos rendered by VSN.
+- `competitors/shopify-performance-benchmark-batch15-2026.md`: competitor performance research plus **official Shopify requirements**: Theme Store Lighthouse average >=60 performance and >=90 accessibility across home, PDP and collection, mobile + desktop. Three runs, consistent Chrome/network, report median; compare to actual Shopify benchmark later.
+- Corrected **Batch14 Fetch source-classification mistake**: `expanse:fetch` is selected and its demo home/collection/PDP/cart had already been opened in earlier research. Vendor recipe adds **0** new demo documents.
+- Verified preset homepage HTML stays **43/127 (33.9%), 84 pending**, **47 hosts /131 primary documents**. Do not conflate independent publisher PSI snapshot with in-house Lighthouse or individual opened storefront HTML.

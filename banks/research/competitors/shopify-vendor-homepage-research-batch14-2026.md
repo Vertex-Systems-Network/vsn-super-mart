@@ -19,10 +19,10 @@ The vendor source is **not** permission to mark an actual demo home, mobile rend
 | Expanse | Yes | 17 | 14 | Split heroes, promotional grids, hotpots and repeated collection rails |
 | Revive | Yes | 21 | 18 | Beauty hero, repeated featured collection, testimonials, before/after, newsletter |
 | Spritz | Yes | 20 | 17 | Food/drink merchandising, promos, recipe navigation, trust and editorial |
-| Fetch | **No — supplementary** | 17 | 14 | Pet video hero, sale promo, trust/review, collection and blog |
+| Fetch | Yes | 17 | 14 | Pet video hero, sale promo, trust/review, collection and blog |
 | Gem | Yes | 13 | 11 | Gem/jewelry promotional mosaic, gallery, lookbook, storytelling and trust |
 
-The source explicitly describes vendor demo configuration. This is different from a screenshot or interactive test. **Fetch is not one of the selected 127 records**, so these five recipes cover four chosen preset identities and one supplementary preset. Compare against four earlier Impulse family recipes as cross-family merchandising evidence, not proof that nine complete stores were visited.
+The source explicitly describes vendor demo configuration. This is different from a screenshot or interactive test. **Correction (Batch 15):** Fetch is included in the selected 127 as `expanse:fetch` and was already part of the previous live HTML research. All five recipes belong to selected preset identities; the vendor recipe does not add another demo HTML page. Compare against four earlier Impulse family recipes as cross-family merchandising evidence, not proof that nine complete stores were visited.
 
 ## Translatable original VSN element requirements
 
@@ -52,3 +52,5 @@ The vendor noted Expanse v10.0.1 (Aug 21 2026) compatibility for Shopify stylesh
 **43 / 127** selected independently opened demo homepages = **33.9%** (84 pending); **47** unique Shopify demo hosts; **131** primary opened indexed HTML pages (47 home +37 collection +38 product +9 separate cart). No change from Batch 13. Official **127/127** preset/listing pages were already separately verified; their count is not equivalent to the demo source count. All browser interactions, checkout, mobile devices/screenshots, Lighthouse and competitor private Theme Editor remain untested. Main branch unaffected; PR #9 research branch only. No theme code or Figma file changed.
 
 **Next:** prioritize independently retrievable remaining 84 preset demo homepages; keep vendor release/configuration and live HTML distinct. Original image comparison element research must be resolved at the Options/Element mapping gate before new designs.
+
+**Recorded Batch 15 correction:** Both `shopify-presets-2026.json` and `shopify-live-demo-evidence-2026.json` contain `expanse:fetch`. Earlier supplementary classification was incorrect; the verified-home count remains unchanged.

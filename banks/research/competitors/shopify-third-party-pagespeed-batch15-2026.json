@@ -1,0 +1,404 @@
+{
+  "version": 1,
+  "observed_at": "2026-10-25",
+  "reported_test_month": "2026-10",
+  "scope": "independent third party reported Google PageSpeed Insights lab results for individual Shopify theme demo homepage presets, not direct VSN measurements",
+  "evidence_level": "third_party_reported_pagespeed_lab_snapshot",
+  "source_ownership": "eDIY editorial team, not Shopify or VSN",
+  "reproducibility_warning": "Raw PSI/Lighthouse report links, device profiles and actual run counts not provided in cited pages. Results are unverified, time-bound external reports; never infer confirmed Theme Store acceptance/rejection, ongoing lab performance, real-user CrUX/INP, mobile rendered inspection or UI functionality.",
+  "sources": [
+    {
+      "family": "prestige",
+      "url": "https://ediy.io/directory/shopify-themes/prestige/"
+    },
+    {
+      "family": "broadcast",
+      "url": "https://ediy.io/directory/shopify-themes/broadcast/"
+    },
+    {
+      "family": "expanse",
+      "url": "https://ediy.io/directory/shopify-themes/expanse/"
+    },
+    {
+      "family": "symmetry",
+      "url": "https://ediy.io/directory/shopify-themes/symmetry/"
+    },
+    {
+      "family": "impulse",
+      "url": "https://ediy.io/directory/shopify-themes/impulse/"
+    },
+    {
+      "family": "savor",
+      "url": "https://ediy.io/directory/shopify-themes/savor/"
+    }
+  ],
+  "official_comparison_sources": [
+    "https://shopify.dev/docs/storefronts/themes/store/requirements",
+    "https://shopify.dev/docs/storefronts/themes/best-practices/performance/testing-for-performance",
+    "https://developers.google.com/search/docs/appearance/core-web-vitals"
+  ],
+  "shopify_theme_store_requirement": {
+    "lighthouse_performance_mean_minimum": 60,
+    "lighthouse_accessibility_mean_minimum": 90,
+    "page_types": [
+      "home",
+      "product",
+      "collection"
+    ],
+    "devices": [
+      "mobile",
+      "desktop"
+    ],
+    "plain_arithmetic_mean_for_store_admission": true,
+    "not_from_single_demo_homepage": true
+  },
+  "recommended_own_testing": {
+    "repeat_runs_per_page": 3,
+    "use_median": true,
+    "consistent_device_and_network": true,
+    "metric_interpretation": "Lighthouse lab LCP is not a field CrUX 75th percentile. Field INP is not equivalent to lab TBT."
+  },
+  "samples": [
+    {
+      "catalog_preset_id": "prestige:prestige",
+      "theme_family": "prestige",
+      "preset": "prestige",
+      "mobile_lighthouse_performance": 67,
+      "desktop_lighthouse_performance": 94,
+      "mobile_lab_lcp_seconds": 6.5,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 0,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/prestige/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "prestige:strass",
+      "theme_family": "prestige",
+      "preset": "strass",
+      "mobile_lighthouse_performance": 68,
+      "desktop_lighthouse_performance": 93,
+      "mobile_lab_lcp_seconds": 13.8,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 42,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/prestige/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "prestige:vogue",
+      "theme_family": "prestige",
+      "preset": "vogue",
+      "mobile_lighthouse_performance": 83,
+      "desktop_lighthouse_performance": 92,
+      "mobile_lab_lcp_seconds": 4.2,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 47,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/prestige/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "prestige:signature",
+      "theme_family": "prestige",
+      "preset": "signature",
+      "mobile_lighthouse_performance": 83,
+      "desktop_lighthouse_performance": 94,
+      "mobile_lab_lcp_seconds": 3.5,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 4,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/prestige/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "prestige:couture",
+      "theme_family": "prestige",
+      "preset": "couture",
+      "mobile_lighthouse_performance": 71,
+      "desktop_lighthouse_performance": 90,
+      "mobile_lab_lcp_seconds": 8.2,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 0,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/prestige/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "broadcast:broadcast",
+      "theme_family": "broadcast",
+      "preset": "broadcast",
+      "mobile_lighthouse_performance": 59,
+      "desktop_lighthouse_performance": 94,
+      "mobile_lab_lcp_seconds": 5,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 496,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/broadcast/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "broadcast:airwave",
+      "theme_family": "broadcast",
+      "preset": "airwave",
+      "mobile_lighthouse_performance": 70,
+      "desktop_lighthouse_performance": 95,
+      "mobile_lab_lcp_seconds": 11.8,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 107,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/broadcast/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "broadcast:relay",
+      "theme_family": "broadcast",
+      "preset": "relay",
+      "mobile_lighthouse_performance": 76,
+      "desktop_lighthouse_performance": 87,
+      "mobile_lab_lcp_seconds": 5.2,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 62,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/broadcast/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "broadcast:motif",
+      "theme_family": "broadcast",
+      "preset": "motif",
+      "mobile_lighthouse_performance": 70,
+      "desktop_lighthouse_performance": 93,
+      "mobile_lab_lcp_seconds": 7.7,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 8,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/broadcast/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "broadcast:stellar",
+      "theme_family": "broadcast",
+      "preset": "stellar",
+      "mobile_lighthouse_performance": 69,
+      "desktop_lighthouse_performance": 96,
+      "mobile_lab_lcp_seconds": 14.9,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 0,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/broadcast/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "expanse:expanse",
+      "theme_family": "expanse",
+      "preset": "expanse",
+      "mobile_lighthouse_performance": 70,
+      "desktop_lighthouse_performance": 87,
+      "mobile_lab_lcp_seconds": 8,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 76,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/expanse/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "expanse:revive",
+      "theme_family": "expanse",
+      "preset": "revive",
+      "mobile_lighthouse_performance": 73,
+      "desktop_lighthouse_performance": 96,
+      "mobile_lab_lcp_seconds": 7.2,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 0,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/expanse/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "expanse:spritz",
+      "theme_family": "expanse",
+      "preset": "spritz",
+      "mobile_lighthouse_performance": 87,
+      "desktop_lighthouse_performance": 80,
+      "mobile_lab_lcp_seconds": 3.3,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 91,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/expanse/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "expanse:fetch",
+      "theme_family": "expanse",
+      "preset": "fetch",
+      "mobile_lighthouse_performance": 76,
+      "desktop_lighthouse_performance": 100,
+      "mobile_lab_lcp_seconds": 5.7,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 87,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/expanse/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "expanse:gem",
+      "theme_family": "expanse",
+      "preset": "gem",
+      "mobile_lighthouse_performance": 85,
+      "desktop_lighthouse_performance": 87,
+      "mobile_lab_lcp_seconds": 3.5,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 134,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/expanse/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "symmetry:symmetry",
+      "theme_family": "symmetry",
+      "preset": "symmetry",
+      "mobile_lighthouse_performance": 85,
+      "desktop_lighthouse_performance": 92,
+      "mobile_lab_lcp_seconds": 3.8,
+      "mobile_lab_cls": 0.09,
+      "mobile_lab_tbt_ms": 20,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/symmetry/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "impulse:impulse",
+      "theme_family": "impulse",
+      "preset": "impulse",
+      "mobile_lighthouse_performance": 65,
+      "desktop_lighthouse_performance": 98,
+      "mobile_lab_lcp_seconds": 11.3,
+      "mobile_lab_cls": 0.14,
+      "mobile_lab_tbt_ms": 67,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/impulse/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    },
+    {
+      "catalog_preset_id": "savor:savor",
+      "theme_family": "savor",
+      "preset": "savor",
+      "mobile_lighthouse_performance": 71,
+      "desktop_lighthouse_performance": 94,
+      "mobile_lab_lcp_seconds": 6.4,
+      "mobile_lab_cls": 0,
+      "mobile_lab_tbt_ms": 17,
+      "metric_source_url": "https://ediy.io/directory/shopify-themes/savor/",
+      "reported_test_month": "2026-10",
+      "evidence_level": "third_party_reported_google_pagespeed_insights_lab_snapshot",
+      "direct_psireport_url_present": false,
+      "vsn_own_lab_test": false,
+      "live_demo_html_verified_in_this_batch": false
+    }
+  ],
+  "original_vsn_qa_hypotheses": [
+    {
+      "id": "homepage-mobile-lcp-target",
+      "option_ids": [
+        "perf-lighthouse",
+        "responsive-images",
+        "image-banner"
+      ],
+      "element_ids": [
+        "image",
+        "media-carousel"
+      ],
+      "observation": "Across this externally reported sample, every demo's mobile lab LCP exceeds Google's 2.5s good guidance; some have high desktop scores and much poorer mobile LCP.",
+      "vsn_original_action": "Set a <2.5s mobile LCP target on real devices and own field CrUX data where available; prioritize responsive hero sources, image formats, real dimensions, critical CSS and appropriate image loading.",
+      "qa_required": "Measure mobile home/PDP/collection on VSN baseline with real content, repeat 3x per page and median; validate field 75th-percentile LCP separately."
+    },
+    {
+      "id": "content-rich-mobile-vs-desktop",
+      "option_ids": [
+        "hero-slideshow",
+        "responsive-images",
+        "animation-settings"
+      ],
+      "element_ids": [
+        "slider",
+        "background-video"
+      ],
+      "observation": "Third-party reported scores differ substantially across device profiles, so high desktop performance does not establish mobile readiness.",
+      "vsn_original_action": "Media art direction, avoid loading offscreen heavy video/slideshow assets upfront, respect reduced motion and keep DOM complexity controlled.",
+      "qa_required": "Run Chrome Lighthouse with mobile throttling, second pass device CPU throttle, inspect LCP element and waterfalls."
+    },
+    {
+      "id": "source-provenance-performance-claims",
+      "option_ids": [
+        "perf-lighthouse",
+        "section-rendering",
+        "quick-view"
+      ],
+      "element_ids": [
+        "product-grid",
+        "media-text"
+      ],
+      "observation": "A third-party October snapshot is not VSN's own PSI output, and one homepage cannot prove Theme Store pass/fail.",
+      "vsn_original_action": "Record exact URL, run date, lab/field type, viewport, run count, theme version, screenshots, repeatability and raw PSI JSON for own future tests.",
+      "qa_required": "Shopify Theme Store average over homepage, collection, product, both mobile & desktop with 60 performance and 90 accessibility as independent requirements."
+    }
+  ],
+  "count_changes": {
+    "new_live_html_docs": 0,
+    "new_unique_demo_hosts": 0,
+    "new_mobile_browser_render_tests": 0
+  },
+  "data_integrity_discovery": "Batch14 incorrectly marked Expanse Fetch as outside 127; inventory contains expanse:fetch and an existing selected public demo record. Correct in this batch."
+}

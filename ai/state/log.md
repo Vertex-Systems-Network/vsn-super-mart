@@ -67,4 +67,6 @@
 
 - 2026-10-25 — Shopify demo Batch13: Horizon 1Tuck Tapered Pants PDP and Spotlight empty /cart independently retrieved (+2 primary), Glimmer Minis and Pitch Bundles as supplementary filtered collections. 47 hosts / 131 primary documents, 43/127 selected homepage sources; 3 patterns and 3 source QA guards, no functional cart/mobile/editor evidence.
 
-- 2026-10-25 — Batch 14 vendor-only Expanse preset research (5 homepage section recipes, including supplemental Fetch), 23 normalized section-to-VSN mappings, 6 source-linked CSS/variant/editor QA scenarios and missing comparison slider element noted. No new demo HTML or interactive proof; 43/127 homes and 131 primary pages unchanged.
+- 2026-10-25 — Batch 14 vendor-only Expanse preset research (5 homepage section recipes including selected Fetch; misclassification corrected in Batch15), 23 normalized section-to-VSN mappings, 6 source-linked CSS/variant/editor QA scenarios and missing comparison slider element noted. No new demo HTML or interactive proof; 43/127 homes and 131 primary pages unchanged.
+
+- 2026-10-25 — Batch15 third-party October 2026 PageSpeed demo homepage snapshot: 18 preset-specific lab reports from six theme-family publisher pages, 3 original VSN performance hypotheses, official Shopify Theme Store testing requirements and test methodology. Fixed incorrectly excluded `expanse:fetch` in Batch14 to match selected inventory and existing visited HTML. 43/127 selected homes, 47 hosts /131 primary pages unchanged; no mobile, VSN Lighthouse, interactions, theme or Figma work.

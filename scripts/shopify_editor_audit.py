@@ -222,8 +222,10 @@ def check():
             errors.append("Batch14 recipe has incorrect template section count")
         if recipe.get("selected_127") and recipe.get("catalog_preset_id") not in cohort:
             errors.append("Batch14 selected preset not in 127 cohort")
-        if recipe.get("name")=="Fetch" and (recipe.get("selected_127") or recipe.get("catalog_preset_id") is not None):
-            errors.append("Batch14 Fetch is supplemental and not selected")
+        if recipe.get("name")=="Fetch" and (recipe.get("catalog_preset_id")!="expanse:fetch" or not recipe.get("selected_127")):
+            errors.append("Batch15 correction: Expanse Fetch is part of selected 127 cohort")
+        if recipe.get("name")=="Fetch" and not any(x.get("catalog_preset_id")=="expanse:fetch" and x.get("selected_127") for x in stores):
+            errors.append("Batch15 correction: missing previously audited Fetch demo HTML")
         if recipe.get("verification")!="vendor_documented_homepage_sections_not_live_demo_html":
             errors.append("Batch14 vendor recipe falsely presented as live source")
     for kind, mapping in b14.get("section_to_vsn",{}).items():
@@ -244,6 +246,26 @@ def check():
         for sid in c.get("source_ids",[]):
             if sid not in srcs or not srcs[sid].startswith("https://"):
                 errors.append("Batch14 bad QA citation key: "+str(sid))
+    # Batch15: externally reported performance is not original VSN/mobile demo verification.
+    perf15=load(BASE/"shopify-third-party-pagespeed-batch15-2026.json")
+    sample15=perf15.get("samples",[])
+    if len(sample15)!=18 or len({p.get("catalog_preset_id") for p in sample15})!=18:
+        errors.append("Batch15 requires 18 uniquely mapped preset performance reports")
+    for metric in sample15:
+        sid=metric.get("catalog_preset_id")
+        if sid not in cohort or metric.get("evidence_level")!="third_party_reported_google_pagespeed_insights_lab_snapshot":
+            errors.append("Batch15 source provenance or cohort mismatch: "+str(sid))
+        if metric.get("vsn_own_lab_test") is not False or metric.get("live_demo_html_verified_in_this_batch") is not False:
+            errors.append("Batch15 cannot claim own performance test or visited storefront")
+        if not 0<=metric.get("mobile_lighthouse_performance",-1)<=100 or not 0<=metric.get("desktop_lighthouse_performance",-1)<=100:
+            errors.append("Batch15 bad reported score")
+        if metric.get("mobile_lab_lcp_seconds",0)<=0 or not metric.get("metric_source_url","").startswith("https://ediy.io/"):
+            errors.append("Batch15 source URL or LCP missing")
+    if perf15.get("count_changes",{}).get("new_live_html_docs")!=0 or perf15.get("count_changes",{}).get("new_mobile_browser_render_tests")!=0:
+        errors.append("Batch15 reported lab snapshots cannot inflate direct HTML/mobile QA")
+    limits15=perf15.get("shopify_theme_store_requirement",{})
+    if limits15.get("lighthouse_performance_mean_minimum")!=60 or limits15.get("lighthouse_accessibility_mean_minimum")!=90:
+        errors.append("Batch15 Theme Store requirements inconsistent")
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
