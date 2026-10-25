@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "47 Shopify public sample demo hosts, 129 individually opened indexed HTML page documents, 43/127 selected home demo sources; no interactive, checkout, screenshot or competitor Theme Editor tests. Batch 12 added 5 PDP documents.",
+  "summary": "47 identified Shopify demo hosts and 131 primary home/collection/PDP/cart public indexed HTML documents (plus separately labeled supplementary research), selected preset home sources 43/127. No interactive, browser-rendered, checkout or competitor editor verification.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -1560,7 +1560,31 @@
       ],
       "interactive_tested": false,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "supplemental_documentation": [
+        {
+          "url": "https://stiletto-theme-glimmer.myshopify.com/collections/minis",
+          "kind": "faceted_product_collection",
+          "observed_on": "2026-10-25",
+          "source_crawl_recency": "2 months",
+          "verification": "public_html_document_opened",
+          "signals": [
+            "Minis & Kits separately opened product grid, 27 results across two pages, skin type/product type/price/availability/size facets",
+            "Faceted product collection is distinct from the already recorded /collections index; not counted a second time in primary one-collection-per-store metric",
+            "Source says in stock (27) and out of stock (3) alongside 27 Results; this is a static label comparison, not evidence of broken filter count"
+          ],
+          "option_ids": [
+            "faceted-filters",
+            "filter-layouts",
+            "sorting"
+          ],
+          "element_ids": [
+            "facets",
+            "sort",
+            "product-grid"
+          ]
+        }
+      ]
     },
     {
       "id": "shopify-live-stiletto-tapestry",
@@ -2166,7 +2190,26 @@
         "observed_on": "2026-10-25",
         "source_crawl_recency": "last month"
       },
-      "product": null,
+      "product": {
+        "url": "https://theme-horizon-demo.myshopify.com/products/1tuck-tapered-pants-424",
+        "signals": [
+          "1Tuck Tapered Pants PDP has six gallery assets and XS-XXL size options; product-form and brand demo disclaimer appear in indexed HTML",
+          "Actual variant switching, inventory, cart and media-modal interactions were not executed"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 weeks"
+      },
       "cart": null,
       "interactive_tested": false,
       "mobile_render_tested": false,
@@ -2482,7 +2525,25 @@
         "observed_on": "2026-10-25",
         "source_crawl_recency": "3 months"
       },
-      "cart": null,
+      "cart": {
+        "url": "https://theme-spotlight-demo.myshopify.com/cart",
+        "signals": [
+          "Separate /cart HTML shows empty-cart message, continue-shopping link, subtotal $0.00 CAD and shipping/tax notice",
+          "Cart-success modal markup also exists in source, but no nonempty cart or add-to-cart mutation was executed"
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "cart-notes"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "7 months"
+      },
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
@@ -3380,15 +3441,38 @@
       "cart": null,
       "interactive_tested": false,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "supplemental_documentation": [
+        {
+          "url": "https://theme-pitch-demo.myshopify.com/collections/bundles",
+          "kind": "supplemental_collection",
+          "observed_on": "2026-10-25",
+          "source_crawl_recency": "today (retrieved indexed page, original search said three months)",
+          "verification": "public_html_document_opened",
+          "signals": [
+            "Three themed skincare bundle products displayed with compare-at and current sale prices",
+            "Availability/price facets and sorting appear in HTML; no click or verification that multi-line bundles add to cart"
+          ],
+          "option_ids": [
+            "faceted-filters",
+            "bundle-display",
+            "card-badges"
+          ],
+          "element_ids": [
+            "facets",
+            "product-card",
+            "bundle"
+          ]
+        }
+      ]
     }
   ],
   "counts": {
     "opened_stores": 47,
     "opened_home": 47,
     "opened_collection": 37,
-    "opened_product": 37,
-    "opened_empty_cart": 8,
+    "opened_product": 38,
+    "opened_empty_cart": 9,
     "interactive_events_tested": 0
   },
   "caveats": [

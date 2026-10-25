@@ -6222,12 +6222,15 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "document_verification_scope": "Read-only indexed public HTML for confirmed home/collection/PDP/cart routes; no browser interaction, mobile or private editor QA",
       "feature_option_ids": [
         "featured-collection",
         "cart-drawer",
         "faceted-filters",
-        "sorting"
+        "sorting",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
       ],
       "design_signals": [
         "Featured clothing and knitwear; 8 home product cards; empty cart source"
@@ -6235,11 +6238,11 @@
       "niches": [
         "shopify-first-party-horizon"
       ],
-      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "notes": "Indexed documents; separate source recency. Not functional verification. Batch13 adds product page with page-specific crawl age; not a functional test.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
-        "product": "not_verified",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }
@@ -6393,12 +6396,15 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Shopify first party demo document HTML only, not tested cart, mobile, accessibility or editor",
+      "document_verification_scope": "Read-only indexed public HTML for confirmed home/collection/PDP/cart routes; no browser interaction, mobile or private editor QA",
       "feature_option_ids": [
         "featured-collection",
         "inventory-status",
         "media-gallery-layouts",
-        "product-blocks"
+        "product-blocks",
+        "cart-page",
+        "empty-states",
+        "cart-notes"
       ],
       "design_signals": [
         "Compact caps/apparel/music shelf, sold-out labels and hidden cart success modal"
@@ -6406,12 +6412,12 @@
       "niches": [
         "shopify-first-party-spotlight"
       ],
-      "notes": "Indexed documents; separate source recency. Not functional verification.",
+      "notes": "Indexed documents; separate source recency. Not functional verification. Batch13 adds cart page with page-specific crawl age; not a functional test.",
       "page_coverage": {
         "home": "document_only",
         "collection": "not_verified",
         "product": "document_only",
-        "cart": "not_verified",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },

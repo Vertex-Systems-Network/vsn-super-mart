@@ -531,7 +531,11 @@
       "homepage_modules": [
         "Featured clothing and knitwear; 8 home product cards; empty cart source"
       ],
-      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "1Tuck Tapered Pants PDP has six gallery assets and XS-XXL size options; product-form and brand demo disclaimer appear in indexed HTML",
+        "Actual variant switching, inventory, cart and media-modal interactions were not executed"
+      ]
     },
     {
       "id": "shopify-live-craft-free",
@@ -583,7 +587,11 @@
       "homepage_modules": [
         "Compact caps/apparel/music shelf, sold-out labels and hidden cart success modal"
       ],
-      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "cart_modules": [
+        "Separate /cart HTML shows empty-cart message, continue-shopping link, subtotal $0.00 CAD and shipping/tax notice",
+        "Cart-success modal markup also exists in source, but no nonempty cart or add-to-cart mutation was executed"
+      ]
     },
     {
       "id": "shopify-live-studio-free",

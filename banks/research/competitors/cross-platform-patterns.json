@@ -1082,6 +1082,54 @@
         "product-blocks"
       ],
       "design_implication": "Centralize shipping-threshold policies by market, customer segment and currency so PDP trust callouts and site-wide bars cannot silently disagree; treat HTML discrepancy as copy audit, not executed policy defect."
+    },
+    {
+      "id": "native-horizon-product-form-media-and-size",
+      "context": "Individually opened Horizon 1Tuck Tapered Pants product HTML on 2026-10-25",
+      "signals": [
+        "Six indexed gallery assets, size choices XS-XXL, product info and demo disclaimer coexist in a compact OS 2.0 product layout"
+      ],
+      "source_entry_ids": [
+        "shopify-live-horizon-free"
+      ],
+      "option_ids": [
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_implication": "Global PDP block system should independently configure gallery and variant inputs, preserve variant state and seller-supplied media/size data. Source HTML alone does not verify actual variant behavior."
+    },
+    {
+      "id": "native-spotlight-empty-cart-with-hidden-success-source",
+      "context": "Individually opened Shopify Spotlight /cart HTML",
+      "signals": [
+        "Empty page says cart is empty and $0 subtotal, while shared layout includes success modal markup"
+      ],
+      "source_entry_ids": [
+        "shopify-live-spotlight-free"
+      ],
+      "option_ids": [
+        "cart-page",
+        "empty-states",
+        "cart-drawer"
+      ],
+      "design_implication": "Always compute distinct visible cart empty/nonempty states from current Shopify cart, and do not treat hidden modal copy as a completed add-to-cart action."
+    },
+    {
+      "id": "stiletto-faceted-product-grid-vs-collection-index",
+      "context": "Individually opened Stiletto Glimmer /collections/minis product listing in addition to previously audited /collections category index",
+      "signals": [
+        "Minis page shows 27 grid results and facet groups for product type, skin type, availability, price and three bottle sizes, contrasted with a separate collections-index document"
+      ],
+      "source_entry_ids": [
+        "shopify-live-stiletto-glimmer"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "filter-layouts",
+        "sorting"
+      ],
+      "design_implication": "Distinguish list-collections navigation templates from product collection filters; support merchant-defined metafield attributes and do not sum overlapping dynamic facet counts as stock totals."
     }
   ]
 }

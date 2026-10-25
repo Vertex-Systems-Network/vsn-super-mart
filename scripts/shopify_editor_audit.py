@@ -170,6 +170,37 @@ def check():
         errors.append("Batch12 minimum expected 37 PDP and 129 opened HTML documents")
     if audit["counts"].get("live_product_verified",0)<34:
         errors.append("Batch12 selected-PDP minimum fewer than 34")
+    # Batch13: primary PDP/cart and separate supplementary evidence; no interactive inference.
+    b13=load(BASE/"shopify-source-claims-batch13-2026.json")
+    by_id={s["id"]:s for s in stores}
+    verified_b13={
+        ("shopify-live-horizon-free","product"):"https://theme-horizon-demo.myshopify.com/products/1tuck-tapered-pants-424",
+        ("shopify-live-spotlight-free","cart"):"https://theme-spotlight-demo.myshopify.com/cart",
+    }
+    for (sid,kind),url in verified_b13.items():
+        item=by_id.get(sid,{}).get(kind)
+        if not item or item.get("url")!=url or item.get("verification")!="public_html_document_opened" or not item.get("source_crawl_recency"):
+            errors.append("Batch13 missing individually opened primary document: "+sid+"/"+kind)
+    extra={
+        "shopify-live-stiletto-glimmer":"https://stiletto-theme-glimmer.myshopify.com/collections/minis",
+        "shopify-live-pitch-free":"https://theme-pitch-demo.myshopify.com/collections/bundles",
+    }
+    for sid,url in extra.items():
+        sources=by_id.get(sid,{}).get("supplemental_documentation",[])
+        if not any(x.get("url")==url and x.get("verification")=="public_html_document_opened" for x in sources):
+            errors.append("Batch13 missing separate supplemental HTML document: "+sid)
+    primary_urls={x["url"] for s in stores for x in (s.get("homepage"),s.get("collection"),s.get("product"),s.get("cart")) if x}
+    supplement_urls={x.get("url") for s in stores for x in s.get("supplemental_documentation",[])}
+    if len(b13.get("cases",[]))!=3 or len({c.get("id") for c in b13.get("cases",[])})!=3:
+        errors.append("Batch13 expected three unique integrity cases")
+    for case in b13.get("cases",[]):
+        if case.get("source_url") not in primary_urls|supplement_urls or not case.get("vsn_guard"):
+            errors.append("Batch13 missing supporting evidence/guardrail: "+str(case.get("id")))
+    page_count=sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)
+    if page_count<131 or sum(bool(s.get("product")) for s in stores)<38 or sum(bool(s.get("cart")) for s in stores)<9:
+        errors.append("Batch13 history floor: 131 primary HTML pages, 38 PDP and 9 cart")
+    if audit["counts"].get("live_product_verified",0)<35 or audit["counts"].get("live_cart_verified",0)<9:
+        errors.append("Batch13 selected PDP/cart cohort floor")
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):

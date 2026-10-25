@@ -97,3 +97,10 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-live-demo-batch12-2026.md`: five individually opened Pitch/Sense/Publisher/Trade/Studio product pages with source crawl age.
 - `competitors/shopify-pdp-source-claims-batch12-2026.json`: five merchant data/policy claim risk checks (not confirmed runtime defects).
 - Cumulative 47 demo hosts / **129 opened indexed HTML documents**, **43/127 selected demo homepages** and **34 selected PDP documents**. No new interactive/browser/device/checkout verification.
+
+## Shopify indexed demo deep-page audit — Batch 13 (2026-10-25)
+
+- `competitors/shopify-live-demo-batch13-2026.md`: Horizon PDP and Spotlight separately fetched empty-cart evidence; read-only, never an executed variant/add-to-cart test.
+- `competitors/shopify-source-claims-batch13-2026.json`: 3 source integrity guards, not confirmed runtime defects.
+- Stiletto Glimmer Minis and Pitch Bundles faceted collection documents recorded under `supplemental_documentation` rather than double counting primary category screens.
+- Cumulative **47 storefront hosts / 131 primary indexed HTML pages**, **43/127 selected preset demo homes (33.9%)**, **35 selected PDPs / 9 selected carts**; no browser interaction/mobile/editor QA.

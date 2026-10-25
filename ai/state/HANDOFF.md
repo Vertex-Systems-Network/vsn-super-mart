@@ -2,6 +2,10 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Batch 13 Horizon PDP / Spotlight empty cart + supplemental collection evidence
+
+Opened **2 new primary demo HTML documents**: Horizon tapered trousers PDP (six-image gallery, XS–XXL options) and Spotlight separately fetched empty /cart ($0 CAD). Recorded two separate supplemental faceted collections: Stiletto Glimmer Minis & Kits and Pitch Bundles. **47 hosts / 131 primary indexed HTML docs / 43 of 127 selected demo home sources (33.9%), 38 total PDPs, 9 cart sources**; selected PDP 35 / cart 9. Three evidence-linked patterns, three content integrity QA cases, and CI historical gates added. Browser UI/cart mutation/mobile/editor remain untested; no old Figma or theme code changes. Report: `banks/research/competitors/shopify-live-demo-batch13-2026.md`. Continue missing 84 demo homepages when independently retrievable; avoid vendor listing inflation.
+
 ## 2026-10-25 — Batch 12 Shopify free-preset PDP deep evidence
 
 Opened five actual indexed PDP HTML source URLs (Pitch Age Serum, Sense BKIND Lip Balm, Publisher Braulio Amado 2021, Trade Turkish Cotton Towels, Studio Rhyme) and linked to existing selected preset records. Five source-integrity/merchant claim cases (not executed bugs), three new mapped patterns, five expanded observations. **47 hosts / 129 public HTML documents, 43/127 selected homepage sources unchanged, 34 selected PDPs (37 total).** Per-page indexed crawl age recorded; no cart/variant/mobile/editor interactions. PR #9 research branch; no active Figma, no theme development. Next remaining 84 selected home demos or deeper verified URLs. Report: `banks/research/competitors/shopify-live-demo-batch12-2026.md`.

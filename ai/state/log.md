@@ -64,3 +64,5 @@
 - 2026-10-25 — Batch 11: 15 official-source-linked Shopify Theme Editor/Theme Store feasibility decisions; synchronized AI Figma/image instructions; CI platform audit. No demo-count increase (43/127), no Figma/theme development.
 
 - 2026-10-25 — Batch12: opened Pitch/Sense/Publisher/Trade/Studio first-party PDP source pages; +5 HTML pages, 5 merchant-claim integrity risks, 3 original patterns. 47 hosts /129 HTML, selected 43/127 home, 34 selected PDP; no live clicks/mobile/editor/design work.
+
+- 2026-10-25 — Shopify demo Batch13: Horizon 1Tuck Tapered Pants PDP and Spotlight empty /cart independently retrieved (+2 primary), Glimmer Minis and Pitch Bundles as supplementary filtered collections. 47 hosts / 131 primary documents, 43/127 selected homepage sources; 3 patterns and 3 source QA guards, no functional cart/mobile/editor evidence.
