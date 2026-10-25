@@ -6437,6 +6437,447 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-tinker-free",
+      "platform": "shopify",
+      "theme": "Tinker",
+      "preset": "Tinker",
+      "url": "https://theme-tinker-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Workspace organizer hero, four collection tiles and newsletter",
+        "74-item Organizers page with color, availability, price facets"
+      ],
+      "niches": [
+        "shopify-first-party-tinker"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-origin-free",
+      "platform": "shopify",
+      "theme": "Origin",
+      "preset": "Origin",
+      "url": "https://theme-origin-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Single leather bag hero with reviews, journal and craft story",
+        "Compact bag and accessories with sale labels"
+      ],
+      "niches": [
+        "shopify-first-party-origin"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-atelier-free",
+      "platform": "shopify",
+      "theme": "Atelier",
+      "preset": "Atelier",
+      "url": "https://theme-atelier-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Deep accessory mega menu and seasonal bag merchandising",
+        "12 items, six color groups and price/availability filters"
+      ],
+      "niches": [
+        "shopify-first-party-atelier"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-rise-free",
+      "platform": "shopify",
+      "theme": "Rise",
+      "preset": "Rise",
+      "url": "https://theme-rise-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Japanese apparel, JPY prices and Japanese/English locale selector",
+        "JPY catalog with Japanese labels and sale prices"
+      ],
+      "niches": [
+        "shopify-first-party-rise"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-ride-free",
+      "platform": "shopify",
+      "theme": "Ride",
+      "preset": "Ride",
+      "url": "https://theme-ride-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Surfboard hero, rider stories, sale/sold-out cards",
+        "Performance surfboards category; older indexed source"
+      ],
+      "niches": [
+        "shopify-first-party-ride"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-crave-free",
+      "platform": "shopify",
+      "theme": "Crave",
+      "preset": "Crave",
+      "url": "https://theme-crave-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Meal starter and combo pack categories, recipe navigation",
+        "Meal starters category with variant product cards"
+      ],
+      "niches": [
+        "shopify-first-party-crave"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-fabric-free",
+      "platform": "shopify",
+      "theme": "Fabric",
+      "preset": "Fabric",
+      "url": "https://theme-fabric-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Women/men/home mega-menu categories",
+        "97-product womenswear collection with multi-color and price facets"
+      ],
+      "niches": [
+        "shopify-first-party-fabric"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-vessel-free",
+      "platform": "shopify",
+      "theme": "Vessel",
+      "preset": "Vessel",
+      "url": "https://theme-vessel-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Color-rich drinkware, coffee and kitchenware product shelves",
+        "Coffee and Tea catalog"
+      ],
+      "niches": [
+        "shopify-first-party-vessel"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-dwell-free",
+      "platform": "shopify",
+      "theme": "Dwell",
+      "preset": "Dwell",
+      "url": "https://theme-dwell-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Bedding, bath, decor menu and shop-the-look",
+        "Bedding products and facet controls"
+      ],
+      "niches": [
+        "shopify-first-party-dwell"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-heritage-free",
+      "platform": "shopify",
+      "theme": "Heritage",
+      "preset": "Heritage",
+      "url": "https://theme-heritage-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Men/women apparel, wool blanket story and collection routes",
+        "Men's apparel assortment"
+      ],
+      "niches": [
+        "shopify-first-party-heritage"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-ritual-free",
+      "platform": "shopify",
+      "theme": "Ritual",
+      "preset": "Ritual",
+      "url": "https://theme-ritual-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML plus product HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "Capsule fashion tiles and premium accessories shelf",
+        "New arrivals collection"
+      ],
+      "niches": [
+        "shopify-first-party-ritual"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-pitch-free",
+      "platform": "shopify",
+      "theme": "Pitch",
+      "preset": "Pitch",
+      "url": "https://theme-pitch-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public indexed homepage and collection HTML; never interpreted as an interactive test",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "collection-banner"
+      ],
+      "design_signals": [
+        "Skincare philosophy, bundles, promotional badges, newsletter",
+        "Skincare collection and offers; bundles route separately opened"
+      ],
+      "niches": [
+        "shopify-first-party-pitch"
+      ],
+      "notes": "Indexed public HTML; actual crawl age per page, no authenticated inventory or feature actions.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

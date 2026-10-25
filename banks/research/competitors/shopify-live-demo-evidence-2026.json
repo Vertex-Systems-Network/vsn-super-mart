@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "35 Shopify live demo stores, 89 individual public HTML pages; 31/127 selected demo home documents. Interactive/device/cart/checkout/editor unverified.",
+  "summary": "47 Shopify demo hosts, 124 public HTML source pages; 43 of 127 selected homepage demo sources, no real interactions or device/editor tests.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -2476,13 +2476,823 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-tinker-free",
+      "family": "Tinker",
+      "preset": "Tinker",
+      "catalog_preset_id": "tinker:tinker",
+      "selected_127": true,
+      "focus": "Shopify first-party tinker HTML audit",
+      "homepage": {
+        "url": "https://theme-tinker-demo.myshopify.com/",
+        "signals": [
+          "Workspace organizer hero, four collection tiles and newsletter"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "yesterday"
+      },
+      "collection": {
+        "url": "https://theme-tinker-demo.myshopify.com/collections/the-gather-collection",
+        "signals": [
+          "74-item Organizers page with color, availability, price facets"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "4 days"
+      },
+      "product": {
+        "url": "https://theme-tinker-demo.myshopify.com/products/gather-magsafe-phone-stand-black-walnut",
+        "signals": [
+          "MagSafe stand PDP with materials, dimensions and related products"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last month"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-origin-free",
+      "family": "Origin",
+      "preset": "Origin",
+      "catalog_preset_id": "origin:origin",
+      "selected_127": true,
+      "focus": "Shopify first-party origin HTML audit",
+      "homepage": {
+        "url": "https://theme-origin-demo.myshopify.com/",
+        "signals": [
+          "Single leather bag hero with reviews, journal and craft story"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 days"
+      },
+      "collection": {
+        "url": "https://theme-origin-demo.myshopify.com/collections/all",
+        "signals": [
+          "Compact bag and accessories with sale labels"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 months"
+      },
+      "product": {
+        "url": "https://theme-origin-demo.myshopify.com/products/2unfold-bag-copy",
+        "signals": [
+          "Multipurpose leather bag, color and product details"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last week"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-atelier-free",
+      "family": "Atelier",
+      "preset": "Atelier",
+      "catalog_preset_id": "atelier:atelier",
+      "selected_127": true,
+      "focus": "Shopify first-party atelier HTML audit",
+      "homepage": {
+        "url": "https://theme-atelier-demo.myshopify.com/",
+        "signals": [
+          "Deep accessory mega menu and seasonal bag merchandising"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 days"
+      },
+      "collection": {
+        "url": "https://theme-atelier-demo.myshopify.com/collections/shoulder-bags",
+        "signals": [
+          "12 items, six color groups and price/availability filters"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 months"
+      },
+      "product": {
+        "url": "https://theme-atelier-demo.myshopify.com/products/mini-isla-suede-caramel?variant=50126854848810",
+        "signals": [
+          "Variant-linked premium Mini Isla bag"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 weeks"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-rise-free",
+      "family": "Rise",
+      "preset": "Rise",
+      "catalog_preset_id": "rise:rise",
+      "selected_127": true,
+      "focus": "Shopify first-party rise HTML audit",
+      "homepage": {
+        "url": "https://theme-rise-demo.myshopify.com/",
+        "signals": [
+          "Japanese apparel, JPY prices and Japanese/English locale selector"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last week"
+      },
+      "collection": {
+        "url": "https://theme-rise-demo.myshopify.com/collections/all",
+        "signals": [
+          "JPY catalog with Japanese labels and sale prices"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "product": {
+        "url": "https://theme-rise-demo.myshopify.com/products/white-hoodie",
+        "signals": [
+          "White hoodie with Japanese product text"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "9 months"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-ride-free",
+      "family": "Ride",
+      "preset": "Ride",
+      "catalog_preset_id": "ride:ride",
+      "selected_127": true,
+      "focus": "Shopify first-party ride HTML audit",
+      "homepage": {
+        "url": "https://theme-ride-demo.myshopify.com/",
+        "signals": [
+          "Surfboard hero, rider stories, sale/sold-out cards"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "5 days"
+      },
+      "collection": {
+        "url": "https://theme-ride-demo.myshopify.com/collections/performance-boards",
+        "signals": [
+          "Performance surfboards category; older indexed source"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last year"
+      },
+      "product": {
+        "url": "https://theme-ride-demo.myshopify.com/products/filipe-toledo-wildfire",
+        "signals": [
+          "Filipe Toledo Wildfire surfboard PDP"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "5 days"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-crave-free",
+      "family": "Crave",
+      "preset": "Crave",
+      "catalog_preset_id": "crave:crave",
+      "selected_127": true,
+      "focus": "Shopify first-party crave HTML audit",
+      "homepage": {
+        "url": "https://theme-crave-demo.myshopify.com/",
+        "signals": [
+          "Meal starter and combo pack categories, recipe navigation"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "5 days"
+      },
+      "collection": {
+        "url": "https://theme-crave-demo.myshopify.com/collections/meal-starters",
+        "signals": [
+          "Meal starters category with variant product cards"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "4 months"
+      },
+      "product": {
+        "url": "https://theme-crave-demo.myshopify.com/products/thai-larb-starter-pack",
+        "signals": [
+          "Thai Larb starter 3-pack food PDP"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 months"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-fabric-free",
+      "family": "Fabric",
+      "preset": "Fabric",
+      "catalog_preset_id": "fabric:fabric",
+      "selected_127": true,
+      "focus": "Shopify first-party fabric HTML audit",
+      "homepage": {
+        "url": "https://theme-fabric-demo.myshopify.com/",
+        "signals": [
+          "Women/men/home mega-menu categories"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last week"
+      },
+      "collection": {
+        "url": "https://theme-fabric-demo.myshopify.com/collections/womenswear-children-only",
+        "signals": [
+          "97-product womenswear collection with multi-color and price facets"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 months"
+      },
+      "product": {
+        "url": "https://theme-fabric-demo.myshopify.com/products/womens-essential-sweatpant-in-black?variant=44434707710005",
+        "signals": [
+          "Variant-linked black sweatpant product page"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-vessel-free",
+      "family": "Vessel",
+      "preset": "Vessel",
+      "catalog_preset_id": "vessel:vessel",
+      "selected_127": true,
+      "focus": "Shopify first-party vessel HTML audit",
+      "homepage": {
+        "url": "https://theme-vessel-demo.myshopify.com/",
+        "signals": [
+          "Color-rich drinkware, coffee and kitchenware product shelves"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "3 days"
+      },
+      "collection": {
+        "url": "https://theme-vessel-demo.myshopify.com/collections/coffee-tea",
+        "signals": [
+          "Coffee and Tea catalog"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "product": {
+        "url": "https://theme-vessel-demo.myshopify.com/products/us-25192?variant=44459717656633",
+        "signals": [
+          "Variant-linked Kakomi IH Donabe PDP"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-dwell-free",
+      "family": "Dwell",
+      "preset": "Dwell",
+      "catalog_preset_id": "dwell:dwell",
+      "selected_127": true,
+      "focus": "Shopify first-party dwell HTML audit",
+      "homepage": {
+        "url": "https://theme-dwell-demo.myshopify.com/",
+        "signals": [
+          "Bedding, bath, decor menu and shop-the-look"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "collection": {
+        "url": "https://theme-dwell-demo.myshopify.com/collections/bedding-1",
+        "signals": [
+          "Bedding products and facet controls"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "last month"
+      },
+      "product": {
+        "url": "https://theme-dwell-demo.myshopify.com/products/top-sheet-brushed-cotton",
+        "signals": [
+          "Top sheet PDP with size/color, care and media gallery"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "yesterday"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-heritage-free",
+      "family": "Heritage",
+      "preset": "Heritage",
+      "catalog_preset_id": "heritage:heritage",
+      "selected_127": true,
+      "focus": "Shopify first-party heritage HTML audit",
+      "homepage": {
+        "url": "https://theme-heritage-demo.myshopify.com/",
+        "signals": [
+          "Men/women apparel, wool blanket story and collection routes"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "yesterday"
+      },
+      "collection": {
+        "url": "https://theme-heritage-demo.myshopify.com/collections/shop-mens",
+        "signals": [
+          "Men's apparel assortment"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 weeks"
+      },
+      "product": {
+        "url": "https://theme-heritage-demo.myshopify.com/products/mof-melton-wool-blanket",
+        "signals": [
+          "Melton wool blanket PDP and materials storytelling"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "6 days"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-ritual-free",
+      "family": "Ritual",
+      "preset": "Ritual",
+      "catalog_preset_id": "ritual:ritual",
+      "selected_127": true,
+      "focus": "Shopify first-party ritual HTML audit",
+      "homepage": {
+        "url": "https://theme-ritual-demo.myshopify.com/",
+        "signals": [
+          "Capsule fashion tiles and premium accessories shelf"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "5 days"
+      },
+      "collection": {
+        "url": "https://theme-ritual-demo.myshopify.com/collections/new",
+        "signals": [
+          "New arrivals collection"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 weeks"
+      },
+      "product": {
+        "url": "https://theme-ritual-demo.myshopify.com/products/rose-11-bag-1?variant=45042658443453",
+        "signals": [
+          "Variant-linked Rose 11 bag PDP"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "product-title"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-pitch-free",
+      "family": "Pitch",
+      "preset": "Pitch",
+      "catalog_preset_id": "pitch:pitch",
+      "selected_127": true,
+      "focus": "Shopify first-party pitch HTML audit",
+      "homepage": {
+        "url": "https://theme-pitch-demo.myshopify.com/",
+        "signals": [
+          "Skincare philosophy, bundles, promotional badges, newsletter"
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "mega-menu"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "mega-menu"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "today"
+      },
+      "collection": {
+        "url": "https://theme-pitch-demo.myshopify.com/collections/skincare",
+        "signals": [
+          "Skincare collection and offers; bundles route separately opened"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "collection-banner"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid"
+        ],
+        "verification": "public_html_document_opened",
+        "observed_on": "2026-10-25",
+        "source_crawl_recency": "2 weeks"
+      },
+      "product": null,
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 35,
-    "opened_home": 35,
-    "opened_collection": 25,
-    "opened_product": 21,
+    "opened_stores": 47,
+    "opened_home": 47,
+    "opened_collection": 37,
+    "opened_product": 32,
     "opened_empty_cart": 8,
     "interactive_events_tested": 0
   },
@@ -2492,5 +3302,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 31
+  "selected_127_document_count": 43
 }

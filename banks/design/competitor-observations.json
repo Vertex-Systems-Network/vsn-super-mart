@@ -580,6 +580,102 @@
         "Art gallery prints, originals, artist menu, journal"
       ],
       "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+    },
+    {
+      "id": "shopify-live-tinker-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Workspace organizer hero, four collection tiles and newsletter"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-origin-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Single leather bag hero with reviews, journal and craft story"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-atelier-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Deep accessory mega menu and seasonal bag merchandising"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-rise-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Japanese apparel, JPY prices and Japanese/English locale selector"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-ride-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Surfboard hero, rider stories, sale/sold-out cards"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-crave-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Meal starter and combo pack categories, recipe navigation"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-fabric-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Women/men/home mega-menu categories"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-vessel-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Color-rich drinkware, coffee and kitchenware product shelves"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-dwell-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Bedding, bath, decor menu and shop-the-look"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-heritage-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Men/women apparel, wool blanket story and collection routes"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-ritual-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Capsule fashion tiles and premium accessories shelf"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-pitch-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skincare philosophy, bundles, promotional badges, newsletter"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
     }
   ]
 }

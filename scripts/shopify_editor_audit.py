@@ -20,8 +20,8 @@ def check():
         errors.append("live demo plan mismatch with preset inventory")
     live=load(BASE/"shopify-live-demo-evidence-2026.json")
     stores=live.get("stores",[])
-    if len(stores)!=35 or len({d["id"] for d in stores})!=35:
-        errors.append("expected thirty-five distinct public demo document records")
+    if len(stores)<47 or len({d["id"] for d in stores})!=len(stores):
+        errors.append("expected at least 47 distinct public demo document records")
     selected=[d for d in stores if d.get("selected_127")]
     for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
         n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
@@ -144,6 +144,8 @@ def check():
         errors.append("batch8 baseline fewer than 31 selected preset home documents")
     if sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)<89:
         errors.append("batch8 baseline fewer than 89 documents")
+    if live.get("selected_127_document_count",0)<43 or sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)<124:
+        errors.append("batch9 historical minimum: fewer than 43 selected homes or 124 indexed HTML documents")
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
@@ -157,4 +159,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: 35 Shopify demo HTML stores (31 in cohort), interaction/mobile checks still pending")
+    print("Shopify editor audit OK: %d Shopify demo HTML stores (%d selected home sources), interactive/mobile tests pending" % (len(load(BASE/"shopify-live-demo-evidence-2026.json")["stores"]), load(BASE/"shopify-live-demo-evidence-2026.json")["selected_127_document_count"]))

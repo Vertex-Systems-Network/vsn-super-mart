@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — PR #9 Batch 9: 43/127 selected demo HTML homepages
+
+12 additional first-party Shopify demo hosts (Tinker, Origin, Atelier, Rise, Ride, Crave, Fabric, Vessel, Dwell, Heritage, Ritual, Pitch), each with home and collection HTML, plus 11 independently opened PDPs (Pitch PDP unverified). Totals **47 hosts / 124 indexed public HTML documents / 43 of 127 selected homepage sources (33.9%)**. Progress **███████░░░░░░░░░░░░░**. Added 5 source-linked AI patterns + 12 qualitative design observations and adjusted cumulative validator floor. Source crawl ages include last-year Ride collection and 9-month-old Rise PDP; no real interactive QA, mobile rendering, checkout or competitor Theme Editor. Stage 2 remains; old Figma superseded. All work on PR #9 branch, main unmodified pending merge. Next audit remaining 84 demo home sources. See `banks/research/competitors/shopify-live-demo-batch9-2026.md`.
+
+
 ## 2026-10-25 — Batch 8: Seven Shopify first-party demo pages
 
 Added Horizon, Craft, Trade, Publisher, Sense, Spotlight and Studio public demo document sources. Total **35 hosts / 89 documents / 31 of 127 selected (24.4%)**. Added five mappings to AI pattern bank and seven design observations. Trade B2B account route is documentary evidence, not Shopify Plus plan entitlement. PR #9 still open; old Figma historical.

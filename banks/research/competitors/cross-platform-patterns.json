@@ -949,6 +949,90 @@
         "promo-banner-section"
       ],
       "design_implication": "Ingredients and discounts must be merchant-verified, not copied from sample content."
+    },
+    {
+      "id": "shopify-first-party-scalable-facets",
+      "context": "Individually opened Shopify first-party homepage/category/product HTML, 2026-10-25",
+      "signals": [
+        "Category controls and assortment counts require native truth and usable responsive filters."
+      ],
+      "source_entry_ids": [
+        "shopify-live-tinker-free",
+        "shopify-live-atelier-free",
+        "shopify-live-fabric-free"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting"
+      ],
+      "design_implication": "Category controls and assortment counts require native truth and usable responsive filters."
+    },
+    {
+      "id": "shopify-first-party-structured-product-stories",
+      "context": "Individually opened Shopify first-party homepage/category/product HTML, 2026-10-25",
+      "signals": [
+        "Technical details, care, craft story and media should be independent merchant-controlled reusable product blocks."
+      ],
+      "source_entry_ids": [
+        "shopify-live-tinker-free",
+        "shopify-live-dwell-free",
+        "shopify-live-heritage-free",
+        "shopify-live-origin-free"
+      ],
+      "option_ids": [
+        "product-blocks",
+        "media-gallery-layouts"
+      ],
+      "design_implication": "Technical details, care, craft story and media should be independent merchant-controlled reusable product blocks."
+    },
+    {
+      "id": "shopify-first-party-japan-market-context",
+      "context": "Individually opened Shopify first-party homepage/category/product HTML, 2026-10-25",
+      "signals": [
+        "Build native localized prices/labels and test actual Shopify Markets translations; HTML selector alone proves no behavior."
+      ],
+      "source_entry_ids": [
+        "shopify-live-rise-free"
+      ],
+      "option_ids": [
+        "localization-selectors",
+        "featured-collection"
+      ],
+      "design_implication": "Build native localized prices/labels and test actual Shopify Markets translations; HTML selector alone proves no behavior."
+    },
+    {
+      "id": "shopify-first-party-niche-promotions",
+      "context": "Individually opened Shopify first-party homepage/category/product HTML, 2026-10-25",
+      "signals": [
+        "Food shipping copy, board inventory and beauty bundle discounts must derive from live merchant sources, not fixed demo claims."
+      ],
+      "source_entry_ids": [
+        "shopify-live-crave-free",
+        "shopify-live-ride-free",
+        "shopify-live-pitch-free"
+      ],
+      "option_ids": [
+        "promo-banner-section",
+        "card-badges"
+      ],
+      "design_implication": "Food shipping copy, board inventory and beauty bundle discounts must derive from live merchant sources, not fixed demo claims."
+    },
+    {
+      "id": "shopify-first-party-category-merchandising",
+      "context": "Individually opened Shopify first-party homepage/category/product HTML, 2026-10-25",
+      "signals": [
+        "Original reusable category merchandising and product variant components should cover contrasting niches."
+      ],
+      "source_entry_ids": [
+        "shopify-live-vessel-free",
+        "shopify-live-ritual-free",
+        "shopify-live-atelier-free"
+      ],
+      "option_ids": [
+        "collection-list",
+        "variant-picker-styles"
+      ],
+      "design_implication": "Original reusable category merchandising and product variant components should cover contrasting niches."
     }
   ]
 }
