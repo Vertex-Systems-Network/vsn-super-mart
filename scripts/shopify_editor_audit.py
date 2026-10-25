@@ -20,8 +20,8 @@ def check():
         errors.append("live demo plan mismatch with preset inventory")
     live=load(BASE/"shopify-live-demo-evidence-2026.json")
     stores=live.get("stores",[])
-    if len(stores)!=8 or len({d["id"] for d in stores})!=8:
-        errors.append("expected eight distinct public demo document records")
+    if len(stores)!=10 or len({d["id"] for d in stores})!=10:
+        errors.append("expected ten distinct public demo document records")
     selected=[d for d in stores if d.get("selected_127")]
     for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
         n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
@@ -54,6 +54,20 @@ def check():
     for key, vals in recipes.get("section_to_vsn_elements",{}).items():
         for val in vals:
             if val not in els: errors.append("unmapped vendor element "+val)
+    vendor=load(BASE/"shopify-vendor-settings-2026.json")
+    specs=load(ROOT/"banks/elements/specs/shopify-local-commerce-controls-2026.json")
+    if len(vendor.get("notes",[]))!=5 or len(specs.get("elements",[]))!=6:
+        errors.append("developer setting references or proposed original control specs missing")
+    known_opts={x["id"] for x in load(ROOT/"banks/options/options.json")["options"]}
+    for record in vendor.get("notes",[]):
+        if record.get("source_type") not in ("official_vendor_documentation","dated_official_vendor_release_notes"):
+            errors.append("vendor settings mislabelled verified in private theme editor")
+        for oid in record.get("mapped_options",[]):
+            if oid not in known_opts: errors.append("unknown vendor setting option "+oid)
+    for block in specs.get("elements",[]):
+        if block.get("id") not in els: errors.append("unknown settings element id "+str(block.get("id")))
+        for oid in block.get("option_ids",[]):
+            if oid not in known_opts: errors.append("unknown element control option "+oid)
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
@@ -67,4 +81,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: 8 Shopify demo HTML stores (6 in cohort), interaction/mobile checks still pending")
+    print("Shopify editor audit OK: 10 Shopify demo HTML stores (8 in cohort), interaction/mobile checks still pending")

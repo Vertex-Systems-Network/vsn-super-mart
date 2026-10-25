@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated_at": "2026-10-25",
   "options": [
     {
@@ -2434,6 +2434,79 @@
       "theme_store_required": false,
       "source": "cross-platform-demo-audit-2026-10-25",
       "note": "Porto gallery variants; extends media-gallery-layouts with explicit tested configurations and mobile fallbacks."
+    },
+    {
+      "id": "cart-shipping-estimator",
+      "name": "Cart estimated shipping form (country/region/postal)",
+      "area": "cart",
+      "scope": "core",
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "priority": "nice",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "Shopify Local live demo cart 2026-10-25",
+      "warning": "Estimated rates only; must not present a calculated shipping rate as final checkout total."
+    },
+    {
+      "id": "dietary-allergen-badges",
+      "name": "Allergen and dietary badges sourced from product metafields",
+      "area": "collection",
+      "scope": [
+        "grocery-supermarket",
+        "food-beverage",
+        "health-supplements",
+        "pets"
+      ],
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "priority": "nice",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "Shopify Local live demo collection 2026-10-25",
+      "warning": "Do not invent allergen-free or certification claims; only merchant-maintained verified product data."
+    },
+    {
+      "id": "pickup-location-preference",
+      "name": "Preferred store selector for pickup and local availability",
+      "area": "product",
+      "scope": [
+        "grocery-supermarket",
+        "food-beverage",
+        "home-furniture"
+      ],
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "priority": "nice",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "Shopify Local live demo PDP 2026-10-25",
+      "warning": "Availability must come from Shopify location/inventory APIs; preference UI is not a reservation."
+    },
+    {
+      "id": "article-product-quickbuy",
+      "name": "Optional shoppable inline product references for blog and recipe articles",
+      "area": "blog",
+      "scope": [
+        "food-beverage",
+        "grocery-supermarket",
+        "beauty-skincare"
+      ],
+      "audience": [
+        "shopper",
+        "merchant"
+      ],
+      "priority": "nice",
+      "store_allowed": true,
+      "theme_store_required": false,
+      "source": "Official Krown Local article documentation 2026-10-25",
+      "warning": "Only link selected real products, enforce native cart/variant behaviour and content sanitization."
     }
   ]
 }

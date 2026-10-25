@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "8 Shopify public demo stores: home, collection and PDP HTML for all, empty-cart document for 4. Of these, 6 match original 127 preset cohort. No click/checkout/mobile/editor testing.",
+  "summary": "10 real Shopify demo storefronts with 33 public HTML documents; 8 selected 127 designs. One new Local home+collection+PDP+empty cart, Motion Satchel homepage only. Never claim button/mobile testing.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -645,14 +645,174 @@
           "cart-lines"
         ]
       }
+    },
+    {
+      "id": "shopify-live-motion-satchel",
+      "family": "Motion",
+      "preset": "Satchel",
+      "catalog_preset_id": "motion:satchel",
+      "selected_127": true,
+      "focus": "premium-accessories-editorial",
+      "homepage": {
+        "url": "https://motion-theme-accessories.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "five colour-variant bag cards shown with Quick View",
+          "editorial handbags hero and story sections",
+          "customer promises for returns, gift wrapping, pickup and shipping",
+          "journal section and empty slide-out cart markup on same homepage"
+        ],
+        "option_ids": [
+          "quick-view",
+          "featured-collection",
+          "image-with-text",
+          "blog-posts",
+          "cart-drawer"
+        ],
+        "element_ids": [
+          "quick-view",
+          "product-card",
+          "media-text",
+          "blog-posts",
+          "cart-drawer"
+        ]
+      },
+      "collection": null,
+      "product": null,
+      "cart": null,
+      "embedded_empty_cart_html_on_home": true,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "collection/PDP/cart URLs failed direct fetch",
+        "real Add to Cart or Quick View interactions",
+        "mobile/desktop rendered screenshots",
+        "theme editor settings"
+      ]
+    },
+    {
+      "id": "shopify-live-local-default",
+      "family": "Local",
+      "preset": "Local",
+      "catalog_preset_id": "local:local",
+      "selected_127": true,
+      "focus": "local-grocery-fulfillment",
+      "homepage": {
+        "url": "https://local-theme-main.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "multi-level pantry/produce/bakery/dairy/drinks navigation with promo cards",
+          "pickup store preference and delivery estimate labels",
+          "best sellers, organic diet badges and food content sections",
+          "store hours/location cards and newsletter"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "multi-level-menu",
+          "collection-list",
+          "free-shipping-bar",
+          "pickup-availability",
+          "localization-selectors"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "collection-list",
+          "product-grid",
+          "pickup",
+          "localization"
+        ]
+      },
+      "collection": {
+        "url": "https://local-theme-main.myshopify.com/collections/all",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "37 products and filter/sort control labels",
+          "allergen and certification labels on product cards",
+          "product compare selection UI of up to four cards",
+          "sold-out and pre-order labels alongside sale badges"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "dietary-allergen-badges",
+          "product-compare",
+          "card-badges"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card",
+          "compare"
+        ]
+      },
+      "product": {
+        "url": "https://local-theme-main.myshopify.com/collections/all/products/sliced-tomato-puree",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "location-specific pickup estimates and preferred-store selector",
+          "tomato puree size variants and price",
+          "allergen badges plus nutrition score and table",
+          "upsell recommendation and sharing options"
+        ],
+        "option_ids": [
+          "pickup-availability",
+          "pickup-location-preference",
+          "ingredients-nutrition",
+          "variant-picker-styles",
+          "complementary-products"
+        ],
+        "element_ids": [
+          "pickup",
+          "nutrition",
+          "variant-picker",
+          "recommendations"
+        ]
+      },
+      "cart": {
+        "url": "https://local-theme-main.myshopify.com/cart",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "empty cart page and continue shopping CTA",
+          "shipping estimate country/province/postcode fields",
+          "discount code, cart notes and terms checkbox",
+          "truthful $0 cart total, shipping calculated at checkout"
+        ],
+        "option_ids": [
+          "cart-page",
+          "cart-shipping-estimator",
+          "cart-notes",
+          "cart-discounts",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-summary",
+          "cart-lines"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "shipping estimate button interaction and actual rates",
+        "save store preference",
+        "real product add/cart mutation",
+        "live mobile UX",
+        "private Theme Editor access"
+      ]
     }
   ],
   "counts": {
-    "opened_stores": 8,
-    "opened_home": 8,
-    "opened_collection": 8,
-    "opened_product": 8,
-    "opened_empty_cart": 4,
+    "opened_stores": 10,
+    "opened_home": 10,
+    "opened_collection": 9,
+    "opened_product": 9,
+    "opened_empty_cart": 5,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -661,5 +821,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 6
+  "selected_127_document_count": 8
 }

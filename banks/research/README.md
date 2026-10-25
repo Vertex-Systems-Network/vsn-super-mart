@@ -60,3 +60,10 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-live-demo-report-2026.md`: findings and unsupported interaction/mobile/checkout limits.
 
 - `competitors/shopify-live-demo-batch2-2026.md`: four more Shopify live demo HTML stores (Empire Depot/Wonder/Be Yours/Taste). Cumulative 8 stores, 28 documented public pages, 6 belonging to selected 127 design index. Interactive QA remains pending.
+
+## Shopify live demo Batch 3 and new design decision (2026-10-25)
+
+- `competitors/shopify-live-demo-batch3-2026.md`: Motion Satchel and Local default public page observations and explicit interaction limits.
+- `competitors/shopify-vendor-settings-2026.json`: Local developer cart, popup, article, layout controls and Impulse v10 release-note claims, separate from private Theme Editor observation.
+- `banks/elements/specs/shopify-local-commerce-controls-2026.json`: original proposed VSN settings for pickup/store selector, allergen labels, shipping estimator, article quickbuy, popups and variant picker; not runtime implementation.
+- **No current Figma or Stage 6**: user superseded old designs; new design to be started later. Research proceeds independently.

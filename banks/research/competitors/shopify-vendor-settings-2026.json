@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "scope": "Vendor documented settings, NOT access to competitor private Theme Editor",
+  "notes": [
+    {
+      "id": "local-cart-settings",
+      "family": "Local",
+      "url": "https://shopify-support.krownthemes.com/article/796-cart",
+      "source_type": "official_vendor_documentation",
+      "observed_on": "2026-10-25",
+      "claims": [
+        "cart mode: drawer or full page",
+        "image aspect ratio control for line items",
+        "dynamic upsell recommendations",
+        "shipping progress on drawer/page",
+        "cart note and accelerated checkout buttons"
+      ],
+      "mapped_options": [
+        "cart-type-setting",
+        "cart-upsell",
+        "free-shipping-bar",
+        "cart-notes",
+        "cart-accelerated"
+      ],
+      "vendor_claim_only": true
+    },
+    {
+      "id": "local-popup-block-settings",
+      "family": "Local",
+      "url": "https://shopify-support.krownthemes.com/article/800-local-popups",
+      "source_type": "official_vendor_documentation",
+      "observed_on": "2026-10-25",
+      "claims": [
+        "age verification popup",
+        "cookies notice",
+        "image/newsletter/custom popup block types",
+        "frequency day/week/month and staggered timing"
+      ],
+      "mapped_options": [
+        "age-verification",
+        "cookie-consent",
+        "newsletter-popup"
+      ],
+      "vendor_claim_only": true
+    },
+    {
+      "id": "local-article-shopability",
+      "family": "Local",
+      "url": "https://shopify-support.krownthemes.com/article/810-local-blogs-article",
+      "source_type": "official_vendor_documentation",
+      "observed_on": "2026-10-25",
+      "claims": [
+        "blog article product links can become quick buy product affordances for recipes",
+        "article templates configurable"
+      ],
+      "mapped_options": [
+        "article-product-quickbuy",
+        "blog-posts",
+        "quick-add"
+      ],
+      "vendor_claim_only": true
+    },
+    {
+      "id": "local-layout-style-controls",
+      "family": "Local",
+      "url": "https://shopify-support.krownthemes.com/article/794-layout-borders-shadows",
+      "source_type": "official_vendor_documentation",
+      "observed_on": "2026-10-25",
+      "claims": [
+        "border options for cards/buttons/forms",
+        "per-section border visibility",
+        "card/button shadow controls"
+      ],
+      "mapped_options": [
+        "card-settings",
+        "button-styles",
+        "layout-settings"
+      ],
+      "vendor_claim_only": true
+    },
+    {
+      "id": "impulse-high-variant-v10",
+      "family": "Impulse",
+      "url": "https://help.archetypethemes.co/hc/en-us/articles/46027069235091-Impulse-release-notes",
+      "source_type": "dated_official_vendor_release_notes",
+      "source_date": "2026-10-09",
+      "observed_on": "2026-10-25",
+      "claims": [
+        "Variant picker and quick shop now support up to 2048 variants",
+        "Size chart linked to specific variant option",
+        "Buttons disabled while variant loads",
+        "Quick shop variant change should not modify PDP URL",
+        "iOS overlay scroll lock and mobile media swipe fixes"
+      ],
+      "mapped_options": [
+        "variant-picker-styles",
+        "size-chart",
+        "quick-view",
+        "keyboard-focus"
+      ],
+      "vendor_claim_only": true
+    }
+  ]
+}
