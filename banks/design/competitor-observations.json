@@ -355,6 +355,73 @@
         "Beverage types and brands navigation, product and recipe shelves, static-looking countdown/age gate content; empty drawer copy"
       ],
       "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access."
+    },
+    {
+      "id": "shopify-live-warehouse-wood",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Department navigation by Furniture, Lifestyle and Room with promotional category tiles",
+        "Search field with All categories selector; brand directory and new arrivals",
+        "Featured collection shows per-product stock messages, 1 left, back in stock, restocking, variant prices",
+        "Featured teapot block has SKU, review indicator, colour and Add to cart markup"
+      ],
+      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+    },
+    {
+      "id": "shopify-live-focal-ivory",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Distinct Women and Men taxonomy and rich promotional mega-menu",
+        "Large image-led editorial hero/campaign, Essentials, clothing and Lookbook sections",
+        "Homepage HTML exposes empty cart drawer with notes and continue shopping",
+        "Country/currency selection and localized navigation text"
+      ],
+      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+    },
+    {
+      "id": "shopify-live-focal-sapphire",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Jewelry categories by collection, item type and color",
+        "Roma Collection hero, lookbook and editorial product storytelling sections",
+        "Language/region selection and free delivery threshold presented",
+        "Collection/world journal and sustainability content"
+      ],
+      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+    },
+    {
+      "id": "shopify-live-symmetry-beatnik",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Eyewear department mega menu with Men/Women and New Arrivals/Best Sellers",
+        "Brand narrative on recycled sustainable frames and split campaign heroes",
+        "Sale/countdown and multilingual storefront content in document",
+        "Product shelves link to specific model names, blog and brand stories"
+      ],
+      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+    },
+    {
+      "id": "shopify-live-symmetry-duke",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skateboard and apparel category hero with inventory states: preorder/sold-out/new arrival",
+        "Product shelves include color swatches and three-in-stock labels",
+        "Header announcement promises shipping $100 while inner service tile says $35; contexts not confirmed",
+        "Newsletter, collaboration/story sections and marketing reviews"
+      ],
+      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+    },
+    {
+      "id": "shopify-live-expanse-fetch",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Pet essentials mega menu with category and colour drill-down",
+        "Color-coordinated product bundles and positive sale compare-price messaging",
+        "Shop-the-look, customer stories and sustainable material claims in content",
+        "Cart drawer source includes empty subtotal and checkout-calculated taxes/shipping",
+        "Promotion countdown visual placeholders show no resolved timer value"
+      ],
+      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
     }
   ]
 }

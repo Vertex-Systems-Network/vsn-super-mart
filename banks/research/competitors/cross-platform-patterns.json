@@ -644,6 +644,81 @@
         "countdown-timer"
       ],
       "design_implication": "Use authenticated price comparisons and campaign/age/region settings; do not borrow unverified countdown, erroneous saving labels."
+    },
+    {
+      "id": "category-search-stock-vs-merchant-truth",
+      "context": "Warehouse Wood document exposes department-scoped search, per-card stock notices, and detailed featured PDP presentation.",
+      "source_entry_ids": [
+        "shopify-live-warehouse-wood"
+      ],
+      "signals": [
+        "All categories search selector",
+        "Low-stock/back-in-stock/restocking labels and product SKU"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "predictive-search",
+        "inventory-status",
+        "featured-product"
+      ],
+      "design_implication": "Use real Shopify predictive search/categories and variant inventory; show only merchant-backed specific stock counts, no false urgency."
+    },
+    {
+      "id": "same-theme-different-niche-editorial",
+      "context": "Focal Ivory and Sapphire demonstrate category/typography story variation between clothing and fine jewelry within one engine.",
+      "source_entry_ids": [
+        "shopify-live-focal-ivory",
+        "shopify-live-focal-sapphire"
+      ],
+      "signals": [
+        "Ivory: multi-level Women/Men campaign and apparel lookbook",
+        "Sapphire: Roma jewelry, color/type category navigation and collections/journal"
+      ],
+      "option_ids": [
+        "theme-styles-presets",
+        "mega-menu",
+        "image-banner",
+        "collection-list"
+      ],
+      "design_implication": "Design original niche visual tokens and adjustable composition without cloning Focal; media-first product stories adapt independently of shared cart and accessibility."
+    },
+    {
+      "id": "pet-bundle-size-facet-dynamics",
+      "context": "Expanse Fetch demonstrates size filters across pet walking kits, different priced kit permutations and PDP sizing.",
+      "source_entry_ids": [
+        "shopify-live-expanse-fetch"
+      ],
+      "signals": [
+        "22 kit products with XS–XL availability counts",
+        "Lilac kit size options, product media and explicit positive price savings"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "bundle-display",
+        "variant-picker-styles",
+        "price-block"
+      ],
+      "design_implication": "Keep product composition (bundle vs standard product) explicit; use native variant selection, correct money comparisons and truthful size-specific stock, with product-app ownership review."
+    },
+    {
+      "id": "skate-preorder-and-delivery-copy-checks",
+      "context": "Symmetry Duke shows stock/preorder/sold-out states alongside multiple marketing shipping threshold statements.",
+      "source_entry_ids": [
+        "shopify-live-symmetry-duke",
+        "shopify-live-symmetry-beatnik"
+      ],
+      "signals": [
+        "Duke deck assortment preorders, 35-product board-size filters and related PDP",
+        "Duke shipping copy $100 vs $35 in different content regions; context untested",
+        "Beatnik eyewear campaign and promotional countdown source"
+      ],
+      "option_ids": [
+        "pre-order",
+        "inventory-status",
+        "free-shipping-bar",
+        "countdown-timer"
+      ],
+      "design_implication": "Derive preorder and shipping promises from current merchant/market/variant data; avoid hardcoded inconsistent thresholds and unverified sales countdown."
     }
   ]
 }

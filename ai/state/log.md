@@ -48,3 +48,5 @@
 - 2026-10-25 [Shopify Batch 3] Motion Satchel home plus Local default home/collection/product/empty cart HTML; 5 official vendor settings docs, 4 optional options, 6 element specs, 3 patterns, 2 observations. Active Stage 2 research; new design will be made later.
 
 - 2026-10-25 [Shopify research / batch 4] Opened Impulse, Salt Yard and legacy Expanse Shopify demos (9 public HTML pages); added guardrails for pre-order dates, stock/pickup, price savings and real countdowns. Prior Figma remains archived.
+
+- 2026-10-25 [Shopify demo batch 5] Six additional selected Theme Store presets verified in actual indexed HTML, 12 new page documents, 4 research patterns and 5 planned control sets; 16/127 demo homepage coverage. No mobile/cart mutations/editor access.

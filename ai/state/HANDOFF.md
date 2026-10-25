@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — PR #8 Shopify live demo Batch 5; progress bar 16/127
+
+Six newly opened selected preset store homes: Warehouse Wood, Focal Ivory & Sapphire, Symmetry Beatnik & Duke, Expanse Fetch. Additional actual documents for Duke collection/PDP, Fetch collection/PDP/empty cart, Focal Sapphire empty cart. Totals **19 storefronts / 54 indexed HTML documents; 16/127 selected homepage sources (12.6%)**. Many page crawl dates are older, so document evidence is NOT live click/device testing. Four new source-backed patterns, six design observations and five original proposed merchant settings added. User requested progress bar each time; show coverage 16/127 and change with each batch. Fresh design later; old Figma remains archived.
+
+
 ## 2026-10-25 — Shopify actual demo HTML, batch 4
 
 Verified Impulse original Home/Collection/PDP/empty cart and Symmetry Salt Yard Home/PDP. Opened legacy Expanse Food & Drink Home/Collection/PDP **without** misclassifying it as current Spritz. Totals now **13 Shopify demos / 42 HTML pages**; **10** selected popular preset demos. Added 3 patterns, 3 observations, 5 research data-integrity issues and 5 proposed original element-setting specs. Interactive/mobile/editor remains untested. Figma Stage 6 superseded; new visual design later.
