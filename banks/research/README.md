@@ -137,3 +137,10 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-vendor-regression-batch18-2026.json`: **8 unexecuted** source-linked original VSN QA gates arising from actual Shopify Theme Store/first-party vendor release notes for Vision/Poochy v18.0.0, Ignite/Tails v2.7.0, Sleek/Jumped v2.3.0.
 - `competitors/shopify-independent-review-batch18-2026.json`: 5 Vision preset visual/interaction findings reported by **a third-party reviewer**, never VSN's own tested clicks; theme app-like compare is not automatic Theme Store approval.
 - `competitors/shopify-vendor-regression-report-batch18-2026.md`: sources, release scope, boundary of evidence and architectural/test implications. **No new live demo HTML visited**: 47/127 selected home sources, 51 hosts/143 primary documents.
+
+## Shopify premium demo HTML — Batch 19 Release Serenity (2026-10-25)
+
+- `competitors/shopify-live-demo-batch19-2026.md`: independently indexed Release/Serenity **homepage** identified as a DigiFist preset, plus **supplemental** standalone FAQ page; precise source URLs and last-month crawl-age, no runtime browser interaction.
+- `competitors/shopify-source-claims-batch19-2026.json`: four merchant policy/testimonial relevance/preorder QA cases with source provenance, **not live-confirmed bugs**. Notably sample bikini testimonial on handbag site.
+- Three new evidence-linked reusable VSN architecture/merchant option patterns, one qualitative design observation; CI guard preventing counting supplemental FAQ as a selected PDP/collection/cart.
+- Cumulative **48/127 selected homepage sources (37.8%, 79 pending)**, **52 hosts /144 primary HTML documents** (52 home, 40 collection, 41 PDP, 11 cart). Selected 36 collections, 38 PDPs, 11 carts unchanged; interactive/mobile/editor still 0.

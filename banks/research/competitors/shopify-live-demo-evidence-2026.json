@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-25",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 public demo hosts and 143 primary indexed HTML document URLs (47 selected/127 preset home pages), no functional interaction/mobile/checkout/editor QA.",
+  "summary": "52 distinct Shopify demo storefront hosts; 144 primary indexed HTML documents and 48/127 selected preset homepage sources; interaction, mobile, checkout and private Theme Editor untested.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -3835,11 +3835,85 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-release-serenity",
+      "family": "Release",
+      "preset": "Serenity",
+      "catalog_preset_id": "release:serenity",
+      "selected_127": true,
+      "focus": "premium-handbags-preorder-editorial-social-proof",
+      "homepage": {
+        "url": "https://release-serenity.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "source_crawl_recency": "last month",
+        "signals": [
+          "Serenity Theme — DigiFist homepage identifies handbags and editorial luxury content, linking product collections and bestsellers.",
+          "Amanda Bag colors appear as distinct product cards; Pink is labeled Pre-order, but no variant interaction or actual pre-order eligibility was checked.",
+          "Shop-the-look combines Anna, Luna and Amanda bags with editorial material, three 2024 blog articles, newsletter and testimonial sections.",
+          "Homepage claims eco-friendly luxury, lifetime warranty and exclusive designs, but merchandising claims and testimonial identities are unverified demo copy.",
+          "One testimonial mentions bikini bottoms while the sample store focuses on handbags; content provenance inconsistency, not an executed browser bug."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "shop-the-look",
+          "blog-posts",
+          "testimonials",
+          "pre-order",
+          "image-with-text",
+          "newsletter-signup",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "product-grid",
+          "collection-list",
+          "shop-the-look",
+          "blog-posts",
+          "testimonial",
+          "product-card",
+          "media-text",
+          "newsletter"
+        ]
+      },
+      "collection": null,
+      "product": null,
+      "cart": null,
+      "supplemental_documentation": [
+        {
+          "url": "https://release-serenity.myshopify.com/pages/faq",
+          "kind": "faq_support_page",
+          "observed_on": "2026-10-25",
+          "source_crawl_recency": "last month",
+          "verification": "public_html_document_opened",
+          "signals": [
+            "Supplemental FAQ page includes 30-day return language, fourteen-business-day post-receipt refund claim and delivery/account FAQ.",
+            "These are unverified merchant-demo policy statements, not a real order/return-policy test."
+          ],
+          "option_ids": [
+            "faq-accordion",
+            "product-badges-trust"
+          ],
+          "element_ids": [
+            "accordion",
+            "trust-badges"
+          ]
+        }
+      ],
+      "unverified": [
+        "The /collections/, /products/ and /cart page URLs did not yield independently retrieved page documents in this batch; never count missing routes.",
+        "Shop-the-look interactions, product variants, pre-order purchase, review/authenticity claims and seller warranty policies not verified.",
+        "Search-indexed homepage and FAQ were crawled last month, not same-day live browser UI; no screenshots, mobile, checkout, editor or Lighthouse."
+      ],
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
     }
   ],
   "counts": {
-    "opened_stores": 51,
-    "opened_home": 51,
+    "opened_stores": 52,
+    "opened_home": 52,
     "opened_collection": 40,
     "opened_product": 41,
     "opened_empty_cart": 11,
@@ -3851,5 +3925,5 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 47
+  "selected_127_document_count": 48
 }

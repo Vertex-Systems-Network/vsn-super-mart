@@ -373,6 +373,34 @@ def check():
             errors.append("Batch18 reviewer claim not traceable: "+str(item.get("id")))
         for oid in item.get("mapped_option_ids",[]):
             if oid not in opts:errors.append("Batch18 unknown review option "+oid)
+    # Batch19 Release Serenity selected preset homepage HTML and separately read FAQ.
+    b19=load(BASE/"shopify-source-claims-batch19-2026.json")
+    serenity=next((s for s in stores if s.get("id")=="shopify-live-release-serenity"),None)
+    if serenity is None or serenity.get("catalog_preset_id")!="release:serenity" or not serenity.get("selected_127"):
+        errors.append("Batch19 missing selected Release Serenity storefront evidence")
+    else:
+        home=serenity.get("homepage") or {}
+        if home.get("url")!="https://release-serenity.myshopify.com/" or home.get("verification")!="public_html_document_opened" or not home.get("source_crawl_recency"):
+            errors.append("Batch19 independently indexed Serenity homepage not sourced")
+        faq=serenity.get("supplemental_documentation",[])
+        if not any(q.get("url")=="https://release-serenity.myshopify.com/pages/faq" and q.get("verification")=="public_html_document_opened" for q in faq):
+            errors.append("Batch19 separate FAQ supporting evidence missing")
+        if serenity.get("collection") or serenity.get("product") or serenity.get("cart"):
+            errors.append("Batch19 must not count nonretrieved Serenity collection/PDP/cart")
+        if any(serenity.get(k) for k in ("interactive_tested","mobile_render_tested","editor_tested")):
+            errors.append("Batch19 unperformed Serenity interactions marked tested")
+    primary19=sum(sum(bool(s.get(k)) for k in ("homepage","collection","product","cart")) for s in stores)
+    if len(stores)<52 or primary19<144:
+        errors.append("Batch19 history floor 52 hosts and 144 primary pages")
+    if audit["counts"].get("live_home_demo_verified",0)<48:
+        errors.append("Batch19 selected homepage evidence count below verified 48")
+    if len(b19.get("cases",[]))!=4 or len({x.get("id") for x in b19.get("cases",[])})!=4:
+        errors.append("Batch19 requires four unique, source-linked merchant QA cases")
+    urls19={p.get("url") for s in stores for p in (s.get("homepage"),s.get("collection"),s.get("product"),s.get("cart")) if p}
+    urls19.update({p.get("url") for s in stores for p in s.get("supplemental_documentation",[])})
+    for item in b19.get("cases",[]):
+        if item.get("source_url") not in urls19 or not item.get("vsn_guard") or not item.get("source_crawl_recency"):
+            errors.append("Batch19 QA case missing source, recency or merchant guard: "+str(item.get("id")))
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):

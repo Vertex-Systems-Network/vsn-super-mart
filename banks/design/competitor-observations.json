@@ -777,6 +777,22 @@
         "Source contains duplicate-looking Material CM, Material and Material VM facet group labels; preserve actual merchandising semantics, never treat this as tested defect."
       ],
       "design_hypothesis": "Document-level Shopify demo research only; original merchant-controlled layout/attribute options, not copied visual design."
+    },
+    {
+      "id": "shopify-live-release-serenity",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Serenity Theme — DigiFist homepage identifies handbags and editorial luxury content, linking product collections and bestsellers.",
+        "Amanda Bag colors appear as distinct product cards; Pink is labeled Pre-order, but no variant interaction or actual pre-order eligibility was checked.",
+        "Shop-the-look combines Anna, Luna and Amanda bags with editorial material, three 2024 blog articles, newsletter and testimonial sections.",
+        "Homepage claims eco-friendly luxury, lifetime warranty and exclusive designs, but merchandising claims and testimonial identities are unverified demo copy.",
+        "One testimonial mentions bikini bottoms while the sample store focuses on handbags; content provenance inconsistency, not an executed browser bug."
+      ],
+      "design_hypothesis": "Public indexed homepage HTML alone informs original composable merchandising patterns, not copied design or successful UX interactions.",
+      "supplementary_modules": [
+        "Supplemental FAQ page includes 30-day return language, fourteen-business-day post-receipt refund claim and delivery/account FAQ.",
+        "These are unverified merchant-demo policy statements, not a real order/return-policy test."
+      ]
     }
   ]
 }

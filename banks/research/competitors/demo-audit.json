@@ -7080,6 +7080,47 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-release-serenity",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Serenity",
+      "url": "https://release-serenity.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_indexed_demo_html_accessible",
+      "document_verification_scope": "Opened independently indexed homepage public HTML only, crawled last month; FAQ supplemental not a primary home/collection/PDP/cart source. No interaction, mobile, private editor.",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "shop-the-look",
+        "blog-posts",
+        "testimonials",
+        "pre-order",
+        "image-with-text",
+        "newsletter-signup",
+        "product-card-variants",
+        "faq-accordion",
+        "product-badges-trust"
+      ],
+      "design_signals": [
+        "Serenity Theme — DigiFist homepage identifies handbags and editorial luxury content, linking product collections and bestsellers.",
+        "Amanda Bag colors appear as distinct product cards; Pink is labeled Pre-order, but no variant interaction or actual pre-order eligibility was checked.",
+        "Shop-the-look combines Anna, Luna and Amanda bags with editorial material, three 2024 blog articles, newsletter and testimonial sections."
+      ],
+      "niches": [
+        "premium-handbags-preorder-editorial-social-proof"
+      ],
+      "notes": "Batch19 selected Release Serenity homepage; supplementary indexed /pages/faq with age. Demo seller marketing/testimonial truth unverified.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

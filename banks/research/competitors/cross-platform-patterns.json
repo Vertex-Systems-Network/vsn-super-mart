@@ -1246,6 +1246,55 @@
         "newsletter-popup"
       ],
       "design_implication": "Separate actual cart empty state from hidden promo modal scaffolds; only surface active UI from real shopper state and applicable policies."
+    },
+    {
+      "id": "release-serenity-handbag-color-card-entity",
+      "context": "Read-only Release Serenity Shopify demo homepage indexed HTML",
+      "signals": [
+        "Amanda handbag grey, orange, peach, pink and white appear as separate seller sample product cards; pink is annotated Pre-order."
+      ],
+      "source_entry_ids": [
+        "shopify-live-release-serenity"
+      ],
+      "option_ids": [
+        "product-card-variants",
+        "variant-picker-styles",
+        "related-products"
+      ],
+      "design_implication": "Support explicit Shopify linked products / sibling products independently from true selected product variants; don't infer relationship or pre-order availability from card names."
+    },
+    {
+      "id": "release-serenity-editorial-shop-the-look",
+      "context": "Read-only Release Serenity sample homepage and blog section",
+      "signals": [
+        "Shop-the-look, bestsellers, before/after editorial visual, 2024 blog articles and newsletter build a luxury handbag narrative."
+      ],
+      "source_entry_ids": [
+        "shopify-live-release-serenity"
+      ],
+      "option_ids": [
+        "shop-the-look",
+        "blog-posts",
+        "image-with-text",
+        "newsletter-signup"
+      ],
+      "design_implication": "Create original configurable multi-SKU editorial and storytelling modules with source-linked products and merchant images; image-before/after text is not proof of functioning comparison slider."
+    },
+    {
+      "id": "release-serenity-trust-copy-provenance",
+      "context": "Read-only Serenity home source + separately retrieved FAQ help page",
+      "signals": [
+        "Homepage claims eco-friendly luxury and lifetime warranty, while an unrelated bikini purchase appears in demo testimonials; FAQ provides 30-day returns and refund timing statements."
+      ],
+      "source_entry_ids": [
+        "shopify-live-release-serenity"
+      ],
+      "option_ids": [
+        "testimonials",
+        "faq-accordion",
+        "product-badges-trust"
+      ],
+      "design_implication": "Testimonials, legal/return timelines and sustainability/warranty promises require merchant-approved evidence and centralized current policies; no default theme endorsements, false certifications or copy mismatches."
     }
   ]
 }
