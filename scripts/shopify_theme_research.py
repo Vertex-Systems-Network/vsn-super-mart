@@ -74,6 +74,15 @@ def check_research():
         expected=len(family["presets"]) if family["presets"] is not None else 1
         if seen_by_theme[fid]!=expected:
             errors.append("preset index incomplete for "+fid)
+    verified_count=sum(bool(x.get("individual_listing_page_verified")) for x in preset_items)
+    if verified_count!=127:
+        errors.append(f"all 127 selected official Shopify listing URLs must be individually verified; got {verified_count}")
+    for item in preset_items:
+        family_id=item["theme_id"]
+        slug=item["preset_name"].lower().replace(" ","-")
+        exact=f"https://themes.shopify.com/themes/{family_id}/presets/{slug}"
+        if item.get("individual_listing_url")!=exact:
+            errors.append("preset official listing URL mismatch: "+item["id"])
     if len(family_items)!=47 or len(preset_items)!=127:
         errors.append("catalog expected 47 family listings and 127 names")
     if sum(x["mode"]=="paid_multi_preset" for x in family_items)!=24:

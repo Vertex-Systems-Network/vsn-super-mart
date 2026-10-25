@@ -47,7 +47,7 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 ## Popular Shopify theme and preset deep index (2026-10-25)
 
 - `competitors/shopify-families-2026.json`: 47 official parent theme listings (24 paid multi-preset / 23 distinct free designs), mapped to existing option IDs with research hypotheses explicitly labeled.
-- `competitors/shopify-presets-2026.json`: 127 design records (104 official paid preset names / 23 free standalone theme pages). Direct preset URLs are supplied **only for individually opened official pages**, never synthesized and claimed verified.
+- `competitors/shopify-presets-2026.json`: 127 design records (104 official paid preset names / 23 free standalone theme pages). All 127 selected individual official theme/preset listing URLs were opened on 2026-10-25; do not infer live demo or interactive testing from this.
 - `competitors/shopify-popularity-top25-2026.json`: dated Koala tracked-store top 25 with Shopify Store/external/legacy classification.
 - `competitors/shopify-external-themes-2026.json`: Ella, Minimog and Kalles external vendors; do not mix their demonstrations or feature rules with Theme Store listings.
 - `competitors/shopify-research-report.md`: conclusions, product feature paths and remaining demo/checkout coverage.

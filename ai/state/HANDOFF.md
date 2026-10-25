@@ -2,6 +2,12 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Official Shopify preset URLs: 127 of 127 verified
+
+Opened the remaining **71** individual Shopify Theme Store premium preset listing pages (36 in the earlier and 35 in final verification batches). All selected 127 official theme/preset pages now have real individual opened URLs. Updated individual catalog, general research audit, Shopify report, validation and README. **This is source/listing page verification, not live storefront demo verification.** No shopping cart, mobile interaction, Theme Editor or checkout was tested.
+
+
+
 ## 2026-10-25 — PR #2 popular Shopify theme + preset name research
 
 **Added:** 47 official Shopify family listings, 104 paid preset names, 23 distinct first-party free themes, 127 total design records. **56 official individual listings opened** (47 parent pages plus nine secondary preset pages); remaining name evidence derives from paid family pages. Ella/Minimog/Kalles listed separately as external vendor themes. Koala October 19 top 25 classified to distinguish unsupported detected Trademark and retired Debut.

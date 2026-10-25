@@ -34,3 +34,5 @@
 - 2026-10-25 [research / all niches] Added 20 source-to-Shopify implementation mappings, evidence-scope checks in competitor audit, and corrected Figma AI policy to ChatGPT image creation only; retained Stage 6 gate.
 
 - 2026-10-25 [Shopify research / popular themes] Catalogued 47 official theme parent listings, 104 paid preset names, 23 standalone free themes; 56 opened individual official pages, 127 records, separated external vendor themes and popularity outliers; added automated validation and AI pattern mapping.
+
+- 2026-10-25 [Shopify research / popular presets] Opened all 71 remaining premium individual preset listings; 127/127 official Shopify listing URLs verified. Updated general research audit and added exact-URL gate to research CI; live demos unverified.

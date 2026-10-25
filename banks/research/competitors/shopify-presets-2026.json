@@ -5,7 +5,7 @@
     "all_named_designs": 127,
     "paid_preset_names": 104,
     "free_standalone_themes": 23,
-    "individually_opened_theme_or_preset_listings": 56
+    "individually_opened_theme_or_preset_listings": 127
   },
   "critical_note": "Parent Shopify listing is source of all preset names. Individual URL intentionally null when not checked. Never confuse listing with interactive demo.",
   "records": [
@@ -50,15 +50,15 @@
       "preset_name": "Terrain",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/impulse/presets/impulse",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/impulse/presets/terrain",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "impulse:apothecary",
@@ -67,15 +67,15 @@
       "preset_name": "Apothecary",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/impulse/presets/impulse",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/impulse/presets/apothecary",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "prestige:prestige",
@@ -101,15 +101,15 @@
       "preset_name": "Couture",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/prestige/presets/prestige",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/prestige/presets/couture",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "prestige:vogue",
@@ -152,15 +152,15 @@
       "preset_name": "Signature",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/prestige/presets/prestige",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/prestige/presets/signature",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "symmetry:symmetry",
@@ -203,15 +203,15 @@
       "preset_name": "Beatnik",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/symmetry/presets/symmetry",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/symmetry/presets/beatnik",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "symmetry:duke",
@@ -220,15 +220,15 @@
       "preset_name": "Duke",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/symmetry/presets/symmetry",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/symmetry/presets/duke",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "symmetry:amara",
@@ -237,15 +237,15 @@
       "preset_name": "Amara",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/symmetry/presets/symmetry",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/symmetry/presets/amara",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "broadcast:broadcast",
@@ -271,15 +271,15 @@
       "preset_name": "Relay",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/broadcast/presets/broadcast",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/broadcast/presets/relay",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "broadcast:airwave",
@@ -288,15 +288,15 @@
       "preset_name": "Airwave",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/broadcast/presets/broadcast",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/broadcast/presets/airwave",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "broadcast:motif",
@@ -322,15 +322,15 @@
       "preset_name": "Stellar",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/broadcast/presets/broadcast",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/broadcast/presets/stellar",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "enterprise:enterprise",
@@ -356,15 +356,15 @@
       "preset_name": "Outlet",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/enterprise/presets/enterprise",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/enterprise/presets/outlet",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "enterprise:homestead",
@@ -373,15 +373,15 @@
       "preset_name": "Homestead",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/enterprise/presets/enterprise",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/enterprise/presets/homestead",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "impact:impact",
@@ -424,15 +424,15 @@
       "preset_name": "Balance",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/impact/presets/impact",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/impact/presets/balance",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "focal:focal",
@@ -458,15 +458,15 @@
       "preset_name": "Ivory",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/focal/presets/focal",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/focal/presets/ivory",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "focal:quartz",
@@ -475,15 +475,15 @@
       "preset_name": "Quartz",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/focal/presets/focal",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/focal/presets/quartz",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "focal:sapphire",
@@ -492,15 +492,15 @@
       "preset_name": "Sapphire",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/focal/presets/focal",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/focal/presets/sapphire",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "warehouse:warehouse",
@@ -526,15 +526,15 @@
       "preset_name": "Wood",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/warehouse/presets/warehouse",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/warehouse/presets/wood",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "warehouse:mesh",
@@ -543,15 +543,15 @@
       "preset_name": "Mesh",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/warehouse/presets/warehouse",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/warehouse/presets/mesh",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "expanse:expanse",
@@ -577,15 +577,15 @@
       "preset_name": "Revive",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/expanse/presets/expanse",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/expanse/presets/revive",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "expanse:spritz",
@@ -594,15 +594,15 @@
       "preset_name": "Spritz",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/expanse/presets/expanse",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/expanse/presets/spritz",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "expanse:fetch",
@@ -628,15 +628,15 @@
       "preset_name": "Gem",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/expanse/presets/expanse",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/expanse/presets/gem",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "local:local",
@@ -662,15 +662,15 @@
       "preset_name": "Soleway",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/local/presets/local",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/local/presets/soleway",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "local:thrive",
@@ -679,15 +679,15 @@
       "preset_name": "Thrive",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/local/presets/local",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/local/presets/thrive",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "local:caffeine",
@@ -713,15 +713,15 @@
       "preset_name": "Lively",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/local/presets/local",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/local/presets/lively",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "empire:empire",
@@ -764,15 +764,15 @@
       "preset_name": "Depot",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/empire/presets/empire",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/empire/presets/depot",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "empire:forma",
@@ -781,15 +781,15 @@
       "preset_name": "Forma",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/empire/presets/empire",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/empire/presets/forma",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "be-yours:be-yours",
@@ -815,15 +815,15 @@
       "preset_name": "Sheen",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/be-yours/presets/be-yours",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/be-yours/presets/sheen",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "be-yours:peace",
@@ -832,15 +832,15 @@
       "preset_name": "Peace",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/be-yours/presets/be-yours",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/be-yours/presets/peace",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "be-yours:harmony",
@@ -849,15 +849,15 @@
       "preset_name": "Harmony",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/be-yours/presets/be-yours",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/be-yours/presets/harmony",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "stiletto:stiletto",
@@ -883,15 +883,15 @@
       "preset_name": "Luster",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/stiletto/presets/stiletto",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/stiletto/presets/luster",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "stiletto:linen",
@@ -900,15 +900,15 @@
       "preset_name": "Linen",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/stiletto/presets/stiletto",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/stiletto/presets/linen",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "stiletto:glimmer",
@@ -917,15 +917,15 @@
       "preset_name": "Glimmer",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/stiletto/presets/stiletto",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/stiletto/presets/glimmer",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "stiletto:tapestry",
@@ -934,15 +934,15 @@
       "preset_name": "Tapestry",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/stiletto/presets/stiletto",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/stiletto/presets/tapestry",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "motion:motion",
@@ -968,15 +968,15 @@
       "preset_name": "Satchel",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/motion/presets/motion",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/motion/presets/satchel",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "motion:memo",
@@ -985,15 +985,15 @@
       "preset_name": "Memo",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/motion/presets/motion",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/motion/presets/memo",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "palo-alto:palo-alto",
@@ -1019,15 +1019,15 @@
       "preset_name": "Dynamo",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/palo-alto/presets/palo-alto",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/palo-alto/presets/dynamo",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "palo-alto:skylight",
@@ -1036,15 +1036,15 @@
       "preset_name": "Skylight",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/palo-alto/presets/palo-alto",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/palo-alto/presets/skylight",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "palo-alto:phenomena",
@@ -1053,15 +1053,15 @@
       "preset_name": "Phenomena",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/palo-alto/presets/palo-alto",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/palo-alto/presets/phenomena",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "palo-alto:pluma",
@@ -1070,15 +1070,15 @@
       "preset_name": "Pluma",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/palo-alto/presets/palo-alto",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/palo-alto/presets/pluma",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "pipeline:pipeline",
@@ -1104,15 +1104,15 @@
       "preset_name": "Petra",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/pipeline/presets/pipeline",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/pipeline/presets/petra",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "pipeline:pahoa",
@@ -1121,15 +1121,15 @@
       "preset_name": "Pahoa",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/pipeline/presets/pipeline",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/pipeline/presets/pahoa",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "pipeline:phantom",
@@ -1138,15 +1138,15 @@
       "preset_name": "Phantom",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/pipeline/presets/pipeline",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/pipeline/presets/phantom",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "concept:concept",
@@ -1172,15 +1172,15 @@
       "preset_name": "Inova",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/concept/presets/concept",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/concept/presets/inova",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "sleek:sleek",
@@ -1206,15 +1206,15 @@
       "preset_name": "Wildpeak",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/sleek/presets/sleek",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/sleek/presets/wildpeak",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "sleek:jumped",
@@ -1223,15 +1223,15 @@
       "preset_name": "Jumped",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/sleek/presets/sleek",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/sleek/presets/jumped",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "sleek:modiva",
@@ -1240,15 +1240,15 @@
       "preset_name": "Modiva",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/sleek/presets/sleek",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/sleek/presets/modiva",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "sleek:glint",
@@ -1257,15 +1257,15 @@
       "preset_name": "Glint",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/sleek/presets/sleek",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/sleek/presets/glint",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "wonder:wonder",
@@ -1291,15 +1291,15 @@
       "preset_name": "Root",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/wonder/presets/wonder",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/wonder/presets/root",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "wonder:velour",
@@ -1308,15 +1308,15 @@
       "preset_name": "Velour",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/wonder/presets/wonder",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/wonder/presets/velour",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "wonder:nook",
@@ -1325,15 +1325,15 @@
       "preset_name": "Nook",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/wonder/presets/wonder",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/wonder/presets/nook",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "wonder:petit",
@@ -1342,15 +1342,15 @@
       "preset_name": "Petit",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/wonder/presets/wonder",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/wonder/presets/petit",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "eurus:eurus",
@@ -1376,15 +1376,15 @@
       "preset_name": "Arise",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/eurus/presets/eurus",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/eurus/presets/arise",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "eurus:placid",
@@ -1393,15 +1393,15 @@
       "preset_name": "Placid",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/eurus/presets/eurus",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/eurus/presets/placid",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "eurus:mystique",
@@ -1410,15 +1410,15 @@
       "preset_name": "Mystique",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/eurus/presets/eurus",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/eurus/presets/mystique",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "eurus:whiff",
@@ -1427,15 +1427,15 @@
       "preset_name": "Whiff",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/eurus/presets/eurus",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/eurus/presets/whiff",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "release:release",
@@ -1461,15 +1461,15 @@
       "preset_name": "Grasse",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/release/presets/release",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/release/presets/grasse",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "release:serenity",
@@ -1478,15 +1478,15 @@
       "preset_name": "Serenity",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/release/presets/release",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/release/presets/serenity",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "release:forest",
@@ -1495,15 +1495,15 @@
       "preset_name": "Forest",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/release/presets/release",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/release/presets/forest",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "release:renaissance",
@@ -1512,15 +1512,15 @@
       "preset_name": "Renaissance",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/release/presets/release",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/release/presets/renaissance",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "ignite:ignite",
@@ -1546,15 +1546,15 @@
       "preset_name": "Playtime",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/ignite/presets/ignite",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/ignite/presets/playtime",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "ignite:tails",
@@ -1563,15 +1563,15 @@
       "preset_name": "Tails",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/ignite/presets/ignite",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/ignite/presets/tails",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "ignite:alpha",
@@ -1580,15 +1580,15 @@
       "preset_name": "Alpha",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/ignite/presets/ignite",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/ignite/presets/alpha",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "ignite:peak",
@@ -1597,15 +1597,15 @@
       "preset_name": "Peak",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/ignite/presets/ignite",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/ignite/presets/peak",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "shapes:shapes",
@@ -1631,15 +1631,15 @@
       "preset_name": "Fizz",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/shapes/presets/shapes",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/shapes/presets/fizz",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "shapes:candy",
@@ -1648,15 +1648,15 @@
       "preset_name": "Candy",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/shapes/presets/shapes",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/shapes/presets/candy",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "shapes:aura",
@@ -1665,15 +1665,15 @@
       "preset_name": "Aura",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/shapes/presets/shapes",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/shapes/presets/aura",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "shapes:scratch",
@@ -1682,15 +1682,15 @@
       "preset_name": "Scratch",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/shapes/presets/shapes",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/shapes/presets/scratch",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "vision:vision",
@@ -1716,15 +1716,15 @@
       "preset_name": "Onyx",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/vision/presets/vision",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/vision/presets/onyx",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "vision:poochy",
@@ -1733,15 +1733,15 @@
       "preset_name": "Poochy",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/vision/presets/vision",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/vision/presets/poochy",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "vision:velocite",
@@ -1750,15 +1750,15 @@
       "preset_name": "Velocite",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/vision/presets/vision",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/vision/presets/velocite",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "vision:solstice",
@@ -1767,15 +1767,15 @@
       "preset_name": "Solstice",
       "kind": "premium_family_preset",
       "name_verified_via": "https://themes.shopify.com/themes/vision/presets/vision",
-      "individual_listing_page_verified": false,
-      "individual_listing_url": null,
+      "individual_listing_page_verified": true,
+      "individual_listing_url": "https://themes.shopify.com/themes/vision/presets/solstice",
       "source_date": "2026-10-25",
       "live_demo_home_verified": false,
       "collection_verified": false,
       "product_verified": false,
       "cart_verified": false,
       "mobile_verified": false,
-      "notes": "Preset name officially listed on parent page; individual page/demo not opened"
+      "notes": "Individually opened the official Shopify preset listing on 2026-10-25. Interactive live demo, PDP, cart, and mobile behavior still unverified."
     },
     {
       "id": "dawn:dawn",
@@ -2176,5 +2176,7 @@
       "status": "unresolved_release_note_vs_preset_listing",
       "source_url": "https://support.pixelunion.net/hc/en-us/articles/360022155054-Empire-release-notes"
     }
-  ]
+  ],
+  "individual_official_pages_verified_on": "2026-10-25",
+  "research_status": "all_127_selected_official_listing_pages_opened_live_store_demos_untested"
 }

@@ -7,7 +7,7 @@ Checked: **2026-10-25**. Primary evidence: official [Shopify Theme Store](https:
 - **47 official Shopify Theme Store theme pages opened**: 24 paid multi-preset themes + 23 individual free themes.
 - **104 preset names** listed in paid parent-theme **Presets** sections (all names enumerated for these selected 24 themes).
 - **23 standalone free themes** — do not count as commercial presets. Ten are distinct first-party Horizon-collection storefronts: Horizon, Savor, Vessel, Heritage, Pitch, Dwell, Ritual, Fabric, Tinker, Atelier.
-- **127 named design records** in `shopify-presets-2026.json`. **56 individual official page listings opened**, consisting of all 47 main theme pages and nine additionally opened individual preset pages. Other preset names came from each official theme family listing; their individual pages and store demos have **not** been inspected. No dead/unverified direct links are invented.
+- **127 named design records** in `shopify-presets-2026.json`. **127 individual official preset/theme pages opened**, consisting of all 47 primary theme pages plus the 80 additional premium preset pages. Every URL was individually opened on Shopify's official Theme Store. Their interactive **View demo** storefronts were not inspected.
 - **Ella, Minimog OS 2.0, and Kalles** are separately researched as externally distributed themes. Their catalogs are large and require a different individual-demo process; the original vendor pages, not Shopify's Theme Store, are the source.
 - **Trademark** is a detected Shopify storefront theme name without a current official Theme Store listing; **Debut** is a legacy retired theme. Both are retained in popularity rankings but omitted as purchasable theme families.
 - **The official "View demo" buttons are not static links in the retrieved listing HTML**; real shop sessions on home/collection/PDP/cart/mobile were not executed. This is complete *parent-listing/preset-name inventory for selected popular families*, **not** a full interaction QA audit or all themes worldwide.
@@ -45,6 +45,10 @@ Checked: **2026-10-25**. Primary evidence: official [Shopify Theme Store](https:
 
 The public [Empire Presets listing](https://themes.shopify.com/themes/empire/presets/empire) currently exposes four names (Empire, Circuit, Depot, Forma), while the vendor's [October 23, 2026 release notes](https://support.pixelunion.net/hc/en-us/articles/360022155054-Empire-release-notes) claim **Vast** was added. It is recorded as a **pending discrepancy** instead of being counted as a verified fifth preset. This is why inventory counts are exact for *visible listings checked*, not guaranteed exhaustive across unpublished/unindexed updates.
 
+## Individual preset URL audit finished
+
+All **127/127** named records have a verified official URL in `shopify-presets-2026.json` as of 2026-10-25: 104 paid preset listing pages and 23 standalone free theme listing pages. This closes the **official Shopify product-page audit** for the selected cohort. It does **not** close direct live-demo browsing or functional behaviour verification.
+
 ## VSN AI decisions
 
 | Goal | Grounded theme signal | Original Shopify-native / VSN implementation |
@@ -61,7 +65,7 @@ Mapping status: research hypotheses and vendor-listed features, **not** evidence
 
 ## Outstanding evidence tasks
 
-1. Individually inspect the remaining named preset listing pages; add direct URL and visit date only after opening.
+1. Individually inspect the new preset releases and future listing pages; add direct URL and visit date only after opening.
 2. Inspect live store demo home, collection, PDP, cart and mobile behaviour in a real browser session; compare screenshots and perform accessibility/performance tests.
 3. Review externally sold Ella, Minimog and Kalles demos in batches, retaining licensing and app-vs-theme ownership distinctions.
 4. Recheck snapshots as Shopify Theme Store themes and preset lists change.
