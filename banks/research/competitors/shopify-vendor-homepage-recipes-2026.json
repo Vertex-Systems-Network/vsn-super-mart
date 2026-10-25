@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "family": "Impulse",
+  "source_url": "https://help.archetypethemes.co/hc/en-us/articles/51318079796371-Impulse-demo-homepage-breakdown",
+  "source_type": "vendor_documented_homepage_section_order_not_live_browser_visit",
+  "source_published": "2026-05-06",
+  "presets": [
+    {
+      "name": "Impulse",
+      "homepage_sections": [
+        "header-group",
+        "shoppable-hero",
+        "collection-list",
+        "featured-collection",
+        "promotional-grid",
+        "featured-collection",
+        "video-hero",
+        "image-with-text",
+        "hero-slideshow",
+        "image-grid",
+        "text-columns-with-icons",
+        "footer"
+      ],
+      "homepage_section_count": 12,
+      "hotspots_in_hero": 3
+    },
+    {
+      "name": "Dune",
+      "homepage_sections": [
+        "header-group",
+        "hero-slideshow",
+        "featured-collection",
+        "shoppable-hero",
+        "promotional-grid",
+        "collection-list",
+        "promotional-grid",
+        "logo-list",
+        "image-hotspots",
+        "large-image-with-text",
+        "collection-list",
+        "promotional-grid",
+        "featured-collection",
+        "countdown",
+        "promotional-grid",
+        "footer"
+      ],
+      "homepage_section_count": 16,
+      "hotspots_in_hero": 2
+    },
+    {
+      "name": "Terrain",
+      "homepage_sections": [
+        "header-group",
+        "video-hero",
+        "featured-collection",
+        "shoppable-hero",
+        "promotional-grid",
+        "collection-list",
+        "text-columns-with-icons",
+        "rich-text",
+        "countdown",
+        "testimonials",
+        "blog-posts",
+        "footer"
+      ],
+      "homepage_section_count": 12,
+      "hotspots_in_hero": 1
+    },
+    {
+      "name": "Apothecary",
+      "homepage_sections": [
+        "header-group",
+        "shoppable-hero",
+        "text-columns-with-icons",
+        "featured-collection",
+        "promotional-grid",
+        "featured-collection",
+        "collection-list",
+        "image-grid",
+        "scrolling-text",
+        "footer-promotions",
+        "footer"
+      ],
+      "homepage_section_count": 11,
+      "hotspots_in_hero": 6
+    }
+  ],
+  "section_to_vsn_elements": {
+    "header-group": [
+      "header-builder",
+      "announcement-bar"
+    ],
+    "shoppable-hero": [
+      "image-hotspots",
+      "shop-the-look"
+    ],
+    "collection-list": [
+      "collection-list"
+    ],
+    "featured-collection": [
+      "product-grid",
+      "product-card"
+    ],
+    "promotional-grid": [
+      "promo-banner",
+      "grid"
+    ],
+    "video-hero": [
+      "background-video"
+    ],
+    "image-with-text": [
+      "media-text"
+    ],
+    "hero-slideshow": [
+      "slider"
+    ],
+    "image-grid": [
+      "grid",
+      "image"
+    ],
+    "text-columns-with-icons": [
+      "icon-box"
+    ],
+    "footer": [
+      "footer-builder"
+    ],
+    "logo-list": [
+      "logo-list"
+    ],
+    "image-hotspots": [
+      "image-hotspots"
+    ],
+    "large-image-with-text": [
+      "cover"
+    ],
+    "countdown": [
+      "countdown"
+    ],
+    "testimonials": [
+      "testimonial"
+    ],
+    "blog-posts": [
+      "blog-posts"
+    ],
+    "rich-text": [
+      "text"
+    ],
+    "scrolling-text": [
+      "marquee"
+    ],
+    "footer-promotions": [
+      "promo-banner"
+    ]
+  },
+  "notes": [
+    "Documents actual vendor configuration recipes, not captured GUI.",
+    "Countdown only for true merchant event deadlines.",
+    "Reuse original VSN settings, never replicate precise layout, photography or code."
+  ]
+}

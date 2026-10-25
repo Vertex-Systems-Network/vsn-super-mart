@@ -3,9 +3,9 @@
   "updated_at": "2026-10-25",
   "scope": "The 127 selected popular Shopify theme/preset records",
   "method": "User-requested live-demo audit; mark every page and interaction pending until independently retrieved.",
-  "reason": "Theme Store View demo destinations require browser interaction. Connected Opera browser access was denied; browser automation was not authorized. No live-demo URL or screenshot is invented.",
+  "reason": "Public real demo pages successfully retrieved via web. Opera browser was declined, so no visual render/mobile/cart events are claimed.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "live_demo_access_blocked_editor_platform_research_completed",
+  "status": "live_store_public_html_audit_in_progress_browser_interactions_pending",
   "checks": [
     "demo_entry_url",
     "home",
@@ -80,10 +80,10 @@
   "counts": {
     "selected_design_records": 127,
     "individual_official_preset_pages_verified": 127,
-    "live_home_demo_verified": 0,
-    "live_collection_verified": 0,
-    "live_product_verified": 0,
-    "live_cart_verified": 0,
+    "live_home_demo_verified": 2,
+    "live_collection_verified": 2,
+    "live_product_verified": 2,
+    "live_cart_verified": 2,
     "live_mobile_verified": 0
   },
   "required_evidence_per_screen": {
@@ -94,5 +94,8 @@
     "notes": "Observed elements, design hierarchy and merchant-facing settings (only if actually accessible)",
     "confidence": "document|browser_render|interactive_test"
   },
-  "deduplication": "Avoid rechecking same URL with conflicting names; each preset can share engine but must be independently observed for layout claims."
+  "deduplication": "Avoid rechecking same URL with conflicting names; each preset can share engine but must be independently observed for layout claims.",
+  "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
+  "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
+  "count_semantics": "Selected 127-cohort counts cover individual publicly retrieved document paths, not interactions. Additional Area/Flow excluded."
 }

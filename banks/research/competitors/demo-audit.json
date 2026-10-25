@@ -5080,6 +5080,177 @@
         "cart": "not_verified",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-live-prestige-couture",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Couture",
+      "url": "https://prestige-theme-couture.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public individual Shopify demo store HTML opened: home, collection, PDP and where available empty cart. No interactive checkout/mobile QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "shop-the-look",
+        "blog-posts",
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "quick-add",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "size-chart",
+        "inventory-status",
+        "quantity-selector",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "fashion-editorial retail composition",
+        "nested clothing/capsules categories",
+        "campaign slides and collection shelves"
+      ],
+      "niches": [
+        "fashion-editorial"
+      ],
+      "notes": "Full page evidence in shopify-live-demo-evidence-2026.json. Not an interactive test.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-prestige-vogue",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Vogue",
+      "url": "https://prestige-theme-vogue.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public individual Shopify demo store HTML opened: home, collection, PDP and where available empty cart. No interactive checkout/mobile QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "quick-add",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "media-gallery-layouts",
+        "product-blocks",
+        "quantity-selector",
+        "collapsible-tabs",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "premium-skincare retail composition",
+        "Face and Body taxonomy with promotional mega-menu tiles",
+        "featured Masques/Lips tab selector"
+      ],
+      "niches": [
+        "premium-skincare"
+      ],
+      "notes": "Full page evidence in shopify-live-demo-evidence-2026.json. Not an interactive test.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-area-technical",
+      "platform": "shopify",
+      "theme": "Area",
+      "preset": "Technical",
+      "url": "https://area-theme-micromobility.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public individual Shopify demo store HTML opened: home, collection, PDP and where available empty cart. No interactive checkout/mobile QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "multi-level-menu",
+        "free-shipping-bar",
+        "faceted-filters",
+        "sorting",
+        "quick-view",
+        "metafield-dynamic-sources",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "specs-table",
+        "inventory-status"
+      ],
+      "design_signals": [
+        "electronics-large-catalog retail composition",
+        "brand/type/wheel-size/battery-capacity taxonomy",
+        "shipping and cart drawer empty-state source"
+      ],
+      "niches": [
+        "electronics-large-catalog"
+      ],
+      "notes": "Full page evidence in shopify-live-demo-evidence-2026.json. Not an interactive test.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
+    },
+    {
+      "id": "shopify-live-flow",
+      "platform": "shopify",
+      "theme": "Flow",
+      "preset": "Flow",
+      "url": "https://eight-nourish-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-25",
+      "document_verified_on": "2026-10-25",
+      "document_verification_status": "public_demo_html_accessible",
+      "document_verification_scope": "Public individual Shopify demo store HTML opened: home, collection, PDP and where available empty cart. No interactive checkout/mobile QA.",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "free-shipping-bar",
+        "card-badges",
+        "collection-list",
+        "promo-banner-section",
+        "media-gallery-layouts",
+        "ingredients-nutrition",
+        "testimonials",
+        "product-blocks"
+      ],
+      "design_signals": [
+        "food-wellness retail composition",
+        "detox, energy and green nested navigation",
+        "free-shipping and genuine-promotion copy displayed"
+      ],
+      "niches": [
+        "food-wellness"
+      ],
+      "notes": "Full page evidence in shopify-live-demo-evidence-2026.json. Not an interactive test.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
@@ -5205,5 +5376,6 @@
     "live_demo_sessions_verified": 0,
     "interactive_pdp_cart_mobile_tested": false,
     "scope": "47 selected theme families; NOT whole Shopify marketplace"
-  }
+  },
+  "shopify_live_demo_evidence": "banks/research/competitors/shopify-live-demo-evidence-2026.json"
 }
