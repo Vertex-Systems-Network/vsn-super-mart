@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "evidence_kind": "public_html_document_only",
+  "summary": "Four real Shopify demo stores; 14 individual public HTML pages: 4 homepage, 4 collection, 4 product and 2 empty cart. No button execution, screenshot/mobile/checkout test.",
+  "stores": [
+    {
+      "id": "shopify-live-prestige-couture",
+      "family": "Prestige",
+      "preset": "Couture",
+      "catalog_preset_id": "prestige:couture",
+      "selected_127": true,
+      "focus": "fashion-editorial",
+      "homepage": {
+        "url": "https://prestige-theme-couture.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "nested clothing/capsules categories",
+          "campaign slides and collection shelves",
+          "lookbook, brand story and journal"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "shop-the-look",
+          "blog-posts"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "slider",
+          "product-grid",
+          "shop-the-look"
+        ]
+      },
+      "collection": {
+        "url": "https://prestige-theme-couture.myshopify.com/collections/shop",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "49 products in source",
+          "availability, colour, size and price filters",
+          "sold out and choose-options product states"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "card-badges",
+          "quick-add"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://prestige-theme-couture.myshopify.com/products/desert-dandelion-grace-maxi-dress-emerald",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "5 gallery items",
+          "colour swatch, XS-L size chart with sizing table",
+          "quantity and stock message, shipping and returns"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "size-chart",
+          "inventory-status",
+          "quantity-selector"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "size-guide",
+          "inventory",
+          "quantity"
+        ]
+      },
+      "cart": {
+        "url": "https://prestige-theme-couture.myshopify.com/cart",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "empty cart with continue shopping",
+          "footer with shipping and returns trust"
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "newsletter"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-prestige-vogue",
+      "family": "Prestige",
+      "preset": "Vogue",
+      "catalog_preset_id": "prestige:vogue",
+      "selected_127": true,
+      "focus": "premium-skincare",
+      "homepage": {
+        "url": "https://prestige-theme-vogue.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "Face and Body taxonomy with promotional mega-menu tiles",
+          "featured Masques/Lips tab selector",
+          "direct add-to-cart product shelf and kits"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "quick-add",
+          "collection-list"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "tabs",
+          "product-card",
+          "product-grid"
+        ]
+      },
+      "collection": {
+        "url": "https://prestige-theme-vogue.myshopify.com/collections/skincare",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "13 skincare catalog items",
+          "availability, price and color filtering",
+          "sold out vs add-to-cart vs choose-options states"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "quick-add",
+          "card-badges"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://prestige-theme-vogue.myshopify.com/products/bali-papaya-rice-masque",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "4 product gallery assets",
+          "50ml product size, quantity",
+          "guarantee, shipping thresholds and testimonial/story text"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "product-blocks",
+          "quantity-selector",
+          "collapsible-tabs"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "quantity",
+          "buy-buttons",
+          "testimonial"
+        ]
+      },
+      "cart": {
+        "url": "https://prestige-theme-vogue.myshopify.com/cart",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "empty cart source, brand story and newsletter",
+          "continue shopping support"
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "newsletter"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-area-technical",
+      "family": "Area",
+      "preset": "Technical",
+      "catalog_preset_id": null,
+      "selected_127": false,
+      "focus": "electronics-large-catalog",
+      "homepage": {
+        "url": "https://area-theme-micromobility.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "brand/type/wheel-size/battery-capacity taxonomy",
+          "shipping and cart drawer empty-state source",
+          "department mega-navigation"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "multi-level-menu",
+          "free-shipping-bar"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "mobile-menu",
+          "cart-drawer"
+        ]
+      },
+      "collection": {
+        "url": "https://area-theme-micromobility.myshopify.com/collections/gyroboards",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "4 products, quick view",
+          "facets by brand, price, colour, battery capacity and availability",
+          "sort and product grid"
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "quick-view",
+          "metafield-dynamic-sources"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "quick-view",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://area-theme-micromobility.myshopify.com/products/gliderush",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "gallery media zoom/modal labels",
+          "8 colour/battery-capacity variant combinations",
+          "specification data and quantity/inventory and question form"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "variant-picker-styles",
+          "specs-table",
+          "inventory-status"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "spec-table",
+          "inventory"
+        ]
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    },
+    {
+      "id": "shopify-live-flow",
+      "family": "Flow",
+      "preset": "Flow",
+      "catalog_preset_id": null,
+      "selected_127": false,
+      "focus": "food-wellness",
+      "homepage": {
+        "url": "https://eight-nourish-demo.myshopify.com/",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "detox, energy and green nested navigation",
+          "free-shipping and genuine-promotion copy displayed",
+          "featured smoothies, preorder/sale/bestseller badge text"
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "free-shipping-bar",
+          "card-badges"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "free-shipping-bar",
+          "product-card"
+        ]
+      },
+      "collection": {
+        "url": "https://eight-nourish-demo.myshopify.com/collections/all-smoothies",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "smoothie collection/product shelf",
+          "shared shipping threshold and promotion navigation"
+        ],
+        "option_ids": [
+          "collection-list",
+          "featured-collection",
+          "promo-banner-section"
+        ],
+        "element_ids": [
+          "collection-list",
+          "product-grid",
+          "promo-banner"
+        ]
+      },
+      "product": {
+        "url": "https://eight-nourish-demo.myshopify.com/products/kale-blueberry",
+        "observed_on": "2026-10-25",
+        "verification": "public_html_document_opened",
+        "signals": [
+          "product gallery and nutrition/wellness narrative",
+          "testimonials and brand story",
+          "price and descriptive benefits"
+        ],
+        "option_ids": [
+          "media-gallery-layouts",
+          "ingredients-nutrition",
+          "testimonials",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "nutrition",
+          "testimonial"
+        ]
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false
+    }
+  ],
+  "counts": {
+    "opened_stores": 4,
+    "opened_home": 4,
+    "opened_collection": 4,
+    "opened_product": 4,
+    "opened_empty_cart": 2,
+    "interactive_events_tested": 0
+  },
+  "caveats": [
+    "Area/Flow outside selected 127-theme-store-preset cohort",
+    "Store HTML is not a screenshot or live interaction test",
+    "Public cart page is empty; no cart mutation verified",
+    "Do not copy competitor imagery, code or exact layouts"
+  ]
+}

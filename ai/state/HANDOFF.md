@@ -2,6 +2,11 @@
 
 _Update at the end of every session (even mid-task). Newest entry on top._
 
+## 2026-10-25 — Shopify real demo HTML research, batch 1
+
+Four Shopify demo home/category/product documents inspected: Prestige Couture & Vogue (both in selected 127) plus Area Technical & Flow (outside cohort). Couture/Vogue empty-cart HTML was also opened; no cart mutation. 14 distinct retrieved URLs documented. Official Archetype Impulse 4-preset homepage section sequences separately recorded and mapped to VSN Elements. Updated live-demo counts, source patterns, design observations and evidence-gated CI. No responsive/browser action, checkout or Figma changes claimed. Next: more direct live-demo URLs and screenshot/interactive tests when authorized.
+
+
 ## 2026-10-25 — PR #3 Shopify live-demo next-phase audit and platform editor constraints
 
 **Actual browser status:** Opera connector authorization denied. Public Shopify listings were previously opened but cannot be counted as interactive live demo UX. No competing merchant Theme Editor credentials exist, so editor feature details are drawn from official Shopify docs, not private editors.

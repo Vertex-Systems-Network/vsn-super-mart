@@ -18,8 +18,42 @@ def check():
         return ["shopify phase 3 research missing: "+str(e)]
     if audit["counts"]["selected_design_records"]!=len(presets["records"]):
         errors.append("live demo plan mismatch with preset inventory")
-    if any(v!=0 for k,v in audit["counts"].items() if k.startswith("live_")):
-        errors.append("no live demo may be verified without new browser evidence")
+    live=load(BASE/"shopify-live-demo-evidence-2026.json")
+    stores=live.get("stores",[])
+    if len(stores)!=4 or len({d["id"] for d in stores})!=4:
+        errors.append("expected four distinct public demo document records")
+    selected=[d for d in stores if d.get("selected_127")]
+    for key,part in (("live_home_demo_verified","homepage"),("live_collection_verified","collection"),("live_product_verified","product"),("live_cart_verified","cart")):
+        n=sum(bool(d.get(part) and d[part].get("verification")=="public_html_document_opened") for d in selected)
+        if audit["counts"].get(key)!=n:
+            errors.append("selected cohort document count mismatch: "+key)
+    if audit["counts"].get("live_mobile_verified")!=0:
+        errors.append("mobile UI not browser-tested")
+    opts={x["id"] for x in load(ROOT/"banks/options/options.json")["options"]}
+    els={x["id"] for x in elements["elements"]}
+    entries={x["id"] for x in load(BASE/"demo-audit.json")["entries"]}
+    cohort={x["id"] for x in presets["records"]}
+    for store in stores:
+        if store["id"] not in entries:
+            errors.append("missing general audit record: "+store["id"])
+        if store["selected_127"] and store.get("catalog_preset_id") not in cohort:
+            errors.append("selected preset not in 127-name cohort")
+        if any(store.get(k) for k in ("interactive_tested","mobile_render_tested","editor_tested")):
+            errors.append("unsupported interactive test claim: "+store["id"])
+        for page in ("homepage","collection","product","cart"):
+            item=store.get(page)
+            if item is None: continue
+            if item.get("verification")!="public_html_document_opened" or not item.get("url","").startswith("https://"):
+                errors.append("invalid page evidence "+store["id"]+"/"+page)
+            for key,valid in (("option_ids",opts),("element_ids",els)):
+                for oid in item.get(key,[]):
+                    if oid not in valid: errors.append("unknown "+key+": "+oid)
+    recipes=load(BASE/"shopify-vendor-homepage-recipes-2026.json")
+    if len(recipes.get("presets",[]))!=4:
+        errors.append("four Impulse vendor homepage recipes expected")
+    for key, vals in recipes.get("section_to_vsn_elements",{}).items():
+        for val in vals:
+            if val not in els: errors.append("unmapped vendor element "+val)
     if editor.get("competitor_editor_tested") is not False:
         errors.append("competitor editor cannot be marked tested")
     if not editor.get("sources") or any(not u.startswith("https://shopify.dev/") and not u.startswith("https://help.shopify.com/") for u in editor["sources"]):
@@ -33,4 +67,4 @@ def check():
 if __name__=="__main__":
     e=check()
     if e: print("Shopify editor audit FAIL: "+"; ".join(e));sys.exit(1)
-    print("Shopify editor audit OK: official architecture and limits; 127 live demos correctly pending")
+    print("Shopify editor audit OK: 4 Shopify demo HTML stores (2 in cohort), interaction/mobile checks still pending")

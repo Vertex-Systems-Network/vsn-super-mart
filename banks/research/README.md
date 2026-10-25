@@ -52,3 +52,9 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 - `competitors/shopify-external-themes-2026.json`: Ella, Minimog and Kalles external vendors; do not mix their demonstrations or feature rules with Theme Store listings.
 - `competitors/shopify-research-report.md`: conclusions, product feature paths and remaining demo/checkout coverage.
 - `python3 scripts/shopify_theme_research.py validate|summary|next` checks source counts, no duplicate names, mapping and honest verification statuses.
+
+## Live Shopify demo HTML batch (2026-10-25)
+
+- `competitors/shopify-live-demo-evidence-2026.json`: 4 actual public Shopify demo stores, 14 pages opened, with individual URL, option IDs and VSN element IDs. Only 2 demos belong to selected 127 preset cohort.
+- `competitors/shopify-vendor-homepage-recipes-2026.json`: Impulse/Dune/Terrain/Apothecary homepage section orders taken from official Archetype support page; NOT an interactive store visit.
+- `competitors/shopify-live-demo-report-2026.md`: findings and unsupported interaction/mobile/checkout limits.

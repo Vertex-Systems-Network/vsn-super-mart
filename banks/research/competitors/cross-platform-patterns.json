@@ -392,6 +392,98 @@
         "a11y-lighthouse"
       ],
       "design_implication": "Prototype accessible mobile interactions and reduced motion; measure real Core Web Vitals before making speed/conversion claims."
+    },
+    {
+      "id": "actual-fashion-filter-schema",
+      "context": "Actual Shopify live-demo documents and official Impulse section recipes offer stronger evidence than theme-listing feature checkboxes.",
+      "signals": [
+        "Individual storefront category/PDP/cart HTML inspected or official vendor section orders documented"
+      ],
+      "source_entry_ids": [
+        "shopify-live-prestige-couture",
+        "shopify-live-prestige-vogue"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "quick-add",
+        "card-badges"
+      ],
+      "design_implication": "Collection facets follow merchandise attributes, separate apparel size from beauty product color; product cards need sold-out/choose-options states."
+    },
+    {
+      "id": "niche-specific-product-details",
+      "context": "Actual Shopify live-demo documents and official Impulse section recipes offer stronger evidence than theme-listing feature checkboxes.",
+      "signals": [
+        "Individual storefront category/PDP/cart HTML inspected or official vendor section orders documented"
+      ],
+      "source_entry_ids": [
+        "shopify-live-prestige-couture",
+        "shopify-live-prestige-vogue",
+        "shopify-live-area-technical"
+      ],
+      "option_ids": [
+        "size-chart",
+        "inventory-status",
+        "specs-table",
+        "variant-picker-styles"
+      ],
+      "design_implication": "Support size guides, technical specs and wellness guarantees as configurable data fields, without copying PDP markup."
+    },
+    {
+      "id": "documented-real-empty-cart",
+      "context": "Actual Shopify live-demo documents and official Impulse section recipes offer stronger evidence than theme-listing feature checkboxes.",
+      "signals": [
+        "Individual storefront category/PDP/cart HTML inspected or official vendor section orders documented"
+      ],
+      "source_entry_ids": [
+        "shopify-live-prestige-couture",
+        "shopify-live-prestige-vogue"
+      ],
+      "option_ids": [
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_implication": "Design thoughtful empty-cart and continue-shopping state; nonempty cart/discount behavior remains untested."
+    },
+    {
+      "id": "documented-impulse-home-compositions",
+      "context": "Actual Shopify live-demo documents and official Impulse section recipes offer stronger evidence than theme-listing feature checkboxes.",
+      "signals": [
+        "Individual storefront category/PDP/cart HTML inspected or official vendor section orders documented"
+      ],
+      "source_entry_ids": [
+        "shopify-impulse",
+        "shopify-impulse-dune",
+        "shopify-impulse-terrain",
+        "shopify-impulse-apothecary"
+      ],
+      "option_ids": [
+        "shop-the-look",
+        "promo-grid",
+        "featured-collection",
+        "section-presets"
+      ],
+      "design_implication": "The same feature family has different homepage orders in vendor docs; VSN should expose native, original section/preset composition."
+    },
+    {
+      "id": "technical-versus-food-metadata",
+      "context": "Actual Shopify live-demo documents and official Impulse section recipes offer stronger evidence than theme-listing feature checkboxes.",
+      "signals": [
+        "Individual storefront category/PDP/cart HTML inspected or official vendor section orders documented"
+      ],
+      "source_entry_ids": [
+        "shopify-live-area-technical",
+        "shopify-live-flow"
+      ],
+      "option_ids": [
+        "specs-table",
+        "ingredients-nutrition",
+        "free-shipping-bar",
+        "faceted-filters"
+      ],
+      "design_implication": "Offer niche-aware specs and nutrition blocks; source inventory and delivery promises from merchant data only."
     }
   ]
 }

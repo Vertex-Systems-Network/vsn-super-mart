@@ -237,6 +237,46 @@
         "Vendor: configurable product and responsive controls"
       ],
       "design_hypothesis": "Mobile/variant/cart test matrix for future Stage 7."
+    },
+    {
+      "id": "shopify-live-prestige-couture",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "nested clothing/capsules categories",
+        "campaign slides and collection shelves",
+        "lookbook, brand story and journal"
+      ],
+      "design_hypothesis": "Actual public HTML describes modules, not pixel-perfect visual hierarchy; screenshots/mobile testing remain pending."
+    },
+    {
+      "id": "shopify-live-prestige-vogue",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Face and Body taxonomy with promotional mega-menu tiles",
+        "featured Masques/Lips tab selector",
+        "direct add-to-cart product shelf and kits"
+      ],
+      "design_hypothesis": "Actual public HTML describes modules, not pixel-perfect visual hierarchy; screenshots/mobile testing remain pending."
+    },
+    {
+      "id": "shopify-live-area-technical",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "brand/type/wheel-size/battery-capacity taxonomy",
+        "shipping and cart drawer empty-state source",
+        "department mega-navigation"
+      ],
+      "design_hypothesis": "Actual public HTML describes modules, not pixel-perfect visual hierarchy; screenshots/mobile testing remain pending."
+    },
+    {
+      "id": "shopify-live-flow",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "detox, energy and green nested navigation",
+        "free-shipping and genuine-promotion copy displayed",
+        "featured smoothies, preorder/sale/bestseller badge text"
+      ],
+      "design_hypothesis": "Actual public HTML describes modules, not pixel-perfect visual hierarchy; screenshots/mobile testing remain pending."
     }
   ]
 }

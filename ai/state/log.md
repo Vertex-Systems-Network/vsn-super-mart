@@ -38,3 +38,5 @@
 - 2026-10-25 [Shopify research / popular presets] Opened all 71 remaining premium individual preset listings; 127/127 official Shopify listing URLs verified. Updated general research audit and added exact-URL gate to research CI; live demos unverified.
 
 - 2026-10-25 [Shopify research] Verified official Shopify theme editor data architecture, nested blocks and 2026 hard limits; planned 127 live-demo cross-template audits but interactive browser connection was denied. Correctly preserved zero live-demo claims.
+
+- 2026-10-25 [Shopify demos / PR #4] 4 real demo Shopify storefronts, 14 HTML pages; 4 vendor Impulse homepage recipes, 5 new patterns, 4 qualitative observations; explicitly no interactive/mobile QA.
