@@ -5620,7 +5620,7 @@
       "preset": "Ivory",
       "url": "https://focal-theme-ivory.myshopify.com/",
       "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-25",
+      "opened_on": "2026-10-26",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_indexed_demo_html_accessible",
       "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
@@ -5639,12 +5639,12 @@
       "niches": [
         "fashion-editorial-mega-menu"
       ],
-      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "notes": "Indexed HTML home retained. Official listing-linked storefront rendered home, Outerwear collection, Evaline e54 Blazer PDP and empty cart inspected read-only on 2026-10-26. No filter/sort/Quick View/variant/size/purchase/cart interaction, screenshot, viewport/mobile, editor, checkout, keyboard or performance test.",
       "page_coverage": {
         "home": "document_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
