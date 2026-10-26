@@ -2072,6 +2072,29 @@
         "newsletter-signup"
       ],
       "design_implication": "Explain product history and specifications while making customization and warranty/shipping information easy to compare. Verify merchant claims before presenting them as facts."
+    },
+    {
+      "id": "electronics-catalog-and-specification-commerce",
+      "context": "Large electronics catalogs benefit from layered category discovery and a product page that supports research before purchase.",
+      "signals": [
+        "Category-aware search and deep collection navigation",
+        "Faceted sorting and selectable grid/list presentation",
+        "Product specification, shipping and security details near the buying controls",
+        "Related products and stock/review cues"
+      ],
+      "source_entry_ids": [
+        "shopify-warehouse-warehouse-browser-render"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "filter-layouts",
+        "product-blocks",
+        "inventory-status",
+        "product-reviews-slot",
+        "complementary-products"
+      ],
+      "design_implication": "Make category navigation and product comparison easy to scan, while keeping technical information, delivery details and purchase controls within one coherent product flow."
     }
   ]
 }
