@@ -8464,6 +8464,52 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-warehouse-warehouse-browser-render",
+      "platform": "shopify",
+      "theme": "Warehouse",
+      "preset": "Warehouse",
+      "url": "https://warehouse-theme-metal.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "announcement-bar",
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "filter-layouts",
+        "card-badges",
+        "product-reviews-slot",
+        "inventory-status",
+        "product-blocks",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Home pairs dense category/search navigation with multiple category promos, collection carousels, featured merchandise, editorial and service content.",
+        "Collection presents multi-facet filtering, sorting, page-size and grid/list controls beside a brand/category hierarchy and stock/review cues.",
+        "PDP combines gallery, concise purchase controls, detailed specifications, shipping/security information, shipping estimator and recommendations; empty cart includes free-shipping progress and recently viewed product."
+      ],
+      "niches": [
+        "electronics",
+        "audio",
+        "video",
+        "large-catalog"
+      ],
+      "notes": "Official Shopify Warehouse:Warehouse View demo opened matching warehouse-theme-metal.myshopify.com. Home, Headphones collection (75 products), Shure SRH440 PDP and empty cart inspected read-only. No shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing. Merchant claims unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, collection, product and cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
