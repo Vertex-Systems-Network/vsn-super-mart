@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Batches89–91 rendered Sleek:Sleek, Modiva and Glint (home/collection/PDP/empty cart). Coverage 98/127 unique homes, 264 rendered pages across 67 presets, 29 remaining. Indexed HTML remains 51/38/40/11. Next: Wonder:Velour rank77 after rank-priority checks.",
+  "next_action": "Sleek:Jumped official listing was checked; View demo is disabled and no iframe/storefront could be verified, so it is not counted. Coverage remains 98/127 unique homes, 264 rendered pages across 67 presets, 29 remaining. Next: Wonder:Root (priority list); retry Jumped when demo returns.",
   "approvals": {},
   "figma": {
     "file_key": null,
