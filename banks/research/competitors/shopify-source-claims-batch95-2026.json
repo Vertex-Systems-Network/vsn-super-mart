@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-27",
+  "scope": "Visible storefront UI only; merchant claims not independently verified.",
+  "claims": [
+    {
+      "id": "impulse-dune-home-1",
+      "claim": "Apparel and accessories homepage shows returns announcement, brand/shop navigation, fashion hero, New Arrivals quick-view shelf, Shop the Look, promo tiles, category rails, brand collections, feature product, sale banner, retail location and newsletter. Some seasonal/brand copy appears dated or inconsistent; merchant claims unverified.",
+      "source_url": "https://impulse-theme-apparel.myshopify.com/",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "impulse-dune-collection-1",
+      "claim": "New Arrivals collection reports 249 products; Filter control, Date new-to-old sort and eight sort choices; cards show Quick View, prices and size/color variant links; 12-page pagination. Controls untouched.",
+      "source_url": "https://impulse-theme-apparel.myshopify.com/collections/new-arrivals",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "impulse-dune-product-1",
+      "claim": "Naked & Famous heavyweight terry crewneck PDP displays $159, S/M/L/XL size choices, size-chart link, shipping/in-stock copy, Add/Buy controls, product-feature bullets, shipping/question accordions, two-image gallery, cross-sells and shop-the-look. Page explicitly identifies itself as a demonstration store.",
+      "source_url": "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "impulse-dune-cart-1",
+      "claim": "Dedicated cart is empty, with Continue Shopping, recently-viewed area and Popular Picks shelf.",
+      "source_url": "https://impulse-theme-apparel.myshopify.com/cart",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    }
+  ]
+}
