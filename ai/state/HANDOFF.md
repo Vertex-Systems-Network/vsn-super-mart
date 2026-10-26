@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 99 (Palo Alto:Dynamo, 2026-10-26)
+
+- Opened the official selected-preset listing and verified its iframe host; inspected home, Best Sellers - AER collection (12 products), Navigator Backpack PDP and empty cart read-only.
+- New distinct storefront: coverage now 101/127 unique homes, 276 pages across 70 presets; 26 remain. No controls, mobile/editor/checkout/performance testing; merchant claims unverified.
+- Next: Palo Alto:Skylight.
+
+
 ## Shopify live-demo research — Batch 98 (Palo Alto:Palo Alto, 2026-10-26)
 
 - Refreshed the previously counted official Palo Alto selected-preset demo: home, 198-product New Arrivals collection, Sabine Skirt PDP and empty cart.
