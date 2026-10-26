@@ -1,3 +1,10 @@
+## Shopify live-demo availability — Batch 92 (2026-10-27)
+
+- Sleek:Jumped official listing opened, but View demo control was disabled and preview iframe had no source; no storefront pages could be verified or counted.
+- Coverage unchanged: 98/127 unique homes, 264 rendered pages across 67 presets, 29 homes remaining. Indexed HTML remains 51/38/40/11.
+- Report: `banks/research/competitors/shopify-live-demo-batch92-2026.md`.
+- Keep Jumped pending and retry only after its official demo becomes available. Next priority: Wonder:Root.
+
 ## Shopify live-demo research — Batches 89–91 (2026-10-27)
 
 - Sleek:Sleek, Sleek:Modiva and Sleek:Glint inspected from official listing iframe sources; each has rendered home, collection, product and dedicated empty-cart routes recorded read-only.
