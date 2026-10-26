@@ -1397,6 +1397,14 @@
         "Supplements storefront home has repeating free-shipping banner, product/shop mega menu, video hero with shop-now and quiz CTAs, featured product cards, bundle link, ingredient-value claims, product-benefit carousel, social/video testimonials, mission/editorial sections, blog, FAQ and newsletter. Footer explicitly says this is a demo store; seller health, safety and performance claims are unverified."
       ],
       "design_hypothesis": "Observe video-led hero, supplement bundles and trust sections as page patterns; verify responsive rendering and underlying claim evidence before reuse."
+    },
+    {
+      "id": "shopify-live-impulse-dune",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Apparel and accessories homepage shows returns announcement, brand/shop navigation, fashion hero, New Arrivals quick-view shelf, Shop the Look, promo tiles, category rails, brand collections, feature product, sale banner, retail location and newsletter. Some seasonal/brand copy appears dated or inconsistent; merchant claims unverified."
+      ],
+      "design_hypothesis": "Observe layered promo grids and brand browsing alongside a large catalog; test responsive behavior and all advertised controls before implementation."
     }
   ]
 }
