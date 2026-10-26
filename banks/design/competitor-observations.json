@@ -933,12 +933,15 @@
       "id": "shopify-vision-vision-browser-render",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "smart-home campaign hero and promotion strips",
-        "category-switchable bestseller shelf",
-        "product education and category stories",
-        "brand, reviews, journal and newsletter"
+        "Smart-home homepage has free-shipping/returns/promo bars, smart-device hero slides, accessory discount tiles, category-switchable Bestsellers with swatches/ratings/stock, automations and security education, brand and category rails, customer reviews, news and newsletter. Some story copy and sample claims look generic or inconsistent; not independently verified."
       ],
-      "design_hypothesis": "Electronics storefronts can bring product education, category browsing and comparison into one journey. Keep compare data aligned with PDP specifications and make availability and product claims traceable to merchant data."
+      "design_hypothesis": "Keep the catalog category and product records aligned: this rendered example places multiple unrelated categories in Doorbells and shows a camera description under a speaker title. Product data quality must be validated before treating such content as a design pattern.",
+      "collection_modules": [
+        "Doorbells collection reports 20 products; Availability, Brand, Price and Color facets; Featured sort, Compare checkboxes and pagination. Cards mix speakers, cameras, watches, bulbs and locks despite Doorbells title, with a smart-watch editorial tile. A Compare products overlay appeared in the page AX tree without an intentional action; no controls were used."
+      ],
+      "product_modules": [
+        "Smart Home Speaker PDP shows $82, a three-image gallery, color and material choices, quantity, Add/Buy buttons, pros/cons, tabs/spec sections and FAQs. The intro description refers to a peephole camera, conflicting with the product title; tech/spec content also mixes unrelated home-security topics. Claims remain unverified."
+      ]
     },
     {
       "id": "shopify-ignite-ignite-browser-render",
