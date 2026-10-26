@@ -665,3 +665,14 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved preset; verify actual store host from official listing/primary evidence.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 64 (Focal:Sapphire)
+
+**Done**
+- Verified the Focal:Sapphire official listing iframe src and inspected homepage, 117-product Earrings collection (five facets), Double Météorites Stud Earrings PDP and empty cart read-only.
+- Home/cart already existed as indexed HTML; unique coverage remains 79/127, rendered total becomes 163 pages across 41 presets; 48 homes remain.
+- No actions, screenshot, viewport/mobile/editor/checkout/keyboard/performance tests.
+
+**Next**
+- Continue with the next unobserved selected preset and verify its storefront through an official listing or first-party source.
