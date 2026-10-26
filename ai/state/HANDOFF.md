@@ -1,3 +1,11 @@
+## Shopify live-demo research — Batch 93 (2026-10-27)
+
+- Wonder:Root official listing iframe resolved to `https://wonder-theme-wellness.myshopify.com/`; inspected home, 8-product collection, Longevity Gummies PDP and dedicated empty cart read-only.
+- Coverage 99/127 unique selected homes (51 indexed HTML + 48 additional rendered); 268 pages across 68 presets; 28 unique homes remain. Indexed HTML remains 51/38/40/11.
+- Report: `banks/research/competitors/shopify-live-demo-batch93-2026.md`; source claims file saved.
+- No shopping interaction, screenshot, mobile viewport, editor, checkout, keyboard or performance tests. Demo's health/product claims unverified.
+- Sleek:Jumped remains blocked (official View demo disabled). Continue next available priority preset and preserve blocked item for later retry.
+
 ## Shopify live-demo availability — Batch 92 (2026-10-27)
 
 - Sleek:Jumped official listing opened, but View demo control was disabled and preview iframe had no source; no storefront pages could be verified or counted.
