@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Stage 2 active. Batch72 Empire:Depot render passed CI. Batch73 checked official View demo on Local:Caffeine/Lively, Empire/Empire/Circuit/Forma and Be Yours:Peace; all six preview frames remained blank and controls disabled. Coverage remains 83/127 unique homes; 195 rendered pages across 49 presets; 44 remain. Continue next unobserved preset, starting Be Yours:Harmony, and count only verified storefronts.",
+  "next_action": "Stage 2 active. Batch74 inspected the official Stiletto preview’s home, Tops collection (34 results), Alex Metallic Top PDP and empty cart. Rendered evidence is 199 pages across 50 selected presets; 84/127 unique homes, 43 remain. The official listing iframe src host differed from the loaded storefront's visible internal-link host; caveat retained. Indexed HTML counts unchanged. Continue Be Yours:Harmony and verify delayed preview loads before assigning coverage.",
   "approvals": {},
   "figma": {
     "file_key": null,
