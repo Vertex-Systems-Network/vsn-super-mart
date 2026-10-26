@@ -12,7 +12,8 @@
         "filters",
         "search",
         "Warehouse:Mesh combines activity and brand shortcuts with category shortcuts, brand/color/size/price/availability filters, sorting and grid/list density controls.",
-        "Warehouse:Wood browser-rendered Tableware page shows 46 items, four facet groups, grid/list mode, 24-per-page control and clear stock/discount labels (controls not activated)."
+        "Warehouse:Wood browser-rendered Tableware page shows 46 items, four facet groups, grid/list mode, 24-per-page control and clear stock/discount labels (controls not activated).",
+        "Expanse:Expanse rendered Planters collection shows 12 items, Product type/Price/Brand/Availability filters, Best selling sort and grid/large/small/list controls; status cues distinguish sold-out and add-to-cart cards (controls not activated)."
       ],
       "source_entry_ids": [
         "shopify-enterprise",
