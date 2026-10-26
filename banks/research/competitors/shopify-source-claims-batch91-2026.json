@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-27",
+  "scope": "Public storefront design observations; seller claims are not independently verified.",
+  "claims": [
+    {
+      "id": "sleek-glint-home-1",
+      "claim": "Home/garden/workwear hybrid homepage uses garden-bed campaign slides, Planting Essentials/Harvesting Gear/Garden Goods category rails, shoppable lookbook, linen copy, bundle promo, reviews, store locator/contact and newsletter. Mixed apparel and gardening content.",
+      "source_url": "https://sleek-glint.myshopify.com/",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-glint-collection-1",
+      "claim": "Shop All reports 70 products, facets for Product type, Price, Color, Size and Availability (70 in stock, 0 out), Best selling sort and pagination through page 5. Facet labels mix gardening tools and apparel; controls untouched.",
+      "source_url": "https://sleek-glint.myshopify.com/collections/all",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-glint-product-1",
+      "claim": "Kennith Pant PDP reached through a visible homepage product link despite the short slug; page shows pickup availability and complementary/related products. Captured AX tree included pickup region and accessory suggestions; full price/variant details were not retained in this checkpoint, so details remain unverified.",
+      "source_url": "https://sleek-glint.myshopify.com/products/kennith-short",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-glint-cart-1",
+      "claim": "Dedicated cart route is empty and recommends Accessories, Jackets & Coats, Bottoms and T-shirts collections.",
+      "source_url": "https://sleek-glint.myshopify.com/cart",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    }
+  ]
+}
