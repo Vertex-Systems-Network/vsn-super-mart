@@ -5872,17 +5872,15 @@
       "theme_family": "Ignite",
       "preset": "Ignite",
       "store_url": "https://benchmark-electronics-demo.myshopify.com/",
-      "observed_on": "2026-10-26",
+      "observed_on": "2026-10-27",
       "source_class": "browser_render_readonly",
-      "capture_method": "Official Shopify preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "capture_method": "Reopened official Ignite listing, read exact iframe src and inspected current visible routes read-only.",
       "pages": [
         {
           "kind": "home",
           "url": "https://benchmark-electronics-demo.myshopify.com/",
           "observations": [
-            "Official demo homepage has campaign announcement bars, product-type search, compatibility finder, and a three-slide hero.",
-            "Rendered sections include best-selling products with quick view and variants, product comparisons/spec tables, video banners, category and brand stories, social video, newsletter, and support links.",
-            "Sale, inventory, delivery and compatibility statements are sample storefront content and were not independently verified."
+            "Electronics storefront home includes mid-season offer announcements, product-type search, compatibility finder, device/component navigation, three-slide phone hero, best-seller shelf with quick view/options, long phone/watch stories, category and product rails, in-grid promo content, social video, stats/reviews, signup offer and expert-help block. Header logo image description says planter, a content mismatch. Claims remain unverified."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5891,11 +5889,9 @@
         },
         {
           "kind": "collection",
-          "url": "https://benchmark-electronics-demo.myshopify.com/collections/smart-tech",
+          "url": "https://benchmark-electronics-demo.myshopify.com/collections/phones",
           "observations": [
-            "Smart Tech collection presents 41 products and facets for brand, color, storage capacity, battery life, compatibility, processor, RAM, refresh rate, screen and resolution.",
-            "Sort choices and a compare control appear with variant, stock and sale states, quick-view affordances, in-grid promos and related collections.",
-            "No facet, sort or compare action was performed."
+            "Phones collection reports 19 products; Brand, Color, Storage capacity, Battery life, Processor, RAM, Refresh rate, Screen and Screen resolution facets; Featured sort plus relevance, sales, name, price and date options; Compare control and quick-view cards. Cards show mixed storage units and one product image appears unrelated; no controls used."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5904,11 +5900,9 @@
         },
         {
           "kind": "product",
-          "url": "https://benchmark-electronics-demo.myshopify.com/collections/smart-tech/products/pixa-9",
+          "url": "https://benchmark-electronics-demo.myshopify.com/products/pixa-9",
           "observations": [
-            "Edge Pixa 9 PDP displays a 15-item media gallery, 5-star label, size/color/storage radio variants and sold-out storage options, quantity, stock message and purchase controls.",
-            "Specifications include dimensions/build, charging, connectivity, durability/audio and software/security; complementary products, FAQs, related storytelling and sample testimonials also appear.",
-            "No variant, gallery, add-to-cart or buy-now action was performed; price, stock and product claims remain unverified."
+            "Edge Pixa 9 PDP shows from £608, a 15-item gallery, model/color/storage options (512GB and 1TB unavailable), quantity and Add/Buy buttons, stock message, specification table, long-form feature sections, FAQs, contents list and testimonials. Several media and specs/copy sections appear inconsistent (e.g., socks/accessories, conflicting technical detail and origin/price language); all claims unverified."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5919,14 +5913,18 @@
           "kind": "cart",
           "url": "https://benchmark-electronics-demo.myshopify.com/cart",
           "observations": [
-            "Empty cart has a Continue Shopping action and a Can we tempt you? product recommendation slider with quick-view/cart affordances.",
-            "No product was added and checkout was not opened."
+            "Dedicated empty cart offers continue shopping and a Can we tempt you? recommendation slider with quick-view/add controls; no actions performed."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
         }
+      ],
+      "limits": [
+        "This recheck refreshes the already counted Ignite:Ignite observation; rendered page and preset counters remain unchanged.",
+        "No filters, compare, variants, gallery, cart or purchase actions; no screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests.",
+        "Visible product, inventory, technical, pricing, review and seller claims remain unverified; content mismatches were noted."
       ]
     },
     {
