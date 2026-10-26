@@ -1046,6 +1046,17 @@
         "sustainability/service statements, blog and newsletter"
       ],
       "design_hypothesis": "Editorial campaign content can add context to category-led fashion browsing; ensure collection routes, fit guidance and product claims remain clear and substantiated."
+    },
+    {
+      "id": "shopify-impulse-impulse-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "linen-focused campaign copy and linked category imagery",
+        "Everyday Essentials and All New product shelves",
+        "dress/layer promotional tiles, journal and considered-wear brand story",
+        "newsletter offer"
+      ],
+      "design_hypothesis": "Seasonal editorial, curated everyday products and garment-care storytelling can support fashion discovery when connected to clear category routes and fit details. Keep recommendation content credible and matched to the active catalog."
     }
   ]
 }

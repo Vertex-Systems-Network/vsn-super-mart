@@ -5273,11 +5273,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-impulse-impulse-browser-render",
+      "selected_preset_id": "impulse:impulse",
+      "theme_family": "Impulse",
+      "preset": "Impulse",
+      "store_url": "https://impulse-theme-fashion.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Impulse:Impulse preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-fashion.myshopify.com/",
+          "observations": [
+            "Official Shopify Impulse:Impulse listing View demo opened impulse-theme-fashion.myshopify.com.",
+            "Fashion demo home has free-shipping announcement, garment care/store support links, currency selector, New/Clothing/Sale navigation, campaign copy, linked category imagery, Everyday Essentials and All New product shelves, promo tiles, journal content, brand/product-care story and newsletter sign-up.",
+            "A newsletter signup modal offering 10% off was dismissed; no signup was made."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/all",
+          "observations": [
+            "Products collection lists 36 products with Filter entry, Alphabetically A–Z default sort and options for Featured, relevance, best selling, alphabetical, price and date.",
+            "Product cards expose Quick View controls, product names/prices and an example New badge; collection is alphabetical and card links point to product pages.",
+            "No filters, sort, Quick View, pagination or product actions were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-fashion.myshopify.com/products/the-ames-trouser",
+          "observations": [
+            "The Ames Trouser PDP shows $145, organic-cotton label, product story, high-rise/wide-leg/full-length/clean-waistband details, SIZE CHART, in-stock copy and Add to Cart.",
+            "Description, Materials & Care, Certifications and Shipping & Returns accordion headings are visible, followed by You may also like recommendations.",
+            "No size or other purchase controls were activated. Product composition, inventory, fit and certification claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-fashion.myshopify.com/cart",
+          "observations": [
+            "Cart states it is currently empty and provides Continue shopping.",
+            "Recently viewed section appears; Popular picks displays generic Example product cards at $29 and a View All route to dresses.",
+            "No cart action or checkout was performed; generic recommendation content is visibly demo-like."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 67,
-    "selected_presets": 17,
+    "pages": 71,
+    "selected_presets": 18,
     "unique_selected_homepages_across_all_source_types": 68
   }
 }

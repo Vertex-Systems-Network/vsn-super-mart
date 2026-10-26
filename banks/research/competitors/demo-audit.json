@@ -5502,9 +5502,9 @@
       "url": "https://impulse-theme-fashion.myshopify.com/",
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Public Shopify storefront document pages only; no clicked interaction/mobile/checkout/editor QA.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Public indexed storefront evidence plus rendered browser accessibility-tree inspection of home, Products collection, The Ames Trouser PDP and empty cart; no filter, Quick View, variant, cart or checkout actions, screenshot, viewport/mobile, editor, keyboard or performance testing.",
       "feature_option_ids": [
         "mega-menu",
         "featured-collection",
@@ -5524,12 +5524,15 @@
       ],
       "design_signals": [
         "fashion-quickview-and-collection-facets",
-        "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source"
+        "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source",
+        "Rendered home pairs linen fashion copy with category links, featured product rails, promo tiles, journal and brand-story content.",
+        "Rendered 36-product collection shows filter entry, alphabetic default sorting, sort options and Quick View cards.",
+        "The Ames Trouser PDP combines fit/material copy, size-chart entry, stock copy, purchase CTA and product accordions; empty cart includes recently viewed and generic $29 Example product recommendations."
       ],
       "niches": [
         "fashion-quickview-and-collection-facets"
       ],
-      "notes": "Selected preset document evidence",
+      "notes": "Official Impulse:Impulse listing View demo opened impulse-theme-fashion.myshopify.com. Rendered home, 36-product all collection, The Ames Trouser PDP and empty cart inspected read-only; earlier indexed HTML evidence is maintained separately. No store controls or checkout tested; no screenshot, viewport/mobile, editor, keyboard or performance QA. Organic-material, fit, stock, certification, shipping, pricing, discount and other seller claims are unverified; generic Example product cards in the cart appear demo-like.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",

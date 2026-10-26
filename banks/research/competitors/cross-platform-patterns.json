@@ -1770,6 +1770,32 @@
         "related-products"
       ],
       "design_implication": "Keep campaign storytelling connected to clear product-type navigation; expose useful fit and variant information on PDPs and keep merchant claims attributable."
+    },
+    {
+      "id": "fashion-editorial-essentials-and-fit-guidance",
+      "context": "A fashion storefront can connect seasonal storytelling and garment care with category navigation, curated product rails and fit details.",
+      "signals": [
+        "Home uses free-shipping and customer-care messaging, category imagery, Everyday Essentials and All New product rails, promo tiles, journal and considered-wear brand story.",
+        "36-item collection provides filter entry and multiple sort choices, with Quick View affordances on product cards.",
+        "PDP presents fit/material narrative, size-chart entry, inventory copy and accordions; empty cart links to continued browsing and includes recently viewed and Popular picks modules."
+      ],
+      "source_entry_ids": [
+        "shopify-impulse-impulse-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "quick-view",
+        "product-blocks",
+        "size-chart",
+        "inventory-status",
+        "cart-page",
+        "empty-states",
+        "related-products"
+      ],
+      "design_implication": "Connect editorial themes with clear category paths and product fit information. Keep Quick View useful on larger collections, and ensure empty-cart recommendations reflect actual catalog content."
     }
   ]
 }

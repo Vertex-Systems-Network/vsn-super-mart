@@ -433,3 +433,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch38-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch38-2026.json`.
 - No shopping controls, mobile viewport, editor, checkout, keyboard or performance testing. Seller stock, ratings, fit and sustainability claims remain unverified.
 - Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 39
+- Official Impulse:Impulse View demo opened impulse-theme-fashion.myshopify.com. Read-only rendered inspection covered home, 36-product collection, The Ames Trouser PDP and empty cart. Home overlaps with prior indexed HTML evidence and does not increase unique homepage coverage.
+- Coverage: 68/127 unique selected homes (51 indexed HTML + 17 unique rendered homes); 71 rendered pages across 18 presets; 59 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch39-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch39-2026.json`.
+- No shopper controls, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing. Seller claims unverified; generic Example product cart cards appear demo-like.
+- Next: continue next unobserved selected preset.
