@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 31 additional browser-rendered homes are documented (82/127 unique); 179 read-only rendered pages across 45 selected presets.",
+  "summary": "51 indexed HTML selected homes and 31 additional browser-rendered homes are documented (82/127 unique); 183 read-only rendered pages across 46 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -1405,7 +1405,8 @@
           "Color-coordinated product bundles and positive sale compare-price messaging",
           "Shop-the-look, customer stories and sustainable material claims in content",
           "Cart drawer source includes empty subtotal and checkout-calculated taxes/shipping",
-          "Promotion countdown visual placeholders show no resolved timer value"
+          "Promotion countdown visual placeholders show no resolved timer value",
+          "Official Fetch preset was browser-rendered; confirms dog-walk campaign, bundles, care shelf, category links, social proof and shipping threshold; see separate browser_render_observations."
         ],
         "option_ids": [
           "mega-menu",
@@ -7092,11 +7093,77 @@
         "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests.",
         "Product, alcohol-free, organic, inventory, shipping and gift-promotion claims unverified."
       ]
+    },
+    {
+      "id": "shopify-live-expanse-fetch",
+      "selected_preset_id": "expanse:fetch",
+      "theme_family": "Expanse",
+      "preset": "Fetch",
+      "store_url": "https://fetch-theme-modern.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Expanse:Fetch listing iframe src read from rendered DOM after View demo; direct public storefront navigation and read-only accessibility-tree inspection.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://fetch-theme-modern.myshopify.com/",
+          "observations": [
+            "Dog-accessories home uses Shop Essentials/Supplies navigation, sustainable-dog-accessories hero and walking-kit CTAs.",
+            "Beige walk-kit shelf, grooming products, bundle promotion, sustainability/material/adoption mission, Shop the Look, testimonial, category shortcuts, discount-countdown area, blog, $120 shipping threshold, service promotions and newsletter.",
+            "Direct browser render corroborates indexed home; no shopper controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits",
+          "observations": [
+            "Walking Kits shows 22 products, Availability/Price/Size filters, Best selling sort and Large/Small/List controls.",
+            "Cards distinguish offers and sale/compare-at pricing; no controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/pink-dog-collar-walk-kit-bag-pins",
+          "observations": [
+            "Pink Dog Collar Walk Kit + Poop Bag Holder + Pins PDP shows XS selected with S/M/L/XL options, $150 regular price, in-stock state, Barkalot vendor and gallery/zoom.",
+            "Free-shipping/returns/carbon-neutral/security statements, Add to cart/Buy it now, information accordions and vendor/collection recommendations are visible. Claims unverified; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://fetch-theme-modern.myshopify.com/cart",
+          "observations": [
+            "Header cart drawer says currently empty; dedicated cart HTML already indexed. No cart mutation or checkout."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Home, Walking Kits collection, Lilac kit PDP and cart existed as indexed HTML; browser evidence separately records rendered state and sampled Pink kit PDP.",
+        "No collection controls, variants, add-to-cart, cart or checkout actions.",
+        "No screenshot, viewport/mobile, editor, keyboard or performance tests.",
+        "Product, materials, rescue, inventory, fulfillment and promotion claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 179,
-    "selected_presets": 45,
+    "pages": 183,
+    "selected_presets": 46,
     "unique_selected_homepages_across_all_source_types": 82
   }
 }
