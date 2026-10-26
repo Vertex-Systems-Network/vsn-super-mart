@@ -453,12 +453,12 @@
       "id": "shopify-live-stiletto-glimmer",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Shop by Concern (face/hair/body/lip), skin type and format (elixirs/serums/masks) menus",
-        "Category hero, skincare bundle pricing and Minis purchase-more promotional text",
-        "Product cards list 3 sizes and Quick View, newsletter and brand values sections",
-        "Homepage empty drawer copy includes browse Body/Bath/Face/Hair categories"
+        "Shop by skin concern and product type, Face/Body/Lip discovery, minis and skincare bundles",
+        "Product/video shelves, best sellers, collection/filter entry points and sale messaging",
+        "Face collection with product type, skin type, price, availability and size groups",
+        "Marula Face Oil PDP with size, price, quantity/add controls and related recommendations"
       ],
-      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+      "design_hypothesis": "Skincare stores can organize product discovery around concerns, type, size and bundles, with education and brand impact sections; rendered structure only, no control validation or visual audit. Health, ingredient and efficacy claims remain unverified."
     },
     {
       "id": "shopify-live-stiletto-tapestry",
