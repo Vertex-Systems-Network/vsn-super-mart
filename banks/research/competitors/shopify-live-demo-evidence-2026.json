@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 47 additional browser-rendered homes are documented (98/127 unique); 264 read-only rendered pages across 67 selected presets.",
+  "summary": "51 indexed HTML selected homes and 48 additional browser-rendered homes are documented (99/127 unique); 268 read-only rendered pages across 68 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5273,14 +5273,110 @@
         "A homepage-linked Brandywine Straw Hat route returned 404; a second visible PDP link resolved to Kennith Pant. The mixed product-story consistency remains a demo-content issue to review.",
         "No filters, sort, pagination, variants, add-to-cart, cart changes, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
       ]
+    },
+    {
+      "id": "shopify-live-wonder-root",
+      "family": "Wonder",
+      "preset": "Root",
+      "catalog_preset_id": "wonder:root",
+      "selected_127": true,
+      "focus": "supplements-subscriptions-bundles",
+      "homepage": {
+        "url": "https://wonder-theme-wellness.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Supplements storefront home has repeating free-shipping banner, product/shop mega menu, video hero with shop-now and quiz CTAs, featured product cards, bundle link, ingredient-value claims, product-benefit carousel, social/video testimonials, mission/editorial sections, blog, FAQ and newsletter. Footer explicitly says this is a demo store; seller health, safety and performance claims are unverified."
+        ],
+        "option_ids": [
+          "video-hero",
+          "featured-collection",
+          "bundle-display",
+          "quiz-entry",
+          "testimonials",
+          "blog-posts",
+          "faq",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "hero",
+          "product-grid",
+          "bundle",
+          "quiz",
+          "testimonials"
+        ]
+      },
+      "collection": {
+        "url": "https://wonder-theme-wellness.myshopify.com/collections/frontpage",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Wellness Products collection reports 8 products and Best selling sort with Featured, relevance, sales, alphabetical, price and date choices. Cards show product names and $29.99–$49.99 prices, plus Add to Cart controls; untouched. Bundle, testimonials and ingredient-value modules continue below the grid."
+        ],
+        "option_ids": [
+          "sorting",
+          "quick-add",
+          "collection-list"
+        ],
+        "element_ids": [
+          "product-grid",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://wonder-theme-wellness.myshopify.com/products/longevity-gummies",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Longevity Gummies PDP shows a 3-image gallery, subscription default with $29.99 crossed to $25.49 and frequency choices (monthly/2-month/3-month/2-week), one-time $29.99 option, Add to Cart, supplement cross-links, accordion benefits/how-to/ingredients, comparison table and repeated reviews. Browser landed with a selling_plan query; controls untouched. Health, ingredient, review and efficacy claims unverified."
+        ],
+        "option_ids": [
+          "selling-plans",
+          "media-gallery-layouts",
+          "product-blocks",
+          "collapsible-tabs",
+          "testimonials"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "selling-plans",
+          "buy-buttons",
+          "accordion",
+          "testimonial"
+        ]
+      },
+      "cart": {
+        "url": "https://wonder-theme-wellness.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart page is empty, offers continue shopping and account sign-in, and includes product/info/social footer sections."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "Read-only route inspection; no sort, subscription, variant, add-to-cart, bundle, quiz or checkout actions.",
+        "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, ingredients, efficacy, certification, customer and seller claims remain unverified."
+      ]
     }
   ],
   "counts": {
-    "opened_stores": 67,
-    "opened_home": 67,
-    "opened_collection": 54,
-    "opened_product": 55,
-    "opened_empty_cart": 21,
+    "opened_stores": 68,
+    "opened_home": 68,
+    "opened_collection": 55,
+    "opened_product": 56,
+    "opened_empty_cart": 22,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -9536,11 +9632,71 @@
         "A homepage-linked Brandywine Straw Hat route returned 404; a second visible PDP link resolved to Kennith Pant. The mixed product-story consistency remains a demo-content issue to review.",
         "No filters, sort, pagination, variants, add-to-cart, cart changes, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
       ]
+    },
+    {
+      "id": "shopify-live-wonder-root-rendered",
+      "selected_preset_id": "wonder:root",
+      "theme_family": "Wonder",
+      "preset": "Root",
+      "store_url": "https://wonder-theme-wellness.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Clicked View demo on the official Shopify listing, read its exact iframe src, and inspected rendered storefront routes read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://wonder-theme-wellness.myshopify.com/",
+          "observations": [
+            "Supplements storefront home has repeating free-shipping banner, product/shop mega menu, video hero with shop-now and quiz CTAs, featured product cards, bundle link, ingredient-value claims, product-benefit carousel, social/video testimonials, mission/editorial sections, blog, FAQ and newsletter. Footer explicitly says this is a demo store; seller health, safety and performance claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://wonder-theme-wellness.myshopify.com/collections/frontpage",
+          "observations": [
+            "Wellness Products collection reports 8 products and Best selling sort with Featured, relevance, sales, alphabetical, price and date choices. Cards show product names and $29.99–$49.99 prices, plus Add to Cart controls; untouched. Bundle, testimonials and ingredient-value modules continue below the grid."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://wonder-theme-wellness.myshopify.com/products/longevity-gummies",
+          "observations": [
+            "Longevity Gummies PDP shows a 3-image gallery, subscription default with $29.99 crossed to $25.49 and frequency choices (monthly/2-month/3-month/2-week), one-time $29.99 option, Add to Cart, supplement cross-links, accordion benefits/how-to/ingredients, comparison table and repeated reviews. Browser landed with a selling_plan query; controls untouched. Health, ingredient, review and efficacy claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://wonder-theme-wellness.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart page is empty, offers continue shopping and account sign-in, and includes product/info/social footer sections."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Read-only route inspection; no sort, subscription, variant, add-to-cart, bundle, quiz or checkout actions.",
+        "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, ingredients, efficacy, certification, customer and seller claims remain unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 264,
-    "selected_presets": 67,
-    "unique_selected_homepages_across_all_source_types": 98
+    "pages": 268,
+    "selected_presets": 68,
+    "unique_selected_homepages_across_all_source_types": 99
   }
 }
