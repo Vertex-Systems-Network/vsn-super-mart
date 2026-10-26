@@ -162,3 +162,6 @@
 
 
 - 2026-10-26: Batch51 Warehouse:Warehouse rendered read-only via official selected listing. Added home, 75-product Headphones collection, Shure SRH440 PDP and empty-cart evidence. Coverage 78/127, 115 pages/29 presets; 49 homes remain. No interactions or screenshots/viewport tests.
+
+
+- 2026-10-26: Batch52 Prestige:Vogue rendered read-only via official selected listing. Added home, 10-product Kits collection, Brazilian Supermask Masque + Brush Kit PDP and empty-cart render evidence; homepage was already indexed. Coverage 78/127 unique, 119 pages/30 presets; 49 homes remain. No interactions or screenshots/viewport tests.
