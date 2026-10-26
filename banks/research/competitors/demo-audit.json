@@ -6908,7 +6908,7 @@
       "preset": "Impact",
       "url": "https://impact-theme-sound.myshopify.com/",
       "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-25",
+      "opened_on": "2026-10-26",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_indexed_demo_html_accessible",
       "document_verification_scope": "Opened read-only indexed public demo HTML with page-specific crawler ages. Not functional, cart mutation, mobile viewport or Theme Editor verified.",
@@ -6936,10 +6936,10 @@
       "niches": [
         "premium-audio-conversion-and-product-comparison"
       ],
-      "notes": "Batch16 independent page URLs and recency in shopify-live-demo-evidence-2026.json. No executed browser interactions; seller content not live facts.",
+      "notes": "Indexed HTML source retained. Official listing-linked rendered home, Headphones collection, MW07 Plus PDP and empty cart inspected read-only on 2026-10-26; opened visible Shop navigation to access collection. No merchandising/cart interactions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.",
       "page_coverage": {
         "home": "document_only",
-        "collection": "not_verified",
+        "collection": "document_only",
         "product": "document_only",
         "cart": "document_only",
         "mobile": "not_verified"
