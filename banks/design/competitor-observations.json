@@ -1145,6 +1145,17 @@
         "care/stretch/product feature content, reviews and newsletter signup"
       ],
       "design_hypothesis": "Activewear discovery can connect product performance content to clear option and sizing paths. Validate fabric and environmental claims and keep fulfillment details current."
+    },
+    {
+      "id": "shopify-focal-quartz-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "limited-edition announcement and specialist navigation",
+        "1926 watch hero and curated category routes",
+        "bestseller tabs with prices, badges and review cues",
+        "Shop the Looks, history/editorial, product customization, store assurances and newsletter"
+      ],
+      "design_hypothesis": "Product history can enrich specialist retail when customization controls and product specifications remain easy to scan, supported by clear service information."
     }
   ]
 }

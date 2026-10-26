@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 25 additional browser-rendered homes are documented (76/127 unique); 107 read-only rendered pages across 27 selected presets.",
+  "summary": "51 indexed HTML selected homes and 26 additional browser-rendered homes are documented (77/127 unique); 111 read-only rendered pages across 28 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5913,11 +5913,77 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-focal-quartz-browser-render",
+      "selected_preset_id": "focal:quartz",
+      "theme_family": "Focal",
+      "preset": "Quartz",
+      "store_url": "https://focal-theme-quartz.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Focal:Quartz listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://focal-theme-quartz.myshopify.com/",
+          "observations": [
+            "Official Shopify Focal:Quartz View demo opened matching focal-theme-quartz.myshopify.com; storefront brands itself as Focal Theme Quartz/About Vintage.",
+            "Watch storefront uses limited-edition announcement carousel, Shop/Faces/Collections/Information/Presets navigation, 1926 At'Sea hero and Men/Women/Limited Editions/Straps/Gifts categories.",
+            "Home includes best-selling watches with tabs, prices, badges and review links, Shop the Looks, watch history/brand story, featured product options, editorial/blog content, store assurances and newsletter.",
+            "Merchant warranty, shipping, product material, Swiss-movement and brand-history statements are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://focal-theme-quartz.myshopify.com/collections/mens-watches",
+          "observations": [
+            "Men's Watches collection shows 59 products, Best selling sort and Show filters control.",
+            "Cards display New/Limited Edition badges, product price and review links; pagination and collection navigation are visible.",
+            "No filter, sort, pagination or product-card action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://focal-theme-quartz.myshopify.com/products/1969-vintage-steel-white-36-39mm",
+          "observations": [
+            "1969 Vintage Steel / White PDP shows $229 sale price and 5.0/5 rating link from 3 reviews.",
+            "Variants include 36mm/39mm watch size and a range of strap colors/material styles; default is 36mm with Dark Brown strap. In stock is shown.",
+            "Page includes gallery, quantity, Add to Cart/Buy It Now, product specification and Shipping & Returns tabs, Warranty/Payment/CO2-neutral details, Buy It With and available styles.",
+            "No option, quantity, tab, quick-view, cart or purchase interaction occurred; price, stock, review, warranty and product claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://focal-theme-quartz.myshopify.com/cart",
+          "observations": [
+            "Cart is empty and offers Start Shopping to all products.",
+            "Cart page includes shipping, warranty, payment and contact information blocks plus newsletter.",
+            "No cart or checkout action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 107,
-    "selected_presets": 27,
-    "unique_selected_homepages_across_all_source_types": 76
+    "pages": 111,
+    "selected_presets": 28,
+    "unique_selected_homepages_across_all_source_types": 77
   }
 }

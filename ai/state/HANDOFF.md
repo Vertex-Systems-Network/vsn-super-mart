@@ -512,3 +512,10 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Official selected preset View demo opened `https://impact-theme-shape.myshopify.com/`; home, New Arrivals, Silhouette Bra PDP and empty cart inspected read-only.
 - Coverage now 76/127 unique homes, 107 rendered pages across 27 presets; 51 remain.
 - Evidence/report: `banks/research/competitors/shopify-live-demo-batch49-2026.md`. No shopper actions or viewport tests; continue after CI passes.
+
+
+## Batch 50 — Focal:Quartz (2026-10-26)
+
+- Official selected preset View demo opened `https://focal-theme-quartz.myshopify.com/`; home, 59-product Men's Watches collection, 1969 Vintage Steel / White PDP and empty cart inspected read-only.
+- Coverage now 77/127 unique homes, 111 rendered pages across 28 presets; 50 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch50-2026.md`. No shopper actions or viewport tests; continue after CI passes.

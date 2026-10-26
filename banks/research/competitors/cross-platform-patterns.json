@@ -2041,6 +2041,37 @@
         "delivery-estimate"
       ],
       "design_implication": "Make size, color, shipping and product care easy to review, while keeping performance and sustainability statements tied to verifiable evidence."
+    },
+    {
+      "id": "focal-quartz-watch-story-and-customization",
+      "context": "Specialist accessories stores can tie product education to detailed customization and service reassurance.",
+      "signals": [
+        "Home links watch history and collection storytelling with bestsellers, editorial and strap/face customization education.",
+        "Collection presents 59 items with filters, sort, product badges and review cues.",
+        "PDP combines size and strap choices with technical specs, shipping/warranty content and complementary accessories; empty cart includes recovery and service information."
+      ],
+      "source_entry_ids": [
+        "shopify-focal-quartz-browser-render"
+      ],
+      "option_ids": [
+        "announcement-bar",
+        "collection-list",
+        "featured-collection",
+        "image-banner",
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "product-reviews-slot",
+        "variant-picker-styles",
+        "inventory-status",
+        "collapsible-tabs",
+        "complementary-products",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_implication": "Explain product history and specifications while making customization and warranty/shipping information easy to compare. Verify merchant claims before presenting them as facts."
     }
   ]
 }
