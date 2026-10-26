@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Stage 2 active. Broadcast:Airwave rendered (home/collection/product already indexed; cart previously unverified). Coverage 79/127 selected homes (51 indexed HTML + 28 additional rendered), 147 pages across 37 presets; 48 homes remain. Continue next unobserved selected preset.",
+  "next_action": "Stage 2 active. Impact:Impact rendered (homepage was already indexed); collection, product and empty cart inspected. Coverage 79/127 selected homes (51 indexed HTML + 28 additional rendered), 151 pages across 38 presets; 48 homes remain. Continue next unobserved selected preset.",
   "approvals": {},
   "figma": {
     "file_key": null,
