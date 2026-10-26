@@ -1,3 +1,13 @@
+## 2026-10-26 — Shopify official preview mapping Batch 73
+
+**Done**
+- Checked six official listing previews: Local:Caffeine/Lively, Empire:Empire/Circuit/Forma, and Be Yours:Peace.
+- Each visible View demo control became disabled while its preview frame stayed about:blank. No demo host or homepage was attributed; the completion matrix and official-listing notes now record the blocker.
+- Counts unchanged: 83/127 unique homes, 195 rendered pages across 49 presets; 44 remain. Batch72 CI run 171 passed.
+
+**Next**
+- Continue with Be Yours:Harmony, then the next unobserved selected preset. Count coverage only after direct storefront evidence is verified.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 72 (Empire:Depot)
 
 **Done**
