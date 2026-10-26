@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 183,
-    "browser_rendered_selected_presets": 46,
+    "browser_rendered_pages": 187,
+    "browser_rendered_selected_presets": 47,
     "distinct_selected_homepages_any_source": 82
   },
   "pending": {
@@ -3124,12 +3124,38 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "no interactive/mobile/editor/test access"
+        "No collection filters, sort or compare actions; no variants/add/cart/checkout actions",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, keyboard or performance testing",
+        "Food, nutrition, organic, rating, availability, pickup and delivery claims unverified"
       ],
-      "next_action": []
+      "next_action": [
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-main.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-main.myshopify.com/collections/bread-buns-crisps",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-main.myshopify.com/collections/bread-buns-crisps/products/some-bread",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://local-theme-main.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
+      ]
     },
     {
       "audit_rank": 39,
