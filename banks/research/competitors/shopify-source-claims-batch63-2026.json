@@ -1,0 +1,46 @@
+{
+  "batch": 63,
+  "preset_id": "warehouse:wood",
+  "audit_entry_id": "shopify-live-warehouse-wood",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/warehouse/presets/wood",
+  "store_url": "https://warehouse-theme-wood.myshopify.com/",
+  "store_url_verification": "official_listing_iframe_src_read_from_rendered_DOM",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://warehouse-theme-wood.myshopify.com/",
+      "observations": [
+        "Nordic design hero, category and brand discovery, featured shelves with inventory/sales cues, featured product, brand story, sales, newsletter, blog and service modules."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://warehouse-theme-wood.myshopify.com/collections/tableware",
+      "observations": [
+        "46 products; 24 per page; Best selling sort; grid/list controls; Color, Price, Brand and Availability filters; stock/discount labels and page 2."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot",
+      "observations": [
+        "$35; Grey/Burgundy/White; SKU; 4.5/5 from two reviews; gallery, quantity, add/buy controls, description/security and recommendations."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://warehouse-theme-wood.myshopify.com/cart",
+      "observations": [
+        "Empty state; $200 free-shipping threshold; recently viewed tea pot."
+      ]
+    }
+  ],
+  "limits": [
+    "No shopper interactions",
+    "No screenshot/mobile/editor/checkout/performance tests",
+    "Merchant claims unverified",
+    "Homepage already indexed so unique count unchanged"
+  ]
+}
