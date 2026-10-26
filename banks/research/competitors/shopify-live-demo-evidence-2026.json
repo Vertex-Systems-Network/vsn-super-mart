@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 32 additional browser-rendered homes are documented (83/127 unique); 191 read-only rendered pages across 48 selected presets.",
+  "summary": "51 indexed HTML selected homes and 32 additional browser-rendered homes are documented (83/127 unique); 195 read-only rendered pages across 49 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -7292,11 +7292,76 @@
         "No screenshot, viewport/mobile, editor, keyboard or performance tests.",
         "Demo footwear, materials, sustainability, inventory, shipping and store claims unverified."
       ]
+    },
+    {
+      "id": "shopify-live-empire-depot",
+      "selected_preset_id": "empire:depot",
+      "theme_family": "Empire",
+      "preset": "Depot",
+      "store_url": "https://empire-theme-depot.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Direct public navigation to the documented Depot demo URL and read-only rendered accessibility-tree inspection; listing-to-store mapping is retained from the existing official-listing and indexed-source verification. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://empire-theme-depot.myshopify.com/",
+          "observations": [
+            "Rendered header exposes broad category search selector and dedicated account/cart links; department menus group tool categories and industries, with About, Presets, Support, Where to Buy, and Services.",
+            "Homepage layers a two-slide hero, impact-tool compare shelf with price/rating/stock states, sale and services tiles, top collections, featured product with inventory and purchase controls, best-seller shelf, countdown promotion, five-way category navigation, DIY articles, service/footer promises.",
+            "Read-only browser render; no navigation/product controls activated. Seller certifications, orders, shipping and availability claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://empire-theme-depot.myshopify.com/collections/by-category",
+          "observations": [
+            "By Category is a department directory rather than a conventional product grid: Featured, Popular Tools, Hand Tools, Hardware, Storage & Workspace and Accessories each expose nested category links.",
+            "No product count, product filters or sort controls are exposed on this directory page; browsing controls not activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://empire-theme-depot.myshopify.com/products/battery-operated-compact-impact-wrench-1-2-inch-detent-pin-tool-only",
+          "observations": [
+            "Compact Impact Wrench PDP shows ten media items, $180, BAT20CW SKU, low-stock label, product description, quantity, Add to cart/Buy it now, shipping estimate and specifications/request-a-quote accordions.",
+            "Visible demo notice links purchasing to Klein Tools; no purchase, quantity, media or accordion action executed. Stock, rating, torque and fulfillment claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://empire-theme-depot.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart page reports an empty cart, offers Continue shopping, shows a free-shipping threshold and order processing copy; no cart changes or checkout."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Homepage, By Category and Compact Impact Wrench were already indexed; browser observations remain separate from indexed-document fields.",
+        "No shopper controls, filters, sorting, add-to-cart, cart mutation, checkout, screenshot, measured viewport/mobile, Theme Editor, keyboard or performance test.",
+        "Demo claims about certification, sales, product specifications, stock and shipping remain unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 191,
-    "selected_presets": 48,
+    "pages": 195,
+    "selected_presets": 49,
     "unique_selected_homepages_across_all_source_types": 83
   }
 }
