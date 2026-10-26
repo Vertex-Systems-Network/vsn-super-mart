@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 99,
-    "browser_rendered_selected_presets": 25,
-    "distinct_selected_homepages_any_source": 75
+    "browser_rendered_pages": 103,
+    "browser_rendered_selected_presets": 26,
+    "distinct_selected_homepages_any_source": 76
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 52
+    "home_any_source": 51
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -442,23 +442,23 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impulse-theme-fashion.myshopify.com/",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impulse-theme-fashion.myshopify.com/cart",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         }
       },
@@ -470,12 +470,11 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "No filter, sort, Quick View, size or cart actions executed",
-        "No screenshot or measured viewport/mobile render",
-        "No Theme Editor, checkout, keyboard or performance testing",
-        "Organic, fit, inventory, certification, shipping and other seller claims unverified"
+        "No filter, sort, quick-view, size selection, add-to-cart or cart actions executed",
+        "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
+        "Merchant product, inventory, material and sustainability claims unverified"
       ],
       "next_action": [
         "Continue with next unobserved selected preset"
@@ -488,12 +487,12 @@
         },
         {
           "kind": "collection",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/all",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit",
           "evidence_class": "browser_render_readonly"
         },
         {
           "kind": "product",
-          "url": "https://impulse-theme-fashion.myshopify.com/products/the-ames-trouser",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
           "evidence_class": "browser_render_readonly"
         },
         {

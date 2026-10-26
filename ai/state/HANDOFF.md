@@ -497,3 +497,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch46-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch46-2026.json`.
 - No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller and durability claims unverified.
 - Next: continue next unobserved selected preset.
+
+
+## Batch 47 — Impulse:Impulse (2026-10-26)
+
+- Official selected preset View demo opened `https://impulse-theme-fashion.myshopify.com/`; home, The Linen Edit collection, The Lido Short PDP and empty cart inspected read-only.
+- Coverage now 76/127 unique selected homes, 103 rendered pages across 26 presets; 51 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch47-2026.md`; no shopper interactions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.
+- Next: continue next unobserved selected preset; preserve source distinctions and commit only after CI validation.

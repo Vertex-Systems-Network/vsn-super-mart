@@ -8357,6 +8357,50 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-impulse-impulse-browser-render",
+      "platform": "shopify",
+      "theme": "Impulse",
+      "preset": "Impulse",
+      "url": "https://impulse-theme-fashion.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-card-badges",
+        "product-blocks",
+        "inventory-status",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "accordion-content"
+      ],
+      "design_signals": [
+        "Home uses a linen shoppable hero, category tiles, product shelves, promotion grid, lookbook/editorial, recommendations and newsletter.",
+        "Collection exposes filters and sorting across 7 items with sale/new badges.",
+        "PDP combines price/discount, availability, sizing guidance, accordion product information and related items; cart empty state offers recovery path."
+      ],
+      "niches": [
+        "fashion",
+        "apparel",
+        "linen"
+      ],
+      "notes": "Official Shopify Impulse:Impulse View demo opened impulse-theme-fashion.myshopify.com. Home, The Linen Edit collection, The Lido Short PDP and empty cart inspected read-only. No shopper actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance testing. Merchant claims not verified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, collection, product and cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

@@ -1981,6 +1981,31 @@
         "empty-states"
       ],
       "design_implication": "Use room and designer stories to organize broad home collections, then provide useful color and availability choices. Substantiate product performance and durability claims and show out-of-stock states clearly."
+    },
+    {
+      "id": "impulse-shoppable-linen-merchandising",
+      "context": "Fashion retailers can pair seasonal storytelling with direct category and product discovery.",
+      "signals": [
+        "Home combines shoppable linen hero, category tiles, product shelves, promo grid, lookbook and journal.",
+        "Collection provides filters/sort and badge/discount cues across a compact product set.",
+        "PDP surfaces stock, size-chart, accordions and recommendations; cart recovery offers Continue shopping."
+      ],
+      "source_entry_ids": [
+        "shopify-impulse-impulse-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-card-badges",
+        "inventory-status",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_implication": "Connect seasonal editorial to browsable collections, then make sizing, availability, materials and delivery information easy to find before purchase; validate merchant claims."
     }
   ]
 }

@@ -5783,11 +5783,77 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-impulse-impulse-browser-render",
+      "selected_preset_id": "impulse:impulse",
+      "theme_family": "Impulse",
+      "preset": "Impulse",
+      "store_url": "https://impulse-theme-fashion.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Impulse:Impulse preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-fashion.myshopify.com/",
+          "observations": [
+            "Official Shopify Impulse:Impulse preset listing View demo opened impulse-theme-fashion.myshopify.com.",
+            "Fashion storefront has free-shipping announcement, utility links, New/Clothing/Sale navigation and an Easy by design linen hero with shoppable product callouts.",
+            "Home modules include four category tiles, Everyday Essentials and All New product shelves, promo grid, lookbook, journal, editorial copy, product benefits and newsletter.",
+            "Merchant positioning and product/material claims are page copy, not independently verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit",
+          "observations": [
+            "The Linen Edit collection shows 7 products and a promotional sale banner.",
+            "Filter control and Best selling default sort are present; visible sort choices include Featured, relevance, alphabetical, price and date.",
+            "Product cards show sale/new badges and prices; no filter, sort or quick-view control was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
+          "observations": [
+            "The Lido Short PDP shows $120 regular price and $96 sale price (save $24), descriptive copy, a size-chart link, product imagery and fit/material bullets.",
+            "Page displays In stock, ready to ship and ADD TO CART; Description, Materials & Care, Certifications and Shipping & Returns are accordion controls.",
+            "You may also like recommendations and testimonial/sustainability content appear below the product.",
+            "No size, accordion, add-to-cart or sharing action was activated; seller statements are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-fashion.myshopify.com/cart",
+          "observations": [
+            "Cart says Your cart is currently empty and provides Continue shopping to the all-products collection.",
+            "Recently viewed and Popular picks modules appear beneath the empty state; newsletter and service links appear in footer.",
+            "No cart or checkout action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 99,
-    "selected_presets": 25,
-    "unique_selected_homepages_across_all_source_types": 75
+    "pages": 103,
+    "selected_presets": 26,
+    "unique_selected_homepages_across_all_source_types": 76
   }
 }
