@@ -838,6 +838,17 @@
         "Dedicated Holiday Crinkle Penguin Dog Toy historical PDP; product image/variant form markup in old indexed source.",
         "Stock/variant/checkout interaction not executed."
       ]
+    },
+    {
+      "id": "shopify-savor-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "hero link to dipping-sauce collection",
+        "six-item product shelf",
+        "brand story and video prompt",
+        "footer shopping/help/social groups and newsletter"
+      ],
+      "design_hypothesis": "The rendered page sequence connects a food-specific campaign to product discovery, pack-size choices on the PDP, and browse recovery in the empty cart. Translate the information hierarchy into an original layout; this pass does not establish visual composition, interactions or mobile behavior."
     }
   ]
 }

@@ -27,6 +27,53 @@ def check():
     catalog_ids={r.get("id") for r in selected}
     if set(ids)!=catalog_ids:
         errors.append("Matrix IDs not equal selected official catalog IDs")
+    # Rendered browser observations are tracked separately from public indexed HTML.
+    rendered=source.get("browser_render_observations",[])
+    rendered_by_preset={}
+    render_urls=set()
+    render_home_ids=set()
+    selected_ids={x.get("id") for x in selected}
+    for record in rendered:
+        preset_id=record.get("selected_preset_id")
+        if preset_id not in selected_ids:
+            errors.append("Rendered observation references an unselected preset: "+str(preset_id))
+        if record.get("source_class")!="browser_render_readonly":
+            errors.append("Rendered observation has unsupported source class: "+str(record.get("id")))
+        pages=record.get("pages",[])
+        seen_kinds=set()
+        for page in pages:
+            kind=page.get("kind")
+            url=page.get("url","")
+            if kind not in ("home","collection","product","cart"):
+                errors.append("Invalid rendered page kind: "+str(kind))
+            if kind in seen_kinds:
+                errors.append("Duplicate rendered page kind: "+str(preset_id)+"/"+str(kind))
+            seen_kinds.add(kind)
+            if not url.startswith("https://") or url in render_urls:
+                errors.append("Invalid or duplicate rendered page URL: "+str(url))
+            render_urls.add(url)
+            if page.get("evidence_class")!="browser_render_readonly" or page.get("interactions_executed") is not False:
+                errors.append("Rendered page evidence scope is invalid: "+str(url))
+        rendered_by_preset[preset_id]=[{"kind":p.get("kind"),"url":p.get("url"),"evidence_class":p.get("evidence_class")} for p in pages]
+        if any(p.get("kind")=="home" for p in pages):
+            render_home_ids.add(preset_id)
+    expected_render_pages=sum(len(x.get("pages",[])) for x in rendered)
+    indexed_home_ids={s.get("catalog_preset_id") for s in source.get("stores",[]) if s.get("selected_127") and s.get("homepage",{}).get("verification")=="public_html_document_opened"}
+    any_home_ids=indexed_home_ids | render_home_ids
+    if matrix.get("counts",{}).get("browser_rendered_pages")!=expected_render_pages:
+        errors.append("Matrix rendered-page count differs from source evidence")
+    if matrix.get("counts",{}).get("browser_rendered_selected_presets")!=len(rendered_by_preset):
+        errors.append("Matrix rendered-preset count differs from source evidence")
+    if matrix.get("counts",{}).get("distinct_selected_homepages_any_source")!=len(any_home_ids):
+        errors.append("Matrix unique homepage count differs across source types")
+    if matrix.get("pending",{}).get("home_any_source")!=127-len(any_home_ids):
+        errors.append("Matrix any-source homepage backlog differs from source evidence")
+    if plan.get("counts",{}).get("browser_rendered_pages")!=expected_render_pages:
+        errors.append("Research plan rendered-page count differs from source evidence")
+    if plan.get("counts",{}).get("browser_rendered_selected_presets")!=len(rendered_by_preset):
+        errors.append("Research plan rendered-preset count differs from source evidence")
+    if plan.get("counts",{}).get("selected_home_observed_any_source")!=len(any_home_ids):
+        errors.append("Research plan unique homepage count differs across source types")
     expected={k:0 for k in ("home","collection","product","cart")}
     for row in rows:
         id_=row.get("selected_preset_id")
@@ -50,6 +97,10 @@ def check():
         for key in ("actual_dom_interactions","mobile_viewport_render","private_theme_editor","checkout","real_lighthouse"):
             if row.get("test_scope",{}).get(key) is not False:
                 errors.append("Unperformed test marked passed "+str(id_)+":"+key)
+        expected_browser=rendered_by_preset.get(id_,[])
+        given_browser=row.get("browser_render_observations",[])
+        if given_browser!=expected_browser:
+            errors.append("Rendered browser observations mismatch: "+str(id_))
         actual_extra=[d.get("url") for d in matching.get("supplemental_documentation",[])]
         if row.get("supplementary_indexed_html_urls")!=actual_extra:
             errors.append("Supplementary pages misrepresented: "+str(id_))

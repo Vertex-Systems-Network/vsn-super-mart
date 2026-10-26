@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Savor selected preset: direct read-only browser-rendered observations plus attributed third-party automated scan report; no VSN interaction or accessibility tests.",
+  "sources": [
+    {
+      "id": "savor-demo",
+      "url": "https://savor-theme-demo.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://savor-theme-demo.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://savor-theme-demo.myshopify.com/collections/all-products"
+        },
+        {
+          "kind": "product",
+          "url": "https://savor-theme-demo.myshopify.com/products/sweet-pineapple"
+        },
+        {
+          "kind": "cart",
+          "url": "https://savor-theme-demo.myshopify.com/cart"
+        }
+      ],
+      "observed_on": "2026-10-26"
+    },
+    {
+      "id": "savor-official-listing",
+      "url": "https://themes.shopify.com/themes/savor/presets/savor",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26"
+    },
+    {
+      "id": "accessifyai-savor-scan",
+      "url": "https://accessifyai.de/shopify-theme-accessibility/savor",
+      "source_class": "third_party_automated_accessibility_report",
+      "scan_date": "2026-09-29",
+      "theme_version": "4.2.0"
+    }
+  ],
+  "claims": [
+    {
+      "id": "savor-food-pack-options-and-empty-cart",
+      "source_ids": [
+        "savor-demo"
+      ],
+      "observed": "Rendered product page displays 1/2/3/6 bottle pack choices, quantity and purchase controls; rendered collection displays price/availability/sort controls; empty cart displays shopping recovery and recommendations.",
+      "risk": "DOM presence does not prove that the options update price correctly, cart controls work or recommendations finish loading.",
+      "vsn_guard": "Keep package quantity and selected-variant pricing legible; test the complete variant/cart flow in an authorized test environment before claiming it works."
+    },
+    {
+      "id": "savor-third-party-automated-accessibility-report",
+      "source_ids": [
+        "accessifyai-savor-scan"
+      ],
+      "observed": "AccessifyAI reports an automated scan of Savor v4.2.0 on 2026-09-29 across four pages, with 8 issue types and 65 occurrences among the criteria its index reports.",
+      "risk": "Third-party automated scan coverage is limited and is not a VSN-run audit, certification or complete WCAG review.",
+      "vsn_guard": "Treat as a manual QA prompt only; run VSN keyboard, screen-reader and automated audits separately before making accessibility claims."
+    }
+  ]
+}

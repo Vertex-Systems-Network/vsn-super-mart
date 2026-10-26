@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 distinct Shopify demo hosts, 151 primary indexed HTML docs; 51/127 selected home demo sources. All interactive/mobile/editor tests pending.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 1 separately recorded browser-rendered Savor homepage (52/127 unique homes observed across these evidence types). Four Savor pages were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4214,5 +4214,73 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts"
   ],
-  "selected_127_document_count": 51
+  "selected_127_document_count": 51,
+  "browser_render_observations": [
+    {
+      "id": "shopify-savor-browser-render",
+      "selected_preset_id": "savor:savor",
+      "theme_family": "Savor",
+      "preset": "Savor",
+      "store_url": "https://savor-theme-demo.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Read-only inspection of the browser-rendered accessibility tree; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://savor-theme-demo.myshopify.com/",
+          "observations": [
+            "Homepage navigation exposes Shop, About and Recipes; hero link routes to Dipping Sauces.",
+            "A homepage product shelf presents six items, with Choose calls to action on multi-option products.",
+            "A brand-story section follows the product shelf and exposes a play-video control."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://savor-theme-demo.myshopify.com/collections/all-products",
+          "observations": [
+            "All Products collection reports 34 items and exposes Availability, Price and Sort controls.",
+            "Rendered product cards expose Choose or Add calls to action."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://savor-theme-demo.myshopify.com/products/sweet-pineapple",
+          "observations": [
+            "Product page exposes three gallery images, usage copy, and a 16.5 oz (468 g) package statement.",
+            "Bottle Pack Size options are 1, 2, 3 and 6 bottles; quantity, Add to Cart, Buy It Now and a quick-add bar are present.",
+            "Product recommendations showed loading placeholders in the captured state; loading completion was not checked."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://savor-theme-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart state includes a sign-in prompt, Continue Shopping link and three recommended product cards."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
+    }
+  ],
+  "browser_render_counts": {
+    "pages": 4,
+    "selected_presets": 1,
+    "unique_selected_homepages_across_all_source_types": 52
+  }
 }

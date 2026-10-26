@@ -1362,6 +1362,27 @@
         "product-badges-trust"
       ],
       "design_implication": "Market-aware shipping, region/language policy content, separate quote/certification review; do not introduce false urgency or unsupported health/sustainability claims."
+    },
+    {
+      "id": "food-multipack-merchandising",
+      "context": "Food storefronts can make package quantities, flavor discovery and buying routes clear across homepage, collection and product page.",
+      "signals": [
+        "Pack-size choices from one to six bottles on product page",
+        "Availability and price filters on the all-products collection",
+        "Product shelf actions vary between Choose and Add",
+        "Empty-cart state links back to shopping and displays recommendations"
+      ],
+      "source_entry_ids": [
+        "shopify-savor-browser-render"
+      ],
+      "option_ids": [
+        "variant-picker-styles",
+        "faceted-filters",
+        "quick-add",
+        "empty-states",
+        "cart-upsell"
+      ],
+      "design_implication": "Show package quantity and selected-variant pricing together, keep collection filters easy to scan, and offer recommendations as a recovery path in the empty cart. Validate real cart state and create original copy and layouts."
     }
   ]
 }

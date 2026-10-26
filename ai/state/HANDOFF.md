@@ -1,3 +1,11 @@
+## 2026-10-26 — Batch 21 Savor rendered-browser audit (four pages)
+
+Resolved the top pending priority preset, Savor, to https://savor-theme-demo.myshopify.com/ using the official Shopify listing's demo path and a separate public accessibility report; then directly inspected the rendered read-only browser accessibility tree for home, All Products collection, Sweet Pineapple PDP and empty cart. Recorded four page observations separately from the indexed HTML bank; no screenshots, measured viewport, interactions, add-to-cart, checkout, mobile, Theme Editor, keyboard or VSN Lighthouse audit. No existing indexed page counts were incremented.
+
+Research adds one competitor-audit record, one source-linked pattern (food-multipack-merchandising) and one qualitative design observation. The Savor row in the 127 matrix now carries rendered evidence and updated blockers. Dashboard: **51/127 indexed homepage documents (40.2%)** plus **1 separately rendered homepage**, for **52/127 distinct selected homes observed (40.9%)**; 76 remain missing in the indexed-only count and 75 have no source of either type. The external AccessifyAI scan of Savor is recorded as a third-party automated report, not a VSN accessibility test or certification. PR #9 remains open and research-only.
+
+Next: audit **Refresh**, the next priority pending selected preset; maintain separate indexed/rendered evidence counts. Stage 2 remains active. No design direction, Figma file or theme code started.
+
 # Session handoff
 
 _Update at the end of every session (even mid-task). Newest entry on top._

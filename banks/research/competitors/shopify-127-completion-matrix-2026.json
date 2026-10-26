@@ -16,20 +16,25 @@
     "mobile": 0,
     "editor": 0,
     "checkout": 0,
-    "lighthouse": 0
+    "lighthouse": 0,
+    "browser_rendered_pages": 4,
+    "browser_rendered_selected_presets": 1,
+    "distinct_selected_homepages_any_source": 52
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
-    "cart": 116
+    "cart": 116,
+    "home_any_source": 75
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
     "primary_demo": "Public indexed HTML read-only with per-page crawled recency",
     "supplementary": "Additional verified indexed source outside one-primary-page-per-kind count",
     "independent_review": "Third-party reported interaction not VSN test",
-    "performance": "Third-party lab snapshots not VSN Lighthouse run"
+    "performance": "Third-party lab snapshots not VSN Lighthouse run",
+    "browser_render_readonly": "Direct browser-rendered page structure inspected read-only; no action execution, screenshot, measured viewport, mobile, or performance test."
   },
   "per_family": [
     {
@@ -6000,14 +6005,36 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No rendered screenshot or measured viewport; mobile layout untested",
+        "No interactions, cart mutation, checkout, private Theme Editor, keyboard, VSN accessibility audit or Lighthouse"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/savor/presets/savor",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with Refresh, the next priority pending preset.",
+        "Test Savor mobile viewport, keyboard behavior and merchant Theme Editor only when those separate research paths are available."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://savor-theme-demo.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://savor-theme-demo.myshopify.com/collections/all-products",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://savor-theme-demo.myshopify.com/products/sweet-pineapple",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://savor-theme-demo.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
