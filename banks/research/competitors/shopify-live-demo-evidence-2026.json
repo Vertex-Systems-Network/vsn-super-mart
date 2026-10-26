@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 163 read-only rendered pages across 41 selected presets.",
+  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 167 read-only rendered pages across 42 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -3640,7 +3640,8 @@
           "Deep Homestyle, Lifestyle, Kids, Brands and country/currency navigation; home furniture and kitchen promotional merchandising.",
           "Category rail, multiple featured collections, shop-the-look, promotional discount tiles, blog and newsletter, local pickup/service claims.",
           "One indexed countdown section shows sample 12-day/12-hour/12-minute/12-second labels and Black Friday marketing; actual timer and event date not checked.",
-          "Empty cart drawer text/subtotal appears in homepage HTML, not a dedicated /cart source and not a cart mutation."
+          "Empty cart drawer text/subtotal appears in homepage HTML, not a dedicated /cart source and not a cart mutation.",
+          "Browser rendering of official preset demo additionally showed the restocked coffee hero, bestseller shelf, Shop the Look, campaign tiles, outdoor feature, brand logos, spring arrivals, local pickup, brand values, journal and newsletter; see separate browser_render_observations."
         ],
         "option_ids": [
           "mega-menu",
@@ -6827,11 +6828,77 @@
         "No shopper interactions or screenshot/mobile/editor/checkout/keyboard/performance tests.",
         "Merchant jewelry, product, material, ratings, shipping and warranty claims unverified."
       ]
+    },
+    {
+      "id": "shopify-expanse",
+      "selected_preset_id": "expanse:expanse",
+      "theme_family": "Expanse",
+      "preset": "Expanse",
+      "store_url": "https://expanse-theme-furniture.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Expanse listing preview was inspected in its embedded demo, revealing the storefront host; direct public storefront navigation and read-only accessibility-tree inspection. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://expanse-theme-furniture.myshopify.com/",
+          "observations": [
+            "Home-goods storefront header groups Homestyle, Lifestyle, Kids and Brands, with search/account/cart and a shipping/returns announcement.",
+            "Hero promotes restocked coffee items; subsequent modules include category tiles, Coffee Brewing Bestsellers, Shop the Look, discount tiles, outdoor campaign, brand logos, Spring Arrivals, featured product/editorial blocks, countdown, local-pickup/location messaging, brand values, journal, newsletter and service/footer promos.",
+            "United States / USD localization is shown. No shopper controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://expanse-theme-furniture.myshopify.com/collections/planters",
+          "observations": [
+            "Planters collection displays 12 products, Best selling sort, grid/large/small/list controls and Product type, Price, Brand and Availability filters.",
+            "Product cards show brand, price, sold-out vs add-to-cart states; no filters, sort, grid density or product controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://expanse-theme-furniture.myshopify.com/collections/planters/products/trigg-wall-vessel",
+          "observations": [
+            "Umbra Trigg Wall Vessel shows $35 regular price, Copper / Concrete selected, Large selected; Small appears sold out. Gallery and zoom, seller-provided free shipping/returns/carbon-neutral/secure-payment statements, low-stock copy, add-to-cart and pickup at Texas Warehouse are visible.",
+            "Description, shipping information and ask-a-question accordions plus vendor/collection recommendations and customer testimonial appear below. No controls activated; seller claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://expanse-theme-furniture.myshopify.com/cart",
+          "observations": [
+            "Clicking the header cart opens a drawer that states the cart is currently empty. No cart mutation or checkout action."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Homepage, furniture collection and coffee-maker product already existed as indexed HTML; browser-observed Planters and Trigg Wall Vessel pages remain separate observations.",
+        "No filters, sorting, grid density, variants, zoom, add-to-cart, checkout or keyboard interaction tests.",
+        "No screenshot, viewport/mobile, Theme Editor or performance tests.",
+        "Seller product, stock, pickup, shipping and sustainability claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 163,
-    "selected_presets": 41,
+    "pages": 167,
+    "selected_presets": 42,
     "unique_selected_homepages_across_all_source_types": 79
   }
 }
