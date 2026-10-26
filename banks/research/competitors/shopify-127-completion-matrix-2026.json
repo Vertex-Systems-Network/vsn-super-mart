@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_on": "2026-10-27",
+  "generated_on": "2026-10-26",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "INCOMPLETE_DIRECT_DEMO_COVERAGE_DO_NOT_ADVANCE_STAGE",
+  "completion_claim": "100/127 unique selected homepages documented (51 indexed HTML + 49 additional browser-rendered); 272 rendered pages across 69 selected presets. 27 remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -4597,7 +4597,7 @@
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Continue next unobserved selected preset; keep all untested surfaces explicitly pending"
       ],
       "browser_render_observations": [
         {
@@ -4607,12 +4607,12 @@
         },
         {
           "kind": "collection",
-          "url": "https://palo-alto-theme-main.myshopify.com/collections/all",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals",
           "evidence_class": "browser_render_readonly"
         },
         {
           "kind": "product",
-          "url": "https://palo-alto-theme-main.myshopify.com/collections/all/products/itinerary-blazer-ivory",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals/products/sabine-skirt",
           "evidence_class": "browser_render_readonly"
         },
         {
