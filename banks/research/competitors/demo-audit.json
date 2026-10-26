@@ -5928,7 +5928,7 @@
       "niches": [
         "handmade-ceramics-workshops"
       ],
-      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "notes": "Official Stiletto:Tapestry listing preview iframe exposed stiletto-theme-craft.myshopify.com and redirected to STO Tapestry. Browser render inspected home, All collection (32 results), Wine Cup | Anthracite PDP and empty cart; indexed home was already counted. Evidence details in the live-demo bank. No shopper controls, screenshot or device/editor testing.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
