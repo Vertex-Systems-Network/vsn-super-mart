@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 143 read-only rendered pages across 36 selected presets.",
+  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 147 read-only rendered pages across 37 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6492,6 +6492,72 @@
           "observations": [
             "Cart is empty with Start shopping and a Before you go recommendation carousel showing decks and apparel, including pre-order items.",
             "No cart or checkout action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
+    },
+    {
+      "id": "shopify-live-broadcast-airwave",
+      "selected_preset_id": "broadcast:airwave",
+      "theme_family": "Broadcast",
+      "preset": "Airwave",
+      "store_url": "https://broadcast-theme-airwave.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Broadcast:Airwave listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-theme-airwave.myshopify.com/",
+          "observations": [
+            "Coffee-led home uses a video-style hero and repeated $100 free-shipping announcement, followed by a Daily Grind story block.",
+            "Best Sellers shelf links House Blend, Decaf Blend and Logo Mug; a New roast drops countdown precedes a pre-order T-shirt feature.",
+            "Home offers Coffee Blends and All Products collection cards, workshop/event columns, press/testimonial sections and a newsletter form.",
+            "Rendered home display shows countdown around 34 days at capture; merchant claims and testimonials remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-theme-airwave.myshopify.com/collections/all",
+          "observations": [
+            "All Products reports five items and shows Availability, Price and Product type facets plus a Sort by control.",
+            "Five cards are Citrus Blend ($33), House Blend ($33), Decaf Blend ($33), Logo Mug ($40), and Logo Tshirt ($85, marked Pre-order).",
+            "A How to Brew: Pour Over blog feature appears among the collection results; no filter, sort, Quick Add or product control was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend",
+          "observations": [
+            "House Blend is shown at $33 with $50 free-shipping copy, contrasting with the $100 home announcement.",
+            "Weight 250g and Grind options Whole Bean, Espresso and Medium display unavailable/sold-out labels; quantity and Add to Cart controls remain visible.",
+            "PDP includes Description/Tasting Notes tabs, FAQ/Shipping info/Why our coffee stands out disclosures, Logo Mug cross-sell and editorial/ethical-sourcing claims.",
+            "No variant, quantity, accordion, cross-sell or purchase action was activated; stock, shipping and product claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-theme-airwave.myshopify.com/cart",
+          "observations": [
+            "Cart page reports Your Cart is Empty and offers Continue Shopping to All Products.",
+            "Logo Mug cross-sell is present with an Add control; a House Blend product link/visual also appears.",
+            "No cart, cross-sell or checkout action was executed."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
