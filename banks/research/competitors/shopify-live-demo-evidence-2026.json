@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 135 read-only rendered pages across 34 selected presets.",
+  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 139 read-only rendered pages across 35 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6365,6 +6365,69 @@
           "url": "https://warehouse-theme-fabric.myshopify.com/cart",
           "observations": [
             "Cart is empty, with a Shop our products link and a Recently viewed jacket card; a free-shipping threshold message says $49.00 more to qualify.",
+            "No cart or checkout action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
+    },
+    {
+      "id": "shopify-symmetry-beatnik",
+      "selected_preset_id": "symmetry:beatnik",
+      "theme_family": "Symmetry",
+      "preset": "Beatnik",
+      "store_url": "https://beatnik-5.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Symmetry:Beatnik listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://beatnik-5.myshopify.com/",
+          "observations": [
+            "Official Symmetry:Beatnik listing View demo opens beatnik-5.myshopify.com and identifies the store as Symmetry Theme Beatnik; navigation centers eyewear and Our Story.",
+            "Eyewear campaign hero links women's/men's shopping, sale/countdown and promo tiles support product discovery; bestseller shelf, product storytelling, materials/brand pages, customer quotes, blog, store details, service links and newsletter continue the path.",
+            "Store copy describes Bird's design, sustainability and social-impact claims; those merchant statements are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses",
+          "observations": [
+            "Women's Sunglasses collection lists 10 products with Featured sorting and visible Color and Product type filter groups; an availability Show/Hide control is also present.",
+            "Cards expose product prices/sale/pre-order states and review summaries; category footer promos and brand storytelling remain visible.",
+            "No filter, sort, availability, product or purchase action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses/products/kaka",
+          "observations": [
+            "Kaka sunglasses PDP shows $65.00, five gallery images, 3.67/5 from three reviews, Honey/Snowy/Caramel color options, UV Protection Rating of 4 and a 9-in-stock signal.",
+            "Page includes quantity and Add to cart controls, optional prescription entry and blue-light checkbox, Clarity/Sizing & Fit/Technical Specs/Shipping disclosures, linked impact/material storytelling and related recommendations.",
+            "No color, prescription, blue-light, quantity, accordion or cart interaction was activated; product, rating, inventory, UV, materials and impact claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://beatnik-5.myshopify.com/cart",
+          "observations": [
+            "Cart is empty and offers Start shopping; a Before you go... recommendations carousel lists eyewear styles and review summaries.",
             "No cart or checkout action was executed."
           ],
           "evidence_class": "browser_render_readonly",
