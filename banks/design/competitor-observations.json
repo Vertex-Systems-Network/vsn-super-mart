@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "note": "Qualitative observations only; do not mark exact 12-dimensional fingerprints verified until a human or visual screenshot audit captures the live demo across templates and breakpoints.",
   "observations": [
     {
@@ -73,12 +73,13 @@
     },
     {
       "id": "shopify-prestige",
-      "evidence_level": "official_preset_page",
+      "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "claimed lookbook/media merchandising",
-        "claimed configurable sections"
+        "Campaign hero, best-seller navigation, category shelves and editorial brand sections",
+        "65-item Women collection with visible sorting/filter and density controls",
+        "Color-linked bag PDP and empty cart; rendered destination title differs from listing preset"
       ],
-      "design_hypothesis": "Premium editorial visual hierarchy; no exact screenshot fingerprint captured."
+      "design_hypothesis": "The destination storefront pairs luxury bag merchandising with editorial campaigns, shoppable looks and product storytelling. Since the official Prestige listing preview resolved to a store titled Allure, treat this as a verified rendered destination with a mapping caveat rather than a clean preset-to-store identity."
     },
     {
       "id": "shopify-warehouse",
@@ -1288,6 +1289,26 @@
         "120-item collection with availability, price, ring-size, style and color filters; PDP ring-size selection and care/shipping sections"
       ],
       "design_hypothesis": "Luxury jewelry storefront can connect material/editorial storytelling with ring-size guidance and dense collection discovery; no screenshot or interaction test supports claims about visual quality or control behavior."
+    },
+    {
+      "id": "shopify-motion",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Apparel campaign hero with seasonal copy and category links",
+        "Collection tabs, half-zip shelf, video hero and promotional sections",
+        "Collection, product and empty-cart structures were inspected read-only"
+      ],
+      "design_hypothesis": "Motion apparel demo layers video/lifestyle storytelling with collection tabs and seasonal product merchandising; the dedicated empty cart contains generic product placeholders. Rendered structure only; seller claims and controls remain unverified."
+    },
+    {
+      "id": "shopify-motion-memo",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Everyday-work hero, category switches and product shelf",
+        "Collection callout, desk/story blocks, lookbook and service messages",
+        "Collection, product and empty-cart structures were inspected read-only"
+      ],
+      "design_hypothesis": "The Memo-hosted demo combines home-office goods discovery, collection switcher shelves and brand/editorial sections. A cart recommendation block links generic example items back to /cart; no shopper action was taken."
     }
   ]
 }
