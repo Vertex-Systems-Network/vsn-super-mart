@@ -406,12 +406,12 @@
       "id": "shopify-live-symmetry-duke",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Skateboard and apparel category hero with inventory states: preorder/sold-out/new arrival",
-        "Product shelves include color swatches and three-in-stock labels",
-        "Header announcement promises shipping $100 while inner service tile says $35; contexts not confirmed",
-        "Newsletter, collaboration/story sections and marketing reviews"
+        "Skateboard campaign hero and shop-department links",
+        "Deck and latest-apparel product carousels with preorder/sold-out states",
+        "Artist, collaboration, review and blog storytelling",
+        "Service promos, social gallery and newsletter"
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "Skateboard catalogs can connect artist-led deck products to apparel, collaboration stories and preorder availability, while delivery promises should match the applicable product and market. Claims and interactive behavior remain unverified."
     },
     {
       "id": "shopify-live-expanse-fetch",
