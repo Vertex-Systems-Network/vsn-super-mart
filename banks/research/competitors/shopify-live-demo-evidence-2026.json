@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 167 read-only rendered pages across 42 selected presets.",
+  "summary": "51 indexed HTML selected homes and 29 additional browser-rendered homes are documented (80/127 unique); 171 read-only rendered pages across 43 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6894,11 +6894,77 @@
         "No screenshot, viewport/mobile, Theme Editor or performance tests.",
         "Seller product, stock, pickup, shipping and sustainability claims unverified."
       ]
+    },
+    {
+      "id": "shopify-expanse-revive",
+      "selected_preset_id": "expanse:revive",
+      "theme_family": "Expanse",
+      "preset": "Revive",
+      "store_url": "https://expanse-theme-beauty.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Expanse:Revive listing iframe src read from rendered DOM after View demo; direct public storefront navigation and read-only accessibility-tree inspection. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://expanse-theme-beauty.myshopify.com/",
+          "observations": [
+            "Beauty storefront navigation groups Shop, Brands, Sale, Blog, About and Theme features, with search/account/cart and free-shipping announcement.",
+            "Home has Tinted SPF hero, Shop Bestsellers, holiday gift promotion/countdown, skincare category tiles, Shop the Look, testimonials, skin-brightening shelf, lipstick editorial, brand logos, hair-treatment feature, free-shipping threshold, masks and hair shelves, pickup/location content, brand spotlights, supplier disclosure, journal, newsletter and promotions.",
+            "Store identifies products as provided by One 2 One Studio, a salon and spa in Forest Hill, Toronto. Seller and promotion claims unverified. No interactions."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://expanse-theme-beauty.myshopify.com/collections/face-mists",
+          "observations": [
+            "Face Mists shows 13 products, Best selling sort, Brand/Price/Product type/Availability filters and large/small/list view controls.",
+            "Cards show brand, prices, new/sale cues and quick-shop/add controls. No collection controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://expanse-theme-beauty.myshopify.com/collections/face-mists/products/valmont-priming-with-a-hydrating-fluid",
+          "observations": [
+            "Priming With a Hydrating Fluid shows $180 regular price, quantity 1, low-stock message (7 items) and gallery/zoom, Add to cart, free-shipping/returns/carbon-neutral/secure-payment copy.",
+            "Description, Shipping information and Ask a question accordions, Before and After section, promotional countdown, vendor/collection recommendations and pickup at New York (usually ready in 24 hours) are visible. No controls activated; claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://expanse-theme-beauty.myshopify.com/cart",
+          "observations": [
+            "Header cart drawer says the cart is currently empty. No cart mutation or checkout action."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "This Revive storefront was not previously present in the selected-home evidence bank; count as one additional unique rendered homepage.",
+        "No filter, sort, grid-density, Quick Shop, variant, zoom, quantity, add-to-cart or checkout action.",
+        "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests.",
+        "Product, inventory, shipping, fulfillment, free-gift and seller claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 167,
-    "selected_presets": 42,
-    "unique_selected_homepages_across_all_source_types": 79
+    "pages": 171,
+    "selected_presets": 43,
+    "unique_selected_homepages_across_all_source_types": 80
   }
 }
