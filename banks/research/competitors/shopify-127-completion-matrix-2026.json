@@ -17,7 +17,7 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 66,
+    "browser_rendered_pages": 67,
     "browser_rendered_selected_presets": 17,
     "distinct_selected_homepages_any_source": 68
   },
@@ -987,11 +987,10 @@
       "blockers": [
         "Homepage screenshot captured; no viewport dimensions or mobile render",
         "Collection and Borderline One Piece product page inspected, but product URL was truncated in browser accessibility output and omitted from URL-indexed evidence",
-        "Cart not inspected because browser connection failed; no shopper controls or purchase flow tested",
-        "No theme editor, checkout, keyboard or performance tests"
+        "No theme editor, checkout, keyboard or performance tests",
+        "No shopper controls or purchase flow tested; viewport/mobile, editor, checkout, keyboard and performance remain unverified"
       ],
       "next_action": [
-        "Retry cart inspection when browser is available",
         "Continue with next unobserved selected preset"
       ],
       "browser_render_observations": [
@@ -1003,6 +1002,11 @@
         {
           "kind": "collection",
           "url": "https://chantilly.myshopify.com/collections/all",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://chantilly.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         }
       ]

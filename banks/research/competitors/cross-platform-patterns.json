@@ -1751,7 +1751,8 @@
       "signals": [
         "Home combines campaign hero, category links, trending products, editorial, service and brand-story modules.",
         "68-product collection links Tops, Bottoms, Swimwear and One Piece with filters, sort and varied sale/preorder/sold-out states.",
-        "Borderline One Piece PDP visibly groups color/size choices, fit guide, stock, purchase CTA and related products; content claims remain unverified."
+        "Borderline One Piece PDP visibly groups color/size choices, fit guide, stock, purchase CTA and related products; content claims remain unverified.",
+        "Empty cart provides a Start Shopping route and best-seller carousel with prices, preorder labels and ratings."
       ],
       "source_entry_ids": [
         "shopify-symmetry-symmetry-browser-render"
@@ -1763,6 +1764,9 @@
         "sorting",
         "product-card-variants",
         "product-blocks",
+        "related-products",
+        "cart-page",
+        "empty-states",
         "related-products"
       ],
       "design_implication": "Keep campaign storytelling connected to clear product-type navigation; expose useful fit and variant information on PDPs and keep merchant claims attributable."

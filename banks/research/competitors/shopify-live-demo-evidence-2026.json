@@ -5258,12 +5258,25 @@
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://chantilly.myshopify.com/cart",
+          "observations": [
+            "Cart states 'Your bag is empty' and links to Start Shopping.",
+            "A Before you go... carousel presents best-seller products, prices, preorder labels and ratings/review counts.",
+            "No cart action or checkout was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
         }
       ]
     }
   ],
   "browser_render_counts": {
-    "pages": 66,
+    "pages": 67,
     "selected_presets": 17,
     "unique_selected_homepages_across_all_source_types": 68
   }
