@@ -1179,6 +1179,18 @@
         "brand/store information, editorial and newsletter"
       ],
       "design_hypothesis": "For technical catalogs, category navigation and filter controls can carry discovery while the PDP supports purchase confidence with specifications, delivery information, stock/review cues and recommendations."
+    },
+    {
+      "id": "shopify-warehouse-mesh",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Camping/outdoor campaign slides",
+        "Activity and category shortcuts",
+        "Brand directory and brand-led product shelves",
+        "New Arrivals, featured product and editorials",
+        "Delivery, trust and newsletter modules"
+      ],
+      "design_hypothesis": "For extensive gear catalogs, pair activity and brand taxonomies with collection filters and view density controls; brand storytelling and stock/sale cues help orient product discovery. Rendered content only; no interaction or visual QA."
     }
   ]
 }
