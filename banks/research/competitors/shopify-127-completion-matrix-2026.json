@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 147,
-    "browser_rendered_selected_presets": 37,
+    "browser_rendered_pages": 151,
+    "browser_rendered_selected_presets": 38,
     "distinct_selected_homepages_any_source": 79
   },
   "pending": {
@@ -2037,14 +2037,37 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "collection",
-        "no interactive/mobile/editor/test access"
+        "No filters, sort, pagination, swatch, quantity, add-on or cart actions executed",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, checkout, keyboard or performance testing",
+        "Seller claims and product/inventory/review details unverified"
       ],
       "next_action": [
-        "Open actual collection URL from storefront navigation"
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://impact-theme-sound.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://impact-theme-sound.myshopify.com/collections/headphones",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://impact-theme-sound.myshopify.com/products/mw07-plus-tortoiseshell-stainless-steel-case",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://impact-theme-sound.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
