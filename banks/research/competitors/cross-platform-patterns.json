@@ -2188,6 +2188,35 @@
         "newsletter-signup"
       ],
       "design_implication": "Link editorial shoe stories to collection and product paths while keeping size guidance, color choices and service policies easy to find."
+    },
+    {
+      "id": "apparel-preorder-fit-and-fulfilment",
+      "context": "Apparel catalogs with pre-order products need availability and fit information close to product selection.",
+      "signals": [
+        "Collection cards distinguish pre-order, sale and sold-out states and expose size options",
+        "PDP pairs color and size variants with a fit scale and size guide",
+        "Pre-order FAQ, store pickup and fulfilment disclosures appear alongside purchase controls",
+        "Sustainability and materials content extends into editorial/product storytelling"
+      ],
+      "source_entry_ids": [
+        "shopify-live-symmetry-salt-yard"
+      ],
+      "option_ids": [
+        "card-badges",
+        "card-swatches",
+        "product-card-variants",
+        "product-blocks",
+        "size-chart",
+        "fit-info-block",
+        "pre-order",
+        "pickup-availability",
+        "accordion",
+        "related-products",
+        "newsletter-signup",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_implication": "Keep availability, fit guidance and collection/pickup expectations adjacent to variant selection, then connect product discovery to original editorial and sustainability content."
     }
   ]
 }
