@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 151,
-    "browser_rendered_selected_presets": 38,
+    "browser_rendered_pages": 155,
+    "browser_rendered_selected_presets": 39,
     "distinct_selected_homepages_any_source": 79
   },
   "pending": {
@@ -2325,18 +2325,37 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "collection",
-        "product",
-        "cart",
-        "no interactive/mobile/editor/test access"
+        "No filter, sort, Quick View, variant, size chart, add-on or purchase actions executed",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, checkout, keyboard or performance testing",
+        "Seller price, material, sustainability, shipping and fulfillment claims unverified"
       ],
       "next_action": [
-        "Open actual collection URL from storefront navigation",
-        "Open actual product URL from storefront navigation",
-        "Open actual cart URL from storefront navigation"
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://focal-theme-ivory.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://focal-theme-ivory.myshopify.com/collections/outerwear",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://focal-theme-ivory.myshopify.com/products/evaline-e54-blazer",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://focal-theme-ivory.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
