@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 29 (Sleek:Jumped)
+
+**Done**
+- Inspected Sleek:Jumped official listing-linked demo: home, Shop All collection, Zenith Shirt PDP and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, a batch report and handoff updates.
+- Coverage: 59/127 unique selected homes (51 indexed HTML + 8 rendered-browser homes); 32 rendered pages across eight selected presets. Batch28 CI passed.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Product/category mismatches and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with Wonder:Root and keep indexed HTML and browser-rendered evidence counts distinct.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 28 (Ignite)
 
 **Done**

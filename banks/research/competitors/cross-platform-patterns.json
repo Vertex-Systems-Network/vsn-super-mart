@@ -1533,6 +1533,27 @@
         "related-products"
       ],
       "design_implication": "Define a shared product attribute model so facet labels, comparison rows and PDP specs use the same values; disclose compatibility and availability clearly."
+    },
+    {
+      "id": "apparel-facets-and-measurement-guidance",
+      "context": "Large apparel catalogs need clear filters while product sizing requires more detailed fit support.",
+      "signals": [
+        "Shop All has 105 products with product-type, price, color, size and availability facets plus sorting and pagination.",
+        "Zenith Shirt PDP exposes color and size variants, an expanded regional measurement table, pickup and shipping information.",
+        "Demo homepage/PDP contain mismatched product narratives, showing why content quality must be checked separately from layout."
+      ],
+      "source_entry_ids": [
+        "shopify-sleek-jumped-browser-render"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "variant-picker-styles",
+        "size-chart",
+        "inventory-status",
+        "pickup-availability"
+      ],
+      "design_implication": "Keep collection filter taxonomy aligned with PDP variant and fit guidance, and validate each product's supporting copy against the actual catalog item."
     }
   ]
 }

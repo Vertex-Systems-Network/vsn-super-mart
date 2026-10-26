@@ -932,6 +932,17 @@
         "product/category stories, video and support/newsletter modules"
       ],
       "design_hypothesis": "Technical catalogs can connect type and compatibility discovery to comparison-ready product information. Keep filter labels, product specs and variant availability consistent, and expose the same verified attributes across collection and PDP."
+    },
+    {
+      "id": "shopify-sleek-jumped-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "sale announcement and ocean-lifestyle hero",
+        "weekly product highlights and apparel category tiles",
+        "seasonal collections, lookbook and editorial/video stories",
+        "material and shipping/value panels, press/review content, sale/back-in-stock promos and newsletter"
+      ],
+      "design_hypothesis": "Apparel discovery can combine seasonal storytelling with practical size and fit support. Keep the campaign content coherent with the represented catalog and verify sustainability, stock, shipping and review claims before surfacing them."
     }
   ]
 }

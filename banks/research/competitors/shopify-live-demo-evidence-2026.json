@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 7 separately recorded browser-rendered Shopify homes (58/127 unique homes observed across these evidence types). Twenty-eight pages across Savor, Refresh, Enterprise, Broadcast Relay, Impulse Dune, Vision and Ignite were inspected read-only; interactions/mobile/editor tests remain unverified.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 8 separately recorded browser-rendered Shopify homes (59/127 unique homes observed across these evidence types). Thirty-two pages across Savor, Refresh, Enterprise, Broadcast Relay, Impulse Dune, Vision, Ignite and Sleek Jumped were inspected read-only; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4660,11 +4660,73 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-sleek-jumped-browser-render",
+      "selected_preset_id": "sleek:jumped",
+      "theme_family": "Sleek",
+      "preset": "Jumped",
+      "store_url": "https://sleek-jumped.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Sleek Jumped preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://sleek-jumped.myshopify.com/",
+          "observations": [
+            "Official demo home has an EXTRA SALE / 30% OFF announcement, centered SLEEK JUMPED navigation and a full-width surfing hero.",
+            "Merchandising includes weekly highlights, apparel category tiles, a product detail feature, season categories, material/brand stories, lookbook and video/editorial modules, review/press content, sale and back-in-stock panels, social gallery, shipping/support assurances and newsletter sign-up.",
+            "Home content mixes apparel with a hero line about rubberwood furniture; promotional, sustainability, shipping and review statements are sample claims and were not verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-jumped.myshopify.com/collections/all",
+          "observations": [
+            "Shop All reports 105 products and exposes filters for product type, price, color, size and availability, plus sorting across featured/relevance/bestselling/alphabetical/price/date choices.",
+            "Product cards expose color links, quick view, choose-options or add-to-cart states; pagination spans six pages. No filter/sort/card action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-jumped.myshopify.com/products/zenith-shirt",
+          "observations": [
+            "Zenith Shirt PDP shows six gallery items, price, a 15-left stock message, Cream/Black and S–XL options, a size-chart table with regional measurements, quantity, add-to-cart and buy-now controls.",
+            "Pickup availability, shipping/returns, product materials/care and fit panels, press/review content and related products are present.",
+            "The page's sample narrative mentions Stormbird outerwear and unrelated apparel claims despite the shirt title; content accuracy is unverified and no purchase/variant action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-jumped.myshopify.com/cart",
+          "observations": [
+            "Empty cart states that it is currently empty and links to Graphic Tees, Shorts, Pants and Accessories collections.",
+            "A You May Also Like section, newsletter sign-up and footer navigation appear; no item was added and checkout was not opened."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 28,
-    "selected_presets": 7,
-    "unique_selected_homepages_across_all_source_types": 58
+    "pages": 32,
+    "selected_presets": 8,
+    "unique_selected_homepages_across_all_source_types": 59
   }
 }

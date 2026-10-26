@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Sleek:Jumped official preset listing demo inspected read-only via rendered browser accessibility trees. No shopper actions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "sleek-jumped-preset-listing",
+      "url": "https://themes.shopify.com/themes/sleek/presets/jumped",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Sleek Jumped preset listing and embedded View demo opened the Sleek Jumped storefront."
+    },
+    {
+      "id": "sleek-jumped-demo",
+      "url": "https://sleek-jumped.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://sleek-jumped.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-jumped.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-jumped.myshopify.com/products/zenith-shirt"
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-jumped.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sleek-apparel-filtering-and-size-guidance",
+      "source_ids": [
+        "sleek-jumped-demo"
+      ],
+      "observed": "Rendered catalog includes five facet groups, sorting, card actions and pagination; Zenith Shirt PDP provides size variants and regional measurement table.",
+      "risk": "Visible controls do not prove their behavior or that size/stock data and fit guidance are accurate.",
+      "vsn_guard": "Test filter and variant behavior and validate size charts against merchant product data."
+    },
+    {
+      "id": "sleek-sample-content-consistency",
+      "source_ids": [
+        "sleek-jumped-demo"
+      ],
+      "observed": "Home and PDP include story and promotional modules, but sample copy references product categories that do not match the products shown.",
+      "risk": "Template sample copy can be mistaken for product-specific truth; sustainability, delivery, discount, inventory and reviews are unverified.",
+      "vsn_guard": "Audit page-to-product content mapping and require evidence for merchant claims before launch."
+    }
+  ]
+}
