@@ -614,3 +614,18 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure rather than Prestige.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 60 (Impact:Impact)
+
+**Done**
+- Opened official Impact:Impact listing View demo and inspected the home, Headphones collection, MW07 Plus PDP and empty cart read-only.
+- Opened Shop navigation to locate the collection route; no merchandising or cart controls were activated.
+- Updated rendered evidence, matrix, audit coverage, design observation, comparison pattern, progress and batch report/source claims.
+- Homepage already existed in indexed HTML: coverage remains 79/127 (51 indexed HTML + 28 additional rendered); rendered total 151 pages across 38 presets; 48 homes remain.
+
+**Limits**
+- No filter, sort, pagination, variant, gallery, quantity, add-on, cart, checkout, screenshot, viewport/mobile, Theme Editor, keyboard or performance testing; seller/product/inventory/review claims unverified.
+
+**Next**
+- Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure.
