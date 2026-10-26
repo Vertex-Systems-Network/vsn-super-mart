@@ -3342,12 +3342,11 @@
       },
       "evidence_quality": "official_listing_only",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
+        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
         "No collection/PDP/cart/browser or editor tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/local/presets/caffeine",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
       ]
     },
     {
@@ -3392,12 +3391,11 @@
       },
       "evidence_quality": "official_listing_only",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
+        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
         "No collection/PDP/cart/browser or editor tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/local/presets/lively",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
       ]
     },
     {
@@ -3442,12 +3440,11 @@
       },
       "evidence_quality": "official_listing_only",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
+        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
         "No collection/PDP/cart/browser or editor tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/empire/presets/empire",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
       ]
     },
     {
@@ -3492,12 +3489,11 @@
       },
       "evidence_quality": "official_listing_only",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
+        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
         "No collection/PDP/cart/browser or editor tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/empire/presets/circuit",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
       ]
     },
     {
@@ -3614,12 +3610,11 @@
       },
       "evidence_quality": "official_listing_only",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
+        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
         "No collection/PDP/cart/browser or editor tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/empire/presets/forma",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
       ]
     },
     {
@@ -3784,12 +3779,11 @@
       },
       "evidence_quality": "official_listing_only",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
+        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
         "No collection/PDP/cart/browser or editor tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/be-yours/presets/peace",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
       ]
     },
     {
