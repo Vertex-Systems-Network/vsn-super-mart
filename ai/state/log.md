@@ -1,3 +1,12 @@
+## 2026-10-26 — Batch 55 Symmetry:Salt Yard rendered audit
+
+- Official Shopify Symmetry:Salt Yard listing View demo opened salt-yard.myshopify.com.
+- Read-only rendered browser inspection: home, New Arrivals collection (16 products), Knitted Polo Shirt PDP and empty cart.
+- Added four rendered page observations, source claims, apparel availability/fit pattern and Batch 55 report; updated matrix, progress and handoff.
+- Homepage was already in indexed HTML. Unique selected-home coverage stays 78/127 (51 indexed HTML + 27 additional rendered); rendered pages rise to 131 across 33 presets; 49 homes remain.
+- No shopper interaction, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing; merchant/product claims unverified.
+- Next: continue next unobserved selected preset, prioritizing tier 1.
+
 ## 2026-10-26 — Batch 37 Impulse:Apothecary rendered audit
 
 - Official Impulse:Apothecary listing View demo opened impulse-theme-jewelry.myshopify.com.
