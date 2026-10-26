@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 252,
-    "browser_rendered_selected_presets": 64,
-    "distinct_selected_homepages_any_source": 95
+    "browser_rendered_pages": 264,
+    "browser_rendered_selected_presets": 67,
+    "distinct_selected_homepages_any_source": 98
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 32
+    "home_any_source": 29
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -5181,14 +5181,35 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "All product, inventory, ingredient and seller claims are demo content and unverified.",
+        "No filters, sort, variants, quantity, bundle, add-to-cart, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/sleek/presets/sleek",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue remaining selected presets in rank order; inspect untested controls only in a separately scoped interaction study."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://sleek-theme-demo.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-theme-demo.myshopify.com/collections/skincare",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-theme-demo.myshopify.com/products/protective-day-oil",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-theme-demo.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
@@ -5353,14 +5374,35 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "Observed chair description appears inconsistent with furniture context; storefront copy remains unverified.",
+        "No shopper controls, screenshot, mobile viewport, editor, checkout, keyboard or performance testing."
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/sleek/presets/modiva",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue remaining selected presets in rank order; inspect untested controls only in a separately scoped interaction study."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://sleek-modiva.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-modiva.myshopify.com/collections/best-sellers",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-modiva.myshopify.com/products/parlour-club-chair",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-modiva.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
@@ -5403,14 +5445,35 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "A homepage-linked Brandywine Straw Hat route returned 404; a second visible PDP link resolved to Kennith Pant. The mixed product-story consistency remains a demo-content issue to review.",
+        "No filters, sort, pagination, variants, add-to-cart, cart changes, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/sleek/presets/glint",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue remaining selected presets in rank order; inspect untested controls only in a separately scoped interaction study."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://sleek-glint.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-glint.myshopify.com/collections/all",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-glint.myshopify.com/products/kennith-short",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-glint.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
