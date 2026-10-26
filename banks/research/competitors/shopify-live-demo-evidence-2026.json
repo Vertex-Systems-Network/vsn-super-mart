@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 44 additional browser-rendered homes are documented (95/127 unique); 252 read-only rendered pages across 64 selected presets.",
+  "summary": "51 indexed HTML selected homes and 47 additional browser-rendered homes are documented (98/127 unique); 264 read-only rendered pages across 67 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5033,14 +5033,254 @@
         "No filter, sort, variant, purchase, quantity, bundle, cart or checkout actions; no age confirmation.",
         "No screenshot, viewport/mobile, editor, keyboard or performance tests. Merchant plant, environmental and fulfillment claims remain unverified."
       ]
+    },
+    {
+      "id": "shopify-live-sleek-sleek",
+      "family": "Sleek",
+      "preset": "Sleek",
+      "catalog_preset_id": "sleek:sleek",
+      "selected_127": true,
+      "focus": "beauty-cosmetics merchandising",
+      "homepage": {
+        "url": "https://sleek-theme-demo.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Beauty/cosmetics homepage with multi-slide hero; Whats Hot, Best sellers and Sale product tabs; three-item bundle with Add All To Cart; press testimonials; category/story modules; ingredient/brand-value content; featured product rows, reviews, FAQ and newsletter."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "product-tabs",
+          "bundle-display",
+          "faceted-filters"
+        ],
+        "element_ids": [
+          "hero",
+          "tabs",
+          "bundle",
+          "facets"
+        ]
+      },
+      "collection": {
+        "url": "https://sleek-theme-demo.myshopify.com/collections/skincare",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Skincare collection reports 23 products; facets for availability (21 in stock, 2 out), price, size and product type; A–Z sort shown. Grid cards were not visible in the accessibility snapshot; controls untouched."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting"
+        ],
+        "element_ids": [
+          "facets"
+        ]
+      },
+      "product": {
+        "url": "https://sleek-theme-demo.myshopify.com/products/protective-day-oil",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Protective Day Oil PDP shows $99, 50ml selector, displayed stock 994, quantity/Add/Buy controls, ingredient and information accordions, testimonials. No actions."
+        ],
+        "option_ids": [
+          "variant-picker-styles"
+        ],
+        "element_ids": [
+          "product-gallery"
+        ]
+      },
+      "cart": {
+        "url": "https://sleek-theme-demo.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart route is empty; suggested accessory, makeup, skincare and cheek collections."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "All product, inventory, ingredient and seller claims are demo content and unverified.",
+        "No filters, sort, variants, quantity, bundle, add-to-cart, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
+      ]
+    },
+    {
+      "id": "shopify-live-sleek-modiva",
+      "family": "Sleek",
+      "preset": "Modiva",
+      "catalog_preset_id": "sleek:modiva",
+      "selected_127": true,
+      "focus": "furniture-interior editorial merchandising",
+      "homepage": {
+        "url": "https://sleek-modiva.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Furniture/interior homepage presents shop-by-room/category navigation, Embrace Vision hero, room stories, product tabs, Shop the Room, before/after image comparison, design-editorial stories, product quick views and showroom/editorial content."
+        ],
+        "option_ids": [
+          "shop-by-room",
+          "shop-the-look",
+          "image-comparison",
+          "faceted-filters"
+        ],
+        "element_ids": [
+          "hero",
+          "room-stories",
+          "image-comparison",
+          "facets"
+        ]
+      },
+      "collection": {
+        "url": "https://sleek-modiva.myshopify.com/collections/best-sellers",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Best Sellers collection reports 12 products; Product type, Color, Material, Size and Availability facets (12 in stock, 1 out) plus Featured sort. Product grid was blank in accessibility snapshot; controls untouched."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting"
+        ],
+        "element_ids": [
+          "facets"
+        ]
+      },
+      "product": {
+        "url": "https://sleek-modiva.myshopify.com/products/parlour-club-chair",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Parlour Club Chair PDP shows $699/$999, stock 11, Beige/Black/Orange color choices, quantity/Add/Buy controls, pickup availability, details accordions and reviews. Product copy appears mismatched with the furniture item; record as demo-copy inconsistency, not a verified product claim."
+        ],
+        "option_ids": [
+          "variant-picker-styles",
+          "pickup-availability"
+        ],
+        "element_ids": [
+          "product-gallery"
+        ]
+      },
+      "cart": {
+        "url": "https://sleek-modiva.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart route is empty with collection suggestions."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "Observed chair description appears inconsistent with furniture context; storefront copy remains unverified.",
+        "No shopper controls, screenshot, mobile viewport, editor, checkout, keyboard or performance testing."
+      ]
+    },
+    {
+      "id": "shopify-live-sleek-glint",
+      "family": "Sleek",
+      "preset": "Glint",
+      "catalog_preset_id": "sleek:glint",
+      "selected_127": true,
+      "focus": "garden-workwear hybrid merchandising",
+      "homepage": {
+        "url": "https://sleek-glint.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Home/garden/workwear hybrid homepage uses garden-bed campaign slides, Planting Essentials/Harvesting Gear/Garden Goods category rails, shoppable lookbook, linen copy, bundle promo, reviews, store locator/contact and newsletter. Mixed apparel and gardening content."
+        ],
+        "option_ids": [
+          "campaign-slides",
+          "collection-list",
+          "shop-the-look",
+          "bundle-display"
+        ],
+        "element_ids": [
+          "hero",
+          "category-rails",
+          "lookbook",
+          "facets"
+        ]
+      },
+      "collection": {
+        "url": "https://sleek-glint.myshopify.com/collections/all",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Shop All reports 70 products, facets for Product type, Price, Color, Size and Availability (70 in stock, 0 out), Best selling sort and pagination through page 5. Facet labels mix gardening tools and apparel; controls untouched."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "pagination"
+        ],
+        "element_ids": [
+          "facets"
+        ]
+      },
+      "product": {
+        "url": "https://sleek-glint.myshopify.com/products/kennith-short",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Kennith Pant PDP reached through a visible homepage product link despite the short slug; page shows pickup availability and complementary/related products. Captured AX tree included pickup region and accessory suggestions; full price/variant details were not retained in this checkpoint, so details remain unverified."
+        ],
+        "option_ids": [
+          "complementary-products"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "complementary-products"
+        ]
+      },
+      "cart": {
+        "url": "https://sleek-glint.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart route is empty and recommends Accessories, Jackets & Coats, Bottoms and T-shirts collections."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "A homepage-linked Brandywine Straw Hat route returned 404; a second visible PDP link resolved to Kennith Pant. The mixed product-story consistency remains a demo-content issue to review.",
+        "No filters, sort, pagination, variants, add-to-cart, cart changes, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
+      ]
     }
   ],
   "counts": {
-    "opened_stores": 64,
-    "opened_home": 64,
-    "opened_collection": 51,
-    "opened_product": 52,
-    "opened_empty_cart": 18,
+    "opened_stores": 67,
+    "opened_home": 67,
+    "opened_collection": 54,
+    "opened_product": 55,
+    "opened_empty_cart": 21,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -9116,11 +9356,191 @@
         "No filter, sort, variant, purchase, quantity, bundle, cart or checkout actions; no age confirmation.",
         "No screenshot, viewport/mobile, editor, keyboard or performance tests. Merchant plant, environmental and fulfillment claims remain unverified."
       ]
+    },
+    {
+      "id": "shopify-live-sleek-sleek-rendered",
+      "selected_preset_id": "sleek:sleek",
+      "theme_family": "Sleek",
+      "preset": "Sleek",
+      "store_url": "https://sleek-theme-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Followed the exact iframe src shown by the official Shopify Theme Store View demo; inspected visible routes without interacting.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://sleek-theme-demo.myshopify.com/",
+          "observations": [
+            "Beauty/cosmetics homepage with multi-slide hero; Whats Hot, Best sellers and Sale product tabs; three-item bundle with Add All To Cart; press testimonials; category/story modules; ingredient/brand-value content; featured product rows, reviews, FAQ and newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-theme-demo.myshopify.com/collections/skincare",
+          "observations": [
+            "Skincare collection reports 23 products; facets for availability (21 in stock, 2 out), price, size and product type; A–Z sort shown. Grid cards were not visible in the accessibility snapshot; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-theme-demo.myshopify.com/products/protective-day-oil",
+          "observations": [
+            "Protective Day Oil PDP shows $99, 50ml selector, displayed stock 994, quantity/Add/Buy controls, ingredient and information accordions, testimonials. No actions."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-theme-demo.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart route is empty; suggested accessory, makeup, skincare and cheek collections."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "All product, inventory, ingredient and seller claims are demo content and unverified.",
+        "No filters, sort, variants, quantity, bundle, add-to-cart, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
+      ]
+    },
+    {
+      "id": "shopify-live-sleek-modiva-rendered",
+      "selected_preset_id": "sleek:modiva",
+      "theme_family": "Sleek",
+      "preset": "Modiva",
+      "store_url": "https://sleek-modiva.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Followed the exact iframe src shown by the official Shopify Theme Store View demo; inspected visible routes without interacting.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://sleek-modiva.myshopify.com/",
+          "observations": [
+            "Furniture/interior homepage presents shop-by-room/category navigation, Embrace Vision hero, room stories, product tabs, Shop the Room, before/after image comparison, design-editorial stories, product quick views and showroom/editorial content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-modiva.myshopify.com/collections/best-sellers",
+          "observations": [
+            "Best Sellers collection reports 12 products; Product type, Color, Material, Size and Availability facets (12 in stock, 1 out) plus Featured sort. Product grid was blank in accessibility snapshot; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-modiva.myshopify.com/products/parlour-club-chair",
+          "observations": [
+            "Parlour Club Chair PDP shows $699/$999, stock 11, Beige/Black/Orange color choices, quantity/Add/Buy controls, pickup availability, details accordions and reviews. Product copy appears mismatched with the furniture item; record as demo-copy inconsistency, not a verified product claim."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-modiva.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart route is empty with collection suggestions."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Observed chair description appears inconsistent with furniture context; storefront copy remains unverified.",
+        "No shopper controls, screenshot, mobile viewport, editor, checkout, keyboard or performance testing."
+      ]
+    },
+    {
+      "id": "shopify-live-sleek-glint-rendered",
+      "selected_preset_id": "sleek:glint",
+      "theme_family": "Sleek",
+      "preset": "Glint",
+      "store_url": "https://sleek-glint.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Followed the exact iframe src shown by the official Shopify Theme Store View demo; inspected visible routes without interacting.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://sleek-glint.myshopify.com/",
+          "observations": [
+            "Home/garden/workwear hybrid homepage uses garden-bed campaign slides, Planting Essentials/Harvesting Gear/Garden Goods category rails, shoppable lookbook, linen copy, bundle promo, reviews, store locator/contact and newsletter. Mixed apparel and gardening content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-glint.myshopify.com/collections/all",
+          "observations": [
+            "Shop All reports 70 products, facets for Product type, Price, Color, Size and Availability (70 in stock, 0 out), Best selling sort and pagination through page 5. Facet labels mix gardening tools and apparel; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-glint.myshopify.com/products/kennith-short",
+          "observations": [
+            "Kennith Pant PDP reached through a visible homepage product link despite the short slug; page shows pickup availability and complementary/related products. Captured AX tree included pickup region and accessory suggestions; full price/variant details were not retained in this checkpoint, so details remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-glint.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart route is empty and recommends Accessories, Jackets & Coats, Bottoms and T-shirts collections."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "A homepage-linked Brandywine Straw Hat route returned 404; a second visible PDP link resolved to Kennith Pant. The mixed product-story consistency remains a demo-content issue to review.",
+        "No filters, sort, pagination, variants, add-to-cart, cart changes, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 252,
-    "selected_presets": 64,
-    "unique_selected_homepages_across_all_source_types": 95
+    "pages": 264,
+    "selected_presets": 67,
+    "unique_selected_homepages_across_all_source_types": 98
   }
 }
