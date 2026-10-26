@@ -1228,6 +1228,17 @@
         "Authenticity, shipping, returns and expert-guidance statements"
       ],
       "design_hypothesis": "Fine-jewelry storefronts can connect collection discovery and gifting to product/material education, customer proof and service reassurance. Browser-render evidence only; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-expanse-spritz",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Organic wine hero and product shelves",
+        "New Arrivals and giveaway campaign/countdown",
+        "Non-alcoholic categories, recipes, brand directory and supplier provenance",
+        "Shipping threshold, gift cards, testimonials and newsletters"
+      ],
+      "design_hypothesis": "Food and beverage stores can align category and brand discovery with seasonal merchandising, recipe/editorial content, supplier provenance and shipping thresholds. Host match is verified through the official preset listing; browser-render only."
     }
   ]
 }
