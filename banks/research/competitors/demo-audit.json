@@ -5810,7 +5810,7 @@
       "niches": [
         "pet-walking-bundles-sustainability"
       ],
-      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "notes": "Official preset View demo was verified; read-only browser rendering additionally covered home, Walking Kits, Pink dog-walk kit PDP and empty cart drawer. See the live-demo evidence bank.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
