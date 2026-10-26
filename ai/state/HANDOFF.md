@@ -1,3 +1,11 @@
+## Shopify live-demo refresh — Batch 96 (2026-10-27)
+
+- Refreshed previously counted Vision:Vision official iframe routes: home, Doorbells collection, Smart Home Speaker PDP and empty cart. No counters added.
+- New discrepancy evidence: Doorbells mixes unrelated device types; Smart Home Speaker intro describes a peephole camera. No shopper controls, screenshot, mobile, editor, checkout, keyboard or performance tests.
+- Totals remain 100/127 unique homes, 272 rendered pages across 69 presets, 27 remaining. Indexed HTML remains 51/38/40/11.
+- Report: `banks/research/competitors/shopify-live-demo-batch96-2026.md`.
+- Next: Ignite:Ignite.
+
 ## Shopify live-demo research — Batches 94–95 (2026-10-27)
 
 - Rechecked Prestige:Prestige: official listing iframe is Prestige - Allure, an unresolved mapping mismatch. Enterprise:Enterprise and Broadcast:Relay View demo controls are disabled, with no iframe source.
