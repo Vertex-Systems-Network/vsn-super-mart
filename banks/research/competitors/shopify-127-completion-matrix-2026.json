@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 127,
-    "browser_rendered_selected_presets": 32,
+    "browser_rendered_pages": 131,
+    "browser_rendered_selected_presets": 33,
     "distinct_selected_homepages_any_source": 78
   },
   "pending": {
@@ -1176,8 +1176,7 @@
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual collection URL from storefront navigation",
-        "Open actual cart URL from storefront navigation"
+        "Continue with next unobserved selected preset; primary indexed-HTML coverage remains separate from browser-rendered observations"
       ]
     },
     {
