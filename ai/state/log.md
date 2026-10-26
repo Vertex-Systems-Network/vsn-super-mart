@@ -207,3 +207,13 @@
 
 
 - 2026-10-26: Batch54 Prestige:Signature rendered read-only via official selected listing. Added home, 13-product Pumps collection, Simone Pumps 110 PDP and empty-cart evidence; homepage already existed in indexed HTML. Coverage 78/127 unique, 127 pages/32 presets; 49 homes remain. No interactions or screenshots/viewport tests.
+
+
+## 2026-10-26 — Batch 59 Broadcast:Airwave rendered audit
+
+- Official Broadcast:Airwave listing View demo opened the broadcast-theme-airwave.myshopify.com preview.
+- Read-only rendered browser inspection: home, five-item All Products collection, House Blend PDP and empty cart.
+- Added four rendered observations; updated matrix, audit coverage, design hypothesis, progress and report/source claims.
+- Existing indexed homepage kept distinct from rendered evidence: coverage 79/127 unique (51 indexed HTML + 28 additional rendered); 147 rendered pages across 37 presets; 48 homes remain.
+- Home/PDP free-shipping copy differs ($100/$50); no purchase/option/cart interaction used, so discrepancy remains unexplained. No screenshot or viewport/mobile/editor/checkout/performance tests.
+- Next: continue next unobserved selected preset.
