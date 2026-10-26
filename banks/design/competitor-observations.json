@@ -1309,6 +1309,26 @@
         "Collection, product and empty-cart structures were inspected read-only"
       ],
       "design_hypothesis": "The Memo-hosted demo combines home-office goods discovery, collection switcher shelves and brand/editorial sections. A cart recommendation block links generic example items back to /cart; no shopper action was taken."
+    },
+    {
+      "id": "shopify-local-caffeine",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Coffee storefront with promo and delivery copy, Shop/Brew Guides/Locations/Our Story/Contact navigation and pickup entry.",
+        "Roast Perfection hero; Best Sellers/Limited Edition shelves, product flavor/roast text, editorial and brew guide sections, location cards/newsletter.",
+        "Featured coffee section shows roast/taste/brightness storytelling, grind/size options and store pickup; merchant claims unverified."
+      ],
+      "design_hypothesis": "Use these as observed merchandising patterns only; storefront copy is unverified and responsive treatment needs visual/device review."
+    },
+    {
+      "id": "shopify-local-lively",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Wine categories Red/White/Rosé/Sparkling/Not wine, store pickup and Wine Club entry points.",
+        "Organic Wines hero, featured wine shelves, video/editorial, beer category, Wine Club/events/testimonial and location/store-hours footer.",
+        "Over-18 verification banner visible across pages and left untouched; events and location/product statements are sample copy, unverified."
+      ],
+      "design_hypothesis": "Use these as observed merchandising patterns only; storefront copy is unverified and responsive treatment needs visual/device review."
     }
   ]
 }
