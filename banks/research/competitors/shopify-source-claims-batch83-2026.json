@@ -1,0 +1,46 @@
+{
+  "batch": 83,
+  "observed_on": "2026-10-27",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "local:caffeine",
+  "official_listing_url": "https://themes.shopify.com/themes/local/presets/caffeine",
+  "iframe_src_observed": "https://local-theme-caffeine.myshopify.com/",
+  "redirected_storefront": "https://local-theme-caffeine.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://local-theme-caffeine.myshopify.com/",
+      "observations": [
+        "Coffee storefront with promo and delivery copy, Shop/Brew Guides/Locations/Our Story/Contact navigation and pickup entry.",
+        "Roast Perfection hero; Best Sellers/Limited Edition shelves, product flavor/roast text, editorial and brew guide sections, location cards/newsletter.",
+        "Featured coffee section shows roast/taste/brightness storytelling, grind/size options and store pickup; merchant claims unverified."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://local-theme-caffeine.myshopify.com/collections/coffee",
+      "observations": [
+        "Coffee collection shows 7 products with roast/flavor and prices; no filter/sort visible in captured tree."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy",
+      "observations": [
+        "12° PDP shows $23.50, roast/brightness/tasting copy, 12 grind choices, 300g/900g sizes, one-time/monthly subscription selector, stock copy, quantity/Add/Buy and LA Warehouse/San Diego pickup.",
+        "Product story/origin/tasting details conflict across page sections; recorded as displayed demo copy, not verified facts.",
+        "Cart drawer was opened read-only: empty, Shopping Cart (0), Continue browsing. No standalone cart URL visited."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "No filters, variants, subscription, quantity, cart mutation, checkout or other controls activated.",
+    "No dedicated cart page inspected; drawer state only.",
+    "No screenshot, viewport/mobile, editor, keyboard or performance tests; seller claims unverified.",
+    "Cart drawer state only; no standalone cart route."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch83-2026.md"
+}
