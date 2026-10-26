@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 72 (Empire:Depot)
+
+**Done**
+- Inspected the documented Empire:Depot storefront in the rendered browser: homepage, By Category department directory, Compact Impact Wrench PDP and empty cart.
+- Added four read-only rendered page records, updated the existing Depot audit/design observation and comparison/stock pattern, and synchronized the matrix, plan and progress records.
+- Homepage was already indexed, so unique selected-home coverage remains 83/127. Rendered evidence now totals 195 pages across 49 selected presets.
+
+**Limits**
+- No filters, compare, quick shop, quantity, PDP accordions, add-to-cart, checkout or keyboard actions. No screenshot, measured viewport/mobile, Theme Editor or performance test. Seller, rating, availability, specification and fulfillment claims remain unverified. Indexed-HTML counts remain unchanged.
+
+**Next**
+- Continue with the next unobserved selected preset. Local:Caffeine’s official listing preview remained blank/time-out; keep its destination unresolved unless verified.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 58 (Symmetry:Duke)
 
 **Done**
