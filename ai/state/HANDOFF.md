@@ -481,3 +481,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch44-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch44-2026.json`.
 - No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller claims unverified.
 - Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 45
+- Official Enterprise:Homestead View demo opened enterprise-theme-home.myshopify.com. Inspected home, 818-product All Products collection, Slant Table Lamp PDP and empty cart read-only.
+- Coverage: 74/127 unique selected homes (51 indexed HTML + 23 additional rendered); 95 rendered pages across 24 presets; 53 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch45-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch45-2026.json`.
+- No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller claims unverified.
+- Next: continue next unobserved selected preset.

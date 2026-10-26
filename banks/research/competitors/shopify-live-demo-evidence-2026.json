@@ -5655,11 +5655,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-enterprise-homestead-browser-render",
+      "selected_preset_id": "enterprise:homestead",
+      "theme_family": "Enterprise",
+      "preset": "Homestead",
+      "store_url": "https://enterprise-theme-home.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Enterprise:Homestead preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://enterprise-theme-home.myshopify.com/",
+          "observations": [
+            "Official Shopify Enterprise:Homestead View demo opened enterprise-theme-home.myshopify.com.",
+            "Home decor storefront uses free-delivery and return-period messaging, localization selectors, product-type search, product/sale/universe navigation and a $50-off offer.",
+            "Homepage connects furniture/lighting/textile collections to room-led inspiration, top offers, brand storytelling, seasonal collections, editorial stories, product comparison content and newsletter signup."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://enterprise-theme-home.myshopify.com/collections/all-products",
+          "observations": [
+            "All Products collection reports 818 products and includes Filter, Sort by and Grid/List controls.",
+            "Cards display colors, stock/status, prices, reviews and Choose Options affordances; room/product categories include furniture, lighting, textiles and home accessories.",
+            "No filters, sort, layout or product controls were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://enterprise-theme-home.myshopify.com/collections/all-products/products/slant-table-lamp",
+          "observations": [
+            "Slant Table Lamp PDP displays $169, Black/Brass color, 20 in stock, quantity control and Add to Cart.",
+            "Product page includes Shop Pay installment information, store details, Goes Well With, Specifications, Reviews (2), Delivery & Returns and a Compare with similar items section.",
+            "No product control was activated; stock, rating, shipping, price and brand content are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://enterprise-theme-home.myshopify.com/cart",
+          "observations": [
+            "Cart states Your cart is empty and provides Start shopping.",
+            "A Last chance to save… sale-product carousel follows the empty state.",
+            "No cart action or checkout was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 91,
-    "selected_presets": 23,
-    "unique_selected_homepages_across_all_source_types": 73
+    "pages": 95,
+    "selected_presets": 24,
+    "unique_selected_homepages_across_all_source_types": 74
   }
 }

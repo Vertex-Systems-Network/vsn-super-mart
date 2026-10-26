@@ -1108,6 +1108,17 @@
         "shipping/returns propositions and member signup"
       ],
       "design_hypothesis": "Adventure storytelling can connect gear to activity needs. Large catalogs benefit from meaningful activity paths, compare and layout controls, with technical PDP information and relevant cross-sells."
+    },
+    {
+      "id": "shopify-enterprise-homestead-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "$50-off offer and shipping/returns messaging",
+        "furniture/lighting/textile collection discovery",
+        "room-led inspiration and seasonal offer rails",
+        "brand story, editorial posts and newsletter"
+      ],
+      "design_hypothesis": "Room-led storytelling can make a broad home catalog easier to browse when supported by category, filter, grid/list and comparison tools. Keep product details, stock and service information accurate."
     }
   ]
 }

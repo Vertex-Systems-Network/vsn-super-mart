@@ -1930,6 +1930,32 @@
         "empty-states"
       ],
       "design_implication": "For large outdoor catalogs, keep activity categories and technical attributes easy to scan; make comparison and grid/list controls optional aids, and keep cross-sells relevant to specific gear."
+    },
+    {
+      "id": "homestead-room-led-home-discovery",
+      "context": "Home and furniture catalogs can connect room inspiration to dense category browsing and product comparison.",
+      "signals": [
+        "Home surfaces furniture/lighting/textile collections, room inspiration, seasonal offers, brand/editorial storytelling and product-type search.",
+        "818-product collection gives shoppers filter/sort and grid/list controls with color, status, price and review signals.",
+        "Slant Table Lamp PDP provides stock, color, specifications, reviews, delivery/returns, complementary products and similar-item comparison; empty cart includes a sale-product carousel."
+      ],
+      "source_entry_ids": [
+        "shopify-enterprise-homestead-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "product-compare",
+        "product-blocks",
+        "quantity-selector",
+        "related-products",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_implication": "Help shoppers move from room inspiration to product type and compare options at high catalog scale. Keep stock and product specs current and distinguish genuine comparison from cross-sells."
     }
   ]
 }
