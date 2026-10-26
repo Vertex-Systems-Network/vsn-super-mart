@@ -8752,6 +8752,51 @@
         "Naked & Famous heavyweight terry crewneck PDP displays $159, S/M/L/XL size choices, size-chart link, shipping/in-stock copy, Add/Buy controls, product-feature bullets, shipping/question accordions, two-image gallery, cross-sells and shop-the-look. Page explicitly identifies itself as a demonstration store.",
         "Dedicated cart is empty, with Continue Shopping, recently-viewed area and Popular Picks shelf."
       ]
+    },
+    {
+      "id": "shopify-live-palo-alto-dynamo",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Dynamo",
+      "feature_option_ids": [
+        "countdown-timer",
+        "tabbed-featured-collection",
+        "quick-view",
+        "faceted-filters",
+        "sorting",
+        "pagination",
+        "variant-picker-styles",
+        "media-gallery-layouts",
+        "product-tabs",
+        "cart-page",
+        "empty-states"
+      ],
+      "niches": [
+        "travel",
+        "bags",
+        "tech-accessories",
+        "large-catalog"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "url": "https://palo-alto-theme-dynamo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Read-only accessibility-tree inspection of rendered home, Best Sellers - AER collection, Navigator Backpack PDP and dedicated cart. No shopper controls, screenshot, mobile viewport, editor, checkout, keyboard or performance tests.",
+      "notes": "Official Shopify Palo Alto:Dynamo iframe src resolved to this distinct demo host. Footer identifies the demo products as provided by AER; all merchant claims remain unverified.",
+      "design_signals": [
+        "Official Palo Alto:Dynamo listing iframe resolves to this technical-bags storefront. Rendered home has repeated 10%-off/US$250 free-shipping announcement, shop/about/sale/FAQ/blog navigation, countdown hero, Best Sellers/Tech Accessories tabbed shelf, product Quick Buy cards, mosaics, material/organization editorial, featured products, newsletter and trust row. Footer states demo goods are provided by AER; merchant product and durability claims are unverified.",
+        "Best Sellers - AER collection reports 12 products and category shortcuts; visible sorting offers Featured/relevance/best-selling/alphabetical/price/date choices, with Availability/Price/Color/Product Type facets. Product cards show prices, color counts, Quick Buy and badges; no control used.",
+        "Navigator Backpack PDP has a 20-entry gallery, in-stock label, $268 versus $400 sale pricing, 33% discount, Black/Grey options, quantity and purchase controls, lifetime-guarantee and repair-kit copy, limited-time offer, materials/specs and shipping accordions, product FAQs, nylon editorial, related collection mosaics and recently-viewed module. Seller and stock claims unverified.",
+        "Dedicated cart is empty and links to Small Bags, Work Bags and all products; displays US$250 free-shipping threshold and trust claims for free shipping/returns, lifetime guarantee and recycled materials."
+      ]
     }
   ],
   "discovery_sources": [
