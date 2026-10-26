@@ -5995,9 +5995,9 @@
       "url": "https://prestige-theme-strass2.myshopify.com/",
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "indexed_public_demo_html_accessible",
-      "document_verification_scope": "Opened real public Shopify demo source HTML; indexed crawl age recorded by page. No executed interactions/checkout/mobile/screenshots/Theme Editor.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Indexed public HTML plus rendered accessibility-tree inspection of home, collection, product and cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
       "feature_option_ids": [
         "mega-menu",
         "localization-selectors",
@@ -6011,17 +6011,30 @@
         "media-gallery-layouts",
         "variant-picker-styles",
         "product-blocks",
-        "collapsible-tabs"
+        "collapsible-tabs",
+        "announcement-bar",
+        "image-banner",
+        "collection-list",
+        "card-badges",
+        "product-reviews-slot",
+        "filter-layouts",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
       ],
       "design_signals": [
         "fine-jewelry-editorial",
         "Minimal gold-tone jewelry editorial, brand heritage and mineral-stone collection navigation",
-        "Menu by rings/earrings/necklaces/bracelets and story collections"
+        "Menu by rings/earrings/necklaces/bracelets and story collections",
+        "Home integrates Mineral Alliance campaign, category tiles, featured and trending products, set styling, magazine and artisan story.",
+        "Rendered Necklaces collection shows 14 items, filter/sort and image-density controls beside category routes and service assurances.",
+        "PDP pairs stone-color links and editorial product description with warranty/shipping details, complementary jewelry and related products; empty cart offers Continue Shopping."
       ],
       "niches": [
         "fine-jewelry-editorial"
       ],
-      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "notes": "Indexed public HTML evidence in shopify-live-demo-evidence-2026.json plus read-only rendered accessibility-tree inspection. Official Shopify Prestige:Strass View demo opened matching prestige-theme-strass2.myshopify.com; homepage, 14-product Necklaces collection, Mineral Alliance Green Aventurine necklace PDP and empty cart inspected. No shopper actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Merchant claims unverified.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
