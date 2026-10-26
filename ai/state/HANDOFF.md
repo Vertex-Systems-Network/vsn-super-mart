@@ -732,3 +732,17 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue the next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 69 (Expanse:Fetch)
+
+**Done**
+- Verified the official Fetch listing iframe host; inspected home, Walking Kits collection (22 products, three facets), Pink Dog Collar Walk Kit + Poop Bag Holder + Pins PDP and empty cart drawer.
+- Home, collection and cart already had indexed HTML; unique count remains 82/127. Rendered count is 183 pages across 46 presets; 45 remain.
+- Updated evidence, matrix, audit note, design observation, catalog pattern, progress and report/source claims.
+
+**Limits**
+- No collection/product/cart controls, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Seller claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
