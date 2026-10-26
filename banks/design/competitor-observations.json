@@ -1389,6 +1389,14 @@
         "Home/garden/workwear hybrid homepage uses garden-bed campaign slides, Planting Essentials/Harvesting Gear/Garden Goods category rails, shoppable lookbook, linen copy, bundle promo, reviews, store locator/contact and newsletter. Mixed apparel and gardening content."
       ],
       "design_hypothesis": "Use category storytelling, product discovery and modular merchandising as patterns; validate rendered appearance and responsive behavior before adopting."
+    },
+    {
+      "id": "shopify-live-wonder-root",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Supplements storefront home has repeating free-shipping banner, product/shop mega menu, video hero with shop-now and quiz CTAs, featured product cards, bundle link, ingredient-value claims, product-benefit carousel, social/video testimonials, mission/editorial sections, blog, FAQ and newsletter. Footer explicitly says this is a demo store; seller health, safety and performance claims are unverified."
+      ],
+      "design_hypothesis": "Observe video-led hero, supplement bundles and trust sections as page patterns; verify responsive rendering and underlying claim evidence before reuse."
     }
   ]
 }
