@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 1 separately recorded browser-rendered Savor homepage (52/127 unique homes observed across these evidence types). Four Savor pages were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 2 separately recorded browser-rendered Shopify homes (53/127 unique homes observed across these evidence types). Eight pages across Savor and Refresh were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4276,11 +4276,76 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-refresh-browser-render",
+      "selected_preset_id": "refresh:refresh",
+      "theme_family": "Refresh",
+      "preset": "Refresh",
+      "store_url": "https://theme-refresh-demo.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Read-only inspection of the browser-rendered accessibility tree; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://theme-refresh-demo.myshopify.com/",
+          "observations": [
+            "Top announcement states free shipping on orders $40+; navigation groups Hair, Body, Face and Kits with About and Search.",
+            "Hero slideshow indicates three slides; the observed first slide is a shampoo campaign with a direct product link.",
+            "Homepage combines a skincare product shelf with quick-add buttons, press quotes, image-led Hair/Body/Face/Kits category stories, a kit shelf, trust-message columns, blog articles and newsletter signup.",
+            "Several sustainability, clinical, review-volume and shipping statements appear as merchant copy; none were verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://theme-refresh-demo.myshopify.com/collections/hair",
+          "observations": [
+            "Hair collection reports 7 products with Availability and Price filters and a Best selling sort selector.",
+            "Product cards include quick-add controls and a sale card with regular and sale prices.",
+            "Collection includes a gift-card promo and a link to a shampoo editorial article."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://theme-refresh-demo.myshopify.com/products/shampoo-2",
+          "observations": [
+            "Product page exposes a five-image gallery, $14 price, quantity selector, Add to Cart and Buy It Now controls.",
+            "Product details use Highlights, Scent, Details and Ingredients accordions; Highlights is expanded in the captured state.",
+            "Below the product form are a customer quote, trust/claim columns, and an image-led hair-care routine with cross-product links.",
+            "The demonstration notice identifies this as sample content; ingredient, certification, sustainability, guarantee and origin claims were not verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://theme-refresh-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart offers Continue shopping and a four-product favorites shelf with sale prices and Add/Choose options controls.",
+            "The top announcement repeats a $40 free-shipping threshold; no cart items or purchase actions were added."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 4,
-    "selected_presets": 1,
-    "unique_selected_homepages_across_all_source_types": 52
+    "pages": 8,
+    "selected_presets": 2,
+    "unique_selected_homepages_across_all_source_types": 53
   }
 }

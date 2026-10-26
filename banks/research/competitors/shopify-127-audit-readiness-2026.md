@@ -20,6 +20,6 @@ All 127 selected official preset listing URLs were separately documented. The co
 
 ## What is not complete or must not be represented as done
 
-76 selected demo homepages still lack individually indexed HTML sources (75 lack any opened homepage source after the Savor browser-rendered observation); 89 collection, 87 PDP and 116 cart-page gaps remain in indexed-source counts. No executed live shopper workflows, viewport screenshot/mobile responsive checks, Lighthouse/a11y, private editor access, Shopify Theme Store submission, approved new Figma or Shopify theme implementation. Platform user-interface access is needed to establish interactions and editor settings; public indexed HTML cannot substitute for them.
+76 selected demo homepages still lack individually indexed HTML sources (74 lack any opened homepage source after the Savor and Refresh browser-rendered observations); 89 collection, 87 PDP and 116 cart-page gaps remain in indexed-source counts. No executed live shopper workflows, viewport screenshot/mobile responsive checks, Lighthouse/a11y, private editor access, Shopify Theme Store submission, approved new Figma or Shopify theme implementation. Platform user-interface access is needed to establish interactions and editor settings; public indexed HTML cannot substitute for them.
 
 **Release gate remains blocked.** Stage 2 stays active, and PR #9 remains research-only. This is deliberately a truthful partial fulfillment of an attempted full-completion request, rather than claiming evidence that does not exist.

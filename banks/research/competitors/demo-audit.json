@@ -7273,6 +7273,50 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-refresh-browser-render",
+      "platform": "shopify",
+      "theme": "Refresh",
+      "preset": "Refresh",
+      "url": "https://theme-refresh-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "free-shipping-bar",
+        "collection-list",
+        "subcollection-nav",
+        "quick-add",
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "collapsible-tabs",
+        "blog-posts",
+        "related-products",
+        "empty-states",
+        "cart-upsell"
+      ],
+      "design_signals": [
+        "Homepage combines a hero campaign, category stories, product shelf, proof/trust copy and journal links",
+        "Collection exposes category-specific filtering, sorting and sale-price cards",
+        "Product page pairs structured accordions with routine cross-links",
+        "Empty cart routes into favorite products and shopping recovery"
+      ],
+      "niches": [
+        "beauty-skincare",
+        "gen-z-store"
+      ],
+      "notes": "Four pages were inspected in a rendered browser accessibility tree on 2026-10-26. Read-only structure evidence; no clicks, add-to-cart, screenshot, viewport measurement, mobile, Theme Editor, checkout, keyboard or VSN performance tests. Merchant claims are unverified sample copy.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered browser accessibility-tree snapshots of home, Hair collection, Shampoo PDP and empty cart; no executed shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

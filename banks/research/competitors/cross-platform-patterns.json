@@ -1383,6 +1383,28 @@
         "cart-upsell"
       ],
       "design_implication": "Show package quantity and selected-variant pricing together, keep collection filters easy to scan, and offer recommendations as a recovery path in the empty cart. Validate real cart state and create original copy and layouts."
+    },
+    {
+      "id": "personal-care-routine-editorial-bridge",
+      "context": "Personal-care storefronts can connect category discovery, product education, routine building and editorial content through a shared set of reusable sections.",
+      "signals": [
+        "Hair, Body, Face and Kits category journeys from homepage",
+        "Product detail accordions for benefits, scent, ingredients and other information",
+        "Routine cross-links between related grooming products",
+        "Journal stories, trust statements and product recommendations"
+      ],
+      "source_entry_ids": [
+        "shopify-refresh-browser-render"
+      ],
+      "option_ids": [
+        "collection-list",
+        "collapsible-tabs",
+        "related-products",
+        "blog-posts",
+        "faceted-filters",
+        "quick-add"
+      ],
+      "design_implication": "Give merchants independent controls for category stories, product disclosures, routine cross-links and journal modules. Keep each product claim editable and merchant-verified; the observed sample statements do not validate themselves."
     }
   ]
 }

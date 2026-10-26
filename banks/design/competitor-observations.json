@@ -849,6 +849,22 @@
         "footer shopping/help/social groups and newsletter"
       ],
       "design_hypothesis": "The rendered page sequence connects a food-specific campaign to product discovery, pack-size choices on the PDP, and browse recovery in the empty cart. Translate the information hierarchy into an original layout; this pass does not establish visual composition, interactions or mobile behavior."
+    },
+    {
+      "id": "shopify-refresh-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "announcement bar",
+        "three-slide hero with direct product route",
+        "featured products with quick add",
+        "press quote band",
+        "four image-led category stories",
+        "kit shelf",
+        "trust statement columns",
+        "journal slider",
+        "newsletter signup"
+      ],
+      "design_hypothesis": "Refresh links grooming needs to category content, product rails and an editorial routine. On the PDP it layers structured disclosures, a quote, trust copy and related-product links. A new VSN design could support this information hierarchy through settings-driven sections while requiring merchant evidence for claims; a DOM pass cannot establish the visual balance or working controls."
     }
   ]
 }

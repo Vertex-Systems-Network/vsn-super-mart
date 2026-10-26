@@ -1,3 +1,11 @@
+## 2026-10-26 — Batch 22 Refresh rendered-browser audit (four pages)
+
+Resolved the next priority preset, Refresh, to https://theme-refresh-demo.myshopify.com/ using the official Shopify demo context and the demo host identified in a separate public report; directly inspected home, Hair collection, Shampoo PDP and empty cart with read-only rendered browser accessibility trees. Added four rendered-source pages separately from the indexed HTML counts. No screenshot, viewport measurement, cart action, checkout, mobile, Theme Editor, keyboard or VSN Lighthouse was tested.
+
+The Refresh page sequence covers hero/product quick-add, Hair/Body/Face/Kits category stories, editorial links, sale cards, product-information accordions and a routine cross-link. Added one source-linked design pattern and one qualitative observation; recorded merchant certification, material, origin and guarantee copy as unverified claims. A third-party automated accessibility report for v16.0.0 (dated September 29) is separate and older than the Shopify listing version observed for the theme; it is not a VSN test.
+
+Coverage remains **51/127 indexed homepage documents (40.2%)** plus **2 separately rendered homepages**, for **53/127 unique selected homepage sources observed (41.7%)**. 74 have no homepage source in either class. Stage 2 remains active; next priority: prestige:prestige.
+
 ## 2026-10-26 — Batch 21 Savor rendered-browser audit (four pages)
 
 Resolved the top pending priority preset, Savor, to https://savor-theme-demo.myshopify.com/ using the official Shopify listing's demo path and a separate public accessibility report; then directly inspected the rendered read-only browser accessibility tree for home, All Products collection, Sweet Pineapple PDP and empty cart. Recorded four page observations separately from the indexed HTML bank; no screenshots, measured viewport, interactions, add-to-cart, checkout, mobile, Theme Editor, keyboard or VSN Lighthouse audit. No existing indexed page counts were incremented.
