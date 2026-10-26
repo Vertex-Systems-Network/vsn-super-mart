@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 50 additional browser-rendered homes are documented (101/127 unique); 276 read-only rendered pages across 70 selected presets.",
+  "summary": "51 indexed HTML selected homes and 51 additional browser-rendered homes are documented (102/127 unique); 280 read-only rendered pages across 71 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 70,
-    "opened_home": 70,
-    "opened_collection": 57,
-    "opened_product": 58,
-    "opened_empty_cart": 24,
+    "opened_stores": 71,
+    "opened_home": 71,
+    "opened_collection": 58,
+    "opened_product": 59,
+    "opened_empty_cart": 25,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -9904,11 +9904,71 @@
         "Read-only route inspection. No filtering, sorting, variants, quantity, Quick Buy, add-to-cart, checkout, screenshot, mobile viewport, Theme Editor, keyboard or performance testing.",
         "Merchant product, stock, warranty, lifetime, material, recycled-content, shipping and review claims were not independently verified."
       ]
+    },
+    {
+      "id": "shopify-palo-alto-skylight-browser-render",
+      "selected_preset_id": "palo-alto:skylight",
+      "theme_family": "Palo Alto",
+      "preset": "Skylight",
+      "store_url": "https://palo-alto-theme-skylight.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Palo Alto:Skylight listing, read exact View demo iframe src, then inspected home, linked New Arrivals, Kalinda Boots PDP and cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/",
+          "observations": [
+            "Official Palo Alto:Skylight iframe is a footwear and handbags storefront. Home has $200 free-shipping announcement, Catalog/About/Journal/Lookbook navigation, editorial hero, category tiles with product counts, craftsmanship story, Shop the Look, campaign tiles and countdown, handbag product shelf with Quick Buy, lookbook, press, newsletter and collections. Footer labels products as Alohas-provided demo goods; seller claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "New Arrivals collection reports 27 products, category links for flats/boots/heels/loafers/mules/sandals, five facet groups (availability, price, color, product type, size), sort control, Quick Buy cards and two-page pagination. Controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/products/kalinda-boots",
+          "observations": [
+            "Kalinda Boots PDP shows eight gallery images, $500 final-sale price, seven-left stock message, Brown/Black and sizes 35–41, size chart, quantity and buy controls, fit/material accordions, cross-sell, sticky cart bar and FAQs. Page and footer identify demo goods as Alohas-provided, but product, stock and seller claims remain unverified. The Alohas attribution link resolves to an encoded URL on a different broadcast-luxe.myshopify.com host."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart is empty and suggests Loafers, Spring Lookbook, Sandals and Flats; displays $200 shipping threshold and newsletter/footer."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No sorting, filtering, variant selection, quantity, Quick Buy, add-to-cart or checkout actions; no screenshot, mobile viewport, editor, keyboard or performance testing.",
+        "Merchant stock, promotion, material, shipping, workmanship and product claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 276,
-    "selected_presets": 70,
-    "unique_selected_homepages_across_all_source_types": 101
+    "pages": 280,
+    "selected_presets": 71,
+    "unique_selected_homepages_across_all_source_types": 102
   }
 }
