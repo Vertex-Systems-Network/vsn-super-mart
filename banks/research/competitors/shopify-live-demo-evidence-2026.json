@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 9 separately recorded browser-rendered Shopify homes (60/127 unique homes observed across these evidence types). Thirty-six pages across Savor, Refresh, Enterprise, Broadcast Relay, Impulse Dune, Vision, Ignite, Sleek Jumped and Wonder Root were inspected read-only; interactions/mobile/editor tests remain unverified.",
+  "summary": "51 indexed HTML selected homes and 10 selected browser-rendered homes are documented (61/127 unique); 40 read-only rendered pages across ten selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4201,11 +4201,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 55,
-    "opened_home": 55,
-    "opened_collection": 42,
-    "opened_product": 43,
-    "opened_empty_cart": 11,
+    "opened_stores": 56,
+    "opened_home": 56,
+    "opened_collection": 43,
+    "opened_product": 44,
+    "opened_empty_cart": 12,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -4784,11 +4784,73 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-be-yours-sheen-browser-render",
+      "selected_preset_id": "be-yours:sheen",
+      "theme_family": "Be Yours",
+      "preset": "Sheen",
+      "store_url": "https://beyours-theme-clothing.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Be Yours Sheen preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://beyours-theme-clothing.myshopify.com/",
+          "observations": [
+            "Fashion homepage has sale announcement, NEW IN/CLOTHING/BRANDS/JOURNAL/EXPLORE navigation, campaign hero, seasonal collection tabs, category tiles, Shop the Look, sale modules, testimonials, Instagram gallery and newsletter popup.",
+            "Homepage also renders an embedded featured Shimmer Dress product module with color and size options; the adjacent collection modules show product cards and quick-view affordances.",
+            "Sale prices, stock statements, customer reviews, shipping and returns terms are demo content and were not independently validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://beyours-theme-clothing.myshopify.com/collections/all",
+          "observations": [
+            "Clothing collection reports 59 products and includes Color, Size, Price and Brand facets plus category links; no facet was changed.",
+            "Product grid shows image/title, color swatches, price or sale price, star ratings, choose-options and quick-view affordances. No sort or pagination action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://beyours-theme-clothing.myshopify.com/collections/all/products/shimmer-dress",
+          "observations": [
+            "Shimmer Dress PDP shows six gallery media entries, €98 regular and €49 sale price, rating, sale countdown, color and size choices, low-stock message, size-help popup and add-to-cart/buy-now controls.",
+            "Pickup availability, sticky cart controls, product details, material/care content and size/shipping FAQ entries are visible in the rendered page.",
+            "Variant, availability, sale, review and pickup claims were not validated; no controls were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://beyours-theme-clothing.myshopify.com/cart",
+          "observations": [
+            "Cart page states the cart is currently empty and provides a Return to Shop link.",
+            "Cart page also presents home delivery, in-store pickup and collection-point information; no item was added and checkout was not opened."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 36,
-    "selected_presets": 9,
-    "unique_selected_homepages_across_all_source_types": 60
+    "pages": 40,
+    "selected_presets": 10,
+    "unique_selected_homepages_across_all_source_types": 61
   }
 }

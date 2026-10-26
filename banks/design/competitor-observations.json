@@ -955,6 +955,17 @@
         "mission/editorial content, press logos and newsletter"
       ],
       "design_hypothesis": "Wellness storefronts can connect product selection to education, bundles and routine-building, while making substantiation visible for health-related claims. Keep subscription cadence and one-time purchase choices transparent and avoid presenting sample outcomes as verified evidence."
+    },
+    {
+      "id": "shopify-be-yours-sheen-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "sale announcement and campaign hero",
+        "seasonal collection tabs and category tiles",
+        "Shop the Look product grouping and featured product quick views",
+        "sale campaign, customer testimonials, Instagram gallery and newsletter popup"
+      ],
+      "design_hypothesis": "Fashion discovery benefits when seasonal campaigns route into coherent category assortments and product fit guidance sits beside size selection. Validate sale, stock, rating and fulfillment copy before launch."
     }
   ]
 }

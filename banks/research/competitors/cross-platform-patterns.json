@@ -1574,6 +1574,30 @@
         "cart-page"
       ],
       "design_implication": "Show a clear one-time vs recurring price, delivery frequency, savings and cancellation terms before cart, and link health claims to evidence without overstating efficacy."
+    },
+    {
+      "id": "fashion-campaign-discovery-with-fit-support",
+      "context": "Fashion storefronts combine campaign storytelling and category browsing with product fit guidance and a persistent purchase path.",
+      "signals": [
+        "Home pairs campaign and seasonal modules with category tiles, Shop the Look and product quick views.",
+        "Collection presents 59 products with color, size, price and brand facets alongside swatches and sale price treatment.",
+        "PDP combines image gallery and color/size selection with size help, fit-related FAQ, pickup content and sticky cart.",
+        "Empty cart offers a direct return-to-shop path and fulfillment messaging."
+      ],
+      "source_entry_ids": [
+        "shopify-be-yours-sheen-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "faceted-filters",
+        "sorting",
+        "quick-view",
+        "product-card-variants",
+        "size-chart",
+        "sticky-atc",
+        "cart-page"
+      ],
+      "design_implication": "Connect campaign modules to coherent collection landing pages, keep fit guidance near variant selection, and maintain clear path back to products from an empty cart. Validate promo, stock and fulfillment copy before launch."
     }
   ]
 }

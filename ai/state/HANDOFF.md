@@ -354,3 +354,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Niche files are `seed`: several sources are search-result links not yet opened, and paid-theme preset
   details come from general knowledge. Stage 2 must verify each niche before design.
 - Competitor fingerprints are `approx`; verify against live demos in Stage 4.
+
+
+## Shopify live-demo research — Batch 31
+- Be Yours:Sheen official preset listing opened its rendered demo; read-only accessibility-tree inspections recorded home, 59-product Clothing collection, Shimmer Dress PDP and empty cart.
+- Coverage: 61/127 selected homes (51 indexed HTML + 10 browser-rendered); 40 rendered pages across 10 presets. 66 selected homes remain.
+- Batch report: `banks/research/competitors/shopify-live-demo-batch31-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch31-2026.json`.
+- No interaction, screenshot, viewport/mobile, Theme Editor, checkout or performance tests. Demo sale, stock, rating, shipping, pickup and return copy is unverified.
+- Next: `palo-alto:palo-alto`.

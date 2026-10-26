@@ -7674,6 +7674,55 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-be-yours-sheen-browser-render",
+      "platform": "shopify",
+      "theme": "Be Yours",
+      "preset": "Sheen",
+      "url": "https://beyours-theme-clothing.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "announcement-bar",
+        "mega-menu",
+        "featured-collection",
+        "quick-view",
+        "quick-add",
+        "faceted-filters",
+        "sorting",
+        "size-chart",
+        "inventory-status",
+        "variant-picker-styles",
+        "sticky-atc",
+        "countdown-timer",
+        "sale-campaign-section",
+        "testimonials",
+        "newsletter-signup",
+        "empty-states",
+        "cart-page"
+      ],
+      "design_signals": [
+        "Fashion campaign and seasonal storytelling are paired with category navigation, featured collections and Shop the Look product groupings.",
+        "59-product collection combines color, size, price and brand filters with swatches, sale prices, ratings and quick-view affordances.",
+        "PDP layers gallery, color and size selection, sale/countdown/stock copy, sizing help, pickup content, sticky cart and product-detail accordions.",
+        "Empty cart combines a clear return-to-shop path with delivery and pickup messaging."
+      ],
+      "niches": [
+        "fashion-apparel",
+        "accessories"
+      ],
+      "notes": "Official Be Yours:Sheen listing View demo opened beyours-theme-clothing.myshopify.com. Four pages inspected read-only in rendered browser. No filter, sort, variant, gallery, cart, popup or checkout action; no screenshot, viewport, mobile, editor, keyboard or performance testing. Sample sale, inventory, review, pickup, delivery and returns claims are unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, 59-product Clothing collection, Shimmer Dress PDP and empty cart; no shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

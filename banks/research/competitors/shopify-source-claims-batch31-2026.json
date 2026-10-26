@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Be Yours:Sheen official preset listing demo inspected read-only via rendered browser accessibility trees. No shopper actions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "be-yours-sheen-preset-listing",
+      "url": "https://themes.shopify.com/themes/be-yours/presets/sheen",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Be Yours Sheen preset listing View demo opened the Be Yours clothing demo storefront."
+    },
+    {
+      "id": "be-yours-sheen-demo",
+      "url": "https://beyours-theme-clothing.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://beyours-theme-clothing.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://beyours-theme-clothing.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://beyours-theme-clothing.myshopify.com/collections/all/products/shimmer-dress"
+        },
+        {
+          "kind": "cart",
+          "url": "https://beyours-theme-clothing.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "be-yours-fashion-discovery-and-fit-support",
+      "source_ids": [
+        "be-yours-sheen-demo"
+      ],
+      "observed": "Home presents seasonal and campaign modules with category paths and Shop the Look; collection offers color, size, price and brand facets; PDP exposes size help, variant choices and sticky cart content.",
+      "risk": "Rendered affordances do not prove filter, quick-view, variant, sticky-cart or pickup behavior, and the demo content may not match a real merchant catalog.",
+      "vsn_guard": "Test collection controls and PDP fit guidance in shopper flows; keep campaign destinations consistent with their product assortment."
+    },
+    {
+      "id": "be-yours-promotional-and-fulfillment-copy",
+      "source_ids": [
+        "be-yours-sheen-demo"
+      ],
+      "observed": "Demo displays discount prices, countdown and low-stock copy, customer ratings, free-shipping/returns and pickup or delivery statements.",
+      "risk": "Visible sample content is not evidence that discounts, inventory, ratings, fulfillment options or return terms are accurate.",
+      "vsn_guard": "Bind promo and stock messages to authoritative data, and verify reviews, delivery and return terms before exposing them."
+    }
+  ]
+}
