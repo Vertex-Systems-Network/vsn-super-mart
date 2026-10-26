@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 35 additional browser-rendered homes are documented (86/127 unique); 218 read-only rendered pages across 55 selected presets.",
+  "summary": "51 indexed HTML selected homes and 40 additional browser-rendered homes are documented (91/127 unique); 237 read-only rendered pages across 60 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4494,21 +4494,197 @@
         "Merchant/demo price, stock, materials, shipping, sustainability and location claims are unverified",
         "The Prestige listing's visible View demo iframe src led to a storefront titled Prestige — Allure (host prestige-theme-allure.myshopify.com). Preserve this listing-to-store naming mismatch; findings describe the destination actually rendered, not a confirmed exact Prestige visual preset match."
       ]
+    },
+    {
+      "id": "shopify-live-local-caffeine",
+      "family": "Local",
+      "preset": "Caffeine",
+      "catalog_preset_id": "local:caffeine",
+      "selected_127": true,
+      "focus": "coffee-origin-grind-subscription-pickup",
+      "homepage": {
+        "url": "https://local-theme-caffeine.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Coffee storefront with promo and delivery copy, Shop/Brew Guides/Locations/Our Story/Contact navigation and pickup entry.",
+          "Roast Perfection hero; Best Sellers/Limited Edition shelves, product flavor/roast text, editorial and brew guide sections, location cards/newsletter.",
+          "Featured coffee section shows roast/taste/brightness storytelling, grind/size options and store pickup; merchant claims unverified."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "image-with-text",
+          "pickup-availability",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "hero",
+          "product-grid",
+          "collection-list",
+          "pickup-availability",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://local-theme-caffeine.myshopify.com/collections/coffee",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Coffee collection shows 7 products with roast/flavor and prices; no filter/sort visible in captured tree."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-card"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "12° PDP shows $23.50, roast/brightness/tasting copy, 12 grind choices, 300g/900g sizes, one-time/monthly subscription selector, stock copy, quantity/Add/Buy and LA Warehouse/San Diego pickup.",
+          "Product story/origin/tasting details conflict across page sections; recorded as displayed demo copy, not verified facts.",
+          "Cart drawer was opened read-only: empty, Shopping Cart (0), Continue browsing. No standalone cart URL visited."
+        ],
+        "option_ids": [
+          "variant-picker-styles",
+          "selling-plans",
+          "pickup-availability",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "buy-buttons",
+          "pickup-availability"
+        ]
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "No filters, variants, subscription, quantity, cart mutation, checkout or other controls activated.",
+        "No dedicated cart page inspected; drawer state only.",
+        "No screenshot, viewport/mobile, editor, keyboard or performance tests; seller claims unverified."
+      ]
+    },
+    {
+      "id": "shopify-live-local-lively",
+      "family": "Local",
+      "preset": "Lively",
+      "catalog_preset_id": "local:lively",
+      "selected_127": true,
+      "focus": "wine-filters-age-gate-tasting-pdp",
+      "homepage": {
+        "url": "https://local-theme-lively.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Wine categories Red/White/Rosé/Sparkling/Not wine, store pickup and Wine Club entry points.",
+          "Organic Wines hero, featured wine shelves, video/editorial, beer category, Wine Club/events/testimonial and location/store-hours footer.",
+          "Over-18 verification banner visible across pages and left untouched; events and location/product statements are sample copy, unverified."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "image-with-text",
+          "pickup-availability",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "hero",
+          "product-grid",
+          "collection-list",
+          "pickup-availability",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://local-theme-lively.myshopify.com/collections/red",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Red collection shows 9 products, Availability facet (In stock 7 / Out of stock 2), Price range and Best selling sort; controls untouched.",
+          "Age-verification banner visible and unsubmitted."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-card"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://local-theme-lively.myshopify.com/collections/red/products/crimson-reserve-2016",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Crimson Reserve 2016 PDP shows €150, tasting/profile and handling sections, stock copy, quantity/Add/Buy controls and pickup at Lively Store.",
+          "Age gate left visible and untouched; wine claims are demo content."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "product-gallery",
+          "pickup-availability"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "buy-buttons",
+          "pickup-availability"
+        ]
+      },
+      "cart": {
+        "url": "https://local-theme-lively.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart says empty with Continue browsing; over-18 banner visible, not submitted."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "No age verification, filters, sort, quantity, cart mutation or checkout actions.",
+        "No screenshot, viewport/mobile, editor, keyboard or performance tests.",
+        "Merchant wine, stock, event, location and regulatory statements unverified."
+      ]
     }
   ],
   "counts": {
-    "opened_stores": 58,
-    "opened_home": 58,
-    "opened_collection": 45,
-    "opened_product": 46,
-    "opened_empty_cart": 14,
+    "opened_stores": 60,
+    "opened_home": 60,
+    "opened_collection": 47,
+    "opened_product": 48,
+    "opened_empty_cart": 15,
     "interactive_events_tested": 0
   },
   "caveats": [
     "Area/Flow outside selected 127-theme-store-preset cohort",
     "Store HTML is not a screenshot or live interaction test",
     "Public cart page is empty; no cart mutation verified",
-    "Do not copy competitor imagery, code or exact layouts"
+    "Do not copy competitor imagery, code or exact layouts",
+    "Batch83 cart drawer is not a dedicated cart-page visit; Batch84 age gate remained visible and unsubmitted. No visual/device or interaction tests."
   ],
   "selected_127_document_count": 51,
   "browser_render_observations": [
@@ -8220,11 +8396,130 @@
         "Merchant content claims remain unverified",
         "The Prestige listing's visible View demo iframe src led to a storefront titled Prestige — Allure (host prestige-theme-allure.myshopify.com). Preserve this listing-to-store naming mismatch; findings describe the destination actually rendered, not a confirmed exact Prestige visual preset match."
       ]
+    },
+    {
+      "id": "shopify-live-local-caffeine-rendered",
+      "selected_preset_id": "local:caffeine",
+      "theme_family": "Local",
+      "preset": "Caffeine",
+      "store_url": "https://local-theme-caffeine.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official listing View demo iframe src was followed. Collection and product were linked from visible storefront. Cart drawer opened read-only; no standalone cart visit.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-caffeine.myshopify.com/",
+          "observations": [
+            "Coffee storefront with promo and delivery copy, Shop/Brew Guides/Locations/Our Story/Contact navigation and pickup entry.",
+            "Roast Perfection hero; Best Sellers/Limited Edition shelves, product flavor/roast text, editorial and brew guide sections, location cards/newsletter.",
+            "Featured coffee section shows roast/taste/brightness storytelling, grind/size options and store pickup; merchant claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-caffeine.myshopify.com/collections/coffee",
+          "observations": [
+            "Coffee collection shows 7 products with roast/flavor and prices; no filter/sort visible in captured tree."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy",
+          "observations": [
+            "12° PDP shows $23.50, roast/brightness/tasting copy, 12 grind choices, 300g/900g sizes, one-time/monthly subscription selector, stock copy, quantity/Add/Buy and LA Warehouse/San Diego pickup.",
+            "Product story/origin/tasting details conflict across page sections; recorded as displayed demo copy, not verified facts.",
+            "Cart drawer was opened read-only: empty, Shopping Cart (0), Continue browsing. No standalone cart URL visited."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, variants, subscription, quantity, cart mutation, checkout or other controls activated.",
+        "No dedicated cart page inspected; drawer state only.",
+        "No screenshot, viewport/mobile, editor, keyboard or performance tests; seller claims unverified."
+      ]
+    },
+    {
+      "id": "shopify-live-local-lively-rendered",
+      "selected_preset_id": "local:lively",
+      "theme_family": "Local",
+      "preset": "Lively",
+      "store_url": "https://local-theme-lively.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official listing View demo iframe src was followed; visible collection, PDP and cart links were inspected. Age gate left untouched.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-lively.myshopify.com/",
+          "observations": [
+            "Wine categories Red/White/Rosé/Sparkling/Not wine, store pickup and Wine Club entry points.",
+            "Organic Wines hero, featured wine shelves, video/editorial, beer category, Wine Club/events/testimonial and location/store-hours footer.",
+            "Over-18 verification banner visible across pages and left untouched; events and location/product statements are sample copy, unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-lively.myshopify.com/collections/red",
+          "observations": [
+            "Red collection shows 9 products, Availability facet (In stock 7 / Out of stock 2), Price range and Best selling sort; controls untouched.",
+            "Age-verification banner visible and unsubmitted."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-lively.myshopify.com/collections/red/products/crimson-reserve-2016",
+          "observations": [
+            "Crimson Reserve 2016 PDP shows €150, tasting/profile and handling sections, stock copy, quantity/Add/Buy controls and pickup at Lively Store.",
+            "Age gate left visible and untouched; wine claims are demo content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://local-theme-lively.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart says empty with Continue browsing; over-18 banner visible, not submitted."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No age verification, filters, sort, quantity, cart mutation or checkout actions.",
+        "No screenshot, viewport/mobile, editor, keyboard or performance tests.",
+        "Merchant wine, stock, event, location and regulatory statements unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 230,
-    "selected_presets": 58,
-    "unique_selected_homepages_across_all_source_types": 89
+    "pages": 237,
+    "selected_presets": 60,
+    "unique_selected_homepages_across_all_source_types": 91
   }
 }
