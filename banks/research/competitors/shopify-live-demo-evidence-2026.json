@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 27 additional browser-rendered homes are documented (78/127 unique); 115 read-only rendered pages across 29 selected presets.",
+  "summary": "51 indexed HTML selected homes and 27 additional browser-rendered homes are documented (78/127 unique); 119 read-only rendered pages across 30 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6046,11 +6046,78 @@
       "interactions_executed": false,
       "screenshot_captured": false,
       "viewport_dimensions_measured": false
+    },
+    {
+      "id": "shopify-live-prestige-vogue",
+      "selected_preset_id": "prestige:vogue",
+      "theme_family": "Prestige",
+      "preset": "Vogue",
+      "store_url": "https://prestige-theme-vogue.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Prestige:Vogue listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://prestige-theme-vogue.myshopify.com/",
+          "observations": [
+            "Official Shopify Prestige:Vogue View demo opened the matching prestige-theme-vogue.myshopify.com storefront, which brands itself as Prestige - Vogue and shows a worldwide free-delivery announcement.",
+            "Beauty/skincare home centers BODY GLOW + SHINE hero, Masques/Lips featured-collection tabs, sale products with a sold-out item, category links for Skincare/Body/Hair/Kits, kits merchandising, before/after comparison content, a featured Konjac Sponge with color options, customer-story and editorial blocks, newsletter and footer.",
+            "Merchant product, ingredient, shipping, customer and health claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://prestige-theme-vogue.myshopify.com/collections/kits",
+          "observations": [
+            "Kits collection lists 10 products with sorting, availability and price controls and three product-image density choices.",
+            "Product cards display kit names, sale prices, Add to cart or Choose options controls; collection description, promotional content and journal/article content appear on the page.",
+            "No sort, filter, image-density, product-card or purchase action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://prestige-theme-vogue.myshopify.com/products/brazilian-supermask-masque-brush-kit",
+          "observations": [
+            "Brazilian Supermask Masque + Brush Kit PDP shows $59.00 and no reviews; product bundle contents, description, gallery, quantity and Add to cart/Buy it now controls appear.",
+            "Page includes Our Guarantee and Shipping & Returns disclosures, ingredient/brand-story content, customer-story block, FAQ, related products and collection links.",
+            "No quantity, disclosure, cart or purchase action occurred; merchant ingredient, efficacy, product, review and shipping claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://prestige-theme-vogue.myshopify.com/cart",
+          "observations": [
+            "Cart page shows an empty state and Continue Shopping link, with brand/social and newsletter content in footer.",
+            "No cart or checkout action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "evidence_class": "browser_render_readonly",
+      "interactions_executed": false,
+      "screenshot_captured": false,
+      "viewport_dimensions_measured": false
     }
   ],
   "browser_render_counts": {
-    "pages": 115,
-    "selected_presets": 29,
+    "pages": 119,
+    "selected_presets": 30,
     "unique_selected_homepages_across_all_source_types": 78
   }
 }
