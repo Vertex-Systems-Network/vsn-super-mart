@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Stage 2 active. Empire:Depot official-mapped storefront rendered: department-category directory, compare/stock homepage merchandising, technical impact-wrench PDP and empty cart. Coverage 83/127 unique homes; 195 rendered pages across 49 presets; 44 remain. Caffeine listing demo remained blank/time-out; continue next verified preset without assuming a destination.",
+  "next_action": "Stage 2 active. Batch72 Empire:Depot render passed CI. Batch73 checked official View demo on Local:Caffeine/Lively, Empire/Empire/Circuit/Forma and Be Yours:Peace; all six preview frames remained blank and controls disabled. Coverage remains 83/127 unique homes; 195 rendered pages across 49 presets; 44 remain. Continue next unobserved preset, starting Be Yours:Harmony, and count only verified storefronts.",
   "approvals": {},
   "figma": {
     "file_key": null,
