@@ -1,3 +1,18 @@
+## 2026-10-26 — Shopify rendered demo research Batch 75 (Be Yours:Harmony)
+
+**Done**
+- Read the official Harmony listing iframe destination, then inspected the directly observed Be Yours demo homepage, Headphones collection and Dynasty Headphone PDP.
+- Homepage combines a product video hero, feature story, technical-spec sections, comparison table, reviews and newsletter. Headphones shows 3 products, sort/filter and grid-density controls. PDP displays €899, five colors, stock copy and purchase controls; no controls were activated.
+- Demo inconsistencies retained: homepage calls this a one-product store while its collection contains three; PDP describes over-ear headphones but a technical block says in-ear; the color availability copy conflicts with visible color options.
+- Cart drawer did not expose an empty-cart state or dedicated cart page, so no cart page was counted. Updated evidence, matrix, plan, audit note, design observation, progress and this handoff.
+- Coverage: 85/127 unique selected homes; 202 rendered pages across 51 presets; 42 remain. Indexed HTML counts unchanged at 51/38/40/11.
+
+**Limits**
+- No filters, sort, layout, Quick View, variants, quantity, cart mutation, checkout, screenshot, measured viewport/mobile, editor, keyboard or performance tests. All seller/demo claims unverified.
+
+**Next**
+- Continue with Stiletto:Luster (selected rank 52) and use only its official preview mapping.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 74 (Stiletto)
 
 **Done**
