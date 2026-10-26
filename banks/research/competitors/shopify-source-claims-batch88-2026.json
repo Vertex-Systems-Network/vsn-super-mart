@@ -1,0 +1,42 @@
+{
+  "batch": 88,
+  "observed_on": "2026-10-27",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "be-yours:peace",
+  "official_listing_url": "https://themes.shopify.com/themes/be-yours/presets/peace",
+  "iframe_src_observed": "https://beyours-theme.myshopify.com/",
+  "redirected_storefront": "https://beyours-theme.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://beyours-theme.myshopify.com/",
+      "observations": [
+        "Plant store landing with hero, promo, quality/delivery/service panels, plant shelves, gifts, roomscapes, Shop the Look, lookbook, featured PDP, plant-care steps, expert consultation and membership/newsletter.",
+        "Homepage product modules visibly include quick-view controls, bundle selector, stock indicators, review graphics and plant-care content; no actions performed."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://beyours-theme.myshopify.com/collections/all",
+      "observations": [
+        "All Plants collection reports 49 products, Filter and Sort by controls, grid-density options and paginated cards with Quick View, price, stock, rating, badges and color swatches; untouched."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://beyours-theme.myshopify.com/collections/all/products/money-tree",
+      "observations": [
+        "Money Tree PDP shows media gallery/video, €14.99, size options (displayed sold out/unavailable), add/buy controls, sticky-cart form, care/delivery details, green-claims, reviews and pickup information."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "Cart button opened/expanded but no cart panel content or dedicated cart route was confirmed; no cart page counted.",
+    "No filter, sort, variant, purchase, quantity, bundle, cart or checkout actions; no age confirmation.",
+    "No screenshot, viewport/mobile, editor, keyboard or performance tests. Merchant plant, environmental and fulfillment claims remain unverified."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch88-2026.md"
+}
