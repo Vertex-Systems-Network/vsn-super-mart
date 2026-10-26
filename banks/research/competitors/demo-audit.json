@@ -7450,6 +7450,52 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-impulse-dune-browser-render",
+      "platform": "shopify",
+      "theme": "Impulse",
+      "preset": "Dune",
+      "url": "https://impulse-theme-apparel.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "quick-add",
+        "faceted-filters",
+        "sorting",
+        "quick-view",
+        "collection-list",
+        "shop-the-look",
+        "size-chart",
+        "inventory-status",
+        "collapsible-tabs",
+        "related-products",
+        "empty-states",
+        "cart-page",
+        "countdown-timer",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Comfort-led homepage pairs product shelves, shop-the-look and modular promo tiles with category paths.",
+        "249-product collection supports filter/sort and broad catalog pagination; cards use quick view.",
+        "PDP presents size options and sizing help alongside shipping and stock statements and complementary product modules.",
+        "Empty cart combines a return-to-shopping route with recently viewed and popular picks."
+      ],
+      "niches": [
+        "apparel",
+        "fashion-accessories"
+      ],
+      "notes": "Official Impulse:Dune listing View demo opened this host. Store is branded Impulse Theme — Apparel and links a Dune-specific Theme Features page; preserve mapping caveat. Four pages inspected in read-only rendered browser. No clicks, add-to-cart, screenshot, viewport measurement, mobile, Theme Editor, checkout, keyboard or VSN performance tests. Merchant claims are unverified sample copy.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered browser accessibility-tree snapshots of home, All collection, 5 Panel PDP and empty cart; no shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

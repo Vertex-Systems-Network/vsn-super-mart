@@ -1471,6 +1471,27 @@
         "empty-states"
       ],
       "design_implication": "Keep variant vocabulary consistent across filters and PDP selectors, offer sizing context at the decision point, and relate complementary products without interrupting variant selection."
+    },
+    {
+      "id": "apparel-quick-view-sizing-and-cart-recovery",
+      "context": "Impulse Dune's listing-linked demo combines a large apparel catalog, quick-view cards, size guidance and empty-cart discovery.",
+      "signals": [
+        "249-item All collection includes sorting and quick-view actions across 12 pages.",
+        "Product page exposes S–XL options with a size-chart link and shipping/availability statements.",
+        "Empty cart includes recently viewed and popular-pick product shelves."
+      ],
+      "source_entry_ids": [
+        "shopify-impulse-dune-browser-render"
+      ],
+      "option_ids": [
+        "sorting",
+        "quick-view",
+        "size-chart",
+        "inventory-status",
+        "related-products",
+        "empty-states"
+      ],
+      "design_implication": "Let shoppers compare apparel options efficiently, surface sizing help beside variant selection and retain a useful path into merchandise from the empty cart."
     }
   ]
 }

@@ -898,6 +898,17 @@
         "brand story, values and shopping shortcuts"
       ],
       "design_hypothesis": "Kids apparel discovery benefits from filters matching real variant choices—size, color, product type and availability—paired with visible sizing guidance and outfit cross-sells. Treat sale, final-sale and stock notices as merchant-managed product data; browser presence alone does not establish correctness."
+    },
+    {
+      "id": "shopify-impulse-dune-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "comfort-focused hero and new-arrivals quick view",
+        "shop-the-look and promotional tiles",
+        "category and featured-collection shelves",
+        "retail details and newsletter"
+      ],
+      "design_hypothesis": "For broad apparel assortments, pair quick product inspection and product-type sorting with size guidance on PDPs, then support cart recovery through recently viewed and popular picks. Keep stock, shipping and promotional urgency data merchant-verified."
     }
   ]
 }

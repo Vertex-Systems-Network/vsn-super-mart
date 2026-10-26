@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 4 separately recorded browser-rendered Shopify homes (55/127 unique homes observed across these evidence types). Sixteen pages across Savor, Refresh, Enterprise and Broadcast Relay were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 5 separately recorded browser-rendered Shopify homes (56/127 unique homes observed across these evidence types). Twenty pages across Savor, Refresh, Enterprise, Broadcast Relay and Impulse Dune were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4469,11 +4469,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-impulse-dune-browser-render",
+      "selected_preset_id": "impulse:dune",
+      "theme_family": "Impulse",
+      "preset": "Dune",
+      "store_url": "https://impulse-theme-apparel.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Dune preset listing View demo plus read-only inspection of rendered accessibility trees; storefront branding is generic Apparel but it contains a Dune-specific Theme Features link. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-apparel.myshopify.com/",
+          "observations": [
+            "Opened from the official Impulse:Dune listing's View demo; storefront title brands it Impulse Theme — Apparel and footer links to a Dune-specific Theme Features page.",
+            "Homepage combines a comfort-focused hero, New Arrivals quick-view shelf, Shop the Look, promo tiles, category links, retail-location panel, product shelves, timed promotion and newsletter.",
+            "Merchant material, stock, discount, event and sustainability claims were not verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-apparel.myshopify.com/collections/all",
+          "observations": [
+            "All collection reports 249 products, with filter control and sorting by relevance, sales, name, price and date.",
+            "Product cards include quick-view actions; collection spans multiple brands and product types and paginates through 12 pages.",
+            "A clearance promo and seasonal/editorial modules follow the product grid; no filter, sort or page action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-apparel.myshopify.com/products/5-panel-black-canada-pennant-embroidery",
+          "observations": [
+            "PDP shows size options S–XL, size-chart link, $56 price, free-worldwide-shipping and in-stock statements, plus Add to Cart and Buy It Now controls.",
+            "Description and product details include fit/material claims, shipping-information and ask-a-question panels, more-top-picks and shop-the-look shelves.",
+            "Lower page includes trust/sustainability statements, clearance, store details, reviews and recommendations; claims remain merchant demo copy. No purchase action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-apparel.myshopify.com/cart",
+          "observations": [
+            "Empty cart provides Continue shopping and a recently-viewed product shelf.",
+            "Popular Picks shelf offers quick view and products; footer includes collection, brand, store, FAQ and newsletter links.",
+            "No product was added and checkout was not entered."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 16,
-    "selected_presets": 4,
-    "unique_selected_homepages_across_all_source_types": 55
+    "pages": 20,
+    "selected_presets": 5,
+    "unique_selected_homepages_across_all_source_types": 56
   }
 }

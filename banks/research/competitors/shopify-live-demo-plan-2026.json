@@ -85,9 +85,9 @@
     "live_product_verified": 40,
     "live_cart_verified": 11,
     "live_mobile_verified": 0,
-    "browser_rendered_pages": 16,
-    "browser_rendered_selected_presets": 4,
-    "selected_home_observed_any_source": 55
+    "browser_rendered_pages": 20,
+    "browser_rendered_selected_presets": 5,
+    "selected_home_observed_any_source": 56
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -102,6 +102,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch25-2026.md",
-  "next_action": "Continue with impulse:dune, the next priority selected preset. Keep Prestige:Prestige flagged because its official View demo resolves to the Allure family preview, whose exact mapping remains unconfirmed."
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch26-2026.md",
+  "next_action": "Continue with vision:vision, next priority selected preset. The Dune View demo was recorded as selected-listing-linked rendered evidence with a generic-store branding caveat and Dune-specific feature-page link."
 }

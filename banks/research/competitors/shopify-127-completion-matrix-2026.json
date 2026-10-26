@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 16,
-    "browser_rendered_selected_presets": 4,
-    "distinct_selected_homepages_any_source": 55
+    "browser_rendered_pages": 20,
+    "browser_rendered_selected_presets": 5,
+    "distinct_selected_homepages_any_source": 56
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 72
+    "home_any_source": 71
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -517,14 +517,36 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "Demo storefront branding is generic Impulse Theme — Apparel; Dune-specific Theme Features page is linked but page content was not audited",
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/impulse/presets/dune",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Confirm Dune preset-specific mapping from demo page or official theme documentation",
+        "Continue with the next unobserved selected preset while retaining the mapping caveat"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-apparel.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-apparel.myshopify.com/collections/all",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-apparel.myshopify.com/products/5-panel-black-canada-pennant-embroidery",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-apparel.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {

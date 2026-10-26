@@ -1,3 +1,7 @@
+## 2026-10-26 — Batch 26 Impulse Dune listing-linked rendered audit
+
+Official Impulse:Dune View demo opened impulse-theme-apparel.myshopify.com. Inspected home, 249-item All collection, 5 Panel PDP and empty cart using read-only rendered browser accessibility trees. Added four pages, source claims, one pattern, one observation and Batch26 report. Coverage is 56/127 distinct selected homes (51 indexed HTML + 5 rendered), across 20 rendered pages. The storefront is generically branded Apparel but links a Dune-specific Theme Features page; mapping caveat retained. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Next: Vision:Vision.
+
 ## 2026-10-26 — Batch 25 Broadcast Relay selected-preset rendered audit
 
 The official Broadcast:Relay listing preview opened the storefront branded broadcast-theme-relay. Inspected home, All collection, Contrast Jogger PDP and empty cart using rendered browser accessibility trees; added four selected-preset pages, source claims, one pattern, one qualitative observation and Batch25 report. Coverage: 55/127 distinct selected homes (51 indexed HTML + 4 rendered) and 16 rendered pages across four presets. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Prestige:Prestige remains an exact-mapping blocker; next: Impulse:Dune.

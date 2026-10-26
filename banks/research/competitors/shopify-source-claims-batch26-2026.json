@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Impulse:Dune listing-linked storefront, inspected read-only in rendered browser. Store branding is generic Apparel; the site links a Dune-specific Theme Features page. No interaction, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "impulse-dune-preset-listing",
+      "url": "https://themes.shopify.com/themes/impulse/presets/dune",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "View demo opened impulse-theme-apparel.myshopify.com; storefront is labelled Impulse Theme — Apparel and contains a link to Theme Features page-dune."
+    },
+    {
+      "id": "impulse-apparel-demo",
+      "url": "https://impulse-theme-apparel.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-apparel.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-apparel.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-apparel.myshopify.com/products/5-panel-black-canada-pennant-embroidery"
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-apparel.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "impulse-dune-apparel-discovery",
+      "source_ids": [
+        "impulse-apparel-demo"
+      ],
+      "observed": "Demo pages show a 249-product catalog with filtering/sorting and quick view, a PDP with sizes and size-chart link, and an empty cart with recently viewed/popular products.",
+      "risk": "Store has generic apparel branding; functional behavior and fit between official Dune preset and demo page remain unverified.",
+      "vsn_guard": "Retain mapping caveat and test exact preset/editor mapping before asserting Dune-specific behavior."
+    },
+    {
+      "id": "impulse-apparel-merchant-copy",
+      "source_ids": [
+        "impulse-apparel-demo"
+      ],
+      "observed": "Storefront presents price, stock, shipping, sustainability and promotion statements.",
+      "risk": "Demo merchant claims were not independently validated.",
+      "vsn_guard": "Require merchant evidence before reuse."
+    }
+  ]
+}
