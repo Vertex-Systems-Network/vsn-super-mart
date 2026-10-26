@@ -2095,6 +2095,36 @@
         "complementary-products"
       ],
       "design_implication": "Make category navigation and product comparison easy to scan, while keeping technical information, delivery details and purchase controls within one coherent product flow."
+    },
+    {
+      "id": "beauty-story-and-bundle-merchandising",
+      "context": "Beauty and skincare storefronts often need education and bundle merchandising alongside product discovery.",
+      "signals": [
+        "Campaign-led beauty hero and collection tabs",
+        "Bundle-focused collection with filtering and image-density options",
+        "PDP combines product story and disclosures with FAQ and related recommendations",
+        "Empty-cart recovery link"
+      ],
+      "source_entry_ids": [
+        "shopify-live-prestige-vogue"
+      ],
+      "option_ids": [
+        "announcement-bar",
+        "image-banner",
+        "featured-collection",
+        "collection-list",
+        "card-badges",
+        "product-reviews-slot",
+        "faceted-filters",
+        "sorting",
+        "filter-layouts",
+        "product-blocks",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_implication": "Keep product education, bundle contents and clear service disclosures close to the purchase path, with discovery controls that remain easy to scan."
     }
   ]
 }
