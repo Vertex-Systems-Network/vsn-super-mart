@@ -1410,6 +1410,17 @@
         "Apparel and accessories homepage shows returns announcement, brand/shop navigation, fashion hero, New Arrivals quick-view shelf, Shop the Look, promo tiles, category rails, brand collections, feature product, sale banner, retail location and newsletter. Some seasonal/brand copy appears dated or inconsistent; merchant claims unverified."
       ],
       "design_hypothesis": "Observe layered promo grids and brand browsing alongside a large catalog; test responsive behavior and all advertised controls before implementation."
+    },
+    {
+      "id": "shopify-live-palo-alto-dynamo",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Official Palo Alto:Dynamo listing iframe resolves to this technical-bags storefront. Rendered home has repeated 10%-off/US$250 free-shipping announcement, shop/about/sale/FAQ/blog navigation, countdown hero, Best Sellers/Tech Accessories tabbed shelf, product Quick Buy cards, mosaics, material/organization editorial, featured products, newsletter and trust row. Footer states demo goods are provided by AER; merchant product and durability claims are unverified.",
+        "Best Sellers - AER collection reports 12 products and category shortcuts; visible sorting offers Featured/relevance/best-selling/alphabetical/price/date choices, with Availability/Price/Color/Product Type facets. Product cards show prices, color counts, Quick Buy and badges; no control used.",
+        "Navigator Backpack PDP has a 20-entry gallery, in-stock label, $268 versus $400 sale pricing, 33% discount, Black/Grey options, quantity and purchase controls, lifetime-guarantee and repair-kit copy, limited-time offer, materials/specs and shipping accordions, product FAQs, nylon editorial, related collection mosaics and recently-viewed module. Seller and stock claims unverified.",
+        "Dedicated cart is empty and links to Small Bags, Work Bags and all products; displays US$250 free-shipping threshold and trust claims for free shipping/returns, lifetime guarantee and recycled materials."
+      ],
+      "design_hypothesis": "Observe category-led technical bag merchandising, dense trust/promotional bars, tabbed product shelves, Quick Buy and specification-led PDP sections. Test responsive behavior and actual controls before reusing; verify warranty and material claims separately."
     }
   ]
 }
