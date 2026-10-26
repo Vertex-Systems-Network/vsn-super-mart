@@ -2156,6 +2156,38 @@
         "card-swatches"
       ],
       "design_implication": "Connect product narratives to collections and complementary items, and present sourcing and delivery claims only with appropriate evidence."
+    },
+    {
+      "id": "luxury-footwear-campaign-and-size-guidance",
+      "context": "Luxury shoe stores must connect editorial campaigns to confident style and size selection.",
+      "signals": [
+        "Campaign-led hero and shoe-category tiles",
+        "Collection exposes filter, sort and image-density controls",
+        "PDP links colors and sizes with size-chart access and service information",
+        "Lookbook and complementary shoe recommendations"
+      ],
+      "source_entry_ids": [
+        "shopify-live-prestige-signature"
+      ],
+      "option_ids": [
+        "announcement-bar",
+        "image-banner",
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "filter-layouts",
+        "card-badges",
+        "product-blocks",
+        "size-chart",
+        "variant-picker-styles",
+        "complementary-products",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_implication": "Link editorial shoe stories to collection and product paths while keeping size guidance, color choices and service policies easy to find."
     }
   ]
 }
