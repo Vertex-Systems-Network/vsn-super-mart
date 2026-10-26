@@ -690,3 +690,17 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 66 (Expanse:Revive)
+
+**Done**
+- Verified the official Revive listing iframe host and inspected home, Face Mists collection (13 products/four filters), Valmont Priming With a Hydrating Fluid PDP and empty cart drawer read-only.
+- This storefront was not previously recorded as a selected homepage, increasing unique coverage to 80/127 (51 indexed + 29 additional rendered); rendered total is 171 pages across 43 presets; 47 remain.
+- Updated evidence, matrix, audit notes, design observation, promotion pattern, progress and report/source claims.
+
+**Limits**
+- No shopping controls, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Seller and promotional claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
