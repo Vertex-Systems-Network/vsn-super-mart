@@ -5528,11 +5528,49 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-broadcast-stellar-browser-render",
+      "selected_preset_id": "broadcast:stellar",
+      "theme_family": "Broadcast",
+      "preset": "Stellar",
+      "store_url": "https://broadcast-stellar.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Broadcast:Stellar preset listing View demo plus read-only rendered browser accessibility-tree inspection of home and Sunscreen collection; browser connection then disconnected before PDP/cart inspection.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-stellar.myshopify.com/",
+          "observations": [
+            "Official Shopify Broadcast:Stellar listing View demo opened broadcast-stellar.myshopify.com.",
+            "Sun-care storefront uses a 15% promo-code announcement, Shop/About/Blog/Theme Features navigation, Wear the Sun Well hero, sunscreen and lotion category routes and Golden Hour product merchandising.",
+            "Homepage includes clean-ingredients copy, SPF-for-every-body categories, brand-story and seasonal imagery, dermatologist-tested proposition, editorial/social content, shipping/security/checkout messaging and newsletter. These are merchant claims."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen",
+          "observations": [
+            "Sunscreen collection shows 11 products, Sort By control, product cards with prices and descriptions, and pagination to page 2.",
+            "Visible range includes lotions, gels, sprays, bundles and a sold-out Mineral Sunscreen Spray; a Find Your SPF promotional tile and category links for Bundles/Lotions/Sprays appear within the collection.",
+            "Footer copy explicitly says this is a demo store and products are not for sale. No sort, pagination or product action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 83,
-    "selected_presets": 21,
-    "unique_selected_homepages_across_all_source_types": 71
+    "pages": 85,
+    "selected_presets": 22,
+    "unique_selected_homepages_across_all_source_types": 72
   }
 }

@@ -1873,6 +1873,27 @@
         "shop-the-look"
       ],
       "design_implication": "Join seasonal editorial to clear collection routes; keep size availability and fit guidance accurate, and give empty-cart shoppers obvious shopping paths."
+    },
+    {
+      "id": "stellar-suncare-education-to-product-range",
+      "context": "Sun-care merchandising can connect product-format choice with simple SPF education and seasonal brand storytelling.",
+      "signals": [
+        "Home uses seasonal sun-care hero, lotion/spray routes, SPF-for-every-body copy, ingredient and brand-story modules.",
+        "11-product Sunscreen collection groups lotions, gels, sprays and bundles, with price/availability signals, sort entry, pagination and a Find Your SPF tile.",
+        "Footer explicitly says products are demo-only and not for sale; PDP and cart remain uninspected."
+      ],
+      "source_entry_ids": [
+        "shopify-broadcast-stellar-browser-render"
+      ],
+      "option_ids": [
+        "collection-list",
+        "featured-collection",
+        "sorting",
+        "product-card-variants",
+        "promo-banner-section",
+        "newsletter-signup"
+      ],
+      "design_implication": "Help shoppers compare sun-care formats and SPF levels through clear category routes, while verifying product protection and ingredient claims. Do not mistake a theme demo's content for validated health guidance."
     }
   ]
 }
