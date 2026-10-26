@@ -514,13 +514,11 @@
       "id": "shopify-live-broadcast-airwave",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Small coffee catalog with three beans, logo mugs/shirt and brew-guide navigation",
-        "Campaign promo, hero and product best-sellers plus workshop/event storytelling",
-        "Home free-shipping threshold $100 and embedded drawer says $100 until free shipping",
-        "New roast countdown shows 40 days from source but no underlying merchant event verified",
-        "Testimonials and newsletter show sample/filler content not customer review verification"
+        "Coffee-led home uses a video-style hero and repeated $100 free-shipping announcement, followed by a Daily Grind story block.",
+        "Best Sellers shelf links House Blend, Decaf Blend and Logo Mug; a New roast drops countdown precedes a pre-order T-shirt feature.",
+        "Home offers Coffee Blends and All Products collection cards, workshop/event columns, press/testimonial sections and a newsletter form."
       ],
-      "design_hypothesis": "Indexed static HTML element existence only; no pixel screenshot or working cart/menu performance proven."
+      "design_hypothesis": "Rendered Airwave layers coffee education and event/press storytelling around a five-item catalog, preorder callout and multiple product shelves. Shipping threshold copy conflicts ($100 on home, $50 on PDP); visual hierarchy is structural only because no screenshot/viewport audit was captured."
     },
     {
       "id": "shopify-enterprise-sections-reference",
