@@ -1329,6 +1329,24 @@
         "Over-18 verification banner visible across pages and left untouched; events and location/product statements are sample copy, unverified."
       ],
       "design_hypothesis": "Use these as observed merchandising patterns only; storefront copy is unverified and responsive treatment needs visual/device review."
+    },
+    {
+      "id": "shopify-empire-empire",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Home and gifts storefront with four-slide Made to Last / Everyday Celebrations / Cook a Five Star Meal / Outdoor Oasis hero.",
+        "Promo tiles, mixed category Deals of the Week shelf, countdown module, featured variant/quantity product, trending collections, gift price thresholds, shoppable-image hotspots, testimonial/service rows and blog/newsletter."
+      ],
+      "design_hypothesis": "Treat merchandising and discovery modules as rendered design patterns; validate layout visually across viewport sizes before implementation."
+    },
+    {
+      "id": "shopify-empire-circuit",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Electronics storefront with new arrivals, Clearance/About/Blog/FAQ nav, shipping/pickup/service rows and hero for drone products.",
+        "Trending category rail, deals/new-arrivals shelves, product-card color options, shoppable product hotspot section, featured product detail with color/quantity controls, review/testimonial and search/newsletter."
+      ],
+      "design_hypothesis": "Treat merchandising and discovery modules as rendered design patterns; validate layout visually across viewport sizes before implementation."
     }
   ]
 }
