@@ -7517,7 +7517,7 @@
       "preset": "Vision",
       "url": "https://vision-main.myshopify.com/",
       "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-26",
+      "opened_on": "2026-10-27",
       "feature_option_ids": [
         "free-shipping-bar",
         "faceted-filters",
@@ -7535,19 +7535,19 @@
         "newsletter-signup"
       ],
       "design_signals": [
-        "Smart-home campaign homepage pairs sale messages and product shelves with category education and editorial modules.",
-        "Twenty-product catalog presents availability, brand, price and color filters alongside compare checkboxes.",
-        "Camera PDP links product media and variants to technical specifications, policy panels and related products.",
-        "Empty cart routes shoppers to products and recently viewed items."
+        "Smart-home homepage has free-shipping/returns/promo bars, smart-device hero slides, accessory discount tiles, category-switchable Bestsellers with swatches/ratings/stock, automations and security education, brand and category rails, customer reviews, news and newsletter. Some story copy and sample claims look generic or inconsistent; not independently verified.",
+        "Doorbells collection reports 20 products; Availability, Brand, Price and Color facets; Featured sort, Compare checkboxes and pagination. Cards mix speakers, cameras, watches, bulbs and locks despite Doorbells title, with a smart-watch editorial tile. A Compare products overlay appeared in the page AX tree without an intentional action; no controls were used.",
+        "Smart Home Speaker PDP shows $82, a three-image gallery, color and material choices, quantity, Add/Buy buttons, pros/cons, tabs/spec sections and FAQs. The intro description refers to a peephole camera, conflicting with the product title; tech/spec content also mixes unrelated home-security topics. Claims remain unverified.",
+        "Dedicated empty cart says Your cart is empty, with continue-shopping prompt and standard footer/newsletter/payment icons."
       ],
       "niches": [
         "electronics-retail",
         "smart-home"
       ],
-      "notes": "Official Vision preset View demo opened vision-main.myshopify.com. Four pages inspected read-only in rendered browser. No interactions, screenshot, viewport measurement, mobile, editor, checkout, keyboard or performance testing; merchant sample claims are unverified.",
-      "document_verified_on": "2026-10-26",
-      "document_verification_scope": "Rendered accessibility-tree snapshots of home, All Products collection, Smart Camera PDP and empty cart; no shopper actions or visual/viewport QA.",
-      "document_verification_status": "accessible",
+      "notes": "Official Vision listing iframe resolves vision-main.myshopify.com. Fresh read shows mixed products in Doorbells and a peephole-camera intro on the speaker PDP; content mismatch is not attributed to theme capability.",
+      "document_verified_on": "2026-10-27",
+      "document_verification_scope": "Refreshed rendered AX inspection of home, Doorbells collection, Smart Home Speaker PDP and dedicated empty cart. No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "document_verification_status": "browser_rendered_readonly",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
