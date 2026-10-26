@@ -1187,6 +1187,20 @@
         "Delivery, trust and newsletter modules"
       ],
       "design_hypothesis": "For extensive gear catalogs, pair activity and brand taxonomies with collection filters and view density controls; brand storytelling and stock/sale cues help orient product discovery. Rendered content only; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-warehouse-wood",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Nordic design hero and brand identity",
+        "Department/category tiles and brand directory",
+        "Featured collection with price and inventory cues",
+        "Featured PDP and sales/promotional shelves",
+        "Newsletter, blog and service/footer content"
+      ],
+      "design_hypothesis": "For home-goods stores with broad assortments, make brand and room/category discovery visible before dense product shelves; keep stock, discount, and variant cues on cards, then reinforce discovery with a concrete featured product and editorial trust content. Rendered structure only; interactions and visual QA were not tested.",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26"
     }
   ]
 }
