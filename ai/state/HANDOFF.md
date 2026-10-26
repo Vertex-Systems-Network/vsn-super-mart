@@ -718,3 +718,17 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 68 (Expanse:Spritz)
+
+**Done**
+- Verified official Spritz listing iframe host (same URL as older historical nonselected record); inspected homepage, 5-product Everything. Organic Wine collection, Organico Lemon Refresher PDP and empty cart drawer read-only.
+- Counted the first selected Spritz homepage at 82/127 unique homes (51 indexed + 31 additional rendered); 179 rendered pages across 45 presets; 45 remain.
+- Updated evidence, matrix, audit note, design observation, promotion pattern, progress and report/source claims.
+
+**Limits**
+- No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller and promotion claims unverified.
+
+**Next**
+- Continue the next unobserved selected preset.
