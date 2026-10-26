@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Stage 2 active. Batch79 rendered Stiletto:Tapestry home, All collection (32 results), Wine Cup PDP and empty cart. Batch80 attempted Motion:Motion (rank 56), but the fresh Theme Store preview remained about:blank and View demo click exceeded the browser deadline; no host or coverage was claimed. Current total remains 86/127 unique homes, 218 rendered pages across 55 presets, 41 remaining. Indexed totals remain 51/38/40/11. Resume Motion when browser controls respond.",
+  "next_action": "Stage 2 active. Batch80 rendered Motion:Motion (apparel host), home/collection/PDP/empty cart; Batch81 rendered Motion:Memo (home goods host), home/collection/PDP/empty cart; Batch82 rendered the destination exposed by Prestige:Prestige, whose storefront title is Prestige — Allure, with home/65-product Women collection/Le Dalia PDP/empty cart. Coverage is now 89/127 unique homes, 230 rendered pages across 58 selected presets, 38 remaining. Indexed HTML totals remain 51/38/40/11. Continue with Local:Caffeine (rank 41); retain the Prestige listing-to-store mapping caveat.",
   "approvals": {},
   "figma": {
     "file_key": null,
@@ -14,7 +14,7 @@
     "historical_replaced_file_key": "y5e3fEpx2eAFhLRFLisP0o",
     "historical_original_file_key": "BxJuIRth8k4cCUbFnPV6ek"
   },
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "design_delivery_mode": "fresh_design_to_be_created_later",
   "design_recovery": {
     "status": "archived",
