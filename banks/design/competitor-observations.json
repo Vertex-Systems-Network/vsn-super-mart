@@ -392,15 +392,15 @@
       "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
     },
     {
-      "id": "shopify-live-symmetry-beatnik",
+      "id": "shopify-symmetry-beatnik",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Eyewear department mega menu with Men/Women and New Arrivals/Best Sellers",
-        "Brand narrative on recycled sustainable frames and split campaign heroes",
-        "Sale/countdown and multilingual storefront content in document",
-        "Product shelves link to specific model names, blog and brand stories"
+        "Eyewear campaign hero and men's/women's collection links",
+        "Bestseller shelf and sale countdown",
+        "Material/sustainability narrative and product style content",
+        "Customer quotes, blog, store details and newsletter"
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "Eyewear PDPs may need clear lens protection, prescription and fit information beside color and purchase choices, with materials and brand story available nearby. Merchant claims and interactive behavior remain unverified."
     },
     {
       "id": "shopify-live-symmetry-duke",
