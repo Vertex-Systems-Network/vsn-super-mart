@@ -507,7 +507,8 @@
       "context": "Empire Depot demonstrates different product card states for industrial procurement including compare affordance, stock, preorder and quick shop.",
       "signals": [
         "Quick shop, compare and pre-order text in live Depot storefront",
-        "Multi-tier tool categories and industrial products"
+        "Multi-tier tool categories and industrial products",
+        "Rendered home compare shelf exposes price, rating and stock states; PDP separates specification and quote disclosures."
       ],
       "source_entry_ids": [
         "shopify-live-empire-depot"
