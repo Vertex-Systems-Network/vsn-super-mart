@@ -41,14 +41,16 @@
         "sale panels",
         "in-grid offers",
         "upsell surfaces",
-        "Expanse:Revive rendered beauty home places a holiday gift-with-spend message and countdown among skincare categories, Shop the Look, bestsellers, testimonials, shipping-threshold messaging and brand/editorial modules; promo validity not checked."
+        "Expanse:Revive rendered beauty home places a holiday gift-with-spend message and countdown among skincare categories, Shop the Look, bestsellers, testimonials, shipping-threshold messaging and brand/editorial modules; promo validity not checked.",
+        "Expanse:Spritz rendered storefront pairs organic/non-alcoholic beverage shelves and category taxonomy with giveaway/countdown, shipping threshold, recipes and supplier disclosure; promotion and product claims not independently verified."
       ],
       "source_entry_ids": [
         "shopify-impulse",
         "shopify-broadcast",
         "woo-flatsome-big-sale",
         "woo-flatsome-mega",
-        "shopify-expanse-revive"
+        "shopify-expanse-revive",
+        "shopify-expanse-spritz"
       ],
       "option_ids": [
         "promo-grid",
