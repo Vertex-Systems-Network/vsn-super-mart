@@ -1,3 +1,18 @@
+## 2026-10-27 — Shopify rendered demo research Batches 80–82
+
+**Done**
+- Recovered the Motion:Motion preview and inspected home, Half-Zips collection, Merino Wool Quarter-Zip PDP and empty cart.
+- Inspected the Motion:Memo home, Limited Edition — Äggplanta collection, Tumbler Äggplanta PDP and empty cart.
+- Inspected the storefront destination exposed by the Prestige:Prestige listing: home, Women collection (65 products), Le Dalia PDP and empty cart. Its live title is “Prestige - Allure”; exact listing-to-preset identity remains uncertain and is documented.
+- Coverage now 89/127 unique selected homes; 38 remain. Rendered observations: 230 pages across 58 presets. Indexed HTML totals remain 51 home, 38 collection, 40 product and 11 cart.
+- Corrected Batch80 report to reflect successful recovery; added Batch81/82 reports, source claims, evidence matrix updates, audit and design observations.
+
+**Limits**
+- No filters, sort, options, quantity, cart mutation, checkout, screenshots, measured viewport/mobile, editor, keyboard or performance tests. Merchant content claims remain unverified.
+
+**Next**
+- Continue Local:Caffeine (rank 41) from the pending unique-home list.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 79 (Stiletto:Tapestry)
 
 **Done**
