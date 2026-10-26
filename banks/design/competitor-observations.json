@@ -1266,6 +1266,17 @@
         "Collection filtering/sorting and editorial PDP accordions are visible in rendered page structure"
       ],
       "design_hypothesis": "Fashion catalog can connect outfit storytelling, category discovery and multi-variant product presentation; rendered structure only, with no screenshot-based visual audit or confirmed interaction."
+    },
+    {
+      "id": "shopify-live-be-yours-harmony",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product-led headphone video hero and feature-focused product section",
+        "Long technical-specification and included-in-box content, comparison table and expert-review carousel",
+        "Collection filter/sort and grid-density controls with color-variant product cards",
+        "Local-store, newsletter and guarantee/service content"
+      ],
+      "design_hypothesis": "A focused electronics catalog can connect a hero product to technical comparison and product education; demo copy has internal inconsistencies, and no product claims or controls were validated."
     }
   ]
 }
