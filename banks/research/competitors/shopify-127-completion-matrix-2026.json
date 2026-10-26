@@ -19,14 +19,14 @@
     "lighthouse": 0,
     "browser_rendered_pages": 103,
     "browser_rendered_selected_presets": 26,
-    "distinct_selected_homepages_any_source": 76
+    "distinct_selected_homepages_any_source": 75
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 51
+    "home_any_source": 52
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -442,23 +442,23 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
+          "status": "public_indexed_html_opened",
+          "url": "https://impulse-theme-fashion.myshopify.com/",
           "indexed_crawl_recency": null
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
+          "status": "public_indexed_html_opened",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit",
           "indexed_crawl_recency": null
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
+          "status": "public_indexed_html_opened",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
           "indexed_crawl_recency": null
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
+          "status": "public_indexed_html_opened",
+          "url": "https://impulse-theme-fashion.myshopify.com/cart",
           "indexed_crawl_recency": null
         }
       },

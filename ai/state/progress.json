@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Stage 2 active. Impulse:Impulse newly observed. Coverage 76/127 selected homes (51 indexed HTML + 25 additional rendered), 103 pages across 26 presets; 51 unique homes remain. Continue next unobserved preset.",
+  "next_action": "Stage 2 active. Impulse:Impulse pages rendered; its homepage was already counted in indexed HTML coverage. Coverage remains 75/127 selected homes (51 indexed HTML + 24 additional rendered), now 103 pages across 26 presets; 52 unique homes remain. Continue next unobserved preset.",
   "approvals": {},
   "figma": {
     "file_key": null,

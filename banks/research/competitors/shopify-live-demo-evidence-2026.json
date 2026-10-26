@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 16 selected browser-rendered homes are documented (67/127 unique); 64 read-only rendered pages across sixteen selected presets.",
+  "summary": "Read-only rendered observation of 103 pages across 26 selected presets; 75/127 unique homes documented, including 51 indexed HTML homes and 24 additional browser-rendered homes.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5854,6 +5854,6 @@
   "browser_render_counts": {
     "pages": 103,
     "selected_presets": 26,
-    "unique_selected_homepages_across_all_source_types": 76
+    "unique_selected_homepages_across_all_source_types": 75
   }
 }

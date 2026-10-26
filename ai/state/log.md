@@ -152,4 +152,4 @@
 - 2026-10-26 [Shopify live demos / batch 46] Inspected Impact:Cocoon home, New Arrivals collection, PC Portable Lamp PDP and empty cart read-only. Added one unique homepage. Coverage 75/127 (51 indexed + 24 additional rendered); 99 pages across 25 presets. No interaction/screenshot/mobile/editor/checkout/keyboard/performance tests. Selected lamp displayed Sold Out; claims unverified. Next unobserved preset.
 
 
-- 2026-10-26: Batch47 Impulse:Impulse rendered read-only on official Shopify View demo. Added homepage, 7-product Linen Edit collection, The Lido Short PDP and empty-cart evidence. Coverage 76/127, 103 pages/26 presets; 51 homes remain. No shopper-state actions or screenshots/viewport tests.
+- 2026-10-26: Batch47 Impulse:Impulse rendered read-only on official Shopify View demo. Added homepage, 7-product Linen Edit collection, The Lido Short PDP and empty-cart evidence. Coverage 75/127, 103 pages/26 presets; 52 homes remain (Impulse homepage already covered by indexed HTML). No shopper-state actions or screenshots/viewport tests.

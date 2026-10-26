@@ -87,7 +87,7 @@
     "live_mobile_verified": 0,
     "browser_rendered_pages": 103,
     "browser_rendered_selected_presets": 26,
-    "selected_home_observed_any_source": 76
+    "selected_home_observed_any_source": 75
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -103,5 +103,5 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-live-demo-batch47-2026.md",
-  "next_action": "Continue with next unobserved selected preset; coverage is 76/127 selected homepages (51 indexed HTML + 25 additional rendered homes), 103 rendered pages across 26 presets. 51 unique homes remain."
+  "next_action": "Continue with next unobserved selected preset; coverage is 75/127 selected homepages (51 indexed HTML + 24 additional rendered homes), 103 rendered pages across 26 presets. 52 unique homes remain."
 }

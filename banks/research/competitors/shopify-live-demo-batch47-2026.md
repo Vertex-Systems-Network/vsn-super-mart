@@ -15,4 +15,4 @@ Read-only rendered accessibility-tree inspection. No filter, sort, size, add-to-
 
 ## Coverage
 
-76/127 unique selected homepages observed (51 indexed HTML + 25 additional rendered homes); 103 rendered pages across 26 selected presets. 51 unique homepages remain.
+75/127 unique selected homepages observed (51 indexed HTML + 24 additional rendered homes); 103 rendered pages across 26 selected presets. 52 unique homepages remain.
