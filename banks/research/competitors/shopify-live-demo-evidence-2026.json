@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 34 additional browser-rendered homes are documented (85/127 unique); 202 read-only rendered pages across 51 selected presets.",
+  "summary": "51 indexed HTML selected homes and 35 additional browser-rendered homes are documented (86/127 unique); 206 read-only rendered pages across 52 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -7480,11 +7480,77 @@
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
         "Price, stock, product specifications, warranty, fulfillment and review claims remain unverified."
       ]
+    },
+    {
+      "id": "shopify-stiletto-luster-rendered",
+      "selected_preset_id": "stiletto:luster",
+      "theme_family": "Stiletto",
+      "preset": "Luster",
+      "store_url": "https://stiletto-theme-luster.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Stiletto:Luster listing, read the preview iframe src, then opened that exact destination and inspected rendered accessibility trees. Collection/PDP routes came from visible storefront links; cart route came from the visible Open cart modal link and was independently opened. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://stiletto-theme-luster.myshopify.com/",
+          "observations": [
+            "Jewelry homepage uses a statement-gold campaign hero, first-order offer, jewelry-category navigation, shop-collections shelf, product collections, markdown promotion, New Arrivals and Best Sellers shelves.",
+            "Editorial story sections include shoppable-look hotspots, after-image slider, London store/appointment copy, journal, brand story, craftsmanship and sustainability messaging; footer exposes collection, care and newsletter routes.",
+            "Demo copy identifies YSSO as the provider of product content and imagery; certification, sustainability and store claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry",
+          "observations": [
+            "All Jewelry shows 120 results, Best selling sort, and Availability, Price, Ring size, Style and Color filter groups.",
+            "Cards display products, prices and new badges. No filters, sorting or card controls were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry/products/the-rivi-ring",
+          "observations": [
+            "Batis Ring PDP shows $352, a ring-size selector from 0.5 to 13, size guide, in-stock copy, Add to Bag and Buy It Now controls, related product Quick View controls, materials/care and shipping sections.",
+            "No variant, quantity, Quick View, accordion, cart or purchase action was used; price, stock, material, import-duty and sustainability claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://stiletto-theme-luster.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart says YOUR CART IS EMPTY and There are no items in your cart; Continue Shopping and collection/newsletter footer links are visible.",
+            "No cart mutation or checkout."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, Quick View, ring-size, cart mutation or checkout interactions.",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+        "Demo product, stock, sourcing, sustainability, shipping and store claims are unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 202,
-    "selected_presets": 51,
-    "unique_selected_homepages_across_all_source_types": 85
+    "pages": 206,
+    "selected_presets": 52,
+    "unique_selected_homepages_across_all_source_types": 86
   }
 }
