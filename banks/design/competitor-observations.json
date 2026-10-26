@@ -1156,6 +1156,17 @@
         "Shop the Looks, history/editorial, product customization, store assurances and newsletter"
       ],
       "design_hypothesis": "Product history can enrich specialist retail when customization controls and product specifications remain easy to scan, supported by clear service information."
+    },
+    {
+      "id": "shopify-warehouse-warehouse-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "free-shipping announcement and category search/navigation",
+        "headphones hero and category promotion tiles",
+        "collection carousels, featured products and top-rated assortment",
+        "brand/store information, editorial and newsletter"
+      ],
+      "design_hypothesis": "For technical catalogs, category navigation and filter controls can carry discovery while the PDP supports purchase confidence with specifications, delivery information, stock/review cues and recommendations."
     }
   ]
 }
