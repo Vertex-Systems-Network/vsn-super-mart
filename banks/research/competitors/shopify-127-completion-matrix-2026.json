@@ -2485,23 +2485,23 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "browser_render_readonly",
-          "url": "https://local-theme-thrive.myshopify.com/",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         },
         "collection": {
-          "status": "browser_render_readonly",
-          "url": "https://local-theme-thrive.myshopify.com/collections/all",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         },
         "product": {
-          "status": "browser_render_readonly",
-          "url": "https://local-theme-thrive.myshopify.com/products/gut-health-ground-coffee",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         },
         "cart": {
-          "status": "browser_render_readonly",
-          "url": "https://local-theme-thrive.myshopify.com/cart",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         }
       },
@@ -2519,6 +2519,28 @@
       ],
       "next_action": [
         "Continue to next unobserved selected preset; retain read-only evidence and verify merchant-owned claims before relying on them"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-thrive.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-thrive.myshopify.com/collections/all",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-thrive.myshopify.com/products/gut-health-ground-coffee",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://local-theme-thrive.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
