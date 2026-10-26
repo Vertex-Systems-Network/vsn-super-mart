@@ -1,3 +1,11 @@
+## Shopify live-demo research — Batches 89–91 (2026-10-27)
+
+- Sleek:Sleek, Sleek:Modiva and Sleek:Glint inspected from official listing iframe sources; each has rendered home, collection, product and dedicated empty-cart routes recorded read-only.
+- Coverage 98/127 unique homes (51 indexed HTML + 47 additional rendered); 264 pages across 67 selected presets; 29 unique homes remain. Indexed HTML counts remain 51/38/40/11.
+- Reports: `banks/research/competitors/shopify-live-demo-batch89-2026.md`, `banks/research/competitors/shopify-live-demo-batch90-2026.md`, `banks/research/competitors/shopify-live-demo-batch91-2026.md`. Source claims saved alongside each report.
+- No controls activated, screenshots, mobile viewport, Theme Editor, checkout, keyboard or performance tests. Glint’s first PDP route returned 404; a visible homepage-linked Kennith Pant route rendered. Modiva chair copy and Glint mixed category content are demo-copy observations, not verified merchant claims.
+- Next: continue at Wonder:Velour (rank77) according to remaining-priority order; Sleek:Jumped rank72 remains on priority list.
+
 ## 2026-10-27 — Shopify rendered demo research Batches 87–88
 
 **Done**
