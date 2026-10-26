@@ -947,13 +947,15 @@
       "id": "shopify-ignite-ignite-browser-render",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "campaign announcement bars and device-type search",
-        "compatibility finder",
-        "best-selling products with quick-view affordances",
-        "comparison/specification sections",
-        "product/category stories, video and support/newsletter modules"
+        "Electronics storefront home includes mid-season offer announcements, product-type search, compatibility finder, device/component navigation, three-slide phone hero, best-seller shelf with quick view/options, long phone/watch stories, category and product rails, in-grid promo content, social video, stats/reviews, signup offer and expert-help block. Header logo image description says planter, a content mismatch. Claims remain unverified."
       ],
-      "design_hypothesis": "Technical catalogs can connect type and compatibility discovery to comparison-ready product information. Keep filter labels, product specs and variant availability consistent, and expose the same verified attributes across collection and PDP."
+      "design_hypothesis": "For large electronics assortments, structured specs and many metafield facets can aid scanning; validate product data and variant units, since this sample shows inconsistent image/copy signals.",
+      "collection_modules": [
+        "Phones collection reports 19 products; Brand, Color, Storage capacity, Battery life, Processor, RAM, Refresh rate, Screen and Screen resolution facets; Featured sort plus relevance, sales, name, price and date options; Compare control and quick-view cards. Cards show mixed storage units and one product image appears unrelated; no controls used."
+      ],
+      "product_modules": [
+        "Edge Pixa 9 PDP shows from £608, a 15-item gallery, model/color/storage options (512GB and 1TB unavailable), quantity and Add/Buy buttons, stock message, specification table, long-form feature sections, FAQs, contents list and testimonials. Several media and specs/copy sections appear inconsistent (e.g., socks/accessories, conflicting technical detail and origin/price language); all claims unverified."
+      ]
     },
     {
       "id": "shopify-sleek-jumped-browser-render",
