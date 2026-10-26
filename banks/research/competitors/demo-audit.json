@@ -8666,6 +8666,48 @@
         "Kennith Pant PDP reached through a visible homepage product link despite the short slug; page shows pickup availability and complementary/related products. Captured AX tree included pickup region and accessory suggestions; full price/variant details were not retained in this checkpoint, so details remain unverified.",
         "Dedicated cart route is empty and recommends Accessories, Jackets & Coats, Bottoms and T-shirts collections."
       ]
+    },
+    {
+      "id": "shopify-live-wonder-root",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Root",
+      "feature_option_ids": [
+        "video-hero",
+        "featured-collection",
+        "bundle-display",
+        "quiz-entry",
+        "sorting",
+        "selling-plans",
+        "product-gallery",
+        "product-tabs",
+        "cart-page"
+      ],
+      "niches": [
+        "supplements",
+        "wellness",
+        "subscriptions"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "url": "https://wonder-theme-wellness.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Read-only accessibility-tree inspection of rendered home, collection, product and cart. No controls, screenshots, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "notes": "Exact iframe src was read from official Wonder:Root Shopify listing. Store footer labels this a demo store; seller content remains unverified.",
+      "design_signals": [
+        "Supplements storefront home has repeating free-shipping banner, product/shop mega menu, video hero with shop-now and quiz CTAs, featured product cards, bundle link, ingredient-value claims, product-benefit carousel, social/video testimonials, mission/editorial sections, blog, FAQ and newsletter. Footer explicitly says this is a demo store; seller health, safety and performance claims are unverified.",
+        "Wellness Products collection reports 8 products and Best selling sort with Featured, relevance, sales, alphabetical, price and date choices. Cards show product names and $29.99–$49.99 prices, plus Add to Cart controls; untouched. Bundle, testimonials and ingredient-value modules continue below the grid.",
+        "Longevity Gummies PDP shows a 3-image gallery, subscription default with $29.99 crossed to $25.49 and frequency choices (monthly/2-month/3-month/2-week), one-time $29.99 option, Add to Cart, supplement cross-links, accordion benefits/how-to/ingredients, comparison table and repeated reviews. Browser landed with a selling_plan query; controls untouched. Health, ingredient, review and efficacy claims unverified.",
+        "Dedicated cart page is empty, offers continue shopping and account sign-in, and includes product/info/social footer sections."
+      ]
     }
   ],
   "discovery_sources": [
