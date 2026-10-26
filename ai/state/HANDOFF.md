@@ -1,3 +1,17 @@
+## 2026-10-26 — Shopify rendered demo research Batch 77 (Stiletto:Linen)
+
+**Done**
+- Opened the official Linen preview iframe destination; browser navigation redirected from the observed chic host to STO Linen. Inspected home, Footwear (69 results), Teddy Heel PDP and empty cart.
+- Collection shows Featured sort and Product type/Color/Size/Price/Availability filters. PDP shows $620, sizes 35–43, size guide, stock copy, quantity/Add to Bag and care/shipping details. No controls used.
+- Linen homepage was already counted in indexed HTML, so unique-home coverage stays at 86/127. Rendered evidence reaches 210 pages across 53 presets; 41 unique homes remain. Indexed totals remain 51/38/40/11.
+- Updated evidence, matrix, audit note, design observation, plan, progress and handoff.
+
+**Limits**
+- No filters, sorting, size/quantity/purchase, cart mutation, checkout, screenshots, viewport/mobile, Theme Editor, keyboard or performance tests. Merchant claims remain unverified.
+
+**Next**
+- Continue Stiletto:Glimmer (rank 54); its existing indexed homepage means rendered home does not add unique-home credit.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 76 (Stiletto:Luster)
 
 **Done**
