@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 27 additional browser-rendered homes are documented (78/127 unique); 131 read-only rendered pages across 33 selected presets.",
+  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 135 read-only rendered pages across 34 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6302,6 +6302,69 @@
           "url": "https://salt-yard.myshopify.com/cart",
           "observations": [
             "Cart is empty and offers Start shopping, followed by a Trending now product carousel.",
+            "No cart or checkout action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
+    },
+    {
+      "id": "shopify-warehouse-mesh",
+      "selected_preset_id": "warehouse:mesh",
+      "theme_family": "Warehouse",
+      "preset": "Mesh",
+      "store_url": "https://warehouse-theme-fabric.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Warehouse:Mesh listing View demo plus read-only rendered accessibility-tree and collection screenshot inspection; no screenshot audit of other pages or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://warehouse-theme-fabric.myshopify.com/",
+          "observations": [
+            "Official Shopify Warehouse:Mesh View demo opened matching warehouse-theme-fabric.myshopify.com; public store brands itself Warehouse Fabric and credits Gear.com product imagery.",
+            "Outdoor and activewear merchandising combines Camping & Outdoor campaign slides, cross-category promo tiles, New Arrivals products, activity shortcuts (Camp/Hike/Run/Bike/Climb/Ski), brand logos, brand-focused collection shelves, featured product, editorial posts, service assurances and newsletter.",
+            "Merchant claims about gear selection, fulfillment, stock and reviews are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://warehouse-theme-fabric.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "New Arrivals shows 11 products with category shortcuts for Clothing (67), Bags (121) and Shoes (25), and Brand/Color/Size/Price/Availability filter groups.",
+            "Controls show Display 24 per page, Featured sort, grid/list view; product cards combine badges, discounts, brand, ratings, stock quantities and color choices.",
+            "No filter, sort, display, view, color or purchase control was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://warehouse-theme-fabric.myshopify.com/products/oros-apparel-discovery-hybrid-jacket-men-s",
+          "observations": [
+            "Discovery Hybrid Jacket Men's PDP shows a four-image gallery, Size S–XL, sale price $170.00, 4.5/5 from two reviews, SKU and in-stock count; quantity control, Add to cart and Buy it now are visible.",
+            "Long description, feature list and technical specifications cover insulation, weather resistance, recycled lining, pockets, weight, length and fabric composition; You may also like follows.",
+            "No variant, quantity, cart or purchase control was activated; price, inventory, review and product claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://warehouse-theme-fabric.myshopify.com/cart",
+          "observations": [
+            "Cart is empty, with a Shop our products link and a Recently viewed jacket card; a free-shipping threshold message says $49.00 more to qualify.",
             "No cart or checkout action was executed."
           ],
           "evidence_class": "browser_render_readonly",
