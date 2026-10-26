@@ -392,7 +392,7 @@
       "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
     },
     {
-      "id": "shopify-symmetry-beatnik",
+      "id": "shopify-live-symmetry-beatnik",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
         "Eyewear campaign hero and men's/women's collection links",
