@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 35 additional browser-rendered homes are documented (86/127 unique); 206 read-only rendered pages across 52 selected presets.",
+  "summary": "51 indexed HTML selected homes and 35 additional browser-rendered homes are documented (86/127 unique); 210 read-only rendered pages across 53 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -7546,11 +7546,78 @@
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
         "Demo product, stock, sourcing, sustainability, shipping and store claims are unverified."
       ]
+    },
+    {
+      "id": "shopify-live-stiletto-linen-rendered",
+      "selected_preset_id": "stiletto:linen",
+      "theme_family": "Stiletto",
+      "preset": "Linen",
+      "store_url": "https://stiletto-theme-linen.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened the official Shopify Linen listing and read its preview iframe src; the iframe navigation redirected to the STO Linen storefront. Followed the visible Shop all and Teddy Heel links and opened the visible cart href. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://stiletto-theme-linen.myshopify.com/",
+          "observations": [
+            "STO Linen home has sale hero, worldwide-shipping copy, footwear category entry points, countdown promotion, footwear collection shelves and product cards with color cues.",
+            "Additional homepage modules include shop-the-look hotspots, Best Sellers, editorial video/story, journal, craftsmanship and sourcing copy, customer service and newsletter.",
+            "The theme demo footer attributes content and imagery to St. Agni; seller claims remain unverified. Official listing iframe src exposed stiletto-theme-chic.myshopify.com but browser navigation redirected to the STO Linen URL recorded here."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://stiletto-theme-linen.myshopify.com/collections/footwear",
+          "observations": [
+            "Footwear collection shows 69 results, Featured sort and Product type, Color, Size, Price and Availability filter groups.",
+            "Cards display names, prices, sale/new markers and color cues; no filters, sort or cards were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://stiletto-theme-linen.myshopify.com/collections/footwear/products/teddy-heel-ecru",
+          "observations": [
+            "Teddy Heel PDP shows $620, sizes 35–43, size guide, in-stock copy, quantity stepper, Add to Bag, model-fit and materials/care copy, plus Product Care and Shipping and Returns sections.",
+            "No size, quantity, accordion or purchase control was used. Product, material, availability, shipping and responsible-sourcing claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://stiletto-theme-linen.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart says Your cart is empty and There are no items in your cart; Continue shopping returns to footwear, with service and newsletter/footer content.",
+            "No cart mutation or checkout."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Linen homepage already had indexed HTML, so rendered home adds no unique-home credit; rendered page counts are separate.",
+        "No filter, sorting, size, quantity, purchase, cart mutation or checkout actions.",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+        "Merchant product, stock, shipping, sourcing and sustainability copy remains unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 206,
-    "selected_presets": 52,
+    "pages": 210,
+    "selected_presets": 53,
     "unique_selected_homepages_across_all_source_types": 86
   }
 }
