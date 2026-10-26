@@ -1,3 +1,7 @@
+## 2026-10-26 — Batch 25 Broadcast Relay selected-preset rendered audit
+
+The official Broadcast:Relay listing preview opened the storefront branded broadcast-theme-relay. Inspected home, All collection, Contrast Jogger PDP and empty cart using rendered browser accessibility trees; added four selected-preset pages, source claims, one pattern, one qualitative observation and Batch25 report. Coverage: 55/127 distinct selected homes (51 indexed HTML + 4 rendered) and 16 rendered pages across four presets. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Prestige:Prestige remains an exact-mapping blocker; next: Impulse:Dune.
+
 ## 2026-10-26 — Batch 24 Enterprise selected-preset rendered audit
 
 Resolved the next selected preset to the storefront labelled Enterprise Theme Enterprise from the official listing's View demo. Inspected home, Smart Tech collection, Ecobee Smart Camera PDP and empty cart through read-only rendered browser accessibility trees. Added four selected-preset pages, one cross-platform pattern, one qualitative observation, source claims and Batch24 report. Coverage is 54/127 distinct selected homes (51 indexed HTML + 3 selected browser-rendered homes); rendered evidence is 12 pages across Savor, Refresh and Enterprise. No interactions, screenshot, viewport, mobile, editor, checkout, keyboard or performance tests. Prestige:Prestige remains a mapping blocker because its View demo opened the Allure family preview. Next: Broadcast:Relay.

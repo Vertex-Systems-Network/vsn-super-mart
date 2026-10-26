@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 3 separately recorded browser-rendered Shopify homes (54/127 unique homes observed across these evidence types). Twelve pages across Savor, Refresh and Enterprise were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 4 separately recorded browser-rendered Shopify homes (55/127 unique homes observed across these evidence types). Sixteen pages across Savor, Refresh, Enterprise and Broadcast Relay were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4405,11 +4405,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-broadcast-relay-browser-render",
+      "selected_preset_id": "broadcast:relay",
+      "theme_family": "Broadcast",
+      "preset": "Relay",
+      "store_url": "https://broadcast-theme-relay.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify preset preview and read-only inspection of rendered browser accessibility trees; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-theme-relay.myshopify.com/",
+          "observations": [
+            "Official listing's Relay preview opens this storefront branded broadcast-theme-relay.",
+            "Homepage leads with a two-slide apparel campaign, image-led product/category links, Best Sellers with quick-add, pre-order/sale/staff-pick badges, video/featured-product modules, category tabs and editorial proof quotes.",
+            "Lower modules include new-arrival and category counts, material/fit statements and about/contact/help links; merchant sustainability, review and shipping copy was not validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-theme-relay.myshopify.com/collections/all",
+          "observations": [
+            "All collection exposes price, product type, size, color and availability filters plus a sort control; pagination reaches page 9.",
+            "Product cards show prices, color counts and quick-add controls; promotional inserts appear within the grid, including New for Spring and a 10% new-customer offer.",
+            "No filter, sort, pagination or quick-add action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-theme-relay.myshopify.com/products/contrast-jogger",
+          "observations": [
+            "Contrast Jogger page shows a three-image gallery, sale and regular prices, 31% off label, final-sale and low-inventory messages.",
+            "Size and color controls include unavailable size states; quantity, add-to-cart button and countdown are visible.",
+            "Description, fit/material notes, size-chart link, complete-the-look add control, brand-story modules and related products appear below; no variant, size guide or add-to-cart interaction was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-theme-relay.myshopify.com/cart",
+          "observations": [
+            "Empty cart states “Your Cart is Empty” and offers routes to New Arrivals, Bestsellers, Posters, Clearance and Shop All.",
+            "Footer includes company/help/contact sections and the demo-store product-data notice.",
+            "No item was added and no checkout was started."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 12,
-    "selected_presets": 3,
-    "unique_selected_homepages_across_all_source_types": 54
+    "pages": 16,
+    "selected_presets": 4,
+    "unique_selected_homepages_across_all_source_types": 55
   }
 }

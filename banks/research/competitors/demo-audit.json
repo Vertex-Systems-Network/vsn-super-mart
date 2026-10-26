@@ -7404,6 +7404,52 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-broadcast-relay-browser-render",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Relay",
+      "url": "https://broadcast-theme-relay.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "free-shipping-bar",
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "quick-add",
+        "variant-picker-styles",
+        "size-chart",
+        "inventory-status",
+        "countdown-timer",
+        "related-products",
+        "empty-states",
+        "cart-page",
+        "collection-list",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Campaign homepage connects editorial apparel imagery with best-seller shelves, category stories and featured product content.",
+        "All-products collection places price, product type, size, color and stock filters next to sort, quick-add cards and in-grid promotions.",
+        "Product page joins gallery, variant availability, inventory/sale messaging, sizing help and complete-the-look recommendations.",
+        "Empty cart provides category shortcuts for shopping recovery."
+      ],
+      "niches": [
+        "kids-apparel",
+        "clothing"
+      ],
+      "notes": "Four pages inspected using official preset preview and rendered browser accessibility trees on 2026-10-26. Read-only structure evidence; no clicks, add-to-cart, screenshot, viewport measurement, mobile, Theme Editor, checkout, keyboard or VSN performance tests. Merchant claims are unverified sample copy.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered browser accessibility-tree snapshots of home, All collection, Contrast Jogger PDP and empty cart; no executed shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

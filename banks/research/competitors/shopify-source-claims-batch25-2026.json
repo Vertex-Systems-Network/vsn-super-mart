@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Broadcast:Relay official Shopify listing preview and read-only rendered browser accessibility trees; no shopper actions, screenshot, viewport measurement, mobile, editor, checkout or performance tests.",
+  "sources": [
+    {
+      "id": "broadcast-relay-preset-listing",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/relay",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "The official Relay preset page's View demo preview displayed a storefront branded broadcast-theme-relay."
+    },
+    {
+      "id": "broadcast-relay-demo",
+      "url": "https://broadcast-theme-relay.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-theme-relay.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-theme-relay.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-theme-relay.myshopify.com/products/contrast-jogger"
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-theme-relay.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "broadcast-relay-size-color-discovery",
+      "source_ids": [
+        "broadcast-relay-demo"
+      ],
+      "observed": "All-products collection exposes product-type, size, color and availability filters, while the PDP shows size/color option availability and sizing help.",
+      "risk": "Rendered controls do not establish filter functionality or correct inventory/variant data.",
+      "vsn_guard": "Validate filter-to-variant consistency and actual behavior before using as functional precedent."
+    },
+    {
+      "id": "broadcast-relay-demo-merchant-copy",
+      "source_ids": [
+        "broadcast-relay-demo"
+      ],
+      "observed": "Storefront shows sale, final-sale, low-inventory, material/sustainability, shipping and promotional statements.",
+      "risk": "These are unverified demo merchant claims.",
+      "vsn_guard": "Require current merchant evidence and policy before surfacing trust, urgency or inventory claims."
+    }
+  ]
+}

@@ -887,6 +887,17 @@
         "advice, FAQ and newsletter"
       ],
       "design_hypothesis": "For broad electronics catalogs, connect category-specific technical filtering to side-by-side comparison and PDP specifications. Keep promotion, inventory and service claims merchant-controlled and verifiable; this browser pass establishes structure only, not functioning interactions or visual hierarchy."
+    },
+    {
+      "id": "shopify-broadcast-relay-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "two-slide seasonal apparel campaign",
+        "bestsellers and product quick-add shelf",
+        "category stories and editorial quote modules",
+        "brand story, values and shopping shortcuts"
+      ],
+      "design_hypothesis": "Kids apparel discovery benefits from filters matching real variant choices—size, color, product type and availability—paired with visible sizing guidance and outfit cross-sells. Treat sale, final-sale and stock notices as merchant-managed product data; browser presence alone does not establish correctness."
     }
   ]
 }

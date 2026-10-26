@@ -1450,6 +1450,27 @@
         "empty-states"
       ],
       "design_implication": "Preserve a direct path from technical facets to comparison and detailed PDP specifications. Keep comparison fields consistent across category and product views, and provide a useful discovery route for empty carts."
+    },
+    {
+      "id": "apparel-variant-discovery-and-outfit-bridge",
+      "context": "Broadcast Relay connects an apparel campaign homepage to a catalog with size/color/product-type filters and a product page with fit notes and complete-the-look recommendations.",
+      "signals": [
+        "All collection exposes product type, size, color and availability facets alongside price and sorting.",
+        "Contrast Jogger PDP surfaces size availability, color, size-chart link and fit notes.",
+        "PDP recommendations include complementary items; empty cart links back to key collections."
+      ],
+      "source_entry_ids": [
+        "shopify-broadcast-relay-browser-render"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "variant-picker-styles",
+        "size-chart",
+        "related-products",
+        "empty-states"
+      ],
+      "design_implication": "Keep variant vocabulary consistent across filters and PDP selectors, offer sizing context at the decision point, and relate complementary products without interrupting variant selection."
     }
   ]
 }
