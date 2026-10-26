@@ -343,9 +343,12 @@
       "id": "shopify-live-symmetry-salt-yard",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Category/sale rails, pre-order and sold-out cards, size/color swatches and promotional service banners"
+        "Apparel hero and category/promo tiles",
+        "Essentials, New Arrivals and pre-order product shelves",
+        "Sustainability and magazine storytelling",
+        "Service assurances, store content and newsletter"
       ],
-      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access."
+      "design_hypothesis": "Pre-order availability, fit guidance and pickup details can reduce uncertainty on apparel PDPs; organic and ethical sourcing disclosures support editorial storytelling. These are rendered observations only, not interaction or visual QA."
     },
     {
       "id": "shopify-live-expanse-food-drink-legacy",
