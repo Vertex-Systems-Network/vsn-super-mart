@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "created_on": "2026-10-26",
+  "batch": 57,
+  "selected_preset_id": "symmetry:beatnik",
+  "sources": [
+    {
+      "source_id": "official-shopify-symmetry-beatnik-listing",
+      "source_class": "official_theme_store_listing",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/beatnik",
+      "claims": [
+        "Official listing identifies Beatnik as a Symmetry preset; View demo rendered beatnik-5.myshopify.com.",
+        "Official listing advertises filters, pre-order and merchandising features."
+      ],
+      "limits": [
+        "Theme Store feature and marketing copy is vendor-authored."
+      ]
+    },
+    {
+      "source_id": "symmetry-beatnik-rendered-pages",
+      "source_class": "browser_render_readonly",
+      "url": "https://beatnik-5.myshopify.com/",
+      "observed_pages": [
+        {
+          "kind": "home",
+          "url": "https://beatnik-5.myshopify.com/",
+          "observations": [
+            "Official Symmetry:Beatnik listing View demo opens beatnik-5.myshopify.com and identifies the store as Symmetry Theme Beatnik; navigation centers eyewear and Our Story.",
+            "Eyewear campaign hero links women's/men's shopping, sale/countdown and promo tiles support product discovery; bestseller shelf, product storytelling, materials/brand pages, customer quotes, blog, store details, service links and newsletter continue the path.",
+            "Store copy describes Bird's design, sustainability and social-impact claims; those merchant statements are unverified."
+          ]
+        },
+        {
+          "kind": "collection",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses",
+          "observations": [
+            "Women's Sunglasses collection lists 10 products with Featured sorting and visible Color and Product type filter groups; an availability Show/Hide control is also present.",
+            "Cards expose product prices/sale/pre-order states and review summaries; category footer promos and brand storytelling remain visible.",
+            "No filter, sort, availability, product or purchase action was activated."
+          ]
+        },
+        {
+          "kind": "product",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses/products/kaka",
+          "observations": [
+            "Kaka sunglasses PDP shows $65.00, five gallery images, 3.67/5 from three reviews, Honey/Snowy/Caramel color options, UV Protection Rating of 4 and a 9-in-stock signal.",
+            "Page includes quantity and Add to cart controls, optional prescription entry and blue-light checkbox, Clarity/Sizing & Fit/Technical Specs/Shipping disclosures, linked impact/material storytelling and related recommendations.",
+            "No color, prescription, blue-light, quantity, accordion or cart interaction was activated; product, rating, inventory, UV, materials and impact claims remain unverified."
+          ]
+        },
+        {
+          "kind": "cart",
+          "url": "https://beatnik-5.myshopify.com/cart",
+          "observations": [
+            "Cart is empty and offers Start shopping; a Before you go... recommendations carousel lists eyewear styles and review summaries.",
+            "No cart or checkout action was executed."
+          ]
+        }
+      ],
+      "limits": [
+        "Read-only rendered accessibility-tree observations; no screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+        "No product, prescription, fit, UV, review or merchant impact claim independently verified."
+      ]
+    }
+  ]
+}
