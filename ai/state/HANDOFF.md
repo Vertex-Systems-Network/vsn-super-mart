@@ -676,3 +676,17 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue with the next unobserved selected preset and verify its storefront through an official listing or first-party source.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 65 (Expanse:Expanse)
+
+**Done**
+- Verified the official Expanse listing's embedded storefront and inspected home, Planters collection (12 products/four filter groups), Trigg Wall Vessel PDP and empty cart drawer read-only.
+- Homepage already existed as indexed HTML; coverage remains 79/127 unique homes (51 indexed + 28 additional rendered). Rendered total is 167 pages across 42 presets; 48 homes remain.
+- Updated rendered evidence, completion matrix, audit note, design observation, large-catalog pattern, progress and batch report/source claims.
+
+**Limits**
+- No filters, sort, view density, variants, zoom, add-to-cart, checkout, screenshot, viewport/mobile, editor, keyboard or performance tests. Seller claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
