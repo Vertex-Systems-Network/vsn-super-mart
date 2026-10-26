@@ -11,14 +11,16 @@
         "subcollection navigation",
         "filters",
         "search",
-        "Warehouse:Mesh combines activity and brand shortcuts with category shortcuts, brand/color/size/price/availability filters, sorting and grid/list density controls."
+        "Warehouse:Mesh combines activity and brand shortcuts with category shortcuts, brand/color/size/price/availability filters, sorting and grid/list density controls.",
+        "Warehouse:Wood browser-rendered Tableware page shows 46 items, four facet groups, grid/list mode, 24-per-page control and clear stock/discount labels (controls not activated)."
       ],
       "source_entry_ids": [
         "shopify-enterprise",
         "shopify-expanse",
         "woo-woodmart-mega-electronics",
         "woo-flatsome-mega",
-        "shopify-warehouse-mesh"
+        "shopify-warehouse-mesh",
+        "shopify-live-warehouse-wood"
       ],
       "option_ids": [
         "mega-menu",
