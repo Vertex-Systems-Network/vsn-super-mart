@@ -519,3 +519,10 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Official selected preset View demo opened `https://focal-theme-quartz.myshopify.com/`; home, 59-product Men's Watches collection, 1969 Vintage Steel / White PDP and empty cart inspected read-only.
 - Coverage now 77/127 unique homes, 111 rendered pages across 28 presets; 50 remain.
 - Evidence/report: `banks/research/competitors/shopify-live-demo-batch50-2026.md`. No shopper actions or viewport tests; continue after CI passes.
+
+
+## Batch 51 — Warehouse:Warehouse (2026-10-26)
+
+- Official selected preset View demo opened `https://warehouse-theme-metal.myshopify.com/`; home, 75-product Headphones collection, Shure SRH440 PDP and empty cart inspected read-only.
+- Coverage now 78/127 unique homes, 115 rendered pages across 29 presets; 49 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch51-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
