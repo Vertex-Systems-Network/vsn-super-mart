@@ -1,3 +1,17 @@
+## 2026-10-26 — Shopify rendered demo research Batch 76 (Stiletto:Luster)
+
+**Done**
+- Opened the official Luster preview destination and inspected the homepage, 120-result All Jewelry collection, Batis Ring PDP and empty cart.
+- Collection exposes Best selling sort and Availability/Price/Ring size/Style/Color filters; PDP displays $352, ring-size choices and size guide. No controls were activated.
+- Updated the Luster matrix row, browser evidence, audit note, design observation, plan, progress and handoff.
+- Coverage: 86/127 unique selected homes; 206 rendered pages across 52 presets; 41 remain. Indexed HTML counts remain 51/38/40/11.
+
+**Limits**
+- No filters, sort, Quick View, ring-size, cart mutation, checkout, screenshot, viewport/mobile, editor, keyboard or performance tests. Seller claims remain unverified.
+
+**Next**
+- Continue with Stiletto:Linen (rank 53), whose homepage already counts from indexed HTML; add rendered pages without unique-home credit.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 75 (Be Yours:Harmony)
 
 **Done**
