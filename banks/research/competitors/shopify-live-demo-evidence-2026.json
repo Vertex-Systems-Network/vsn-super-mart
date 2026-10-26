@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 48 additional browser-rendered homes are documented (99/127 unique); 268 read-only rendered pages across 68 selected presets.",
+  "summary": "51 indexed HTML selected homes and 49 additional browser-rendered homes are documented (100/127 unique); 272 read-only rendered pages across 69 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5369,14 +5369,113 @@
         "Read-only route inspection; no sort, subscription, variant, add-to-cart, bundle, quiz or checkout actions.",
         "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, ingredients, efficacy, certification, customer and seller claims remain unverified."
       ]
+    },
+    {
+      "id": "shopify-live-impulse-dune",
+      "family": "Impulse",
+      "preset": "Dune",
+      "catalog_preset_id": "impulse:dune",
+      "selected_127": true,
+      "focus": "apparel-brands-promotions",
+      "homepage": {
+        "url": "https://impulse-theme-apparel.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Apparel and accessories homepage shows returns announcement, brand/shop navigation, fashion hero, New Arrivals quick-view shelf, Shop the Look, promo tiles, category rails, brand collections, feature product, sale banner, retail location and newsletter. Some seasonal/brand copy appears dated or inconsistent; merchant claims unverified."
+        ],
+        "option_ids": [
+          "slideshow",
+          "featured-collection",
+          "quick-view",
+          "shop-the-look",
+          "promo-grid",
+          "collection-list"
+        ],
+        "element_ids": [
+          "hero",
+          "product-grid",
+          "quick-view",
+          "shop-the-look",
+          "promo-grid"
+        ]
+      },
+      "collection": {
+        "url": "https://impulse-theme-apparel.myshopify.com/collections/new-arrivals",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "New Arrivals collection reports 249 products; Filter control, Date new-to-old sort and eight sort choices; cards show Quick View, prices and size/color variant links; 12-page pagination. Controls untouched."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "pagination",
+          "quick-view",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid",
+          "pagination"
+        ]
+      },
+      "product": {
+        "url": "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Naked & Famous heavyweight terry crewneck PDP displays $159, S/M/L/XL size choices, size-chart link, shipping/in-stock copy, Add/Buy controls, product-feature bullets, shipping/question accordions, two-image gallery, cross-sells and shop-the-look. Page explicitly identifies itself as a demonstration store."
+        ],
+        "option_ids": [
+          "variant-picker-styles",
+          "size-chart",
+          "shipping-information",
+          "media-gallery-layouts",
+          "complementary-products"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "size-guide",
+          "buy-buttons",
+          "complementary"
+        ]
+      },
+      "cart": {
+        "url": "https://impulse-theme-apparel.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart is empty, with Continue Shopping, recently-viewed area and Popular Picks shelf."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "featured-collection"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "product-grid"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised.",
+        "No screenshot, mobile viewport, Theme Editor, keyboard or performance test. Merchant product, stock, origin, shipping and sustainability claims unverified."
+      ]
     }
   ],
   "counts": {
-    "opened_stores": 68,
-    "opened_home": 68,
-    "opened_collection": 55,
-    "opened_product": 56,
-    "opened_empty_cart": 22,
+    "opened_stores": 69,
+    "opened_home": 69,
+    "opened_collection": 56,
+    "opened_product": 57,
+    "opened_empty_cart": 23,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -9692,11 +9791,71 @@
         "Read-only route inspection; no sort, subscription, variant, add-to-cart, bundle, quiz or checkout actions.",
         "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, ingredients, efficacy, certification, customer and seller claims remain unverified."
       ]
+    },
+    {
+      "id": "shopify-live-impulse-dune-rendered",
+      "selected_preset_id": "impulse:dune",
+      "theme_family": "Impulse",
+      "preset": "Dune",
+      "store_url": "https://impulse-theme-apparel.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Read exact iframe src after opening View demo from the official Shopify listing; inspected visible homepage, linked collection/product and cart routes without interaction.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-apparel.myshopify.com/",
+          "observations": [
+            "Apparel and accessories homepage shows returns announcement, brand/shop navigation, fashion hero, New Arrivals quick-view shelf, Shop the Look, promo tiles, category rails, brand collections, feature product, sale banner, retail location and newsletter. Some seasonal/brand copy appears dated or inconsistent; merchant claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-apparel.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "New Arrivals collection reports 249 products; Filter control, Date new-to-old sort and eight sort choices; cards show Quick View, prices and size/color variant links; 12-page pagination. Controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black",
+          "observations": [
+            "Naked & Famous heavyweight terry crewneck PDP displays $159, S/M/L/XL size choices, size-chart link, shipping/in-stock copy, Add/Buy controls, product-feature bullets, shipping/question accordions, two-image gallery, cross-sells and shop-the-look. Page explicitly identifies itself as a demonstration store."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-apparel.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart is empty, with Continue Shopping, recently-viewed area and Popular Picks shelf."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised.",
+        "No screenshot, mobile viewport, Theme Editor, keyboard or performance test. Merchant product, stock, origin, shipping and sustainability claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 268,
-    "selected_presets": 68,
-    "unique_selected_homepages_across_all_source_types": 99
+    "pages": 272,
+    "selected_presets": 69,
+    "unique_selected_homepages_across_all_source_types": 100
   }
 }
