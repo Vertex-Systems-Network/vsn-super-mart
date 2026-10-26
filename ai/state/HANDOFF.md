@@ -1,3 +1,11 @@
+## Shopify live-demo research — Batches 94–95 (2026-10-27)
+
+- Rechecked Prestige:Prestige: official listing iframe is Prestige - Allure, an unresolved mapping mismatch. Enterprise:Enterprise and Broadcast:Relay View demo controls are disabled, with no iframe source.
+- Rendered Impulse:Dune from official iframe `https://impulse-theme-apparel.myshopify.com/`: home, New Arrivals (249 items), Naked & Famous Crewneck PDP and empty cart.
+- Coverage 100/127 unique selected homes (51 indexed HTML + 49 additional rendered); 272 pages across 69 presets; 27 unique homes remain. Indexed HTML remains 51/38/40/11.
+- Reports: `banks/research/competitors/shopify-live-demo-batch94-2026.md`, `banks/research/competitors/shopify-live-demo-batch95-2026.md`; source claims saved for Dune.
+- No shopper actions, screenshots, mobile viewport, Theme Editor, checkout, keyboard or performance tests. Continue next accessible preset, revisit blocked official previews later.
+
 ## Shopify live-demo research — Batch 93 (2026-10-27)
 
 - Wonder:Root official listing iframe resolved to `https://wonder-theme-wellness.myshopify.com/`; inspected home, 8-product collection, Longevity Gummies PDP and dedicated empty cart read-only.
