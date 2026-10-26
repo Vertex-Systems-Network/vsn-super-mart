@@ -1,0 +1,50 @@
+{
+  "batch": 85,
+  "observed_on": "2026-10-27",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "empire:empire",
+  "official_listing_url": "https://themes.shopify.com/themes/empire/presets/empire",
+  "iframe_src_observed": "https://empire-theme-supply.myshopify.com/",
+  "redirected_storefront": "https://empire-theme-supply.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://empire-theme-supply.myshopify.com/",
+      "observations": [
+        "Home and gifts storefront with four-slide Made to Last / Everyday Celebrations / Cook a Five Star Meal / Outdoor Oasis hero.",
+        "Promo tiles, mixed category Deals of the Week shelf, countdown module, featured variant/quantity product, trending collections, gift price thresholds, shoppable-image hotspots, testimonial/service rows and blog/newsletter."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale",
+      "observations": [
+        "Clearance Sale includes Availability, Price, Colors, Product type filters, Featured sort, compare and grid/list controls; 28 in stock / 2 out of stock, paginated cards."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale/products/circuit-racer-magnetic-block-set",
+      "observations": [
+        "Circuit Racer Magnetic Block Set PDP shows five-image gallery, $56/$47.99, Only 1 left, quantity/Add, demo copy and shipping/returns accordions; no controls used."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://empire-theme-supply.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart is empty with continue shopping and a clearance promo/free-shipping message."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "No filters, sort, compare, variants, quantity, cart mutation or checkout actions.",
+    "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
+    "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch85-2026.md"
+}
