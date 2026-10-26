@@ -1347,6 +1347,24 @@
         "Trending category rail, deals/new-arrivals shelves, product-card color options, shoppable product hotspot section, featured product detail with color/quantity controls, review/testimonial and search/newsletter."
       ],
       "design_hypothesis": "Treat merchandising and discovery modules as rendered design patterns; validate layout visually across viewport sizes before implementation."
+    },
+    {
+      "id": "shopify-empire-forma",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Furniture storefront with shop-by-room and brand navigation, free-shipping announcement and Click & Collect entry.",
+        "Shoppable product hotspots, Brand New Selections shelf, studio-sale slideshow, top collections, designer brands, shop-by-piece/brand/collection navigation, video, customer quotes, service promises and newsletter."
+      ],
+      "design_hypothesis": "Treat observed sections as merchandising patterns and inspect screenshots across devices before making visual conclusions."
+    },
+    {
+      "id": "shopify-be-yours-peace",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Plant store landing with hero, promo, quality/delivery/service panels, plant shelves, gifts, roomscapes, Shop the Look, lookbook, featured PDP, plant-care steps, expert consultation and membership/newsletter.",
+        "Homepage product modules visibly include quick-view controls, bundle selector, stock indicators, review graphics and plant-care content; no actions performed."
+      ],
+      "design_hypothesis": "Treat observed sections as merchandising patterns and inspect screenshots across devices before making visual conclusions."
     }
   ]
 }
