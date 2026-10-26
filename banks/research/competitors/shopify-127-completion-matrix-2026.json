@@ -6816,12 +6816,14 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "Refreshed observation of a storefront already included in the rendered totals; counters intentionally unchanged.",
+        "Read-only; no filters, sort, compare, variants, quantity, purchase, cart or checkout actions; no screenshot, mobile viewport, Theme Editor, keyboard or performance test.",
+        "Catalog/PDP content mismatch and all merchant product, availability, efficacy and service claims are unverified."
       ],
       "next_action": [
-        "Continue with the next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Continue other selected presets; preserve product/collection mismatch as merchant-content issue, not a theme capability claim."
       ],
       "browser_render_observations": [
         {
@@ -6831,12 +6833,12 @@
         },
         {
           "kind": "collection",
-          "url": "https://vision-main.myshopify.com/collections/all",
+          "url": "https://vision-main.myshopify.com/collections/doorbells",
           "evidence_class": "browser_render_readonly"
         },
         {
           "kind": "product",
-          "url": "https://vision-main.myshopify.com/collections/all/products/yale-indoor-wifi-smart-camera-pan-tilt",
+          "url": "https://vision-main.myshopify.com/products/smart-home-speaker-with-google-assistant",
           "evidence_class": "browser_render_readonly"
         },
         {
