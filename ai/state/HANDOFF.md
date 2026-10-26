@@ -1,3 +1,17 @@
+## 2026-10-27 — Shopify rendered demo research Batches 85–86
+
+**Done**
+- Batch85 Empire:Empire: home, Clearance Sale collection, Circuit Racer PDP and empty cart.
+- Batch86 Empire:Circuit: home, New Arrivals category collection, Osmo Mobile Handheld Mount PDP and empty cart.
+- Coverage: 93/127 unique homes, 245 rendered pages across 62 selected presets; 34 homes remain. Indexed HTML totals remain 51/38/40/11.
+- Updated evidence, matrix, audit/design, plan, progress and per-batch reports/source claims.
+
+**Limits**
+- No interaction, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing. Merchant claims are demo copy.
+
+**Next**
+- Continue Empire:Forma (rank46), then Be Yours:Peace.
+
 ## 2026-10-27 — Shopify rendered demo research Batches 83–84
 
 **Done**
