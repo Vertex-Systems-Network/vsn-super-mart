@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-27",
+  "scope": "Visible rendered UI only; seller health and product claims were not independently verified.",
+  "claims": [
+    {
+      "id": "wonder-root-home-1",
+      "claim": "Supplements storefront home has repeating free-shipping banner, product/shop mega menu, video hero with shop-now and quiz CTAs, featured product cards, bundle link, ingredient-value claims, product-benefit carousel, social/video testimonials, mission/editorial sections, blog, FAQ and newsletter. Footer explicitly says this is a demo store; seller health, safety and performance claims are unverified.",
+      "source_url": "https://wonder-theme-wellness.myshopify.com/",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "wonder-root-collection-1",
+      "claim": "Wellness Products collection reports 8 products and Best selling sort with Featured, relevance, sales, alphabetical, price and date choices. Cards show product names and $29.99–$49.99 prices, plus Add to Cart controls; untouched. Bundle, testimonials and ingredient-value modules continue below the grid.",
+      "source_url": "https://wonder-theme-wellness.myshopify.com/collections/frontpage",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "wonder-root-product-1",
+      "claim": "Longevity Gummies PDP shows a 3-image gallery, subscription default with $29.99 crossed to $25.49 and frequency choices (monthly/2-month/3-month/2-week), one-time $29.99 option, Add to Cart, supplement cross-links, accordion benefits/how-to/ingredients, comparison table and repeated reviews. Browser landed with a selling_plan query; controls untouched. Health, ingredient, review and efficacy claims unverified.",
+      "source_url": "https://wonder-theme-wellness.myshopify.com/products/longevity-gummies",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "wonder-root-cart-1",
+      "claim": "Dedicated cart page is empty, offers continue shopping and account sign-in, and includes product/info/social footer sections.",
+      "source_url": "https://wonder-theme-wellness.myshopify.com/cart",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    }
+  ]
+}
