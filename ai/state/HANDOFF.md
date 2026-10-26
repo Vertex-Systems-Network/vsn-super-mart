@@ -533,3 +533,10 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Official selected preset View demo opened `https://prestige-theme-vogue.myshopify.com/`; home, 10-product Kits collection, Brazilian Supermask Masque + Brush Kit PDP and empty cart inspected read-only.
 - Vogue homepage already existed in indexed HTML evidence; four rendered pages added. Coverage is 78/127 unique homes, 119 rendered pages across 30 presets; 49 remain.
 - Evidence/report: `banks/research/competitors/shopify-live-demo-batch52-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
+
+
+## Batch 53 — Prestige:Strass (2026-10-26)
+
+- Official selected preset View demo opened `https://prestige-theme-strass2.myshopify.com/`; home, 14-product Necklaces collection, Mineral Alliance Green Aventurine necklace PDP and empty cart inspected read-only.
+- Strass homepage already existed in indexed HTML evidence; four rendered pages added. Coverage is 78/127 unique homes, 123 rendered pages across 31 presets; 49 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch53-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
