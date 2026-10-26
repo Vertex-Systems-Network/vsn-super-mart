@@ -429,9 +429,10 @@
         "Color-coordinated product bundles and positive sale compare-price messaging",
         "Shop-the-look, customer stories and sustainable material claims in content",
         "Cart drawer source includes empty subtotal and checkout-calculated taxes/shipping",
-        "Promotion countdown visual placeholders show no resolved timer value"
+        "Promotion countdown visual placeholders show no resolved timer value",
+        "Browser-rendered Fetch campaign hero, coordinated dog-walk bundles, grooming shelf, sustainability/adoption blocks, category routes, testimonials, shipping threshold and blog."
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "Pet accessory stores can tie color and size options to bundled walk kits, practical care content, adoption/social proof and clear shipping; live behavior and sustainability claims remain unverified."
     },
     {
       "id": "shopify-live-stiletto-linen",
