@@ -258,9 +258,12 @@
       "homepage_modules": [
         "Face and Body taxonomy with promotional mega-menu tiles",
         "featured Masques/Lips tab selector",
-        "direct add-to-cart product shelf and kits"
+        "direct add-to-cart product shelf and kits",
+        "BODY GLOW + SHINE campaign hero",
+        "Skincare/body/hair/kits category routes and bundle merchandising",
+        "Before/after story, featured product options, customer stories, journal and newsletter"
       ],
-      "design_hypothesis": "Actual public HTML describes modules, not pixel-perfect visual hierarchy; screenshots/mobile testing remain pending."
+      "design_hypothesis": "Beauty shopping can connect a focused campaign to bundles and product education when customers can scan product content, disclosures and recommendations before acting; existing public HTML and browser-rendered structure do not establish pixel-perfect hierarchy."
     },
     {
       "id": "shopify-live-area-technical",
