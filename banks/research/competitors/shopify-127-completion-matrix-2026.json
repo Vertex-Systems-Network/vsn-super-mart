@@ -3,7 +3,7 @@
   "generated_on": "2026-10-26",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "101/127 unique selected homepages documented (51 indexed HTML + 50 additional browser-rendered); 276 rendered pages across 70 selected presets. 26 remain.",
+  "completion_claim": "102/127 unique selected homepages documented (51 indexed HTML + 51 additional browser-rendered); 280 rendered pages across 71 selected presets. 25 remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 276,
-    "browser_rendered_selected_presets": 70,
-    "distinct_selected_homepages_any_source": 101
+    "browser_rendered_pages": 280,
+    "browser_rendered_selected_presets": 71,
+    "distinct_selected_homepages_any_source": 102
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 26
+    "home_any_source": 25
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -4732,14 +4732,34 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/palo-alto/presets/skylight",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue next unobserved selected preset; keep all untested surfaces pending"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/collections/new-arrivals",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/products/kalinda-boots",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
