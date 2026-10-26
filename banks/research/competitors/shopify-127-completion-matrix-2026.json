@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 171,
-    "browser_rendered_selected_presets": 43,
-    "distinct_selected_homepages_any_source": 80
+    "browser_rendered_pages": 175,
+    "browser_rendered_selected_presets": 44,
+    "distinct_selected_homepages_any_source": 81
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 47
+    "home_any_source": 46
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -3002,14 +3002,37 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No collection filter, sort, density, variant, zoom, add-to-cart, cart or checkout action",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, keyboard or performance testing",
+        "Seller product, stock, material, sustainability and service claims unverified"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/expanse/presets/gem",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://gem-theme-emerald.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://gem-theme-emerald.myshopify.com/collections/earrings",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://gem-theme-emerald.myshopify.com/collections/earrings/products/karasuba",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://gem-theme-emerald.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
