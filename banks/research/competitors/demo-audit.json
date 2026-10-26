@@ -1290,11 +1290,11 @@
       "theme": "Stiletto",
       "preset": "Stiletto",
       "url": "https://themes.shopify.com/themes/stiletto/presets/stiletto",
-      "evidence_level": "official_preset_page",
+      "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "accessible",
-      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of the pages documented in the live-demo evidence bank; no shopper actions, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing.",
       "feature_option_ids": [
         "promo-grid",
         "product-card-variants",
@@ -1310,10 +1310,10 @@
       ],
       "notes": "Official listing verification remains documented here. Batch74 inspected the Stiletto View demo storefront homepage, Tops collection, Alex Metallic Top PDP and empty cart read-only; details are in banks/research/competitors/shopify-live-demo-evidence-2026.json. Official listing iframe src host differed from the loaded storefront's internal links; retain the caveat. Indexed-document page coverage is unchanged.",
       "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
@@ -3653,11 +3653,11 @@
       "theme": "Be Yours",
       "preset": "Harmony",
       "url": "https://themes.shopify.com/themes/be-yours/presets/harmony",
-      "evidence_level": "official_preset_page",
+      "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of the pages documented in the live-demo evidence bank; no shopper actions, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing.",
       "feature_option_ids": [
         "featured-collection",
         "theme-styles-presets",
@@ -3672,9 +3672,9 @@
       ],
       "notes": "Official Shopify Harmony listing was used to open the directly observed preview iframe destination and inspect its home, Headphones collection and Dynasty Headphone PDP read-only. Demo content contains a one-product-vs-three-products discrepancy and inconsistent product specifications; see banks/research/competitors/shopify-live-demo-evidence-2026.json. No cart page or interactions counted.",
       "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }
@@ -3685,11 +3685,11 @@
       "theme": "Stiletto",
       "preset": "Luster",
       "url": "https://themes.shopify.com/themes/stiletto/presets/luster",
-      "evidence_level": "official_preset_page",
+      "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of the pages documented in the live-demo evidence bank; no shopper actions, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -3704,10 +3704,10 @@
       ],
       "notes": "Official Stiletto:Luster listing preview iframe src was opened and rendered home, All Jewelry collection, Batis Ring PDP and empty cart were inspected read-only. Details are in banks/research/competitors/shopify-live-demo-evidence-2026.json; indexed document page counts remain unchanged. Merchant claims remain unverified.",
       "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
