@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 195,
-    "browser_rendered_selected_presets": 49,
-    "distinct_selected_homepages_any_source": 83
+    "browser_rendered_pages": 199,
+    "browser_rendered_selected_presets": 50,
+    "distinct_selected_homepages_any_source": 84
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 44
+    "home_any_source": 43
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -3876,14 +3876,36 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "Official listing iframe src host and loaded storefront link host differ; retain the mapping caveat.",
+        "No shopper interactions, screenshot, measured viewport/mobile, Theme Editor, checkout, keyboard or performance testing.",
+        "Seller product, stock, material, shipping and sustainability claims remain unverified."
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/stiletto/presets/stiletto",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unobserved selected preset while retaining the Stiletto preview host discrepancy."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1/products/alex-metallic-top",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
