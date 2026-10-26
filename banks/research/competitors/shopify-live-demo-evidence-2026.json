@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 11 selected browser-rendered homes are documented (62/127 unique); 44 read-only rendered pages across eleven selected presets.",
+  "summary": "51 indexed HTML selected homes and 12 selected browser-rendered homes are documented (63/127 unique); 48 read-only rendered pages across twelve selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4908,11 +4908,73 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-pipeline-pipeline-browser-render",
+      "selected_preset_id": "pipeline:pipeline",
+      "theme_family": "Pipeline",
+      "preset": "Pipeline",
+      "store_url": "https://pipeline-theme-fashion.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Pipeline preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://pipeline-theme-fashion.myshopify.com/",
+          "observations": [
+            "Pipeline Clean home uses fall announcement and language/currency selectors, luxury fashion hero, product fabric tabs, curated collection/season lookbooks, best sellers, Shop the Look hotspots, top collections, newsletter and service/footer trust panels.",
+            "Product cards show size, color count, quick-add and add-to-cart affordances; the home also includes sustainability/craft messaging and links to editorial collections.",
+            "Seasonal promotion and sustainable-material copy are sample content and not validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://pipeline-theme-fashion.myshopify.com/collections/all",
+          "observations": [
+            "All collection provides product-type, color, size, fabric, fit, price and availability facets, sort control, 2/3/4-column display choices and pagination through six pages; no controls were activated.",
+            "Product cards display color swatches/counts, quick-add and add-to-cart affordances; no sort, filter, page or card action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://pipeline-theme-fashion.myshopify.com/products/callie-looker-cardigan-beige",
+          "observations": [
+            "Callie Layered Looker Cardigan PDP shows eight image entries, Beige/White color with alternate charcoal link, size selector and size guide, quantity stepper, $448 price, low-stock message and add-to-cart/buy-now controls.",
+            "Content includes material/care copy, description/care/shipping accordions, Buy It With quick view and Pairs Well With/recommended products.",
+            "Stock, materials, sustainability, price and delivery claims are not independently validated; no variants or cart controls were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://pipeline-theme-fashion.myshopify.com/cart",
+          "observations": [
+            "Empty cart says Your cart is empty and provides a Continue Browsing link.",
+            "Cart includes a spend-more-for-free-shipping message and FAQ buttons for shipping/delivery, international shipping and order tracking; no item was added and checkout was not opened."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 44,
-    "selected_presets": 11,
-    "unique_selected_homepages_across_all_source_types": 62
+    "pages": 48,
+    "selected_presets": 12,
+    "unique_selected_homepages_across_all_source_types": 63
   }
 }

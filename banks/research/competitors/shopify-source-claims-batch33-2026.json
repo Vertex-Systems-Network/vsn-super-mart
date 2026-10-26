@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Pipeline official preset listing demo inspected read-only through rendered browser accessibility trees. No shopper interactions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "pipeline-preset-listing",
+      "url": "https://themes.shopify.com/themes/pipeline/presets/pipeline",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Pipeline preset listing View demo opened Pipeline Clean demo storefront."
+    },
+    {
+      "id": "pipeline-demo",
+      "url": "https://pipeline-theme-fashion.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://pipeline-theme-fashion.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://pipeline-theme-fashion.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://pipeline-theme-fashion.myshopify.com/products/callie-looker-cardigan-beige"
+        },
+        {
+          "kind": "cart",
+          "url": "https://pipeline-theme-fashion.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "pipeline-material-fit-discovery",
+      "source_ids": [
+        "pipeline-demo"
+      ],
+      "observed": "All collection displays product-type, color, size, fabric, fit, price and availability facets, with sorting and grid-density controls; PDP shows sizing guide, fabric/care details and related-product offers.",
+      "risk": "Visible controls and content do not prove shopper behavior or merchant-data accuracy.",
+      "vsn_guard": "Test filtering, responsive grid, sizing and recommendations in actual shopper flows; validate product metadata."
+    },
+    {
+      "id": "pipeline-sample-stock-shipping-claims",
+      "source_ids": [
+        "pipeline-demo"
+      ],
+      "observed": "Demo shows low-stock copy, free-shipping threshold, shipping/returns content, textile composition and sustainability language.",
+      "risk": "Sample inventory and merchant claims are not verified by rendered page text.",
+      "vsn_guard": "Connect availability and shipping thresholds to live authoritative values and substantiate material and sustainability claims."
+    }
+  ]
+}

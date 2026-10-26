@@ -7769,6 +7769,51 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-pipeline-pipeline-browser-render",
+      "platform": "shopify",
+      "theme": "Pipeline",
+      "preset": "Pipeline",
+      "url": "https://pipeline-theme-fashion.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "announcement-bar",
+        "featured-collection",
+        "quick-add",
+        "product-card-variants",
+        "faceted-filters",
+        "sorting",
+        "size-chart",
+        "cart-page",
+        "empty-states",
+        "cart-shipping-estimator",
+        "cart-upsell",
+        "newsletter-signup",
+        "shop-the-look"
+      ],
+      "design_signals": [
+        "Home organizes fashion by signature fabric, seasonal/lookbook stories, best sellers, Shop the Look, curated collections and service information.",
+        "All collection exposes Product Type, Color, Size, Fabric, Fit, Price and Availability facets, sort and grid-density choices, and six pages of results.",
+        "PDP presents extensive gallery, color and size choices with size guide, low-stock content, add-to-cart, related-item cross-sell and care/shipping details.",
+        "Empty cart communicates a spend threshold and returns shoppers to catalog while surfacing delivery FAQs."
+      ],
+      "niches": [
+        "fashion-apparel",
+        "accessories"
+      ],
+      "notes": "Official Pipeline listing View demo opened pipeline-theme-fashion.myshopify.com. Four pages inspected read-only in rendered browser. No filter, sort, layout, variant, quick-add, cart or checkout action; no screenshot, viewport/mobile, editor, keyboard or performance testing. Stock, price, fabric, sustainability, promotion and shipping claims are unverified. Collection result count was not exposed; six pages were visible.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, All collection, Callie Layered Looker Cardigan PDP and empty cart; no shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

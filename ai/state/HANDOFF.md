@@ -370,3 +370,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch32-2026.md`; claims: `banks/research/competitors/shopify-source-claims-batch32-2026.json`.
 - No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance tests. Product, promo, stock, reviews, sustainability and fulfillment copy unverified.
 - Next: continue to next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 33
+- Pipeline official listing View demo opened Pipeline Clean. Read-only rendered inspections recorded home, All collection, Callie Layered Looker Cardigan PDP and empty cart.
+- Coverage: 63/127 selected homes (51 indexed HTML + 12 browser-rendered); 48 rendered pages across 12 presets. 64 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch33-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch33-2026.json`.
+- No interactions, screenshot, viewport/mobile, editor, checkout or performance tests. Sample stock, material, sustainability, promotion and fulfillment statements unverified.
+- Next: continue with next unobserved selected preset.

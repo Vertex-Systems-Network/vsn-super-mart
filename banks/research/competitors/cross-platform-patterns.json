@@ -1623,6 +1623,32 @@
         "empty-states"
       ],
       "design_implication": "For large fashion catalogs, connect campaign destinations to filterable assortments and place fit help near size choice; use empty-cart links to restore discovery. Verify stock and promotional data before launch."
+    },
+    {
+      "id": "fashion-material-facets-lookbook-fit",
+      "context": "Fashion catalogs can use material and fit attributes alongside standard color, size, price and availability discovery.",
+      "signals": [
+        "Home surfaces fabrics and curated seasonal lookbooks alongside product carousels and Shop the Look hotspots.",
+        "Collection exposes seven facet dimensions, sort, responsive grid density options and multi-page pagination.",
+        "PDP puts swatches, size guide and quantity with shipping/care information and related-product offers.",
+        "Empty cart gives a free-shipping threshold and delivery FAQ links."
+      ],
+      "source_entry_ids": [
+        "shopify-pipeline-pipeline-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "shop-the-look",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "quick-add",
+        "size-chart",
+        "cart-shipping-estimator",
+        "cart-upsell",
+        "empty-states"
+      ],
+      "design_implication": "Fashion catalogs may need searchable material and fit attributes beyond standard facets; connect lookbooks to filterable assortments and place sizing plus delivery information near purchase controls."
     }
   ]
 }

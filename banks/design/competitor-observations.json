@@ -978,6 +978,18 @@
         "reviews, press, client-service FAQs, newsletter and social gallery"
       ],
       "design_hypothesis": "Large fashion stores can combine editorial campaigns with structured category routes and fit support at the PDP. Keep promotional and inventory content tied to verified product data; treat demo testimonials and sustainability claims as unsubstantiated."
+    },
+    {
+      "id": "shopify-pipeline-pipeline-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "luxury fashion hero and seasonal announcement",
+        "signature-fabric product tabs and curated collections",
+        "seasonal lookbooks and best-seller merchandise",
+        "Shop the Look hotspots and related quick-add cards",
+        "top collection links, newsletter, service promises and media links"
+      ],
+      "design_hypothesis": "For apparel catalogs, material and fit attributes can complement color/size/price facets, while lookbook modules should route shoppers into relevant assortments. Verify stock, price, material and delivery claims before display."
     }
   ]
 }
