@@ -599,3 +599,18 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Official selected preset View demo opened `https://prestige-theme-signature.myshopify.com/`; home, 13-product Pumps collection, Simone Pumps 110 PDP and empty cart inspected read-only.
 - Signature homepage already existed in indexed HTML evidence; four rendered pages added. Coverage 78/127 unique homes, 127 rendered pages across 32 presets; 49 remain.
 - Evidence/report: `banks/research/competitors/shopify-live-demo-batch54-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 59 (Broadcast:Airwave)
+
+**Done**
+- Opened official Shopify Broadcast:Airwave listing View demo and inspected the rendered home, five-item All Products collection, House Blend PDP and empty cart read-only.
+- Updated browser-render evidence, selected-preset matrix, audit page coverage, design observation, progress/handoff and source-claims report.
+- Indexed home/collection/PDP already existed; unique homepage coverage stays 79/127 (51 indexed HTML + 28 additional rendered); rendered total is 147 pages across 37 presets; 48 homes remain.
+- Observed $100 homepage and $50 PDP free-shipping copy; not reconciled/tested. Cart was empty and unchanged.
+
+**Limits**
+- No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing; seller/product/inventory claims remain unverified.
+
+**Next**
+- Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure rather than Prestige.
