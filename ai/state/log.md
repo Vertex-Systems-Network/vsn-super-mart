@@ -1,3 +1,12 @@
+## 2026-10-26 — Batch 58 Symmetry:Duke rendered audit
+
+- Official Shopify Symmetry:Duke listing View demo opened duke-16.myshopify.com.
+- Read-only rendered browser inspection: home, Decks collection (35 products), Libellule 1 PDP and empty cart.
+- Added four rendered observations and source claims; merged official listing into existing live-demo audit, updated design observation and skate preorder/shipping pattern, and recorded report.
+- Homepage/collection/PDP already indexed: coverage stays 79/127 (51 indexed HTML + 28 additional rendered); rendered total 143 pages across 36 presets; 48 homes remain.
+- No shopper interaction, screenshot or mobile/editor/checkout/performance tests; claims unverified.
+- Next: continue with next unobserved selected preset.
+
 ## 2026-10-26 — Batch 57 Symmetry:Beatnik rendered audit
 
 - Official Shopify Symmetry:Beatnik listing View demo opened beatnik-5.myshopify.com.
