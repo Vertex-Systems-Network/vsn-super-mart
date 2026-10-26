@@ -168,3 +168,6 @@
 
 
 - 2026-10-26: Batch53 Prestige:Strass rendered read-only via official selected listing. Added home, 14-product Necklaces collection, Mineral Alliance Green Aventurine necklace PDP and empty-cart evidence; homepage was already indexed. Coverage 78/127 unique, 123 pages/31 presets; 49 homes remain. No interactions or screenshots/viewport tests.
+
+
+- 2026-10-26: Batch54 Prestige:Signature rendered read-only via official selected listing. Added home, 13-product Pumps collection, Simone Pumps 110 PDP and empty-cart evidence; homepage already existed in indexed HTML. Coverage 78/127 unique, 127 pages/32 presets; 49 homes remain. No interactions or screenshots/viewport tests.
