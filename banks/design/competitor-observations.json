@@ -1196,6 +1196,16 @@
         "Delivery, trust and newsletter modules"
       ],
       "design_hypothesis": "For extensive gear catalogs, pair activity and brand taxonomies with collection filters and view density controls; brand storytelling and stock/sale cues help orient product discovery. Rendered content only; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-expanse",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Coffee restock hero and category tiles",
+        "Coffee bestsellers, Shop the Look, discount promos, outdoor campaign and brand logos",
+        "Spring arrivals, pickup/location content, brand-value blocks, journal and newsletters"
+      ],
+      "design_hypothesis": "For a large home-goods catalog, combine department navigation and filterable collections with multiple campaign placements, brand discovery, pickup information and editorial content. Browser render only; no interaction or visual QA."
     }
   ]
 }
