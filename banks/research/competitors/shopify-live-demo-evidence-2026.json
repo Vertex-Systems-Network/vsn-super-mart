@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 155 read-only rendered pages across 39 selected presets.",
+  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 159 read-only rendered pages across 40 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -1098,7 +1098,8 @@
           "Department navigation by Furniture, Lifestyle and Room with promotional category tiles",
           "Search field with All categories selector; brand directory and new arrivals",
           "Featured collection shows per-product stock messages, 1 left, back in stock, restocking, variant prices",
-          "Featured teapot block has SKU, review indicator, colour and Add to cart markup"
+          "Featured teapot block has SKU, review indicator, colour and Add to cart markup",
+          "Direct browser-rendered homepage confirmed Nordic lifestyle merchandise layout: VIVA Scandinavia hero, brand directories, category tiles, inventory-aware shelves, featured teapot, sale/promotional sections, newsletter, blog, mission copy and service footer."
         ],
         "option_ids": [
           "mega-menu",
@@ -1116,14 +1117,42 @@
           "product-gallery"
         ]
       },
-      "collection": null,
-      "product": null,
-      "cart": null,
+      "collection": {
+        "url": "https://warehouse-theme-wood.myshopify.com/collections/tableware",
+        "signals": [
+          "Tableware collection displays 46 products, 24 per page, Best selling sort, grid/list view controls, and Color, Price, Brand and Availability filter groups.",
+          "Product cards show brand, price and sale savings, stock quantities, new/back-in-stock states; visible pagination indicates a second page.",
+          "No filter, sort, pagination, view or product control was activated."
+        ],
+        "verification": "browser_render_readonly",
+        "observed_on": "2026-10-26"
+      },
+      "product": {
+        "url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot",
+        "signals": [
+          "Amelia Tea Pot PDP shows $35 price, Grey selected with Burgundy and White color options, SKU, and 4.5/5 from two reviews.",
+          "Product page includes gallery media, quantity control, Add to cart and Buy it now buttons, description and payment/security section, plus recommended products.",
+          "Demo notice links the product to CPHAGEN; product, stock, review and merchant claims unverified. No product or purchase control activated."
+        ],
+        "verification": "browser_render_readonly",
+        "observed_on": "2026-10-26"
+      },
+      "cart": {
+        "url": "https://warehouse-theme-wood.myshopify.com/cart",
+        "signals": [
+          "Cart is empty and shows a $200 free-shipping threshold message, Shop our products link and Recently viewed Amelia Tea Pot.",
+          "Service and secure-payment claims are repeated in the footer. Cart state was not changed; no checkout action."
+        ],
+        "verification": "browser_render_readonly",
+        "observed_on": "2026-10-26"
+      },
       "unverified": [
-        "Direct category/product/cart URLs were cache misses",
         "Category search and inventory accuracy not clicked or checked",
         "Freshness of 2-month indexed page",
-        "Mobile and theme editor"
+        "Mobile and theme editor",
+        "No filters/sort/grid-list/pagination/product/cart controls activated",
+        "No screenshot, viewport/mobile, Theme Editor, keyboard, checkout or performance tests",
+        "Merchant shipping, product, stock and review claims remain unverified"
       ],
       "interactive_tested": false,
       "mobile_render_tested": false,
@@ -6691,11 +6720,77 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-live-warehouse-wood",
+      "selected_preset_id": "warehouse:wood",
+      "theme_family": "Warehouse",
+      "preset": "Wood",
+      "store_url": "https://warehouse-theme-wood.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Warehouse:Wood listing iframe source was verified from rendered DOM attributes; followed by direct storefront browser rendering and read-only accessibility-tree inspection. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://warehouse-theme-wood.myshopify.com/",
+          "observations": [
+            "Nordic home-goods storefront presents free-shipping-over-$200 notice, VIVA Scandinavia hero, Popular Brands, department category tiles, inventory-aware featured products, promotion ribbons, Our collections, What's Hot, featured Amelia Tea Pot, brand story, Sales, newsletter, blog, service promises and trust/footer content.",
+            "Visible header includes category-scoped search, localization, account/cart, New Arrivals, Sales, All Collections and Brands navigation. No shopper interaction executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://warehouse-theme-wood.myshopify.com/collections/tableware",
+          "observations": [
+            "Tableware collection displays 46 products and 24 per page, default Best selling sort, grid/list view controls and four filter groups: Color, Price, Brand and Availability.",
+            "Product cards show brand, sale/regular prices, savings, stock quantities, new and back-in-stock cues; pagination indicates a second page. No filter, sort, pagination, view or product control activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot",
+          "observations": [
+            "Amelia Tea Pot page shows $35, Grey selected with Burgundy and White options, SKU, and 4.5/5 from two reviews.",
+            "Gallery, quantity selector, Add to cart and Buy it now controls, description/payment-security content and complementary products are visible. Demo notice links the product to CPHAGEN; seller claims unverified. No product or purchase control activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://warehouse-theme-wood.myshopify.com/cart",
+          "observations": [
+            "Cart is empty, with a $200 free-shipping threshold message, Shop our products link and Recently viewed Amelia Tea Pot.",
+            "Service and secure-payment statements repeat in the footer. No cart state or checkout action."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Homepage already existed as indexed HTML; unique selected homepage coverage unchanged",
+        "No screenshot, viewport/mobile, Theme Editor, keyboard, checkout or performance tests",
+        "No filter/sort/pagination/grid-list/product/cart interaction",
+        "Merchant product, price, stock, review and fulfillment claims unverified"
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 127,
-    "selected_presets": 32,
-    "unique_selected_homepages_across_all_source_types": 78
+    "pages": 159,
+    "selected_presets": 40,
+    "unique_selected_homepages_across_all_source_types": 79
   }
 }
