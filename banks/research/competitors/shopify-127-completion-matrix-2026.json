@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 179,
-    "browser_rendered_selected_presets": 45,
+    "browser_rendered_pages": 183,
+    "browser_rendered_selected_presets": 46,
     "distinct_selected_homepages_any_source": 82
   },
   "pending": {
@@ -2978,12 +2978,38 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "no interactive/mobile/editor/test access"
+        "No collection filters, sort, density, product or cart actions",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, checkout, keyboard or performance tests",
+        "Demo product, sustainability, shipping and promotion claims unverified"
       ],
-      "next_action": []
+      "next_action": [
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://fetch-theme-modern.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/pink-dog-collar-walk-kit-bag-pins",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://fetch-theme-modern.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
+      ]
     },
     {
       "audit_rank": 37,
