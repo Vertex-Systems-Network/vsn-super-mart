@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 42 additional browser-rendered homes are documented (93/127 unique); 245 read-only rendered pages across 62 selected presets.",
+  "summary": "51 indexed HTML selected homes and 44 additional browser-rendered homes are documented (95/127 unique); 252 read-only rendered pages across 64 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4857,14 +4857,190 @@
         "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
         "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
       ]
+    },
+    {
+      "id": "shopify-live-empire-forma",
+      "family": "Empire",
+      "preset": "Forma",
+      "catalog_preset_id": "empire:forma",
+      "selected_127": true,
+      "focus": "modern-furniture-room-brand-discovery",
+      "homepage": {
+        "url": "https://empire-theme-graphic.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Furniture storefront with shop-by-room and brand navigation, free-shipping announcement and Click & Collect entry.",
+          "Shoppable product hotspots, Brand New Selections shelf, studio-sale slideshow, top collections, designer brands, shop-by-piece/brand/collection navigation, video, customer quotes, service promises and newsletter."
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "collection-list",
+          "image-hotspot",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "product-grid",
+          "shop-the-look",
+          "collection-list",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://empire-theme-graphic.myshopify.com/collections/living-room",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Living Room collection has room-category shortcuts, Material/Price/Brand/Product type filters, Featured sorting, Compare and grid/list controls, color swatches, paginated product cards."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-compare",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "compare",
+          "product-grid"
+        ]
+      },
+      "product": {
+        "url": "https://empire-theme-graphic.myshopify.com/products/turning-table",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Turning Table PDP displays a 3-image gallery, $665 price, 1+ stock copy, quantity/Add/Buy, designer story, brand editorial, related products and fulfillment/return messaging."
+        ],
+        "option_ids": [
+          "product-gallery",
+          "quantity-selector",
+          "buy-buttons",
+          "related-products"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "quantity",
+          "buy-buttons",
+          "related-products"
+        ]
+      },
+      "cart": {
+        "url": "https://empire-theme-graphic.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart is empty with Continue shopping, free-shipping threshold and return/support copy."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "No filters, sorting, comparison, variant, quantity, cart mutation or checkout actions.",
+        "No screenshots, measured viewport/mobile, editor, keyboard or performance tests.",
+        "Seller product, stock, material, location and fulfillment claims are demo copy, unverified."
+      ]
+    },
+    {
+      "id": "shopify-live-be-yours-peace",
+      "family": "Be Yours",
+      "preset": "Peace",
+      "catalog_preset_id": "be-yours:peace",
+      "selected_127": true,
+      "focus": "plant-merchandising-bundles-sticky-cart",
+      "homepage": {
+        "url": "https://beyours-theme.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Plant store landing with hero, promo, quality/delivery/service panels, plant shelves, gifts, roomscapes, Shop the Look, lookbook, featured PDP, plant-care steps, expert consultation and membership/newsletter.",
+          "Homepage product modules visibly include quick-view controls, bundle selector, stock indicators, review graphics and plant-care content; no actions performed."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "shop-the-look",
+          "bundle-display",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "hero",
+          "product-grid",
+          "shop-the-look",
+          "bundle",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://beyours-theme.myshopify.com/collections/all",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "All Plants collection reports 49 products, Filter and Sort by controls, grid-density options and paginated cards with Quick View, price, stock, rating, badges and color swatches; untouched."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "quick-view",
+          "product-card-variants"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-grid",
+          "quick-view"
+        ]
+      },
+      "product": {
+        "url": "https://beyours-theme.myshopify.com/collections/all/products/money-tree",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Money Tree PDP shows media gallery/video, €14.99, size options (displayed sold out/unavailable), add/buy controls, sticky-cart form, care/delivery details, green-claims, reviews and pickup information."
+        ],
+        "option_ids": [
+          "product-gallery",
+          "variant-picker-styles",
+          "sticky-atc",
+          "pickup-availability",
+          "product-tabs"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "sticky-cart",
+          "buy-buttons"
+        ]
+      },
+      "cart": null,
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "Cart button opened/expanded but no cart panel content or dedicated cart route was confirmed; no cart page counted.",
+        "No filter, sort, variant, purchase, quantity, bundle, cart or checkout actions; no age confirmation.",
+        "No screenshot, viewport/mobile, editor, keyboard or performance tests. Merchant plant, environmental and fulfillment claims remain unverified."
+      ]
     }
   ],
   "counts": {
-    "opened_stores": 62,
-    "opened_home": 62,
-    "opened_collection": 49,
-    "opened_product": 50,
-    "opened_empty_cart": 17,
+    "opened_stores": 64,
+    "opened_home": 64,
+    "opened_collection": 51,
+    "opened_product": 52,
+    "opened_empty_cart": 18,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -8827,11 +9003,124 @@
         "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
         "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
       ]
+    },
+    {
+      "id": "shopify-live-empire-forma-rendered",
+      "selected_preset_id": "empire:forma",
+      "theme_family": "Empire",
+      "preset": "Forma",
+      "store_url": "https://empire-theme-graphic.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Followed the exact iframe src from the official listing's View demo, then inspected home and visible/known linked pages read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://empire-theme-graphic.myshopify.com/",
+          "observations": [
+            "Furniture storefront with shop-by-room and brand navigation, free-shipping announcement and Click & Collect entry.",
+            "Shoppable product hotspots, Brand New Selections shelf, studio-sale slideshow, top collections, designer brands, shop-by-piece/brand/collection navigation, video, customer quotes, service promises and newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://empire-theme-graphic.myshopify.com/collections/living-room",
+          "observations": [
+            "Living Room collection has room-category shortcuts, Material/Price/Brand/Product type filters, Featured sorting, Compare and grid/list controls, color swatches, paginated product cards."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://empire-theme-graphic.myshopify.com/products/turning-table",
+          "observations": [
+            "Turning Table PDP displays a 3-image gallery, $665 price, 1+ stock copy, quantity/Add/Buy, designer story, brand editorial, related products and fulfillment/return messaging."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://empire-theme-graphic.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart is empty with Continue shopping, free-shipping threshold and return/support copy."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sorting, comparison, variant, quantity, cart mutation or checkout actions.",
+        "No screenshots, measured viewport/mobile, editor, keyboard or performance tests.",
+        "Seller product, stock, material, location and fulfillment claims are demo copy, unverified."
+      ]
+    },
+    {
+      "id": "shopify-live-be-yours-peace-rendered",
+      "selected_preset_id": "be-yours:peace",
+      "theme_family": "Be Yours",
+      "preset": "Peace",
+      "store_url": "https://beyours-theme.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Followed the exact iframe src from the official listing's View demo, then inspected home and visible/known linked pages read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://beyours-theme.myshopify.com/",
+          "observations": [
+            "Plant store landing with hero, promo, quality/delivery/service panels, plant shelves, gifts, roomscapes, Shop the Look, lookbook, featured PDP, plant-care steps, expert consultation and membership/newsletter.",
+            "Homepage product modules visibly include quick-view controls, bundle selector, stock indicators, review graphics and plant-care content; no actions performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://beyours-theme.myshopify.com/collections/all",
+          "observations": [
+            "All Plants collection reports 49 products, Filter and Sort by controls, grid-density options and paginated cards with Quick View, price, stock, rating, badges and color swatches; untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://beyours-theme.myshopify.com/collections/all/products/money-tree",
+          "observations": [
+            "Money Tree PDP shows media gallery/video, €14.99, size options (displayed sold out/unavailable), add/buy controls, sticky-cart form, care/delivery details, green-claims, reviews and pickup information."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Cart button opened/expanded but no cart panel content or dedicated cart route was confirmed; no cart page counted.",
+        "No filter, sort, variant, purchase, quantity, bundle, cart or checkout actions; no age confirmation.",
+        "No screenshot, viewport/mobile, editor, keyboard or performance tests. Merchant plant, environmental and fulfillment claims remain unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 245,
-    "selected_presets": 62,
-    "unique_selected_homepages_across_all_source_types": 93
+    "pages": 252,
+    "selected_presets": 64,
+    "unique_selected_homepages_across_all_source_types": 95
   }
 }
