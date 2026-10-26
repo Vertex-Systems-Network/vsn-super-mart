@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 131,
-    "browser_rendered_selected_presets": 33,
-    "distinct_selected_homepages_any_source": 78
+    "browser_rendered_pages": 135,
+    "browser_rendered_selected_presets": 34,
+    "distinct_selected_homepages_any_source": 79
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 49
+    "home_any_source": 48
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -2539,14 +2539,35 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_rendered_demo",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "Primary indexed-HTML pages not independently recorded",
+        "No shopper interaction, mobile, editor, checkout, keyboard or performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/warehouse/presets/mesh",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next selected preset; keep browser-rendered evidence separate from primary indexed-HTML counts"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://warehouse-theme-fabric.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://warehouse-theme-fabric.myshopify.com/collections/new-arrivals",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://warehouse-theme-fabric.myshopify.com/products/oros-apparel-discovery-hybrid-jacket-men-s",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://warehouse-theme-fabric.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
