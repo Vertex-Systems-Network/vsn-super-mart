@@ -244,9 +244,13 @@
       "homepage_modules": [
         "nested clothing/capsules categories",
         "campaign slides and collection shelves",
-        "lookbook, brand story and journal"
+        "lookbook, brand story and journal",
+        "free-shipping banner and luxury navigation",
+        "new-collection hero and weekly selection",
+        "category tiles, Shop the Look, press/blog and featured product",
+        "brand values, boutique details, service assurances and newsletter"
       ],
-      "design_hypothesis": "Actual public HTML describes modules, not pixel-perfect visual hierarchy; screenshots/mobile testing remain pending."
+      "design_hypothesis": "Editorial luxury positioning can coexist with practical shopping routes when category, product options, stock, shipping and returns stay accessible."
     },
     {
       "id": "shopify-live-prestige-vogue",
@@ -1130,17 +1134,6 @@
         "designer profiles, color discovery and newsletter"
       ],
       "design_hypothesis": "Designer and room storytelling can frame contemporary home product discovery. Use color and in-stock filtering to connect stories to available products; substantiate durability and technical claims."
-    },
-    {
-      "id": "shopify-prestige-couture-browser-render",
-      "evidence_level": "live_demo_page",
-      "homepage_modules": [
-        "free-shipping banner and luxury navigation",
-        "new-collection hero and weekly selection",
-        "category tiles, Shop the Look, press/blog and featured product",
-        "brand values, boutique details, service assurances and newsletter"
-      ],
-      "design_hypothesis": "Editorial luxury positioning can coexist with practical shopping routes when category, product options, stock, shipping and returns stay accessible."
     },
     {
       "id": "shopify-impact-balance-browser-render",
