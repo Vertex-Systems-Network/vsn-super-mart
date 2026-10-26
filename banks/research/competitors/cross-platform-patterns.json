@@ -2125,6 +2125,37 @@
         "newsletter-signup"
       ],
       "design_implication": "Keep product education, bundle contents and clear service disclosures close to the purchase path, with discovery controls that remain easy to scan."
+    },
+    {
+      "id": "fine-jewelry-editorial-and-complementary-sets",
+      "context": "Premium fine-jewelry shopping can benefit from product storytelling that links collections and coordinated pieces.",
+      "signals": [
+        "Editorial campaign and mineral collection story",
+        "Jewelry category tiles and Shop Your Set",
+        "PDP provides stone choices, product narrative and complementary pieces",
+        "Service assurance and magazine content support exploration"
+      ],
+      "source_entry_ids": [
+        "shopify-live-prestige-strass"
+      ],
+      "option_ids": [
+        "announcement-bar",
+        "image-banner",
+        "featured-collection",
+        "collection-list",
+        "card-badges",
+        "product-reviews-slot",
+        "faceted-filters",
+        "sorting",
+        "filter-layouts",
+        "product-blocks",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "card-swatches"
+      ],
+      "design_implication": "Connect product narratives to collections and complementary items, and present sourcing and delivery claims only with appropriate evidence."
     }
   ]
 }
