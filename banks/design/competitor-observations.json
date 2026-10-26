@@ -1421,6 +1421,17 @@
         "Dedicated cart is empty and links to Small Bags, Work Bags and all products; displays US$250 free-shipping threshold and trust claims for free shipping/returns, lifetime guarantee and recycled materials."
       ],
       "design_hypothesis": "Observe category-led technical bag merchandising, dense trust/promotional bars, tabbed product shelves, Quick Buy and specification-led PDP sections. Test responsive behavior and actual controls before reusing; verify warranty and material claims separately."
+    },
+    {
+      "id": "shopify-live-palo-alto-skylight",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Official Palo Alto:Skylight iframe is a footwear and handbags storefront. Home has $200 free-shipping announcement, Catalog/About/Journal/Lookbook navigation, editorial hero, category tiles with product counts, craftsmanship story, Shop the Look, campaign tiles and countdown, handbag product shelf with Quick Buy, lookbook, press, newsletter and collections. Footer labels products as Alohas-provided demo goods; seller claims unverified.",
+        "New Arrivals collection reports 27 products, category links for flats/boots/heels/loafers/mules/sandals, five facet groups (availability, price, color, product type, size), sort control, Quick Buy cards and two-page pagination. Controls untouched.",
+        "Kalinda Boots PDP shows eight gallery images, $500 final-sale price, seven-left stock message, Brown/Black and sizes 35–41, size chart, quantity and buy controls, fit/material accordions, cross-sell, sticky cart bar and FAQs. Page and footer identify demo goods as Alohas-provided, but product, stock and seller claims remain unverified. The Alohas attribution link resolves to an encoded URL on a different broadcast-luxe.myshopify.com host.",
+        "Dedicated cart is empty and suggests Loafers, Spring Lookbook, Sandals and Flats; displays $200 shipping threshold and newsletter/footer."
+      ],
+      "design_hypothesis": "Observe luxury footwear editorial, category links, lookbook storytelling and persistent purchase bar alongside collection facets. Test responsive behavior and actual controls before reuse; treat broken attribution link and seller claims as demo-data quality issues."
     }
   ]
 }
