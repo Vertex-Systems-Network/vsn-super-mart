@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 159 read-only rendered pages across 40 selected presets.",
+  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 163 read-only rendered pages across 41 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -1195,7 +1195,8 @@
           "Jewelry categories by collection, item type and color",
           "Roma Collection hero, lookbook and editorial product storytelling sections",
           "Language/region selection and free delivery threshold presented",
-          "Collection/world journal and sustainability content"
+          "Collection/world journal and sustainability content",
+          "Direct browser rendering via verified official listing iframe confirmed APM Monaco jewelry layout, trending category tabs, collection tiles, shoppable editorial modules, featured product, brand timeline, service claims and newsletter."
         ],
         "option_ids": [
           "mega-menu",
@@ -1236,10 +1237,13 @@
         ]
       },
       "unverified": [
-        "Sapphire Roma collection URL fetch was cache miss",
         "Product purchase/gallery interactions not tested",
         "Cart source is 11-month indexed crawl; could be stale",
-        "No browser mobile"
+        "No browser mobile",
+        "Browser-rendered collection/PDP are recorded separately from indexed-document fields.",
+        "No filters, sort, pagination, zoom, variants, Quick View, cart or purchase controls activated.",
+        "No screenshot, viewport/mobile, Theme Editor, keyboard, checkout or performance tests.",
+        "Merchant jewelry, material, shipping and warranty claims unverified."
       ],
       "interactive_tested": false,
       "mobile_render_tested": false,
@@ -6761,11 +6765,73 @@
         "No filter/sort/pagination/grid-list/product/cart interaction",
         "Merchant product, price, stock, review and fulfillment claims unverified"
       ]
+    },
+    {
+      "id": "shopify-live-focal-sapphire",
+      "selected_preset_id": "focal:sapphire",
+      "theme_family": "Focal",
+      "preset": "Sapphire",
+      "store_url": "https://focal-theme-sapphire.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify listing iframe src read from rendered DOM after View demo; direct public storefront navigation and read-only accessibility-tree inspection. No screenshot/viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://focal-theme-sapphire.myshopify.com/",
+          "observations": [
+            "Jewelry home has Eclat campaign hero, France/EUR localization, category navigation, trending product-type tabs, rated earrings shelf, collection tiles, category promos, video/editorial, featured ring, boutique story, product hotspots, brand timeline, service claims and newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://focal-theme-sapphire.myshopify.com/collections/earrings",
+          "observations": [
+            "117 products, Featured sorting, category shortcuts, five facets (Product type, Collection, Color, Price, Availability), review/sale cues and five pages. Controls not activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://focal-theme-sapphire.myshopify.com/products/double-meteorites-stud-earrings-ae9784ox",
+          "observations": [
+            "€114, White Silver, SKU AE9784OX, in stock, 4.33/5 from three reviews; gallery/zoom, add/buy controls, details/warranty copy and recommendations visible. No controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://focal-theme-sapphire.myshopify.com/cart",
+          "observations": [
+            "Cart is empty and offers Start Shopping; quality, warranty, shipping and customer-service claims appear below. No action."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Homepage and cart already existed as indexed HTML; unique homepage count unchanged.",
+        "Collection/PDP browser observations remain separate from indexed-document fields.",
+        "No shopper interactions or screenshot/mobile/editor/checkout/keyboard/performance tests.",
+        "Merchant jewelry, product, material, ratings, shipping and warranty claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 159,
-    "selected_presets": 40,
+    "pages": 163,
+    "selected_presets": 41,
     "unique_selected_homepages_across_all_source_types": 79
   }
 }
