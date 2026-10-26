@@ -1,3 +1,17 @@
+## 2026-10-27 — Shopify rendered demo research Batches 83–84
+
+**Done**
+- Batch83: Local:Caffeine official demo; home, 7-product Coffee collection, 12° PDP and empty cart drawer. No standalone cart page visited.
+- Batch84: Local:Lively official demo; home, 9-product Red collection, Crimson Reserve PDP and empty cart. Age gate visible and untouched.
+- Coverage: 91/127 unique homes, 237 rendered pages across 60 presets; 36 homes remain. Indexed HTML totals remain 51/38/40/11.
+- Updated evidence, matrix, audit/design observations, plan, progress, reports and source claims.
+
+**Limits**
+- No interactions, screenshots, measured viewport/mobile, editor, checkout, keyboard or performance tests. Seller claims unverified.
+
+**Next**
+- Continue Empire:Empire, selected rank 43.
+
 ## 2026-10-27 — Shopify rendered demo research Batches 80–82
 
 **Done**
