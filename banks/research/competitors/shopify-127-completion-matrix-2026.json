@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 268,
-    "browser_rendered_selected_presets": 68,
-    "distinct_selected_homepages_any_source": 99
+    "browser_rendered_pages": 272,
+    "browser_rendered_selected_presets": 69,
+    "distinct_selected_homepages_any_source": 100
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 28
+    "home_any_source": 27
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -542,14 +542,13 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Demo storefront branding is generic Impulse Theme — Apparel; Dune-specific Theme Features page is linked but page content was not audited",
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised.",
+        "No screenshot, mobile viewport, Theme Editor, keyboard or performance test. Merchant product, stock, origin, shipping and sustainability claims unverified."
       ],
       "next_action": [
-        "Confirm Dune preset-specific mapping from demo page or official theme documentation",
-        "Continue with the next unobserved selected preset while retaining the mapping caveat"
+        "Continue remaining priority presets; retry official listing preview blockers later."
       ],
       "browser_render_observations": [
         {
@@ -559,12 +558,12 @@
         },
         {
           "kind": "collection",
-          "url": "https://impulse-theme-apparel.myshopify.com/collections/all",
+          "url": "https://impulse-theme-apparel.myshopify.com/collections/new-arrivals",
           "evidence_class": "browser_render_readonly"
         },
         {
           "kind": "product",
-          "url": "https://impulse-theme-apparel.myshopify.com/products/5-panel-black-canada-pennant-embroidery",
+          "url": "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black",
           "evidence_class": "browser_render_readonly"
         },
         {
@@ -754,15 +753,16 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "official_listing_verified_demo_unavailable_or_mismatched",
       "blockers": [
         "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
         "Merchant product, price, stock, material, shipping and brand claims remain unverified",
-        "Official listing preview destination is named Allure; exact preset-to-store mapping remains uncertain."
+        "Official listing preview destination is named Allure; exact preset-to-store mapping remains uncertain.",
+        "Official Prestige:Prestige listing's View demo iframe renders a storefront titled Prestige - Allure on prestige-theme-allure.myshopify.com. The mismatch persists; do not count Allure as a Prestige preset demo without a valid mapping."
       ],
       "next_action": [
-        "Rendered home, collection, product and cart inspected read-only; optional interaction/device testing remains pending."
+        "Recheck only if the official listing exposes a valid matching demo host; do not infer one."
       ],
       "browser_render_observations": [
         {
@@ -1556,12 +1556,13 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "official_listing_verified_demo_unavailable_or_mismatched",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Official Broadcast:Relay listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified."
       ],
       "next_action": [
-        "Continue with the next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Recheck only if the official listing exposes a valid matching demo host; do not infer one."
       ],
       "browser_render_observations": [
         {
@@ -1844,12 +1845,13 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "official_listing_verified_demo_unavailable_or_mismatched",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Official Enterprise listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified."
       ],
       "next_action": [
-        "Continue with the next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Recheck only if the official listing exposes a valid matching demo host; do not infer one."
       ],
       "browser_render_observations": [
         {
