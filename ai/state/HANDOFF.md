@@ -1,3 +1,11 @@
+## Shopify live-demo research — Batch 98 (Palo Alto:Palo Alto, 2026-10-26)
+
+- Refreshed the previously counted official Palo Alto selected-preset demo: home, 198-product New Arrivals collection, Sabine Skirt PDP and empty cart.
+- Exact iframe host: `palo-alto-theme-main.myshopify.com`; collection card title and PDP browser title differ. No counts added.
+- Coverage unchanged: 100/127 unique homes, 272 rendered pages across 69 presets; 27 remain. No shopper actions or viewport/editor/checkout/performance tests.
+- Next: verify Palo Alto:Dynamo from its official listing.
+
+
 ## Shopify live-demo refresh — Batch 97 (2026-10-27)
 
 - Refreshed already counted Ignite:Ignite routes: home, 19-item Phones collection, Edge Pixa 9 PDP and empty cart. No counters added.
