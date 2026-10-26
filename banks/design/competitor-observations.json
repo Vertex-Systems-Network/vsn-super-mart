@@ -1257,7 +1257,7 @@
       "design_hypothesis": "Footwear retail can connect style-category discovery and featured gear to size/width guidance and store availability, with pickup and delivery access visible across the journey. Browser-render only; product and fulfillment claims are unverified."
     },
     {
-      "id": "shopify-live-stiletto",
+      "id": "shopify-stiletto",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
         "Satin-separates campaign hero, brand philosophy and category-entry grid",
@@ -1268,7 +1268,7 @@
       "design_hypothesis": "Fashion catalog can connect outfit storytelling, category discovery and multi-variant product presentation; rendered structure only, with no screenshot-based visual audit or confirmed interaction."
     },
     {
-      "id": "shopify-live-be-yours-harmony",
+      "id": "shopify-be-yours-harmony",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
         "Product-led headphone video hero and feature-focused product section",
