@@ -526,3 +526,10 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Official selected preset View demo opened `https://warehouse-theme-metal.myshopify.com/`; home, 75-product Headphones collection, Shure SRH440 PDP and empty cart inspected read-only.
 - Coverage now 78/127 unique homes, 115 rendered pages across 29 presets; 49 remain.
 - Evidence/report: `banks/research/competitors/shopify-live-demo-batch51-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
+
+
+## Batch 52 — Prestige:Vogue (2026-10-26)
+
+- Official selected preset View demo opened `https://prestige-theme-vogue.myshopify.com/`; home, 10-product Kits collection, Brazilian Supermask Masque + Brush Kit PDP and empty cart inspected read-only.
+- Vogue homepage already existed in indexed HTML evidence; four rendered pages added. Coverage is 78/127 unique homes, 119 rendered pages across 30 presets; 49 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch52-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
