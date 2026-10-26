@@ -1308,7 +1308,7 @@
         "fashion-apparel",
         "beauty-skincare"
       ],
-      "notes": "Official vendor positioning, not storefront UX test.",
+      "notes": "Official listing verification remains documented here. Batch74 inspected the Stiletto View demo storefront homepage, Tops collection, Alex Metallic Top PDP and empty cart read-only; details are in banks/research/competitors/shopify-live-demo-evidence-2026.json. Official listing iframe src host differed from the loaded storefront's internal links; retain the caveat. Indexed-document page coverage is unchanged.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
