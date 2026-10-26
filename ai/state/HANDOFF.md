@@ -746,3 +746,17 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 70 (Local:Local)
+
+**Done**
+- Verified Local:Local listing iframe; inspected grocery home, 6-product Bread & Bakery collection (Price/Product type/Availability/Allergens), Sourdough Perth PDP with nutrition and store pickup, and empty cart.
+- Homepage already existed as indexed HTML; unique coverage remains 82/127. Rendered evidence becomes 187 pages across 47 selected presets; 45 homes remain.
+- Updated rendered evidence, matrix, audit note, design observation, catalog pattern, progress and report/source claims.
+
+**Limits**
+- No filter, sort, compare, variant, cart or checkout actions; no screenshot, viewport/mobile, editor, keyboard or performance tests. Retailer claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
