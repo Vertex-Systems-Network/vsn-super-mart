@@ -1998,15 +1998,49 @@
         "collection-list",
         "faceted-filters",
         "sorting",
-        "product-card-badges",
         "product-card-variants",
         "inventory-status",
         "related-products",
         "cart-page",
         "empty-states",
-        "accordion-content"
+        "card-badges",
+        "card-swatches",
+        "collapsible-tabs",
+        "size-chart",
+        "variant-picker-styles",
+        "delivery-estimate"
       ],
       "design_implication": "Pair luxury brand narrative with transparent product filters and easy-to-find sizing, stock, delivery and returns details; substantiate environmental and service claims."
+    },
+    {
+      "id": "impact-balance-activewear-story-and-options",
+      "context": "Activewear stores can combine performance storytelling with accessible product selection.",
+      "signals": [
+        "Home balances matching-set hero, category links, sustainability metrics, care/stretch education, featured product, reviews and signup.",
+        "Collection exposes filter/sort controls and swatch/pricing information in product cards.",
+        "PDP connects size/color selection, pricing/reviews, shipping/promo details and care/sustainability content with related products."
+      ],
+      "source_entry_ids": [
+        "shopify-impact-balance-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "card-badges",
+        "card-swatches",
+        "collapsible-tabs",
+        "size-chart",
+        "variant-picker-styles",
+        "delivery-estimate"
+      ],
+      "design_implication": "Make size, color, shipping and product care easy to review, while keeping performance and sustainability statements tied to verifiable evidence."
     }
   ]
 }

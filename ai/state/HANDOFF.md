@@ -505,3 +505,10 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Coverage remains 75/127 unique homes because Couture home was already indexed; rendered evidence 103 pages across 26 presets, 52 unique homes remain.
 - Prestige:Prestige listing View demo routes to an Allure-branded host; not counted pending matching demo mapping.
 - Evidence/report: `banks/research/competitors/shopify-live-demo-batch48-2026.md`. Continue next truly unobserved preset after CI passes.
+
+
+## Batch 49 — Impact:Balance (2026-10-26)
+
+- Official selected preset View demo opened `https://impact-theme-shape.myshopify.com/`; home, New Arrivals, Silhouette Bra PDP and empty cart inspected read-only.
+- Coverage now 76/127 unique homes, 107 rendered pages across 27 presets; 51 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch49-2026.md`. No shopper actions or viewport tests; continue after CI passes.

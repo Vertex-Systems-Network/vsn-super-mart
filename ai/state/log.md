@@ -153,3 +153,6 @@
 
 
 - 2026-10-26: Batch48 Prestige:Couture rendered read-only via its official selected listing. Added home, 31-product Dresses collection, Edie Cascade PDP and empty-cart evidence. Unique coverage remains 75/127 because its home was already indexed; 103 pages across 26 presets. Prestige preset listing opens an Allure-branded demo and was not counted.
+
+
+- 2026-10-26: Batch49 Impact:Balance rendered read-only via official selected listing. Added home, New Arrivals collection, Silhouette Bra PDP and empty-cart evidence. Coverage 76/127, 107 pages/27 presets; 51 homes remain. No interactions or screenshots/viewport tests.

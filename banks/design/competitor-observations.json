@@ -1141,6 +1141,17 @@
         "brand values, boutique details, service assurances and newsletter"
       ],
       "design_hypothesis": "Editorial luxury positioning can coexist with practical shopping routes when category, product options, stock, shipping and returns stay accessible."
+    },
+    {
+      "id": "shopify-impact-balance-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "express delivery/returns banner and compact navigation",
+        "matching-sets hero and sustainability metric blocks",
+        "New Arrivals with swatches and price context",
+        "care/stretch/product feature content, reviews and newsletter signup"
+      ],
+      "design_hypothesis": "Activewear discovery can connect product performance content to clear option and sizing paths. Validate fabric and environmental claims and keep fulfillment details current."
     }
   ]
 }

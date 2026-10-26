@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 16 selected browser-rendered homes are documented (67/127 unique); 68 read-only rendered pages across 26 selected presets; total across source types 75 unique homes.",
+  "summary": "51 indexed HTML selected homes and 25 additional browser-rendered homes are documented (76/127 unique); 107 read-only rendered pages across 27 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5848,11 +5848,76 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-impact-balance-browser-render",
+      "selected_preset_id": "impact:balance",
+      "theme_family": "Impact",
+      "preset": "Balance",
+      "store_url": "https://impact-theme-shape.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Impact:Balance listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impact-theme-shape.myshopify.com/",
+          "observations": [
+            "Official Shopify Impact:Balance listing View demo opened impact-theme-shape.myshopify.com; the storefront title is Impact Shape.",
+            "Activewear storefront uses express-delivery/returns banner, Shop/Lookbook/Blog/About/Theme Features navigation and matching-sets hero.",
+            "Home modules include sustainability metrics, category routes, New Arrivals with color swatches/price cues, product editorial, stretch/care education, featured bra with variants and review link, press/customer reviews, discount signup and newsletter.",
+            "All recycled-fabric, certification, environmental, performance and service statements are merchant copy, not independently verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://impact-theme-shape.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "New Arrivals collection shows Filters control and Featured sort.",
+            "Product cards display sale/regular prices and color swatches; examples include Silhouette Bra, Infinity Bra, leggings and biker shorts.",
+            "No filter, sort, swatch or quick-buy controls were activated; collection total was not visible in the rendered tree."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://impact-theme-shape.myshopify.com/products/silhouette-bra-black",
+          "observations": [
+            "Silhouette Bra PDP displays sale price €34.00, regular price €85.00, €51.00 savings, review link 4.7/5 from 3 reviews, color options and size selector defaulting to XS.",
+            "Page presents Add to cart/Buy it now controls, shipping/timing and discount copy, complementary legging, expandable Details/Sizing/Care/Sustainability sections and related collections.",
+            "No option, size, purchase, accordion or add-on interaction was executed; price, stock, ratings, shipping, performance and sustainability claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://impact-theme-shape.myshopify.com/cart",
+          "observations": [
+            "Cart shows 0 items and Your cart is empty with Continue shopping to all collections.",
+            "Footer includes brand mission/transparency/quality/heritage copy, category links and newsletter signup.",
+            "No cart or checkout action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 103,
-    "selected_presets": 26,
-    "unique_selected_homepages_across_all_source_types": 75
+    "pages": 107,
+    "selected_presets": 27,
+    "unique_selected_homepages_across_all_source_types": 76
   }
 }
