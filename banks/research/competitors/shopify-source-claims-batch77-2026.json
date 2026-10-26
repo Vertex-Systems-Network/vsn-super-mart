@@ -1,0 +1,55 @@
+{
+  "batch": 77,
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "stiletto:linen",
+  "official_listing_url": "https://themes.shopify.com/themes/stiletto/presets/linen",
+  "iframe_src_observed": "https://stiletto-theme-chic.myshopify.com/",
+  "redirected_storefront": "https://stiletto-theme-linen.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://stiletto-theme-linen.myshopify.com/",
+      "observations": [
+        "STO Linen home has sale hero, worldwide-shipping copy, footwear category entry points, countdown promotion, footwear collection shelves and product cards with color cues.",
+        "Additional homepage modules include shop-the-look hotspots, Best Sellers, editorial video/story, journal, craftsmanship and sourcing copy, customer service and newsletter.",
+        "The theme demo footer attributes content and imagery to St. Agni; seller claims remain unverified. Official listing iframe src exposed stiletto-theme-chic.myshopify.com but browser navigation redirected to the STO Linen URL recorded here."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://stiletto-theme-linen.myshopify.com/collections/footwear",
+      "observations": [
+        "Footwear collection shows 69 results, Featured sort and Product type, Color, Size, Price and Availability filter groups.",
+        "Cards display names, prices, sale/new markers and color cues; no filters, sort or cards were activated."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://stiletto-theme-linen.myshopify.com/collections/footwear/products/teddy-heel-ecru",
+      "observations": [
+        "Teddy Heel PDP shows $620, sizes 35–43, size guide, in-stock copy, quantity stepper, Add to Bag, model-fit and materials/care copy, plus Product Care and Shipping and Returns sections.",
+        "No size, quantity, accordion or purchase control was used. Product, material, availability, shipping and responsible-sourcing claims are unverified."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://stiletto-theme-linen.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart says Your cart is empty and There are no items in your cart; Continue shopping returns to footwear, with service and newsletter/footer content.",
+        "No cart mutation or checkout."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "Linen homepage already had indexed HTML, so rendered home adds no unique-home credit; rendered page counts are separate.",
+    "No filter, sorting, size, quantity, purchase, cart mutation or checkout actions.",
+    "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+    "Merchant product, stock, shipping, sourcing and sustainability copy remains unverified."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch77-2026.md"
+}
