@@ -715,12 +715,11 @@
       "id": "shopify-live-impact-sound",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Header offers country/currency selection, three menu categories and collaboration navigation plus an empty cart drawer scaffold.",
-        "Audio marketing hero sequence, popular requests, bestseller product cards with color choices, quick-add markup and sale/stock labels.",
-        "Dedicated compare learning section lists driver, weight, dimensions and battery metrics for different models; testimonial/review, brand story, FAQ and journal content.",
-        "Banner offers a 20 percent demo code and claims shipping worldwide/fast fulfillment; these are unverified merchant-demo promises."
+        "Premium audio home leads with an MW08 Sport hero, collaboration promotion, free standard shipping and a demo discount code.",
+        "Category tiles route to Headphones, Earphones, Speakers, Collaborations and Accessories; Best sellers presents a six-item shelf with variant color swatches, star-review summaries, sale pricing and sold-out badges.",
+        "Editorial product story sections feed into a built-in compare table, timeline, FAQ, service promises and newsletter; merchant product/service claims remain unverified."
       ],
-      "design_hypothesis": "Open indexed public HTML, not verified visual/screenshot or interactive UX; build original options from merchant-owned sources.",
+      "design_hypothesis": "Impact combines premium audio campaign media, color-rich product shelves, technical specification/compare content and collaboration storytelling. Product shelves make dense variant and availability states visible alongside editorial sections; no pixel/viewport or interaction audit was performed.",
       "product_modules": [
         "Leica collaboration product page exposes premium PDP and variant/product storytelling layout with related seller content.",
         "Source age is five months; option changes, inventory, checkout, metafield editor binding and image interactions were not tested."
