@@ -85,7 +85,7 @@
     "live_product_verified": 40,
     "live_cart_verified": 11,
     "live_mobile_verified": 0,
-    "browser_rendered_pages": 66,
+    "browser_rendered_pages": 67,
     "browser_rendered_selected_presets": 17,
     "selected_home_observed_any_source": 68
   },
@@ -103,5 +103,5 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-live-demo-batch38-2026.md",
-  "next_action": "Continue with next unobserved selected preset; Symmetry:Symmetry home and collection were rendered and a PDP was inspected, but PDP URL-indexed evidence and cart remain pending. Coverage is 68/127 unique selected homes (51 indexed HTML + 17 browser-rendered); 59 remain."
+  "next_action": "Continue with the next unobserved selected preset; coverage is 68/127 unique selected homes (51 indexed HTML + 17 browser-rendered), 67 rendered pages. 59 homes remain."
 }
