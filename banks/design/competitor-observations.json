@@ -373,12 +373,11 @@
       "id": "shopify-live-focal-ivory",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Distinct Women and Men taxonomy and rich promotional mega-menu",
-        "Large image-led editorial hero/campaign, Essentials, clothing and Lookbook sections",
-        "Homepage HTML exposes empty cart drawer with notes and continue shopping",
-        "Country/currency selection and localized navigation text"
+        "Women/Men fashion home uses campaign hero and a Summer Sale announcement ('up to 60% off'), followed by Shop Essentials with gender tabs and a multi-item product shelf.",
+        "Promotional product cards show sale prices, color counts, new/sold-out badges; an Essentials category grid, lookbook, seasonal Home Sanctuary campaign, sustainability story and a featured dress PDP follow.",
+        "Journal cards, retailer/store details, brand history, service messaging and newsletter complete the page; official demo iframe also showed a 10%-off signup popup. Seller sustainability/shipping/store claims remain unverified."
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "Ivory layers gender-based editorial navigation and seasonal brand storytelling with a sale-led clothing grid, lookbook, featured PDP and store/journal modules. Structural only; no screenshots/viewport audit."
     },
     {
       "id": "shopify-live-focal-sapphire",
