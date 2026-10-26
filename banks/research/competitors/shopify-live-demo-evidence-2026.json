@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 49 additional browser-rendered homes are documented (100/127 unique); 272 read-only rendered pages across 69 selected presets.",
+  "summary": "51 indexed HTML selected homes and 50 additional browser-rendered homes are documented (101/127 unique); 276 read-only rendered pages across 70 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 69,
-    "opened_home": 69,
-    "opened_collection": 56,
-    "opened_product": 57,
-    "opened_empty_cart": 23,
+    "opened_stores": 70,
+    "opened_home": 70,
+    "opened_collection": 57,
+    "opened_product": 58,
+    "opened_empty_cart": 24,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -9844,11 +9844,71 @@
         "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised.",
         "No screenshot, mobile viewport, Theme Editor, keyboard or performance test. Merchant product, stock, origin, shipping and sustainability claims unverified."
       ]
+    },
+    {
+      "id": "shopify-palo-alto-dynamo-browser-render",
+      "selected_preset_id": "palo-alto:dynamo",
+      "theme_family": "Palo Alto",
+      "preset": "Dynamo",
+      "store_url": "https://palo-alto-theme-dynamo.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Shopify Palo Alto:Dynamo selected-preset listing, read the exact iframe src, then inspected rendered home, collection, linked product and cart without interaction.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/",
+          "observations": [
+            "Official Palo Alto:Dynamo listing iframe resolves to this technical-bags storefront. Rendered home has repeated 10%-off/US$250 free-shipping announcement, shop/about/sale/FAQ/blog navigation, countdown hero, Best Sellers/Tech Accessories tabbed shelf, product Quick Buy cards, mosaics, material/organization editorial, featured products, newsletter and trust row. Footer states demo goods are provided by AER; merchant product and durability claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/collections/best-sellers-aer",
+          "observations": [
+            "Best Sellers - AER collection reports 12 products and category shortcuts; visible sorting offers Featured/relevance/best-selling/alphabetical/price/date choices, with Availability/Price/Color/Product Type facets. Product cards show prices, color counts, Quick Buy and badges; no control used."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/products/navigator-backpack",
+          "observations": [
+            "Navigator Backpack PDP has a 20-entry gallery, in-stock label, $268 versus $400 sale pricing, 33% discount, Black/Grey options, quantity and purchase controls, lifetime-guarantee and repair-kit copy, limited-time offer, materials/specs and shipping accordions, product FAQs, nylon editorial, related collection mosaics and recently-viewed module. Seller and stock claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart is empty and links to Small Bags, Work Bags and all products; displays US$250 free-shipping threshold and trust claims for free shipping/returns, lifetime guarantee and recycled materials."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Read-only route inspection. No filtering, sorting, variants, quantity, Quick Buy, add-to-cart, checkout, screenshot, mobile viewport, Theme Editor, keyboard or performance testing.",
+        "Merchant product, stock, warranty, lifetime, material, recycled-content, shipping and review claims were not independently verified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 272,
-    "selected_presets": 69,
-    "unique_selected_homepages_across_all_source_types": 100
+    "pages": 276,
+    "selected_presets": 70,
+    "unique_selected_homepages_across_all_source_types": 101
   }
 }
