@@ -6134,26 +6134,44 @@
       "url": "https://prestige-theme-signature.myshopify.com/",
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_indexed_demo_html_accessible",
-      "document_verification_scope": "Individual public Shopify indexed HTML documents. No interactive UX/cart/checkout/device/editor test; source crawl recency per page.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Indexed public HTML plus rendered accessibility-tree inspection of home, collection, product and cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
       "feature_option_ids": [
         "mega-menu",
         "localization-selectors",
         "featured-collection",
         "shop-the-look",
         "countdown-timer",
-        "cart-drawer"
+        "cart-drawer",
+        "announcement-bar",
+        "image-banner",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "filter-layouts",
+        "card-badges",
+        "product-blocks",
+        "size-chart",
+        "variant-picker-styles",
+        "complementary-products",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
       ],
       "design_signals": [
         "luxury-footwear-editorial",
         "2026 shoes collection menu Pumps, Mules, Flats, Boots; EUR localized pricing and country switch",
-        "Hero, split editorial campaign, best-selling product slider and Shop-the-Look shoe outfits"
+        "Hero, split editorial campaign, best-selling product slider and Shop-the-Look shoe outfits",
+        "Rendered home combines shoe-category discovery, best sellers, lookbook/storytelling, boutique and care content, and service assurances.",
+        "Pumps collection contains 13 products with filter/sort, image-density controls, style/color product paths and a featured product interstitial.",
+        "PDP presents leather-color paths, size controls and a size-chart entry with product details, shipping information and complementary models; cart is empty with Continue Shopping."
       ],
       "niches": [
         "luxury-footwear-editorial"
       ],
-      "notes": "Verified specific cataloged preset live demo host",
+      "notes": "Indexed HTML evidence in shopify-live-demo-evidence-2026.json plus read-only browser accessibility-tree inspection. Official Shopify Prestige:Signature View demo opened matching prestige-theme-signature.myshopify.com; home, 13-product Pumps collection, Simone Pumps 110 PDP and empty cart inspected. No shopper actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance testing. Merchant claims unverified.",
       "page_coverage": {
         "home": "document_only",
         "collection": "not_verified",
