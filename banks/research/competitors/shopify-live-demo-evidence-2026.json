@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
   "summary": "51 indexed HTML selected homes and 35 additional browser-rendered homes are documented (86/127 unique); 218 read-only rendered pages across 55 selected presets.",
   "stores": [
@@ -4209,14 +4209,299 @@
       "interactive_tested": false,
       "mobile_render_tested": false,
       "editor_tested": false
+    },
+    {
+      "id": "shopify-live-motion-motion",
+      "family": "Motion",
+      "preset": "Motion",
+      "catalog_preset_id": "motion:motion",
+      "selected_127": true,
+      "focus": "motion-apparel",
+      "homepage": {
+        "url": "https://motion-theme-adventure.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Navigation groups New In, Explore, Discover and Theme Features; sale/shipping announcement and lifestyle hero 'Made to Keep Moving'.",
+          "Homepage includes Half-Zips collection shelf, Wear/Carry tabs, video story, BOGO promo, category links, collection callout, journal, material/service messaging and newsletter.",
+          "Half-Zips collection rendered two products with no visible filter/sort controls in the captured tree."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "image-with-text",
+          "video-section",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "hero",
+          "product-grid",
+          "collection-list",
+          "media-text",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Half-Zips collection rendered two products with no visible filter/sort controls in the captured tree."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-card"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips/products/merino-wool-quarter-zip",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Merino Wool Quarter-Zip PDP shows $110, Blue/Sky colors, XS–2XL sizes, free-worldwide-shipping/in-stock copy, size guide, purchase controls and material/care details."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "product-gallery"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "buy-buttons"
+        ]
+      },
+      "cart": {
+        "url": "https://motion-theme-adventure.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart reports empty; Popular Picks section showed four generic Example product links resolving to /cart."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "related-products"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "product-grid"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "No filters, sorting, variant, quantity, Quick View, cart mutation or checkout actions",
+        "No screenshot, measured viewport/mobile, keyboard, editor or performance tests",
+        "Merchant/demo price, stock, materials, shipping, sustainability and location claims are unverified",
+        "Shopify listing preview initially showed about:blank; clicking the visible View demo button in a fresh tab exposed the exact iframe URL. The live store title is Motion Theme — Apparel."
+      ]
+    },
+    {
+      "id": "shopify-live-motion-memo",
+      "family": "Motion",
+      "preset": "Memo",
+      "catalog_preset_id": "motion:memo",
+      "selected_127": true,
+      "focus": "home-office-editorial",
+      "homepage": {
+        "url": "https://motion-theme-home.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Homepage opens with Everyday Work Essentials and collection links, then a collection-switcher product shelf with sale, Quick View and color-linked product cards.",
+          "Editorial sections cover remote-work accessories, desk organization, brand story, a shop-location announcement, lookbook, material/service promises and newsletter.",
+          "Limited Edition — Äggplanta collection has a Filter drawer control and seven visible products; no filter action or result count observed."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "image-with-text",
+          "video-section",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "hero",
+          "product-grid",
+          "collection-list",
+          "media-text",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://motion-theme-home.myshopify.com/collections/homewares",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Limited Edition — Äggplanta collection has a Filter drawer control and seven visible products; no filter action or result count observed."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-card"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://motion-theme-home.myshopify.com/collections/homewares/products/tumbler-eggplant",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Tumbler Äggplanta PDP shows $60 regular/$45 sale, worldwide-shipping and in-stock copy, Add to cart/Buy it now, product description and shipping/question accordions."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "product-gallery"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "buy-buttons"
+        ]
+      },
+      "cart": {
+        "url": "https://motion-theme-home.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart reports empty and has Popular Picks with generic Example product placeholders linking to /cart."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "related-products"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "product-grid"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "No filters, sorting, variant, quantity, Quick View, cart mutation or checkout actions",
+        "No screenshot, measured viewport/mobile, keyboard, editor or performance tests",
+        "Merchant/demo price, stock, materials, shipping, sustainability and location claims are unverified",
+        "Exact iframe src was read from the official Memo listing after clicking View demo. Store page title is Motion Theme — Home; its demo content uses home/desk goods."
+      ]
+    },
+    {
+      "id": "shopify-live-prestige-prestige",
+      "family": "Prestige",
+      "preset": "Prestige",
+      "catalog_preset_id": "prestige:prestige",
+      "selected_127": true,
+      "focus": "premium-bags-editorial",
+      "homepage": {
+        "url": "https://prestige-theme-allure.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Homepage includes a sale announcement, Women/Men/Blog/About/Presets navigation, campaign carousel, gendered best-seller tabs, bag collections, video, shoppable look sections, collaboration story, product of the week, brand history, reviews, newsletter and service promises.",
+          "Women collection shows 65 products with sort, filter and product-image density controls; controls were not activated.",
+          "Le Dalia Ivory Liégé PDP shows $380 sale price, review score, seven linked color products, leather/craft copy, product details and shipping accordions."
+        ],
+        "option_ids": [
+          "featured-collection",
+          "collection-list",
+          "image-with-text",
+          "video-section",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "hero",
+          "product-grid",
+          "collection-list",
+          "media-text",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://prestige-theme-allure.myshopify.com/collections/women-1",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Le Dalia Ivory Liégé PDP shows $380 sale price, review score, seven linked color products, leather/craft copy, product details and shipping accordions."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-card"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://prestige-theme-allure.myshopify.com/products/le-dalia-ivory-liege",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart says empty and offers Continue Shopping; service and newsletter footer content remains visible."
+        ],
+        "option_ids": [
+          "product-blocks",
+          "variant-picker-styles",
+          "product-gallery"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "variant-picker",
+          "buy-buttons"
+        ]
+      },
+      "cart": {
+        "url": "https://prestige-theme-allure.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          null
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states",
+          "related-products"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary",
+          "product-grid"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "No filters, sorting, variant, quantity, Quick View, cart mutation or checkout actions",
+        "No screenshot, measured viewport/mobile, keyboard, editor or performance tests",
+        "Merchant/demo price, stock, materials, shipping, sustainability and location claims are unverified",
+        "The Prestige listing's visible View demo iframe src led to a storefront titled Prestige — Allure (host prestige-theme-allure.myshopify.com). Preserve this listing-to-store naming mismatch; findings describe the destination actually rendered, not a confirmed exact Prestige visual preset match."
+      ]
     }
   ],
   "counts": {
-    "opened_stores": 55,
-    "opened_home": 55,
-    "opened_collection": 42,
-    "opened_product": 43,
-    "opened_empty_cart": 11,
+    "opened_stores": 58,
+    "opened_home": 58,
+    "opened_collection": 45,
+    "opened_product": 46,
+    "opened_empty_cart": 14,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -7746,11 +8031,200 @@
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
         "Seller product, stock, safety, shipping, location, class and provenance claims remain unverified."
       ]
+    },
+    {
+      "id": "shopify-live-motion-motion-rendered",
+      "selected_preset_id": "motion:motion",
+      "theme_family": "Motion",
+      "preset": "Motion",
+      "store_url": "https://motion-theme-adventure.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official listing https://themes.shopify.com/themes/motion/presets/motion, clicked the visible View demo button, read iframe src https://motion-theme-adventure.myshopify.com/, then opened the exact destination. Collection, product and cart routes were taken from visible storefront links. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://motion-theme-adventure.myshopify.com/",
+          "observations": [
+            "Navigation groups New In, Explore, Discover and Theme Features; sale/shipping announcement and lifestyle hero 'Made to Keep Moving'.",
+            "Homepage includes Half-Zips collection shelf, Wear/Carry tabs, video story, BOGO promo, category links, collection callout, journal, material/service messaging and newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips",
+          "observations": [
+            "Half-Zips collection rendered two products with no visible filter/sort controls in the captured tree."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips/products/merino-wool-quarter-zip",
+          "observations": [
+            "Merino Wool Quarter-Zip PDP shows $110, Blue/Sky colors, XS–2XL sizes, free-worldwide-shipping/in-stock copy, size guide, purchase controls and material/care details."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://motion-theme-adventure.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart reports empty; Popular Picks section showed four generic Example product links resolving to /cart."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests",
+        "Merchant content claims remain unverified",
+        "Shopify listing preview initially showed about:blank; clicking the visible View demo button in a fresh tab exposed the exact iframe URL. The live store title is Motion Theme — Apparel."
+      ]
+    },
+    {
+      "id": "shopify-live-motion-memo-rendered",
+      "selected_preset_id": "motion:memo",
+      "theme_family": "Motion",
+      "preset": "Memo",
+      "store_url": "https://motion-theme-home.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official listing https://themes.shopify.com/themes/motion/presets/memo, clicked the visible View demo button, read iframe src https://motion-theme-home.myshopify.com/, then opened the exact destination. Collection, product and cart routes were taken from visible storefront links. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://motion-theme-home.myshopify.com/",
+          "observations": [
+            "Homepage opens with Everyday Work Essentials and collection links, then a collection-switcher product shelf with sale, Quick View and color-linked product cards.",
+            "Editorial sections cover remote-work accessories, desk organization, brand story, a shop-location announcement, lookbook, material/service promises and newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://motion-theme-home.myshopify.com/collections/homewares",
+          "observations": [
+            "Limited Edition — Äggplanta collection has a Filter drawer control and seven visible products; no filter action or result count observed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://motion-theme-home.myshopify.com/collections/homewares/products/tumbler-eggplant",
+          "observations": [
+            "Tumbler Äggplanta PDP shows $60 regular/$45 sale, worldwide-shipping and in-stock copy, Add to cart/Buy it now, product description and shipping/question accordions."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://motion-theme-home.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart reports empty and has Popular Picks with generic Example product placeholders linking to /cart."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests",
+        "Merchant content claims remain unverified",
+        "Exact iframe src was read from the official Memo listing after clicking View demo. Store page title is Motion Theme — Home; its demo content uses home/desk goods."
+      ]
+    },
+    {
+      "id": "shopify-live-prestige-prestige-rendered",
+      "selected_preset_id": "prestige:prestige",
+      "theme_family": "Prestige",
+      "preset": "Prestige",
+      "store_url": "https://prestige-theme-allure.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official listing https://themes.shopify.com/themes/prestige/presets/prestige, clicked the visible View demo button, read iframe src https://prestige-theme-allure.myshopify.com/, then opened the exact destination. Collection, product and cart routes were taken from visible storefront links. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://prestige-theme-allure.myshopify.com/",
+          "observations": [
+            "Homepage includes a sale announcement, Women/Men/Blog/About/Presets navigation, campaign carousel, gendered best-seller tabs, bag collections, video, shoppable look sections, collaboration story, product of the week, brand history, reviews, newsletter and service promises.",
+            "Women collection shows 65 products with sort, filter and product-image density controls; controls were not activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://prestige-theme-allure.myshopify.com/collections/women-1",
+          "observations": [
+            "Le Dalia Ivory Liégé PDP shows $380 sale price, review score, seven linked color products, leather/craft copy, product details and shipping accordions."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://prestige-theme-allure.myshopify.com/products/le-dalia-ivory-liege",
+          "observations": [
+            "Dedicated cart says empty and offers Continue Shopping; service and newsletter footer content remains visible."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://prestige-theme-allure.myshopify.com/cart",
+          "observations": [
+            null
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests",
+        "Merchant content claims remain unverified",
+        "The Prestige listing's visible View demo iframe src led to a storefront titled Prestige — Allure (host prestige-theme-allure.myshopify.com). Preserve this listing-to-store naming mismatch; findings describe the destination actually rendered, not a confirmed exact Prestige visual preset match."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 218,
-    "selected_presets": 55,
-    "unique_selected_homepages_across_all_source_types": 86
+    "pages": 230,
+    "selected_presets": 58,
+    "unique_selected_homepages_across_all_source_types": 89
   }
 }
