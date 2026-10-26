@@ -1277,6 +1277,17 @@
         "Local-store, newsletter and guarantee/service content"
       ],
       "design_hypothesis": "A focused electronics catalog can connect a hero product to technical comparison and product education; demo copy has internal inconsistencies, and no product claims or controls were validated."
+    },
+    {
+      "id": "shopify-stiletto-luster",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Jewelry-led statement-gold hero and category collection discovery",
+        "New-arrival and best-seller shelves, markdown promotion and color/material imagery",
+        "Lookbook hotspots, adjustable before/after image slider, appointment CTA and journal",
+        "120-item collection with availability, price, ring-size, style and color filters; PDP ring-size selection and care/shipping sections"
+      ],
+      "design_hypothesis": "Luxury jewelry storefront can connect material/editorial storytelling with ring-size guidance and dense collection discovery; no screenshot or interaction test supports claims about visual quality or control behavior."
     }
   ]
 }
