@@ -5606,10 +5606,10 @@
       ],
       "notes": "Direct Shopify Theme Store iframe src was read from the official Warehouse:Wood listing DOM and used to verify the storefront host. Full page URLs and rendered observations in shopify-live-demo-evidence-2026.json; click behavior untested.",
       "page_coverage": {
-        "home": "document_and_browser_rendered_readonly",
-        "collection": "browser_rendered_readonly",
-        "product": "browser_rendered_readonly",
-        "cart": "browser_rendered_readonly",
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
