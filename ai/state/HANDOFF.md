@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 58 (Symmetry:Duke)
+
+**Done**
+- Inspected official Symmetry:Duke listing-linked storefront: home, Decks collection (35 products), Libellule 1 PDP and empty cart through read-only rendered accessibility trees.
+- Added four rendered pages and source claims; merged the official-listing record into its existing live-demo audit ID; updated the design observation and skate preorder/shipping pattern; added report/handoff notes.
+- Homepage, collection and PDP were already indexed. Coverage remains 79/127 unique selected homes (51 indexed HTML + 28 additional rendered); 143 rendered pages across 36 selected presets. 48 homes remain.
+
+**Limits**
+- No shopper interactions, sort/pagination/size/preorder/cart, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with the next unobserved selected preset; investigate the separate Prestige:Prestige mapping blocker when feasible.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 57 (Symmetry:Beatnik)
 
 **Done**
