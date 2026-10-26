@@ -237,3 +237,12 @@
 - Existing indexed homepage kept distinct; coverage remains 79/127 (51 indexed HTML + 28 additional rendered); rendered total 155 pages / 39 presets; 48 homes remain.
 - No filter/sort/Quick View/size/variant/purchase/cart action, screenshot or viewport/mobile/editor/checkout/keyboard/performance test; merchant claims unverified.
 - Next: continue next unobserved selected preset.
+
+
+## 2026-10-26 — Batch 62 official preview availability check
+
+- Inspected Shopify Theme Store listing previews for Focal:Sapphire and Warehouse:Wood.
+- Both embedded demo frames remained blank and “View demo” became disabled. No storefront URL or storefront page was verified; no evidence or completion counts added.
+- PR #9 updated to include Batch 61 (CI run 124 passed) and current preview blockers.
+- Status unchanged: 79/127 unique selected homes, 155 rendered pages across 39 presets, 48 remaining.
+- Next: resume the next unobserved preset only after its actual public demo storefront is verified.
