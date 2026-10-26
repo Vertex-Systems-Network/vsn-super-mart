@@ -1,0 +1,49 @@
+{
+  "batch": 81,
+  "observed_on": "2026-10-27",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "motion:memo",
+  "official_listing_url": "https://themes.shopify.com/themes/motion/presets/memo",
+  "iframe_src_observed": "https://motion-theme-home.myshopify.com/",
+  "redirected_storefront": "https://motion-theme-home.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://motion-theme-home.myshopify.com/",
+      "observations": [
+        "Everyday Work Essentials, category and product shelves, desk/story modules, location announcement, lookbook and newsletter."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://motion-theme-home.myshopify.com/collections/homewares",
+      "observations": [
+        "Limited Edition — Äggplanta: Filter drawer, seven cards, no result count observed."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://motion-theme-home.myshopify.com/collections/homewares/products/tumbler-eggplant",
+      "observations": [
+        "Tumbler Äggplanta $60/$45 sale, stock/shipping copy, purchase controls and product information."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://motion-theme-home.myshopify.com/cart",
+      "observations": [
+        "Empty cart; generic Popular Picks example products link back to /cart."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "Exact iframe URL directly observed; store title is Motion Theme — Home.",
+    "No shopper interactions, screenshot, mobile, editor, keyboard or performance testing.",
+    "Merchant/product claims unverified."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch81-2026.md"
+}
