@@ -7317,6 +7317,48 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-prestige-family-allure-render",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Allure (legacy Shopify preview; not selected cohort preset)",
+      "url": "https://prestige-theme-allure.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "quick-add",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "collapsible-tabs",
+        "related-products",
+        "empty-states",
+        "blog-posts"
+      ],
+      "design_signals": [
+        "Homepage layers campaign promotion, women/men navigation, segmented best-seller shelves, brand story, category links, lookbook, editorial stories, featured product, timeline and service messages.",
+        "Women collection lists 65 products with image-density choices, sort and filter controls, sale/bestseller states, pagination and further collection content.",
+        "Product page combines six gallery images, color links, product information and shipping disclosures, add/buy controls, feature storytelling and related products.",
+        "Empty cart presents a clear empty message and continue-shopping route, followed by service promises and footer content."
+      ],
+      "niches": [
+        "fashion-accessories",
+        "premium-editorial"
+      ],
+      "notes": "Four pages inspected read-only in a browser-rendered accessibility tree on 2026-10-26: home, Women collection, Le Dino product and empty cart. The official Shopify listing for selected Prestige opened this family storefront, which brands itself Prestige - Allure. Allure does not match selected cohort preset prestige:prestige, so this family-level evidence does not increment 127-preset coverage. No controls activated; no screenshot, viewport, mobile, Theme Editor, checkout, keyboard or performance tests. Merchant statements about materials, origin, returns, shipping, promotions and reviews are unverified sample copy.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered browser accessibility-tree snapshots of home, Women collection, product and empty cart; no executed shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

@@ -865,6 +865,17 @@
         "newsletter signup"
       ],
       "design_hypothesis": "Refresh links grooming needs to category content, product rails and an editorial routine. On the PDP it layers structured disclosures, a quote, trust copy and related-product links. A new VSN design could support this information hierarchy through settings-driven sections while requiring merchant evidence for claims; a DOM pass cannot establish the visual balance or working controls."
+    },
+    {
+      "id": "shopify-prestige-family-allure-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "campaign promotion and women/men navigation",
+        "segmented best-seller product shelf",
+        "brand story and collection entry points",
+        "lookbook, editorial feed, featured product and brand timeline"
+      ],
+      "design_hypothesis": "The family demo joins premium product discovery with maker story, media and service information. The PDP combines gallery and color routes with details, supporting content and related items; the empty cart gives a direct route back to shopping. This informs family-level architecture only, not the selected Prestige preset's visual layout or interactions."
     }
   ]
 }

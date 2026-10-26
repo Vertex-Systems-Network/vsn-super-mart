@@ -669,12 +669,12 @@
       },
       "evidence_quality": "official_listing_only",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "The official selected-preset View demo opened a storefront branded Prestige - Allure; preset-specific destination remains unconfirmed.",
+        "No collection/PDP/cart/browser or editor tests for the selected Prestige preset."
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/prestige/presets/prestige",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Confirm the selected Prestige preset's current direct demo destination through an official source; do not assign the Allure family preview to this preset without confirmation.",
+        "If no distinct destination can be resolved, record the mapping limitation and continue to the next unobserved selected preset."
       ]
     },
     {

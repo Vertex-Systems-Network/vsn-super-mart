@@ -1405,6 +1405,30 @@
         "quick-add"
       ],
       "design_implication": "Give merchants independent controls for category stories, product disclosures, routine cross-links and journal modules. Keep each product claim editable and merchant-verified; the observed sample statements do not validate themselves."
+    },
+    {
+      "id": "prestige-editorial-product-proof-stack",
+      "context": "Prestige family Allure storefront exposed product discovery, product education and brand storytelling across four rendered pages.",
+      "signals": [
+        "Women collection has 65 items with sort, filter, image density and pagination controls.",
+        "Product page pairs six gallery images and color routes with add/buy actions, product details, editorial feature modules and related products.",
+        "Empty cart gives a clear Continue Shopping route, with service information in the shared page footer."
+      ],
+      "source_entry_ids": [
+        "shopify-prestige-family-allure-render"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "card-badges",
+        "quick-add",
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "collapsible-tabs",
+        "related-products",
+        "empty-states"
+      ],
+      "design_implication": "Keep collection density controls, variant discovery, product proof and related-item paths as separately configurable modules. Use a direct empty-cart recovery route; substantiate merchant material, origin and service claims before publishing."
     }
   ]
 }

@@ -1,3 +1,12 @@
+## 2026-10-26 — Batch 23 Prestige-family Allure rendered audit
+
+- Official selected Prestige listing's View demo control opened `prestige-theme-allure.myshopify.com`, labeled Prestige - Allure.
+- Read-only rendered browser inspection: home, Women collection, Le Dino PDP and empty cart.
+- Recorded family-level evidence only; did not map Allure to `prestige:prestige` or increase selected coverage.
+- Added report, source claims, family-level audit, one pattern and one observation; updated matrix blocker and handoff.
+- Selected-home coverage remains 53/127 across source classes (51 indexed, 2 selected browser-rendered). CI validation pending.
+- Next: resolve exact Prestige target; if unresolved, continue Enterprise and keep Prestige flagged.
+
 # Activity log (append-only)
 
 - 2026-10-21 18:05 [stage 1 / gen-z-store] niche set to gen-z-store

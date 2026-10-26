@@ -1,3 +1,7 @@
+## 2026-10-26 — Batch 23 Prestige-family Allure preview; selected-preset mismatch
+
+Opened the official selected Prestige listing's View demo control. It resolved to `prestige-theme-allure.myshopify.com`, which brands itself Prestige - Allure. Since Allure does not match selected `prestige:prestige`, inspected family-level home, 65-item Women collection, Le Dino PDP and empty-cart evidence is explicitly unselected; selected coverage remains **53/127 unique homes across source types**, 51 indexed and 2 selected browser-rendered. Added a family-level audit record, source claims, one original pattern, one qualitative observation and Batch23 report. No actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance tests. Next: resolve exact selected Prestige demo mapping; if unresolved, move to Enterprise while retaining Prestige as a blocker.
+
 ## 2026-10-26 — Batch 22 Refresh rendered-browser audit (four pages)
 
 Resolved the next priority preset, Refresh, to https://theme-refresh-demo.myshopify.com/ using the official Shopify demo context and the demo host identified in a separate public report; directly inspected home, Hair collection, Shampoo PDP and empty cart with read-only rendered browser accessibility trees. Added four rendered-source pages separately from the indexed HTML counts. No screenshot, viewport measurement, cart action, checkout, mobile, Theme Editor, keyboard or VSN Lighthouse was tested.
