@@ -760,3 +760,17 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 71 (Local:Soleway)
+
+**Done**
+- Verified official Soleway listing iframe host; inspected footwear home, 8-product Men's Best Sellers (four facets), Timberland boot PDP and empty dedicated cart read-only.
+- New selected homepage raises coverage to 83/127 (51 indexed + 32 additional rendered); 191 rendered pages across 48 presets; 44 remain.
+- Updated evidence, matrix, audit note, design observation, catalog pattern, progress and report/source claims.
+
+**Limits**
+- No filter, sort, variant, zoom, add-to-cart, checkout, screenshot, viewport/mobile, editor, keyboard or performance tests. Merchant claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
