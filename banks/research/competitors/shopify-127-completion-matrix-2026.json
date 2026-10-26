@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 175,
-    "browser_rendered_selected_presets": 44,
-    "distinct_selected_homepages_any_source": 81
+    "browser_rendered_pages": 179,
+    "browser_rendered_selected_presets": 45,
+    "distinct_selected_homepages_any_source": 82
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 46
+    "home_any_source": 45
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -2905,14 +2905,37 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No collection filter, sort, density, quick shop, cart or checkout actions",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, keyboard or performance testing",
+        "Demo product, inventory, organic, alcohol-free, shipping and promotion claims unverified"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/expanse/presets/spritz",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
