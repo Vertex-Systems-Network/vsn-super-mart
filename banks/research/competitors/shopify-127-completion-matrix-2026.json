@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 111,
-    "browser_rendered_selected_presets": 28,
-    "distinct_selected_homepages_any_source": 77
+    "browser_rendered_pages": 115,
+    "browser_rendered_selected_presets": 29,
+    "distinct_selected_homepages_any_source": 78
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 50
+    "home_any_source": 49
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -2327,14 +2327,36 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No filter, sort, view, pagination, product option, quantity, shipping-estimator, cart or purchase actions executed",
+        "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
+        "Merchant price, inventory, review, shipping and store claims unverified"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/warehouse/presets/warehouse",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://warehouse-theme-metal.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://warehouse-theme-metal.myshopify.com/collections/headphones",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://warehouse-theme-metal.myshopify.com/products/shure-srh440-professional-studio-headphones",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://warehouse-theme-metal.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
