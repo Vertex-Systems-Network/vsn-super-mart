@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 32 additional browser-rendered homes are documented (83/127 unique); 195 read-only rendered pages across 49 selected presets.",
+  "summary": "51 indexed HTML selected homes and 33 additional browser-rendered homes are documented (84/127 unique); 199 read-only rendered pages across 50 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -7357,11 +7357,78 @@
         "No shopper controls, filters, sorting, add-to-cart, cart mutation, checkout, screenshot, measured viewport/mobile, Theme Editor, keyboard or performance test.",
         "Demo claims about certification, sales, product specifications, stock and shipping remain unverified."
       ]
+    },
+    {
+      "id": "shopify-live-stiletto",
+      "selected_preset_id": "stiletto:stiletto",
+      "theme_family": "Stiletto",
+      "preset": "Stiletto",
+      "store_url": "https://stiletto-theme-stiletto.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened the official Shopify Stiletto preset listing, activated View demo, and inspected the rendered accessibility tree; page URLs were taken from visible storefront links. The official listing iframe src exposed stiletto-theme-vogue.myshopify.com while the rendered storefront title and its own links, including the independently opened homepage and cart, use stiletto-theme-stiletto.myshopify.com. Attribution is to the loaded Stiletto listing preview; retain this host discrepancy as a mapping caveat. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/",
+          "observations": [
+            "Rendered header has Clothing, Dresses, Tops, Sale, Lookbook and Sections navigation, search, account and cart entry points.",
+            "Homepage layers a satin-separates hero with Shop Now/Lookbook links, sale strip, brand philosophy, category links, countdown/discount copy, Statement Tops shelf with color/size cues, editorial/lookbook hotspots, video content, featured edits, testimonials, brand story, journal and newsletter.",
+            "Demo pages state that product content and imagery were provided by Boskemper for demonstration; merchant/product claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1",
+          "observations": [
+            "Tops collection presents 34 results, an exposed Hide filters control, alphabetical sort, and Availability, Category, Color, Size and Price filter groups.",
+            "Product cards show color and size availability cues and price; filters, sort and variant controls were not activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1/products/alex-metallic-top",
+          "observations": [
+            "Alex Metallic Top PDP shows $229, three colors and five sizes, size guide, in-stock copy, quantity stepper, Add to Bag, carbon-neutral shipping copy, sale message, model/fit and material information, plus DESCRIPTION, SIZE & FIT, CARE INFORMATION and SHIPPING & RETURNS sections.",
+            "Description attributes product imagery and copy to Boskemper. No color, size, quantity, accordion or purchase action was used; price, stock, shipping, material and sustainability claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart route reports YOUR CART IS EMPTY and no items, with Continue Shopping, service/returns/shipping copy, demo content attribution, collection links and newsletter footer.",
+            "No cart mutation or checkout action."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "The Shopify listing iframe src exposed stiletto-theme-vogue.myshopify.com, while the rendered STO Stiletto page and its internal links resolved to stiletto-theme-stiletto.myshopify.com; preserve the mapping caveat.",
+        "No shopper filters, sorting, variant, quantity, media, cart mutation or checkout interactions.",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+        "Demo product, material, stock, fulfillment, shipping and sustainability statements remain unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 195,
-    "selected_presets": 49,
-    "unique_selected_homepages_across_all_source_types": 83
+    "pages": 199,
+    "selected_presets": 50,
+    "unique_selected_homepages_across_all_source_types": 84
   }
 }
