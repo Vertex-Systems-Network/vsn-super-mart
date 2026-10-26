@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 230,
-    "browser_rendered_selected_presets": 58,
-    "distinct_selected_homepages_any_source": 89
+    "browser_rendered_pages": 237,
+    "browser_rendered_selected_presets": 60,
+    "distinct_selected_homepages_any_source": 91
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 38
+    "home_any_source": 36
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -3362,13 +3362,29 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
-        "No collection/PDP/cart/browser or editor tests"
+        "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified."
       ],
       "next_action": [
-        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
+        "Continue remaining selected presets in rank order."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-caffeine.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-caffeine.myshopify.com/collections/coffee",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
@@ -3411,13 +3427,34 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
-        "No collection/PDP/cart/browser or editor tests"
+        "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified."
       ],
       "next_action": [
-        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
+        "Continue remaining selected presets in rank order."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-lively.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-lively.myshopify.com/collections/red",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-lively.myshopify.com/collections/red/products/crimson-reserve-2016",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://local-theme-lively.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
