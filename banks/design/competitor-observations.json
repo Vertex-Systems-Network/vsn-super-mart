@@ -391,9 +391,13 @@
         "Jewelry categories by collection, item type and color",
         "Roma Collection hero, lookbook and editorial product storytelling sections",
         "Language/region selection and free delivery threshold presented",
-        "Collection/world journal and sustainability content"
+        "Collection/world journal and sustainability content",
+        "trending product-type tabs and rated earrings shelf",
+        "three collection tiles and category promo grid",
+        "shoppable featured ring, hotspots and video storytelling",
+        "brand timeline, quality/service promises and newsletter"
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "The jewelry preset layers collection-led storytelling with category shortcuts, review cues and shoppable editorial content. Preserve an easy path from hero to product discovery; validate product, material and fulfillment claims before relying on them."
     },
     {
       "id": "shopify-live-symmetry-beatnik",
