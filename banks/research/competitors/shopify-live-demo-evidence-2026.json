@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
   "summary": "51 indexed HTML selected homes and 49 additional browser-rendered homes are documented (100/127 unique); 272 read-only rendered pages across 69 selected presets.",
   "stores": [
@@ -6121,15 +6121,13 @@
       "store_url": "https://palo-alto-theme-main.myshopify.com/",
       "observed_on": "2026-10-26",
       "source_class": "browser_render_readonly",
-      "capture_method": "Official Shopify Palo Alto preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "capture_method": "Reopened official Palo Alto selected-preset View demo, read its exact iframe src, and refreshed rendered home, collection, PDP and cart read-only.",
       "pages": [
         {
           "kind": "home",
           "url": "https://palo-alto-theme-main.myshopify.com/",
           "observations": [
-            "Home pairs announcement and 15% sale navigation with fashion hero, countdown promotion, category mosaic, two promotional banners, featured product collection and editorial lookbook modules.",
-            "Further sections include collection edits, testimonials, social/shop-the-look tiles, product hotspots with quick-buy controls, press and client-service FAQs; the footer discloses products are for demo purposes.",
-            "Customer/review counts, discounts, sustainability/material, stock and delivery claims are sample copy and unverified."
+            "Official Palo Alto selected-preset iframe host; fashion homepage has free-shipping announcement, apparel/new/sale navigation, seasonal hero, countdown promotion, category mosaic, featured products with Quick Buy, lookbook, social proof, editorial, Shop the Look, FAQs and newsletter. Footer states demo products are provided by Alohas; merchant claims unverified."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -6138,10 +6136,9 @@
         },
         {
           "kind": "collection",
-          "url": "https://palo-alto-theme-main.myshopify.com/collections/all",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals",
           "observations": [
-            "All Clothing reports 304 products, category shortcuts, and visible availability, color, size, product-type and price filters; the grid reports 13 pages. No filters, sort or pagination were activated.",
-            "Product cards show product titles, discount badges, price comparisons, color counts, sustainability/material copy and Quick Buy affordances; no card controls were used."
+            "New Arrivals collection shows 198 products, category shortcuts, Availability/Color/Size/Product Type/Price facets, sort control, Quick Buy product cards and nine-page pagination. Controls were not used."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -6150,11 +6147,9 @@
         },
         {
           "kind": "product",
-          "url": "https://palo-alto-theme-main.myshopify.com/collections/all/products/itinerary-blazer-ivory",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals/products/sabine-skirt",
           "observations": [
-            "Sylvia Blazer product page displays seven image entries, $220 price, stock status, size guide, XS–XL sizing and White/Checks/Black color choices, quantity stepper and add-to-cart/buy-now controls.",
-            "Page also includes a limited-time offer countdown, fit scale, shipping/returns content, Buy It With cross-sell, customer-review content and You May Also Like/Recently Viewed tabs.",
-            "Stock, sustainability, promotional, shipping, return and review statements were not verified; no variant or cart action was performed."
+            "Sabine Skirt PDP shows five gallery images, $150 price, stock copy, sizes XS–XL, beige color, quantity and purchase controls, size guide, timed offer, fit/care/shipping accordions, cross-sell and testimonial modules. PDP browser title says “Wise Opened Knit Skirt Camel | Brown high waisted skirt,” differing from collection card’s “Sabine Skirt”; claims and availability unverified."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -6165,14 +6160,17 @@
           "kind": "cart",
           "url": "https://palo-alto-theme-main.myshopify.com/cart",
           "observations": [
-            "Empty cart page says the cart is currently empty and presents New Arrivals, Staff Picks, Bestselling, Sale and Shop All links plus free-shipping copy.",
-            "No item was added and checkout was not opened."
+            "Dedicated cart says it is empty and links to New Arrivals, Staff Picks, Bestselling, Sale and all products; free-shipping threshold and newsletter/footer are visible."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
         }
+      ],
+      "limits": [
+        "Read-only route inspection; no filters, sorting, pagination, variant, quantity, quick-buy, add-to-cart or checkout actions.",
+        "No screenshots, mobile viewport, Theme Editor, keyboard or performance testing. Merchant product, inventory, sustainability, review and promotional claims remain unverified."
       ]
     },
     {
