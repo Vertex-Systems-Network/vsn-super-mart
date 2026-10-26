@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Vision:Vision official listing demo inspected read-only via rendered browser accessibility trees. No shopper actions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "vision-preset-listing",
+      "url": "https://themes.shopify.com/themes/vision/presets/vision",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Vision preset listing View demo opened storefront Vision - Main."
+    },
+    {
+      "id": "vision-demo",
+      "url": "https://vision-main.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://vision-main.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://vision-main.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://vision-main.myshopify.com/collections/all/products/yale-indoor-wifi-smart-camera-pan-tilt"
+        },
+        {
+          "kind": "cart",
+          "url": "https://vision-main.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "vision-smart-home-compare-spec",
+      "source_ids": [
+        "vision-demo"
+      ],
+      "observed": "Rendered catalog shows facets and compare controls, while camera PDP exposes specifications and related-product sections.",
+      "risk": "Structure does not prove compare behavior or accuracy of specs, reviews and inventory.",
+      "vsn_guard": "Test compare and verify product claims before using as functional or data-quality precedent."
+    },
+    {
+      "id": "vision-demo-purchase-and-promotion-copy",
+      "source_ids": [
+        "vision-demo"
+      ],
+      "observed": "Demo says goods are not offered for purchase and displays promotion, shipping, stock and rating content.",
+      "risk": "Sample storefront copy does not validate actual policies or product availability.",
+      "vsn_guard": "Keep unavailable-for-purchase caveat and verify all merchant-managed claims."
+    }
+  ]
+}

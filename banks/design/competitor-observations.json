@@ -909,6 +909,17 @@
         "retail details and newsletter"
       ],
       "design_hypothesis": "For broad apparel assortments, pair quick product inspection and product-type sorting with size guidance on PDPs, then support cart recovery through recently viewed and popular picks. Keep stock, shipping and promotional urgency data merchant-verified."
+    },
+    {
+      "id": "shopify-vision-vision-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "smart-home campaign hero and promotion strips",
+        "category-switchable bestseller shelf",
+        "product education and category stories",
+        "brand, reviews, journal and newsletter"
+      ],
+      "design_hypothesis": "Electronics storefronts can bring product education, category browsing and comparison into one journey. Keep compare data aligned with PDP specifications and make availability and product claims traceable to merchant data."
     }
   ]
 }

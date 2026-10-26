@@ -1492,6 +1492,26 @@
         "empty-states"
       ],
       "design_implication": "Let shoppers compare apparel options efficiently, surface sizing help beside variant selection and retain a useful path into merchandise from the empty cart."
+    },
+    {
+      "id": "smart-home-facets-comparison-and-specs",
+      "context": "Vision's smart-home demo presents product discovery facets, comparison affordances and technical information across catalog and PDP.",
+      "signals": [
+        "All Products exposes brand, availability, price and color facets with a compare toggle.",
+        "Product cards display variants, ratings, stock and concise feature badges.",
+        "Camera PDP includes structured technical specifications, compatibility/shipping panels and paired products."
+      ],
+      "source_entry_ids": [
+        "shopify-vision-vision-browser-render"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "product-compare",
+        "collapsible-tabs",
+        "related-products",
+        "inventory-status"
+      ],
+      "design_implication": "Align category comparison fields to PDP specifications and expose compatibility and availability details near the purchase decision."
     }
   ]
 }

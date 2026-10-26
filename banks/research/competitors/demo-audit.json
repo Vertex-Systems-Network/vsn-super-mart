@@ -7496,6 +7496,52 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-vision-vision-browser-render",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Vision",
+      "url": "https://vision-main.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "free-shipping-bar",
+        "faceted-filters",
+        "sorting",
+        "product-compare",
+        "quick-view",
+        "variant-picker-styles",
+        "inventory-status",
+        "collapsible-tabs",
+        "related-products",
+        "empty-states",
+        "cart-page",
+        "collection-list",
+        "countdown-timer",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Smart-home campaign homepage pairs sale messages and product shelves with category education and editorial modules.",
+        "Twenty-product catalog presents availability, brand, price and color filters alongside compare checkboxes.",
+        "Camera PDP links product media and variants to technical specifications, policy panels and related products.",
+        "Empty cart routes shoppers to products and recently viewed items."
+      ],
+      "niches": [
+        "electronics-retail",
+        "smart-home"
+      ],
+      "notes": "Official Vision preset View demo opened vision-main.myshopify.com. Four pages inspected read-only in rendered browser. No interactions, screenshot, viewport measurement, mobile, editor, checkout, keyboard or performance testing; merchant sample claims are unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered accessibility-tree snapshots of home, All Products collection, Smart Camera PDP and empty cart; no shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

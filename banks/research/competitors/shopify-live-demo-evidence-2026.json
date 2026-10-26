@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 5 separately recorded browser-rendered Shopify homes (56/127 unique homes observed across these evidence types). Twenty pages across Savor, Refresh, Enterprise, Broadcast Relay and Impulse Dune were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 6 separately recorded browser-rendered Shopify homes (57/127 unique homes observed across these evidence types). Twenty-four pages across Savor, Refresh, Enterprise, Broadcast Relay, Impulse Dune and Vision were inspected read-only; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4533,11 +4533,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-vision-vision-browser-render",
+      "selected_preset_id": "vision:vision",
+      "theme_family": "Vision",
+      "preset": "Vision",
+      "store_url": "https://vision-main.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Vision preset listing View demo and read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://vision-main.myshopify.com/",
+          "observations": [
+            "Three-slide smart-home hero leads into promotions and a best-seller shelf with category tabs, variants, ratings, stock and preorder states.",
+            "Additional home modules present automation/security education, product and category stories, brand logos, customer quotes, editorial posts, support claims and newsletter.",
+            "Merchant ratings, stock, shipping and performance claims remain unverified sample content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://vision-main.myshopify.com/collections/all",
+          "observations": [
+            "All Products collection reports 20 products with availability, brand, price and color facets; sort and compare controls are visible.",
+            "Cards show compare checkboxes, variant colors, ratings, stock and badges; collection shortcuts lead to Doorbells, Speakers, Thermostats, Cameras and Smartwatches.",
+            "No facet, sort or compare action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://vision-main.myshopify.com/collections/all/products/yale-indoor-wifi-smart-camera-pan-tilt",
+          "observations": [
+            "Smart camera PDP shows gallery, price, review rating, color/material selectors, quantity, sample inventory and Add to cart/Buy it now controls.",
+            "Product specifications table, shipping/returns/compatibility panels, promotional code, paired products and related items are present.",
+            "The demo explicitly says goods are not offered for purchase; claims/specs were not independently validated and no actions were performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://vision-main.myshopify.com/cart",
+          "observations": [
+            "Empty cart has a Continue shopping route and a recently viewed product module.",
+            "Footer includes company/resources links, newsletter signup and payment icons.",
+            "No item was added or checkout opened."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 20,
-    "selected_presets": 5,
-    "unique_selected_homepages_across_all_source_types": 56
+    "pages": 24,
+    "selected_presets": 6,
+    "unique_selected_homepages_across_all_source_types": 57
   }
 }

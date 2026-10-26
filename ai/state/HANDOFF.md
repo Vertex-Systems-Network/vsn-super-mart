@@ -1,3 +1,7 @@
+## 2026-10-26 — Batch 27 Vision selected-preset rendered audit
+
+Official Vision listing opened vision-main.myshopify.com. Inspected home, 20-product All Products collection, smart-camera PDP and empty cart using read-only rendered accessibility trees. Added four pages, source claims, one pattern, one observation and Batch27 report. Coverage: 57/127 distinct selected homes (51 indexed HTML + 6 rendered), 24 rendered pages total. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Next: Ignite:Ignite.
+
 ## 2026-10-26 — Batch 26 Impulse Dune listing-linked rendered audit
 
 Official Impulse:Dune View demo opened impulse-theme-apparel.myshopify.com. Inspected home, 249-item All collection, 5 Panel PDP and empty cart using read-only rendered browser accessibility trees. Added four pages, source claims, one pattern, one observation and Batch26 report. Coverage is 56/127 distinct selected homes (51 indexed HTML + 5 rendered), across 20 rendered pages. The storefront is generically branded Apparel but links a Dune-specific Theme Features page; mapping caveat retained. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Next: Vision:Vision.
