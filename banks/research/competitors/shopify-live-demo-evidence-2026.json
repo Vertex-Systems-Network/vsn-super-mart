@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 139 read-only rendered pages across 35 selected presets.",
+  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 143 read-only rendered pages across 36 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6428,6 +6428,69 @@
           "url": "https://beatnik-5.myshopify.com/cart",
           "observations": [
             "Cart is empty and offers Start shopping; a Before you go... recommendations carousel lists eyewear styles and review summaries.",
+            "No cart or checkout action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
+    },
+    {
+      "id": "shopify-live-symmetry-duke",
+      "selected_preset_id": "symmetry:duke",
+      "theme_family": "Symmetry",
+      "preset": "Duke",
+      "store_url": "https://duke-16.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Symmetry:Duke listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://duke-16.myshopify.com/",
+          "observations": [
+            "Official Symmetry:Duke listing View demo opens duke-16.myshopify.com; the store brands itself around Sovrn Skateboards with a high-contrast skate campaign hero and Store/Our Story navigation.",
+            "Home links decks, apparel, accessories and collaborations; deck and apparel product shelves show price, pre-order/sold-out states, followed by artist/brand storytelling, customer reviews, blog, social gallery, service promos and newsletter.",
+            "Store/merchant and product claims are unverified; homepage’s dated sales timer is displayed but its live validity is not established."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://duke-16.myshopify.com/collections/skateboards",
+          "observations": [
+            "Decks collection lists 35 products with Date, new to old sort and pagination to page 2; cards show designer/product names, $55–$60 USD pricing and pre-order/sold-out/sale states.",
+            "A featured 1952 deck panel is embedded in the collection with four gallery images, 8.0/8.25/8.38-inch size choices and a Pre-order control; service strip says free shipping on orders $35+, free returns and free stickers.",
+            "No sort, pagination, size, preorder or purchase control was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://duke-16.myshopify.com/collections/skateboards/products/libellule-1",
+          "observations": [
+            "Libellule 1 PDP shows a three-image gallery, New arrival badge, $55.00 USD, designer Alexandre Souêtre and curator Mikey Taylor attribution; Add to cart and Shipping disclosure are visible.",
+            "Related products and a More from Alexandre Souêtre shelf lead to other decks; artist profile, quality/craft storytelling, newsletter and service promos support editorial context.",
+            "No cart, product-option or disclosure interaction was activated; price, product/designer, fulfillment and quality claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://duke-16.myshopify.com/cart",
+          "observations": [
+            "Cart is empty with Start shopping and a Before you go recommendation carousel showing decks and apparel, including pre-order items.",
             "No cart or checkout action was executed."
           ],
           "evidence_class": "browser_render_readonly",
