@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 30 (Wonder:Root)
+
+**Done**
+- Inspected Wonder:Root official listing-linked demo, homepage, Wellness Products collection, Longevity Gummies PDP and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, report and handoff updates.
+- Coverage: 60/127 unique selected homes (51 indexed HTML + 9 rendered-browser homes); 36 rendered pages across nine selected presets. Batch29 CI passed.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Wellness and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with Be Yours:Sheen and keep indexed HTML and browser-rendered evidence counts distinct.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 29 (Sleek:Jumped)
 
 **Done**

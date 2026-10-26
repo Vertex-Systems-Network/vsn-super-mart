@@ -7630,6 +7630,50 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-wonder-root-browser-render",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Root",
+      "url": "https://wonder-theme-wellness.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "free-shipping-bar",
+        "quick-add",
+        "ingredients-nutrition",
+        "product-compare",
+        "testimonials",
+        "blog-posts",
+        "newsletter-signup",
+        "empty-states",
+        "cart-page",
+        "faceted-filters",
+        "sorting",
+        "selling-plans"
+      ],
+      "design_signals": [
+        "Wellness hero leads into product assortment and a quiz entry point.",
+        "Product merchandising supports bundle-building and shoppable video/story modules.",
+        "Supplement PDP combines subscription cadence and discount choices with ingredient, benefit, comparison, FAQ and testimonial content.",
+        "Empty cart is concise, with sign-in and continued browsing paths."
+      ],
+      "niches": [
+        "health-wellness",
+        "beauty-skincare"
+      ],
+      "notes": "Official Wonder:Root listing View demo opened wonder-theme-wellness.myshopify.com. Four pages inspected read-only in rendered browser. No sort, add-to-cart, subscription cadence, quiz, compare or checkout action; no screenshot, viewport, mobile, editor, keyboard or performance testing. Wellness, product efficacy, ingredient, review and discount claims are unverified sample content.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, Wellness Products collection, Longevity Gummies PDP and empty cart; no shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

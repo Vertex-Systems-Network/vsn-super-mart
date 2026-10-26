@@ -943,6 +943,18 @@
         "material and shipping/value panels, press/review content, sale/back-in-stock promos and newsletter"
       ],
       "design_hypothesis": "Apparel discovery can combine seasonal storytelling with practical size and fit support. Keep the campaign content coherent with the represented catalog and verify sustainability, stock, shipping and review claims before surfacing them."
+    },
+    {
+      "id": "shopify-wonder-root-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "wellness hero with quiz CTA",
+        "featured supplements and bundle builder",
+        "science/ingredient trust claims",
+        "shoppable video testimonials",
+        "mission/editorial content, press logos and newsletter"
+      ],
+      "design_hypothesis": "Wellness storefronts can connect product selection to education, bundles and routine-building, while making substantiation visible for health-related claims. Keep subscription cadence and one-time purchase choices transparent and avoid presenting sample outcomes as verified evidence."
     }
   ]
 }

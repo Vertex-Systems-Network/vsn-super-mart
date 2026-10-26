@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Wonder:Root official preset listing demo inspected read-only via rendered browser accessibility trees. No shopper actions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "wonder-root-preset-listing",
+      "url": "https://themes.shopify.com/themes/wonder/presets/root",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Wonder Root preset listing View demo opened the Wellness demo storefront."
+    },
+    {
+      "id": "wonder-root-demo",
+      "url": "https://wonder-theme-wellness.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://wonder-theme-wellness.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://wonder-theme-wellness.myshopify.com/collections/frontpage"
+        },
+        {
+          "kind": "product",
+          "url": "https://wonder-theme-wellness.myshopify.com/products/longevity-gummies"
+        },
+        {
+          "kind": "cart",
+          "url": "https://wonder-theme-wellness.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "wonder-subscription-and-bundle-controls",
+      "source_ids": [
+        "wonder-root-demo"
+      ],
+      "observed": "Rendered PDP displays monthly recurring and one-time purchase modes, delivery-frequency discount choices and ingredient/benefit education; home and collection link to bundle building.",
+      "risk": "Visible controls do not prove pricing, cancellation, cadence-change or bundle behavior; health claims and reported outcomes are unverified.",
+      "vsn_guard": "Verify subscription price math, cadence, cancellation terms, bundle pricing and supporting health evidence before launch."
+    },
+    {
+      "id": "wonder-wellness-sample-claims",
+      "source_ids": [
+        "wonder-root-demo"
+      ],
+      "observed": "Demo repeats third-party testing, doctor recommendation, efficacy, customer-review, research-years and shipping statements.",
+      "risk": "Sample brand content is not evidence of testing, endorsements, clinical effects, reviews or shipping terms.",
+      "vsn_guard": "Require documented substantiation for health, scientific, endorsement, review and shipping claims."
+    }
+  ]
+}

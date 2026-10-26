@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 8 separately recorded browser-rendered Shopify homes (59/127 unique homes observed across these evidence types). Thirty-two pages across Savor, Refresh, Enterprise, Broadcast Relay, Impulse Dune, Vision, Ignite and Sleek Jumped were inspected read-only; interactions/mobile/editor tests remain unverified.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 9 separately recorded browser-rendered Shopify homes (60/127 unique homes observed across these evidence types). Thirty-six pages across Savor, Refresh, Enterprise, Broadcast Relay, Impulse Dune, Vision, Ignite, Sleek Jumped and Wonder Root were inspected read-only; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4722,11 +4722,73 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-wonder-root-browser-render",
+      "selected_preset_id": "wonder:root",
+      "theme_family": "Wonder",
+      "preset": "Root",
+      "store_url": "https://wonder-theme-wellness.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Wonder Root preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://wonder-theme-wellness.myshopify.com/",
+          "observations": [
+            "Wellness home uses repeated free-shipping announcement text, Shop/About/Science/Quiz navigation and a split hero with a health campaign, quiz CTA and video.",
+            "Modules include product shelf and bundle CTA, science/ingredient trust claims, supplement-benefit stories, shoppable video reels, press logos, science blog, mission story, testimonials and newsletter.",
+            "Health, ingredient, doctor-recommendation, review, research and shipping claims are demo copy and were not validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://wonder-theme-wellness.myshopify.com/collections/frontpage",
+          "observations": [
+            "Wellness Products collection contains 8 products with best-selling sort and featured/relevance/alphabetic/price/date sort choices.",
+            "Grid includes product names, prices and add-to-cart affordances plus bundle builder and testimonial reels; no facets are visible in this collection tree and no sort/card actions were performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://wonder-theme-wellness.myshopify.com/products/longevity-gummies",
+          "observations": [
+            "Longevity Gummies PDP has a three-image gallery, product selector links, Urolithin A description, subscription vs one-time purchase options and delivery-frequency choices showing tiered savings.",
+            "PDP also shows add-to-cart, benefits/how-to/ingredients panels, guarantee/trust copy, comparison table, ingredient/story modules, testimonials and FAQs.",
+            "The rendered URL selected a monthly selling-plan parameter by default. No purchase, plan change, or variant action was performed; efficacy, ingredient, review and subscription claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://wonder-theme-wellness.myshopify.com/cart",
+          "observations": [
+            "Empty cart states YOUR CART IS EMPTY with a Continue Shopping route and account sign-in option.",
+            "Product links and brand information remain available in the footer; no item was added and checkout was not opened."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 32,
-    "selected_presets": 8,
-    "unique_selected_homepages_across_all_source_types": 59
+    "pages": 36,
+    "selected_presets": 9,
+    "unique_selected_homepages_across_all_source_types": 60
   }
 }

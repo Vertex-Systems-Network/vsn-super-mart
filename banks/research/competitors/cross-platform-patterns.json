@@ -1554,6 +1554,26 @@
         "pickup-availability"
       ],
       "design_implication": "Keep collection filter taxonomy aligned with PDP variant and fit guidance, and validate each product's supporting copy against the actual catalog item."
+    },
+    {
+      "id": "wellness-subscription-and-education-journey",
+      "context": "Recurring wellness products combine product education and routine-building with purchase-frequency choices.",
+      "signals": [
+        "Homepage links hero CTA to a quiz and products to a custom bundle page.",
+        "Longevity Gummies PDP presents subscription cadence discounts alongside one-time purchase and product education.",
+        "Collection and empty cart provide a simple product return path; trust and claims repeat across home/PDP."
+      ],
+      "source_entry_ids": [
+        "shopify-wonder-root-browser-render"
+      ],
+      "option_ids": [
+        "selling-plans",
+        "ingredients-nutrition",
+        "product-compare",
+        "testimonials",
+        "cart-page"
+      ],
+      "design_implication": "Show a clear one-time vs recurring price, delivery frequency, savings and cancellation terms before cart, and link health claims to evidence without overstating efficacy."
     }
   ]
 }
