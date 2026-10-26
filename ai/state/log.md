@@ -255,3 +255,11 @@
 - PDP: $35, Grey/Burgundy/White, SKU, 4.5/5 (2 reviews), quantity and purchase controls; no actions executed. Empty cart shows $200 free-shipping threshold.
 - Homepage already indexed: coverage remains 79/127; rendered evidence 159 pages / 40 presets; 48 unique homes remain.
 - CI and PR refresh pending. No shopper interactions or screenshot/mobile/editor/checkout/keyboard/performance tests; seller claims unverified.
+
+
+## 2026-10-26 — Batch 64 Focal:Sapphire
+
+- Official Shopify listing iframe src was read from rendered DOM and verified; read-only browser render of home, Earrings collection, Double Météorites Stud Earrings PDP and empty cart.
+- Earrings: 117 products, five facets, Featured sort, five-page pagination (no controls activated). PDP €114, White Silver, SKU, stock/review cues, media, details/warranty and recommendations.
+- Home/cart already indexed; unique selected homes remain 79/127; rendered pages 163 across 41 presets; 48 homes remain.
+- No shopper interactions, screenshot, mobile/editor/checkout/keyboard/performance tests; merchant claims unverified. CI/PR refresh pending.
