@@ -333,14 +333,6 @@
       "design_hypothesis": "HTML content evidence supports feature presence but not interactive functionality, screenshots or a unique visual fingerprint."
     },
     {
-      "id": "shopify-live-impulse-default",
-      "evidence_level": "live_demo_page",
-      "homepage_modules": [
-        "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source"
-      ],
-      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access."
-    },
-    {
       "id": "shopify-live-symmetry-salt-yard",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
@@ -1051,12 +1043,13 @@
       "id": "shopify-live-impulse-default",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
+        "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source",
         "linen-focused campaign copy and linked category imagery",
         "Everyday Essentials and All New product shelves",
         "dress/layer promotional tiles, journal and considered-wear brand story",
         "newsletter offer"
       ],
-      "design_hypothesis": "Seasonal editorial, curated everyday products and garment-care storytelling can support fashion discovery when connected to clear category routes and fit details. Keep recommendation content credible and matched to the active catalog."
+      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access. Seasonal editorial, curated everyday products and garment-care storytelling can support fashion discovery when connected to clear category routes and fit details. Keep recommendation content credible and matched to the active catalog."
     }
   ]
 }
