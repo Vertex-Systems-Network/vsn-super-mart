@@ -1,3 +1,12 @@
+## 2026-10-26 — Batch 56 Warehouse:Mesh rendered audit
+
+- Official Shopify Warehouse:Mesh listing View demo opened warehouse-theme-fabric.myshopify.com.
+- Read-only rendered browser inspection: home, New Arrivals collection (11 products), Discovery Hybrid Jacket PDP and empty cart. Captured collection screenshot for layout observation only.
+- Added four rendered page records and source claims; upgraded existing official-listing audit with rendered evidence, added design observation and expanded large-catalog pattern.
+- Unique selected-home coverage rises to 79/127 (51 indexed HTML + 28 additional rendered); rendered pages 135 across 34 presets; 48 homes remain.
+- No shopping/filter/variant actions or mobile/editor/checkout/performance testing; claims unverified.
+- Next: continue with next unobserved selected preset.
+
 ## 2026-10-26 — Batch 55 Symmetry:Salt Yard rendered audit
 
 - Official Shopify Symmetry:Salt Yard listing View demo opened salt-yard.myshopify.com.
