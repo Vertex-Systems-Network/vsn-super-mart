@@ -2571,18 +2571,18 @@
           "indexed_crawl_recency": "2 months"
         },
         "collection": {
-          "status": "browser_rendered_readonly",
-          "url": "https://warehouse-theme-wood.myshopify.com/collections/tableware",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         },
         "product": {
-          "status": "browser_rendered_readonly",
-          "url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         },
         "cart": {
-          "status": "browser_rendered_readonly",
-          "url": "https://warehouse-theme-wood.myshopify.com/cart",
+          "status": "not_verified",
+          "url": null,
           "indexed_crawl_recency": null
         }
       },
