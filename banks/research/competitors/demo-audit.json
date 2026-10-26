@@ -5144,9 +5144,9 @@
       "url": "https://prestige-theme-vogue.myshopify.com/",
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Public individual Shopify demo store HTML opened: home, collection, PDP and where available empty cart. No interactive checkout/mobile QA.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Indexed public HTML and rendered browser accessibility-tree inspection of home, collection, product and cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
       "feature_option_ids": [
         "mega-menu",
         "featured-collection",
@@ -5161,17 +5161,25 @@
         "collapsible-tabs",
         "cart-page",
         "empty-states",
-        "newsletter-signup"
+        "newsletter-signup",
+        "announcement-bar",
+        "image-banner",
+        "product-reviews-slot",
+        "filter-layouts",
+        "related-products"
       ],
       "design_signals": [
         "premium-skincare retail composition",
         "Face and Body taxonomy with promotional mega-menu tiles",
-        "featured Masques/Lips tab selector"
+        "featured Masques/Lips tab selector",
+        "Beauty-focused home combines a campaign hero, featured collection tabs, product storytelling, customer/editorial content and newsletter.",
+        "Collection offers sort/filter controls, image-density choices and both direct add and option-selection product cards.",
+        "PDP presents a gallery, bundle details, guarantee/shipping disclosures, FAQs and related-product carousel; empty cart restores a clear Continue Shopping route."
       ],
       "niches": [
         "premium-skincare"
       ],
-      "notes": "Full page evidence in shopify-live-demo-evidence-2026.json. Not an interactive test.",
+      "notes": "Full indexed HTML evidence in shopify-live-demo-evidence-2026.json plus read-only rendered accessibility-tree inspection. Official Shopify Prestige:Vogue View demo opened matching prestige-theme-vogue.myshopify.com; home, 10-product Kits collection, Brazilian Supermask Masque + Brush Kit PDP and empty cart inspected. No shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing. Merchant claims unverified.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
