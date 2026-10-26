@@ -5222,11 +5222,49 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-symmetry-symmetry-browser-render",
+      "selected_preset_id": "symmetry:symmetry",
+      "theme_family": "Symmetry",
+      "preset": "Symmetry",
+      "store_url": "https://chantilly.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Symmetry:Symmetry preset listing View demo plus read-only rendered browser accessibility-tree inspection. A homepage screenshot was captured; no viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://chantilly.myshopify.com/",
+          "observations": [
+            "Fashion/swimwear storefront with announcement carousel, SHOP/BRANDS/OUR WORLD/PRESETS navigation, campaign hero and category links.",
+            "Home surfaces trending products, 'Escape the Everyday' editorial, sustainability statements, blog, service/trust content and newsletter sign-up.",
+            "A newsletter modal was dismissed using its close control; no signup. Screenshot captured. No viewport dimensions measured."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": true,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://chantilly.myshopify.com/collections/all",
+          "observations": [
+            "All Our Products collection reports 68 products; category links include Tops, Bottoms, Swimwear and One Piece.",
+            "Filter entry and Featured sort are visible; cards show prices, ratings, sale, preorder and sold-out states, with pagination.",
+            "No filter, sort, pagination or card action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 64,
-    "selected_presets": 16,
-    "unique_selected_homepages_across_all_source_types": 67
+    "pages": 66,
+    "selected_presets": 17,
+    "unique_selected_homepages_across_all_source_types": 68
   }
 }

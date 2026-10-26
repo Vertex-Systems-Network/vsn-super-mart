@@ -1036,6 +1036,16 @@
         "returns/quality propositions and sustainability/newsletter footer"
       ],
       "design_hypothesis": "Scent-family navigation can connect a multi-category fragrance assortment; product-page narratives and usage details should match the product type. Verify product consistency and substantiation behind ingredients and sustainability statements."
+    },
+    {
+      "id": "shopify-symmetry-symmetry-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "fashion/swimwear campaign hero and category links",
+        "trending products and Escape the Everyday editorial",
+        "sustainability/service statements, blog and newsletter"
+      ],
+      "design_hypothesis": "Editorial campaign content can add context to category-led fashion browsing; ensure collection routes, fit guidance and product claims remain clear and substantiated."
     }
   ]
 }

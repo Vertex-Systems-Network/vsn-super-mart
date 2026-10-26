@@ -425,3 +425,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch34-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch34-2026.json`.
 - No shopper actions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing. Device compatibility, inventory, promo, review, materials and fulfillment statements remain unverified.
 - Next: continue to the next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 38
+- Symmetry:Symmetry official View demo resolved to chantilly.myshopify.com; homepage and 68-product All Our Products collection inspected in rendered browser. Homepage screenshot captured. Borderline One Piece PDP inspected, but its route was truncated and omitted from URL-indexed evidence; cart could not be inspected after browser connection failure.
+- Coverage: 68/127 unique selected homes (51 indexed HTML + 17 rendered); 66 rendered pages across 17 presets; 59 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch38-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch38-2026.json`.
+- No shopping controls, mobile viewport, editor, checkout, keyboard or performance testing. Seller stock, ratings, fit and sustainability claims remain unverified.
+- Next: retry cart when browser is available, then continue next unobserved selected preset.

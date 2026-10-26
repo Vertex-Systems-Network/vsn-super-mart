@@ -1744,6 +1744,28 @@
         "empty-states"
       ],
       "design_implication": "Let shoppers browse by scent family and product type, while keeping product category clear and testing recommendation relevance. Substantiate ingredients, sustainability, efficacy, burn-time and returns claims."
+    },
+    {
+      "id": "symmetry-fashion-campaign-to-product-discovery",
+      "context": "Fashion and swimwear storefronts can combine campaign-led storytelling with category paths and highly merchandised product cards.",
+      "signals": [
+        "Home combines campaign hero, category links, trending products, editorial, service and brand-story modules.",
+        "68-product collection links Tops, Bottoms, Swimwear and One Piece with filters, sort and varied sale/preorder/sold-out states.",
+        "Borderline One Piece PDP visibly groups color/size choices, fit guide, stock, purchase CTA and related products; content claims remain unverified."
+      ],
+      "source_entry_ids": [
+        "shopify-symmetry-symmetry-browser-render"
+      ],
+      "option_ids": [
+        "collection-list",
+        "featured-collection",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "product-blocks",
+        "related-products"
+      ],
+      "design_implication": "Keep campaign storytelling connected to clear product-type navigation; expose useful fit and variant information on PDPs and keep merchant claims attributable."
     }
   ]
 }
