@@ -5400,11 +5400,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-broadcast-default-browser-render",
+      "selected_preset_id": "broadcast:broadcast",
+      "theme_family": "Broadcast",
+      "preset": "Broadcast",
+      "store_url": "https://broadcast-theme-main.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Broadcast preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-theme-main.myshopify.com/",
+          "observations": [
+            "Official Shopify Broadcast listing View demo opened broadcast-theme-main.myshopify.com.",
+            "Jewelry storefront uses a 10% signup promo announcement, language/currency selectors, Jewelry/Sale/About navigation and an EVERYDAY LUXURY hero with Shop All/Sale routes.",
+            "Home connects bestselling fine jewelry and modern-heirloom category stories to made-to-order, essential collection and best-seller sections, shopping-the-look content, press/editorial, ethical sourcing, giving back, on-demand stylist and newsletter modules."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-theme-main.myshopify.com/collections/all",
+          "observations": [
+            "Bestsellers collection shows 109 items, category links for New Arrivals/Best Sellers/Sale/Rings/Earrings/Necklaces, Filters and Sort By controls.",
+            "Cards show sale/pre-order/best-seller labels and inline Add to Cart buttons; collection includes a Gemstone Collection promotional tile.",
+            "No filters, sorting, pagination or Add to Cart action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-theme-main.myshopify.com/products/miro-signet-in-gold",
+          "observations": [
+            "Miro Signet Ring in Gold PDP shows $160 sale/$200 regular price, 20% off and Final sale labels, low-inventory copy, Gold color and size 5–8 options, ring-size guide and countdown.",
+            "Description and Details disclosures, Add to Cart, shipping/returns copy, recycled-materials story, and related products are visible.",
+            "Size options were visibly labelled sold out or unavailable; no variant or purchase action was attempted. All pricing, stock, material and seller claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-theme-main.myshopify.com/cart",
+          "observations": [
+            "Cart states Your Cart is Empty.",
+            "Instead of a dedicated Continue Shopping button, the empty state presents category links for Bestsellers, New, Sale, Rings, Earrings, Bracelets and Necklaces.",
+            "No cart action or checkout was performed; footer contains policy links routed to 404 pages."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 75,
-    "selected_presets": 19,
-    "unique_selected_homepages_across_all_source_types": 69
+    "pages": 79,
+    "selected_presets": 20,
+    "unique_selected_homepages_across_all_source_types": 70
   }
 }

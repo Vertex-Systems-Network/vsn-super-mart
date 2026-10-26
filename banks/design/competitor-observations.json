@@ -1062,6 +1062,18 @@
         "gift ideas, showroom links, gift guide/editorial articles and newsletter"
       ],
       "design_hypothesis": "A jewelry homepage can organize discovery around product category and occasion while explaining care and materials. Let shoppers move from story modules into clear category and product variant choices; substantiate sourcing and production statements."
+    },
+    {
+      "id": "shopify-broadcast-default-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "everyday-luxury hero and jewelry category links",
+        "bestselling fine jewelry and modern-heirloom product modules",
+        "made-to-order and essentials content, styling/editorial and press",
+        "ethical-sourcing, giving-back and stylist-service propositions",
+        "newsletter"
+      ],
+      "design_hypothesis": "Jewelry discovery can combine gifting, daily styling and materials storytelling. Validate claims, keep collection filters useful at scale, and provide a clear empty-cart path back to categories."
     }
   ]
 }

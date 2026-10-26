@@ -8082,6 +8082,52 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-broadcast-default-browser-render",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Broadcast",
+      "url": "https://broadcast-theme-main.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "collection-list",
+        "featured-collection",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "quick-add",
+        "product-blocks",
+        "countdown-timer",
+        "product-badges-trust",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "shop-the-look",
+        "related-products"
+      ],
+      "design_signals": [
+        "Jewelry home connects everyday-luxury campaign with bestseller and category merchandising, made-to-order/editorial stories, sourcing and service propositions.",
+        "109-item Bestsellers collection exposes filters, sorting, category navigation, inline Add to Cart and sale/preorder/bestseller card labels.",
+        "Miro Signet Ring PDP includes discount/final-sale messaging, inventory copy, color/size options, ring-size guide and countdown; empty cart uses category links rather than a dedicated Continue Shopping button."
+      ],
+      "niches": [
+        "jewelry",
+        "fashion",
+        "gifting"
+      ],
+      "notes": "Official Shopify Broadcast listing View demo opened broadcast-theme-main.myshopify.com. Home, 109-item Bestsellers collection, Miro Signet Ring in Gold PDP and empty cart inspected read-only. No filters/sort/add-to-cart/variant/checkout actions; no screenshot, viewport/mobile, editor, keyboard or performance testing. PDP sizes appeared unavailable. Merchant pricing, inventory, discounts, materials, sourcing and service claims unverified; footer policy links led to 404.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, Bestsellers collection, Miro Signet Ring PDP and empty cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

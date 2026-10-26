@@ -449,3 +449,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch40-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch40-2026.json`.
 - No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller material, fit, sourcing, inventory and service claims remain unverified.
 - Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 41
+- Official Broadcast:Broadcast View demo opened broadcast-theme-main.myshopify.com. Inspected rendered home, 109-product Bestsellers collection, Miro Signet Ring PDP and empty cart read-only.
+- Coverage: 70/127 unique selected homes (51 indexed HTML + 19 additional rendered); 79 rendered pages across 20 presets; 57 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch41-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch41-2026.json`.
+- No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing. Product sizes appeared unavailable; seller claims unverified; footer policy links led to 404.
+- Next: continue next unobserved selected preset.

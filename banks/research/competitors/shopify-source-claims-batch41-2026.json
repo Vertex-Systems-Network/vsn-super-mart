@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Shopify Broadcast preset listing View demo inspected read-only with rendered browser accessibility tree. Home, 109-item Bestsellers collection, Miro Signet Ring in Gold PDP and empty cart inspected; no shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+  "sources": [
+    {
+      "id": "broadcast-default-preset-listing",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/broadcast",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Broadcast listing View demo opened broadcast-theme-main.myshopify.com."
+    },
+    {
+      "id": "shopify-broadcast-default-browser-render",
+      "url": "https://broadcast-theme-main.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-theme-main.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-theme-main.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-theme-main.myshopify.com/products/miro-signet-in-gold"
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-theme-main.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "broadcast-jewelry-discovery",
+      "source_ids": [
+        "shopify-broadcast-default-browser-render"
+      ],
+      "observed": "Home links bestseller/category discovery to everyday-luxury, made-to-order, press and sourcing narratives; 109-item collection provides category routes, filter/sort, promo badges and inline Add to Cart.",
+      "risk": "No collection controls were operated; content, discounts and availability are unverified.",
+      "vsn_guard": "Validate discount and inventory signals and maintain responsive collection navigation at catalog scale."
+    },
+    {
+      "id": "broadcast-cart-recovery-and-product-options",
+      "source_ids": [
+        "shopify-broadcast-default-browser-render"
+      ],
+      "observed": "Miro Signet PDP groups sale/final-sale labels, color/size, size guide, stock message and countdown. Empty cart offers category links; several footer policy links route to 404.",
+      "risk": "No variants or cart actions tested; size availability and policy route issue are observations only and not confirmed across sessions.",
+      "vsn_guard": "Keep product choice and sale status clear, and verify policy URLs and empty-cart paths."
+    }
+  ]
+}

@@ -1821,6 +1821,32 @@
         "related-products"
       ],
       "design_implication": "Connect jewelry categories to gift and material stories, then make metal and sizing choices easy to understand. Keep sourcing and production claims substantiated and ensure empty-cart suggestions use current catalog items."
+    },
+    {
+      "id": "broadcast-jewelry-everyday-luxury-and-category-cart",
+      "context": "Jewelry stores can make premium product categories feel accessible through everyday styling stories and service content.",
+      "signals": [
+        "Home blends everyday-luxury campaign, bestseller and modern-heirloom category merchandising, made-to-order stories, lookbook, sourcing and stylist support.",
+        "109-item collection puts category routes, filter/sort controls, promotion badges and inline Add to Cart within the product grid.",
+        "PDP combines discount/final-sale messaging, inventory copy, ring sizing and countdown; empty cart provides category recovery links, while footer shipping/refund links resolve to 404."
+      ],
+      "source_entry_ids": [
+        "shopify-broadcast-default-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "quick-add",
+        "product-card-variants",
+        "size-chart",
+        "countdown-timer",
+        "cart-page",
+        "empty-states",
+        "shop-the-look"
+      ],
+      "design_implication": "Pair premium jewelry storytelling with useful sizing and category navigation. Keep discount and scarcity messaging accurate, maintain working policy routes, and offer a clear empty-cart recovery path."
     }
   ]
 }
