@@ -1217,6 +1217,17 @@
         "Free-shipping message, pickup/location information, journal and newsletter"
       ],
       "design_hypothesis": "Beauty storefronts can combine product-led campaigns, category discovery and service/locality cues with editorial storytelling and transparent product provenance. Supplementary browser render only; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-expanse-gem",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Amara gift promo and curated jewelry collections",
+        "Amara new product shelf; customer moments and testimonials",
+        "Jewelry discovery, brand story, Journal and newsletter",
+        "Authenticity, shipping, returns and expert-guidance statements"
+      ],
+      "design_hypothesis": "Fine-jewelry storefronts can connect collection discovery and gifting to product/material education, customer proof and service reassurance. Browser-render evidence only; no interaction or visual QA."
     }
   ]
 }
