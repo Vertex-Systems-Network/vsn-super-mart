@@ -5884,7 +5884,7 @@
       "niches": [
         "skincare-concern-taxonomy"
       ],
-      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "notes": "Official Stiletto:Glimmer listing preview iframe exposed stiletto-theme-organic.myshopify.com and redirected to STO Glimmer at stiletto-theme-glimmer.myshopify.com. Browser render inspected home, Face collection, Marula Face Oil PDP and empty cart. Existing indexed home coverage remains the only unique-home credit; rendered details are in the live-demo evidence bank. No controls or checkout tested.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
