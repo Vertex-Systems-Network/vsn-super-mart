@@ -499,9 +499,9 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Next: continue next unobserved selected preset.
 
 
-## Batch 47 — Impulse:Impulse (2026-10-26)
+## Batch 48 — Prestige:Couture (2026-10-26)
 
-- Official selected preset View demo opened `https://impulse-theme-fashion.myshopify.com/`; home, The Linen Edit collection, The Lido Short PDP and empty cart inspected read-only.
-- Coverage remains 75/127 unique selected homes because Impulse:Impulse home was already in indexed HTML; 103 rendered pages across 26 presets; 52 remain.
-- Evidence/report: `banks/research/competitors/shopify-live-demo-batch47-2026.md`; no shopper interactions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.
-- Next: continue next unobserved selected preset; preserve source distinctions and commit only after CI validation.
+- Official selected preset View demo opened `https://prestige-theme-couture.myshopify.com/`; home, Dresses collection, Edie Cascade Wrap Mini Dress Black PDP and empty cart inspected read-only.
+- Coverage remains 75/127 unique homes because Couture home was already indexed; rendered evidence 103 pages across 26 presets, 52 unique homes remain.
+- Prestige:Prestige listing View demo routes to an Allure-branded host; not counted pending matching demo mapping.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch48-2026.md`. Continue next truly unobserved preset after CI passes.

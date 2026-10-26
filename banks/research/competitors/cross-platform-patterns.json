@@ -1983,15 +1983,15 @@
       "design_implication": "Use room and designer stories to organize broad home collections, then provide useful color and availability choices. Substantiate product performance and durability claims and show out-of-stock states clearly."
     },
     {
-      "id": "impulse-shoppable-linen-merchandising",
-      "context": "Fashion retailers can pair seasonal storytelling with direct category and product discovery.",
+      "id": "prestige-couture-luxury-collection-storytelling",
+      "context": "Luxury apparel can use editorial brand storytelling while exposing useful category and product choices.",
       "signals": [
-        "Home combines shoppable linen hero, category tiles, product shelves, promo grid, lookbook and journal.",
-        "Collection provides filters/sort and badge/discount cues across a compact product set.",
-        "PDP surfaces stock, size-chart, accordions and recommendations; cart recovery offers Continue shopping."
+        "Home combines a collection hero, weekly selection, collection tiles, brand values, lookbook, editorial, store details and newsletter.",
+        "Dresses collection exposes availability, color, size and price facets across 31 products; cards show swatches, reviews and sale prices.",
+        "PDP presents gallery, size/color options, stock and delivery/returns content alongside related and complementary products."
       ],
       "source_entry_ids": [
-        "shopify-impulse-impulse-browser-render"
+        "shopify-prestige-couture-browser-render"
       ],
       "option_ids": [
         "featured-collection",
@@ -1999,13 +1999,14 @@
         "faceted-filters",
         "sorting",
         "product-card-badges",
+        "product-card-variants",
         "inventory-status",
         "related-products",
         "cart-page",
         "empty-states",
-        "newsletter-signup"
+        "accordion-content"
       ],
-      "design_implication": "Connect seasonal editorial to browsable collections, then make sizing, availability, materials and delivery information easy to find before purchase; validate merchant claims."
+      "design_implication": "Pair luxury brand narrative with transparent product filters and easy-to-find sizing, stock, delivery and returns details; substantiate environmental and service claims."
     }
   ]
 }

@@ -1132,15 +1132,15 @@
       "design_hypothesis": "Designer and room storytelling can frame contemporary home product discovery. Use color and in-stock filtering to connect stories to available products; substantiate durability and technical claims."
     },
     {
-      "id": "shopify-impulse-impulse-browser-render",
+      "id": "shopify-prestige-couture-browser-render",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "free-shipping announcement and utility navigation",
-        "shoppable linen hero and four category tiles",
-        "Everyday Essentials and All New product shelves, plus sale promotion grid",
-        "lookbook, journal, material/benefit storytelling and newsletter"
+        "free-shipping banner and luxury navigation",
+        "new-collection hero and weekly selection",
+        "category tiles, Shop the Look, press/blog and featured product",
+        "brand values, boutique details, service assurances and newsletter"
       ],
-      "design_hypothesis": "Seasonal storytelling can connect shoppers from editorial inspiration to focused collections. Keep sale, size, inventory and material details visible at decision points."
+      "design_hypothesis": "Editorial luxury positioning can coexist with practical shopping routes when category, product options, stock, shipping and returns stay accessible."
     }
   ]
 }

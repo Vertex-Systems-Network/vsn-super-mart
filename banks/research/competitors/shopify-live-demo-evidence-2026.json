@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "Read-only rendered observation of 103 pages across 26 selected presets; 75/127 unique homes documented, including 51 indexed HTML homes and 24 additional browser-rendered homes.",
+  "summary": "51 indexed HTML selected homes and 16 selected browser-rendered homes are documented (67/127 unique); 68 read-only rendered pages across 26 selected presets; total across source types 75 unique homes.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5785,23 +5785,23 @@
       ]
     },
     {
-      "id": "shopify-impulse-impulse-browser-render",
-      "selected_preset_id": "impulse:impulse",
-      "theme_family": "Impulse",
-      "preset": "Impulse",
-      "store_url": "https://impulse-theme-fashion.myshopify.com/",
+      "id": "shopify-prestige-couture-browser-render",
+      "selected_preset_id": "prestige:couture",
+      "theme_family": "Prestige",
+      "preset": "Couture",
+      "store_url": "https://prestige-theme-couture.myshopify.com/",
       "observed_on": "2026-10-26",
       "source_class": "browser_render_readonly",
-      "capture_method": "Official Shopify Impulse:Impulse preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "capture_method": "Official Shopify Prestige:Couture listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
       "pages": [
         {
           "kind": "home",
-          "url": "https://impulse-theme-fashion.myshopify.com/",
+          "url": "https://prestige-theme-couture.myshopify.com/",
           "observations": [
-            "Official Shopify Impulse:Impulse preset listing View demo opened impulse-theme-fashion.myshopify.com.",
-            "Fashion storefront has free-shipping announcement, utility links, New/Clothing/Sale navigation and an Easy by design linen hero with shoppable product callouts.",
-            "Home modules include four category tiles, Everyday Essentials and All New product shelves, promo grid, lookbook, journal, editorial copy, product benefits and newsletter.",
-            "Merchant positioning and product/material claims are page copy, not independently verified."
+            "Official Shopify Prestige:Couture listing View demo opened the matching prestige-theme-couture.myshopify.com storefront.",
+            "Luxury apparel homepage uses free-shipping banner, HOME/SHOP/BLOG/ABOUT/PRESETS navigation and a collection hero linking Dresses and Tops.",
+            "Modules include Weekly Selection with color cards, collection tiles, brand and sustainability storytelling, Shop the Look, press/blog content, featured product with variants/size, boutique information, service/pledge icons and newsletter.",
+            "Brand, sustainability and service statements are merchant content and were not independently verified."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5810,11 +5810,11 @@
         },
         {
           "kind": "collection",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit",
+          "url": "https://prestige-theme-couture.myshopify.com/collections/dresses",
           "observations": [
-            "The Linen Edit collection shows 7 products and a promotional sale banner.",
-            "Filter control and Best selling default sort are present; visible sort choices include Featured, relevance, alphabetical, price and date.",
-            "Product cards show sale/new badges and prices; no filter, sort or quick-view control was activated."
+            "Dresses collection shows 31 products and collection intro copy.",
+            "Controls include sort-by and filters for Availability, Color, Size and Price; product cards expose color swatches, review cues and sale prices.",
+            "No filter, sort, swatch, layout or product control was activated."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5823,12 +5823,11 @@
         },
         {
           "kind": "product",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
+          "url": "https://prestige-theme-couture.myshopify.com/products/edie-cascade-wrap-mini-dress-black",
           "observations": [
-            "The Lido Short PDP shows $120 regular price and $96 sale price (save $24), descriptive copy, a size-chart link, product imagery and fit/material bullets.",
-            "Page displays In stock, ready to ship and ADD TO CART; Description, Materials & Care, Certifications and Shipping & Returns are accordion controls.",
-            "You may also like recommendations and testimonial/sustainability content appear below the product.",
-            "No size, accordion, add-to-cart or sharing action was activated; seller statements are unverified."
+            "Edie Cascade Wrap Mini Dress Black PDP shows sale price $159, color Black, size options XS/S/M/L, size-chart control and 4 in stock.",
+            "The page includes four product gallery images, quantity control, Add to Cart/Buy It Now, ready-to-ship and eco-friendliness copy, shipping/returns accordions, complementary and related products.",
+            "No size/color/quantity, accordions, purchase or other product controls were activated; inventory, price, rating and sustainability claims remain unverified."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5837,10 +5836,10 @@
         },
         {
           "kind": "cart",
-          "url": "https://impulse-theme-fashion.myshopify.com/cart",
+          "url": "https://prestige-theme-couture.myshopify.com/cart",
           "observations": [
-            "Cart says Your cart is currently empty and provides Continue shopping to the all-products collection.",
-            "Recently viewed and Popular picks modules appear beneath the empty state; newsletter and service links appear in footer.",
+            "Cart is empty and offers Continue Shopping to all collections.",
+            "Footer includes newsletter, social links, Australian store service and shipping/returns/payment copy.",
             "No cart or checkout action was performed."
           ],
           "evidence_class": "browser_render_readonly",

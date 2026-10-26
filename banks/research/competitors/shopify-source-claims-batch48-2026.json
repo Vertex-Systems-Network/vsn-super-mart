@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "created_on": "2026-10-26",
+  "batch": 48,
+  "selected_preset_id": "prestige:couture",
+  "sources": [
+    {
+      "source_id": "official-shopify-prestige-couture-listing",
+      "source_class": "official_theme_store_listing",
+      "url": "https://themes.shopify.com/themes/prestige/presets/couture",
+      "claims": [
+        "Official listing identifies Couture as a Prestige preset; View demo frame routed to https://prestige-theme-couture.myshopify.com/"
+      ],
+      "limits": [
+        "Theme Store feature and marketing copy is vendor-authored."
+      ]
+    },
+    {
+      "source_id": "prestige-couture-rendered-pages",
+      "source_class": "browser_render_readonly",
+      "url": "https://prestige-theme-couture.myshopify.com/",
+      "observed_pages": [
+        {
+          "kind": "home",
+          "url": "https://prestige-theme-couture.myshopify.com/",
+          "observations": [
+            "Official Shopify Prestige:Couture listing View demo opened the matching prestige-theme-couture.myshopify.com storefront.",
+            "Luxury apparel homepage uses free-shipping banner, HOME/SHOP/BLOG/ABOUT/PRESETS navigation and a collection hero linking Dresses and Tops.",
+            "Modules include Weekly Selection with color cards, collection tiles, brand and sustainability storytelling, Shop the Look, press/blog content, featured product with variants/size, boutique information, service/pledge icons and newsletter.",
+            "Brand, sustainability and service statements are merchant content and were not independently verified."
+          ]
+        },
+        {
+          "kind": "collection",
+          "url": "https://prestige-theme-couture.myshopify.com/collections/dresses",
+          "observations": [
+            "Dresses collection shows 31 products and collection intro copy.",
+            "Controls include sort-by and filters for Availability, Color, Size and Price; product cards expose color swatches, review cues and sale prices.",
+            "No filter, sort, swatch, layout or product control was activated."
+          ]
+        },
+        {
+          "kind": "product",
+          "url": "https://prestige-theme-couture.myshopify.com/products/edie-cascade-wrap-mini-dress-black",
+          "observations": [
+            "Edie Cascade Wrap Mini Dress Black PDP shows sale price $159, color Black, size options XS/S/M/L, size-chart control and 4 in stock.",
+            "The page includes four product gallery images, quantity control, Add to Cart/Buy It Now, ready-to-ship and eco-friendliness copy, shipping/returns accordions, complementary and related products.",
+            "No size/color/quantity, accordions, purchase or other product controls were activated; inventory, price, rating and sustainability claims remain unverified."
+          ]
+        },
+        {
+          "kind": "cart",
+          "url": "https://prestige-theme-couture.myshopify.com/cart",
+          "observations": [
+            "Cart is empty and offers Continue Shopping to all collections.",
+            "Footer includes newsletter, social links, Australian store service and shipping/returns/payment copy.",
+            "No cart or checkout action was performed."
+          ]
+        }
+      ],
+      "limits": [
+        "No shopper actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests; merchant claims unverified."
+      ]
+    },
+    {
+      "source_id": "prestige-prestige-demo-route-check",
+      "source_class": "official_listing_demo_frame_route",
+      "url": "https://themes.shopify.com/themes/prestige/presets/prestige",
+      "claims": [
+        "The observed View demo iframe route was https://prestige-theme-allure.myshopify.com/."
+      ],
+      "limits": [
+        "Route was not treated as a rendered observation of the selected Prestige preset and contributes no coverage."
+      ]
+    }
+  ]
+}

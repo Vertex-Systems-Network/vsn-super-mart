@@ -470,11 +470,12 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "No filter, sort, quick-view, size selection, add-to-cart or cart actions executed",
-        "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant product, inventory, material and sustainability claims unverified"
+        "No filter, sort, Quick View, size or cart actions executed",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, checkout, keyboard or performance testing",
+        "Organic, fit, inventory, certification, shipping and other seller claims unverified"
       ],
       "next_action": [
         "Continue with next unobserved selected preset"
@@ -487,12 +488,12 @@
         },
         {
           "kind": "collection",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/all",
           "evidence_class": "browser_render_readonly"
         },
         {
           "kind": "product",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
+          "url": "https://impulse-theme-fashion.myshopify.com/products/the-ames-trouser",
           "evidence_class": "browser_render_readonly"
         },
         {
@@ -757,11 +758,12 @@
       "evidence_quality": "official_listing_only",
       "blockers": [
         "The official selected-preset View demo opened a storefront branded Prestige - Allure; preset-specific destination remains unconfirmed.",
-        "No collection/PDP/cart/browser or editor tests for the selected Prestige preset."
+        "No collection/PDP/cart/browser or editor tests for the selected Prestige preset.",
+        "Official Prestige preset View demo frame routed to prestige-theme-allure.myshopify.com; route appears to be Allure, so not attributed or counted as selected Prestige pending a matching demo mapping."
       ],
       "next_action": [
-        "Confirm the selected Prestige preset's current direct demo destination through an official source; do not assign the Allure family preview to this preset without confirmation.",
-        "If no distinct destination can be resolved, record the mapping limitation and continue to the next unobserved selected preset."
+        "Confirm a Prestige-specific demo route from official source/documentation; do not count the Allure demo as selected Prestige.",
+        "Continue with next unobserved selected preset."
       ]
     },
     {
@@ -806,12 +808,37 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "no interactive/mobile/editor/test access"
+        "No filters, sort, swatch, layout, size, quantity, purchase or cart actions executed",
+        "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
+        "Merchant pricing, inventory, ratings, sustainability, shipping and service claims unverified"
       ],
-      "next_action": []
+      "next_action": [
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://prestige-theme-couture.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://prestige-theme-couture.myshopify.com/collections/dresses",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://prestige-theme-couture.myshopify.com/products/edie-cascade-wrap-mini-dress-black",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://prestige-theme-couture.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
+      ]
     },
     {
       "audit_rank": 7,
