@@ -1,3 +1,17 @@
+## 2026-10-26 — Shopify rendered demo research Batch 78 (Stiletto:Glimmer)
+
+**Done**
+- Opened the official Glimmer preview destination and inspected home, Face collection (21 results), Marula Face Oil PDP and empty cart.
+- Collection exposes Best selling sort and Product type/Skin Type/Price/Availability/Size filters. PDP displays $18 compare-at/$15.30 sale, size control and quantity/Add to Bag. No controls activated.
+- Home already had indexed coverage; unique-home total stays 86/127. Rendered evidence reaches 214 pages across 54 presets; 41 unique homes remain. Indexed totals remain 51/38/40/11.
+- Updated evidence, matrix, audit note, design observation, plan, progress and handoff.
+
+**Limits**
+- No filters, sort, Quick View, options, cart mutation, checkout, screenshots, viewport/mobile, editor, keyboard or performance tests. Seller and health/ingredient claims remain unverified.
+
+**Next**
+- Continue Stiletto:Tapestry (rank 55); its indexed homepage means browser render adds no unique-home credit.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 77 (Stiletto:Linen)
 
 **Done**
