@@ -1,3 +1,18 @@
+## 2026-10-26 — Shopify rendered demo research Batch 74 (Stiletto)
+
+**Done**
+- Inspected the Stiletto official listing preview and directly verified its visible storefront homepage, Tops collection, Alex Metallic Top PDP and empty cart.
+- The collection exposed 34 results, alphabetical sorting and Availability/Category/Color/Size/Price filter groups. PDP shows color/size selection UI, size guide, stock copy and product-information sections; no controls were activated.
+- The official listing iframe src exposed a Vogue demo host, while the loaded STO Stiletto page and its visible links resolved to the Stiletto host. This mapping discrepancy is retained in the evidence; selected-preset attribution follows the listing preview title and rendered content.
+- Added four read-only page observations and synchronized the matrix, plan, existing Stiletto audit note, design observation, progress and this handoff.
+- Coverage: 84/127 unique selected homes; 199 rendered pages across 50 presets; 43 remain. Indexed HTML totals remain 51 home, 38 collection, 40 product and 11 cart.
+
+**Limits**
+- No filters, sorting, variant, quantity, media, cart mutation, checkout, screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Seller and demo content claims remain unverified.
+
+**Next**
+- Continue Be Yours:Harmony. The first View demo click showed a disabled control and blank iframe in the immediate snapshot; check for delayed content before treating it as blocked.
+
 ## 2026-10-26 — Shopify official preview mapping Batch 73
 
 **Done**
