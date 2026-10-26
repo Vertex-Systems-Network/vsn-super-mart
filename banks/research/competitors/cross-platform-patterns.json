@@ -1649,6 +1649,32 @@
         "empty-states"
       ],
       "design_implication": "Fashion catalogs may need searchable material and fit attributes beyond standard facets; connect lookbooks to filterable assortments and place sizing plus delivery information near purchase controls."
+    },
+    {
+      "id": "device-category-accessory-discovery",
+      "context": "Accessory storefronts can organize broad product catalogs through device-specific subcategories, color variants and bundle-like related-product merchandising.",
+      "signals": [
+        "Home mixes device/category routes with collaboration stories, product tabs and editorial content.",
+        "iPhone Cases collection separates device generations and shows color/price/type/availability filters with sort and pagination.",
+        "PDP puts color and quantity with specs, shipping/warranty/payment information and Buy It With/recommendation modules.",
+        "Empty cart gives a single direct route back to all products."
+      ],
+      "source_entry_ids": [
+        "shopify-focal-focal-browser-render"
+      ],
+      "option_ids": [
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "quick-view",
+        "quick-add",
+        "complementary-products",
+        "related-products",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_implication": "For accessory catalogs, expose device compatibility early, retain color choices in product cards, and connect PDPs to compatible add-ons. Validate compatibility and fulfillment data before surfacing."
     }
   ]
 }

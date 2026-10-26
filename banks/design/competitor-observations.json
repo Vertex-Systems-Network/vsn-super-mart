@@ -990,6 +990,18 @@
         "top collection links, newsletter, service promises and media links"
       ],
       "design_hypothesis": "For apparel catalogs, material and fit attributes can complement color/size/price facets, while lookbook modules should route shoppers into relevant assortments. Verify stock, price, material and delivery claims before display."
+    },
+    {
+      "id": "shopify-focal-focal-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "device/category navigation and collection hero",
+        "best-seller/new/bundle tabs with variant color selectors",
+        "design-process editorial, product hotspots and collaborations",
+        "blog, featured product, press and office story",
+        "shipping/service panels and newsletter"
+      ],
+      "design_hypothesis": "Accessory catalogs benefit from clear device-generation navigation and color choices in product cards; complementary-product recommendations can help shoppers complete compatible setups. Verify compatibility, availability, discounts and fulfillment claims."
     }
   ]
 }

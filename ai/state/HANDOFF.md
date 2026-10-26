@@ -378,3 +378,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch33-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch33-2026.json`.
 - No interactions, screenshot, viewport/mobile, editor, checkout or performance tests. Sample stock, material, sustainability, promotion and fulfillment statements unverified.
 - Next: continue with next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 34
+- Focal official preset View demo: read-only home, 39-product iPhone Cases collection, Leather Case for AirPods Pro PDP and empty cart inspections.
+- Coverage: 64/127 selected homes (51 indexed HTML + 13 browser-rendered); 52 rendered pages across 13 presets; 63 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch34-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch34-2026.json`.
+- No shopper actions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing. Device compatibility, inventory, promo, review, materials and fulfillment statements remain unverified.
+- Next: continue to the next unobserved selected preset.

@@ -7814,6 +7814,55 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-focal-focal-browser-render",
+      "platform": "shopify",
+      "theme": "Focal",
+      "preset": "Focal",
+      "url": "https://focal-theme-carbon.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "announcement-bar",
+        "collection-list",
+        "featured-collection",
+        "featured-product",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "quick-view",
+        "quick-add",
+        "product-blocks",
+        "product-reviews-slot",
+        "complementary-products",
+        "related-products",
+        "sticky-atc",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Electronics-accessory demo home combines device/category navigation with seasonal collaboration storytelling, swatch-enabled products, editorial content and a featured PDP.",
+        "39-product iPhone Cases collection links to device-generation subcollections and filters by color, price, product type and availability; best-selling sort and pagination are visible.",
+        "Leather Case for AirPods Pro PDP includes variant/quantity choices, tech specs, shipping/warranty/payment accordions, complementary-product quick view and recommendations.",
+        "Empty cart uses a simple start-shopping path."
+      ],
+      "niches": [
+        "electronics",
+        "accessories"
+      ],
+      "notes": "Official Focal listing View demo opened focal-theme-carbon.myshopify.com. Four pages inspected read-only in rendered browser. No filter, sort, swatch, quick view, variant, cart or checkout action; no screenshot, viewport/mobile, editor, keyboard or performance testing. Inventory, discounts, reviews, materials and fulfillment claims are unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, 39-product iPhone Cases collection, Leather Case for AirPods Pro PDP and empty cart; no shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

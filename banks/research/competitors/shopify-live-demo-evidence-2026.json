@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 12 selected browser-rendered homes are documented (63/127 unique); 48 read-only rendered pages across twelve selected presets.",
+  "summary": "51 indexed HTML selected homes and 13 selected browser-rendered homes are documented (64/127 unique); 52 read-only rendered pages across thirteen selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4970,11 +4970,73 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-focal-focal-browser-render",
+      "selected_preset_id": "focal:focal",
+      "theme_family": "Focal",
+      "preset": "Focal",
+      "store_url": "https://focal-theme-carbon.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Focal preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://focal-theme-carbon.myshopify.com/",
+          "observations": [
+            "Home uses an announcement carousel and device/category navigation, a Heritage Collection hero, best-seller/new/bundle product tabs, product swatches and sale badges.",
+            "Editorial modules include product-design story, product hotspots, blog posts, brand/collaboration pages, featured PDP, press, global-office story, shipping/service panels and newsletter.",
+            "Product prices, discounts, stock, materials and shipping claims are sample content and unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://focal-theme-carbon.myshopify.com/collections/iphone-cases",
+          "observations": [
+            "iPhone Cases page reports 39 products with device-generation subcollection links, Color/Price/Product type/Availability facets, best-selling sort, sale pricing and pagination.",
+            "Grid product cards show variant color swatches and sale/regular pricing; team-favorite cards expose quick view. No facet, sort, pagination, swatch or quick-view action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://focal-theme-carbon.myshopify.com/products/leather-case-for-airpods-pro",
+          "observations": [
+            "Leather Case for AirPods Pro PDP shows gallery with zoom affordances, $39.99 sale price, SKU, Black/Brown/Sage color options, quantity control, in-stock copy and add-to-cart/buy-now.",
+            "Product content includes tabs for Description/Tech Specs, shipping/warranty/payment accordions, Buy It With quick view, collection features and You May Also Like recommendations.",
+            "Product, review, availability, leather-origin and shipping claims were not independently checked; no options or purchase controls were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://focal-theme-carbon.myshopify.com/cart",
+          "observations": [
+            "Cart is empty and offers a Start Shopping route to all products.",
+            "Footer displays free worldwide shipping/returns, service availability and secure-payment statements; these merchant claims are unverified. Checkout was not opened."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 48,
-    "selected_presets": 12,
-    "unique_selected_homepages_across_all_source_types": 63
+    "pages": 52,
+    "selected_presets": 13,
+    "unique_selected_homepages_across_all_source_types": 64
   }
 }
