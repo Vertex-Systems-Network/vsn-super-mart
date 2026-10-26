@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-27",
+  "scope": "Public storefront design observations; seller claims are not independently verified.",
+  "claims": [
+    {
+      "id": "sleek-sleek-home-1",
+      "claim": "Beauty/cosmetics homepage with multi-slide hero; Whats Hot, Best sellers and Sale product tabs; three-item bundle with Add All To Cart; press testimonials; category/story modules; ingredient/brand-value content; featured product rows, reviews, FAQ and newsletter.",
+      "source_url": "https://sleek-theme-demo.myshopify.com/",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-sleek-collection-1",
+      "claim": "Skincare collection reports 23 products; facets for availability (21 in stock, 2 out), price, size and product type; A–Z sort shown. Grid cards were not visible in the accessibility snapshot; controls untouched.",
+      "source_url": "https://sleek-theme-demo.myshopify.com/collections/skincare",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-sleek-product-1",
+      "claim": "Protective Day Oil PDP shows $99, 50ml selector, displayed stock 994, quantity/Add/Buy controls, ingredient and information accordions, testimonials. No actions.",
+      "source_url": "https://sleek-theme-demo.myshopify.com/products/protective-day-oil",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-sleek-cart-1",
+      "claim": "Dedicated cart route is empty; suggested accessory, makeup, skincare and cheek collections.",
+      "source_url": "https://sleek-theme-demo.myshopify.com/cart",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    }
+  ]
+}
