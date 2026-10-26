@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 55 (Symmetry:Salt Yard)
+
+**Done**
+- Inspected official Symmetry:Salt Yard listing-linked storefront: home, New Arrivals collection (16 products), Knitted Polo Shirt PDP and empty cart through read-only rendered browser accessibility trees.
+- Added four rendered page records, source claims, updated existing audit/design observation, apparel availability/fit pattern, report and handoff updates.
+- Coverage remains 78/127 unique selected homes (51 indexed HTML + 27 additional rendered); 131 rendered pages across 33 selected presets. Homepage was already in indexed-HTML coverage; 49 unique homes remain.
+
+**Limits**
+- No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product and merchant claims remain unverified. Primary indexed-HTML counts stay distinct from browser-rendered observations. Stage 2 stays open.
+
+**Next**
+- Continue with next unobserved selected preset, prioritizing tier 1; inspect home, collection, PDP and cart in read-only browser capture.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 37 (Impulse:Apothecary)
 
 **Done**
