@@ -1,0 +1,50 @@
+{
+  "batch": 70,
+  "preset_id": "local:local",
+  "audit_entry_id": "shopify-live-local-default",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/local/presets/local",
+  "store_url": "https://local-theme-main.myshopify.com/",
+  "store_url_verification": "official_listing_iframe_src_read_from_rendered_DOM_after_view_demo",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://local-theme-main.myshopify.com/",
+      "observations": [
+        "Grocery/store homepage has $50 free-shipping and BULKSAVE 20% announcement, search/account/cart, store selector, pickup and delivery-estimate links.",
+        "Hero Fresh. Organic. Delivered.; six shop-by-category tiles; Best Sellers with price, rating, allergen/diet and local-availability cues; bakery shelf; store-origin/organic story; local store announcements; feature product with Nutri-score/allergens, lifestyle shelves, hot meals, kitchenware sale grid, shoppable video, recipes, organic editorial, events, local pickup/delivery/service modules and newsletter.",
+        "Store address, ratings and merchandising claims appear as demo content; no controls activated."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://local-theme-main.myshopify.com/collections/bread-buns-crisps",
+      "observations": [
+        "Bread & Bakery collection contains 6 products; Price, Product type, Availability and Allergens facets; Featured sort with options for relevance, bestselling, alphabetic, price and date; compare checkboxes.",
+        "Cards show $0.80–$9, 4.5–5 ratings, allergen tags, new badges and local availability prompt. No filters/sort/compare activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://local-theme-main.myshopify.com/collections/bread-buns-crisps/products/some-bread",
+      "observations": [
+        "Sourdough Perth PDP displays $2.50, 5.0 rating, 100% rye-flour descriptor, Gluten/Egg allergen tags, Nutri-score guide and nutrition table.",
+        "Quantity, Add to cart and Buy it now; nutritional-info and Goes well with sections; local availability; pickup at Warehouse and Champs Élysées, typically ready in 24 hours. No controls activated; claims unverified."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://local-theme-main.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart page says Shopping Cart, currently empty, Continue browsing; address/store details and newsletter footer visible. No cart changes or checkout."
+      ]
+    }
+  ],
+  "limits": [
+    "No shopper controls activated",
+    "No screenshot/mobile/editor/checkout/keyboard/performance testing",
+    "Retailer claims unverified",
+    "Home, All collection, other product and cart previously indexed"
+  ]
+}
