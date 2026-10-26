@@ -1,0 +1,53 @@
+{
+  "batch": 76,
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "stiletto:luster",
+  "official_listing_url": "https://themes.shopify.com/themes/stiletto/presets/luster",
+  "preview_destination": "https://stiletto-theme-luster.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://stiletto-theme-luster.myshopify.com/",
+      "observations": [
+        "Jewelry homepage uses a statement-gold campaign hero, first-order offer, jewelry-category navigation, shop-collections shelf, product collections, markdown promotion, New Arrivals and Best Sellers shelves.",
+        "Editorial story sections include shoppable-look hotspots, after-image slider, London store/appointment copy, journal, brand story, craftsmanship and sustainability messaging; footer exposes collection, care and newsletter routes.",
+        "Demo copy identifies YSSO as the provider of product content and imagery; certification, sustainability and store claims are unverified."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry",
+      "observations": [
+        "All Jewelry shows 120 results, Best selling sort, and Availability, Price, Ring size, Style and Color filter groups.",
+        "Cards display products, prices and new badges. No filters, sorting or card controls were activated."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry/products/the-rivi-ring",
+      "observations": [
+        "Batis Ring PDP shows $352, a ring-size selector from 0.5 to 13, size guide, in-stock copy, Add to Bag and Buy It Now controls, related product Quick View controls, materials/care and shipping sections.",
+        "No variant, quantity, Quick View, accordion, cart or purchase action was used; price, stock, material, import-duty and sustainability claims remain unverified."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://stiletto-theme-luster.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart says YOUR CART IS EMPTY and There are no items in your cart; Continue Shopping and collection/newsletter footer links are visible.",
+        "No cart mutation or checkout."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "No filters, sort, Quick View, ring-size, cart mutation or checkout interactions.",
+    "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+    "Demo product, stock, sourcing, sustainability, shipping and store claims are unverified."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch76-2026.md"
+}
