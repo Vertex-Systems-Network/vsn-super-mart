@@ -3038,30 +3038,42 @@
       "platform": "shopify",
       "theme": "Symmetry",
       "preset": "Beatnik",
-      "url": "https://themes.shopify.com/themes/symmetry/presets/beatnik",
-      "evidence_level": "official_preset_page",
-      "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "url": "https://beatnik-5.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "public_rendered_demo_accessible",
+      "document_verification_scope": "Official listing-linked public storefront rendered and inspected read-only across home, collection, PDP and cart; no interaction, screenshot or viewport/mobile QA.",
       "feature_option_ids": [
         "featured-collection",
         "theme-styles-presets",
         "product-card-variants",
-        "section-presets"
+        "section-presets",
+        "mega-menu",
+        "faceted-filters",
+        "sorting",
+        "countdown-timer",
+        "image-banner",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "product-blocks",
+        "variant-picker-styles"
       ],
       "design_signals": [
-        "Beatnik variant of Symmetry; no screenshot fingerprint verified"
+        "eyewear-guidance-and-material-story",
+        "Eyewear campaign and product shelf, color/product-type filters, UV rating, prescription field, fit/spec/shipping disclosures and brand/material story"
       ],
       "niches": [
-        "fashion-apparel"
+        "eyewear-guidance-and-material-story"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "notes": "Updated with Batch 57 rendered demo evidence; homepage also remains in indexed HTML evidence.",
       "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
