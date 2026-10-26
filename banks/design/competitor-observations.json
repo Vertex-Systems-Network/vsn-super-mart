@@ -1074,6 +1074,17 @@
         "newsletter"
       ],
       "design_hypothesis": "Jewelry discovery can combine gifting, daily styling and materials storytelling. Validate claims, keep collection filters useful at scale, and provide a clear empty-cart path back to categories."
+    },
+    {
+      "id": "shopify-broadcast-motif-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "scrolling sale hero and Worn, Loved and Worn Again editorial",
+        "Bestsellers/New Arrivals product rails and wardrobe essentials",
+        "swim/seasonal edits and shop-the-look content",
+        "free-shipping/security/ethical-production propositions, social feed and newsletter"
+      ],
+      "design_hypothesis": "Editorial fashion themes and merchandising rails can keep discovery active through sale and seasonal changes. Keep product option availability and fit guidance reliable across collection and PDP."
     }
   ]
 }

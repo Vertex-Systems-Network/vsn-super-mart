@@ -5464,11 +5464,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-broadcast-motif-browser-render",
+      "selected_preset_id": "broadcast:motif",
+      "theme_family": "Broadcast",
+      "preset": "Motif",
+      "store_url": "https://broadcast-motif.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Broadcast:Motif preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-motif.myshopify.com/",
+          "observations": [
+            "Official Shopify Broadcast:Motif View demo opened broadcast-motif.myshopify.com.",
+            "Women's fashion storefront uses a 10% signup-code announcement, Shop/Sale/Blog/About navigation, LAST CHANCE SALE scrolling hero and Worn, Loved and Worn Again editorial.",
+            "Homepage continues with Bestsellers/New Arrivals product rails, wardrobe essentials, swim and seasonal edits, shop-the-look, category tiles, free-shipping/security/ethical-production propositions, social content and newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-motif.myshopify.com/collections/all",
+          "observations": [
+            "All collection shows 117 products with filter dimensions including availability, price and product type, sort control and category collections.",
+            "Product cards show colors, prices and fast-selling/quick-add affordances; filter panel was visible expanded in the captured page state.",
+            "No filter, sort, quick-add or pagination action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-motif.myshopify.com/collections/all/products/checkered-tank",
+          "observations": [
+            "Checkered Tank in Red PDP shows $125, Red color, XS–XL size controls, size chart, estimated delivery text, fit guide, wash/cotton copy and Shipping & Returns disclosure.",
+            "All visible sizes are labeled sold out or unavailable in the rendered accessibility tree; related/recent content includes product and service reassurance modules.",
+            "No variant, add-to-cart or other purchase action was activated; delivery, fit and material copy is unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-motif.myshopify.com/cart",
+          "observations": [
+            "Cart states Your Cart is Empty, with Shop, Sale, Blog and About routes.",
+            "Recently viewed product content includes Checkered Tank in Red and its $125 price.",
+            "No cart action or checkout was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 79,
-    "selected_presets": 20,
-    "unique_selected_homepages_across_all_source_types": 70
+    "pages": 83,
+    "selected_presets": 21,
+    "unique_selected_homepages_across_all_source_types": 71
   }
 }

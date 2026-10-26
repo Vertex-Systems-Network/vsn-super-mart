@@ -457,3 +457,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch41-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch41-2026.json`.
 - No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing. Product sizes appeared unavailable; seller claims unverified; footer policy links led to 404.
 - Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 42
+- Official Broadcast:Motif View demo opened broadcast-motif.myshopify.com. Inspected rendered home, 117-product All collection, Checkered Tank PDP and empty cart read-only.
+- Coverage: 71/127 unique selected homes (51 indexed HTML + 20 additional rendered); 83 rendered pages across 21 presets; 56 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch42-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch42-2026.json`.
+- No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. PDP sizes appeared unavailable; seller copy remains unverified.
+- Next: continue next unobserved selected preset.

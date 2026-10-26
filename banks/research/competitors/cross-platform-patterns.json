@@ -1847,6 +1847,32 @@
         "shop-the-look"
       ],
       "design_implication": "Pair premium jewelry storytelling with useful sizing and category navigation. Keep discount and scarcity messaging accurate, maintain working policy routes, and offer a clear empty-cart recovery path."
+    },
+    {
+      "id": "motif-seasonal-fashion-and-product-fit",
+      "context": "Fashion catalogs can connect seasonal and wardrobe-led stories with category filtering and product-level fit guidance.",
+      "signals": [
+        "Home combines sale and wardrobe editorial with bestseller/new-arrival rails, seasonal categories, shop-the-look and trust/service messaging.",
+        "117-product collection exposes filter dimensions and sorting alongside product color and quick-add cards.",
+        "PDP provides size/color, size-chart, delivery and fit information; observed size controls appear unavailable. Empty cart provides Shop/Sale/Blog/About routes and recently viewed context."
+      ],
+      "source_entry_ids": [
+        "shopify-broadcast-motif-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "quick-add",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "size-chart",
+        "product-blocks",
+        "cart-page",
+        "empty-states",
+        "shop-the-look"
+      ],
+      "design_implication": "Join seasonal editorial to clear collection routes; keep size availability and fit guidance accurate, and give empty-cart shoppers obvious shopping paths."
     }
   ]
 }

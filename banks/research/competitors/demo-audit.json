@@ -8128,6 +8128,51 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-broadcast-motif-browser-render",
+      "platform": "shopify",
+      "theme": "Broadcast",
+      "preset": "Motif",
+      "url": "https://broadcast-motif.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "quick-add",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "size-chart",
+        "product-blocks",
+        "cart-page",
+        "empty-states",
+        "shop-the-look",
+        "product-badges-trust",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Women's fashion homepage pairs scrolling sale hero with editorial wardrobe storytelling, bestseller/new-arrival rails, seasonal edits, shop-the-look and category paths.",
+        "117-item collection presents filter dimensions, sort entry, colors, prices, quick-add and promotional card signals.",
+        "Checkered Tank PDP groups size/color, size chart, delivery and fit details; every observed size control appeared unavailable. Empty cart provides branded return links and recently viewed context."
+      ],
+      "niches": [
+        "fashion",
+        "apparel",
+        "swimwear"
+      ],
+      "notes": "Official Shopify Broadcast:Motif View demo opened broadcast-motif.myshopify.com. Home, 117-item All collection, Checkered Tank in Red PDP and empty cart inspected read-only. No filter/sort/quick-add/variant/cart/checkout actions; no screenshot, viewport/mobile, editor, keyboard or performance tests. Visible sizes appeared sold out/unavailable. Material, fit and delivery copy remains unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, All collection, Checkered Tank PDP and empty cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [
