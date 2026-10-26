@@ -441,3 +441,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch39-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch39-2026.json`.
 - No shopper controls, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing. Seller claims unverified; generic Example product cart cards appear demo-like.
 - Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 40
+- Official Symmetry:Amara View demo opened symmetry-amara.myshopify.com. Read-only rendered inspection covered home, 32-product Rings collection, Diamond Engagement Ring PDP and empty cart.
+- Coverage: 69/127 unique selected homes (51 indexed HTML + 18 additional rendered); 75 rendered pages across 19 presets; 58 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch40-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch40-2026.json`.
+- No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller material, fit, sourcing, inventory and service claims remain unverified.
+- Next: continue next unobserved selected preset.

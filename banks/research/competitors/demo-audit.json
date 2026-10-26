@@ -8039,6 +8039,49 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-symmetry-amara-browser-render",
+      "platform": "shopify",
+      "theme": "Symmetry",
+      "preset": "Amara",
+      "url": "https://symmetry-amara.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "collection-list",
+        "featured-collection",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "product-blocks",
+        "size-chart",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "product-badges-trust"
+      ],
+      "design_signals": [
+        "Jewelry homepage combines precious-materials hero, trending jewelry category links, everyday-wear proposition, care/repair, recycled-metal/sustainability themes and gift/editorial content.",
+        "32-item Rings collection exposes Filter and Featured sort, review ratings and sold-out product states.",
+        "Engagement-ring PDP groups metal finish and ring size, fit/size guide, purchase CTA and trust/service propositions; empty cart includes a New In recommendation carousel."
+      ],
+      "niches": [
+        "jewelry",
+        "gifting"
+      ],
+      "notes": "Official Shopify Symmetry:Amara View demo opened symmetry-amara.myshopify.com. Home, Rings collection, Diamond Engagement Ring PDP and empty cart inspected read-only. No filters, sort, variant, cart or checkout actions; no screenshot, measured viewport/mobile, editor, keyboard or performance tests. British-made, ethical-material, fit, stock, price, shipping and rating claims remain unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, Rings collection, engagement-ring PDP and empty cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

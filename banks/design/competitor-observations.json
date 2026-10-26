@@ -1050,6 +1050,18 @@
         "newsletter offer"
       ],
       "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access. Seasonal editorial, curated everyday products and garment-care storytelling can support fashion discovery when connected to clear category routes and fit details. Keep recommendation content credible and matched to the active catalog."
+    },
+    {
+      "id": "shopify-symmetry-amara-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "four-slide precious-materials campaign hero",
+        "trending Rings/Earrings/Necklaces/Bracelets links",
+        "everyday fine-jewelry story, New Arrivals and care/repair proposition",
+        "recycled silver/gold and designed-for-reinvention content",
+        "gift ideas, showroom links, gift guide/editorial articles and newsletter"
+      ],
+      "design_hypothesis": "A jewelry homepage can organize discovery around product category and occasion while explaining care and materials. Let shoppers move from story modules into clear category and product variant choices; substantiate sourcing and production statements."
     }
   ]
 }

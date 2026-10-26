@@ -1796,6 +1796,31 @@
         "related-products"
       ],
       "design_implication": "Connect editorial themes with clear category paths and product fit information. Keep Quick View useful on larger collections, and ensure empty-cart recommendations reflect actual catalog content."
+    },
+    {
+      "id": "jewelry-category-to-personalized-ring",
+      "context": "Jewelry storefronts can lead from metal and material storytelling into giftable category browsing and configurable product detail.",
+      "signals": [
+        "Home foregrounds Rings/Earrings/Necklaces/Bracelets and everyday-wear, care/repair, recycled-metal and gift narratives.",
+        "32-product Rings collection pairs filtering and sorting entry with GBP prices, ratings and a visible sold-out card state.",
+        "Engagement-ring PDP exposes metal finish and ring size selectors, fit guide and care/shipping trust content; empty cart recommends New In products."
+      ],
+      "source_entry_ids": [
+        "shopify-symmetry-amara-browser-render"
+      ],
+      "option_ids": [
+        "collection-list",
+        "featured-collection",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "product-blocks",
+        "size-chart",
+        "cart-page",
+        "empty-states",
+        "related-products"
+      ],
+      "design_implication": "Connect jewelry categories to gift and material stories, then make metal and sizing choices easy to understand. Keep sourcing and production claims substantiated and ensure empty-cart suggestions use current catalog items."
     }
   ]
 }

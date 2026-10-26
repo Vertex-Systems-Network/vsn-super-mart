@@ -5337,11 +5337,74 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-symmetry-amara-browser-render",
+      "selected_preset_id": "symmetry:amara",
+      "theme_family": "Symmetry",
+      "preset": "Amara",
+      "store_url": "https://symmetry-amara.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Symmetry:Amara preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://symmetry-amara.myshopify.com/",
+          "observations": [
+            "Official Shopify Symmetry:Amara listing View demo opened symmetry-amara.myshopify.com.",
+            "Jewelry storefront uses a four-slide precious-materials hero, Jewelry/Gifts/Best Sellers/Our World navigation, trending Rings/Earrings/Necklaces/Bracelets collections, everyday-jewelry brand story, New Arrivals, positive-luxury and care/repair propositions.",
+            "Further home modules include recycled silver and gold, designed-for-reinvention and birthstone content, gift ideas, sale, forever-piece messaging, showroom links, gift guide/editorial articles and newsletter signup."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://symmetry-amara.myshopify.com/collections/rings",
+          "observations": [
+            "Rings collection reports 32 products and shows Filter, Featured sorting, product prices in GBP and product-card review ratings; sold-out state is visible on one ring card.",
+            "No filter, sort or collection-card action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://symmetry-amara.myshopify.com/collections/rings/products/personalised-9ct-diamond-engagement-ring",
+          "observations": [
+            "Diamond Engagement Ring PDP displays £1,150, fit rating copy, Metal Finish and Ring Size selectors, Size guide, Add to Cart, free-shipping/British-made/ethical-materials propositions and Shipping section.",
+            "You may also like recommendations and an As Worn By You module follow the purchase area.",
+            "No variant or purchase control activated. Price, fit, British-made, ethical sourcing, shipping and review claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://symmetry-amara.myshopify.com/cart",
+          "observations": [
+            "Cart states Your Bag Is Empty and offers Start Shopping.",
+            "You Might Love These carousel links to New In and shows rings, jewelry prices and recommendation cards.",
+            "No cart action or checkout was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 71,
-    "selected_presets": 18,
-    "unique_selected_homepages_across_all_source_types": 68
+    "pages": 75,
+    "selected_presets": 19,
+    "unique_selected_homepages_across_all_source_types": 69
   }
 }
