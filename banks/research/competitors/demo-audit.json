@@ -1210,7 +1210,7 @@
         "electronics-gadgets",
         "home-furniture"
       ],
-      "notes": "Feature claim product comparison belongs to vendor theme; Shopify integration must be reviewed.",
+      "notes": "Feature claim product comparison belongs to vendor theme; Shopify integration must be reviewed. 2026-10-26 browser check: official listing View demo left preview iframe about:blank and button disabled; no destination or homepage was counted.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
@@ -2896,7 +2896,7 @@
       "niches": [
         "food-beverage"
       ],
-      "notes": "Vendor page only, feature IDs are research targets",
+      "notes": "Vendor page only, feature IDs are research targets 2026-10-26 browser check: official listing View demo left preview iframe about:blank and button disabled; no destination or homepage was counted.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
@@ -2928,7 +2928,7 @@
       "niches": [
         "electronics-gadgets"
       ],
-      "notes": "Vendor page only, feature IDs are research targets",
+      "notes": "Vendor page only, feature IDs are research targets 2026-10-26 browser check: official listing View demo left preview iframe about:blank and button disabled; no destination or homepage was counted.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
@@ -3510,7 +3510,7 @@
       "niches": [
         "food-beverage"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses. 2026-10-26 browser check: official listing View demo left preview iframe about:blank and button disabled; no destination or homepage was counted.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
@@ -3574,7 +3574,7 @@
       "niches": [
         "electronics-gadgets"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses. 2026-10-26 browser check: official listing View demo left preview iframe about:blank and button disabled; no destination or homepage was counted.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
@@ -3638,7 +3638,7 @@
       "niches": [
         "beauty-skincare"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses. 2026-10-26 browser check: official listing View demo left preview iframe about:blank and button disabled; no destination or homepage was counted.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
