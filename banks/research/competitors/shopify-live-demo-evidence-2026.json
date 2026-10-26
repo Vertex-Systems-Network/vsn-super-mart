@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 33 additional browser-rendered homes are documented (84/127 unique); 199 read-only rendered pages across 50 selected presets.",
+  "summary": "51 indexed HTML selected homes and 34 additional browser-rendered homes are documented (85/127 unique); 202 read-only rendered pages across 51 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -7424,11 +7424,67 @@
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
         "Demo product, material, stock, fulfillment, shipping and sustainability statements remain unverified."
       ]
+    },
+    {
+      "id": "shopify-live-be-yours-harmony",
+      "selected_preset_id": "be-yours:harmony",
+      "theme_family": "Be Yours",
+      "preset": "Harmony",
+      "store_url": "https://beyours-theme-tech.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Read the official Be Yours:Harmony listing and its preview iframe src, then opened that exact observed destination; followed visible storefront navigation to the Headphones collection and Dynasty Headphone PDP. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://beyours-theme-tech.myshopify.com/",
+          "observations": [
+            "Official listing iframe destination opens a Be Yours demo storefront titled Be Yours - Premium Shopify theme for promotions and filtering.",
+            "Homepage features a Dynasty Headphone video hero, one-product-store intro copy, adaptive-noise-cancellation slideshow, featured product controls, technical-spec sections, guarantees/download links, product comparison, review carousel, newsletter and store-address/footer content.",
+            "Homepage says the demo showcases a one-product store, while the visible collection route lists three products; treat this as demo copy inconsistency, not a verified catalog claim."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://beyours-theme-tech.myshopify.com/collections/all",
+          "observations": [
+            "Headphones collection presents 3 products, sort control, filter control, 2/3/4-column layout controls and product cards with color links, prices and Quick view controls.",
+            "No sorting, filters, grid controls or Quick view were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://beyours-theme-tech.myshopify.com/products/beoplay-h95",
+          "observations": [
+            "Dynasty Headphone PDP shows €899, five color choices, inventory copy, Add to Cart and Buy It Now controls, sticky-cart controls and detailed product information.",
+            "Visible page content describes the item as over-ear headphones but a technical details panel says fit is True wireless In-ear; another section says five color variants are sold out/unavailable. These are recorded as inconsistent seller/demo copy, not accepted product facts.",
+            "No variant, quantity, cart or purchase action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Cart button opened a drawer, but the rendered state did not expose an empty-cart message or dedicated cart page; no cart page is counted.",
+        "No shopper filters, sort, layout, quick view, variant, quantity, cart mutation or checkout actions.",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+        "Price, stock, product specifications, warranty, fulfillment and review claims remain unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 199,
-    "selected_presets": 50,
-    "unique_selected_homepages_across_all_source_types": 84
+    "pages": 202,
+    "selected_presets": 51,
+    "unique_selected_homepages_across_all_source_types": 85
   }
 }
