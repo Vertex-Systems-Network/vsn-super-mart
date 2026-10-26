@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 199,
-    "browser_rendered_selected_presets": 50,
-    "distinct_selected_homepages_any_source": 84
+    "browser_rendered_pages": 202,
+    "browser_rendered_selected_presets": 51,
+    "distinct_selected_homepages_any_source": 85
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 43
+    "home_any_source": 42
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -3826,14 +3826,31 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "Demo home copy describes a one-product store while its Headphones collection lists three products; PDP technical copy also contains inconsistent fit and color-availability statements.",
+        "No shopper interactions, screenshot, measured viewport/mobile, Theme Editor, checkout, keyboard or performance testing.",
+        "Seller product, inventory, warranty and fulfillment claims remain unverified."
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/be-yours/presets/harmony",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unobserved selected preset; preserve demo-content inconsistencies as unverified copy."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://beyours-theme-tech.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://beyours-theme-tech.myshopify.com/collections/all",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://beyours-theme-tech.myshopify.com/products/beoplay-h95",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
