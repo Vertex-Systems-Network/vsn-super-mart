@@ -15,7 +15,8 @@
         "Warehouse:Wood browser-rendered Tableware page shows 46 items, four facet groups, grid/list mode, 24-per-page control and clear stock/discount labels (controls not activated).",
         "Expanse:Expanse rendered Planters collection shows 12 items, Product type/Price/Brand/Availability filters, Best selling sort and grid/large/small/list controls; status cues distinguish sold-out and add-to-cart cards (controls not activated).",
         "Expanse:Gem rendered Earrings collection pairs Stud/Hoop subcollection links with Availability/Price facets, Best selling sort and density controls; nine cards carry brand, price and new/sale/bestseller cues (controls not activated).",
-        "Expanse:Fetch browser-rendered Walking Kits shows 22 products, Availability/Price/Size facets, Best selling sort, density controls and color-coordinated offers; controls not activated."
+        "Expanse:Fetch browser-rendered Walking Kits shows 22 products, Availability/Price/Size facets, Best selling sort, density controls and color-coordinated offers; controls not activated.",
+        "Local:Local rendered Bread & Bakery collection has six products with Price/Product type/Availability/Allergens filters, Best selling-capable sort choices, comparison controls and local availability cues; no controls used."
       ],
       "source_entry_ids": [
         "shopify-enterprise",
@@ -25,7 +26,8 @@
         "shopify-warehouse-mesh",
         "shopify-live-warehouse-wood",
         "shopify-expanse-gem",
-        "shopify-live-expanse-fetch"
+        "shopify-live-expanse-fetch",
+        "shopify-live-local-default"
       ],
       "option_ids": [
         "mega-menu",
