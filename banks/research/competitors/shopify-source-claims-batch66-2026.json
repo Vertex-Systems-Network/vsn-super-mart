@@ -1,0 +1,50 @@
+{
+  "batch": 66,
+  "preset_id": "expanse:revive",
+  "audit_entry_id": "shopify-expanse-revive",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/expanse/presets/revive",
+  "store_url": "https://expanse-theme-beauty.myshopify.com/",
+  "store_url_verification": "official_listing_iframe_src_read_from_rendered_DOM_after_view_demo",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://expanse-theme-beauty.myshopify.com/",
+      "observations": [
+        "Beauty storefront navigation groups Shop, Brands, Sale, Blog, About and Theme features, with search/account/cart and free-shipping announcement.",
+        "Home has Tinted SPF hero, Shop Bestsellers, holiday gift promotion/countdown, skincare category tiles, Shop the Look, testimonials, skin-brightening shelf, lipstick editorial, brand logos, hair-treatment feature, free-shipping threshold, masks and hair shelves, pickup/location content, brand spotlights, supplier disclosure, journal, newsletter and promotions.",
+        "Store identifies products as provided by One 2 One Studio, a salon and spa in Forest Hill, Toronto. Seller and promotion claims unverified. No interactions."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://expanse-theme-beauty.myshopify.com/collections/face-mists",
+      "observations": [
+        "Face Mists shows 13 products, Best selling sort, Brand/Price/Product type/Availability filters and large/small/list view controls.",
+        "Cards show brand, prices, new/sale cues and quick-shop/add controls. No collection controls activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://expanse-theme-beauty.myshopify.com/collections/face-mists/products/valmont-priming-with-a-hydrating-fluid",
+      "observations": [
+        "Priming With a Hydrating Fluid shows $180 regular price, quantity 1, low-stock message (7 items) and gallery/zoom, Add to cart, free-shipping/returns/carbon-neutral/secure-payment copy.",
+        "Description, Shipping information and Ask a question accordions, Before and After section, promotional countdown, vendor/collection recommendations and pickup at New York (usually ready in 24 hours) are visible. No controls activated; claims unverified."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://expanse-theme-beauty.myshopify.com/cart",
+      "observations": [
+        "Header cart drawer says the cart is currently empty. No cart mutation or checkout action."
+      ]
+    }
+  ],
+  "limits": [
+    "This Revive storefront was not previously present in the selected-home evidence bank; count as one additional unique rendered homepage.",
+    "No filter, sort, grid-density, Quick Shop, variant, zoom, quantity, add-to-cart or checkout action.",
+    "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests.",
+    "Product, inventory, shipping, fulfillment, free-gift and seller claims unverified."
+  ]
+}
