@@ -1,0 +1,55 @@
+{
+  "batch": 79,
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "stiletto:tapestry",
+  "official_listing_url": "https://themes.shopify.com/themes/stiletto/presets/tapestry",
+  "iframe_src_observed": "https://stiletto-theme-craft.myshopify.com/",
+  "redirected_storefront": "https://stiletto-theme-tapestry.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://stiletto-theme-tapestry.myshopify.com/",
+      "observations": [
+        "Ceramics homepage opens with class availability notice, unique ceramics/product hero and handmade/one-of-a-kind messaging.",
+        "Sections connect pottery and lighting stories to Shop by Category, dinnerware shelves, shoppable look hotspots, weekly pottery-class details, customer testimonial, yearly seconds sale, journal, studio location/hours and newsletter.",
+        "Footer attributes demo product content to Tav Ceramics; address and class schedule are demo copy, not verified business facts."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all",
+      "observations": [
+        "All products collection lists 32 results, Best selling sort and Price/Availability filters; product cards show color choices and price states.",
+        "No filters, sort or cards were activated."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all/products/wine-cup-anthracite",
+      "observations": [
+        "Wine Cup | Anthracite PDP shows $48 compare-at/$40 sale (17% off), Anthracite/Stone links, quantity control, in-stock copy and Add to Bag.",
+        "Details list wheel-thrown stoneware, 200 ml capacity, 9 cm x 7 cm dimensions, dishwasher/microwave care, product-description disclosure to Tav Ceramics and care/shipping accordions. No controls used; all seller claims remain unverified."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://stiletto-theme-tapestry.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart reports Your cart is empty and There are no items in your cart, with Continue Shopping and studio/company/newsletter footer content.",
+        "No cart mutation or checkout."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "Tapestry homepage was already indexed; browser-rendered home adds no unique-home credit.",
+    "No filters, sort, product option, quantity, cart mutation or checkout actions.",
+    "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+    "Seller product, stock, safety, shipping, location, class and provenance claims remain unverified."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch79-2026.md"
+}
