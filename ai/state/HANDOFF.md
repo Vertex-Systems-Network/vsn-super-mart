@@ -1,3 +1,11 @@
+## Shopify live-demo refresh — Batch 97 (2026-10-27)
+
+- Refreshed already counted Ignite:Ignite routes: home, 19-item Phones collection, Edge Pixa 9 PDP and empty cart. No counters added.
+- Noted product/image/spec/variant-unit inconsistencies. No shopper controls, screenshot, mobile viewport, editor, checkout, keyboard or performance tests; seller claims unverified.
+- Totals remain 100/127 unique homes, 272 rendered pages across 69 presets, 27 remaining; indexed HTML remains 51/38/40/11.
+- Report: `banks/research/competitors/shopify-live-demo-batch97-2026.md`.
+- Sleek:Jumped is blocked; continue Be Yours:Sheen.
+
 ## Shopify live-demo refresh — Batch 96 (2026-10-27)
 
 - Refreshed previously counted Vision:Vision official iframe routes: home, Doorbells collection, Smart Home Speaker PDP and empty cart. No counters added.
