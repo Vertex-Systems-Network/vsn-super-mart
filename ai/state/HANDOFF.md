@@ -1,3 +1,17 @@
+## 2026-10-27 — Shopify rendered demo research Batches 87–88
+
+**Done**
+- Batch87 Empire:Forma home, Living Room collection, Turning Table PDP and empty cart.
+- Batch88 Be Yours:Peace home, All Plants collection (49 items), Money Tree PDP. Cart control did not reveal a confirmed cart page; not counted.
+- Coverage: 95/127 unique homes, 252 rendered pages across 64 presets; 32 homes remain. Indexed HTML remains 51/38/40/11.
+- Updated evidence, matrix, audit/design, plan, progress and reports/source claims.
+
+**Limits**
+- No interactive, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing. Age-gate or purchase actions were not used; merchant claims unverified.
+
+**Next**
+- Continue Sleek:Sleek (rank70) per pending unique-home queue.
+
 ## 2026-10-27 — Shopify rendered demo research Batches 85–86
 
 **Done**
