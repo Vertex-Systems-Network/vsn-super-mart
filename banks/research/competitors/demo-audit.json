@@ -5089,9 +5089,9 @@
       "url": "https://prestige-theme-couture.myshopify.com/",
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Public individual Shopify demo store HTML opened: home, collection, PDP and where available empty cart. No interactive checkout/mobile QA.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, collection, product and cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
       "feature_option_ids": [
         "mega-menu",
         "featured-collection",
@@ -5108,17 +5108,26 @@
         "quantity-selector",
         "cart-page",
         "empty-states",
-        "newsletter-signup"
+        "newsletter-signup",
+        "collection-list",
+        "product-card-variants",
+        "related-products",
+        "card-swatches",
+        "collapsible-tabs",
+        "delivery-estimate"
       ],
       "design_signals": [
         "fashion-editorial retail composition",
         "nested clothing/capsules categories",
-        "campaign slides and collection shelves"
+        "campaign slides and collection shelves",
+        "Homepage combines luxury collection imagery, product shelves, brand/values storytelling, Shop the Look, press/blog and physical boutique information.",
+        "Dresses collection offers 31 products, availability/color/size/price facets and sort control; cards expose swatches, reviews and sale prices.",
+        "PDP combines gallery, variant/size choices, stock, delivery/returns content and related items; empty cart returns to collections."
       ],
       "niches": [
         "fashion-editorial"
       ],
-      "notes": "Full page evidence in shopify-live-demo-evidence-2026.json. Not an interactive test.",
+      "notes": "Full page evidence in shopify-live-demo-evidence-2026.json. Not an interactive test. Official Shopify Prestige:Couture View demo opened the matching prestige-theme-couture.myshopify.com store. Home, 31-product Dresses collection, Edie Cascade Wrap Mini Dress Black PDP and empty cart inspected read-only. No shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller and sustainability claims unverified.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
@@ -8350,54 +8359,6 @@
       "document_verified_on": "2026-10-26",
       "document_verification_status": "accessible",
       "document_verification_scope": "Rendered browser accessibility-tree inspection of home, New Arrivals collection, PC Portable Lamp PDP and empty cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
-      "page_coverage": {
-        "home": "document_only",
-        "collection": "document_only",
-        "product": "document_only",
-        "cart": "document_only",
-        "mobile": "not_verified"
-      }
-    },
-    {
-      "id": "shopify-prestige-couture-browser-render",
-      "platform": "shopify",
-      "theme": "Prestige",
-      "preset": "Couture",
-      "url": "https://prestige-theme-couture.myshopify.com/",
-      "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-26",
-      "feature_option_ids": [
-        "featured-collection",
-        "collection-list",
-        "faceted-filters",
-        "sorting",
-        "product-card-variants",
-        "inventory-status",
-        "related-products",
-        "cart-page",
-        "empty-states",
-        "newsletter-signup",
-        "card-badges",
-        "card-swatches",
-        "collapsible-tabs",
-        "size-chart",
-        "variant-picker-styles",
-        "delivery-estimate"
-      ],
-      "design_signals": [
-        "Homepage combines luxury collection imagery, product shelves, brand/values storytelling, Shop the Look, press/blog and physical boutique information.",
-        "Dresses collection offers 31 products, availability/color/size/price facets and sort control; cards expose swatches, reviews and sale prices.",
-        "PDP combines gallery, variant/size choices, stock, delivery/returns content and related items; empty cart returns to collections."
-      ],
-      "niches": [
-        "fashion",
-        "apparel",
-        "luxury"
-      ],
-      "notes": "Official Shopify Prestige:Couture View demo opened the matching prestige-theme-couture.myshopify.com store. Home, 31-product Dresses collection, Edie Cascade Wrap Mini Dress Black PDP and empty cart inspected read-only. No shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller and sustainability claims unverified.",
-      "document_verified_on": "2026-10-26",
-      "document_verification_status": "accessible",
-      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, collection, product and cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
