@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 27 additional browser-rendered homes are documented (78/127 unique); 127 read-only rendered pages across 32 selected presets.",
+  "summary": "51 indexed HTML selected homes and 27 additional browser-rendered homes are documented (78/127 unique); 131 read-only rendered pages across 33 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6247,6 +6247,69 @@
       "interactions_executed": false,
       "screenshot_captured": false,
       "viewport_dimensions_measured": false
+    },
+    {
+      "id": "shopify-live-symmetry-salt-yard",
+      "selected_preset_id": "symmetry:salt-yard",
+      "theme_family": "Symmetry",
+      "preset": "Salt Yard",
+      "store_url": "https://salt-yard.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Symmetry:Salt Yard listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://salt-yard.myshopify.com/",
+          "observations": [
+            "Official Shopify Symmetry:Salt Yard View demo opens salt-yard.myshopify.com and identifies itself as the Symmetry demo, with an Unrecorded apparel shop.",
+            "Homepage pairs an apparel hero and category/promo tiles with Essentials and New Knitwear product slides, New Arrivals, sale messaging, pre-order and sold-out signals, sustainability/editorial storytelling, reviews, denim, magazine, store and newsletter modules.",
+            "Service propositions include shipping, Click & Collect and returns; merchant product, sustainability, fit and service claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "New Arrivals collection lists 16 products with a Filter link and Featured sort control; cards show prices, pre-order/sale labels, color images and quick size options.",
+            "Products mix apparel, footwear and accessories; organic-cotton and ethical-manufacturing claims appear below the grid and remain unverified.",
+            "No filters, sort, card options or purchase actions were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt",
+          "observations": [
+            "Knitted Polo Shirt PDP shows $100.00, four gallery images, Grey/Navy/Black color choices, sizes S–XL, size guide, fit scale, four-in-stock signal and a Pre-order control; two reviews average 4.5/5.",
+            "Pre-order copy, store pickup availability, Description/Materials & Care/Shipping disclosures, Pre-order FAQs, Complete the Look and related product recommendations are present.",
+            "No variants, size guide, store selector, accordion or purchase control was activated; product, review, fit, inventory, material and delivery claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://salt-yard.myshopify.com/cart",
+          "observations": [
+            "Cart is empty and offers Start shopping, followed by a Trending now product carousel.",
+            "No cart or checkout action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
