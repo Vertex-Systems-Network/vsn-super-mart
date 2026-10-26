@@ -5589,10 +5589,10 @@
       ],
       "notes": "Rendered browser observations added in Batch 55; source type kept distinct from indexed public HTML. No interactions, screenshot, mobile, checkout, editor or performance QA.",
       "page_coverage": {
-        "home": "browser_rendered_readonly",
-        "collection": "browser_rendered_readonly",
-        "product": "browser_rendered_readonly",
-        "cart": "browser_rendered_readonly",
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
