@@ -217,3 +217,13 @@
 - Existing indexed homepage kept distinct from rendered evidence: coverage 79/127 unique (51 indexed HTML + 28 additional rendered); 147 rendered pages across 37 presets; 48 homes remain.
 - Home/PDP free-shipping copy differs ($100/$50); no purchase/option/cart interaction used, so discrepancy remains unexplained. No screenshot or viewport/mobile/editor/checkout/performance tests.
 - Next: continue next unobserved selected preset.
+
+
+## 2026-10-26 — Batch 60 Impact:Impact rendered audit
+
+- Official Shopify Impact:Impact listing View demo opened impact-theme-sound.myshopify.com.
+- Read-only rendered inspection: home, Headphones collection (3-page pagination and six facet groups), MW07 Plus PDP and empty cart. Shop navigation was opened to follow category links; no merchandising/cart action was run.
+- Added four rendered observations; updated matrix, audit, design hypothesis, comparison pattern, progress and report/source claims.
+- Homepage already indexed; coverage stays 79/127 (51 indexed HTML + 28 additional rendered); rendered count 151 pages / 38 presets; 48 homes remain.
+- Product, inventory, technical specification, shipping and review statements remain merchant claims; no screenshot or viewport/mobile/editor/checkout/keyboard/performance tests.
+- Next: continue next unobserved selected preset.
