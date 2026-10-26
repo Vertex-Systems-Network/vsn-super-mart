@@ -289,9 +289,12 @@
       "id": "shopify-live-empire-depot",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Multi-level tool/hardware department navigation, quick-shop and compare controls, sale and pre-order states"
+        "Department-oriented category/industry navigation and search selector",
+        "Hero and compare shelf expose stock, rating, price and sale states",
+        "Featured product block and best-seller shelf bridge to detailed catalog",
+        "Sale/countdown, category directory, articles and service navigation"
       ],
-      "design_hypothesis": "Public HTML confirms element semantics, not exact layout/behaviour on devices; future screenshot-based fingerprint required."
+      "design_hypothesis": "The rendered Depot flow pairs a merchandise-attribute directory with technical product detail and multiple stock states; expose truthful stock and specification information, while leaving compare and quote behavior clearly scoped. Browser render establishes visible structure only, not interactions or claim truth."
     },
     {
       "id": "shopify-live-wonder",
