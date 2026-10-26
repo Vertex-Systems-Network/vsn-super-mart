@@ -643,3 +643,14 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure.
+
+
+## 2026-10-26 — Shopify demo availability check Batch 62
+
+**Done**
+- Opened official Shopify Theme Store listings for Focal:Sapphire and Warehouse:Wood. The preview frame remained blank after selecting “View demo”; the control became disabled.
+- No storefront pages were verified or counted. Counts remain 79/127 unique homepages, 155 rendered pages across 39 presets, and 48 unique homepages remaining.
+- Refreshed PR #9 with Batch 61 evidence, CI pass and current preview blockers.
+
+**Next**
+- Continue with a selected preset whose public storefront can be independently verified; do not infer a demo host from the theme name.
