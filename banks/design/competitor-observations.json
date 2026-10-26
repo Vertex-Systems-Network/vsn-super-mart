@@ -876,6 +876,17 @@
         "lookbook, editorial feed, featured product and brand timeline"
       ],
       "design_hypothesis": "The family demo joins premium product discovery with maker story, media and service information. The PDP combines gallery and color routes with details, supporting content and related items; the empty cart gives a direct route back to shopping. This informs family-level architecture only, not the selected Prestige preset's visual layout or interactions."
+    },
+    {
+      "id": "shopify-enterprise-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "department and product-type navigation",
+        "promotional hero, countdown and product shelves",
+        "camera comparison table and popular departments",
+        "advice, FAQ and newsletter"
+      ],
+      "design_hypothesis": "For broad electronics catalogs, connect category-specific technical filtering to side-by-side comparison and PDP specifications. Keep promotion, inventory and service claims merchant-controlled and verifiable; this browser pass establishes structure only, not functioning interactions or visual hierarchy."
     }
   ]
 }

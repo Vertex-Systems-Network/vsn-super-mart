@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 2 separately recorded browser-rendered Shopify homes (53/127 unique homes observed across these evidence types). Eight pages across Savor and Refresh were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 3 separately recorded browser-rendered Shopify homes (54/127 unique homes observed across these evidence types). Twelve pages across Savor, Refresh and Enterprise were inspected read-only in a rendered browser; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4341,11 +4341,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-enterprise-browser-render",
+      "selected_preset_id": "enterprise:enterprise",
+      "theme_family": "Enterprise",
+      "preset": "Enterprise",
+      "store_url": "https://enterprise-theme-digital.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Read-only inspection of rendered browser accessibility trees; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://enterprise-theme-digital.myshopify.com/",
+          "observations": [
+            "Homepage presents shop and department navigation, free-shipping/service promises, flash-sale messaging, a three-slide hero, department/category entry points, promotional strips, countdown, and product shelves.",
+            "Product shelves expose color swatches, ratings, discount and stock states; additional modules include a five-product camera comparison table, popular departments, advice/FAQ, featured products and newsletter.",
+            "A dynamic Flash Sale modal appeared in the rendered state. Merchant prices, stock, shipping promises and promotional claims are sample copy and were not verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1",
+          "observations": [
+            "Smart Tech collection reports 37 products, with filter, sort, compare and grid/list controls; the rendered count says 18 of 37 with Show more.",
+            "Visible filters include availability, price, brand, color and technical attributes such as processor, display, memory and CPU speed.",
+            "Product tiles expose variant swatches, price/discount/stock states and compare controls; an advice/FAQ section and recommendation shelf follow the grid. No filter, sort or compare action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1/products/smartcamera-with-voice-control",
+          "observations": [
+            "Ecobee Smart Camera PDP shows a ten-item gallery, review count, price, description, quantity, Add to cart and Buy it now controls, plus a sample stock statement.",
+            "Page includes collapsible credit, insurance and returns panels; specification/review tabs, technical specifications, payment/security content and related products.",
+            "No purchase, accordion or tab interaction was executed; price, stock, review and payment claims remain sample storefront content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://enterprise-theme-digital.myshopify.com/cart",
+          "observations": [
+            "Cart is empty with a $0.00 subtotal and Start shopping route; a purchase-protection panel and Rollbacks & More recommendation shelf appear below.",
+            "Cart page retains free-help, gift-card and sale messaging, service promises, support links, newsletter signup and payment-brand icons.",
+            "Read-only rendered structure only; no add-to-cart or checkout action was executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 8,
-    "selected_presets": 2,
-    "unique_selected_homepages_across_all_source_types": 53
+    "pages": 12,
+    "selected_presets": 3,
+    "unique_selected_homepages_across_all_source_types": 54
   }
 }

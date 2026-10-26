@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 8,
-    "browser_rendered_selected_presets": 2,
-    "distinct_selected_homepages_any_source": 53
+    "browser_rendered_pages": 12,
+    "browser_rendered_selected_presets": 3,
+    "distinct_selected_homepages_any_source": 54
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 74
+    "home_any_source": 73
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -1427,14 +1427,34 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/enterprise/presets/enterprise",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with the next unobserved selected preset; keep all untested surfaces explicitly pending"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://enterprise-theme-digital.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1/products/smartcamera-with-voice-control",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://enterprise-theme-digital.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {

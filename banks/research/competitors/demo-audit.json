@@ -7359,6 +7359,51 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-enterprise-browser-render",
+      "platform": "shopify",
+      "theme": "Enterprise",
+      "preset": "Enterprise",
+      "url": "https://enterprise-theme-digital.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "free-shipping-bar",
+        "faceted-filters",
+        "sorting",
+        "product-compare",
+        "product-card-variants",
+        "inventory-status",
+        "media-gallery-layouts",
+        "collapsible-tabs",
+        "related-products",
+        "empty-states",
+        "cart-page",
+        "newsletter-signup",
+        "product-badges-trust"
+      ],
+      "design_signals": [
+        "Department-led campaign homepage links promotions, category discovery, comparison and advice.",
+        "Smart Tech collection combines technical facets with compare, sort and presentation controls.",
+        "Camera PDP bridges media, technical specifications, policy panels and recommendations.",
+        "Empty cart provides recovery links and product recommendations."
+      ],
+      "niches": [
+        "electronics-retail",
+        "large-catalog"
+      ],
+      "notes": "Four pages inspected using rendered browser accessibility trees on 2026-10-26. Read-only structure evidence; no clicks, add-to-cart, screenshot, viewport measurement, mobile, Theme Editor, checkout, keyboard or VSN performance tests. Merchant claims are unverified sample copy.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered browser accessibility-tree snapshots of home, Smart Tech collection, Smart Camera PDP and empty cart; no executed shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

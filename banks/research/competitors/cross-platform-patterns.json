@@ -1429,6 +1429,27 @@
         "empty-states"
       ],
       "design_implication": "Keep collection density controls, variant discovery, product proof and related-item paths as separately configurable modules. Use a direct empty-cart recovery route; substantiate merchant material, origin and service claims before publishing."
+    },
+    {
+      "id": "large-catalog-facet-compare-spec-bridge",
+      "context": "Enterprise's rendered Smart Tech collection and camera PDP connect technical category filtering, comparison affordances and detailed product specifications.",
+      "signals": [
+        "Smart Tech collection exposes technical filters for processor, display, memory and CPU speed alongside compare controls.",
+        "Camera PDP places detailed specifications and product media with reviews and policy panels.",
+        "Empty cart redirects into a broad recommendation shelf."
+      ],
+      "source_entry_ids": [
+        "shopify-enterprise-browser-render"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "product-compare",
+        "media-gallery-layouts",
+        "collapsible-tabs",
+        "related-products",
+        "empty-states"
+      ],
+      "design_implication": "Preserve a direct path from technical facets to comparison and detailed PDP specifications. Keep comparison fields consistent across category and product views, and provide a useful discovery route for empty carts."
     }
   ]
 }
