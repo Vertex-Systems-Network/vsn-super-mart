@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 100 (Palo Alto:Skylight, 2026-10-26)
+
+- Verified official demo iframe; inspected home, 27-item New Arrivals collection, Kalinda Boots PDP and empty cart read-only.
+- Coverage 102/127 unique homes, 280 rendered pages across 71 presets; 25 remain. Identified malformed Alohas attribution URL; no shopper or viewport/editor/checkout/performance tests.
+- Next: verify Palo Alto:Phenomena.
+
+
 ## Shopify live-demo research — Batch 99 (Palo Alto:Dynamo, 2026-10-26)
 
 - Opened the official selected-preset listing and verified its iframe host; inspected home, Best Sellers - AER collection (12 products), Navigator Backpack PDP and empty cart read-only.
