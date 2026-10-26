@@ -335,9 +335,10 @@
         "multi-level pantry/produce/bakery/dairy/drinks navigation with promo cards",
         "pickup store preference and delivery estimate labels",
         "best sellers, organic diet badges and food content sections",
-        "store hours/location cards and newsletter"
+        "store hours/location cards and newsletter",
+        "Browser render adds fresh/organic hero, bakery & category rails, star-rated/allergen-aware best sellers, store/delivery selection, kitchenware and meal modules, recipes, events and nutritional detail."
       ],
-      "design_hypothesis": "HTML content evidence supports feature presence but not interactive functionality, screenshots or a unique visual fingerprint."
+      "design_hypothesis": "For grocery retail, pair product discovery with allergen/nutrition context and store-level pickup/delivery; rendered page content supports these modules, while fulfillment, ratings and nutrition claims remain unverified."
     },
     {
       "id": "shopify-live-symmetry-salt-yard",
