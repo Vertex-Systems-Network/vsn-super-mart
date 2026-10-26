@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-27",
+  "scope": "Public storefront design observations; seller claims are not independently verified.",
+  "claims": [
+    {
+      "id": "sleek-modiva-home-1",
+      "claim": "Furniture/interior homepage presents shop-by-room/category navigation, Embrace Vision hero, room stories, product tabs, Shop the Room, before/after image comparison, design-editorial stories, product quick views and showroom/editorial content.",
+      "source_url": "https://sleek-modiva.myshopify.com/",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-modiva-collection-1",
+      "claim": "Best Sellers collection reports 12 products; Product type, Color, Material, Size and Availability facets (12 in stock, 1 out) plus Featured sort. Product grid was blank in accessibility snapshot; controls untouched.",
+      "source_url": "https://sleek-modiva.myshopify.com/collections/best-sellers",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-modiva-product-1",
+      "claim": "Parlour Club Chair PDP shows $699/$999, stock 11, Beige/Black/Orange color choices, quantity/Add/Buy controls, pickup availability, details accordions and reviews. Product copy appears mismatched with the furniture item; record as demo-copy inconsistency, not a verified product claim.",
+      "source_url": "https://sleek-modiva.myshopify.com/products/parlour-club-chair",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "sleek-modiva-cart-1",
+      "claim": "Dedicated cart route is empty with collection suggestions.",
+      "source_url": "https://sleek-modiva.myshopify.com/cart",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-27",
+      "verification": "visible storefront presentation only"
+    }
+  ]
+}
