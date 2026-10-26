@@ -3034,50 +3034,6 @@
       }
     },
     {
-      "id": "shopify-symmetry-beatnik",
-      "platform": "shopify",
-      "theme": "Symmetry",
-      "preset": "Beatnik",
-      "url": "https://beatnik-5.myshopify.com/",
-      "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-26",
-      "document_verified_on": "2026-10-26",
-      "document_verification_status": "public_rendered_demo_accessible",
-      "document_verification_scope": "Official listing-linked public storefront rendered and inspected read-only across home, collection, PDP and cart; no interaction, screenshot or viewport/mobile QA.",
-      "feature_option_ids": [
-        "featured-collection",
-        "theme-styles-presets",
-        "product-card-variants",
-        "section-presets",
-        "mega-menu",
-        "faceted-filters",
-        "sorting",
-        "countdown-timer",
-        "image-banner",
-        "related-products",
-        "cart-page",
-        "empty-states",
-        "newsletter-signup",
-        "product-blocks",
-        "variant-picker-styles"
-      ],
-      "design_signals": [
-        "eyewear-guidance-and-material-story",
-        "Eyewear campaign and product shelf, color/product-type filters, UV rating, prescription field, fit/spec/shipping disclosures and brand/material story"
-      ],
-      "niches": [
-        "eyewear-guidance-and-material-story"
-      ],
-      "notes": "Updated with Batch 57 rendered demo evidence; homepage also remains in indexed HTML evidence.",
-      "page_coverage": {
-        "home": "document_only",
-        "collection": "document_only",
-        "product": "document_only",
-        "cart": "document_only",
-        "mobile": "not_verified"
-      }
-    },
-    {
       "id": "shopify-symmetry-duke",
       "platform": "shopify",
       "theme": "Symmetry",
@@ -5768,31 +5724,40 @@
       "preset": "Beatnik",
       "url": "https://beatnik-5.myshopify.com/",
       "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_indexed_demo_html_accessible",
-      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "opened_on": "2026-10-26",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "public_rendered_demo_accessible",
+      "document_verification_scope": "Official listing-linked public storefront rendered and inspected read-only across home, collection, PDP and cart; no interaction, screenshot or viewport/mobile QA.",
       "feature_option_ids": [
+        "featured-collection",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets",
         "mega-menu",
-        "collection-list",
-        "promo-grid",
+        "faceted-filters",
+        "sorting",
         "countdown-timer",
-        "localization-selectors"
+        "image-banner",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "product-blocks",
+        "variant-picker-styles"
       ],
       "design_signals": [
-        "recycled-eyewear-story-commerce",
-        "Eyewear department mega menu with Men/Women and New Arrivals/Best Sellers",
-        "Brand narrative on recycled sustainable frames and split campaign heroes"
+        "eyewear-guidance-and-material-story",
+        "Eyewear campaign and product shelf, color/product-type filters, UV rating, prescription field, fit/spec/shipping disclosures and brand/material story"
       ],
       "niches": [
-        "recycled-eyewear-story-commerce"
+        "eyewear-guidance-and-material-story"
       ],
-      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "notes": "Updated with Batch 57 rendered demo evidence; homepage also remains in indexed HTML evidence.",
       "page_coverage": {
         "home": "document_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
