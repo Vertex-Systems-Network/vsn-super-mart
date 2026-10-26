@@ -500,9 +500,12 @@
         "Hero, split editorial campaign, best-selling product slider and Shop-the-Look shoe outfits",
         "Product cards show Choose Options, campaign and local boutique pages",
         "Coming-soon countdown displays all zero units in HTML; event date not verified",
-        "Empty cart drawer markup on homepage with no separately fetched cart route"
+        "Empty cart drawer markup on homepage with no separately fetched cart route",
+        "Parisian Reverie and Spring/Summer campaign hero",
+        "Pumps collection with filter/sort and image-density controls",
+        "PDP size chart, color paths, product details and service assurances; empty-cart recovery"
       ],
-      "design_hypothesis": "Indexed static HTML element existence only; no pixel screenshot or working cart/menu performance proven."
+      "design_hypothesis": "Luxury footwear discovery can connect campaign/editorial content to collection and style choices, with size guidance and service details close to product selection; merchant claims need verification."
     },
     {
       "id": "shopify-live-broadcast-airwave",
