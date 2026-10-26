@@ -1,0 +1,49 @@
+{
+  "batch": 71,
+  "preset_id": "local:soleway",
+  "audit_entry_id": "shopify-local-soleway",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/local/presets/soleway",
+  "store_url": "https://local-theme-soleway.myshopify.com/",
+  "store_url_verification": "official_listing_iframe_src_read_from_rendered_DOM_after_view_demo",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://local-theme-soleway.myshopify.com/",
+      "observations": [
+        "Shoe and apparel homepage has 20% promotion/free-shipping announcement, Footwear/Clothing/Accessories/New & Featured/Sale navigation, store pickup selector and delivery estimate.",
+        "Hero features Timberland Men's Heritage, category tiles (Boots, Hiking, Sneakers, Sandals, Casual Shoes), bestseller/new-arrival/accessory/clothing promos, Men's Best Sellers shelf with materials and local availability, countdown, gendered footwear navigation, New Arrivals, embedded Emerson Street Sneaker product chooser, sustainability/feature claims and local-store/footer content.",
+        "Homepage uses apparel/footwear merchandising and in-store discovery; seller and promotion claims unverified."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers",
+      "observations": [
+        "Men's Best Sellers collection contains 8 products, Availability/Price/Color/Material facets, Featured sort with relevance, bestselling, alphabetic, price and date options.",
+        "Cards show price/discount/compare-at, material and waterproof/windproof/breathability cues, local availability prompts; no controls activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers/products/timberland%C2%AE-premium-6-inch-waterproof-boot",
+      "observations": [
+        "Premium 6-Inch Waterproof Boot PDP shows $198, media gallery, product copy with Timberland purchase source, color options, shoe sizes 7–15 and Medium/Wide width, quantity/add action and local availability prompt.",
+        "Premium leather/waterproof/windproof features, rating marquee, and descriptive feature blocks follow. No variants or purchase controls activated; seller claims unverified."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://local-theme-soleway.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart page says Shopping Cart, currently empty, Continue browsing; store location, customer-service links and payment icons in footer. No changes or checkout."
+      ]
+    }
+  ],
+  "limits": [
+    "No shopper controls used",
+    "No screenshot/mobile/editor/checkout/keyboard/performance tests",
+    "Product, material, waterproof, stock, sale and fulfillment claims unverified"
+  ]
+}
