@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 27 additional browser-rendered homes are documented (78/127 unique); 123 read-only rendered pages across 31 selected presets.",
+  "summary": "51 indexed HTML selected homes and 27 additional browser-rendered homes are documented (78/127 unique); 127 read-only rendered pages across 32 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6180,11 +6180,78 @@
       "interactions_executed": false,
       "screenshot_captured": false,
       "viewport_dimensions_measured": false
+    },
+    {
+      "id": "shopify-live-prestige-signature",
+      "selected_preset_id": "prestige:signature",
+      "theme_family": "Prestige",
+      "preset": "Signature",
+      "store_url": "https://prestige-theme-signature.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Prestige:Signature listing View demo plus read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://prestige-theme-signature.myshopify.com/",
+          "observations": [
+            "Official Shopify Prestige:Signature View demo opened matching prestige-theme-signature.myshopify.com; the store brands itself as Signature and announces the 2026 campaign.",
+            "Premium footwear home combines Parisian Reverie campaign, product-category tiles for Pumps/Flats/Mules/Boots, best sellers with Choose options cards, boots promotion, editorial/lookbook stories, coming-soon section, boutique/care content and delivery/returns/support/payment assurances.",
+            "Merchant craftsmanship, leather, production, delivery and other commercial claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://prestige-theme-signature.myshopify.com/collections/pumps",
+          "observations": [
+            "Pumps collection lists 13 products with sort and filter controls, three product-image density choices and cards with color-style names, prices and Choose options controls.",
+            "A featured Simone Pumps promo interrupts the product list; campaign and studio storytelling, other shoe category routes and service assurances follow.",
+            "No sort, filter, density, option or purchase action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://prestige-theme-signature.myshopify.com/products/simone-pumps-110-black",
+          "observations": [
+            "Simone Pumps 110 PDP shows €790.00, five-image gallery, Black/Red/Taupe patent leather links, size 37–42, size-chart control and Add to cart/Buy it now controls.",
+            "Product details and Shipping & Returns disclosures, complementary models, recommendations, campaign/story content and service assurances are visible.",
+            "No color, size, size-chart, cart or purchase interaction was activated; prices, materials, fit, craftsmanship and shipping claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://prestige-theme-signature.myshopify.com/cart",
+          "observations": [
+            "Cart page shows an empty state and Continue Shopping link to the store's all-collections page, followed by service assurances and newsletter.",
+            "No cart or checkout action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "evidence_class": "browser_render_readonly",
+      "interactions_executed": false,
+      "screenshot_captured": false,
+      "viewport_dimensions_measured": false
     }
   ],
   "browser_render_counts": {
-    "pages": 123,
-    "selected_presets": 31,
+    "pages": 127,
+    "selected_presets": 32,
     "unique_selected_homepages_across_all_source_types": 78
   }
 }
