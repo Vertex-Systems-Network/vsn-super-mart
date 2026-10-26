@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 187,
-    "browser_rendered_selected_presets": 47,
-    "distinct_selected_homepages_any_source": 82
+    "browser_rendered_pages": 191,
+    "browser_rendered_selected_presets": 48,
+    "distinct_selected_homepages_any_source": 83
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 45
+    "home_any_source": 44
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -3197,14 +3197,37 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No filter, sort, variant, zoom, add-to-cart, cart or checkout actions",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, keyboard or performance tests",
+        "Demo product, material, waterproof, sale and fulfillment claims unverified"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/local/presets/soleway",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-soleway.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers/products/timberland%C2%AE-premium-6-inch-waterproof-boot",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://local-theme-soleway.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
