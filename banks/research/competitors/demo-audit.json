@@ -5565,7 +5565,7 @@
       "preset": "Salt Yard",
       "url": "https://salt-yard.myshopify.com/",
       "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-25",
+      "opened_on": "2026-10-26",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
       "document_verification_scope": "Public Shopify storefront document pages only; no clicked interaction/mobile/checkout/editor QA.",
@@ -5587,12 +5587,12 @@
       "niches": [
         "apparel-preorder-sizeguide-local-pickup"
       ],
-      "notes": "Selected preset document evidence",
+      "notes": "Rendered browser observations added in Batch 55; source type kept distinct from indexed public HTML. No interactions, screenshot, mobile, checkout, editor or performance QA.",
       "page_coverage": {
-        "home": "document_only",
-        "collection": "not_verified",
-        "product": "document_only",
-        "cart": "not_verified",
+        "home": "browser_rendered_readonly",
+        "collection": "browser_rendered_readonly",
+        "product": "browser_rendered_readonly",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
