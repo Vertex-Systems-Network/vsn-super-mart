@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 29 additional browser-rendered homes are documented (80/127 unique); 171 read-only rendered pages across 43 selected presets.",
+  "summary": "51 indexed HTML selected homes and 30 additional browser-rendered homes are documented (81/127 unique); 175 read-only rendered pages across 44 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6960,11 +6960,77 @@
         "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests.",
         "Product, inventory, shipping, fulfillment, free-gift and seller claims unverified."
       ]
+    },
+    {
+      "id": "shopify-expanse-gem",
+      "selected_preset_id": "expanse:gem",
+      "theme_family": "Expanse",
+      "preset": "Gem",
+      "store_url": "https://gem-theme-emerald.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Expanse:Gem listing iframe src read from rendered DOM after View demo; direct public storefront navigation and read-only accessibility-tree inspection. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://gem-theme-emerald.myshopify.com/",
+          "observations": [
+            "Free-shipping-over-$50 announcement; New/Jewelry/Gifting/World of Gem navigation, search, account and cart.",
+            "Amara Collection gift promo grid; curated links for Earrings, Engagement, Gold Rings, Necklaces, Rose Gold Rings and Gold Jewelry; Amara product shelf; customer moments/testimonials; discovery banner; brand story; Jewelry Journal; authenticity, shipping, returns and expert-guidance promises; newsletter.",
+            "Seller service claims unverified; no controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://gem-theme-emerald.myshopify.com/collections/earrings",
+          "observations": [
+            "9 products; Availability and Price filters; Stud/Hoop subcollection links; Best selling sort; Large/Small/List view controls.",
+            "Cards show best-seller/new/sale cues, brand and prices (Karasuba studs $920; Inula studs $515 from $550). No controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://gem-theme-emerald.myshopify.com/collections/earrings/products/karasuba",
+          "observations": [
+            "Karasuba studs / Karasuba Ear Climbers; 18k yellow gold selected with rose/white gold alternatives; $920; low-stock text (3); gallery/zoom; Add to cart and Buy it now.",
+            "Shipping and diamond-cuts accordions, diamond-shape guide, recommendations, testimonials, craftsmanship/material claims and demonstration-store note linking to Sceona. No controls activated; seller claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://gem-theme-emerald.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart page is empty and provides Continue shopping. No mutation or checkout."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "New selected homepage absent from prior selected-home evidence; counts as one additional unique rendered homepage.",
+        "No filters, sorting, density, variants, zoom, add-to-cart, Buy it now, cart or checkout actions.",
+        "No screenshot, mobile viewport, Theme Editor, keyboard or performance tests.",
+        "Product, material, sustainability, stock, shipping, returns, authenticity and seller statements unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 171,
-    "selected_presets": 43,
-    "unique_selected_homepages_across_all_source_types": 80
+    "pages": 175,
+    "selected_presets": 44,
+    "unique_selected_homepages_across_all_source_types": 81
   }
 }
