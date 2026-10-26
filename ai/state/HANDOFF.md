@@ -704,3 +704,17 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 67 (Expanse:Gem)
+
+**Done**
+- Verified the official Gem listing iframe host; inspected home, Earrings collection (9 items, two facets, Stud/Hoop shortcuts), Karasuba PDP and dedicated empty cart read-only.
+- Coverage: 81/127 selected homes (51 indexed + 30 additional rendered); 175 rendered pages across 44 presets; 46 remain.
+- Updated evidence, matrix, audit note, design observation, large-catalog pattern, progress and report/source claims.
+
+**Limits**
+- No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
