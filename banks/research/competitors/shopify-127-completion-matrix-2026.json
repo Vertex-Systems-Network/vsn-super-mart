@@ -1177,6 +1177,28 @@
       ],
       "next_action": [
         "Continue with next unobserved selected preset; primary indexed-HTML coverage remains separate from browser-rendered observations"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://salt-yard.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://salt-yard.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
