@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 264,
-    "browser_rendered_selected_presets": 67,
-    "distinct_selected_homepages_any_source": 98
+    "browser_rendered_pages": 268,
+    "browser_rendered_selected_presets": 68,
+    "distinct_selected_homepages_any_source": 99
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 29
+    "home_any_source": 28
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -422,7 +422,6 @@
     "vision:vision",
     "ignite:ignite",
     "sleek:jumped",
-    "wonder:root",
     "be-yours:sheen",
     "palo-alto:palo-alto",
     "pipeline:pipeline",
@@ -5563,12 +5562,13 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "Read-only route inspection; no sort, subscription, variant, add-to-cart, bundle, quiz or checkout actions.",
+        "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, ingredients, efficacy, certification, customer and seller claims remain unverified."
       ],
       "next_action": [
-        "Continue with the next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Continue remaining selected presets in priority/rank order."
       ],
       "browser_render_observations": [
         {
