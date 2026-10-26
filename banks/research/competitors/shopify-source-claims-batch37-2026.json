@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Impulse:Apothecary preset listing demo inspected read-only through rendered browser accessibility trees. No shopper interactions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "impulse-apothecary-preset-listing",
+      "url": "https://themes.shopify.com/themes/impulse/presets/apothecary",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Impulse:Apothecary listing View demo opened the Lumin Atelier storefront."
+    },
+    {
+      "id": "impulse-apothecary-demo",
+      "url": "https://impulse-theme-jewelry.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-jewelry.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-jewelry.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-jewelry.myshopify.com/products/amber-candle"
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-jewelry.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "impulse-apothecary-scent-discovery",
+      "source_ids": [
+        "impulse-apothecary-demo"
+      ],
+      "observed": "Home uses scent product hotspots, featured oils/candles and scent-family links; 110-item collection exposes filtering entry, sort choices and pagination; PDP combines fragrance narrative with FAQ/shipping content and related scents; cart is empty with recent/popular product shelves.",
+      "risk": "Filter, sort, hotspot, cart and recommendation behaviors were not tested; visible content does not establish product accuracy.",
+      "vsn_guard": "Test category/facet behavior and related-product relevance; ensure product usage text and recommendation taxonomy match item type."
+    },
+    {
+      "id": "impulse-apothecary-demo-claims",
+      "source_ids": [
+        "impulse-apothecary-demo"
+      ],
+      "observed": "Product and store copy includes ingredient, efficacy, sustainability, vegan, certification, burn-time, shipping and satisfaction statements.",
+      "risk": "Merchant-provided statements are unverified; the PDP explicitly labels this a non-purchasable demo and some page content appears inconsistent with the candle product.",
+      "vsn_guard": "Substantiate certification, ingredient, efficacy, product and returns claims and validate product-page content against its catalog record."
+    }
+  ]
+}

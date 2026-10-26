@@ -1722,6 +1722,28 @@
         "empty-states"
       ],
       "design_implication": "Keep technical specifications and fit choices close to the purchase controls, make collection taxonomy and filters scannable, and substantiate warranties, shipping and inventory claims."
+    },
+    {
+      "id": "scent-family-product-discovery",
+      "context": "Fragrance and body-care catalogs can connect individual products through scent-family organization and cross-category rituals.",
+      "signals": [
+        "Home surfaces product hotspot links, featured oils/candles, scent-family browse links and brand propositions.",
+        "Collection combines a large scent catalog with product prices, sale labels, sort and pagination.",
+        "PDP pairs product narrative and how-to/FAQ/shipping sections with related scent products; empty cart includes recently viewed and popular picks."
+      ],
+      "source_entry_ids": [
+        "shopify-impulse-apothecary-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "sorting",
+        "product-blocks",
+        "related-products",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_implication": "Let shoppers browse by scent family and product type, while keeping product category clear and testing recommendation relevance. Substantiate ingredients, sustainability, efficacy, burn-time and returns claims."
     }
   ]
 }

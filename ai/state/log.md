@@ -1,3 +1,12 @@
+## 2026-10-26 — Batch 37 Impulse:Apothecary rendered audit
+
+- Official Impulse:Apothecary listing View demo opened impulse-theme-jewelry.myshopify.com.
+- Read-only rendered browser inspection: home, All collection (110 products), Amber Candle PDP and empty cart.
+- Added report, source claims, audit entry, one pattern and one observation; updated matrix, counts, progress and handoff.
+- Selected-home coverage is 67/127 (51 indexed HTML + 16 rendered); 64 rendered pages across 16 selected presets. 60 selected homes remain.
+- No shopper interaction, screenshot, viewport/mobile, editor, checkout or performance testing. Demo explicitly notes products cannot be purchased; some product content appears mismatched.
+- Next: continue with next unobserved selected preset, prioritizing tier 1.
+
 ## 2026-10-26 — Batch 36 Impulse:Terrain rendered audit
 
 - Official Impulse:Terrain listing View demo opened impulse-theme-sports.myshopify.com.

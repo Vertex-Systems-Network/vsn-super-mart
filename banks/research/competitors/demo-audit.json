@@ -7954,6 +7954,48 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-impulse-apothecary-browser-render",
+      "platform": "shopify",
+      "theme": "Impulse",
+      "preset": "Apothecary",
+      "url": "https://impulse-theme-jewelry.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "sorting",
+        "quick-add",
+        "product-blocks",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Scent-led homepage combines product hotspots and ingredient/brand propositions with featured scent products, scent-family navigation and promotional story tiles.",
+        "110-product collection has filter entry, sorting options, sale labels and four-page pagination.",
+        "Amber Candle PDP presents product narrative, burn-time copy, purchase controls and FAQs, then related products and brand/testimonial content.",
+        "Empty cart offers Continue shopping, recently viewed and Popular Picks shelves."
+      ],
+      "niches": [
+        "beauty",
+        "wellness",
+        "home-fragrance"
+      ],
+      "notes": "Official Impulse:Apothecary listing View demo opened impulse-theme-jewelry.myshopify.com. Home, All collection, Amber Candle PDP and empty cart inspected with rendered browser accessibility trees. Read-only; no controls activated or screenshots, mobile viewport, editor, checkout, keyboard or performance tests. Demo explicitly states products cannot be purchased. Several product/story mismatches and sustainability/efficacy/fulfillment claims are unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, collection, PDP and cart; no interactions, screenshots, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

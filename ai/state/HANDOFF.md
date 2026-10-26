@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 37 (Impulse:Apothecary)
+
+**Done**
+- Inspected official Impulse:Apothecary listing-linked storefront: home, All collection, Amber Candle PDP and empty cart with read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, report and handoff updates.
+- Coverage: 67/127 unique selected homes (51 indexed HTML + 16 rendered); 64 rendered pages across sixteen selected presets. 60 remain.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Store explicitly identifies its products as non-purchasable demo items; product and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with next unobserved selected preset, prioritizing tier 1 and keeping evidence classes distinct.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 36 (Impulse:Terrain)
 
 **Done**

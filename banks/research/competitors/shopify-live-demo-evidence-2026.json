@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 15 selected browser-rendered homes are documented (66/127 unique); 60 read-only rendered pages across fifteen selected presets.",
+  "summary": "51 indexed HTML selected homes and 16 selected browser-rendered homes are documented (67/127 unique); 64 read-only rendered pages across sixteen selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5158,11 +5158,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-impulse-apothecary-browser-render",
+      "selected_preset_id": "impulse:apothecary",
+      "theme_family": "Impulse",
+      "preset": "Apothecary",
+      "store_url": "https://impulse-theme-jewelry.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Impulse:Apothecary preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-jewelry.myshopify.com/",
+          "observations": [
+            "Scent-led hero includes six product hotspots, NEW ARRIVALS and a signature-scent CTA; homepage continues with personalized/long-lasting/botanical/ritual-ready propositions.",
+            "Featured essential oils and Tonka collection products lead into scent-family collection links, a promotion tile, returns/quality messaging, sustainability statement and newsletter.",
+            "Sustainability, botanical, efficacy and fulfillment statements are merchant claims and unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-jewelry.myshopify.com/collections/all",
+          "observations": [
+            "Products collection reports 110 products, a Filter control and alphabetical A–Z default sort with featured/relevance/bestselling/price/date choices.",
+            "Product cards show scent-family products, prices, sale labels and Add to Cart controls; pagination spans four pages.",
+            "No filter, sort, page navigation or add-to-cart action was executed. Collection also appends a skin-elasticity claim module, not validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-jewelry.myshopify.com/products/amber-candle",
+          "observations": [
+            "Amber Candle PDP shows $68 price, descriptive scent narrative, approx. 50-hour burn statement, in-stock copy, Add to Cart/Buy it now and free-worldwide-shipping statement.",
+            "Collapsed How to Use, Why We Made It, Shipping Information, FAQ and Ask a Question panels; related scent-family products, testimonials and ingredient/brand-story modules follow.",
+            "Page explicitly calls itself a demo store and says products were created by Archetype Themes and cannot be purchased; skin/body-care copy on the candle page and testimonial/product details appear inconsistent. Claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-jewelry.myshopify.com/cart",
+          "observations": [
+            "Cart states it is currently empty and provides Continue shopping.",
+            "Recently viewed and Popular Picks shelves appear; Popular Picks cards show generic Product title labels, alongside return/satisfaction/quality copy.",
+            "No cart action or checkout was performed; displayed product and service content remains unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 60,
-    "selected_presets": 15,
-    "unique_selected_homepages_across_all_source_types": 66
+    "pages": 64,
+    "selected_presets": 16,
+    "unique_selected_homepages_across_all_source_types": 67
   }
 }

@@ -1024,6 +1024,18 @@
         "service proposition strip, promotion countdown, testimonial, blog and newsletter"
       ],
       "design_hypothesis": "High-consideration sport products benefit from visible fit/technical information and service context alongside category discovery. Test whether dense campaign modules obscure product details; verify technical, stock and fulfillment claims."
+    },
+    {
+      "id": "shopify-impulse-apothecary-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "fragrance hero with product hotspots and CTA",
+        "brand proposition row and featured oils",
+        "limited-edition promotion tile and Tonka product shelf",
+        "scent-family collection grid",
+        "returns/quality propositions and sustainability/newsletter footer"
+      ],
+      "design_hypothesis": "Scent-family navigation can connect a multi-category fragrance assortment; product-page narratives and usage details should match the product type. Verify product consistency and substantiation behind ingredients and sustainability statements."
     }
   ]
 }
