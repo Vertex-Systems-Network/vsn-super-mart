@@ -1,3 +1,12 @@
+## 2026-10-26 — Batch 35 Local:Thrive rendered audit
+
+- Official Local:Thrive listing View demo opened local-theme-thrive.myshopify.com.
+- Read-only rendered browser inspection: home, All collection (14 products), Gut Health Ground Coffee PDP and empty cart.
+- Added report, source claims, audit entry, one pattern and one observation; updated matrix, counts, progress and handoff.
+- Selected-home coverage is 65/127 (51 indexed HTML + 14 rendered); 56 rendered pages across 14 selected presets. 62 selected homes remain.
+- No shopper interaction, screenshot, viewport/mobile, editor, checkout or performance testing. Health, product and commercial claims unverified.
+- Next: continue with next unobserved selected preset, prioritizing tier 1.
+
 ## 2026-10-26 — Batch 23 Prestige-family Allure rendered audit
 
 - Official selected Prestige listing's View demo control opened `prestige-theme-allure.myshopify.com`, labeled Prestige - Allure.

@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 13 selected browser-rendered homes are documented (64/127 unique); 52 read-only rendered pages across thirteen selected presets.",
+  "summary": "51 indexed HTML selected homes and 14 selected browser-rendered homes are documented (65/127 unique); 56 read-only rendered pages across fourteen selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5032,11 +5032,74 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-local-thrive-browser-render",
+      "selected_preset_id": "local:thrive",
+      "theme_family": "Local",
+      "preset": "Thrive",
+      "store_url": "https://local-theme-thrive.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Local:Thrive preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-thrive.myshopify.com/",
+          "observations": [
+            "Announcement coupon, search/account/cart, delivery-estimate link and store-selector entry point frame the storefront.",
+            "Hero promotes mushroom coffee, followed by product-category tabs/shelves, benefit-led category cards, ingredient/science editorial, Shop the Look protein products, testimonials/reviews, FAQ, guarantee and newsletter modules.",
+            "Promotion, health/ingredient, review, sales-volume and guarantee copy is merchant content and unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-thrive.myshopify.com/collections/all",
+          "observations": [
+            "Products collection shows 14 products and shortcuts for Coffees (4), Proteins (4), Supplements (3) and Capsules (3).",
+            "Benefits facets list Calm (4), Energy (1), Focus (3) and Gut (3); Availability lists 13 in stock and one out of stock; Price facet and alphabetical A–Z sort are shown with featured/relevance/bestselling/alphabetical/price/date sort choices.",
+            "Cards display benefit tags, sale/regular prices and Buy now; no filter, sort or product action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-thrive.myshopify.com/products/gut-health-ground-coffee",
+          "observations": [
+            "Gut Health Ground Coffee PDP shows three gallery images, $14 sale/$20 regular pricing, SAVE $6, variant links, quantity control and Add to cart/Buy it now actions.",
+            "Collapsed sections cover Description, How to use & taste, Benefits and Nutritional information; pickup availability lists Buffalo and Denver, with a complementary mushroom blend and main-benefit/editorial sections.",
+            "Product, pricing, pickup, health efficacy, ingredients, reviews and guarantee statements are sample merchant content; no controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://local-theme-thrive.myshopify.com/cart",
+          "observations": [
+            "Cart page states that the cart is currently empty and links back to Continue browsing.",
+            "Guarantee copy and newsletter appear below the empty-cart content; no checkout or cart changes performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 52,
-    "selected_presets": 13,
-    "unique_selected_homepages_across_all_source_types": 64
+    "pages": 56,
+    "selected_presets": 14,
+    "unique_selected_homepages_across_all_source_types": 65
   }
 }

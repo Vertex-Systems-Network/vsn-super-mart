@@ -7863,6 +7863,45 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-local-thrive-browser-render",
+      "platform": "shopify",
+      "theme": "Local",
+      "preset": "Thrive",
+      "url": "https://local-theme-thrive.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "announcement-bar",
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "quick-add",
+        "product-blocks",
+        "complementary-products",
+        "related-products",
+        "shop-the-look",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Coffee and wellness demo combines benefit-led product merchandising, category tabs and ingredient/science editorial with review and guarantee sections.",
+        "All collection presents 14 products with category shortcuts, benefits/availability/price facets and multiple sort choices.",
+        "PDP surfaces pricing, variant links, quantity, pickup locations, collapsible product information and a complementary product.",
+        "Empty cart offers a Continue browsing route."
+      ],
+      "niches": [
+        "food",
+        "wellness",
+        "coffee"
+      ],
+      "notes": "Official Local:Thrive listing View demo opened local-theme-thrive.myshopify.com. Home, all collection, Gut Health Ground Coffee PDP and empty cart inspected through rendered browser accessibility trees. Read-only; no controls activated, no screenshot, viewport/mobile, editor, keyboard, checkout or performance testing. Health, ingredient, review, discount and guarantee content are unverified merchant claims.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered accessibility-tree inspection"
     }
   ],
   "discovery_sources": [

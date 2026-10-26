@@ -1002,6 +1002,17 @@
         "shipping/service panels and newsletter"
       ],
       "design_hypothesis": "Accessory catalogs benefit from clear device-generation navigation and color choices in product cards; complementary-product recommendations can help shoppers complete compatible setups. Verify compatibility, availability, discounts and fulfillment claims."
+    },
+    {
+      "id": "shopify-local-thrive-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "coupon announcement, search/account/cart and store selection",
+        "benefit-led coffee hero and tabbed category/product merchandising",
+        "ingredient/science editorial, Shop the Look products, testimonials and FAQ",
+        "guarantee and newsletter"
+      ],
+      "design_hypothesis": "Benefit-led navigation and product education may help wellness shoppers compare a wide supplement/coffee range; keep category labels and practical pickup/product details easy to find. Health, efficacy and guarantee claims need substantiation."
     }
   ]
 }

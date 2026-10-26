@@ -1675,6 +1675,30 @@
         "empty-states"
       ],
       "design_implication": "For accessory catalogs, expose device compatibility early, retain color choices in product cards, and connect PDPs to compatible add-ons. Validate compatibility and fulfillment data before surfacing."
+    },
+    {
+      "id": "benefit-led-food-wellness-merchandising",
+      "context": "Food and wellness storefronts can pair product taxonomy with benefit-led navigation and explanatory content while keeping practical purchase details close to the product.",
+      "signals": [
+        "Home combines category/product shelves with benefit-led tiles, ingredient editorial, social proof and FAQ/guarantee modules.",
+        "Collection combines category shortcuts with benefit, availability and price facets plus sort controls.",
+        "PDP keeps variant/quantity, pickup and collapsible product details beside related-product discovery."
+      ],
+      "source_entry_ids": [
+        "shopify-local-thrive-browser-render"
+      ],
+      "option_ids": [
+        "collection-list",
+        "featured-collection",
+        "faceted-filters",
+        "sorting",
+        "product-blocks",
+        "complementary-products",
+        "related-products",
+        "shop-the-look",
+        "empty-states"
+      ],
+      "design_implication": "Use benefit navigation alongside plain category labels, and place substantiated ingredient information, fulfillment details and product controls near the buying decision. Validate health and efficacy copy before publication."
     }
   ]
 }
