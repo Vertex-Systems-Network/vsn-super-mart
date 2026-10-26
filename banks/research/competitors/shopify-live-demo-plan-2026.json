@@ -85,9 +85,9 @@
     "live_product_verified": 40,
     "live_cart_verified": 11,
     "live_mobile_verified": 0,
-    "browser_rendered_pages": 24,
-    "browser_rendered_selected_presets": 6,
-    "selected_home_observed_any_source": 57
+    "browser_rendered_pages": 28,
+    "browser_rendered_selected_presets": 7,
+    "selected_home_observed_any_source": 58
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -102,6 +102,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch27-2026.md",
-  "next_action": "Continue with ignite:ignite, next priority selected preset. Keep Prestige preset mapping caveat and Impulse Dune store-brand caveat explicit."
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch28-2026.md",
+  "next_action": "Continue with sleek:jumped, next priority selected preset. Keep prior unresolved preset mapping caveats and all untested surfaces explicit."
 }

@@ -7542,6 +7542,50 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-ignite-ignite-browser-render",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Ignite",
+      "url": "https://benchmark-electronics-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "faceted-filters",
+        "sorting",
+        "product-compare",
+        "quick-view",
+        "inventory-status",
+        "variant-picker-styles",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "collection-list",
+        "newsletter-signup",
+        "specs-table"
+      ],
+      "design_signals": [
+        "Electronics catalog search combines product-type selection with a compatibility finder.",
+        "Technical facets and compare controls support large device catalog discovery.",
+        "Product detail ties storage/color/size variants to specs, availability and complementary products.",
+        "Empty cart recommends products and offers a continue-shopping route."
+      ],
+      "niches": [
+        "electronics-retail",
+        "technology"
+      ],
+      "notes": "Official Ignite preset listing View demo opened benchmark-electronics-demo.myshopify.com, branded Ignite Tech & Gadgets Co. Four pages inspected read-only in rendered browser. No filter/sort/compare/variant/gallery/cart interaction, screenshot, viewport measurement, mobile, editor, checkout, keyboard or performance testing. Merchant content and claims are unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, Smart Tech collection, Edge Pixa 9 PDP and empty cart; no shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

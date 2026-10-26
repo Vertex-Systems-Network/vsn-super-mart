@@ -920,6 +920,18 @@
         "brand, reviews, journal and newsletter"
       ],
       "design_hypothesis": "Electronics storefronts can bring product education, category browsing and comparison into one journey. Keep compare data aligned with PDP specifications and make availability and product claims traceable to merchant data."
+    },
+    {
+      "id": "shopify-ignite-ignite-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "campaign announcement bars and device-type search",
+        "compatibility finder",
+        "best-selling products with quick-view affordances",
+        "comparison/specification sections",
+        "product/category stories, video and support/newsletter modules"
+      ],
+      "design_hypothesis": "Technical catalogs can connect type and compatibility discovery to comparison-ready product information. Keep filter labels, product specs and variant availability consistent, and expose the same verified attributes across collection and PDP."
     }
   ]
 }

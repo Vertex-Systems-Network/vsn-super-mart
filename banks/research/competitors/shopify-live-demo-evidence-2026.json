@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 6 separately recorded browser-rendered Shopify homes (57/127 unique homes observed across these evidence types). Twenty-four pages across Savor, Refresh, Enterprise, Broadcast Relay, Impulse Dune and Vision were inspected read-only; interactions/mobile/editor tests remain unverified.",
+  "summary": "55 demo hosts in the indexed-source bank; 151 primary indexed HTML docs; 51/127 selected homepage sources in the indexed bank plus 7 separately recorded browser-rendered Shopify homes (58/127 unique homes observed across these evidence types). Twenty-eight pages across Savor, Refresh, Enterprise, Broadcast Relay, Impulse Dune, Vision and Ignite were inspected read-only; interactions/mobile/editor tests remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4597,11 +4597,74 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-ignite-ignite-browser-render",
+      "selected_preset_id": "ignite:ignite",
+      "theme_family": "Ignite",
+      "preset": "Ignite",
+      "store_url": "https://benchmark-electronics-demo.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://benchmark-electronics-demo.myshopify.com/",
+          "observations": [
+            "Official demo homepage has campaign announcement bars, product-type search, compatibility finder, and a three-slide hero.",
+            "Rendered sections include best-selling products with quick view and variants, product comparisons/spec tables, video banners, category and brand stories, social video, newsletter, and support links.",
+            "Sale, inventory, delivery and compatibility statements are sample storefront content and were not independently verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://benchmark-electronics-demo.myshopify.com/collections/smart-tech",
+          "observations": [
+            "Smart Tech collection presents 41 products and facets for brand, color, storage capacity, battery life, compatibility, processor, RAM, refresh rate, screen and resolution.",
+            "Sort choices and a compare control appear with variant, stock and sale states, quick-view affordances, in-grid promos and related collections.",
+            "No facet, sort or compare action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://benchmark-electronics-demo.myshopify.com/collections/smart-tech/products/pixa-9",
+          "observations": [
+            "Edge Pixa 9 PDP displays a 15-item media gallery, 5-star label, size/color/storage radio variants and sold-out storage options, quantity, stock message and purchase controls.",
+            "Specifications include dimensions/build, charging, connectivity, durability/audio and software/security; complementary products, FAQs, related storytelling and sample testimonials also appear.",
+            "No variant, gallery, add-to-cart or buy-now action was performed; price, stock and product claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://benchmark-electronics-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart has a Continue Shopping action and a Can we tempt you? product recommendation slider with quick-view/cart affordances.",
+            "No product was added and checkout was not opened."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 24,
-    "selected_presets": 6,
-    "unique_selected_homepages_across_all_source_types": 57
+    "pages": 28,
+    "selected_presets": 7,
+    "unique_selected_homepages_across_all_source_types": 58
   }
 }

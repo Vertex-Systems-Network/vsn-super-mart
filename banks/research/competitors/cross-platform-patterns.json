@@ -1512,6 +1512,27 @@
         "inventory-status"
       ],
       "design_implication": "Align category comparison fields to PDP specifications and expose compatibility and availability details near the purchase decision."
+    },
+    {
+      "id": "technical-catalog-facets-and-comparison",
+      "context": "Electronics catalogs use detailed technical attributes to help shoppers narrow and compare products.",
+      "signals": [
+        "Smart Tech collection exposes ten technology-oriented facet groups including processor, RAM, refresh rate and compatibility.",
+        "Compare control appears beside sorting and variant/stock states.",
+        "PDP exposes technical specifications, variant availability and complementary products."
+      ],
+      "source_entry_ids": [
+        "shopify-ignite-ignite-browser-render"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "product-compare",
+        "variant-picker-styles",
+        "specs-table",
+        "inventory-status",
+        "related-products"
+      ],
+      "design_implication": "Define a shared product attribute model so facet labels, comparison rows and PDP specs use the same values; disclose compatibility and availability clearly."
     }
   ]
 }

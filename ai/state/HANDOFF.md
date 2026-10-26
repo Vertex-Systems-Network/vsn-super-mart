@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 28 (Ignite)
+
+**Done**
+- Inspected Ignite:Ignite official listing-linked demo, homepage, Smart Tech collection, Edge Pixa 9 product page and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern and a batch report.
+- Coverage: 58/127 unique selected homes (51 indexed HTML + 7 rendered-browser homes); 28 rendered pages across seven selected presets. Batch27 CI passed.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Merchant prices, inventory, promotion, compatibility and review copy remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with Sleek:Jumped and keep indexed HTML and browser-rendered evidence counts distinct.
+
 ## 2026-10-26 — Batch 27 Vision selected-preset rendered audit
 
 Official Vision listing opened vision-main.myshopify.com. Inspected home, 20-product All Products collection, smart-camera PDP and empty cart using read-only rendered accessibility trees. Added four pages, source claims, one pattern, one observation and Batch27 report. Coverage: 57/127 distinct selected homes (51 indexed HTML + 6 rendered), 24 rendered pages total. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Next: Ignite:Ignite.
