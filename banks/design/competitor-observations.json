@@ -464,12 +464,12 @@
       "id": "shopify-live-stiletto-tapestry",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Ceramics navigation by form, glaze/finish, room/ritual and store workshops",
-        "One-of-a-kind numbered pieces, lighting and bowls with low stock/sold out messaging",
-        "Editorial craft hero, classes/calendar-like listings, appointment/course CTA and journal",
-        "Cart drawer has contextual empty state but no proof course bookings work"
+        "Handmade ceramics and pottery-class hero with collection navigation",
+        "Shop by category, one-of-a-kind ceramics, lighting and dinnerware shelves",
+        "Shoppable look hotspots, pottery-class listings/testimonial, seconds-sale and journal sections",
+        "32-result collection with price/availability filters; Wine Cup PDP exposes color choice, capacity, dimensions and care copy"
       ],
-      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+      "design_hypothesis": "Artisan homeware can combine limited-run product stories with category-led shopping and workshop discovery; rendered content only, with no interaction or screenshot audit. Product, class, safety and studio claims are unverified."
     },
     {
       "id": "shopify-live-prestige-strass",
