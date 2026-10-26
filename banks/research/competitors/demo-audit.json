@@ -6137,7 +6137,7 @@
       "preset": "Airwave",
       "url": "https://broadcast-theme-airwave.myshopify.com/",
       "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-25",
+      "opened_on": "2026-10-26",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_indexed_demo_html_accessible",
       "document_verification_scope": "Individual public Shopify indexed HTML documents. No interactive UX/cart/checkout/device/editor test; source crawl recency per page.",
@@ -6166,12 +6166,12 @@
       "niches": [
         "coffee-small-catalog-education"
       ],
-      "notes": "Verified specific cataloged preset live demo host",
+      "notes": "Indexed HTML evidence retained; official listing View demo opened and individual rendered home, all-products collection, House Blend PDP and empty cart inspected read-only on 2026-10-26. No shopper controls used; no screenshot, viewport, mobile, editor, checkout or performance testing.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
         "product": "document_only",
-        "cart": "not_verified",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
