@@ -5846,7 +5846,7 @@
       "niches": [
         "quiet-luxury-footwear"
       ],
-      "notes": "Source page URLs, crawl recency and mapped options in shopify-live-demo-evidence-2026.json. Storefront demo only, not a proof of dynamic functions.",
+      "notes": "Official Stiletto:Linen preview iframe exposed stiletto-theme-chic.myshopify.com and redirected to STO Linen at stiletto-theme-linen.myshopify.com. Read-only browser inspection covered home, Footwear collection, Teddy Heel PDP and empty cart; indexed home was already counted. Details in the live-demo evidence bank; no shopper actions or device/editor QA.",
       "page_coverage": {
         "home": "document_only",
         "collection": "not_verified",
