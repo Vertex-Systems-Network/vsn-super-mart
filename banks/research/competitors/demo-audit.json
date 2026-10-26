@@ -5444,7 +5444,7 @@
       "niches": [
         "local-grocery-fulfillment"
       ],
-      "notes": "Per-page evidence in shopify-live-demo-evidence-2026.json; not permission to copy theme code/assets or infer real order outcomes.",
+      "notes": "Official listing plus indexed document coverage were previously verified; supplemental browser rendering confirms home, Bread & Bakery collection, Sourdough PDP and empty cart in the selected Local preset. Render details are in the live-demo evidence bank.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
