@@ -1,3 +1,17 @@
+## 2026-10-26 — Shopify rendered demo research Batch 79 (Stiletto:Tapestry)
+
+**Done**
+- Opened the official Tapestry preview destination and inspected homepage, 32-result All collection, Wine Cup | Anthracite PDP and empty cart.
+- Homepage includes pottery-class content, handmade/one-of-a-kind merchandise, category shelves, shoppable look, journal and studio copy. Collection exposes Best selling sort and Price/Availability groups. PDP displays $48/$40, color links, quantity/Add to Bag and dimensions/care; no controls activated.
+- Tapestry home was already indexed, so unique-home coverage remains 86/127. Rendered evidence reaches 218 pages across 55 presets; 41 remain. Indexed totals remain 51/38/40/11.
+- Updated evidence, matrix, audit note, design observation, plan, progress and handoff.
+
+**Limits**
+- No filters, sort, product options, quantity, cart mutation, checkout, screenshots, viewport/mobile, editor, keyboard or performance tests. Seller claims remain unverified.
+
+**Next**
+- Continue Motion:Motion (rank 56), which has no indexed homepage.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 78 (Stiletto:Glimmer)
 
 **Done**
