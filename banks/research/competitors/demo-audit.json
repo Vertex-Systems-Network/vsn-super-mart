@@ -3702,7 +3702,7 @@
       "niches": [
         "fashion-apparel"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "notes": "Official Stiletto:Luster listing preview iframe src was opened and rendered home, All Jewelry collection, Batis Ring PDP and empty cart were inspected read-only. Details are in banks/research/competitors/shopify-live-demo-evidence-2026.json; indexed document page counts remain unchanged. Merchant claims remain unverified.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
