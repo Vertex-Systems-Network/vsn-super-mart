@@ -1598,6 +1598,31 @@
         "cart-page"
       ],
       "design_implication": "Connect campaign modules to coherent collection landing pages, keep fit guidance near variant selection, and maintain clear path back to products from an empty cart. Validate promo, stock and fulfillment copy before launch."
+    },
+    {
+      "id": "fashion-campaign-catalog-fit-journey",
+      "context": "Large fashion catalogs connect seasonal promotion, broad faceted discovery, fit guidance and related-product merchandising.",
+      "signals": [
+        "Home combines countdown/promo messaging, category mosaic, featured products, editorial lookbook and product hotspots.",
+        "All Clothing collection presents 304 items with availability, color, size, product type and price facets plus 13-page pagination.",
+        "Sylvia Blazer PDP places variant and quantity choices near fit, delivery, cross-sell and review content.",
+        "Empty cart guides shoppers toward new arrivals, staff picks, bestseller, sale and full catalog."
+      ],
+      "source_entry_ids": [
+        "shopify-palo-alto-palo-alto-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "countdown-timer",
+        "faceted-filters",
+        "sorting",
+        "size-chart",
+        "quick-view",
+        "quick-add",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_implication": "For large fashion catalogs, connect campaign destinations to filterable assortments and place fit help near size choice; use empty-cart links to restore discovery. Verify stock and promotional data before launch."
     }
   ]
 }

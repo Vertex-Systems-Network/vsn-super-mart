@@ -362,3 +362,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Batch report: `banks/research/competitors/shopify-live-demo-batch31-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch31-2026.json`.
 - No interaction, screenshot, viewport/mobile, Theme Editor, checkout or performance tests. Demo sale, stock, rating, shipping, pickup and return copy is unverified.
 - Next: `palo-alto:palo-alto`.
+
+
+## Shopify live-demo research — Batch 32
+- Palo Alto official preset listing View demo opened rendered storefront; inspected home, 304-product All Clothing collection, Sylvia Blazer PDP and empty cart read-only.
+- Coverage: 62/127 selected homes (51 indexed HTML + 11 browser-rendered); 44 rendered pages across 11 presets. 65 selected homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch32-2026.md`; claims: `banks/research/competitors/shopify-source-claims-batch32-2026.json`.
+- No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance tests. Product, promo, stock, reviews, sustainability and fulfillment copy unverified.
+- Next: continue to next unobserved selected preset.

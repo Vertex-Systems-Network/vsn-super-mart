@@ -7723,6 +7723,52 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-palo-alto-palo-alto-browser-render",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Palo Alto",
+      "url": "https://palo-alto-theme-main.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "announcement-bar",
+        "featured-collection",
+        "countdown-timer",
+        "faceted-filters",
+        "sorting",
+        "quick-view",
+        "quick-add",
+        "product-card-variants",
+        "size-chart",
+        "sticky-atc",
+        "cart-page",
+        "empty-states",
+        "testimonials",
+        "newsletter-signup"
+      ],
+      "design_signals": [
+        "Fashion home combines seasonal hero, countdown campaign, category mosaic, curated product collections, lookbook editorial and Shop the Look hotspots.",
+        "All Clothing collection shows 304 products with availability, color, size, product-type and price facets and 13-page pagination.",
+        "Sylvia Blazer PDP layers gallery, size/color/quantity controls, stock and sale messaging, fit guidance, cross-sell and review content.",
+        "Empty cart offers several collection destinations and free-shipping reminder."
+      ],
+      "niches": [
+        "fashion-apparel",
+        "accessories"
+      ],
+      "notes": "Official Palo Alto listing View demo opened palo-alto-theme-main.myshopify.com. Four pages inspected read-only in rendered browser. No sort, filter, variant, quick buy, cart or checkout action; no screenshot, viewport/mobile, editor, keyboard or performance testing. Product, discount, stock, review, sustainability and fulfillment statements are unverified sample copy.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, 304-product All Clothing collection, Sylvia Blazer PDP and empty cart; no shopper actions or visual/viewport QA.",
+      "document_verification_status": "accessible",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

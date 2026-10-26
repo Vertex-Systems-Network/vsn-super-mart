@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 10 selected browser-rendered homes are documented (61/127 unique); 40 read-only rendered pages across ten selected presets.",
+  "summary": "51 indexed HTML selected homes and 11 selected browser-rendered homes are documented (62/127 unique); 44 read-only rendered pages across eleven selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4846,11 +4846,73 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-palo-alto-palo-alto-browser-render",
+      "selected_preset_id": "palo-alto:palo-alto",
+      "theme_family": "Palo Alto",
+      "preset": "Palo Alto",
+      "store_url": "https://palo-alto-theme-main.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Palo Alto preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://palo-alto-theme-main.myshopify.com/",
+          "observations": [
+            "Home pairs announcement and 15% sale navigation with fashion hero, countdown promotion, category mosaic, two promotional banners, featured product collection and editorial lookbook modules.",
+            "Further sections include collection edits, testimonials, social/shop-the-look tiles, product hotspots with quick-buy controls, press and client-service FAQs; the footer discloses products are for demo purposes.",
+            "Customer/review counts, discounts, sustainability/material, stock and delivery claims are sample copy and unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/all",
+          "observations": [
+            "All Clothing reports 304 products, category shortcuts, and visible availability, color, size, product-type and price filters; the grid reports 13 pages. No filters, sort or pagination were activated.",
+            "Product cards show product titles, discount badges, price comparisons, color counts, sustainability/material copy and Quick Buy affordances; no card controls were used."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/all/products/itinerary-blazer-ivory",
+          "observations": [
+            "Sylvia Blazer product page displays seven image entries, $220 price, stock status, size guide, XS–XL sizing and White/Checks/Black color choices, quantity stepper and add-to-cart/buy-now controls.",
+            "Page also includes a limited-time offer countdown, fit scale, shipping/returns content, Buy It With cross-sell, customer-review content and You May Also Like/Recently Viewed tabs.",
+            "Stock, sustainability, promotional, shipping, return and review statements were not verified; no variant or cart action was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://palo-alto-theme-main.myshopify.com/cart",
+          "observations": [
+            "Empty cart page says the cart is currently empty and presents New Arrivals, Staff Picks, Bestselling, Sale and Shop All links plus free-shipping copy.",
+            "No item was added and checkout was not opened."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 40,
-    "selected_presets": 10,
-    "unique_selected_homepages_across_all_source_types": 61
+    "pages": 44,
+    "selected_presets": 11,
+    "unique_selected_homepages_across_all_source_types": 62
   }
 }

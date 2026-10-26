@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Stage 2 remains active. Continue with palo-alto:palo-alto. Selected-home coverage is 61/127 (51 indexed HTML plus 10 selected browser-rendered homes); 66 homes remain unobserved across these source types.",
+  "next_action": "Stage 2 remains active. Continue with the next unobserved selected preset after Palo Alto. Coverage is 62/127 (51 indexed HTML plus 11 selected browser-rendered homes); 65 remain.",
   "approvals": {},
   "figma": {
     "file_key": null,

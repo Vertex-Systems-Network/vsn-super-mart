@@ -966,6 +966,18 @@
         "sale campaign, customer testimonials, Instagram gallery and newsletter popup"
       ],
       "design_hypothesis": "Fashion discovery benefits when seasonal campaigns route into coherent category assortments and product fit guidance sits beside size selection. Validate sale, stock, rating and fulfillment copy before launch."
+    },
+    {
+      "id": "shopify-palo-alto-palo-alto-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "announcement and campaign hero with sale countdown",
+        "category mosaic and curated featured collection",
+        "lookbook and collection edits",
+        "shop-the-look product hotspots with quick-buy affordances",
+        "reviews, press, client-service FAQs, newsletter and social gallery"
+      ],
+      "design_hypothesis": "Large fashion stores can combine editorial campaigns with structured category routes and fit support at the PDP. Keep promotional and inventory content tied to verified product data; treat demo testimonials and sustainability claims as unsubstantiated."
     }
   ]
 }
