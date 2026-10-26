@@ -2881,12 +2881,12 @@
       "platform": "shopify",
       "theme": "Local",
       "preset": "Caffeine",
-      "url": "https://themes.shopify.com/themes/local/presets/caffeine",
-      "evidence_level": "official_preset_page",
-      "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset page opened. No storefront interactions were tested.",
+      "url": "https://local-theme-caffeine.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, collection and product; cart drawer only, not standalone cart; no interactions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.",
       "feature_option_ids": [
         "ingredients-nutrition",
         "pickup-availability",
@@ -2894,16 +2894,18 @@
         "image-with-text"
       ],
       "design_signals": [
-        "Individual Local preset: Caffeine; visual fingerprint unverified"
+        "Coffee storefront with promo and delivery copy, Shop/Brew Guides/Locations/Our Story/Contact navigation and pickup entry.",
+        "Roast Perfection hero; Best Sellers/Limited Edition shelves, product flavor/roast text, editorial and brew guide sections, location cards/newsletter.",
+        "Featured coffee section shows roast/taste/brightness storytelling, grind/size options and store pickup; merchant claims unverified."
       ],
       "niches": [
         "food-beverage"
       ],
-      "notes": "Vendor page only, feature IDs are research targets 2026-10-26 browser check: official listing View demo left preview iframe about:blank and button disabled; no destination or homepage was counted.",
+      "notes": "Official preset listing View demo exposed this storefront. Seller-owned content and claims remain unverified.",
       "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
         "cart": "not_verified",
         "mobile": "not_verified"
       }
@@ -3495,12 +3497,12 @@
       "platform": "shopify",
       "theme": "Local",
       "preset": "Lively",
-      "url": "https://themes.shopify.com/themes/local/presets/lively",
-      "evidence_level": "official_preset_page",
-      "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "url": "https://local-theme-lively.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, collection and product, and dedicated empty cart; no interactions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.",
       "feature_option_ids": [
         "ingredients-nutrition",
         "pickup-availability",
@@ -3508,17 +3510,19 @@
         "image-with-text"
       ],
       "design_signals": [
-        "Lively variant of Local; no screenshot fingerprint verified"
+        "Wine categories Red/White/Rosé/Sparkling/Not wine, store pickup and Wine Club entry points.",
+        "Organic Wines hero, featured wine shelves, video/editorial, beer category, Wine Club/events/testimonial and location/store-hours footer.",
+        "Over-18 verification banner visible across pages and left untouched; events and location/product statements are sample copy, unverified."
       ],
       "niches": [
         "food-beverage"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses. 2026-10-26 browser check: official listing View demo left preview iframe about:blank and button disabled; no destination or homepage was counted.",
+      "notes": "Official preset listing View demo exposed this storefront. Seller-owned content and claims remain unverified.",
       "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
