@@ -442,12 +442,12 @@
       "id": "shopify-live-stiletto-linen",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Shoes navigated by category (heels/flats/mules/wedges) and material-neutral colors",
-        "New-arrival tabs, Quick View product shelves and real compare-at labels",
-        "Shoppable outfit, best-seller products, journal and repair/care style storytelling",
-        "Cart drawer source has contextual empty-cart collection suggestions"
+        "Shoes navigated by footwear category and color; New/Best Sellers shelves, Quick View labels and compare-at prices",
+        "Rendered home adds sale/countdown, shop-the-look hotspots, editorial/journal and brand story",
+        "Footwear collection shows 69 results with product type/color/size/price/availability filters and Featured sort",
+        "Teddy Heel PDP shows size choices, size guide, stock copy and care/shipping sections"
       ],
-      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+      "design_hypothesis": "Footwear retail can connect style-category discovery and featured products to size guidance and product care; browser-render only, with no visual screenshot or interactions. Claims about product and fulfillment remain unverified."
     },
     {
       "id": "shopify-live-stiletto-glimmer",
