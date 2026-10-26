@@ -1199,13 +1199,13 @@
     },
     {
       "id": "shopify-expanse",
-      "evidence_level": "live_demo_page",
+      "evidence_level": "official_preset_page",
       "homepage_modules": [
         "Coffee restock hero and category tiles",
         "Coffee bestsellers, Shop the Look, discount promos, outdoor campaign and brand logos",
         "Spring arrivals, pickup/location content, brand-value blocks, journal and newsletters"
       ],
-      "design_hypothesis": "For a large home-goods catalog, combine department navigation and filterable collections with multiple campaign placements, brand discovery, pickup information and editorial content. Browser render only; no interaction or visual QA."
+      "design_hypothesis": "For a large home-goods catalog, combine department navigation and filterable collections with campaign placements, brand discovery, pickup information and editorial content. Supplementary browser-rendered page observations are documented separately; no interaction or visual QA."
     }
   ]
 }
