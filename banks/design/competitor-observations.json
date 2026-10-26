@@ -1048,7 +1048,7 @@
       "design_hypothesis": "Editorial campaign content can add context to category-led fashion browsing; ensure collection routes, fit guidance and product claims remain clear and substantiated."
     },
     {
-      "id": "shopify-impulse-impulse-browser-render",
+      "id": "shopify-live-impulse-default",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
         "linen-focused campaign copy and linked category imagery",
