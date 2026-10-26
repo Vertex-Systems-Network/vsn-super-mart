@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Impulse:Terrain preset listing demo inspected read-only through rendered browser accessibility trees. No shopper interactions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "impulse-terrain-preset-listing",
+      "url": "https://themes.shopify.com/themes/impulse/presets/terrain",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Impulse:Terrain preset listing View demo opened the sports storefront."
+    },
+    {
+      "id": "impulse-terrain-demo",
+      "url": "https://impulse-theme-sports.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-sports.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-sports.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-sports.myshopify.com/products/2016-carbine-expert-build"
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-sports.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "impulse-terrain-sports-discovery",
+      "source_ids": [
+        "impulse-terrain-demo"
+      ],
+      "observed": "Home combines cycling campaign media, featured products, category links and service propositions; All collection exposes 62 products, four facet types, sorting and pagination; PDP presents size controls, specifications and service sections; empty cart includes shopping continuation and product recommendations.",
+      "risk": "No interaction was performed, and product specifications, size fit, stock, recommendations and service copy are not verified.",
+      "vsn_guard": "Test sport-specific filters and fit-selection behavior with real catalog data; substantiate technical, inventory, warranty and delivery claims."
+    },
+    {
+      "id": "impulse-terrain-demo-copy",
+      "source_ids": [
+        "impulse-terrain-demo"
+      ],
+      "observed": "The demo displays model names/specifications, sale and service promotions, testimonial, warranties, shipping and assembly statements.",
+      "risk": "Visible copy includes mixed-era references and merchant claims that have not been validated.",
+      "vsn_guard": "Audit product/story consistency and validate all pricing, promotion timing, reviews, warranties and fulfillment content before reuse."
+    }
+  ]
+}

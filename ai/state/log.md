@@ -1,3 +1,12 @@
+## 2026-10-26 — Batch 36 Impulse:Terrain rendered audit
+
+- Official Impulse:Terrain listing View demo opened impulse-theme-sports.myshopify.com.
+- Read-only rendered browser inspection: home, All collection (62 products), 2016 Carbine Expert Build PDP and empty cart.
+- Added report, source claims, audit entry, one pattern and one observation; updated matrix, counts, progress and handoff.
+- Selected-home coverage is 66/127 (51 indexed HTML + 15 rendered); 60 rendered pages across 15 selected presets. 61 selected homes remain.
+- No shopper interaction, screenshot, viewport/mobile, editor, checkout or performance testing. Product specs and commercial claims unverified; PDP includes mixed demo-era references.
+- Next: continue with next unobserved selected preset, prioritizing tier 1.
+
 ## 2026-10-26 — Batch 35 Local:Thrive rendered audit
 
 - Official Local:Thrive listing View demo opened local-theme-thrive.myshopify.com.

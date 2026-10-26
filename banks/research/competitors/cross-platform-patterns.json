@@ -1699,6 +1699,29 @@
         "empty-states"
       ],
       "design_implication": "Use benefit navigation alongside plain category labels, and place substantiated ingredient information, fulfillment details and product controls near the buying decision. Validate health and efficacy copy before publication."
+    },
+    {
+      "id": "sports-collection-campaign-merchandising",
+      "context": "Sports catalogs combine technical products and category browsing with campaign content and service assurances.",
+      "signals": [
+        "Home pairs video-led campaign storytelling with featured bikes, category routes, service propositions and editorial modules.",
+        "Collection displays count, size/type/price/availability filters, sorting and pagination.",
+        "PDP places size and purchase controls near specifications and shipping/warranty information; cart adds a product discovery shelf."
+      ],
+      "source_entry_ids": [
+        "shopify-impulse-terrain-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-blocks",
+        "related-products",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_implication": "Keep technical specifications and fit choices close to the purchase controls, make collection taxonomy and filters scannable, and substantiate warranties, shipping and inventory claims."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 14 selected browser-rendered homes are documented (65/127 unique); 56 read-only rendered pages across fourteen selected presets.",
+  "summary": "51 indexed HTML selected homes and 15 selected browser-rendered homes are documented (66/127 unique); 60 read-only rendered pages across fifteen selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5095,11 +5095,74 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-impulse-terrain-browser-render",
+      "selected_preset_id": "impulse:terrain",
+      "theme_family": "Impulse",
+      "preset": "Terrain",
+      "store_url": "https://impulse-theme-sports.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Impulse:Terrain preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impulse-theme-sports.myshopify.com/",
+          "observations": [
+            "Announcement promotes free shipping threshold; navigation centers Bikes and supporting About, Blog, FAQ and theme-feature pages, with currency selector and search/cart.",
+            "Home pairs a cycling-video hero with trail-bike featured collection, product story/feature panels, featured collections, service propositions, promotion countdown, testimonial, blog and newsletter.",
+            "Prices, warranties, shipping, assembly and promotion copy are merchant claims and unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://impulse-theme-sports.myshopify.com/collections/all",
+          "observations": [
+            "All collection shows 62 products, with Size, Product Type, Price and Availability filter controls and alphabetical A–Z default sort plus multiple sort choices.",
+            "Trail Bikes, Enduro Bikes, Downhill Bikes and Bike Outlet category links accompany product cards with price, customization affordances and pagination.",
+            "No facets, sort, pagination or product card action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://impulse-theme-sports.myshopify.com/products/2016-carbine-expert-build",
+          "observations": [
+            "2016 Carbine Expert Build PDP shows $3,299 regular price, S/M/L/XL size radios, in-stock copy, Add to Cart and Buy It Now, product image, shipping and question accordions.",
+            "Technical specifications, lifetime-warranty and worldwide-shipping copy, cross-sell recommendations, recently viewed, promotions and video modules appear below.",
+            "Product compatibility/specifications, inventory, warranties, shipping, discounts, review and seller claims are unverified; no controls activated. The page includes mixed/demo-era model references."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://impulse-theme-sports.myshopify.com/cart",
+          "observations": [
+            "Cart page states the cart is currently empty and provides Continue shopping.",
+            "A Popular picks product shelf and additional promotion/trust and newsletter modules appear below; no checkout or cart controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 56,
-    "selected_presets": 14,
-    "unique_selected_homepages_across_all_source_types": 65
+    "pages": 60,
+    "selected_presets": 15,
+    "unique_selected_homepages_across_all_source_types": 66
   }
 }

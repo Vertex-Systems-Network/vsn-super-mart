@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 36 (Impulse:Terrain)
+
+**Done**
+- Inspected official Impulse:Terrain listing-linked storefront: home, All collection, 2016 Carbine Expert Build PDP and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, report and handoff updates.
+- Coverage: 66/127 unique selected homes (51 indexed HTML + 15 rendered); 60 rendered pages across fifteen selected presets. 61 remain.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product specifications, fit and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with next unobserved selected preset, prioritizing tier 1 and keeping evidence classes distinct.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 35 (Local:Thrive)
 
 **Done**

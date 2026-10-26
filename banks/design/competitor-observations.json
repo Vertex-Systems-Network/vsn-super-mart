@@ -1013,6 +1013,17 @@
         "guarantee and newsletter"
       ],
       "design_hypothesis": "Benefit-led navigation and product education may help wellness shoppers compare a wide supplement/coffee range; keep category labels and practical pickup/product details easy to find. Health, efficacy and guarantee claims need substantiation."
+    },
+    {
+      "id": "shopify-impulse-terrain-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "video-led cycling hero and announcement",
+        "featured trail-bike collection",
+        "product feature stories and category links",
+        "service proposition strip, promotion countdown, testimonial, blog and newsletter"
+      ],
+      "design_hypothesis": "High-consideration sport products benefit from visible fit/technical information and service context alongside category discovery. Test whether dense campaign modules obscure product details; verify technical, stock and fulfillment claims."
     }
   ]
 }
