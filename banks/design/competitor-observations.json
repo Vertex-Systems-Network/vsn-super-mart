@@ -462,9 +462,12 @@
         "Minimal gold-tone jewelry editorial, brand heritage and mineral-stone collection navigation",
         "Menu by rings/earrings/necklaces/bracelets and story collections",
         "Regional currency selector across multiple countries and empty drawer copy",
-        "Product shelf with Choose Options vs Add to Cart states"
+        "Product shelf with Choose Options vs Add to Cart states",
+        "Mineral Alliance campaign hero and fine-jewelry category tiles",
+        "Featured/trending jewelry and Shop Your Set",
+        "Design/sourcing stories, artisan workshop, magazine, testimonials and service assurances"
       ],
-      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+      "design_hypothesis": "Fine-jewelry storytelling can connect collection discovery with product details and complementary sets, while sourcing and material claims need clear merchant verification."
     },
     {
       "id": "shopify-live-sleek-wildpeak",
