@@ -1,3 +1,16 @@
+## 2026-10-26 — Shopify rendered demo research Batch 56 (Warehouse:Mesh)
+
+**Done**
+- Inspected the official Warehouse:Mesh listing-linked storefront: home, New Arrivals collection (11 products), Discovery Hybrid Jacket PDP and empty cart using rendered accessibility trees; collection layout was visually inspected by screenshot.
+- Added four rendered page records, source claims, updated the existing Warehouse:Mesh official-listing audit into a rendered-demo audit, added its design observation, expanded the large-catalog pattern, and added report/handoff details.
+- Coverage: 79/127 unique selected homes (51 indexed HTML + 28 additional rendered); 135 rendered pages across 34 selected presets. 48 unique homes remain.
+
+**Limits**
+- No shopper interactions, filters/sort/view/variant/quantity/purchase, screenshot audit, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product and merchant claims remain unverified. Primary indexed-HTML counts remain distinct. Stage 2 stays open.
+
+**Next**
+- Continue with the next unobserved selected preset, preserving evidence-source distinctions.
+
 ## 2026-10-26 — Shopify rendered demo research Batch 55 (Symmetry:Salt Yard)
 
 **Done**
