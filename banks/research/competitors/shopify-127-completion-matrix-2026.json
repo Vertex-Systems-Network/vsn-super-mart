@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 135,
-    "browser_rendered_selected_presets": 34,
+    "browser_rendered_pages": 139,
+    "browser_rendered_selected_presets": 35,
     "distinct_selected_homepages_any_source": 79
   },
   "pending": {
@@ -1253,6 +1253,28 @@
         "Open actual collection URL from storefront navigation",
         "Open actual product URL from storefront navigation",
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://beatnik-5.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses/products/kaka",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://beatnik-5.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
