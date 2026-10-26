@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 151 read-only rendered pages across 38 selected presets.",
+  "summary": "51 indexed HTML selected homes and 28 additional browser-rendered homes are documented (79/127 unique); 155 read-only rendered pages across 39 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -6621,6 +6621,69 @@
           "observations": [
             "Cart page shows zero items and Your cart is empty, with a Continue shopping route to All Products.",
             "Footer repeats design, shipping, support, payment and newsletter areas. Cart state remained unchanged; no checkout action executed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
+    },
+    {
+      "id": "shopify-live-focal-ivory",
+      "selected_preset_id": "focal:ivory",
+      "theme_family": "Focal",
+      "preset": "Ivory",
+      "store_url": "https://focal-theme-ivory.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Focal:Ivory listing View demo plus read-only rendered accessibility-tree inspection and direct public storefront navigation; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://focal-theme-ivory.myshopify.com/",
+          "observations": [
+            "Women/Men fashion home uses campaign hero and a Summer Sale announcement ('up to 60% off'), followed by Shop Essentials with gender tabs and a multi-item product shelf.",
+            "Promotional product cards show sale prices, color counts, new/sold-out badges; an Essentials category grid, lookbook, seasonal Home Sanctuary campaign, sustainability story and a featured dress PDP follow.",
+            "Journal cards, retailer/store details, brand history, service messaging and newsletter complete the page; official demo iframe also showed a 10%-off signup popup. Seller sustainability/shipping/store claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://focal-theme-ivory.myshopify.com/collections/outerwear",
+          "observations": [
+            "Outerwear category starts with cross-category image links and an 8-product grid; default sort is Best selling.",
+            "Visible facet groups are Color, Size, Price, Product type and Availability; item cards show sale/regular pricing, color counts, SAVE 50% and SOLD OUT labels.",
+            "A New Arrivals shelf with Quick View controls follows the grid, then category copy and shared service promises. No filter, sort, Quick View or product action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://focal-theme-ivory.myshopify.com/products/evaline-e54-blazer",
+          "observations": [
+            "Evaline e54 Blazer displays $40 sale / $80 regular (SAVE 50%), one Black color, size options 34–42, a size chart disclosure and zero reviews.",
+            "Six product images, Add to Cart and Buy It Now controls, description/sustainability tabs, shipping/payment/service disclosures and Complete the Look product recommendations are visible.",
+            "Page labels itself a demo store and links to Minimum for the real product. Material, sustainability, fulfillment and price claims are unverified; no variant, size chart, add-on or purchase control activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://focal-theme-ivory.myshopify.com/cart",
+          "observations": [
+            "Cart page reads Your cart is empty and offers Start Shopping to All Products.",
+            "Service rows repeat free shipping, customer service, secure payment and contact details; cart state remained unchanged and no checkout action executed."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
