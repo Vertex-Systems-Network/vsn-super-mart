@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Stage 2 active. Batch79 rendered Stiletto:Tapestry home, All collection (32 results), Wine Cup PDP and empty cart. Unique-home coverage remains 86/127 because home was already indexed; rendered evidence is 218 pages across 55 presets; 41 remain. Indexed totals unchanged. Continue Motion:Motion (rank 56), which has no indexed home and may add unique-home coverage if its preview is verified.",
+  "next_action": "Stage 2 active. Batch79 rendered Stiletto:Tapestry home, All collection (32 results), Wine Cup PDP and empty cart. Batch80 attempted Motion:Motion (rank 56), but the fresh Theme Store preview remained about:blank and View demo click exceeded the browser deadline; no host or coverage was claimed. Current total remains 86/127 unique homes, 218 rendered pages across 55 presets, 41 remaining. Indexed totals remain 51/38/40/11. Resume Motion when browser controls respond.",
   "approvals": {},
   "figma": {
     "file_key": null,
