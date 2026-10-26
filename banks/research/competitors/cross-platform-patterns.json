@@ -2218,6 +2218,28 @@
         "empty-states"
       ],
       "design_implication": "Keep availability, fit guidance and collection/pickup expectations adjacent to variant selection, then connect product discovery to original editorial and sustainability content."
+    },
+    {
+      "id": "eyewear-product-guidance-and-material-story",
+      "context": "Eyewear stores have product decisions that depend on lens, fit and prescription details alongside style.",
+      "signals": [
+        "Collection uses color and product-type filters",
+        "PDP displays lens-protection rating, color choices and optional prescription input",
+        "Fit, technical specs and shipping disclosures are grouped with product information",
+        "Material and impact narratives appear adjacent to commerce and editorial content"
+      ],
+      "source_entry_ids": [
+        "shopify-symmetry-beatnik"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "sorting",
+        "product-blocks",
+        "variant-picker-styles",
+        "size-chart",
+        "related-products"
+      ],
+      "design_implication": "Make eyewear-specific protection, fit and prescription information easy to find alongside color and purchase controls, and keep provenance claims clearly identified."
     }
   ]
 }
