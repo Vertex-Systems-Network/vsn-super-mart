@@ -227,3 +227,13 @@
 - Homepage already indexed; coverage stays 79/127 (51 indexed HTML + 28 additional rendered); rendered count 151 pages / 38 presets; 48 homes remain.
 - Product, inventory, technical specification, shipping and review statements remain merchant claims; no screenshot or viewport/mobile/editor/checkout/keyboard/performance tests.
 - Next: continue next unobserved selected preset.
+
+
+## 2026-10-26 — Batch 61 Focal:Ivory rendered audit
+
+- Official Shopify Focal:Ivory listing View demo opened focal-theme-ivory.myshopify.com.
+- Read-only rendered inspection: home, eight-product Outerwear collection, Evaline e54 Blazer PDP and empty cart.
+- Added four rendered observations; updated matrix, audit coverage, design observation, Focal editorial pattern, progress and report/source claims.
+- Existing indexed homepage kept distinct; coverage remains 79/127 (51 indexed HTML + 28 additional rendered); rendered total 155 pages / 39 presets; 48 homes remain.
+- No filter/sort/Quick View/size/variant/purchase/cart action, screenshot or viewport/mobile/editor/checkout/keyboard/performance test; merchant claims unverified.
+- Next: continue next unobserved selected preset.
