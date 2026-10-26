@@ -8547,6 +8547,125 @@
         "Home and gifts storefront with four-slide Made to Last / Everyday Celebrations / Cook a Five Star Meal / Outdoor Oasis hero.",
         "Promo tiles, mixed category Deals of the Week shelf, countdown module, featured variant/quantity product, trending collections, gift price thresholds, shoppable-image hotspots, testimonial/service rows and blog/newsletter."
       ]
+    },
+    {
+      "id": "shopify-live-sleek-sleek",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Sleek",
+      "feature_option_ids": [
+        "featured-collection",
+        "product-tabs",
+        "bundle-display",
+        "faceted-filters",
+        "sorting",
+        "variant-picker-styles",
+        "cart-page",
+        "empty-states"
+      ],
+      "niches": [
+        "beauty-cosmetics merchandising"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "url": "https://sleek-theme-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Read-only browser accessibility-tree inspection of homepage, collection, product and dedicated cart. No controls activated; no screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "notes": "Official Shopify listing iframe src led to this storefront. Merchant and product content remains demo copy.",
+      "design_signals": [
+        "Beauty/cosmetics homepage with multi-slide hero; Whats Hot, Best sellers and Sale product tabs; three-item bundle with Add All To Cart; press testimonials; category/story modules; ingredient/brand-value content; featured product rows, reviews, FAQ and newsletter.",
+        "Skincare collection reports 23 products; facets for availability (21 in stock, 2 out), price, size and product type; A–Z sort shown. Grid cards were not visible in the accessibility snapshot; controls untouched.",
+        "Protective Day Oil PDP shows $99, 50ml selector, displayed stock 994, quantity/Add/Buy controls, ingredient and information accordions, testimonials. No actions.",
+        "Dedicated cart route is empty; suggested accessory, makeup, skincare and cheek collections."
+      ]
+    },
+    {
+      "id": "shopify-live-sleek-modiva",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Modiva",
+      "feature_option_ids": [
+        "shop-by-room",
+        "shop-the-look",
+        "image-comparison",
+        "faceted-filters",
+        "sorting",
+        "variant-picker-styles",
+        "pickup-availability",
+        "cart-page"
+      ],
+      "niches": [
+        "furniture-interior editorial merchandising"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "url": "https://sleek-modiva.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Read-only browser accessibility-tree inspection of homepage, collection, product and dedicated cart. No controls activated; no screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "notes": "Official Shopify listing iframe src led to this storefront. Merchant and product content remains demo copy.",
+      "design_signals": [
+        "Furniture/interior homepage presents shop-by-room/category navigation, Embrace Vision hero, room stories, product tabs, Shop the Room, before/after image comparison, design-editorial stories, product quick views and showroom/editorial content.",
+        "Best Sellers collection reports 12 products; Product type, Color, Material, Size and Availability facets (12 in stock, 1 out) plus Featured sort. Product grid was blank in accessibility snapshot; controls untouched.",
+        "Parlour Club Chair PDP shows $699/$999, stock 11, Beige/Black/Orange color choices, quantity/Add/Buy controls, pickup availability, details accordions and reviews. Product copy appears mismatched with the furniture item; record as demo-copy inconsistency, not a verified product claim.",
+        "Dedicated cart route is empty with collection suggestions."
+      ]
+    },
+    {
+      "id": "shopify-live-sleek-glint",
+      "platform": "shopify",
+      "theme": "Sleek",
+      "preset": "Glint",
+      "feature_option_ids": [
+        "campaign-slides",
+        "collection-list",
+        "shop-the-look",
+        "bundle-display",
+        "faceted-filters",
+        "sorting",
+        "pagination",
+        "complementary-products",
+        "cart-page",
+        "empty-states"
+      ],
+      "niches": [
+        "garden-workwear hybrid merchandising"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "url": "https://sleek-glint.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Read-only browser accessibility-tree inspection of homepage, collection, product and dedicated cart. No controls activated; no screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "notes": "Official Shopify listing iframe src led to this storefront. Merchant and product content remains demo copy.",
+      "design_signals": [
+        "Home/garden/workwear hybrid homepage uses garden-bed campaign slides, Planting Essentials/Harvesting Gear/Garden Goods category rails, shoppable lookbook, linen copy, bundle promo, reviews, store locator/contact and newsletter. Mixed apparel and gardening content.",
+        "Shop All reports 70 products, facets for Product type, Price, Color, Size and Availability (70 in stock, 0 out), Best selling sort and pagination through page 5. Facet labels mix gardening tools and apparel; controls untouched.",
+        "Kennith Pant PDP reached through a visible homepage product link despite the short slug; page shows pickup availability and complementary/related products. Captured AX tree included pickup region and accessory suggestions; full price/variant details were not retained in this checkpoint, so details remain unverified.",
+        "Dedicated cart route is empty and recommends Accessories, Jackets & Coats, Bottoms and T-shirts collections."
+      ]
     }
   ],
   "discovery_sources": [
