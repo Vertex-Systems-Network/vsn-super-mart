@@ -1,7 +1,7 @@
 {
   "version": 1,
   "observed_on": "2026-10-26",
-  "scope": "Official Shopify Broadcast:Stellar preset listing View demo inspected read-only via rendered browser accessibility tree for home and Sunscreen collection only. Browser connector disconnected before PDP/cart. No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+  "scope": "Official Shopify Broadcast:Stellar preset listing View demo inspected read-only via rendered browser accessibility tree. Home, Sunscreen collection, SPF 30 Lotion PDP and empty cart inspected. No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
   "sources": [
     {
       "id": "broadcast-stellar-preset-listing",
@@ -23,6 +23,14 @@
         {
           "kind": "collection",
           "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen"
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen/products/spf-30-lotion"
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-stellar.myshopify.com/cart"
         }
       ]
     }
@@ -45,6 +53,15 @@
       "observed": "Footer explicitly states the storefront is a theme demo and products are not for sale.",
       "risk": "PDP and cart were not inspected; no purchase functionality should be inferred from the collection display.",
       "vsn_guard": "Keep demonstration status clear and avoid assuming product or checkout claims represent a live merchant."
+    },
+    {
+      "id": "stellar-spf-pdp-and-empty-cart",
+      "source_ids": [
+        "shopify-broadcast-stellar-browser-render"
+      ],
+      "observed": "SPF 30 Lotion PDP provides two sizes, quantity and purchase affordances with product/benefits/ingredients sections; both sizes appeared unavailable. Empty cart offers Continue Shopping and demo-only notice.",
+      "risk": "No variants, quantity or cart action tested; SPF/health/ingredient/inventory claims are unverified and demo products are not for sale.",
+      "vsn_guard": "Make SPF, format, ingredient and stock information clear and substantiated; keep cart recovery distinct from demo content."
     }
   ]
 }

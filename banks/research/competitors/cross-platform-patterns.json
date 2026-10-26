@@ -1880,7 +1880,9 @@
       "signals": [
         "Home uses seasonal sun-care hero, lotion/spray routes, SPF-for-every-body copy, ingredient and brand-story modules.",
         "11-product Sunscreen collection groups lotions, gels, sprays and bundles, with price/availability signals, sort entry, pagination and a Find Your SPF tile.",
-        "Footer explicitly says products are demo-only and not for sale; PDP and cart remain uninspected."
+        "Footer explicitly says products are demo-only and not for sale; PDP and cart remain uninspected.",
+        "SPF 30 Lotion PDP groups 100ml/946ml choices, quantity, low-stock copy, benefits/ingredients disclosures and usage details; both sizes were labeled unavailable.",
+        "Empty cart provides Continue Shopping and repeats demo-only product status."
       ],
       "source_entry_ids": [
         "shopify-broadcast-stellar-browser-render"
@@ -1891,9 +1893,16 @@
         "sorting",
         "product-card-variants",
         "promo-banner-section",
-        "newsletter-signup"
+        "newsletter-signup",
+        "product-blocks",
+        "product-card-variants",
+        "inventory-status",
+        "quantity-selector",
+        "cart-page",
+        "empty-states",
+        "related-products"
       ],
-      "design_implication": "Help shoppers compare sun-care formats and SPF levels through clear category routes, while verifying product protection and ingredient claims. Do not mistake a theme demo's content for validated health guidance."
+      "design_implication": "Help shoppers compare sun-care formats and SPF levels through clear category routes and PDP ingredient/benefit information; keep option availability synchronized with stock, and substantiate product protection claims. Clearly label demo-only storefront content."
     }
   ]
 }

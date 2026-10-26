@@ -17,7 +17,7 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 85,
+    "browser_rendered_pages": 87,
     "browser_rendered_selected_presets": 22,
     "distinct_selected_homepages_any_source": 72
   },
@@ -1572,15 +1572,14 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_partial_browser_render_readonly",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Only home and Sunscreen collection inspected; browser connector disconnected before PDP/cart",
-        "No sort, pagination or product actions executed",
-        "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance tests",
-        "Health, SPF, ingredient, dermatology, shipping, discount and seller claims unverified"
+        "No sort, pagination, quick-add, variant, cart or checkout actions executed",
+        "No screenshot or measured viewport/mobile; no Theme Editor, keyboard or performance tests",
+        "SPF, health, ingredient, dermatology, shipping, discount, inventory and seller claims unverified"
       ],
       "next_action": [
-        "Inspect a Stellar PDP and cart when rendered browser access is available"
+        "Continue with next unobserved selected preset"
       ],
       "browser_render_observations": [
         {
@@ -1591,6 +1590,16 @@
         {
           "kind": "collection",
           "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen/products/spf-30-lotion",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-stellar.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         }
       ]

@@ -5537,7 +5537,7 @@
       "store_url": "https://broadcast-stellar.myshopify.com/",
       "observed_on": "2026-10-26",
       "source_class": "browser_render_readonly",
-      "capture_method": "Official Shopify Broadcast:Stellar preset listing View demo plus read-only rendered browser accessibility-tree inspection of home and Sunscreen collection; browser connection then disconnected before PDP/cart inspection.",
+      "capture_method": "Official Shopify Broadcast:Stellar preset listing View demo plus read-only rendered browser accessibility-tree inspection of home, Sunscreen collection, SPF 30 Lotion PDP and empty cart; no screenshot or viewport measurement.",
       "pages": [
         {
           "kind": "home",
@@ -5564,12 +5564,38 @@
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen/products/spf-30-lotion",
+          "observations": [
+            "SPF 30 Lotion PDP shows $50, low-inventory copy, 100ml and 946ml size options, quantity selector and Add to Cart.",
+            "What is it, Features, Benefits and Ingredients disclosures appear before All Skin Types/usage details; editorial, SPF comparison FAQ and related-product modules follow.",
+            "Both size options were labeled sold out or unavailable. No quantity, variant or purchase control was activated; SPF, skin, ingredient, inventory and performance claims are seller copy and unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-stellar.myshopify.com/cart",
+          "observations": [
+            "Cart states Your Cart is Empty and presents a Continue Shopping link to the product collection.",
+            "Footer repeats Shop category routes and states that demo products are not for sale.",
+            "No cart action or checkout was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
         }
       ]
     }
   ],
   "browser_render_counts": {
-    "pages": 85,
+    "pages": 87,
     "selected_presets": 22,
     "unique_selected_homepages_across_all_source_types": 72
   }

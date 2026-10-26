@@ -467,9 +467,9 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Next: continue next unobserved selected preset.
 
 
-## Shopify live-demo research — Batch 43 (partial)
-- Broadcast:Stellar official View demo resolved to broadcast-stellar.myshopify.com. Rendered home and 11-product Sunscreen collection inspected; footer says demo products are not for sale. Browser connector disconnected before PDP/cart.
-- Coverage: 72/127 unique selected homes (51 indexed HTML + 21 additional rendered); 85 rendered pages across 22 presets; 55 homes remain.
+## Shopify live-demo research — Batch 43
+- Broadcast:Stellar official View demo resolved to broadcast-stellar.myshopify.com. Rendered home, 11-product Sunscreen collection, SPF 30 Lotion PDP and empty cart inspected; footer says demo products are not for sale. PDP sizes appeared unavailable. PDP and cart later inspected after browser connection recovered.
+- Coverage: 72/127 unique selected homes (51 indexed HTML + 21 additional rendered); 87 rendered pages across 22 presets; 55 homes remain.
 - Report: `banks/research/competitors/shopify-live-demo-batch43-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch43-2026.json`.
-- No collection actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. SPF and seller claims unverified.
-- Next: continue next unobserved preset; retry Stellar PDP/cart only if browser rendering access returns.
+- No collection/PDP/cart actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. SPF and seller claims unverified.
+- Next: continue next unobserved preset; continue with next unobserved selected preset.
