@@ -540,3 +540,10 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Official selected preset View demo opened `https://prestige-theme-strass2.myshopify.com/`; home, 14-product Necklaces collection, Mineral Alliance Green Aventurine necklace PDP and empty cart inspected read-only.
 - Strass homepage already existed in indexed HTML evidence; four rendered pages added. Coverage is 78/127 unique homes, 123 rendered pages across 31 presets; 49 remain.
 - Evidence/report: `banks/research/competitors/shopify-live-demo-batch53-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
+
+
+## Batch 54 — Prestige:Signature (2026-10-26)
+
+- Official selected preset View demo opened `https://prestige-theme-signature.myshopify.com/`; home, 13-product Pumps collection, Simone Pumps 110 PDP and empty cart inspected read-only.
+- Signature homepage already existed in indexed HTML evidence; four rendered pages added. Coverage 78/127 unique homes, 127 rendered pages across 32 presets; 49 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch54-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
