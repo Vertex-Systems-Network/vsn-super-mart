@@ -1365,6 +1365,30 @@
         "Homepage product modules visibly include quick-view controls, bundle selector, stock indicators, review graphics and plant-care content; no actions performed."
       ],
       "design_hypothesis": "Treat observed sections as merchandising patterns and inspect screenshots across devices before making visual conclusions."
+    },
+    {
+      "id": "shopify-live-sleek-sleek",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Beauty/cosmetics homepage with multi-slide hero; Whats Hot, Best sellers and Sale product tabs; three-item bundle with Add All To Cart; press testimonials; category/story modules; ingredient/brand-value content; featured product rows, reviews, FAQ and newsletter."
+      ],
+      "design_hypothesis": "Use category storytelling, product discovery and modular merchandising as patterns; validate rendered appearance and responsive behavior before adopting."
+    },
+    {
+      "id": "shopify-live-sleek-modiva",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Furniture/interior homepage presents shop-by-room/category navigation, Embrace Vision hero, room stories, product tabs, Shop the Room, before/after image comparison, design-editorial stories, product quick views and showroom/editorial content."
+      ],
+      "design_hypothesis": "Use category storytelling, product discovery and modular merchandising as patterns; validate rendered appearance and responsive behavior before adopting."
+    },
+    {
+      "id": "shopify-live-sleek-glint",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Home/garden/workwear hybrid homepage uses garden-bed campaign slides, Planting Essentials/Harvesting Gear/Garden Goods category rails, shoppable lookbook, linen copy, bundle promo, reviews, store locator/contact and newsletter. Mixed apparel and gardening content."
+      ],
+      "design_hypothesis": "Use category storytelling, product discovery and modular merchandising as patterns; validate rendered appearance and responsive behavior before adopting."
     }
   ]
 }
