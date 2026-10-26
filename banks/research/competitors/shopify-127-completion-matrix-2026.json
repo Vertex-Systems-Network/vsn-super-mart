@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 245,
-    "browser_rendered_selected_presets": 62,
-    "distinct_selected_homepages_any_source": 93
+    "browser_rendered_pages": 252,
+    "browser_rendered_selected_presets": 64,
+    "distinct_selected_homepages_any_source": 95
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 34
+    "home_any_source": 32
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -3709,13 +3709,34 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
-        "No collection/PDP/cart/browser or editor tests"
+        "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified."
       ],
       "next_action": [
-        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
+        "Continue remaining selected presets in rank order."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://empire-theme-graphic.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://empire-theme-graphic.myshopify.com/collections/living-room",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://empire-theme-graphic.myshopify.com/products/turning-table",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://empire-theme-graphic.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
@@ -3878,13 +3899,29 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "Official listing View demo was opened in browser, but the preview iframe remained about:blank and the button disabled; storefront destination could not be verified (2026-10-26).",
-        "No collection/PDP/cart/browser or editor tests"
+        "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified."
       ],
       "next_action": [
-        "Retry only when the official listing preview renders a verifiable destination; until then keep this preset uncounted for homepage coverage."
+        "Continue remaining selected presets in rank order."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://beyours-theme.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://beyours-theme.myshopify.com/collections/all",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://beyours-theme.myshopify.com/collections/all/products/money-tree",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
