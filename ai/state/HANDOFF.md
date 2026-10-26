@@ -629,3 +629,17 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 61 (Focal:Ivory)
+
+**Done**
+- Opened official Focal:Ivory listing View demo and inspected home, Outerwear collection (8 products/five facet groups), Evaline e54 Blazer PDP and empty cart read-only.
+- Updated rendered evidence, matrix, audit coverage, design observation, Focal editorial pattern, progress and source/report files.
+- Homepage already existed in indexed HTML; coverage stays 79/127 (51 indexed HTML + 28 additional rendered); rendered total 155 pages across 39 presets; 48 homes remain.
+
+**Limits**
+- No shopping-control actions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing; merchant claims unverified.
+
+**Next**
+- Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure.
