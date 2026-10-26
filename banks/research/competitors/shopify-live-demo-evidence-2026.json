@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 30 additional browser-rendered homes are documented (81/127 unique); 175 read-only rendered pages across 44 selected presets.",
+  "summary": "51 indexed HTML selected homes and 31 additional browser-rendered homes are documented (82/127 unique); 179 read-only rendered pages across 45 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -7026,11 +7026,77 @@
         "No screenshot, mobile viewport, Theme Editor, keyboard or performance tests.",
         "Product, material, sustainability, stock, shipping, returns, authenticity and seller statements unverified."
       ]
+    },
+    {
+      "id": "shopify-expanse-spritz",
+      "selected_preset_id": "expanse:spritz",
+      "theme_family": "Expanse",
+      "preset": "Spritz",
+      "store_url": "https://expanse-theme-food-and-drink.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Expanse:Spritz listing iframe src read from rendered DOM after View demo; opened verified storefront and inspected via accessibility tree. Host also appears in an older historical nonselected entry; official listing resolves it as current Spritz preview.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/",
+          "observations": [
+            "Food/drink storefront has Shop, Recipes, Our Story and FAQ navigation; hero promotes organic wine; Organic Wines and New Arrivals product shelves, bubbly giveaway/countdown, British-tradition feature and non-alcoholic drink category links.",
+            "Homepage also shows $100 free-shipping threshold, Everleaf aperitif feature, recipes/testimonials, non-alcoholic wine shelf, brand directory, gift cards, newsletters, signature recipes and supplier provenance statement.",
+            "This host also appears in a historical nonselected record; the official Spritz listing iframe currently resolves to it. No shopper controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine",
+          "observations": [
+            "Everything. Organic Wine has 5 products, Price/Brand/Availability filters, Best selling sort and Large/Small/List controls.",
+            "Cards show Organic Collection vendor, $129 pricing and add-to-cart/quick-shop controls. Giveaway and sustainability/seasonal promo blocks follow. No controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher",
+          "observations": [
+            "Organico Lemon Refresher 750ml PDP displays $129, in-stock/ready-to-ship, Free worldwide shipping, Alcohol-free, Organic ingredients and Secure payments copy.",
+            "Product has gallery/zoom, Add to cart, Description/Shipping/Ask a question sections, free-giveaway/countdown and vendor/collection recommendations. Claims unverified; no controls activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/cart",
+          "observations": [
+            "Header cart drawer states that the cart is currently empty; no dedicated cart page opened and no cart mutation or checkout."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "This host was previously cataloged as a historical nonselected demo; the official Spritz listing now verified the selected preset mapping.",
+        "No filter, sort, density, quick-shop, add-to-cart, cart or checkout actions.",
+        "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests.",
+        "Product, alcohol-free, organic, inventory, shipping and gift-promotion claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 175,
-    "selected_presets": 44,
-    "unique_selected_homepages_across_all_source_types": 81
+    "pages": 179,
+    "selected_presets": 45,
+    "unique_selected_homepages_across_all_source_types": 82
   }
 }
