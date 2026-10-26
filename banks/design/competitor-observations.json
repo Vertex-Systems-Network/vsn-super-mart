@@ -1241,6 +1241,17 @@
         "Shipping threshold, gift cards, testimonials and newsletters"
       ],
       "design_hypothesis": "Food and beverage stores can align category and brand discovery with seasonal merchandising, recipe/editorial content, supplier provenance and shipping thresholds. Host match is verified through the official preset listing; browser-render only."
+    },
+    {
+      "id": "shopify-local-soleway",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Timberland hero and footwear category tiles",
+        "Men's bestseller/new arrival and accessory/clothing promotions",
+        "Product features and store pickup/delivery entry points",
+        "Local retail story, announcement discounts and newsletter/footer"
+      ],
+      "design_hypothesis": "Footwear retail can connect style-category discovery and featured gear to size/width guidance and store availability, with pickup and delivery access visible across the journey. Browser-render only; product and fulfillment claims are unverified."
     }
   ]
 }
