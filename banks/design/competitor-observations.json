@@ -365,9 +365,14 @@
         "Department navigation by Furniture, Lifestyle and Room with promotional category tiles",
         "Search field with All categories selector; brand directory and new arrivals",
         "Featured collection shows per-product stock messages, 1 left, back in stock, restocking, variant prices",
-        "Featured teapot block has SKU, review indicator, colour and Add to cart markup"
+        "Featured teapot block has SKU, review indicator, colour and Add to cart markup",
+        "Nordic design hero and brand identity",
+        "Department/category tiles and brand directory",
+        "Featured collection with price and inventory cues",
+        "Featured PDP and sales/promotional shelves",
+        "Newsletter, blog and service/footer content"
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "For home-goods stores with broad assortments, make brand and room/category discovery visible before dense product shelves; keep stock, discount, and variant cues on cards, then reinforce discovery with a concrete featured product and editorial trust content. Rendered structure only; interactions and visual QA were not tested."
     },
     {
       "id": "shopify-live-focal-ivory",
@@ -1187,18 +1192,6 @@
         "Delivery, trust and newsletter modules"
       ],
       "design_hypothesis": "For extensive gear catalogs, pair activity and brand taxonomies with collection filters and view density controls; brand storytelling and stock/sale cues help orient product discovery. Rendered content only; no interaction or visual QA."
-    },
-    {
-      "id": "shopify-live-warehouse-wood",
-      "evidence_level": "live_demo_page",
-      "homepage_modules": [
-        "Nordic design hero and brand identity",
-        "Department/category tiles and brand directory",
-        "Featured collection with price and inventory cues",
-        "Featured PDP and sales/promotional shelves",
-        "Newsletter, blog and service/footer content"
-      ],
-      "design_hypothesis": "For home-goods stores with broad assortments, make brand and room/category discovery visible before dense product shelves; keep stock, discount, and variant cues on cards, then reinforce discovery with a concrete featured product and editorial trust content. Rendered structure only; interactions and visual QA were not tested."
     }
   ]
 }
