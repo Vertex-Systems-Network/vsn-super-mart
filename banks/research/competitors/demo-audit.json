@@ -5657,8 +5657,8 @@
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_indexed_demo_html_accessible",
-      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "document_verification_status": "public_indexed_demo_html_accessible_and_browser_rendered",
+      "document_verification_scope": "Indexed public homepage and cart, plus browser-rendered home, Earrings collection, Double Météorites Stud Earrings PDP and empty cart inspected read-only on 2026-10-26; no interactions, screenshot, mobile/editor/checkout or performance tests.",
       "feature_option_ids": [
         "mega-menu",
         "image-banner",
@@ -5676,11 +5676,11 @@
       "niches": [
         "jewelry-editorial-collection-story"
       ],
-      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "notes": "Official listing iframe src verified from rendered DOM; browser-rendered collection and PDP are recorded separately from indexed-document fields.",
       "page_coverage": {
         "home": "document_only",
-        "collection": "not_verified",
-        "product": "not_verified",
+        "collection": "document_only",
+        "product": "document_only",
         "cart": "document_only",
         "mobile": "not_verified"
       }
