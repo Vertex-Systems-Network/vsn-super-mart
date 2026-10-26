@@ -993,6 +993,18 @@
       "next_action": [
         "Retry cart inspection when browser is available",
         "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://chantilly.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://chantilly.myshopify.com/collections/all",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
