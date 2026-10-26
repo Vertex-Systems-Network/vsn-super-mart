@@ -1206,6 +1206,17 @@
         "Spring arrivals, pickup/location content, brand-value blocks, journal and newsletters"
       ],
       "design_hypothesis": "For a large home-goods catalog, combine department navigation and filterable collections with campaign placements, brand discovery, pickup information and editorial content. Supplementary browser-rendered page observations are documented separately; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-expanse-revive",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Tinted SPF hero and bestsellers",
+        "Skincare category tiles, holiday gift promo and Shop the Look",
+        "Testimonials, brand/editorial shelves and salon/spa provenance",
+        "Free-shipping message, pickup/location information, journal and newsletter"
+      ],
+      "design_hypothesis": "Beauty storefronts can combine product-led campaigns, category discovery and service/locality cues with editorial storytelling and transparent product provenance. Supplementary browser render only; no interaction or visual QA."
     }
   ]
 }
