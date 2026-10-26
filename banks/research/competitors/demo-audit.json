@@ -3034,38 +3034,6 @@
       }
     },
     {
-      "id": "shopify-symmetry-duke",
-      "platform": "shopify",
-      "theme": "Symmetry",
-      "preset": "Duke",
-      "url": "https://themes.shopify.com/themes/symmetry/presets/duke",
-      "evidence_level": "official_preset_page",
-      "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
-      "feature_option_ids": [
-        "featured-collection",
-        "theme-styles-presets",
-        "product-card-variants",
-        "section-presets"
-      ],
-      "design_signals": [
-        "Duke variant of Symmetry; no screenshot fingerprint verified"
-      ],
-      "niches": [
-        "fashion-apparel"
-      ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
-      "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
-        "mobile": "not_verified"
-      }
-    },
-    {
       "id": "shopify-symmetry-amara",
       "platform": "shopify",
       "theme": "Symmetry",
@@ -5768,40 +5736,39 @@
       "preset": "Duke",
       "url": "https://duke-16.myshopify.com/",
       "evidence_level": "live_demo_page",
-      "opened_on": "2026-10-25",
-      "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_indexed_demo_html_accessible",
-      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "opened_on": "2026-10-26",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "public_rendered_demo_accessible",
+      "document_verification_scope": "Official listing-linked public storefront inspected read-only across home, collection, PDP and cart; no interactions, screenshot or viewport/mobile QA.",
       "feature_option_ids": [
-        "collection-list",
         "featured-collection",
-        "card-swatches",
-        "pre-order",
-        "free-shipping-bar",
+        "theme-styles-presets",
+        "product-card-variants",
+        "section-presets",
+        "mega-menu",
         "faceted-filters",
         "sorting",
-        "pagination-modes",
-        "card-badges",
-        "product-blocks",
-        "variant-picker-styles",
+        "pre-order",
         "inventory-status",
+        "free-shipping-bar",
         "related-products",
-        "collapsible-tabs"
+        "cart-page",
+        "empty-states",
+        "countdown-timer"
       ],
       "design_signals": [
-        "skate-shop-inventory-preorder",
-        "Skateboard and apparel category hero with inventory states: preorder/sold-out/new arrival",
-        "Product shelves include color swatches and three-in-stock labels"
+        "skateboard-artist-editorial-preorder",
+        "Skate campaign, deck/apparel shelves, preorder and sold-out states, featured artist deck and collaborations"
       ],
       "niches": [
-        "skate-shop-inventory-preorder"
+        "skateboard-artist-editorial-preorder"
       ],
-      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "notes": "Batch 58 read-only rendered browser evidence added; homepage/collection/PDP were previously indexed separately.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
         "product": "document_only",
-        "cart": "not_verified",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
