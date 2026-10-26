@@ -399,7 +399,7 @@
         "grocery-supermarket",
         "electronics-gadgets"
       ],
-      "notes": "",
+      "notes": "Official listing and indexed source observations remain as documented here. Supplemental read-only browser rendering of home, Planters collection, Trigg Wall Vessel PDP and empty cart drawer is recorded in banks/research/competitors/shopify-live-demo-evidence-2026.json; browser evidence does not alter indexed-document page coverage.",
       "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
       "document_verification_status": "official_listing",
       "document_verified_on": "2026-10-25",
