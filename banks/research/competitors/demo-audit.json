@@ -5221,7 +5221,7 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Public live demo Shopify HTML pages inspected; no executed cart, checkout, mobile or theme editor testing.",
+      "document_verification_scope": "Public demo HTML and direct browser-rendered read-only page structures inspected; no executed cart, checkout, mobile, Theme Editor or performance testing.",
       "feature_option_ids": [
         "mega-menu",
         "quick-view",
@@ -5240,7 +5240,7 @@
       "niches": [
         "hardware-large-inventory"
       ],
-      "notes": "Page URLs and evidence in shopify-live-demo-evidence-2026.json. Do not treat static document as interaction proof.",
+      "notes": "Page URLs and evidence in shopify-live-demo-evidence-2026.json. Do not treat static document as interaction proof. Batch72: home, By Category directory, Compact Impact Wrench PDP and empty cart inspected in rendered browser; separate observations in shopify-live-demo-evidence-2026.json. Existing primary HTML count semantics are unchanged.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
