@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 191,
-    "browser_rendered_selected_presets": 48,
+    "browser_rendered_pages": 195,
+    "browser_rendered_selected_presets": 49,
     "distinct_selected_homepages_any_source": 83
   },
   "pending": {
@@ -3540,14 +3540,36 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "cart",
-        "no interactive/mobile/editor/test access"
+        "No shopper controls, filters, sorting, quantity, purchase or checkout actions",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
+        "Seller certification, order-volume, product, inventory, shipping and fulfillment claims unverified"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Continue next unobserved selected preset; retain indexed and rendered source classes separately."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://empire-theme-depot.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://empire-theme-depot.myshopify.com/collections/by-category",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://empire-theme-depot.myshopify.com/products/battery-operated-compact-impact-wrench-1-2-inch-detent-pin-tool-only",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://empire-theme-depot.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
