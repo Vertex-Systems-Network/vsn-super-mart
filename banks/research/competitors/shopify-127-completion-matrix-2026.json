@@ -6296,12 +6296,14 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "official_listing_plus_browser_render_readonly",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "This recheck refreshes the already counted Ignite:Ignite observation; rendered page and preset counters remain unchanged.",
+        "No filters, compare, variants, gallery, cart or purchase actions; no screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests.",
+        "Visible product, inventory, technical, pricing, review and seller claims remain unverified; content mismatches were noted."
       ],
       "next_action": [
-        "Continue with the next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Continue remaining selected presets; keep all product claims and untested shopper actions pending."
       ],
       "browser_render_observations": [
         {
@@ -6311,12 +6313,12 @@
         },
         {
           "kind": "collection",
-          "url": "https://benchmark-electronics-demo.myshopify.com/collections/smart-tech",
+          "url": "https://benchmark-electronics-demo.myshopify.com/collections/phones",
           "evidence_class": "browser_render_readonly"
         },
         {
           "kind": "product",
-          "url": "https://benchmark-electronics-demo.myshopify.com/collections/smart-tech/products/pixa-9",
+          "url": "https://benchmark-electronics-demo.myshopify.com/products/pixa-9",
           "evidence_class": "browser_render_readonly"
         },
         {
