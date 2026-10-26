@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 202,
-    "browser_rendered_selected_presets": 51,
-    "distinct_selected_homepages_any_source": 85
+    "browser_rendered_pages": 206,
+    "browser_rendered_selected_presets": 52,
+    "distinct_selected_homepages_any_source": 86
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 42
+    "home_any_source": 41
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -3965,14 +3965,36 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No filters, sorting, Quick View, product options, cart mutation or checkout actions executed.",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
+        "Seller material, sourcing, sustainability, stock, shipping and store claims remain unverified."
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/stiletto/presets/luster",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unobserved selected preset and keep rendered evidence separate from indexed HTML page coverage."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://stiletto-theme-luster.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry/products/the-rivi-ring",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://stiletto-theme-luster.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
