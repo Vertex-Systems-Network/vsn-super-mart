@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 40 additional browser-rendered homes are documented (91/127 unique); 237 read-only rendered pages across 60 selected presets.",
+  "summary": "51 indexed HTML selected homes and 42 additional browser-rendered homes are documented (93/127 unique); 245 read-only rendered pages across 62 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -4669,14 +4669,202 @@
         "No screenshot, viewport/mobile, editor, keyboard or performance tests.",
         "Merchant wine, stock, event, location and regulatory statements unverified."
       ]
+    },
+    {
+      "id": "shopify-live-empire-empire",
+      "preset": "Empire",
+      "family": "Empire",
+      "catalog_preset_id": "empire:empire",
+      "selected_127": true,
+      "focus": "multicategory-home-goods-merchandising",
+      "homepage": {
+        "url": "https://empire-theme-supply.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Home and gifts storefront with four-slide Made to Last / Everyday Celebrations / Cook a Five Star Meal / Outdoor Oasis hero.",
+          "Promo tiles, mixed category Deals of the Week shelf, countdown module, featured variant/quantity product, trending collections, gift price thresholds, shoppable-image hotspots, testimonial/service rows and blog/newsletter."
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "collection-list",
+          "image-with-text",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "hero",
+          "product-grid",
+          "collection-list",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Clearance Sale includes Availability, Price, Colors, Product type filters, Featured sort, compare and grid/list controls; 28 in stock / 2 out of stock, paginated cards."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-compare",
+          "product-card"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "compare",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale/products/circuit-racer-magnetic-block-set",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Circuit Racer Magnetic Block Set PDP shows five-image gallery, $56/$47.99, Only 1 left, quantity/Add, demo copy and shipping/returns accordions; no controls used."
+        ],
+        "option_ids": [
+          "product-gallery",
+          "quantity-selector",
+          "buy-buttons",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "quantity",
+          "buy-buttons"
+        ]
+      },
+      "cart": {
+        "url": "https://empire-theme-supply.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart is empty with continue shopping and a clearance promo/free-shipping message."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "No filters, sort, compare, variants, quantity, cart mutation or checkout actions.",
+        "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
+        "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
+      ]
+    },
+    {
+      "id": "shopify-live-empire-circuit",
+      "preset": "Circuit",
+      "family": "Empire",
+      "catalog_preset_id": "empire:circuit",
+      "selected_127": true,
+      "focus": "electronics-catalog-category-navigation-product-spotlight",
+      "homepage": {
+        "url": "https://empire-theme-industrial.myshopify.com/",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Electronics storefront with new arrivals, Clearance/About/Blog/FAQ nav, shipping/pickup/service rows and hero for drone products.",
+          "Trending category rail, deals/new-arrivals shelves, product-card color options, shoppable product hotspot section, featured product detail with color/quantity controls, review/testimonial and search/newsletter."
+        ],
+        "option_ids": [
+          "mega-menu",
+          "featured-collection",
+          "collection-list",
+          "image-with-text",
+          "newsletter-signup"
+        ],
+        "element_ids": [
+          "mega-menu",
+          "hero",
+          "product-grid",
+          "collection-list",
+          "newsletter"
+        ]
+      },
+      "collection": {
+        "url": "https://empire-theme-industrial.myshopify.com/collections/new-arrivals",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "New Arrivals organizes products under Smart Home, Drones, Cameras, Lenses, Turntables, Smartwatches and Health Monitors; cards expose price, stock, review and swatch copy."
+        ],
+        "option_ids": [
+          "faceted-filters",
+          "sorting",
+          "product-compare",
+          "product-card"
+        ],
+        "element_ids": [
+          "facets",
+          "sort",
+          "compare",
+          "product-card"
+        ]
+      },
+      "product": {
+        "url": "https://empire-theme-industrial.myshopify.com/products/osmo-mobile-handheld-mount",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Osmo Mobile Handheld Mount PDP shows five-image gallery, $599, stock copy, quantity/Add/Buy, product story, FAQ-style details and reviews; controls untouched."
+        ],
+        "option_ids": [
+          "product-gallery",
+          "quantity-selector",
+          "buy-buttons",
+          "product-blocks"
+        ],
+        "element_ids": [
+          "product-gallery",
+          "quantity",
+          "buy-buttons"
+        ]
+      },
+      "cart": {
+        "url": "https://empire-theme-industrial.myshopify.com/cart",
+        "observed_on": "2026-10-27",
+        "verification": "browser_render_readonly",
+        "signals": [
+          "Dedicated cart reports empty and shows free-shipping/demo-store messaging and continue shopping."
+        ],
+        "option_ids": [
+          "cart-page",
+          "empty-states"
+        ],
+        "element_ids": [
+          "cart-lines",
+          "cart-summary"
+        ]
+      },
+      "interactive_tested": false,
+      "mobile_render_tested": false,
+      "editor_tested": false,
+      "unverified": [
+        "No filters, sort, compare, variants, quantity, cart mutation or checkout actions.",
+        "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
+        "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
+      ]
     }
   ],
   "counts": {
-    "opened_stores": 60,
-    "opened_home": 60,
-    "opened_collection": 47,
-    "opened_product": 48,
-    "opened_empty_cart": 15,
+    "opened_stores": 62,
+    "opened_home": 62,
+    "opened_collection": 49,
+    "opened_product": 50,
+    "opened_empty_cart": 17,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -8515,11 +8703,135 @@
         "No screenshot, viewport/mobile, editor, keyboard or performance tests.",
         "Merchant wine, stock, event, location and regulatory statements unverified."
       ]
+    },
+    {
+      "id": "shopify-live-empire-empire-rendered",
+      "selected_preset_id": "empire:empire",
+      "theme_family": "Empire",
+      "preset": "Empire",
+      "store_url": "https://empire-theme-supply.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Shopify preset listing, clicked visible View demo, read iframe src, then inspected destination. Collection, product and cart routes were followed from visible storefront links. Read only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://empire-theme-supply.myshopify.com/",
+          "observations": [
+            "Home and gifts storefront with four-slide Made to Last / Everyday Celebrations / Cook a Five Star Meal / Outdoor Oasis hero.",
+            "Promo tiles, mixed category Deals of the Week shelf, countdown module, featured variant/quantity product, trending collections, gift price thresholds, shoppable-image hotspots, testimonial/service rows and blog/newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale",
+          "observations": [
+            "Clearance Sale includes Availability, Price, Colors, Product type filters, Featured sort, compare and grid/list controls; 28 in stock / 2 out of stock, paginated cards."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale/products/circuit-racer-magnetic-block-set",
+          "observations": [
+            "Circuit Racer Magnetic Block Set PDP shows five-image gallery, $56/$47.99, Only 1 left, quantity/Add, demo copy and shipping/returns accordions; no controls used."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://empire-theme-supply.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart is empty with continue shopping and a clearance promo/free-shipping message."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, compare, variants, quantity, cart mutation or checkout actions.",
+        "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
+        "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
+      ]
+    },
+    {
+      "id": "shopify-live-empire-circuit-rendered",
+      "selected_preset_id": "empire:circuit",
+      "theme_family": "Empire",
+      "preset": "Circuit",
+      "store_url": "https://empire-theme-industrial.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Shopify preset listing, clicked visible View demo, read iframe src, then inspected destination. Collection, product and cart routes were followed from visible storefront links. Read only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://empire-theme-industrial.myshopify.com/",
+          "observations": [
+            "Electronics storefront with new arrivals, Clearance/About/Blog/FAQ nav, shipping/pickup/service rows and hero for drone products.",
+            "Trending category rail, deals/new-arrivals shelves, product-card color options, shoppable product hotspot section, featured product detail with color/quantity controls, review/testimonial and search/newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://empire-theme-industrial.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "New Arrivals organizes products under Smart Home, Drones, Cameras, Lenses, Turntables, Smartwatches and Health Monitors; cards expose price, stock, review and swatch copy."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://empire-theme-industrial.myshopify.com/products/osmo-mobile-handheld-mount",
+          "observations": [
+            "Osmo Mobile Handheld Mount PDP shows five-image gallery, $599, stock copy, quantity/Add/Buy, product story, FAQ-style details and reviews; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://empire-theme-industrial.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart reports empty and shows free-shipping/demo-store messaging and continue shopping."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, compare, variants, quantity, cart mutation or checkout actions.",
+        "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
+        "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 237,
-    "selected_presets": 60,
-    "unique_selected_homepages_across_all_source_types": 91
+    "pages": 245,
+    "selected_presets": 62,
+    "unique_selected_homepages_across_all_source_types": 93
   }
 }
