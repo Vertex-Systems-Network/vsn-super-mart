@@ -5811,17 +5811,15 @@
       "theme_family": "Vision",
       "preset": "Vision",
       "store_url": "https://vision-main.myshopify.com/",
-      "observed_on": "2026-10-26",
+      "observed_on": "2026-10-27",
       "source_class": "browser_render_readonly",
-      "capture_method": "Official Shopify Vision preset listing View demo and read-only rendered accessibility-tree inspection; no screenshot or viewport measurement.",
+      "capture_method": "Reopened the official Shopify Vision listing; read exact iframe src and inspected current rendered pages read-only on 2026-10-27.",
       "pages": [
         {
           "kind": "home",
           "url": "https://vision-main.myshopify.com/",
           "observations": [
-            "Three-slide smart-home hero leads into promotions and a best-seller shelf with category tabs, variants, ratings, stock and preorder states.",
-            "Additional home modules present automation/security education, product and category stories, brand logos, customer quotes, editorial posts, support claims and newsletter.",
-            "Merchant ratings, stock, shipping and performance claims remain unverified sample content."
+            "Smart-home homepage has free-shipping/returns/promo bars, smart-device hero slides, accessory discount tiles, category-switchable Bestsellers with swatches/ratings/stock, automations and security education, brand and category rails, customer reviews, news and newsletter. Some story copy and sample claims look generic or inconsistent; not independently verified."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5830,11 +5828,9 @@
         },
         {
           "kind": "collection",
-          "url": "https://vision-main.myshopify.com/collections/all",
+          "url": "https://vision-main.myshopify.com/collections/doorbells",
           "observations": [
-            "All Products collection reports 20 products with availability, brand, price and color facets; sort and compare controls are visible.",
-            "Cards show compare checkboxes, variant colors, ratings, stock and badges; collection shortcuts lead to Doorbells, Speakers, Thermostats, Cameras and Smartwatches.",
-            "No facet, sort or compare action was executed."
+            "Doorbells collection reports 20 products; Availability, Brand, Price and Color facets; Featured sort, Compare checkboxes and pagination. Cards mix speakers, cameras, watches, bulbs and locks despite Doorbells title, with a smart-watch editorial tile. A Compare products overlay appeared in the page AX tree without an intentional action; no controls were used."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5843,11 +5839,9 @@
         },
         {
           "kind": "product",
-          "url": "https://vision-main.myshopify.com/collections/all/products/yale-indoor-wifi-smart-camera-pan-tilt",
+          "url": "https://vision-main.myshopify.com/products/smart-home-speaker-with-google-assistant",
           "observations": [
-            "Smart camera PDP shows gallery, price, review rating, color/material selectors, quantity, sample inventory and Add to cart/Buy it now controls.",
-            "Product specifications table, shipping/returns/compatibility panels, promotional code, paired products and related items are present.",
-            "The demo explicitly says goods are not offered for purchase; claims/specs were not independently validated and no actions were performed."
+            "Smart Home Speaker PDP shows $82, a three-image gallery, color and material choices, quantity, Add/Buy buttons, pros/cons, tabs/spec sections and FAQs. The intro description refers to a peephole camera, conflicting with the product title; tech/spec content also mixes unrelated home-security topics. Claims remain unverified."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -5858,15 +5852,18 @@
           "kind": "cart",
           "url": "https://vision-main.myshopify.com/cart",
           "observations": [
-            "Empty cart has a Continue shopping route and a recently viewed product module.",
-            "Footer includes company/resources links, newsletter signup and payment icons.",
-            "No item was added or checkout opened."
+            "Dedicated empty cart says Your cart is empty, with continue-shopping prompt and standard footer/newsletter/payment icons."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
         }
+      ],
+      "limits": [
+        "Refreshed observation of a storefront already included in the rendered totals; counters intentionally unchanged.",
+        "Read-only; no filters, sort, compare, variants, quantity, purchase, cart or checkout actions; no screenshot, mobile viewport, Theme Editor, keyboard or performance test.",
+        "Catalog/PDP content mismatch and all merchant product, availability, efficacy and service claims are unverified."
       ]
     },
     {
