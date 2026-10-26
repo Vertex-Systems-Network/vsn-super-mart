@@ -8311,6 +8311,52 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-impact-cocoon-browser-render",
+      "platform": "shopify",
+      "theme": "Impact",
+      "preset": "Cocoon",
+      "url": "https://impact-theme-home.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "product-blocks",
+        "inventory-status",
+        "related-products",
+        "product-compare",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "product-reviews-slot"
+      ],
+      "design_signals": [
+        "Home decor storefront connects designer collaborations and room-refresh campaign to new arrivals, collection discovery, color stories and designer editorial.",
+        "New Arrivals collection uses filters, Featured sort and In stock only with product color swatches and ratings.",
+        "PC Portable Lamp PDP presents color-linked products, sold-out state, review link and design/LED-life story; empty cart has a simple Continue shopping route."
+      ],
+      "niches": [
+        "home",
+        "lighting",
+        "furniture",
+        "design"
+      ],
+      "notes": "Official Shopify Impact:Cocoon View demo opened impact-theme-home.myshopify.com. Home, New Arrivals collection, PC Portable Lamp Olive Green PDP and empty cart inspected read-only. No filters/sort/swatch/purchase/cart/checkout actions; no screenshot, viewport/mobile, editor, keyboard or performance tests. Lamp showed Sold Out in observed page; claims, reviews and product life span unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, New Arrivals collection, PC Portable Lamp PDP and empty cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

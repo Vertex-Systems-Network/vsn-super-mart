@@ -489,3 +489,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch45-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch45-2026.json`.
 - No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller claims unverified.
 - Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 46
+- Official Impact:Cocoon View demo opened impact-theme-home.myshopify.com. Inspected rendered home, New Arrivals collection, PC Portable Lamp PDP and empty cart read-only. Selected lamp showed Sold Out.
+- Coverage: 75/127 unique selected homes (51 indexed HTML + 24 additional rendered); 99 rendered pages across 25 presets; 52 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch46-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch46-2026.json`.
+- No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller and durability claims unverified.
+- Next: continue next unobserved selected preset.

@@ -5,7 +5,7 @@
   "method": "Indexed public HTML evidence and direct rendered browser observations are maintained as separate source classes; interactions are counted only after execution.",
   "reason": "Live-demo page documents accessible through public web, but GUI interactions, rendering and screenshot comparison remain unverified. Former Figma Stage 6 superseded; entirely new design planned later.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "batch45_enterprise_homestead_rendered",
+  "status": "batch46_impact_cocoon_rendered",
   "checks": [
     "demo_entry_url",
     "home",
@@ -85,9 +85,9 @@
     "live_product_verified": 40,
     "live_cart_verified": 11,
     "live_mobile_verified": 0,
-    "browser_rendered_pages": 95,
-    "browser_rendered_selected_presets": 24,
-    "selected_home_observed_any_source": 74
+    "browser_rendered_pages": 99,
+    "browser_rendered_selected_presets": 25,
+    "selected_home_observed_any_source": 75
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -102,6 +102,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch45-2026.md",
-  "next_action": "Continue with next unobserved selected preset; coverage is 74/127 unique homes (51 indexed HTML + 23 additional rendered), 95 rendered pages across 24 presets. 53 unique selected homes remain."
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch46-2026.md",
+  "next_action": "Continue with next unobserved selected preset; coverage is 75/127 selected homepages (51 indexed HTML + 24 additional rendered homes), 99 rendered pages across 25 presets. 52 unique homes remain."
 }

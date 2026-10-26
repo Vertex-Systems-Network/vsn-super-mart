@@ -1119,6 +1119,17 @@
         "brand story, editorial posts and newsletter"
       ],
       "design_hypothesis": "Room-led storytelling can make a broad home catalog easier to browse when supported by category, filter, grid/list and comparison tools. Keep product details, stock and service information accurate."
+    },
+    {
+      "id": "shopify-impact-cocoon-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "designer-collaboration announcement and room-refresh hero",
+        "New Arrivals shelf and Explore the Collections",
+        "design/editorial stories and Shop the Room",
+        "designer profiles, color discovery and newsletter"
+      ],
+      "design_hypothesis": "Designer and room storytelling can frame contemporary home product discovery. Use color and in-stock filtering to connect stories to available products; substantiate durability and technical claims."
     }
   ]
 }

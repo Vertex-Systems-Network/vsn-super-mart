@@ -1956,6 +1956,31 @@
         "empty-states"
       ],
       "design_implication": "Help shoppers move from room inspiration to product type and compare options at high catalog scale. Keep stock and product specs current and distinguish genuine comparison from cross-sells."
+    },
+    {
+      "id": "cocoon-designer-led-room-discovery",
+      "context": "Design-led home retailers can guide discovery through designer stories, room inspiration and color-based product browsing.",
+      "signals": [
+        "Home connects designer collaborations, room-refresh hero, new arrivals and room/collection editorial.",
+        "New Arrivals collection exposes filters and in-stock control with color swatches and rating cues.",
+        "Portable lamp PDP links six color versions, product-design details and replaceable LED life-span copy; selected variant appeared sold out. Empty cart returns shoppers to products."
+      ],
+      "source_entry_ids": [
+        "shopify-impact-cocoon-browser-render"
+      ],
+      "option_ids": [
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-card-variants",
+        "product-blocks",
+        "inventory-status",
+        "related-products",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_implication": "Use room and designer stories to organize broad home collections, then provide useful color and availability choices. Substantiate product performance and durability claims and show out-of-stock states clearly."
     }
   ]
 }

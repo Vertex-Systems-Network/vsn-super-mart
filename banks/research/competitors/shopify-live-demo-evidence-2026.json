@@ -5719,11 +5719,75 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-impact-cocoon-browser-render",
+      "selected_preset_id": "impact:cocoon",
+      "theme_family": "Impact",
+      "preset": "Cocoon",
+      "store_url": "https://impact-theme-home.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Impact:Cocoon preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impact-theme-home.myshopify.com/",
+          "observations": [
+            "Official Shopify Impact:Cocoon View demo opened impact-theme-home.myshopify.com.",
+            "Home-decor and lighting storefront uses a designer collaboration announcement, Shop/Designers navigation, room-refresh hero, New Arrivals, room/collection inspiration, designer stories, curated color/product rails and newsletter.",
+            "Merchandising emphasizes design access, contemporary interiors, rooms and designer collaborations; product/service statements are merchant copy."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://impact-theme-home.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "New Arrivals collection includes filters, Featured default sort and an In stock only checkbox.",
+            "Cards show product names, color swatches, ratings and products across kitchen/office/interior categories; selected first surfaced item Salt & Pepper.",
+            "No filter, sort, availability, swatch or product action was activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://impact-theme-home.myshopify.com/products/hay-pc-portable-lamp-olive-green",
+          "observations": [
+            "PC Portable Lamp (Olive Green) PDP shows $78 sale price, Sold Out, rating link, six color routes and product-design storytelling about portable use and replaceable LED rated for 25,000 hours.",
+            "The page includes color availability context, design details, Shop by Color, related products and designer bio/story links.",
+            "No color, purchase or other controls were activated; price, stock, rating, product-life and design claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://impact-theme-home.myshopify.com/cart",
+          "observations": [
+            "Cart states Your cart is empty and offers Continue shopping.",
+            "Footer links to Office, Lighting, Kitchen, Decoration and Books plus designer profiles, About, FAQ and Contact.",
+            "No cart action or checkout was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 95,
-    "selected_presets": 24,
-    "unique_selected_homepages_across_all_source_types": 74
+    "pages": 99,
+    "selected_presets": 25,
+    "unique_selected_homepages_across_all_source_types": 75
   }
 }
