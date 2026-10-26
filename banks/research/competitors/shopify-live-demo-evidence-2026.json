@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-26",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 35 additional browser-rendered homes are documented (86/127 unique); 214 read-only rendered pages across 54 selected presets.",
+  "summary": "51 indexed HTML selected homes and 35 additional browser-rendered homes are documented (86/127 unique); 218 read-only rendered pages across 55 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -7679,11 +7679,78 @@
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
         "Merchant product, ingredients, efficacy, inventory, sustainability, fulfillment and promotion claims are unverified."
       ]
+    },
+    {
+      "id": "shopify-live-stiletto-tapestry-rendered",
+      "selected_preset_id": "stiletto:tapestry",
+      "theme_family": "Stiletto",
+      "preset": "Tapestry",
+      "store_url": "https://stiletto-theme-tapestry.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Stiletto:Tapestry listing, read preview iframe src and followed its redirect to STO Tapestry; followed visible Shop link to collection, collection product link to PDP, and observed cart href to the cart page. No screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/",
+          "observations": [
+            "Ceramics homepage opens with class availability notice, unique ceramics/product hero and handmade/one-of-a-kind messaging.",
+            "Sections connect pottery and lighting stories to Shop by Category, dinnerware shelves, shoppable look hotspots, weekly pottery-class details, customer testimonial, yearly seconds sale, journal, studio location/hours and newsletter.",
+            "Footer attributes demo product content to Tav Ceramics; address and class schedule are demo copy, not verified business facts."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all",
+          "observations": [
+            "All products collection lists 32 results, Best selling sort and Price/Availability filters; product cards show color choices and price states.",
+            "No filters, sort or cards were activated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all/products/wine-cup-anthracite",
+          "observations": [
+            "Wine Cup | Anthracite PDP shows $48 compare-at/$40 sale (17% off), Anthracite/Stone links, quantity control, in-stock copy and Add to Bag.",
+            "Details list wheel-thrown stoneware, 200 ml capacity, 9 cm x 7 cm dimensions, dishwasher/microwave care, product-description disclosure to Tav Ceramics and care/shipping accordions. No controls used; all seller claims remain unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart reports Your cart is empty and There are no items in your cart, with Continue Shopping and studio/company/newsletter footer content.",
+            "No cart mutation or checkout."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Tapestry homepage was already indexed; browser-rendered home adds no unique-home credit.",
+        "No filters, sort, product option, quantity, cart mutation or checkout actions.",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+        "Seller product, stock, safety, shipping, location, class and provenance claims remain unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 214,
-    "selected_presets": 54,
+    "pages": 218,
+    "selected_presets": 55,
     "unique_selected_homepages_across_all_source_types": 86
   }
 }
