@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 155,
-    "browser_rendered_selected_presets": 39,
+    "browser_rendered_pages": 159,
+    "browser_rendered_selected_presets": 40,
     "distinct_selected_homepages_any_source": 79
   },
   "pending": {
@@ -2571,18 +2571,18 @@
           "indexed_crawl_recency": "2 months"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-wood.myshopify.com/collections/tableware",
           "indexed_crawl_recency": null
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot",
           "indexed_crawl_recency": null
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-wood.myshopify.com/cart",
           "indexed_crawl_recency": null
         }
       },
@@ -2594,18 +2594,37 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "collection",
-        "product",
-        "cart",
-        "no interactive/mobile/editor/test access"
+        "No filter, sort, pagination, grid/list, variant, quantity, add-to-cart, or checkout actions executed",
+        "No screenshot or measured viewport/mobile render",
+        "No Theme Editor, keyboard or performance testing",
+        "Seller price, inventory, reviews, shipping and fulfillment claims unverified"
       ],
       "next_action": [
-        "Open actual collection URL from storefront navigation",
-        "Open actual product URL from storefront navigation",
-        "Open actual cart URL from storefront navigation"
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://warehouse-theme-wood.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://warehouse-theme-wood.myshopify.com/collections/tableware",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://warehouse-theme-wood.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
