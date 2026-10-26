@@ -17,8 +17,8 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 210,
-    "browser_rendered_selected_presets": 53,
+    "browser_rendered_pages": 214,
+    "browser_rendered_selected_presets": 54,
     "distinct_selected_homepages_any_source": 86
   },
   "pending": {
@@ -4111,16 +4111,36 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "product",
-        "cart",
-        "no interactive/mobile/editor/test access"
+        "No filters, sorting, Quick View, variants, quantity, cart mutation or checkout actions executed.",
+        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
+        "Seller efficacy, ingredients, inventory, sustainability and promotion claims remain unverified."
       ],
       "next_action": [
-        "Open actual product URL from storefront navigation",
-        "Open actual cart URL from storefront navigation"
+        "Continue with next unobserved selected preset; do not add unique-home credit because Glimmer home was already indexed."
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/collections/face",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/collections/face/products/marula-face-oil",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
