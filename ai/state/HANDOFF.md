@@ -654,3 +654,14 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue with a selected preset whose public storefront can be independently verified; do not infer a demo host from the theme name.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 63 (Warehouse:Wood)
+
+**Done**
+- Verified the official listing's demo iframe source and inspected homepage, Tableware collection (46 products/four filters), Amelia Tea Pot PDP and empty cart read-only.
+- Homepage was already indexed, so coverage remains 79/127 unique; rendered evidence grows to 159 pages across 40 presets; 48 unique homes remain.
+- No interaction, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.
+
+**Next**
+- Continue next unobserved preset; verify actual store host from official listing/primary evidence.
