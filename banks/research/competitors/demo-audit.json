@@ -8216,6 +8216,54 @@
         "cart": "document_only",
         "mobile": "not_verified"
       }
+    },
+    {
+      "id": "shopify-enterprise-outlet-browser-render",
+      "platform": "shopify",
+      "theme": "Enterprise",
+      "preset": "Outlet",
+      "url": "https://enterprise-theme-active.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-26",
+      "feature_option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-compare",
+        "product-card-variants",
+        "quick-add",
+        "product-blocks",
+        "related-products",
+        "cart-page",
+        "empty-states",
+        "newsletter-signup",
+        "product-reviews-slot",
+        "product-badges-trust"
+      ],
+      "design_signals": [
+        "Adventure/outdoor homepage links product departments and activity categories to sale merchandising, athlete stories, editorial and membership content.",
+        "819-product Shop All collection provides filter/sort and grid/list entry, Compare checkboxes, color variants, badges, ratings and add/choose-option affordances.",
+        "Chalk PDP structures description/specifications/reviews with quantity, Add to Cart and Goes Well With recommendations; empty cart adds a Before You Go carousel."
+      ],
+      "niches": [
+        "outdoor",
+        "sports",
+        "apparel",
+        "large-catalog"
+      ],
+      "notes": "Official Shopify Enterprise:Outlet View demo opened enterprise-theme-active.myshopify.com. Home, 819-item Shop All collection, 514g Eco Gold Chalk Honnold Edition PDP and empty cart inspected read-only. No filters/sort/layout/compare/quantity/cart/checkout actions; no screenshot, viewport/mobile, editor, keyboard or performance tests. Product, supplier, athlete, review, price, stock, discount and shipping claims unverified.",
+      "document_verified_on": "2026-10-26",
+      "document_verification_status": "accessible",
+      "document_verification_scope": "Rendered browser accessibility-tree inspection of home, Shop All collection, chalk PDP and empty cart; no shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      }
     }
   ],
   "discovery_sources": [

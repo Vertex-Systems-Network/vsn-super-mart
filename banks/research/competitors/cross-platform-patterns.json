@@ -1903,6 +1903,33 @@
         "related-products"
       ],
       "design_implication": "Help shoppers compare sun-care formats and SPF levels through clear category routes and PDP ingredient/benefit information; keep option availability synchronized with stock, and substantiate product protection claims. Clearly label demo-only storefront content."
+    },
+    {
+      "id": "enterprise-outdoor-catalog-controls-and-adventure-story",
+      "context": "Outdoor specialty retailers can pair activity-led storytelling with deep equipment catalogs and technical product information.",
+      "signals": [
+        "Home links adventure campaign and activity paths to apparel/equipment, sale, athlete content, stories and membership signup.",
+        "819-product Shop All collection exposes filter/sort, grid/list view, compare, variants and card-state affordances across climbing/running/hiking/snow categories.",
+        "PDP provides product description, specifications and reviews with quantity/purchase CTA and cross-sells; empty cart retains a Before You Go carousel."
+      ],
+      "source_entry_ids": [
+        "shopify-enterprise-outlet-browser-render"
+      ],
+      "option_ids": [
+        "mega-menu",
+        "featured-collection",
+        "collection-list",
+        "faceted-filters",
+        "sorting",
+        "product-compare",
+        "product-card-variants",
+        "quick-add",
+        "product-blocks",
+        "related-products",
+        "cart-page",
+        "empty-states"
+      ],
+      "design_implication": "For large outdoor catalogs, keep activity categories and technical attributes easy to scan; make comparison and grid/list controls optional aids, and keep cross-sells relevant to specific gear."
     }
   ]
 }

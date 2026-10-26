@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 87,
-    "browser_rendered_selected_presets": 22,
-    "distinct_selected_homepages_any_source": 72
+    "browser_rendered_pages": 91,
+    "browser_rendered_selected_presets": 23,
+    "distinct_selected_homepages_any_source": 73
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 55
+    "home_any_source": 54
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -1714,14 +1714,36 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No filter, sort, grid/list, compare, quantity or cart actions executed",
+        "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
+        "Product, supplier, athlete, inventory, ratings, shipping, discounts and other merchant claims unverified"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/enterprise/presets/outlet",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unobserved selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://enterprise-theme-active.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all/products/514g-eco-gold-chalk-honnold-edition",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://enterprise-theme-active.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {

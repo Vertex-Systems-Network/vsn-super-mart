@@ -1096,6 +1096,18 @@
         "editorial, press, social and newsletter"
       ],
       "design_hypothesis": "Sun-care storefronts can link seasonal campaigns to practical category/format discovery. PDP should make SPF, format, ingredients and availability easy to compare; health-related product claims need evidence. Empty cart should retain a clear path to shopping, while demo status remains explicit."
+    },
+    {
+      "id": "shopify-enterprise-outlet-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Adventure Awaits campaign hero and sale code",
+        "activity and department routes across apparel/equipment",
+        "product rails and category merchandising",
+        "athlete stories, journal/video content and social feed",
+        "shipping/returns propositions and member signup"
+      ],
+      "design_hypothesis": "Adventure storytelling can connect gear to activity needs. Large catalogs benefit from meaningful activity paths, compare and layout controls, with technical PDP information and relevant cross-sells."
     }
   ]
 }

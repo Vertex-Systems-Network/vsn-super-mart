@@ -473,3 +473,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Report: `banks/research/competitors/shopify-live-demo-batch43-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch43-2026.json`.
 - No collection/PDP/cart actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. SPF and seller claims unverified.
 - Next: continue next unobserved preset; continue with next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 44
+- Official Enterprise:Outlet View demo opened enterprise-theme-active.myshopify.com. Inspected rendered home, 819-product Shop All collection, chalk PDP and empty cart read-only.
+- Coverage: 73/127 unique selected homes (51 indexed HTML + 22 additional rendered); 91 rendered pages across 23 presets; 54 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch44-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch44-2026.json`.
+- No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller claims unverified.
+- Next: continue next unobserved selected preset.

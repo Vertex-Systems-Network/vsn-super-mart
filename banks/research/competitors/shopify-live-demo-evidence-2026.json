@@ -5592,11 +5592,74 @@
           "viewport_dimensions_measured": false
         }
       ]
+    },
+    {
+      "id": "shopify-enterprise-outlet-browser-render",
+      "selected_preset_id": "enterprise:outlet",
+      "theme_family": "Enterprise",
+      "preset": "Outlet",
+      "store_url": "https://enterprise-theme-active.myshopify.com/",
+      "observed_on": "2026-10-26",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify Enterprise:Outlet preset listing View demo plus read-only rendered browser accessibility-tree inspection; no screenshot or viewport measurement.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://enterprise-theme-active.myshopify.com/",
+          "observations": [
+            "Official Shopify Enterprise:Outlet View demo opened enterprise-theme-active.myshopify.com.",
+            "Outdoor/adventure storefront uses returns and shipping notices, a New Season Sale code, Shop/Experience/About/Athletes/Stories navigation and an Adventure Awaits hero.",
+            "Home merchandises men's/women's apparel and outdoor equipment with climbing, running, hiking and snow categories, promotional product rails, athlete features, editorial stories, Instagram themes and membership signup."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all",
+          "observations": [
+            "All Products collection reports 819 products, category routes for climbing/running/hiking/snow sports, Filter, Sort by and Grid/List view controls.",
+            "Product cards include Compare checkboxes, ratings, athlete-pick and sale badges, color options, Add to Cart/Choose Options controls; no filters, sorting, layout, compare or product actions were activated.",
+            "Dense, cross-category catalog is organized under a high-volume retail theme; inventory and promotional content unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all/products/514g-eco-gold-chalk-honnold-edition",
+          "observations": [
+            "514g Eco Gold Chalk - Honnold Edition PDP shows $37.95, quantity control, Add to Cart, supplier-brand link and Goes Well With cross-sells.",
+            "Product information is structured under Description, Specifications and Reviews (2), followed by related chalk/product recommendations.",
+            "No quantity or cart action was performed; athlete, product, supplier and review claims are unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://enterprise-theme-active.myshopify.com/cart",
+          "observations": [
+            "Cart states Your cart is empty, offers Start Shopping and a Before You Go... recommendation carousel linking to shop-all.",
+            "No cart action or checkout was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 87,
-    "selected_presets": 22,
-    "unique_selected_homepages_across_all_source_types": 72
+    "pages": 91,
+    "selected_presets": 23,
+    "unique_selected_homepages_across_all_source_types": 73
   }
 }
