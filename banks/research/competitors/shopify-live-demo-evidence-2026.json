@@ -4201,11 +4201,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 56,
-    "opened_home": 56,
-    "opened_collection": 43,
-    "opened_product": 44,
-    "opened_empty_cart": 12,
+    "opened_stores": 55,
+    "opened_home": 55,
+    "opened_collection": 42,
+    "opened_product": 43,
+    "opened_empty_cart": 11,
     "interactive_events_tested": 0
   },
   "caveats": [
