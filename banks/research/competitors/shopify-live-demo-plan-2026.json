@@ -5,7 +5,7 @@
   "method": "Indexed public HTML evidence and direct rendered browser observations are maintained as separate source classes; interactions are counted only after execution.",
   "reason": "Live-demo page documents accessible through public web, but GUI interactions, rendering and screenshot comparison remain unverified. Former Figma Stage 6 superseded; entirely new design planned later.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "batch79_stiletto_tapestry_browser_rendered_existing_home",
+  "status": "batch80_motion_preview_blank_unverified",
   "checks": [
     "demo_entry_url",
     "home",
@@ -104,6 +104,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch79-2026.md",
-  "next_action": "Continue with Motion:Motion (selected rank 56). This preset has no indexed homepage, so a directly verified preview would add unique-home credit."
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch80-2026.md",
+  "next_action": "Resume with Motion:Motion (selected rank 56). Batch80 fresh listing tab showed the preview iframe as about:blank; one View demo click failed before dispatch on browser deadline, so no storefront or coverage was claimed. Continue from batch80 after browser controls recover."
 }
