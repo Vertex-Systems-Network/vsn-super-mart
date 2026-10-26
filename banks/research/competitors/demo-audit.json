@@ -5587,8 +5587,8 @@
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_indexed_demo_html_accessible",
-      "document_verification_scope": "Opened indexed public Shopify demo HTML only. Source crawl ages vary and are recorded per page. No checkout/cart mutation, mobile viewport or Theme Editor interactions.",
+      "document_verification_status": "public_indexed_demo_html_accessible_and_browser_rendered",
+      "document_verification_scope": "Indexed public homepage plus read-only browser rendering of home, Tableware collection, Amelia Tea Pot PDP and empty cart on 2026-10-26; no interactions, mobile/editor/checkout or performance tests.",
       "feature_option_ids": [
         "mega-menu",
         "predictive-search",
@@ -5604,12 +5604,12 @@
       "niches": [
         "home-furniture-category-search-inventory"
       ],
-      "notes": "Full page-level URLs, crawl recency and VSN element mappings in shopify-live-demo-evidence-2026.json. Screenshot accuracy and click behaviour untested.",
+      "notes": "Direct Shopify Theme Store iframe src was read from the official Warehouse:Wood listing DOM and used to verify the storefront host. Full page URLs and rendered observations in shopify-live-demo-evidence-2026.json; click behavior untested.",
       "page_coverage": {
-        "home": "document_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "home": "document_and_browser_rendered_readonly",
+        "collection": "browser_rendered_readonly",
+        "product": "browser_rendered_readonly",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
