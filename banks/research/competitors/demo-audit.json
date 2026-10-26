@@ -3446,7 +3446,7 @@
       "niches": [
         "food-beverage"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "notes": "Official listing verified; its rendered iframe resolves to the selected Soleway shoe storefront. Read-only browser evidence for home, Men's Best Sellers, Premium 6-Inch Waterproof Boot PDP and empty cart is in the live-demo evidence bank.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
