@@ -246,3 +246,12 @@
 - PR #9 updated to include Batch 61 (CI run 124 passed) and current preview blockers.
 - Status unchanged: 79/127 unique selected homes, 155 rendered pages across 39 presets, 48 remaining.
 - Next: resume the next unobserved preset only after its actual public demo storefront is verified.
+
+
+## 2026-10-26 — Batch 63 Warehouse:Wood
+
+- Official Warehouse:Wood listing DOM exposed the demo iframe src; verified that host and rendered home, Tableware collection, Amelia Tea Pot PDP and empty cart read-only.
+- Collection: 46 products, 24/page, Best selling, grid/list, Color/Price/Brand/Availability, stock and discount cues.
+- PDP: $35, Grey/Burgundy/White, SKU, 4.5/5 (2 reviews), quantity and purchase controls; no actions executed. Empty cart shows $200 free-shipping threshold.
+- Homepage already indexed: coverage remains 79/127; rendered evidence 159 pages / 40 presets; 48 unique homes remain.
+- CI and PR refresh pending. No shopper interactions or screenshot/mobile/editor/checkout/keyboard/performance tests; seller claims unverified.
