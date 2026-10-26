@@ -3382,7 +3382,7 @@
       "niches": [
         "grocery-supermarket"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "notes": "Official listing verification remains documented here. Its current View demo iframe resolves to the same host as a historical nonselected entry. Supplemental selected Spritz browser-rendered home, Organic Wine collection, Organico PDP and empty cart drawer are recorded in the live-demo evidence file.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
