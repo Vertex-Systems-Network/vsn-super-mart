@@ -1,3 +1,22 @@
+## 2026-10-28 — Missing app embed option diagnosis
+
+**Done**
+- Checked the VSN theme layout, app-supporting section, JSON/Liquid template inventory and repository root for a Shopify app/Theme App Extension.
+- Confirmed `theme/layout/theme.liquid` includes `{{ content_for_header }}`; the root has no app project or theme-app-extension directory.
+- Distinguished app embeds from inline app blocks. App embeds are supplied by an installed app's Theme App Extension; inline app blocks require an app plus a JSON template section that declares `@app` and renders it.
+- VSN's `vsn-section` declares `@app` and renders blocks, but it is instantiated only in `page.vsn-prototype.json`; 12 other templates are still Liquid.
+- Updated the Theme Editor audit and readiness report. No code or matrix counters changed.
+
+**Still open**
+- The target store's installed apps and app-extension deployment state are unavailable; the likely app-embed cause cannot be confirmed against store state.
+- Theme Editor competitor coverage remains 0/127 reviewed, 127 pending. VSN live Theme Editor remains untested.
+
+**Next**
+- For the App embeds panel, confirm the target app is installed and its Theme App Extension is deployed; then verify the toggle in the connected store editor.
+- For inline app blocks, continue only after the app block exists and the relevant VSN template is JSON-backed in Stage 7.
+
+---
+
 ## 2026-10-28 — VSN Theme Editor source audit
 
 **Done**
