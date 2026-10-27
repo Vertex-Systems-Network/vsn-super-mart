@@ -89,3 +89,25 @@ A follow-up read-only search across the same organization's VSN Builder app repo
 **Next required action:** after deployment safeguards are satisfied, install/update VSN Builder on the target development store, then use the existing activation URL/status workflow and verify Theme settings → App embeds. Do not create another theme setting or confuse this body embed with the section-target app blocks. No deployment was attempted and no app code or credentials were changed.
 
 The competitor Theme Editor matrix remains editor 0/127 reviewed, 127 pending; this app-extension diagnosis is separate from the competitor cohort.
+
+
+
+## Pending QA criteria and run method — 2026-10-28
+
+A read-only check of current Shopify developer documentation establishes the official Theme Store submission benchmarks and a practical test sequence. These are acceptance criteria/methods, **not measurements of the 127 competitor demos or the VSN store**.
+
+| Area | Official requirement / recommended method | Evidence still needed |
+|---|---|---|
+| Lighthouse performance | Theme Store threshold is a minimum plain average of 60 across home, product and collection pages, on both mobile and desktop. Shopify says the test pages need real content and images; its documented test workflow uses a benchmark development store. | Run the supported benchmark on VSN and record per-page desktop/mobile scores. Do not apply the threshold as proof that a competitor demo passes. |
+| Lighthouse accessibility | Theme Store threshold is a minimum plain average of 90 across home, product and collection pages, on both mobile and desktop. | Run those same six benchmark contexts and record score plus actionable findings; a score alone does not replace keyboard/assistive-technology review. |
+| Keyboard operation | Shopify accessibility guidance expects links, buttons, dropdown navigation and form controls to work by keyboard, with visible focus. | Keyboard-test navigation, search, collection controls, variant selection, cart and dialogs on the authorized test storefront. |
+| Checkout | Shopify-hosted checkout customizations use checkout app extensions and/or supported checkout configuration; a theme storefront page audit cannot establish checkout behavior. | Inspect the authorized checkout in a test store with test payment configuration. Stop before placing an order; record the visible progression and any plan-dependent restrictions. |
+
+Official sources checked on 2026-10-28:
+- [Theme Store requirements](https://shopify.dev/docs/storefronts/themes/store/requirements) — performance and accessibility thresholds.
+- [Theme performance testing](https://shopify.dev/docs/storefronts/themes/best-practices/performance/testing-for-performance) — benchmark/testing method.
+- [Theme accessibility best practices](https://shopify.dev/docs/storefronts/themes/best-practices/accessibility) — keyboard and focus requirements.
+- [Shopify Lighthouse CI](https://shopify.dev/docs/storefronts/themes/tools/lighthouse-ci) — repeatable CI option.
+- [Checkout UI extensions](https://shopify.dev/docs/api/checkout-ui-extensions/latest) — checkout/app extension scope and targets.
+
+This closes the **requirements research** portion only. No Lighthouse run, keyboard session, checkout progression or Theme Store benchmark was available in this environment; the live QA items and 0/127 private-editor count remain open.
