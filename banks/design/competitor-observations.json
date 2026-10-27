@@ -1518,6 +1518,19 @@
         "Empty cart with shipping FAQ and service promises"
       ],
       "design_hypothesis": "Swimwear merchandising uses large imagery and designer/color taxonomy with fit details; sourcing and durability claims remain unverified."
+    },
+    {
+      "id": "shopify-live-concept",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Slideshow hero with collection CTA",
+        "Audio brand-story section",
+        "Headphone collection chips for use cases",
+        "Spec-rich product cards",
+        "PDP with feature highlights and accessory upsells",
+        "Empty cart reassurance strip"
+      ],
+      "design_hypothesis": "Electronics product discovery benefits from scan-friendly specification chips and compatible accessory upsells; actual product claims require independent validation."
     }
   ]
 }
