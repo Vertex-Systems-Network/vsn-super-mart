@@ -8864,18 +8864,18 @@
       ],
       "page_coverage": {
         "home": "document_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
         "mobile": "not_verified"
       },
       "url": "https://palo-alto-theme-phenomena.myshopify.com/",
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-27",
       "document_verified_on": "2026-10-27",
-      "document_verification_status": "browser_rendered_readonly_partial",
-      "document_verification_scope": "Rendered homepage only. Collection navigation timed out; collection/PDP/cart not verified. No interactions or viewport/editor/checkout/performance tests.",
-      "notes": "Exact official listing iframe src verified. Beauty product, ingredient, vegan/cruelty-free, testimonial, promotion and merchant claims unverified.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing iframe resolved; rendered home, Best sellers collection, Halo highlighter PDP and cart route inspected read-only. No interactions, screenshots, viewport/editor/checkout/performance testing.",
+      "notes": "Beauty product, ingredient, vegan/cruelty-free, promotion and merchant claims remain unverified.",
       "design_signals": [
         "Official Palo Alto:Phenomena View demo iframe resolved to this beauty storefront. Rendered homepage shows promotional bar with US$75 free-shipping and WELCOME10 copy, Shop All/Bestsellers/About navigation, cosmetics hero, tabbed bestseller/brush shelf with Quick Buy and shades, editorial collection groupings, product-benefit claims (skin-first, inclusive, vegan/cruelty-free), testimonial cards, Shop the Look, featured product, product-list module, social gallery and newsletter/footer."
       ]
