@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Shopify 127 selected-home read-only design research is complete (127/127 unique homes, 379 rendered pages, 96 presets). Stop this pass; next phase is design-pattern synthesis.",
+  "next_action": "Deep screen research status: 127/127 homes, 123/127 collections, 123/127 product pages, 100/127 carts have source-linked coverage; 4 collection, 4 product and 27 cart pages remain. Interactive/mobile/editor/checkout/Lighthouse still untested.",
   "approvals": {},
   "figma": {
     "file_key": null,
