@@ -1,3 +1,18 @@
+## 2026-10-27 — Shopify rendered demo research Batch 115 (Release:Grasse)
+
+**Done**
+- Verified official demo and inspected home, 9-item Face Care collection, Guasha Stone PDP and empty cart read-only.
+- Coverage: 117/127 homes (51 indexed HTML + 66 additional rendered); canonical rendered total 339 pages across 86 presets; 10 remain.
+- Recorded preorder/sold-out/bestseller states, before/after slider and shop-the-look. PDP content and availability text mismatch; homepage shipping thresholds differ and one link points to /false.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No shopper actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests; claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
 ## 2026-10-27 — Shopify rendered demo research Batch 114 (Eurus:Placid)
 
 **Done**
