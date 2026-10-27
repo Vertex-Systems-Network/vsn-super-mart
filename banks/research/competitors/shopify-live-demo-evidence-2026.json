@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed.",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed. Targeted live-store interactions now cover 3 selected presets (5 observations total including Ignite:Peak).",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5476,7 +5476,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 1,
+    "interactive_events_tested": 5,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -5487,7 +5487,8 @@
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts",
     "Batch83 cart drawer is not a dedicated cart-page visit; Batch84 age gate remained visible and unsubmitted. No visual/device or interaction tests.",
-    "Batch128: Ignite:Peak mobile preview measured 360×640 CSS px; Shop now opened a 21+ gate, left unanswered. One interaction attempt and one mobile viewport recorded; no age claim, purchase or checkout."
+    "Batch128: Ignite:Peak mobile preview measured 360×640 CSS px; Shop now opened a 21+ gate, left unanswered. One interaction attempt and one mobile viewport recorded; no age claim, purchase or checkout.",
+    "Four additional read-only interaction observations were made on public demos at 1363×936 CSS px: Enterprise product finder, filters/sort, empty cart drawer, and Prestige:Couture size variant. These are not 360×640 interaction tests; no item was added or checkout opened."
   ],
   "selected_127_document_count": 51,
   "browser_render_observations": [
@@ -12696,6 +12697,78 @@
       "action": "Tapped the mobile homepage “Shop now” hero CTA.",
       "observed_result": "A 21+ age-verification modal appeared. The Yes/No prompt was left unanswered; no age was attested and no further storefront interaction was attempted.",
       "result": "cta_reached_age_gate",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": true,
+      "screenshot_saved": false
+    },
+    {
+      "id": "enterprise-cascading-finder-2026-10-27",
+      "selected_preset_id": "enterprise:enterprise",
+      "store_url": "https://enterprise-theme-digital.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1363,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Selected Smart Tech → Home Technology → Smart Cameras in the homepage Shop our range finder, then opened its result.",
+      "observed_result": "Each selection enabled the next selector. The final result resolved to the Smart Cameras collection with 7 products.",
+      "result": "cascading_catalog_finder_resolved_to_seven_product_collection",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": true,
+      "screenshot_saved": false
+    },
+    {
+      "id": "enterprise-collection-filter-sort-2026-10-27",
+      "selected_preset_id": "enterprise:enterprise",
+      "store_url": "https://enterprise-theme-digital.myshopify.com/collections/smart-cameras",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1363,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Filter and Sort by controls on the 7-product Smart Cameras collection; no filter or sort value was selected.",
+      "observed_result": "Filter drawer showed Availability (In stock 6, Out of stock 1), Price range and Brand groups. Sort offered Featured, relevance, best selling, alphabetical, price and date orders; Featured was selected.",
+      "result": "collection_filter_groups_and_sort_menu_opened_read_only",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": true,
+      "screenshot_saved": false
+    },
+    {
+      "id": "enterprise-empty-cart-drawer-2026-10-27",
+      "selected_preset_id": "enterprise:enterprise",
+      "store_url": "https://enterprise-theme-digital.myshopify.com/collections/smart-cameras/products/smartcamera-with-voice-control",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1363,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Basket from a product page without adding an item.",
+      "observed_result": "Drawer showed Your cart is empty, $0 subtotal and a Hot deals on tech recommendation shelf with Choose options actions.",
+      "result": "empty_cart_drawer_and_recommendations_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": true,
+      "screenshot_saved": false
+    },
+    {
+      "id": "prestige-couture-size-variant-2026-10-27",
+      "selected_preset_id": "prestige:couture",
+      "store_url": "https://prestige-theme-couture.myshopify.com/products/edie-cascade-wrap-mini-dress-black",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1363,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Selected size S on the Edie Cascade Wrap Mini Dress PDP; XS had been selected initially. Did not add to cart.",
+      "observed_result": "S became selected, XS was deselected, and the displayed stock changed from 4 in stock to 3 in stock. Color Black and XS/S/M/L options were visible.",
+      "result": "variant_selection_updated_selected_state_and_stock_display",
       "confidence": "browser_render_interaction",
       "screenshot_captured": true,
       "screenshot_saved": false
