@@ -1,3 +1,16 @@
+## 2026-10-27 — Shopify missing-demo reconciliation Batch 126
+
+**Done**
+- Corrected the prior screen-coverage reconciliation: indexed-source pending counters were not counting browser-rendered evidence; six preset mappings were genuinely absent.
+- Added four rendered routes each for Ignite:Peak, Shapes:Shapes, Shapes:Candy, Shapes:Scratch, Vision:Onyx and Vision:Solstice.
+- Verified current coverage: 127/127 homes, 123/127 collections, 123/127 products, 100/127 carts. Remaining: 4 collections, 4 products, 27 carts.
+
+**Limits**
+- All pages read-only; no purchase/cart/filter/variant actions, screenshots, mobile, Theme Editor, checkout or performance tests.
+
+**Next**
+- Resolve the 4 missing collections, 4 missing product pages and 27 missing cart pages, then reconcile counters again.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 125 (Shapes:Fizz) — COMPLETE
 
 **Done**
