@@ -1,3 +1,19 @@
+## 2026-10-27 — Shopify rendered demo research Batch 114 (Eurus:Placid)
+
+**Done**
+- Verified official demo; inspected home, 19-product New Arrivals collection, Clay Fold Vase PDP and empty cart read-only.
+- Coverage: 116/127 homes (51 indexed HTML + 65 additional rendered); canonical total 335 rendered pages across 85 presets; 11 remain.
+- Collection has material/category/size/price/availability facets and set-building; PDP exposes object specifications and gift note.
+- Noted adjacent PDP craft narrative describes another product/material than the active vase facts.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No shopping-control actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Merchant claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
 ## 2026-10-27 — Shopify rendered demo research Batch 113 (Wonder:Petit)
 
 **Done**
