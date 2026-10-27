@@ -2462,6 +2462,23 @@
         "inventory-status"
       ],
       "design_implication": "Keep quick view focused on product decision details, allow closing back to the original PDP, and avoid treating modal exposure as a cart action."
+    },
+    {
+      "id": "shopify-variant-url-state",
+      "context": "Variant selection can be represented in shareable page state even when the selected option does not change inventory.",
+      "signals": [
+        "On Impulse:Dune, selecting size M deselected S and changed the product URL to a variant-specific query.",
+        "The in-stock message stayed the same after selection."
+      ],
+      "source_entry_ids": [
+        "shopify-interaction-impulse-dune-variant"
+      ],
+      "option_ids": [
+        "variant-picker-styles",
+        "inventory-status",
+        "product-blocks"
+      ],
+      "design_implication": "Reflect the selected variant in the control and URL. Recompute stock messaging per variant, and keep it stable when availability is unchanged."
     }
   ]
 }
