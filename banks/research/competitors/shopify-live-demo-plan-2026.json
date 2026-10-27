@@ -125,5 +125,714 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch136-2026.md",
-  "next_action": "Mobile visual synthesis is complete for 127/127 presets. Targeted interactions cover Ignite:Peak, Enterprise:Enterprise, Prestige:Couture, Impulse:Impulse, Impulse:Dune and Impulse:Terrain (8 observations). Continue with the next untested selected preset; completed presets are excluded from pending interaction work."
+  "next_action": "Continue targeted interactions in priority-tier order. The plan now stores the pending presets in groups; remove each preset from its group when completed.",
+  "pending_interaction_groups": {
+    "updated_at": "2026-10-27",
+    "definition": "Only presets with interactive_tested=false in the completion matrix are included. When a preset is completed, remove it from its group's items and decrement pending_count.",
+    "total_pending": 121,
+    "groups": [
+      {
+        "id": "priority_tier_1",
+        "label": "Tier 1",
+        "objective": "Top paid/large-catalog and premium merchandisers; inspect home/category/PDP/cart",
+        "families": [
+          "impulse",
+          "prestige",
+          "symmetry",
+          "broadcast",
+          "enterprise",
+          "warehouse",
+          "empire",
+          "impact"
+        ],
+        "items": [
+          {
+            "preset_id": "impulse:apothecary",
+            "theme_family": "impulse",
+            "preset": "Apothecary"
+          },
+          {
+            "preset_id": "prestige:prestige",
+            "theme_family": "prestige",
+            "preset": "Prestige"
+          },
+          {
+            "preset_id": "prestige:vogue",
+            "theme_family": "prestige",
+            "preset": "Vogue"
+          },
+          {
+            "preset_id": "prestige:strass",
+            "theme_family": "prestige",
+            "preset": "Strass"
+          },
+          {
+            "preset_id": "prestige:signature",
+            "theme_family": "prestige",
+            "preset": "Signature"
+          },
+          {
+            "preset_id": "symmetry:symmetry",
+            "theme_family": "symmetry",
+            "preset": "Symmetry"
+          },
+          {
+            "preset_id": "symmetry:salt-yard",
+            "theme_family": "symmetry",
+            "preset": "Salt Yard"
+          },
+          {
+            "preset_id": "symmetry:beatnik",
+            "theme_family": "symmetry",
+            "preset": "Beatnik"
+          },
+          {
+            "preset_id": "symmetry:duke",
+            "theme_family": "symmetry",
+            "preset": "Duke"
+          },
+          {
+            "preset_id": "symmetry:amara",
+            "theme_family": "symmetry",
+            "preset": "Amara"
+          },
+          {
+            "preset_id": "broadcast:broadcast",
+            "theme_family": "broadcast",
+            "preset": "Broadcast"
+          },
+          {
+            "preset_id": "broadcast:relay",
+            "theme_family": "broadcast",
+            "preset": "Relay"
+          },
+          {
+            "preset_id": "broadcast:airwave",
+            "theme_family": "broadcast",
+            "preset": "Airwave"
+          },
+          {
+            "preset_id": "broadcast:motif",
+            "theme_family": "broadcast",
+            "preset": "Motif"
+          },
+          {
+            "preset_id": "broadcast:stellar",
+            "theme_family": "broadcast",
+            "preset": "Stellar"
+          },
+          {
+            "preset_id": "enterprise:outlet",
+            "theme_family": "enterprise",
+            "preset": "Outlet"
+          },
+          {
+            "preset_id": "enterprise:homestead",
+            "theme_family": "enterprise",
+            "preset": "Homestead"
+          },
+          {
+            "preset_id": "impact:impact",
+            "theme_family": "impact",
+            "preset": "Impact"
+          },
+          {
+            "preset_id": "impact:cocoon",
+            "theme_family": "impact",
+            "preset": "Cocoon"
+          },
+          {
+            "preset_id": "impact:balance",
+            "theme_family": "impact",
+            "preset": "Balance"
+          },
+          {
+            "preset_id": "warehouse:warehouse",
+            "theme_family": "warehouse",
+            "preset": "Warehouse"
+          },
+          {
+            "preset_id": "warehouse:wood",
+            "theme_family": "warehouse",
+            "preset": "Wood"
+          },
+          {
+            "preset_id": "warehouse:mesh",
+            "theme_family": "warehouse",
+            "preset": "Mesh"
+          },
+          {
+            "preset_id": "empire:empire",
+            "theme_family": "empire",
+            "preset": "Empire"
+          },
+          {
+            "preset_id": "empire:circuit",
+            "theme_family": "empire",
+            "preset": "Circuit"
+          },
+          {
+            "preset_id": "empire:depot",
+            "theme_family": "empire",
+            "preset": "Depot"
+          },
+          {
+            "preset_id": "empire:forma",
+            "theme_family": "empire",
+            "preset": "Forma"
+          }
+        ],
+        "pending_count": 27
+      },
+      {
+        "id": "priority_tier_2",
+        "label": "Tier 2",
+        "objective": "Food, premium, high-motion and editorial behaviors",
+        "families": [
+          "expanse",
+          "local",
+          "palo-alto",
+          "pipeline",
+          "motion",
+          "focal",
+          "stiletto",
+          "concept"
+        ],
+        "items": [
+          {
+            "preset_id": "focal:focal",
+            "theme_family": "focal",
+            "preset": "Focal"
+          },
+          {
+            "preset_id": "focal:ivory",
+            "theme_family": "focal",
+            "preset": "Ivory"
+          },
+          {
+            "preset_id": "focal:quartz",
+            "theme_family": "focal",
+            "preset": "Quartz"
+          },
+          {
+            "preset_id": "focal:sapphire",
+            "theme_family": "focal",
+            "preset": "Sapphire"
+          },
+          {
+            "preset_id": "expanse:expanse",
+            "theme_family": "expanse",
+            "preset": "Expanse"
+          },
+          {
+            "preset_id": "expanse:revive",
+            "theme_family": "expanse",
+            "preset": "Revive"
+          },
+          {
+            "preset_id": "expanse:spritz",
+            "theme_family": "expanse",
+            "preset": "Spritz"
+          },
+          {
+            "preset_id": "expanse:fetch",
+            "theme_family": "expanse",
+            "preset": "Fetch"
+          },
+          {
+            "preset_id": "expanse:gem",
+            "theme_family": "expanse",
+            "preset": "Gem"
+          },
+          {
+            "preset_id": "local:local",
+            "theme_family": "local",
+            "preset": "Local"
+          },
+          {
+            "preset_id": "local:soleway",
+            "theme_family": "local",
+            "preset": "Soleway"
+          },
+          {
+            "preset_id": "local:thrive",
+            "theme_family": "local",
+            "preset": "Thrive"
+          },
+          {
+            "preset_id": "local:caffeine",
+            "theme_family": "local",
+            "preset": "Caffeine"
+          },
+          {
+            "preset_id": "local:lively",
+            "theme_family": "local",
+            "preset": "Lively"
+          },
+          {
+            "preset_id": "stiletto:stiletto",
+            "theme_family": "stiletto",
+            "preset": "Stiletto"
+          },
+          {
+            "preset_id": "stiletto:luster",
+            "theme_family": "stiletto",
+            "preset": "Luster"
+          },
+          {
+            "preset_id": "stiletto:linen",
+            "theme_family": "stiletto",
+            "preset": "Linen"
+          },
+          {
+            "preset_id": "stiletto:glimmer",
+            "theme_family": "stiletto",
+            "preset": "Glimmer"
+          },
+          {
+            "preset_id": "stiletto:tapestry",
+            "theme_family": "stiletto",
+            "preset": "Tapestry"
+          },
+          {
+            "preset_id": "motion:motion",
+            "theme_family": "motion",
+            "preset": "Motion"
+          },
+          {
+            "preset_id": "motion:satchel",
+            "theme_family": "motion",
+            "preset": "Satchel"
+          },
+          {
+            "preset_id": "motion:memo",
+            "theme_family": "motion",
+            "preset": "Memo"
+          },
+          {
+            "preset_id": "palo-alto:palo-alto",
+            "theme_family": "palo-alto",
+            "preset": "Palo Alto"
+          },
+          {
+            "preset_id": "palo-alto:dynamo",
+            "theme_family": "palo-alto",
+            "preset": "Dynamo"
+          },
+          {
+            "preset_id": "palo-alto:skylight",
+            "theme_family": "palo-alto",
+            "preset": "Skylight"
+          },
+          {
+            "preset_id": "palo-alto:phenomena",
+            "theme_family": "palo-alto",
+            "preset": "Phenomena"
+          },
+          {
+            "preset_id": "palo-alto:pluma",
+            "theme_family": "palo-alto",
+            "preset": "Pluma"
+          },
+          {
+            "preset_id": "pipeline:pipeline",
+            "theme_family": "pipeline",
+            "preset": "Pipeline"
+          },
+          {
+            "preset_id": "pipeline:petra",
+            "theme_family": "pipeline",
+            "preset": "Petra"
+          },
+          {
+            "preset_id": "pipeline:pahoa",
+            "theme_family": "pipeline",
+            "preset": "Pahoa"
+          },
+          {
+            "preset_id": "pipeline:phantom",
+            "theme_family": "pipeline",
+            "preset": "Phantom"
+          },
+          {
+            "preset_id": "concept:concept",
+            "theme_family": "concept",
+            "preset": "Concept"
+          },
+          {
+            "preset_id": "concept:inova",
+            "theme_family": "concept",
+            "preset": "Inova"
+          }
+        ],
+        "pending_count": 33
+      },
+      {
+        "id": "priority_tier_3",
+        "label": "Tier 3",
+        "objective": "First-party free reference and native Shopify editor baseline",
+        "families": [
+          "horizon",
+          "dawn",
+          "savor",
+          "tinker",
+          "atelier",
+          "trade"
+        ],
+        "items": [
+          {
+            "preset_id": "dawn:dawn",
+            "theme_family": "dawn",
+            "preset": "Dawn"
+          },
+          {
+            "preset_id": "horizon:horizon",
+            "theme_family": "horizon",
+            "preset": "Horizon"
+          },
+          {
+            "preset_id": "tinker:tinker",
+            "theme_family": "tinker",
+            "preset": "Tinker"
+          },
+          {
+            "preset_id": "savor:savor",
+            "theme_family": "savor",
+            "preset": "Savor"
+          },
+          {
+            "preset_id": "trade:trade",
+            "theme_family": "trade",
+            "preset": "Trade"
+          },
+          {
+            "preset_id": "atelier:atelier",
+            "theme_family": "atelier",
+            "preset": "Atelier"
+          }
+        ],
+        "pending_count": 6
+      },
+      {
+        "id": "priority_tier_4",
+        "label": "Tier 4",
+        "objective": "Remaining paid family variations and niche handling",
+        "families": [
+          "be-yours",
+          "sleek",
+          "wonder",
+          "eurus",
+          "release",
+          "ignite",
+          "shapes",
+          "vision"
+        ],
+        "items": [
+          {
+            "preset_id": "be-yours:be-yours",
+            "theme_family": "be-yours",
+            "preset": "Be Yours"
+          },
+          {
+            "preset_id": "be-yours:sheen",
+            "theme_family": "be-yours",
+            "preset": "Sheen"
+          },
+          {
+            "preset_id": "be-yours:peace",
+            "theme_family": "be-yours",
+            "preset": "Peace"
+          },
+          {
+            "preset_id": "be-yours:harmony",
+            "theme_family": "be-yours",
+            "preset": "Harmony"
+          },
+          {
+            "preset_id": "sleek:sleek",
+            "theme_family": "sleek",
+            "preset": "Sleek"
+          },
+          {
+            "preset_id": "sleek:wildpeak",
+            "theme_family": "sleek",
+            "preset": "Wildpeak"
+          },
+          {
+            "preset_id": "sleek:jumped",
+            "theme_family": "sleek",
+            "preset": "Jumped"
+          },
+          {
+            "preset_id": "sleek:modiva",
+            "theme_family": "sleek",
+            "preset": "Modiva"
+          },
+          {
+            "preset_id": "sleek:glint",
+            "theme_family": "sleek",
+            "preset": "Glint"
+          },
+          {
+            "preset_id": "wonder:wonder",
+            "theme_family": "wonder",
+            "preset": "Wonder"
+          },
+          {
+            "preset_id": "wonder:root",
+            "theme_family": "wonder",
+            "preset": "Root"
+          },
+          {
+            "preset_id": "wonder:velour",
+            "theme_family": "wonder",
+            "preset": "Velour"
+          },
+          {
+            "preset_id": "wonder:nook",
+            "theme_family": "wonder",
+            "preset": "Nook"
+          },
+          {
+            "preset_id": "wonder:petit",
+            "theme_family": "wonder",
+            "preset": "Petit"
+          },
+          {
+            "preset_id": "eurus:eurus",
+            "theme_family": "eurus",
+            "preset": "Eurus"
+          },
+          {
+            "preset_id": "eurus:arise",
+            "theme_family": "eurus",
+            "preset": "Arise"
+          },
+          {
+            "preset_id": "eurus:placid",
+            "theme_family": "eurus",
+            "preset": "Placid"
+          },
+          {
+            "preset_id": "eurus:mystique",
+            "theme_family": "eurus",
+            "preset": "Mystique"
+          },
+          {
+            "preset_id": "eurus:whiff",
+            "theme_family": "eurus",
+            "preset": "Whiff"
+          },
+          {
+            "preset_id": "release:release",
+            "theme_family": "release",
+            "preset": "Release"
+          },
+          {
+            "preset_id": "release:grasse",
+            "theme_family": "release",
+            "preset": "Grasse"
+          },
+          {
+            "preset_id": "release:serenity",
+            "theme_family": "release",
+            "preset": "Serenity"
+          },
+          {
+            "preset_id": "release:forest",
+            "theme_family": "release",
+            "preset": "Forest"
+          },
+          {
+            "preset_id": "release:renaissance",
+            "theme_family": "release",
+            "preset": "Renaissance"
+          },
+          {
+            "preset_id": "ignite:ignite",
+            "theme_family": "ignite",
+            "preset": "Ignite"
+          },
+          {
+            "preset_id": "ignite:playtime",
+            "theme_family": "ignite",
+            "preset": "Playtime"
+          },
+          {
+            "preset_id": "ignite:tails",
+            "theme_family": "ignite",
+            "preset": "Tails"
+          },
+          {
+            "preset_id": "ignite:alpha",
+            "theme_family": "ignite",
+            "preset": "Alpha"
+          },
+          {
+            "preset_id": "shapes:shapes",
+            "theme_family": "shapes",
+            "preset": "Shapes"
+          },
+          {
+            "preset_id": "shapes:fizz",
+            "theme_family": "shapes",
+            "preset": "Fizz"
+          },
+          {
+            "preset_id": "shapes:candy",
+            "theme_family": "shapes",
+            "preset": "Candy"
+          },
+          {
+            "preset_id": "shapes:aura",
+            "theme_family": "shapes",
+            "preset": "Aura"
+          },
+          {
+            "preset_id": "shapes:scratch",
+            "theme_family": "shapes",
+            "preset": "Scratch"
+          },
+          {
+            "preset_id": "vision:vision",
+            "theme_family": "vision",
+            "preset": "Vision"
+          },
+          {
+            "preset_id": "vision:onyx",
+            "theme_family": "vision",
+            "preset": "Onyx"
+          },
+          {
+            "preset_id": "vision:poochy",
+            "theme_family": "vision",
+            "preset": "Poochy"
+          },
+          {
+            "preset_id": "vision:velocite",
+            "theme_family": "vision",
+            "preset": "Velocite"
+          },
+          {
+            "preset_id": "vision:solstice",
+            "theme_family": "vision",
+            "preset": "Solstice"
+          }
+        ],
+        "pending_count": 38
+      },
+      {
+        "id": "other_selected_families",
+        "label": "Other selected families",
+        "objective": "Selected Shopify families outside the four current priority tiers.",
+        "families": [
+          "refresh",
+          "rise",
+          "origin",
+          "craft",
+          "publisher",
+          "ride",
+          "sense",
+          "studio",
+          "taste",
+          "crave",
+          "spotlight",
+          "vessel",
+          "heritage",
+          "pitch",
+          "dwell",
+          "ritual",
+          "fabric"
+        ],
+        "items": [
+          {
+            "preset_id": "refresh:refresh",
+            "theme_family": "refresh",
+            "preset": "Refresh"
+          },
+          {
+            "preset_id": "rise:rise",
+            "theme_family": "rise",
+            "preset": "Rise"
+          },
+          {
+            "preset_id": "origin:origin",
+            "theme_family": "origin",
+            "preset": "Origin"
+          },
+          {
+            "preset_id": "craft:craft",
+            "theme_family": "craft",
+            "preset": "Craft"
+          },
+          {
+            "preset_id": "publisher:publisher",
+            "theme_family": "publisher",
+            "preset": "Publisher"
+          },
+          {
+            "preset_id": "ride:ride",
+            "theme_family": "ride",
+            "preset": "Ride"
+          },
+          {
+            "preset_id": "sense:sense",
+            "theme_family": "sense",
+            "preset": "Sense"
+          },
+          {
+            "preset_id": "studio:studio",
+            "theme_family": "studio",
+            "preset": "Studio"
+          },
+          {
+            "preset_id": "taste:taste",
+            "theme_family": "taste",
+            "preset": "Taste"
+          },
+          {
+            "preset_id": "crave:crave",
+            "theme_family": "crave",
+            "preset": "Crave"
+          },
+          {
+            "preset_id": "spotlight:spotlight",
+            "theme_family": "spotlight",
+            "preset": "Spotlight"
+          },
+          {
+            "preset_id": "vessel:vessel",
+            "theme_family": "vessel",
+            "preset": "Vessel"
+          },
+          {
+            "preset_id": "heritage:heritage",
+            "theme_family": "heritage",
+            "preset": "Heritage"
+          },
+          {
+            "preset_id": "pitch:pitch",
+            "theme_family": "pitch",
+            "preset": "Pitch"
+          },
+          {
+            "preset_id": "dwell:dwell",
+            "theme_family": "dwell",
+            "preset": "Dwell"
+          },
+          {
+            "preset_id": "ritual:ritual",
+            "theme_family": "ritual",
+            "preset": "Ritual"
+          },
+          {
+            "preset_id": "fabric:fabric",
+            "theme_family": "fabric",
+            "preset": "Fabric"
+          }
+        ],
+        "pending_count": 17
+      }
+    ]
+  }
 }
