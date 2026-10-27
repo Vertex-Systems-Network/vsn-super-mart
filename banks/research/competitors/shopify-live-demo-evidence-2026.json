@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed. Targeted live-store interactions now cover 3 selected presets (5 observations total including Ignite:Peak).",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed. Targeted live-store interactions now cover 4 selected presets (6 observations total including Ignite:Peak).",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -937,13 +937,16 @@
       },
       "unverified": [
         "cart mutation",
-        "filter/Quick View clicks",
         "real mobile viewport",
-        "checkout and Theme Editor"
+        "checkout and Theme Editor",
+        "Cart mutation, filter selection, real mobile interaction, checkout and Theme Editor remain untested."
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "impulse-quick-view-related-product-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-symmetry-salt-yard",
@@ -5476,7 +5479,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 5,
+    "interactive_events_tested": 6,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -12771,6 +12774,24 @@
       "result": "variant_selection_updated_selected_state_and_stock_display",
       "confidence": "browser_render_interaction",
       "screenshot_captured": true,
+      "screenshot_saved": false
+    },
+    {
+      "id": "impulse-quick-view-related-product-2026-10-27",
+      "selected_preset_id": "impulse:impulse",
+      "store_url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1363,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Quick View from the related-products rail on The Lido Short PDP; did not add to cart.",
+      "observed_result": "Quick View modal opened for The Vela Shirt and showed product media, name, sale and compare-at pricing, description, size-chart access, in-stock message and DESCRIPTION / MATERIALS & CARE accordions.",
+      "result": "related_product_quick_view_opened_with_product_details",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
       "screenshot_saved": false
     }
   ],
