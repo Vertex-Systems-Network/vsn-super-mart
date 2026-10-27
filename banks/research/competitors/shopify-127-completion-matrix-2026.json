@@ -2199,7 +2199,6 @@
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Official Enterprise listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified.",
         "Only the finder, collection filter/sort menu, and empty-cart drawer were tested; no item was added.",
         "No checkout, Theme Editor, keyboard/accessibility or performance testing."
       ],
