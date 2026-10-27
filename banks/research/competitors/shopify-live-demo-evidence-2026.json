@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 67 additional browser-rendered homes are documented (118/127 unique); 343 read-only rendered pages across 87 selected presets.",
+  "summary": "51 indexed HTML selected homes and 68 additional browser-rendered homes are documented (119/127 unique); 347 read-only rendered pages across 88 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 87,
-    "opened_home": 87,
-    "opened_collection": 73,
-    "opened_product": 75,
-    "opened_empty_cart": 41,
+    "opened_stores": 88,
+    "opened_home": 88,
+    "opened_collection": 74,
+    "opened_product": 76,
+    "opened_empty_cart": 42,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10917,11 +10917,73 @@
       "limits": [
         "No vehicle selectors, filters, compare, sort, quick view, variants, cart or checkout interactions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product and fitment claims unverified."
       ]
+    },
+    {
+      "id": "shopify-shapes-aura-browser-render",
+      "selected_preset_id": "shapes:aura",
+      "theme_family": "Shapes",
+      "preset": "Aura",
+      "store_url": "https://shapes-theme-skincare-2.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Shapes:Aura listing View demo, verified iframe host and inspected home, Essentials collection, linked Hand Balm PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/",
+          "observations": [
+            "Skincare storefront with minimalist hero, values/icon row, Essentials and serum collection carousels, ingredients/sustainability narrative, brand-story video, ingredient philosophy, brand comparison table, testimonials and user-generated video rail.",
+            "Store explicitly states Aura skincare is fictional demo content; skincare, ethical sourcing and efficacy claims are illustrative and unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/collections/essentials",
+          "observations": [
+            "Essentials collection shows four products; Filter and Sort controls visible, untouched; product cards include Add to Cart and sale badge states.",
+            "Collection shortcuts to All and Serums; no filter facets expanded or evaluated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/products/hand-balm",
+          "observations": [
+            "Hand Balm PDP at $35 with gallery, skin-concern tags (Nourish/Protect/Soften), quantity and add-to-cart/buy-now controls, vegan/cruelty-free and use claims, ingredients/shipping/recycling accordions, testimonials and FAQ.",
+            "Fictional product/demo disclosure; all skincare, suitability and sourcing claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/cart",
+          "observations": [
+            "Dedicated empty cart message with branded header, demo disclosure, about/journal/shipping/returns/contact links and newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, quantity, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Fictional product and skincare claims are unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 343,
-    "selected_presets": 87,
-    "unique_selected_homepages_across_all_source_types": 118
+    "pages": 347,
+    "selected_presets": 88,
+    "unique_selected_homepages_across_all_source_types": 119
   }
 }
