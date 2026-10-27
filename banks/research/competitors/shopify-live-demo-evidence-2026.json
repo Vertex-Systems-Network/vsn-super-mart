@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover 72 selected presets (74 observations total including Ignite:Peak). Tier 1, Tier 2 and Tier 3 are closed.",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover 110 selected presets (112 observations total including Ignite:Peak). Tier 1, Tier 2, Tier 3 and Tier 4 are closed.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5578,7 +5578,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 74,
+    "interactive_events_tested": 112,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -14184,6 +14184,728 @@
       "screenshot_captured": true,
       "screenshot_saved": false,
       "batch_id": "batch139-tier3-close"
+    },
+    {
+      "id": "tier4-be-yours:be-yours-2026-10-28",
+      "selected_preset_id": "be-yours:be-yours",
+      "store_url": "https://beyours-theme-beauty.myshopify.com/products/calming-serum",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified image viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-be-yours:sheen-2026-10-28",
+      "selected_preset_id": "be-yours:sheen",
+      "store_url": "https://beyours-theme-clothing.myshopify.com/collections/all/products/shimmer-dress",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-be-yours:peace-2026-10-28",
+      "selected_preset_id": "be-yours:peace",
+      "store_url": "https://beyours-theme.myshopify.com/collections/all/products/money-tree",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-be-yours:harmony-2026-10-28",
+      "selected_preset_id": "be-yours:harmony",
+      "store_url": "https://beyours-theme-tech.myshopify.com/products/beoplay-h95",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-sleek:sleek-2026-10-28",
+      "selected_preset_id": "sleek:sleek",
+      "store_url": "https://sleek-theme-demo.myshopify.com/products/protective-day-oil",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-sleek:wildpeak-2026-10-28",
+      "selected_preset_id": "sleek:wildpeak",
+      "store_url": "https://sleek-wildpeak.myshopify.com/products/emma-3l-shell-jacket-green",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Fit & Sizing and verified the disclosure content appeared.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-sleek:jumped-2026-10-28",
+      "selected_preset_id": "sleek:jumped",
+      "store_url": "https://sleek-jumped.myshopify.com/products/zenith-shirt",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-sleek:modiva-2026-10-28",
+      "selected_preset_id": "sleek:modiva",
+      "store_url": "https://sleek-modiva.myshopify.com/products/parlour-club-chair",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified zoom viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-sleek:glint-2026-10-28",
+      "selected_preset_id": "sleek:glint",
+      "store_url": "https://sleek-glint.myshopify.com/products/kennith-short",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-wonder:wonder-2026-10-28",
+      "selected_preset_id": "wonder:wonder",
+      "store_url": "https://wonder-theme-beauty.myshopify.com/products/bakuchiol-retinol-alternative-smoothing-serum",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded a product information accordion and verified its open state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-wonder:root-2026-10-28",
+      "selected_preset_id": "wonder:root",
+      "store_url": "https://wonder-theme-wellness.myshopify.com/products/longevity-gummies",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded a product information accordion and verified its open state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-wonder:velour-2026-10-28",
+      "selected_preset_id": "wonder:velour",
+      "store_url": "https://wonder-theme-fashion.myshopify.com/products/dress-sailor-galaxia-green",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded a product information accordion and verified its open state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-wonder:nook-2026-10-28",
+      "selected_preset_id": "wonder:nook",
+      "store_url": "https://wonder-theme-interior.myshopify.com/collections/sofas/products/mellow-sofa-3-seats",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Description and verified the open disclosure state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-wonder:petit-2026-10-28",
+      "selected_preset_id": "wonder:petit",
+      "store_url": "https://wonder-theme-petit-demo.myshopify.com/products/petit",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded the storefront menu control and verified its expanded state.",
+      "result": "navigation_menu_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-eurus:eurus-2026-10-28",
+      "selected_preset_id": "eurus:eurus",
+      "store_url": "https://eurus-puff.myshopify.com/collections/saje-kits/products/natural-deodorant-trio",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded the How to Use product disclosure and verified the open state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-eurus:arise-2026-10-28",
+      "selected_preset_id": "eurus:arise",
+      "store_url": "https://eurus-arise.myshopify.com/collections/subscribers-favorite/products/maca-root-energy-libido",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected an alternate product option and verified its selected state.",
+      "result": "product_variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-eurus:placid-2026-10-28",
+      "selected_preset_id": "eurus:placid",
+      "store_url": "https://eurus-placid.myshopify.com/collections/new-arrivals/products/clay-fold-vase",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Shipping & returns and verified the disclosure state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-eurus:mystique-2026-10-28",
+      "selected_preset_id": "eurus:mystique",
+      "store_url": "https://eurus-mystique.myshopify.com/collections/totes/products/sienna-pinstripe-market-tote",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded the product Description disclosure and verified the open state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-eurus:whiff-2026-10-28",
+      "selected_preset_id": "eurus:whiff",
+      "store_url": "https://eurus-whiff.myshopify.com/collections/best-sellers-1/products/ocean-breeze-anklet",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Product Details and verified the disclosure state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-release:release-2026-10-28",
+      "selected_preset_id": "release:release",
+      "store_url": "https://release-main.myshopify.com/products/black-puffer-edge?variant=42204594929743",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened the country/region selector; verified its menu. No market change was selected.",
+      "result": "locale_selector_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-release:grasse-2026-10-28",
+      "selected_preset_id": "release:grasse",
+      "store_url": "https://release-release.myshopify.com/products/guasha-stone?variant=45149600350446",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened the country/region selector; verified its menu. No market change was selected.",
+      "result": "locale_selector_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-release:serenity-2026-10-28",
+      "selected_preset_id": "release:serenity",
+      "store_url": "https://release-serenity.myshopify.com/products/serena-bag-grey",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened the country/region selector; verified its menu. No market change was selected.",
+      "result": "locale_selector_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-release:forest-2026-10-28",
+      "selected_preset_id": "release:forest",
+      "store_url": "https://release-living.myshopify.com/products/elma-sarkit",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened the country/region selector; verified its menu. No market change was selected.",
+      "result": "locale_selector_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-release:renaissance-2026-10-28",
+      "selected_preset_id": "release:renaissance",
+      "store_url": "https://release-emerald.myshopify.com/products/vivien-ring-gold",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened the country/region selector; verified its menu. No market change was selected.",
+      "result": "locale_selector_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-ignite:ignite-2026-10-28",
+      "selected_preset_id": "ignite:ignite",
+      "store_url": "https://benchmark-electronics-demo.myshopify.com/products/pixa-9",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-ignite:playtime-2026-10-28",
+      "selected_preset_id": "ignite:playtime",
+      "store_url": "https://benchmark-toys-demo.myshopify.com/products/ultimate-hardwood-towering-blocks",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-ignite:tails-2026-10-28",
+      "selected_preset_id": "ignite:tails",
+      "store_url": "https://benchmark-pets-demo.myshopify.com/products/cozy-retreat-pet-tent-with-soft-bed-pad",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom; verified media viewer and Close control, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-ignite:alpha-2026-10-28",
+      "selected_preset_id": "ignite:alpha",
+      "store_url": "https://benchmark-automotive-demo.myshopify.com/products/foot-rest-brake-gas-pedal-e30-e36-e39-e46-e87-e90-e91-e92-e93",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened the country/language selector and verified the menu opened; no locale was changed.",
+      "result": "locale_selector_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-shapes:shapes-2026-10-28",
+      "selected_preset_id": "shapes:shapes",
+      "store_url": "https://shapes-preset-pantry.myshopify.com/products/crispy-chili-oil",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected SHIPPING in the product information tab group and verified it became selected.",
+      "result": "product_tab_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-shapes:fizz-2026-10-28",
+      "selected_preset_id": "shapes:fizz",
+      "store_url": "https://shapes-theme-soda-2.myshopify.com/products/grape",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected SHIPPING in the product information tab group and verified it became selected.",
+      "result": "product_tab_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-shapes:candy-2026-10-28",
+      "selected_preset_id": "shapes:candy",
+      "store_url": "https://shapes-theme-chocolate-2.myshopify.com/products/cheesecake",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Ingredients and verified the disclosure opened.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-shapes:aura-2026-10-28",
+      "selected_preset_id": "shapes:aura",
+      "store_url": "https://shapes-theme-skincare-2.myshopify.com/products/hand-balm",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded the Shop Skincare menu and verified its expanded state.",
+      "result": "navigation_menu_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-shapes:scratch-2026-10-28",
+      "selected_preset_id": "shapes:scratch",
+      "store_url": "https://shapes-preset-pets.myshopify.com/products/dog-treats-salmon-bites",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Ingredients and verified the disclosure opened.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-vision:vision-2026-10-28",
+      "selected_preset_id": "vision:vision",
+      "store_url": "https://vision-main.myshopify.com/products/smart-home-speaker-with-google-assistant",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected the Green color option and verified it became active.",
+      "result": "product_variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-vision:onyx-2026-10-28",
+      "selected_preset_id": "vision:onyx",
+      "store_url": "https://vision-jewelery.myshopify.com/products/malachite-york-acrylic-earrings",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Details and verified the disclosure opened.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-vision:poochy-2026-10-28",
+      "selected_preset_id": "vision:poochy",
+      "store_url": "https://vision-pets.myshopify.com/products/holiday-penguin-dog-toy",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected an alternate product option and verified its selected state.",
+      "result": "product_variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-vision:velocite-2026-10-28",
+      "selected_preset_id": "vision:velocite",
+      "store_url": "https://vision-recreation.myshopify.com/collections/mountain-bikes/products/fc-moto-fcm-ssj-softshell-jacket",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected an alternate product option and verified its selected state.",
+      "result": "product_variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "tier4-vision:solstice-2026-10-28",
+      "selected_preset_id": "vision:solstice",
+      "store_url": "https://vision-winter.myshopify.com/products/the-waffle-knit-hoodie",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected an alternate product option and verified its selected state.",
+      "result": "product_variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch140-tier4-close"
     }
   ],
   "mobile_review_observations": [
