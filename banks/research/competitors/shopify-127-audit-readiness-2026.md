@@ -53,3 +53,10 @@ Impulse:Terrain adds one size selection check: M became selected, S deselected, 
 ## Tier 1 interaction group closeout — Batch 137 (2026-10-27)
 
 Tier 1 is complete: 27/27 preset interactions verified and archived from pending groups. Overall 33/127 presets have targeted interaction evidence; 94 remain across Tier 2–4 and additional families. Mobile visual review remains 127/127. Cart mutation, checkout, Theme Editor and Lighthouse are still unverified.
+
+
+## Tier 2 interaction closeout — Batch 138 (2026-10-27)
+
+Tier 2 is complete: **33/33 preset interactions verified** and archived from pending. Targeted interaction evidence now covers 66/127 presets across 68 observations; 61 interaction presets remain (Tier 3: 6, Tier 4: 38, other selected families: 17). Mobile review remains 127/127; Theme Editor, checkout and Lighthouse remain unverified.
+
+One accidental quantity-2 add-to-cart state occurred on Stiletto:Linen during control targeting; both units were removed and the cart was confirmed empty. No checkout or payment occurred. Stiletto:Stiletto's product URL returned 404, so its homepage search modal was used as a bounded same-preset fallback. See `shopify-interaction-sample-batch138-2026.md`.
