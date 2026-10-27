@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 61 additional browser-rendered homes are documented (112/127 unique); 320 read-only rendered pages across 81 selected presets.",
+  "summary": "51 indexed HTML selected homes and 62 additional browser-rendered homes are documented (113/127 unique); 324 read-only rendered pages across 82 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 81,
-    "opened_home": 81,
-    "opened_collection": 68,
-    "opened_product": 69,
-    "opened_empty_cart": 35,
+    "opened_stores": 82,
+    "opened_home": 82,
+    "opened_collection": 69,
+    "opened_product": 70,
+    "opened_empty_cart": 36,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10557,11 +10557,73 @@
       "limits": [
         "No filters, sort, pagination, variants, quantity, add-to-cart, cart edits or checkout actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product, inventory and merchant claims unverified."
       ]
+    },
+    {
+      "id": "shopify-wonder-velour-browser-render",
+      "selected_preset_id": "wonder:velour",
+      "theme_family": "Wonder",
+      "preset": "Velour",
+      "store_url": "https://wonder-theme-fashion.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Wonder:Velour listing View demo, verified embedded storefront host, inspected home, New Arrivals collection, linked Dress Sailor Galaxia - Green PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://wonder-theme-fashion.myshopify.com/",
+          "observations": [
+            "Fashion storefront with repeated free-returns announcement, clothing/bestseller/sale navigation, three-slide campaign hero, clothing categories, product tabs and carousels, lookbook/editorial imagery, shoppable video/reels, blog posts, social imagery, newsletter and service footer.",
+            "Demo copy transparently links product suppliers/source information from About Us; some social/footer elements and Shopify-oriented brand links appear generic."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://wonder-theme-fashion.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "16 products; availability, color, price and size filters; product-type collection shortcuts; Featured sort visible; controls untouched.",
+            "Product cards show variant swatches/choices, vendor names and prices; dress, skirt, trousers and other apparel."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://wonder-theme-fashion.myshopify.com/products/dress-sailor-galaxia-green",
+          "observations": [
+            "Dress Sailor Galaxia - Green PDP, $550, four gallery images, green/pink color links, 36/38/40/42 size options and size guide, bestseller badge, offer code, product highlights, care/description and recommendations.",
+            "Demo page states product source retailer Cudmoda; not independently validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://wonder-theme-fashion.myshopify.com/cart",
+          "observations": [
+            "Dedicated cart page is empty; continue-shopping and login prompt, newsletter, product/service/information footer links."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, variants, quick view, add-to-cart, cart edits or checkout actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product/source claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 320,
-    "selected_presets": 81,
-    "unique_selected_homepages_across_all_source_types": 112
+    "pages": 324,
+    "selected_presets": 82,
+    "unique_selected_homepages_across_all_source_types": 113
   }
 }
