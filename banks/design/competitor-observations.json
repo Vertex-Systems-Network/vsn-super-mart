@@ -2184,6 +2184,15 @@
         "Selecting M updates the selected radio and the URL's variant ID; the in-stock message remains unchanged."
       ],
       "design_hypothesis": "Keep the selected variant reflected in the URL and visible control state; update availability messaging when a variant actually changes stock."
+    },
+    {
+      "id": "shopify-interaction-impulse-terrain-variant",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Impulse:Terrain mountain-bike PDP offers S/M/L/XL radio-style size options.",
+        "Selecting M updates the selected state and variant-specific URL; the in-stock message remains unchanged."
+      ],
+      "design_hypothesis": "Keep high-consideration variant choices visible and addressable by URL; keep inventory feedback tied to the selected size."
     }
   ]
 }
