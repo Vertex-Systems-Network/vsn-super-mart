@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 127 browser-rendered preset records are documented; 127/127 homes, 127/127 collections, 127/127 products and 127/127 carts have source-linked coverage.",
+  "summary": "127/127 selected presets have combined-source home, collection, product and cart coverage. Batch128 adds one mobile viewport render and one CTA interaction attempt for Ignite:Peak; the CTA stopped at an unanswered age gate. Theme Editor, checkout and Lighthouse remain unverified.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5476,14 +5476,16 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 0
+    "interactive_events_tested": 1,
+    "opened_mobile": 1
   },
   "caveats": [
     "Area/Flow outside selected 127-theme-store-preset cohort",
     "Store HTML is not a screenshot or live interaction test",
     "Public cart page is empty; no cart mutation verified",
     "Do not copy competitor imagery, code or exact layouts",
-    "Batch83 cart drawer is not a dedicated cart-page visit; Batch84 age gate remained visible and unsubmitted. No visual/device or interaction tests."
+    "Batch83 cart drawer is not a dedicated cart-page visit; Batch84 age gate remained visible and unsubmitted. No visual/device or interaction tests.",
+    "Batch128: Ignite:Peak mobile preview measured 360×640 CSS px; Shop now opened a 21+ gate, left unanswered. One interaction attempt and one mobile viewport recorded; no age claim, purchase or checkout."
   ],
   "selected_127_document_count": 51,
   "browser_render_observations": [
@@ -11539,7 +11541,7 @@
       "store_url": "https://benchmark-food-demo.myshopify.com/",
       "observed_on": "2026-10-27",
       "source_class": "browser_render_readonly",
-      "capture_method": "Official Shopify theme listing preview verified; inspected home, collection, product and empty cart for Ignite:Peak read-only.",
+      "capture_method": "Official Shopify Theme Store preview; four standard pages read-only, plus mobile preview at 360×640 CSS px and one homepage CTA interaction attempt.",
       "pages": [
         {
           "kind": "home",
@@ -11584,10 +11586,30 @@
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "mobile",
+          "url": "https://benchmark-food-demo.myshopify.com/",
+          "observations": [
+            "Official Shopify Theme Store preview rendered the Peak storefront at a 360×640 CSS-pixel mobile viewport. Screenshot captured in the browser session but not committed as an image artifact."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": true,
+          "screenshot_saved": false,
+          "viewport_dimensions_measured": true,
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          }
         }
       ],
       "limits": [
-        "No purchase, filter, sort, variant, cart or other controls used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+        "No filters, variant, quick view, cart mutation or keyboard controls tested.",
+        "Homepage Shop now click opened a 21+ age-verification gate; the age claim was not submitted, so no downstream behavior was tested.",
+        "No Theme Editor or checkout session opened; no merchant credentials/store access were available.",
+        "No Lighthouse or equivalent lab performance run was completed."
       ]
     },
     {
@@ -12647,14 +12669,34 @@
     }
   ],
   "browser_render_counts": {
-    "pages": 443,
+    "pages": 444,
     "selected_presets": 127,
     "unique_selected_homepages_across_all_source_types": 127,
     "pages_by_kind": {
       "home": 104,
       "collection": 105,
       "product": 107,
-      "cart": 127
+      "cart": 127,
+      "mobile": 1
     }
-  }
+  },
+  "interactive_test_observations": [
+    {
+      "id": "ignite-peak-age-gate-click-test-2026-10-27",
+      "selected_preset_id": "ignite:peak",
+      "store_url": "https://benchmark-food-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "action": "Tapped the mobile homepage “Shop now” hero CTA.",
+      "observed_result": "A 21+ age-verification modal appeared. The Yes/No prompt was left unanswered; no age was attested and no further storefront interaction was attempted.",
+      "result": "cta_reached_age_gate",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": true,
+      "screenshot_saved": false
+    }
+  ]
 }
