@@ -1652,6 +1652,19 @@
         "Collection filters and product cards"
       ],
       "design_hypothesis": "A tightly curated sport catalog should keep collection labels, product types, PDP description and lower-page brand story aligned; relevant recently viewed items can support an empty-cart recovery path."
+    },
+    {
+      "id": "shopify-live-prestige-prestige",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Campaign announcement and countdown",
+        "Category hero",
+        "Bestseller tabs and product rails",
+        "Brand and material storytelling",
+        "Lookbook/collaboration",
+        "Blog and service strip"
+      ],
+      "design_hypothesis": "Premium catalog pages can build confidence through layered material, care and brand-origin information, while campaign dates should remain synchronized across templates."
     }
   ]
-}\n
+}
