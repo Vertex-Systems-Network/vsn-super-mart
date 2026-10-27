@@ -1691,6 +1691,18 @@
         "FAQ and product reels"
       ],
       "design_hypothesis": "A guided skincare catalog can use concern-based discovery and ingredient comparison to make large assortments navigable, but visible claims and testimonials need trustworthy product-level alignment."
+    },
+    {
+      "id": "shopify-live-release-renaissance",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Countdown promotion bar",
+        "Featured jewelry rail",
+        "Category and ring-size options",
+        "Editorial and shop-the-look",
+        "Trust claims"
+      ],
+      "design_hypothesis": "Jewelry browsing can use size/material variants and editorial guidance, while campaign timing, social proof and destinations need consistent product alignment."
     }
   ]
 }
