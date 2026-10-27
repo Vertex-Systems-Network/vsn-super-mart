@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 95 additional browser-rendered homes are documented (126/127 unique); 375 read-only rendered pages across 95 selected presets.",
+  "summary": "51 indexed HTML selected homes and 96 additional browser-rendered homes are documented (127/127 unique); 379 read-only rendered pages across 96 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 95,
-    "opened_home": 95,
-    "opened_collection": 81,
-    "opened_product": 83,
-    "opened_empty_cart": 49,
+    "opened_stores": 96,
+    "opened_home": 96,
+    "opened_collection": 82,
+    "opened_product": 84,
+    "opened_empty_cart": 50,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -11413,11 +11413,73 @@
       "limits": [
         "No filters, sorting, quick view, color radios, quantity, add-to-cart or other controls used; no screenshots, viewport dimensions, mobile, Theme Editor, keyboard or performance tests. Claims unverified."
       ]
+    },
+    {
+      "id": "shopify-shapes-fizz-browser-render",
+      "selected_preset_id": "shapes:fizz",
+      "theme_family": "Shapes",
+      "preset": "Fizz",
+      "store_url": "https://shapes-theme-soda-2.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shapes:Fizz demo iframe verified; inspected home, Spritz collection, Grape PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://shapes-theme-soda-2.myshopify.com/",
+          "observations": [
+            "Non-alcoholic spritz storefront has compact navigation, oversized playful typography, flavor carousel, benefit badges, flavor/product content and editorial positioning.",
+            "Brand identity is split across SLAM, Spritz and theme dropdown label; price cards show $8+, while cart subtotal later reports AUD, indicating inconsistent demo locale/catalog presentation."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://shapes-theme-soda-2.myshopify.com/collections/seltzers",
+          "observations": [
+            "Spritz collection has eight flavor products, Filter and Sort controls, and short alcohol-free positioning copy; controls untouched.",
+            "Cards emphasize flavor names and $8+ pricing with sparse product metadata."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://shapes-theme-soda-2.myshopify.com/products/grape",
+          "observations": [
+            "Grape PDP includes four media thumbnails, long flavor narrative, eight flavor links, Single/4 pack/24 pack options, $8 price, Add to Cart, dietary badges and taste profile percentages.",
+            "Ingredients panel is visible; no option or purchase controls used."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://shapes-theme-soda-2.myshopify.com/cart",
+          "observations": [
+            "Empty cart reads Your cart is currently empty; subtotal is $0.00 AUD. Newsletter signup follows."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sorting, variant options, add-to-cart or other controls used; no screenshots, viewport dimensions, mobile, Theme Editor, keyboard or performance tests. Claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 375,
-    "selected_presets": 95,
-    "unique_selected_homepages_across_all_source_types": 126
+    "pages": 379,
+    "selected_presets": 96,
+    "unique_selected_homepages_across_all_source_types": 127
   }
 }
