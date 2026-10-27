@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 60 additional browser-rendered homes are documented (111/127 unique); 328 read-only rendered pages across 80 selected presets.",
+  "summary": "51 indexed HTML selected homes and 61 additional browser-rendered homes are documented (112/127 unique); 320 read-only rendered pages across 81 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 80,
-    "opened_home": 80,
-    "opened_collection": 67,
-    "opened_product": 68,
-    "opened_empty_cart": 34,
+    "opened_stores": 81,
+    "opened_home": 81,
+    "opened_collection": 68,
+    "opened_product": 69,
+    "opened_empty_cart": 35,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10495,11 +10495,73 @@
       "limits": [
         "Cookie consent left untouched. No interactions, screenshot, mobile viewport, editor, checkout, keyboard or performance tests. Product, stock and merchant claims unverified."
       ]
+    },
+    {
+      "id": "shopify-sleek-wildpeak-browser-render",
+      "selected_preset_id": "sleek:wildpeak",
+      "theme_family": "Sleek",
+      "preset": "Wildpeak",
+      "store_url": "https://sleek-wildpeak.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Sleek:Wildpeak listing View demo, verified embedded storefront host, and inspected home, best-sellers collection, linked Emma 3L Shell Jacket PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://sleek-wildpeak.myshopify.com/",
+          "observations": [
+            "Sport/outdoor apparel landing page with shipping banner, three-slide hero, product tabs, editorial/category tiles, review/product carousel, promotion tiles, bundle module, service benefits, flash-sale, shop-the-look, testimonials and FAQs.",
+            "Catalog combines outdoor-apparel products with unrelated fashion filler copy and cross-category reviews; treat demo content coherence as weak."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://sleek-wildpeak.myshopify.com/collections/best-sellers",
+          "observations": [
+            "20 products; product-type, price, color, size and availability facets; Best selling sort shown; page 2 link visible, all controls untouched.",
+            "Product types span accessories, cashmeres, dresses, jackets/coats, pants, skirts and T-shirts; fashion items sit alongside outdoor gear."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://sleek-wildpeak.myshopify.com/products/emma-3l-shell-jacket-green",
+          "observations": [
+            "Emma 3L Shell Jacket PDP at $669 with gallery, green/black color, S–XL size selector, size-chart popup content already present, stock message, quantity and add-to-cart controls, shipping info, collapsible details.",
+            "Below PDP, reviews reference other apparel and recommendations/editorial modules contain unrelated beachwear, furniture, linen and generic values copy; content-template mismatch. Store says demo products can be purchased from Astrid Wild; claim not validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://sleek-wildpeak.myshopify.com/cart",
+          "observations": [
+            "Empty cart message with suggested Pants, Shorts, Jackets and Shoes collections; You may also like heading and newsletter/footer."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, pagination, variants, quantity, add-to-cart, cart edits or checkout actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product, inventory and merchant claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 316,
-    "selected_presets": 80,
-    "unique_selected_homepages_across_all_source_types": 111
+    "pages": 320,
+    "selected_presets": 81,
+    "unique_selected_homepages_across_all_source_types": 112
   }
 }
