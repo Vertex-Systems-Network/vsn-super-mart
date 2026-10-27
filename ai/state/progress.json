@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Targeted interaction coverage complete: 127/127 selected presets across 129 observations, with no interaction presets pending. Mobile review remains 127/127. Next audit gaps: Theme Editor, checkout, keyboard/accessibility and Lighthouse for the selected cohort.",
+  "next_action": "Targeted interaction coverage is complete: 127/127 selected presets across 129 observations; mobile review is 127/127. Added one bounded Dawn demo keyboard smoke sample: the skip-to-content link receives keyboard focus and moves focus to MainContent. Remaining open gates: full keyboard/accessibility audit for the cohort and VSN theme, Theme Editor access, bounded checkout validation, and VSN-theme Lighthouse runs after deployment. Do not mark these complete from the single public-demo sample.",
   "approvals": {},
   "figma": {
     "file_key": null,
@@ -14,7 +14,7 @@
     "historical_replaced_file_key": "y5e3fEpx2eAFhLRFLisP0o",
     "historical_original_file_key": "BxJuIRth8k4cCUbFnPV6ek"
   },
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-27",
   "design_delivery_mode": "fresh_design_to_be_created_later",
   "design_recovery": {
     "status": "archived",
