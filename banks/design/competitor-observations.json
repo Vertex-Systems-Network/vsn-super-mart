@@ -2193,6 +2193,47 @@
         "Selecting M updates the selected state and variant-specific URL; the in-stock message remains unchanged."
       ],
       "design_hypothesis": "Keep high-consideration variant choices visible and addressable by URL; keep inventory feedback tied to the selected size."
+    },
+    {
+      "id": "shopify-tier1-disclosure-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Across Tier 1 demos, product pages exposed expandable care, warranty, FAQ, shipping, description, specifications and subscription disclosures.",
+        "Opening controls revealed contextual content without leaving the product page."
+      ],
+      "design_hypothesis": "Use clearly labeled disclosures for supporting product details; keep essential decision information visible and expand secondary information in place."
+    },
+    {
+      "id": "shopify-tier1-size-guide-overlay",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Prestige:Signature opened a conversion-chart overlay from the size-chart control."
+      ],
+      "design_hypothesis": "Keep size guidance reachable beside variant selection and open it without losing product context."
+    },
+    {
+      "id": "shopify-tier1-gallery-zoom",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empire:Forma opened a product zoom dialog from a gallery image and displayed a Close control."
+      ],
+      "design_hypothesis": "Provide focused image zoom with a visible close action that returns shoppers to the PDP."
+    },
+    {
+      "id": "shopify-tier1-navigation-search",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Tier 1 interactions opened navigation disclosures for categories/Women and a header search panel."
+      ],
+      "design_hypothesis": "Make navigation and search panels easy to open and dismiss; distinguish category choices from direct links."
+    },
+    {
+      "id": "shopify-tier1-subscription-disclosures",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Warehouse:Warehouse, Wood and Mesh exposed expandable newsletter/subscription disclosures on product pages."
+      ],
+      "design_hypothesis": "Label promotional subscription details clearly and keep them separate from product purchase controls."
     }
   ]
 }
