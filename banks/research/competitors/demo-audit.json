@@ -9445,6 +9445,38 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official listing iframe host verified; rendered home, all-products collection, Natural Deodorant Trio PDP and empty cart inspected read-only.",
       "notes": "Demo's mixed imported product/testimonial content and many health/safety/efficacy claims remain unverified; pages contain extensive bundle/flash promotion modules."
+    },
+    {
+      "id": "shopify-live-release-renaissance",
+      "platform": "shopify",
+      "theme": "Release",
+      "preset": "Renaissance",
+      "url": "https://release-emerald.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "campaign-countdown",
+        "product-variant-swatches",
+        "shop-the-look",
+        "collection-filters",
+        "empty-cart-recommendations"
+      ],
+      "niches": [
+        "jewelry",
+        "fashion",
+        "accessories"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official host verified; home, Rings collection, Vivien Ring PDP and empty cart inspected read-only.",
+      "notes": "Countdown says next 24h while timer showed 277 days; unrelated skincare testimonial on jewelry home. Cart View All and some community links point to /false; recommendation title/product route mismatch."
     }
   ],
   "discovery_sources": [
