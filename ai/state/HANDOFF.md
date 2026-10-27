@@ -1,3 +1,18 @@
+## 2026-10-27 — Shopify rendered demo research Batch 117 (Shapes:Aura)
+
+**Done**
+- Verified official View demo; inspected home, four-product Essentials collection, Hand Balm PDP and empty cart read-only.
+- Coverage: 119/127 homes (51 indexed HTML + 68 additional rendered); canonical rendered total 347 pages across 88 presets; 8 remain.
+- Store explicitly discloses Aura is fictional demo content. Values-led skincare merchandising includes ingredient story, product concern tags, accordions and reviews.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No collection or cart interactions, screenshots, mobile viewport, editor, checkout, keyboard or performance tests. Skincare/product claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
 ## 2026-10-27 — Shopify rendered demo research Batch 116 (Ignite:Alpha)
 
 **Done**
