@@ -9511,6 +9511,39 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official host verified; home, Bestsellers collection, Ultimate Towering Blocks Game PDP and empty cart inspected read-only.",
       "notes": "UK/GBP locale conflicts with $100 free-delivery messaging; Orchard Toys social links and malformed Instagram scheme conflict with Playtime branding. Collection age facets include anomalous ranges and the PDP shows one review but a 38-review stat."
+    },
+    {
+      "id": "shopify-live-ignite-tails",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Tails",
+      "url": "https://benchmark-pets-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "product-type-search",
+        "animal-category-navigation",
+        "collection-filters",
+        "product-card-color-swatches",
+        "quick-view",
+        "product-video"
+      ],
+      "niches": [
+        "pets",
+        "pet-supplies",
+        "animals"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official host verified; home, Dogs collection, Cozy Retreat Pet Tent PDP and empty cart inspected read-only.",
+      "notes": "UK/GBP locale coexists with +1 phone and $100 shipping copy; PDP delivery timer displayed zero for all units. Sale claimed and stock data unverified."
     }
   ],
   "discovery_sources": [
