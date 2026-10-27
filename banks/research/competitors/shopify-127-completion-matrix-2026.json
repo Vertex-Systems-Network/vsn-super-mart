@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 4 presets; 123 still pending. Theme Editor, checkout and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 5 presets; 122 still pending. Theme Editor, checkout and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -12,7 +12,7 @@
     "collection": 38,
     "product": 40,
     "cart": 11,
-    "interactive": 4,
+    "interactive": 5,
     "mobile": 127,
     "editor": 0,
     "checkout": 0,
@@ -33,7 +33,7 @@
     "product": 0,
     "cart": 0,
     "home_any_source": 0,
-    "interactive": 123,
+    "interactive": 122,
     "mobile": 0,
     "editor": 127,
     "checkout": 127,
@@ -581,18 +581,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised."
+        "Only size M selection was tested; filters, sorting, pagination, Quick View, cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue remaining priority presets; retry official listing preview blockers later."
+        "Continue targeted interaction review on the next untested selected preset; completed presets are marked and excluded from the pending count."
       ],
       "browser_render_observations": [
         {
@@ -616,7 +616,13 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-impulse-dune-browser-render",
-        "shopify-live-impulse-dune-rendered"
+        "shopify-live-impulse-dune-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black?variant=30237988749383",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "impulse-dune-variant-size-m-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -627,7 +633,11 @@
         },
         "observation_id": "mobile-impulse:dune-2026-10-27",
         "observations": "Compact Dune/search/menu/cart header and vertical editorial hero; headline and single CTA are readable within the phone frame."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "impulse-dune-variant-size-m-2026-10-27"
+      ]
     },
     {
       "audit_rank": 3,
