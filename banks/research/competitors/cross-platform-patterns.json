@@ -2369,6 +2369,80 @@
         "a11y-lighthouse"
       ],
       "design_implication": "Include consent and gate states in mobile layout review; check dialog size, readable controls and focus paths. Track placeholder/media clarity separately from layout."
+    },
+    {
+      "id": "shopify-cascading-catalog-finder",
+      "context": "Large-catalog stores can help shoppers narrow broad departments through sequential category choices.",
+      "signals": [
+        "Enterprise:Enterprise requires a department before category, then product type.",
+        "Smart Tech → Home Technology → Smart Cameras resolved to a 7-product collection.",
+        "The next selector remains disabled until its parent choice is set."
+      ],
+      "source_entry_ids": [
+        "shopify-interaction-enterprise-cascading-finder"
+      ],
+      "option_ids": [
+        "brand-directory-navigation",
+        "subcollection-nav",
+        "faceted-filters",
+        "predictive-search"
+      ],
+      "design_implication": "Use an optional progressive finder when the catalog taxonomy supports it; show each next step only when valid and keep direct collection/search paths available."
+    },
+    {
+      "id": "shopify-filter-sort-result-feedback",
+      "context": "Collection discovery depends on visible filter groups, meaningful counts and familiar sorting choices.",
+      "signals": [
+        "Enterprise Smart Cameras filter drawer exposed Availability counts, Price range and Brand.",
+        "The sort menu showed Featured, relevance, best selling, alphabetical, price and date orders.",
+        "The collection indicated seven products before additional filters were selected."
+      ],
+      "source_entry_ids": [
+        "shopify-interaction-enterprise-filter-sort"
+      ],
+      "option_ids": [
+        "faceted-filters",
+        "filter-layouts",
+        "sorting",
+        "grid-density"
+      ],
+      "design_implication": "Keep filter values/counts and sort controls legible; after any selection update result count and retain a clear way to remove filters."
+    },
+    {
+      "id": "shopify-variant-stock-coupling",
+      "context": "Variant choice should update product availability and fit guidance alongside the selected value.",
+      "signals": [
+        "Prestige:Couture PDP displayed color, size, size-chart access and stock.",
+        "Changing XS to S changed the selected radio and displayed stock from 4 to 3 in the demo."
+      ],
+      "source_entry_ids": [
+        "shopify-interaction-prestige-variant-stock"
+      ],
+      "option_ids": [
+        "variant-picker-styles",
+        "size-chart",
+        "inventory-status",
+        "product-blocks"
+      ],
+      "design_implication": "Tie inventory and purchasability to the exact selected variant; keep size help near the options and expose unavailable states before adding to cart."
+    },
+    {
+      "id": "shopify-empty-cart-recovery",
+      "context": "An empty cart can preserve the next shopping step without implying that an item was added.",
+      "signals": [
+        "Enterprise cart drawer clearly stated the cart was empty and showed a $0 subtotal.",
+        "A contextual tech recommendation shelf provided Choose options actions."
+      ],
+      "source_entry_ids": [
+        "shopify-interaction-enterprise-empty-cart"
+      ],
+      "option_ids": [
+        "cart-drawer",
+        "empty-states",
+        "cart-upsell",
+        "related-products"
+      ],
+      "design_implication": "Pair a clear empty state with relevant product discovery and an obvious return path; never make a recommendation look like a cart line."
     }
   ]
 }
