@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 66 additional browser-rendered homes are documented (117/127 unique); 339 read-only rendered pages across 86 selected presets.",
+  "summary": "51 indexed HTML selected homes and 67 additional browser-rendered homes are documented (118/127 unique); 343 read-only rendered pages across 87 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 86,
-    "opened_home": 86,
-    "opened_collection": 72,
-    "opened_product": 74,
-    "opened_empty_cart": 40,
+    "opened_stores": 87,
+    "opened_home": 87,
+    "opened_collection": 73,
+    "opened_product": 75,
+    "opened_empty_cart": 41,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10855,11 +10855,73 @@
       "limits": [
         "No filter/sort, variants, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance testing. Product, availability, stock, quality and service claims unverified."
       ]
+    },
+    {
+      "id": "shopify-ignite-alpha-browser-render",
+      "selected_preset_id": "ignite:alpha",
+      "theme_family": "Ignite",
+      "preset": "Alpha",
+      "store_url": "https://benchmark-automotive-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Ignite:Alpha listing View demo, verified embedded host and inspected home, BMV collection, linked Foot Rest Brake & Gas Pedal PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://benchmark-automotive-demo.myshopify.com/",
+          "observations": [
+            "Automotive parts storefront with make/model finder, type search, compatibility garage, category cards, service booking form, featured 25k+ parts, product-fit chips, sale modules, before/after slider, brand tiles, interior hotspots, testimonials, install videos/blog and staff picks.",
+            "Navigation and catalog use vehicle compatibility metadata. Demo copy includes stylized brand names and generic product/testimonial claims; not validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://benchmark-automotive-demo.myshopify.com/collections/bmv",
+          "observations": [
+            "87 products; facets for make, model, generation, year, part type, color, fit type, condition, light source, lighting features, vehicle type, frame/body/decor features, mirror type/design/features and application area.",
+            "Best selling sort, comparison switch, quantity controls and quick-view options visible, untouched; fitment chips and sale/preorder/inventory statuses appear on cards."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://benchmark-automotive-demo.myshopify.com/products/foot-rest-brake-gas-pedal-e30-e36-e39-e46-e87-e90-e91-e92-e93",
+          "observations": [
+            "Foot Rest Brake & Gas Pedal PDP with four images, 50-in-stock text, Silver/Black and Automatic/Manual options, £43, 35%-claimed sale, 7-row vehicle compatibility table, product enquiry, installation/safety PDF links, sticky purchase bar and FAQ.",
+            "Compatibility table pairs 1 Series with E30/E36 and 2 Series with E39/E46/E87; possible fitment taxonomy inconsistency. Lower marketing copy is generic. Product/fitment claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://benchmark-automotive-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart with continue-shopping, Our favorites product carousel, vehicle/category navigation, expert-help footer and payment methods."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No vehicle selectors, filters, compare, sort, quick view, variants, cart or checkout interactions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product and fitment claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 339,
-    "selected_presets": 86,
-    "unique_selected_homepages_across_all_source_types": 117
+    "pages": 343,
+    "selected_presets": 87,
+    "unique_selected_homepages_across_all_source_types": 118
   }
 }
