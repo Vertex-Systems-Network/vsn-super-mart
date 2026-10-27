@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "scope": "The 127 selected popular Shopify theme/preset records",
   "method": "Indexed public HTML evidence and direct rendered browser observations are maintained as separate source classes; interactions are counted only after execution.",
-  "reason": "Public demo screen coverage is complete for the selected cohort; targeted interactions now cover 72 presets. Full interaction coverage, Theme Editor, checkout, keyboard/accessibility, performance and screenshot capture remain incomplete.",
+  "reason": "Public demo screen coverage is complete for the selected cohort; targeted interactions now cover 110 presets. Full interaction coverage (17 presets remain), Theme Editor, checkout, keyboard/accessibility and Lighthouse checks are incomplete.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
   "status": "screen_coverage_complete_validation_partial",
   "checks": [
@@ -104,12 +104,12 @@
       "product": 0,
       "cart": 0
     },
-    "interactive_events_tested": 74,
+    "interactive_events_tested": 112,
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2,
-    "interactive_presets_tested": 72
+    "interactive_presets_tested": 110
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -125,220 +125,12 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch139-2026.md",
-  "next_action": "Tier 3 is complete and archived (6 presets). Continue Tier 4's 38 pending presets; 55 interaction presets remain overall.",
+  "next_action": "Tier 4 is complete and archived (38 presets). Continue the 17 remaining selected families; Theme Editor, checkout and Lighthouse remain open for all 127.",
   "pending_interaction_groups": {
-    "updated_at": "2026-10-27",
+    "updated_at": "2026-10-28",
     "definition": "Only presets with interactive_tested=false in the completion matrix are included. When a preset is completed, remove it from its group's items and decrement pending_count.",
-    "total_pending": 55,
+    "total_pending": 17,
     "groups": [
-      {
-        "id": "priority_tier_4",
-        "label": "Tier 4",
-        "objective": "Remaining paid family variations and niche handling",
-        "families": [
-          "be-yours",
-          "sleek",
-          "wonder",
-          "eurus",
-          "release",
-          "ignite",
-          "shapes",
-          "vision"
-        ],
-        "items": [
-          {
-            "preset_id": "be-yours:be-yours",
-            "theme_family": "be-yours",
-            "preset": "Be Yours"
-          },
-          {
-            "preset_id": "be-yours:sheen",
-            "theme_family": "be-yours",
-            "preset": "Sheen"
-          },
-          {
-            "preset_id": "be-yours:peace",
-            "theme_family": "be-yours",
-            "preset": "Peace"
-          },
-          {
-            "preset_id": "be-yours:harmony",
-            "theme_family": "be-yours",
-            "preset": "Harmony"
-          },
-          {
-            "preset_id": "sleek:sleek",
-            "theme_family": "sleek",
-            "preset": "Sleek"
-          },
-          {
-            "preset_id": "sleek:wildpeak",
-            "theme_family": "sleek",
-            "preset": "Wildpeak"
-          },
-          {
-            "preset_id": "sleek:jumped",
-            "theme_family": "sleek",
-            "preset": "Jumped"
-          },
-          {
-            "preset_id": "sleek:modiva",
-            "theme_family": "sleek",
-            "preset": "Modiva"
-          },
-          {
-            "preset_id": "sleek:glint",
-            "theme_family": "sleek",
-            "preset": "Glint"
-          },
-          {
-            "preset_id": "wonder:wonder",
-            "theme_family": "wonder",
-            "preset": "Wonder"
-          },
-          {
-            "preset_id": "wonder:root",
-            "theme_family": "wonder",
-            "preset": "Root"
-          },
-          {
-            "preset_id": "wonder:velour",
-            "theme_family": "wonder",
-            "preset": "Velour"
-          },
-          {
-            "preset_id": "wonder:nook",
-            "theme_family": "wonder",
-            "preset": "Nook"
-          },
-          {
-            "preset_id": "wonder:petit",
-            "theme_family": "wonder",
-            "preset": "Petit"
-          },
-          {
-            "preset_id": "eurus:eurus",
-            "theme_family": "eurus",
-            "preset": "Eurus"
-          },
-          {
-            "preset_id": "eurus:arise",
-            "theme_family": "eurus",
-            "preset": "Arise"
-          },
-          {
-            "preset_id": "eurus:placid",
-            "theme_family": "eurus",
-            "preset": "Placid"
-          },
-          {
-            "preset_id": "eurus:mystique",
-            "theme_family": "eurus",
-            "preset": "Mystique"
-          },
-          {
-            "preset_id": "eurus:whiff",
-            "theme_family": "eurus",
-            "preset": "Whiff"
-          },
-          {
-            "preset_id": "release:release",
-            "theme_family": "release",
-            "preset": "Release"
-          },
-          {
-            "preset_id": "release:grasse",
-            "theme_family": "release",
-            "preset": "Grasse"
-          },
-          {
-            "preset_id": "release:serenity",
-            "theme_family": "release",
-            "preset": "Serenity"
-          },
-          {
-            "preset_id": "release:forest",
-            "theme_family": "release",
-            "preset": "Forest"
-          },
-          {
-            "preset_id": "release:renaissance",
-            "theme_family": "release",
-            "preset": "Renaissance"
-          },
-          {
-            "preset_id": "ignite:ignite",
-            "theme_family": "ignite",
-            "preset": "Ignite"
-          },
-          {
-            "preset_id": "ignite:playtime",
-            "theme_family": "ignite",
-            "preset": "Playtime"
-          },
-          {
-            "preset_id": "ignite:tails",
-            "theme_family": "ignite",
-            "preset": "Tails"
-          },
-          {
-            "preset_id": "ignite:alpha",
-            "theme_family": "ignite",
-            "preset": "Alpha"
-          },
-          {
-            "preset_id": "shapes:shapes",
-            "theme_family": "shapes",
-            "preset": "Shapes"
-          },
-          {
-            "preset_id": "shapes:fizz",
-            "theme_family": "shapes",
-            "preset": "Fizz"
-          },
-          {
-            "preset_id": "shapes:candy",
-            "theme_family": "shapes",
-            "preset": "Candy"
-          },
-          {
-            "preset_id": "shapes:aura",
-            "theme_family": "shapes",
-            "preset": "Aura"
-          },
-          {
-            "preset_id": "shapes:scratch",
-            "theme_family": "shapes",
-            "preset": "Scratch"
-          },
-          {
-            "preset_id": "vision:vision",
-            "theme_family": "vision",
-            "preset": "Vision"
-          },
-          {
-            "preset_id": "vision:onyx",
-            "theme_family": "vision",
-            "preset": "Onyx"
-          },
-          {
-            "preset_id": "vision:poochy",
-            "theme_family": "vision",
-            "preset": "Poochy"
-          },
-          {
-            "preset_id": "vision:velocite",
-            "theme_family": "vision",
-            "preset": "Velocite"
-          },
-          {
-            "preset_id": "vision:solstice",
-            "theme_family": "vision",
-            "preset": "Solstice"
-          }
-        ],
-        "pending_count": 38
-      },
       {
         "id": "other_selected_families",
         "label": "Other selected families",
@@ -548,6 +340,54 @@
           "atelier:atelier"
         ],
         "report": "banks/research/competitors/shopify-interaction-sample-batch139-2026.md"
+      },
+      {
+        "id": "priority_tier_4",
+        "label": "Tier 4",
+        "status": "complete",
+        "completed_on": "2026-10-28",
+        "completed_count": 38,
+        "preset_ids": [
+          "be-yours:be-yours",
+          "be-yours:sheen",
+          "be-yours:peace",
+          "be-yours:harmony",
+          "sleek:sleek",
+          "sleek:wildpeak",
+          "sleek:jumped",
+          "sleek:modiva",
+          "sleek:glint",
+          "wonder:wonder",
+          "wonder:root",
+          "wonder:velour",
+          "wonder:nook",
+          "wonder:petit",
+          "eurus:eurus",
+          "eurus:arise",
+          "eurus:placid",
+          "eurus:mystique",
+          "eurus:whiff",
+          "release:release",
+          "release:grasse",
+          "release:serenity",
+          "release:forest",
+          "release:renaissance",
+          "ignite:ignite",
+          "ignite:playtime",
+          "ignite:tails",
+          "ignite:alpha",
+          "shapes:shapes",
+          "shapes:fizz",
+          "shapes:candy",
+          "shapes:aura",
+          "shapes:scratch",
+          "vision:vision",
+          "vision:onyx",
+          "vision:poochy",
+          "vision:velocite",
+          "vision:solstice"
+        ],
+        "report": "banks/research/competitors/shopify-interaction-sample-batch140-2026.md"
       }
     ]
   }
