@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Cross-repository check found VSN Builder's Theme App Extension: vsn-page-renderer is a target:body app embed and 25 target:section app blocks. The VSN Builder T032 record says no Shopify store installed/published/deployed; real editor E2E T033 remains waiting and direct CLI deploy is guarded. Likely missing embed cause is extension deployment/installation in the target store; no store session is connected to confirm. Full evidence is in banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md. Do not alter code/deploy in Stage 2. Competitor editor matrix remains 0/127 reviewed, 127 pending.",
+  "next_action": "Source-side VSN Theme Editor and app-embed diagnosis is complete. Remaining evidence gates: VSN live Theme Editor verification requires a connected authorized Shopify development store and a safely deployed/installed VSN Builder app extension (T032 remains IN REVIEW, T033 WAITING; direct CLI deploy is guarded); competitor Theme Editor cohort remains 0/127 reviewed because private settings are unavailable; checkout progression, keyboard/accessibility and Lighthouse/performance remain untested. Do not mark these complete or deploy in Stage 2 without the required access and release gates. Mobile visual review and targeted interactions are 127/127 complete.",
   "approvals": {},
   "figma": {
     "file_key": null,
