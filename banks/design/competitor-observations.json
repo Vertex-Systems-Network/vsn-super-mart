@@ -1443,6 +1443,19 @@
         "Empty cart route verified"
       ],
       "design_hypothesis": "Shade-forward product cards and beauty editorial storytelling are visible across home, collection and PDP. Product and merchant claims remain unverified; no visual breakpoint or interaction testing."
+    },
+    {
+      "id": "shopify-live-palo-alto-pluma",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Timed promotional bar and hero",
+        "Tabbed bestsellers/sale shelf and category entry points",
+        "Editorial designer story, table styling imagery and mosaic collections",
+        "Best sellers grid with facets and color swatches",
+        "PDP gallery, color selectors, accordions and Buy It With",
+        "Empty cart recommendations and threshold copy"
+      ],
+      "design_hypothesis": "Homewares direction organizes colorful tabletop product around gathering occasions, with editorial story modules around commerce shelves. Product claims and responsive behavior remain unverified."
     }
   ]
 }
