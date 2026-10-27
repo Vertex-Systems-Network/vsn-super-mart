@@ -2495,13 +2495,15 @@
         "Expanded content stayed in place and retained the product context.",
         "Tier 2 adds live examples of product care, ingredients, sizing, shipping, materials, warranty and returns panels across Focal, Expanse, Stiletto, Motion, Palo Alto and Pipeline demos.",
         "Trade exposed an expandable Product features panel with product details in the page context.",
-        "Tier 4 demos across Sleek, Wonder, Eurus, Shapes and Vision provided additional product-detail accordions."
+        "Tier 4 demos across Sleek, Wonder, Eurus, Shapes and Vision provided additional product-detail accordions.",
+        "The remaining selected-family presets added Product Details, Ingredients and Materials/Care disclosure examples."
       ],
       "source_entry_ids": [
         "shopify-tier1-disclosure-coverage",
         "shopify-tier2-product-disclosures",
         "tier3-trade-trade-2026-10-27",
-        "shopify-tier4-interaction-controls"
+        "shopify-tier4-interaction-controls",
+        "shopify-other-family-interaction-controls"
       ],
       "option_ids": [
         "collapsible-tabs",
@@ -2518,13 +2520,15 @@
         "Empire:Forma opened a Product zoom dialog from an image and displayed a Close control.",
         "Pipeline:Pahoa and Pipeline:Phantom opened gallery zoom dialogs with image navigation and a Close control; Concept:Inova opened a media modal with Close.",
         "Tier 3 first-party demos Tinker and Atelier also opened gallery zoom views and returned to the PDP with a Close control.",
-        "Sleek, Be Yours and Ignite Tier 4 demos opened reversible product gallery zoom controls."
+        "Sleek, Be Yours and Ignite Tier 4 demos opened reversible product gallery zoom controls.",
+        "Refresh, Origin, Craft, Publisher, Ride, Sense, Studio, Taste, Crave and Spotlight demos opened reversible product gallery zoom."
       ],
       "source_entry_ids": [
         "shopify-tier1-gallery-zoom",
         "shopify-tier2-gallery-modal",
         "shopify-tier3-native-baseline-interactions",
-        "shopify-tier4-interaction-controls"
+        "shopify-tier4-interaction-controls",
+        "shopify-other-family-interaction-controls"
       ],
       "option_ids": [
         "media-gallery-layouts",
