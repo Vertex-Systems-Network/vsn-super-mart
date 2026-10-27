@@ -1,3 +1,16 @@
+## 2026-10-27 — Shopify rendered demo research Batch 124 (Ignite:Tails)
+
+**Done**
+- Verified unique official demo host: https://benchmark-pets-demo.myshopify.com/; inspected home, Dogs collection, Cozy Retreat Pet Tent PDP and empty cart.
+- Logged four read-only routes, locale consistency and pet-commerce modules.
+- Status: 126/127 unique homes · 375 rendered pages · 95 presets · 1 home remains.
+
+**Limits**
+- No controls used, screenshots, viewport measurements, mobile/editor/checkout/performance tests.
+
+**Next**
+- Verify one final unique selected home, update all records and stop at 127/127.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 123 (Ignite:Playtime)
 
 **Done**
