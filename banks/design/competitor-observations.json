@@ -2234,6 +2234,46 @@
         "Warehouse:Warehouse, Wood and Mesh exposed expandable newsletter/subscription disclosures on product pages."
       ],
       "design_hypothesis": "Label promotional subscription details clearly and keep them separate from product purchase controls."
+    },
+    {
+      "id": "shopify-tier2-product-disclosures",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Tier 2 product pages exposed Description, Materials & Care, Product Care, Ingredients, Shipping and Returns, Warranty, Specifications, Our Promise and Size chart panels; each sampled panel opened in place."
+      ],
+      "design_hypothesis": "Group secondary product facts in clearly named panels near the buying decision, keep the active state visible, and make it possible to return to the product story without losing selection."
+    },
+    {
+      "id": "shopify-tier2-sizing-and-variant-state",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Focal, Motion and Palo Alto demos exposed Size chart or Size guide controls; Stiletto:Linen changed to size 36 and updated the product URL to a variant-specific query; Concept:Concept marked Gold Tone selected."
+      ],
+      "design_hypothesis": "Show size or variant selection immediately in both the control and the product state, and give size guidance a direct path from the option selector."
+    },
+    {
+      "id": "shopify-tier2-gallery-modal",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Pipeline:Pahoa and Pipeline:Phantom opened product gallery zoom dialogs with image navigation and Close; Concept:Inova opened a media modal with a Close control."
+      ],
+      "design_hypothesis": "Use focused gallery dialogs with clear close and previous/next controls so shoppers can inspect imagery and return to the same product state."
+    },
+    {
+      "id": "shopify-tier2-localization-pickup",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Local:Local and Local:Caffeine expanded language/country-region selectors. Local:Soleway and Local:Lively exposed pickup-location or store-map panels."
+      ],
+      "design_hypothesis": "Keep language, currency and pickup location controls distinct from product options; show the currently active locale or store and provide a clear way to close the panel."
+    },
+    {
+      "id": "shopify-tier2-search-fallback",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Stiletto:Stiletto's selected product URL returned 404 during this pass; the public homepage search modal opened as a same-preset fallback and no query was entered."
+      ],
+      "design_hypothesis": "When a product route is unavailable, record the limitation and use an observed same-store entry point for a bounded interaction check."
     }
   ]
 }
