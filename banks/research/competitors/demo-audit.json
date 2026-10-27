@@ -5310,8 +5310,8 @@
       "evidence_level": "live_demo_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "public_demo_html_accessible",
-      "document_verification_scope": "Public live demo Shopify HTML pages inspected; no executed cart, checkout, mobile or theme editor testing.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing iframe src verified; rendered home, 16-product skincare collection, Calming Serum PDP and empty cart read-only. No interactions, screenshot, viewport/editor/checkout/performance tests.",
       "feature_option_ids": [
         "mega-menu",
         "countdown-timer",
@@ -5330,12 +5330,12 @@
       "niches": [
         "beauty-dtc"
       ],
-      "notes": "Page URLs and evidence in shopify-live-demo-evidence-2026.json. Do not treat static document as interaction proof.",
+      "notes": "Beauty, ingredient, results and retailer claims unverified. Demo links to Undone as actual source for featured products.",
       "page_coverage": {
         "home": "document_only",
         "collection": "document_only",
         "product": "document_only",
-        "cart": "not_verified",
+        "cart": "document_only",
         "mobile": "not_verified"
       }
     },
