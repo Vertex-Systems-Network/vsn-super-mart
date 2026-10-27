@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 66 presets; 61 remain pending. Tier 1 and Tier 2 are closed. Theme Editor, checkout and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 72 presets; 55 remain pending. Tier 1, Tier 2 and Tier 3 are closed. Theme Editor, checkout and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -12,7 +12,7 @@
     "collection": 38,
     "product": 40,
     "cart": 11,
-    "interactive": 66,
+    "interactive": 72,
     "mobile": 127,
     "editor": 0,
     "checkout": 0,
@@ -33,7 +33,7 @@
     "product": 0,
     "cart": 0,
     "home_any_source": 0,
-    "interactive": 61,
+    "interactive": 55,
     "mobile": 0,
     "editor": 127,
     "checkout": 127,
@@ -9865,23 +9865,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
-        "shopify-dawn-dawn-screen-coverage"
+        "shopify-dawn-dawn-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-dawn-demo.myshopify.com/products/small-convertible-flex-bag-cappuccino",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier3-dawn-dawn-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -9892,7 +9898,11 @@
         },
         "observation_id": "mobile-dawn:dawn-2026-10-27",
         "observations": "Minimal header and full-bleed campaign photography; short CTA appears below image."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier3-dawn-dawn-2026-10-27"
+      ]
     },
     {
       "audit_rank": 106,
@@ -9938,23 +9948,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
-        "shopify-horizon-horizon-screen-coverage"
+        "shopify-horizon-horizon-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-horizon-demo.myshopify.com/products/1tuck-tapered-pants-424",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier3-horizon-horizon-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -9965,7 +9981,11 @@
         },
         "observation_id": "mobile-horizon:horizon-2026-10-27",
         "observations": "Very compact utility header; New Arrivals hero and CTA fit above featured products."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier3-horizon-horizon-2026-10-27"
+      ]
     },
     {
       "audit_rank": 107,
@@ -10247,23 +10267,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
-        "shopify-tinker-tinker-screen-coverage"
+        "shopify-tinker-tinker-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-tinker-demo.myshopify.com/products/gather-magsafe-phone-stand-black-walnut",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier3-tinker-tinker-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -10274,7 +10300,11 @@
         },
         "observation_id": "mobile-tinker:tinker-2026-10-27",
         "observations": "Compact craft-store header; editorial product imagery and serif copy continue below the fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier3-tinker-tinker-2026-10-27"
+      ]
     },
     {
       "audit_rank": 111,
@@ -10317,20 +10347,19 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No rendered screenshot or measured viewport; mobile layout untested",
         "No interactions, cart mutation, checkout, private Theme Editor, keyboard, VSN accessibility audit or Lighthouse"
       ],
       "next_action": [
-        "Continue with Prestige (base), the next priority pending preset.",
-        "For Savor, test mobile viewport, keyboard behavior and merchant Theme Editor only when those separate research paths are available."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -10353,7 +10382,13 @@
           "url": "https://savor-theme-demo.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-savor-browser-render"
+        "shopify-savor-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://savor-theme-demo.myshopify.com/products/sweet-pineapple",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier3-savor-savor-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -10364,7 +10399,11 @@
         },
         "observation_id": "mobile-savor:savor-2026-10-27",
         "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier3-savor-savor-2026-10-27"
+      ]
     },
     {
       "audit_rank": 112,
@@ -10988,23 +11027,29 @@
         "https://theme-trade-demo.myshopify.com/pages/company-account-request"
       ],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
-        "shopify-trade-trade-screen-coverage"
+        "shopify-trade-trade-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-trade-demo.myshopify.com/products/classic-towels",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier3-trade-trade-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11015,7 +11060,11 @@
         },
         "observation_id": "mobile-trade:trade-2026-10-27",
         "observations": "Wholesale header and stacked hero copy with carousel/brand tiles below."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier3-trade-trade-2026-10-27"
+      ]
     },
     {
       "audit_rank": 121,
@@ -11501,23 +11550,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
-        "shopify-atelier-atelier-screen-coverage"
+        "shopify-atelier-atelier-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-atelier-demo.myshopify.com/products/mini-isla-suede-caramel?variant=50126854848810",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier3-atelier-atelier-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11528,7 +11583,11 @@
         },
         "observation_id": "mobile-atelier:atelier-2026-10-27",
         "observations": "Transparent centered header over a luxury accessories image and large serif campaign copy."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier3-atelier-atelier-2026-10-27"
+      ]
     }
   ],
   "validation_policy": {
