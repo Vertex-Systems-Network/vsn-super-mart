@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 62 additional browser-rendered homes are documented (113/127 unique); 324 read-only rendered pages across 82 selected presets.",
+  "summary": "51 indexed HTML selected homes and 63 additional browser-rendered homes are documented (114/127 unique); 328 read-only rendered pages across 83 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 82,
-    "opened_home": 82,
-    "opened_collection": 69,
-    "opened_product": 70,
-    "opened_empty_cart": 36,
+    "opened_stores": 83,
+    "opened_home": 83,
+    "opened_collection": 70,
+    "opened_product": 71,
+    "opened_empty_cart": 37,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10619,11 +10619,73 @@
       "limits": [
         "No filters, sort, variants, quick view, add-to-cart, cart edits or checkout actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product/source claims unverified."
       ]
+    },
+    {
+      "id": "shopify-wonder-nook-browser-render",
+      "selected_preset_id": "wonder:nook",
+      "theme_family": "Wonder",
+      "preset": "Nook",
+      "store_url": "https://wonder-theme-interior.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Wonder:Nook View demo, verified iframe storefront, inspected home, Sofas collection, linked Mellow Sofa 3 seats PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://wonder-theme-interior.myshopify.com/",
+          "observations": [
+            "Home-interior storefront with room/department mega navigation, shipping/FAQ announcement, three-slide design hero, shop-by-department tiles, curated collages, seasonal product tabs, sale countdown, product-story sections, TikTok-style shoppable video, room inspiration, testimonials, design service and newsletter.",
+            "Catalog includes high-priced furniture from named brands; store says this is demo content, claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://wonder-theme-interior.myshopify.com/collections/sofas",
+          "observations": [
+            "16 products; brand (NAP/Normann Copenhagen/Sits), price, availability, fabrics, color, features and product-type facets. Featured sort visible, untouched.",
+            "Sofa catalog includes configurations and upholstery variety; product cards display brands/prices, some choose-options states."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://wonder-theme-interior.myshopify.com/collections/sofas/products/mellow-sofa-3-seats",
+          "observations": [
+            "Mellow Sofa 3 seats $1,600 PDP with 1/2/3-seat configuration links, beige color variants, quantity and add-to-cart control, dimensions, recycled-cotton fabric, description, delivery/return accordions and warranty/service promises.",
+            "PDP names NAP as product source and says demo store; specifications and warranty/shipping claims not validated."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://wonder-theme-interior.myshopify.com/cart",
+          "observations": [
+            "Empty cart page with continue shopping and login, popular room/product categories, service/information links, newsletter and payment footer."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, variants, quantity, add-to-cart, cart edits or checkout actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Retailer, product, warranty and delivery claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 324,
-    "selected_presets": 82,
-    "unique_selected_homepages_across_all_source_types": 113
+    "pages": 328,
+    "selected_presets": 83,
+    "unique_selected_homepages_across_all_source_types": 114
   }
 }
