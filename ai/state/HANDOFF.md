@@ -1,3 +1,14 @@
+## 2026-10-27 — Shopify rendered demo research Batch 118 (Vision:Velocite)
+
+**Done**
+- Verified official View demo host and inspected home, Mountain Bikes collection, FC-Moto jacket PDP and empty cart read-only.
+- Coverage: 120/127 unique homes (51 indexed HTML + 69 browser-rendered additions), 351 rendered pages across 89 presets; 7 homes remain.
+- Collection/PDP mismatches recorded: motorcycle jacket among Mountain Bikes, helmet description, Polygon bike copy; cart recently viewed area has generic placeholder text.
+- Updated evidence JSON, completion matrix, demo audit, competitor observations, plan and progress state; added Batch 118 report.
+
+**Next**
+- Continue on branch `research/shopify-live-demo-batch6`; find a new unique official demo host and deduplicate by hostname; stop at 127/127.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 117 (Shapes:Aura)
 
 **Done**
