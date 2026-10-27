@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Mobile visual review and synthesis complete (127/127); targeted interaction checks cover 3 presets / 5 observations. Next: continue representative live-demo interaction research (navigation/search, filters/sort, variants and cart) while keeping purchase/checkout out of scope.",
+  "next_action": "Mobile visual review and synthesis complete (127/127). Targeted interactions cover 4 presets / 6 observations, including Impulse Quick View. Continue representative live-demo interactions with a new untested preset; purchases and checkout remain out of scope.",
   "approvals": {},
   "figma": {
     "file_key": null,
