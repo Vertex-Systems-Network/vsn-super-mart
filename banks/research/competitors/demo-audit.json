@@ -9038,6 +9038,37 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official listing iframe src verified; rendered home, 14-item headphones collection after hydration, Air Beats PDP and empty cart inspected read-only.",
       "notes": "Product ratings/specs, discounts and customer service claims unverified."
+    },
+    {
+      "id": "shopify-live-concept-inova",
+      "platform": "shopify",
+      "theme": "Concept",
+      "preset": "Inova",
+      "url": "https://concept-theme-inova.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "collection-categories",
+        "material-facets",
+        "color-facets",
+        "furniture-pdp-gallery",
+        "empty-cart"
+      ],
+      "niches": [
+        "home-furnishings",
+        "furniture"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing iframe src verified; rendered home, Seating collection after delayed rendering, Embrace Lounge Chair PDP and empty cart inspected read-only. Cookie banner not accepted or declined.",
+      "notes": "Furniture product, stock and shipping claims unverified."
     }
   ],
   "discovery_sources": [
