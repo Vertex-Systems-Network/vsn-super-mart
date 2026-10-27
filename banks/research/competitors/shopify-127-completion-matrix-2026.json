@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 110 presets across 112 observations; 17 remain. Tier 1–4 are closed. Theme Editor, checkout and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Theme Editor, checkout, keyboard/accessibility and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -12,7 +12,7 @@
     "collection": 38,
     "product": 40,
     "cart": 11,
-    "interactive": 110,
+    "interactive": 127,
     "mobile": 127,
     "editor": 0,
     "checkout": 0,
@@ -33,7 +33,7 @@
     "product": 0,
     "cart": 0,
     "home_any_source": 0,
-    "interactive": 17,
+    "interactive": 0,
     "mobile": 0,
     "editor": 127,
     "checkout": 127,
@@ -10407,20 +10407,19 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No rendered screenshot or measured viewport; mobile layout untested",
         "No interactions, cart mutation, checkout, private Theme Editor, keyboard, VSN accessibility audit or Lighthouse"
       ],
       "next_action": [
-        "Continue with Prestige (base), the next priority pending preset.",
-        "Verify Refresh's current mobile viewport, keyboard behavior and Theme Editor only through separate test paths."
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
         {
@@ -10443,7 +10442,13 @@
           "url": "https://theme-refresh-demo.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-refresh-browser-render"
+        "shopify-refresh-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-refresh-demo.myshopify.com/products/shampoo-2",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-refresh:refresh-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -10454,7 +10459,11 @@
         },
         "observation_id": "mobile-refresh:refresh-2026-10-27",
         "observations": "Header is clear, while two product cards appear side-by-side with compact prices and add buttons."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-refresh:refresh-2026-10-28"
+      ]
     },
     {
       "audit_rank": 108,
@@ -10500,23 +10509,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-rise-rise-screen-coverage"
+        "shopify-rise-rise-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-rise-demo.myshopify.com/products/white-hoodie",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-rise:rise-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -10527,7 +10542,11 @@
         },
         "observation_id": "mobile-rise:rise-2026-10-27",
         "observations": "Centered wordmark and simple fashion hero; localized Japanese shipping copy in the top strip."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-rise:rise-2026-10-28"
+      ]
     },
     {
       "audit_rank": 109,
@@ -10573,23 +10592,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-origin-origin-screen-coverage"
+        "shopify-origin-origin-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-origin-demo.myshopify.com/products/2unfold-bag-copy",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-origin:origin-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -10600,7 +10625,11 @@
         },
         "observation_id": "mobile-origin:origin-2026-10-27",
         "observations": "Minimal bag-store header and oversized serif headline over a product photograph."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-origin:origin-2026-10-28"
+      ]
     },
     {
       "audit_rank": 110,
@@ -10828,23 +10857,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-craft-craft-screen-coverage"
+        "shopify-craft-craft-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-craft-demo.myshopify.com/products/the-everything-bowls",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-craft:craft-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -10855,7 +10890,11 @@
         },
         "observation_id": "mobile-craft:craft-2026-10-27",
         "observations": "Centered icon header and sustainability headline; two-column editorial imagery follows below."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-craft:craft-2026-10-28"
+      ]
     },
     {
       "audit_rank": 113,
@@ -10901,23 +10940,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-publisher-publisher-screen-coverage"
+        "shopify-publisher-publisher-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-publisher-demo.myshopify.com/products/braulio-amado-2021",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-publisher:publisher-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -10928,7 +10973,11 @@
         },
         "observation_id": "mobile-publisher:publisher-2026-10-27",
         "observations": "Minimal studio header and centered editorial copy; image tiles begin within the first view."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-publisher:publisher-2026-10-28"
+      ]
     },
     {
       "audit_rank": 114,
@@ -10974,23 +11023,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-ride-ride-screen-coverage"
+        "shopify-ride-ride-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-ride-demo.myshopify.com/products/filipe-toledo-wildfire",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-ride:ride-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11001,7 +11056,11 @@
         },
         "observation_id": "mobile-ride:ride-2026-10-27",
         "observations": "Bright promo strip and dark header over surf photography; hero is primarily image-led."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-ride:ride-2026-10-28"
+      ]
     },
     {
       "audit_rank": 115,
@@ -11047,23 +11106,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-sense-sense-screen-coverage"
+        "shopify-sense-sense-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-sense-demo.myshopify.com/products/natural-vegan-lip-balm-lemon-lime",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-sense:sense-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11074,7 +11139,11 @@
         },
         "observation_id": "mobile-sense:sense-2026-10-27",
         "observations": "Promo bar and clean centered header over a large skincare portrait."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-sense:sense-2026-10-28"
+      ]
     },
     {
       "audit_rank": 116,
@@ -11120,23 +11189,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-studio-studio-screen-coverage"
+        "shopify-studio-studio-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-studio-demo.myshopify.com/products/rhyme",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-studio:studio-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11147,7 +11222,11 @@
         },
         "observation_id": "mobile-studio:studio-2026-10-27",
         "observations": "Centered handwritten wordmark; editorial art headline and image grid stack vertically."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-studio:studio-2026-10-28"
+      ]
     },
     {
       "audit_rank": 117,
@@ -11194,18 +11273,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "no interactive/mobile/editor/test access"
       ],
-      "next_action": [],
+      "next_action": [
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
+      ],
       "mobile_review": {
         "status": "reviewed",
         "viewport_dimensions": {
@@ -11215,7 +11296,19 @@
         },
         "observation_id": "mobile-taste:taste-2026-10-27",
         "observations": "Compact header, free-shipping strip and vivid beverage photography in a single-column layout."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-taste:taste-2026-10-28"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-taste-demo.myshopify.com/products/copy-of-the-good",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-taste:taste-2026-10-28"
+        }
+      ]
     },
     {
       "audit_rank": 118,
@@ -11261,23 +11354,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-crave-crave-screen-coverage"
+        "shopify-crave-crave-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-crave-demo.myshopify.com/products/thai-larb-starter-pack",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-crave:crave-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11288,7 +11387,11 @@
         },
         "observation_id": "mobile-crave:crave-2026-10-27",
         "observations": "Centered wordmark and food photography; campaign headline begins below the hero."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-crave:crave-2026-10-28"
+      ]
     },
     {
       "audit_rank": 119,
@@ -11331,23 +11434,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "collection",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual collection URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-spotlight-spotlight-screen-coverage"
+        "shopify-spotlight-spotlight-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-spotlight-demo.myshopify.com/products/copy-of-ebbets-wool-c-cap-navy",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-spotlight:spotlight-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11358,7 +11467,11 @@
         },
         "observation_id": "mobile-spotlight:spotlight-2026-10-27",
         "observations": "Minimal header with product cards arranged two across; mobile grid is visible immediately."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-spotlight:spotlight-2026-10-28"
+      ]
     },
     {
       "audit_rank": 120,
@@ -11489,23 +11602,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-vessel-vessel-screen-coverage"
+        "shopify-vessel-vessel-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-vessel-demo.myshopify.com/products/us-25192?variant=44459717656633",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-vessel:vessel-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11516,7 +11635,11 @@
         },
         "observation_id": "mobile-vessel:vessel-2026-10-27",
         "observations": "Minimal icon navigation over tabletop product imagery; editorial headline below."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-vessel:vessel-2026-10-28"
+      ]
     },
     {
       "audit_rank": 122,
@@ -11562,23 +11685,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-heritage-heritage-screen-coverage"
+        "shopify-heritage-heritage-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-heritage-demo.myshopify.com/products/mof-melton-wool-blanket",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-heritage:heritage-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11589,7 +11718,11 @@
         },
         "observation_id": "mobile-heritage:heritage-2026-10-27",
         "observations": "Dark minimal header with large multiline textile headline; product photo starts below."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-heritage:heritage-2026-10-28"
+      ]
     },
     {
       "audit_rank": 123,
@@ -11637,23 +11770,29 @@
         "https://theme-pitch-demo.myshopify.com/collections/bundles"
       ],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-pitch-pitch-screen-coverage"
+        "shopify-pitch-pitch-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-pitch-demo.myshopify.com/products/age-serum",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-pitch:pitch-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11664,7 +11803,11 @@
         },
         "observation_id": "mobile-pitch:pitch-2026-10-27",
         "observations": "Promotional strip and oversized orange branding; skincare headline and supporting text follow."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-pitch:pitch-2026-10-28"
+      ]
     },
     {
       "audit_rank": 124,
@@ -11710,23 +11853,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-dwell-dwell-screen-coverage"
+        "shopify-dwell-dwell-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-dwell-demo.myshopify.com/products/top-sheet-brushed-cotton",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-dwell:dwell-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11737,7 +11886,11 @@
         },
         "observation_id": "mobile-dwell:dwell-2026-10-27",
         "observations": "Compact centered logo and room/fashion campaign image with a Shop Now link."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-dwell:dwell-2026-10-28"
+      ]
     },
     {
       "audit_rank": 125,
@@ -11783,23 +11936,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-ritual-ritual-screen-coverage"
+        "shopify-ritual-ritual-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-ritual-demo.myshopify.com/products/rose-11-bag-1?variant=45042658443453",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-ritual:ritual-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11810,7 +11969,11 @@
         },
         "observation_id": "mobile-ritual:ritual-2026-10-27",
         "observations": "Oversized black brand name on a colored panel; product grid begins just below."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-ritual:ritual-2026-10-28"
+      ]
     },
     {
       "audit_rank": 126,
@@ -11856,23 +12019,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Targeted interaction coverage is complete. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open; storefront interactions do not verify these areas."
       ],
       "browser_render_observations": [
-        "shopify-fabric-fabric-screen-coverage"
+        "shopify-fabric-fabric-screen-coverage",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://theme-fabric-demo.myshopify.com/products/womens-essential-sweatpant-in-black?variant=44434707710005",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "other-fabric:fabric-2026-10-28"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -11883,7 +12052,11 @@
         },
         "observation_id": "mobile-fabric:fabric-2026-10-27",
         "observations": "Fashion campaign image spans the width; large heading and collection grid follow."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "other-fabric:fabric-2026-10-28"
+      ]
     },
     {
       "audit_rank": 127,
