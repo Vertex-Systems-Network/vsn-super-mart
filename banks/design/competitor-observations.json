@@ -1592,6 +1592,18 @@
         "Sticky PDP purchase controls"
       ],
       "design_hypothesis": "A single-product storefront can use an editorial landing page to explain product features before the PDP; repeat claims and duplicated testimonials can undermine credibility, especially for infant safety and privacy."
+    },
+    {
+      "id": "shopify-live-eurus-placid",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shop by Shade tabs with variant swatches",
+        "Room-based collection navigation",
+        "Material and size-aware catalog filters",
+        "Multi-step bundle builder",
+        "Shop-the-look hotspots and care guidance"
+      ],
+      "design_hypothesis": "Home-decor discovery can use shade, room, material and curated sets as complementary pathways; product-specific origin/craft content must track the active SKU to retain confidence."
     }
   ]
 }
