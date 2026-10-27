@@ -8945,6 +8945,37 @@
       "document_verification_status": "browser_rendered_readonly_with_mismatch",
       "document_verification_scope": "Official listing iframe src verified; home, men's shoes collection, Sky PDP and empty cart inspected. Rendered store is Pipeline Light footwear rather than luxury/Petra positioning. No interaction or viewport/editor/checkout/performance tests.",
       "notes": "Mismatch warrants caution: demo copy links to Vayarta for actual footwear; seller claims unverified."
+    },
+    {
+      "id": "shopify-live-pipeline-pahoa",
+      "platform": "shopify",
+      "theme": "Pipeline",
+      "preset": "Pahoa",
+      "url": "https://pipeline-theme.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "product-facets",
+        "quick-add",
+        "ingredient-story",
+        "routine-content",
+        "hotspots",
+        "empty-cart-faq"
+      ],
+      "niches": [
+        "skincare"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing iframe src verified; rendered home, Bestsellers collection, Fig PDP and empty cart inspected read-only.",
+      "notes": "Demo says its catalog products are not real; layout evidence only. Beauty and ingredient claims fictional/unverified."
     }
   ],
   "discovery_sources": [
