@@ -142,3 +142,8 @@ Lighthouse 13.5.0 results captured for five of the six Home/Product/Collection d
 The Product Desktop PSI report loaded its field data but the Lighthouse scoring panel remained in “loading,” so it is not counted. Cart was not run. Home mobile flagged missing image alt text, unnamed links, focusable descendants under aria-hidden, and heading order. Product mobile flagged focusable descendants under aria-hidden and heading order. Collection mobile and desktop each retained manual accessibility checks. These are lab snapshots for one demo theme/preset only, not proof for the other 126 presets.
 
 **Disposition:** QA coverage improved for one preset, but checkout, full keyboard/accessibility review, and Lighthouse coverage remain incomplete. The canonical matrix counters remain at 0/127 for completed checkout and Lighthouse runs; no cohort-wide completion is claimed.
+
+
+### PSI retry limitation
+
+A single reload retry for the stalled Product Desktop report was redirected to Google's reCAPTCHA page, which said unusual traffic was detected. The challenge was not solved. This browser cannot currently retrieve additional PSI results; missing scores remain pending.
