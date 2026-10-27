@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 94 additional browser-rendered homes are documented (125/127 unique); 371 read-only rendered pages across 94 selected presets.",
+  "summary": "51 indexed HTML selected homes and 95 additional browser-rendered homes are documented (126/127 unique); 375 read-only rendered pages across 95 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 94,
-    "opened_home": 94,
-    "opened_collection": 80,
-    "opened_product": 82,
-    "opened_empty_cart": 48,
+    "opened_stores": 95,
+    "opened_home": 95,
+    "opened_collection": 81,
+    "opened_product": 83,
+    "opened_empty_cart": 49,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -11351,11 +11351,73 @@
       "limits": [
         "No filters, sort, product options, quantity, add-to-cart or other controls used; no screenshots, mobile, Theme Editor, keyboard or performance tests. Claims unverified."
       ]
+    },
+    {
+      "id": "shopify-ignite-tails-browser-render",
+      "selected_preset_id": "ignite:tails",
+      "theme_family": "Ignite",
+      "preset": "Tails",
+      "store_url": "https://benchmark-pets-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Ignite:Tails demo iframe verified; inspected home, Dogs collection, Cozy Retreat Pet Tent PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://benchmark-pets-demo.myshopify.com/",
+          "observations": [
+            "Pet-supplies homepage combines product-type search, phone support, animal-category rails, three-slide hero, bestsellers with color swatches/quick view, deals, service and editorial content.",
+            "United Kingdom/GBP locale appears alongside +1 (555) phone, $100 free-shipping threshold and US-style demo contact details; merchant claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://benchmark-pets-demo.myshopify.com/collections/dogs",
+          "observations": [
+            "Dogs collection has descriptive hero and product-type/brand facets with counts; sale-countdown popup present.",
+            "Displayed categories include coats, feeding, food, grooming, harnesses, toys and multiple brands; filters untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://benchmark-pets-demo.myshopify.com/products/cozy-retreat-pet-tent-with-soft-bed-pad",
+          "observations": [
+            "Cozy Retreat Pet Tent PDP shows 19 in stock, Coffee/Beige/Grey color radios, £39 GBP, 58% claimed sale, quantity and purchase controls, customer video rail and secure-payment content.",
+            "Delivery countdown renders zero for all units on the observed page; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://benchmark-pets-demo.myshopify.com/cart",
+          "observations": [
+            "Empty-cart heading, Continue shopping and a featured collection with grooming products and quick-view/color options."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sorting, quick view, color radios, quantity, add-to-cart or other controls used; no screenshots, viewport dimensions, mobile, Theme Editor, keyboard or performance tests. Claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 371,
-    "selected_presets": 94,
-    "unique_selected_homepages_across_all_source_types": 125
+    "pages": 375,
+    "selected_presets": 95,
+    "unique_selected_homepages_across_all_source_types": 126
   }
 }
