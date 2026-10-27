@@ -1371,3 +1371,12 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Added `banks/research/competitors/shopify-mobile-synthesis-2026.md`; linked mobile evidence from design bank README, Shopify research report, audit readiness and cross-platform closeout.
 - Visual fingerprint status remains conservative: mobile qualitative evidence does not verify desktop, product, collection or interaction dimensions.
 - Next: targeted mobile interaction reviews for drawer/search, collection filters/sort, variant selection and cart drawer; avoid purchase/checkout.
+
+
+## Shopify targeted interaction sample — Batch 133 (2026-10-27)
+- Four new read-only interaction observations added on Enterprise:Enterprise and Prestige:Couture, alongside the earlier Ignite:Peak age-gate CTA test. Three presets now have targeted interaction evidence.
+- Enterprise cascade finder resolved Smart Tech → Home Technology → Smart Cameras to 7 products; collection filters/sort opened; an empty cart drawer showed a $0 state and product recommendations.
+- Prestige:Couture selecting size S updated the selected state and stock text from 4 to 3; no add-to-cart action followed.
+- Interaction pass ran at 1363×936 CSS px in normal browser mode, not the 360×640 preview. No checkout, theme editor, accessibility or Lighthouse testing.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch133-2026.md`.
+- Next: continue the next selected preset's menu/search or PDP/cart interaction workflow; keep purchases and checkout out of scope.
