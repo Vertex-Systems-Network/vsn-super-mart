@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 59 additional browser-rendered homes are documented (110/127 unique); 320 read-only rendered pages across 79 selected presets.",
+  "summary": "51 indexed HTML selected homes and 60 additional browser-rendered homes are documented (111/127 unique); 328 read-only rendered pages across 80 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 79,
-    "opened_home": 79,
-    "opened_collection": 66,
-    "opened_product": 67,
-    "opened_empty_cart": 33,
+    "opened_stores": 80,
+    "opened_home": 80,
+    "opened_collection": 67,
+    "opened_product": 68,
+    "opened_empty_cart": 34,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10436,11 +10436,70 @@
       "limits": [
         "No shopper interactions, screenshots, mobile viewport, editor, checkout, keyboard or performance tests. Product and store claims unverified."
       ]
+    },
+    {
+      "id": "shopify-concept-inova-browser-render",
+      "selected_preset_id": "concept:inova",
+      "theme_family": "Concept",
+      "preset": "Inova",
+      "store_url": "https://concept-theme-inova.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Concept:Inova listing and verified demo iframe src; inspected home, Seating collection after delayed render, Embrace Lounge Chair PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://concept-theme-inova.myshopify.com/",
+          "observations": [
+            "Home-furnishings landing page with cookie consent, seating campaign slideshow, category image tiles for seating/sofas/lighting/accessories, sofa brand story video and furniture editorial; designer links, service/reassurance strip, newsletter. Home rendered content is concise; cookie consent left untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://concept-theme-inova.myshopify.com/collections/seating",
+          "observations": [
+            "Seating collection shows 7 products; Seating/Dining/Office/Lounge/Outdoor links; Material, Price, Product type and Color facets; sorting control visible but untouched; product cards with designer/vendor and product titles/prices."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://concept-theme-inova.myshopify.com/collections/seating/products/embrace-lounge-chair",
+          "observations": [
+            "Embrace Lounge Chair PDP with 8 gallery images, $3,049, product description, Blue/Green/Gray/Olive colors, stock text, quantity/purchase controls, warehouse pickup, description/highlights/FAQ anchors and service reassurance. Product/stock/warranty/shipping claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://concept-theme-inova.myshopify.com/cart",
+          "observations": [
+            "Empty cart text and Continue Shopping; service strip, designer/collection footer links and newsletter."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Cookie consent left untouched. No interactions, screenshot, mobile viewport, editor, checkout, keyboard or performance tests. Product, stock and merchant claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 312,
-    "selected_presets": 79,
-    "unique_selected_homepages_across_all_source_types": 110
+    "pages": 316,
+    "selected_presets": 80,
+    "unique_selected_homepages_across_all_source_types": 111
   }
 }
