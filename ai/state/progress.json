@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Shopify Theme Editor source audit, VSN cross-repository app-embed diagnosis and official QA-criteria research are complete; detailed evidence is in banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md. Official Theme Store thresholds are Lighthouse performance average 60 and accessibility average 90 across home/product/collection on mobile and desktop; keyboard criteria require operable controls and visible focus. These are criteria only, not executed scores. Remaining evidence gates: VSN live Theme Editor needs an authorized connected dev store and safely installed/deployed extension (T032 IN REVIEW, T033 WAITING; direct CLI deploy guarded); competitor Theme Editor 0/127 reviewed because private editor settings unavailable; checkout progression, keyboard/accessibility and Lighthouse runs remain untested. Mobile and targeted interactions are 127/127 complete.",
+  "next_action": "Continue per-preset checkout, keyboard/accessibility and Lighthouse QA; Impulse:Impulse now has partial evidence in banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md and banks/research/competitors/shopify-127-completion-matrix-2026.json. Checkout stopped before accepting merchant terms; manual accessibility smoke review is incomplete; PSI/Lighthouse scores exist for 5/6 Home/Product/Collection device views, with Product Desktop scoring panel stuck loading and Cart untested. Counters remain checkout 0/127 and Lighthouse 0/127. Theme Editor remains 0/127 pending private access.",
   "approvals": {},
   "figma": {
     "file_key": null,
