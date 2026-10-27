@@ -3,7 +3,7 @@
   "updated_at": "2026-10-27",
   "scope": "The 127 selected popular Shopify theme/preset records",
   "method": "Indexed public HTML evidence and direct rendered browser observations are maintained as separate source classes; interactions are counted only after execution.",
-  "reason": "Public demo screen coverage is complete for the selected cohort; targeted interactions now cover 66 presets. Full interaction coverage, Theme Editor, checkout, keyboard/accessibility, performance and screenshot capture remain incomplete.",
+  "reason": "Public demo screen coverage is complete for the selected cohort; targeted interactions now cover 72 presets. Full interaction coverage, Theme Editor, checkout, keyboard/accessibility, performance and screenshot capture remain incomplete.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
   "status": "screen_coverage_complete_validation_partial",
   "checks": [
@@ -104,12 +104,12 @@
       "product": 0,
       "cart": 0
     },
-    "interactive_events_tested": 68,
+    "interactive_events_tested": 74,
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2,
-    "interactive_presets_tested": 66
+    "interactive_presets_tested": 72
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -124,59 +124,13 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch138-2026.md",
-  "next_action": "Tier 2 is complete and archived (33 presets). Continue Tier 3's 6 pending presets; 61 interaction presets remain overall.",
+  "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch139-2026.md",
+  "next_action": "Tier 3 is complete and archived (6 presets). Continue Tier 4's 38 pending presets; 55 interaction presets remain overall.",
   "pending_interaction_groups": {
     "updated_at": "2026-10-27",
     "definition": "Only presets with interactive_tested=false in the completion matrix are included. When a preset is completed, remove it from its group's items and decrement pending_count.",
-    "total_pending": 61,
+    "total_pending": 55,
     "groups": [
-      {
-        "id": "priority_tier_3",
-        "label": "Tier 3",
-        "objective": "First-party free reference and native Shopify editor baseline",
-        "families": [
-          "horizon",
-          "dawn",
-          "savor",
-          "tinker",
-          "atelier",
-          "trade"
-        ],
-        "items": [
-          {
-            "preset_id": "dawn:dawn",
-            "theme_family": "dawn",
-            "preset": "Dawn"
-          },
-          {
-            "preset_id": "horizon:horizon",
-            "theme_family": "horizon",
-            "preset": "Horizon"
-          },
-          {
-            "preset_id": "tinker:tinker",
-            "theme_family": "tinker",
-            "preset": "Tinker"
-          },
-          {
-            "preset_id": "savor:savor",
-            "theme_family": "savor",
-            "preset": "Savor"
-          },
-          {
-            "preset_id": "trade:trade",
-            "theme_family": "trade",
-            "preset": "Trade"
-          },
-          {
-            "preset_id": "atelier:atelier",
-            "theme_family": "atelier",
-            "preset": "Atelier"
-          }
-        ],
-        "pending_count": 6
-      },
       {
         "id": "priority_tier_4",
         "label": "Tier 4",
@@ -578,6 +532,22 @@
           "concept:inova"
         ],
         "report": "banks/research/competitors/shopify-interaction-sample-batch138-2026.md"
+      },
+      {
+        "id": "priority_tier_3",
+        "label": "Tier 3",
+        "status": "complete",
+        "completed_on": "2026-10-27",
+        "completed_count": 6,
+        "preset_ids": [
+          "dawn:dawn",
+          "horizon:horizon",
+          "tinker:tinker",
+          "savor:savor",
+          "trade:trade",
+          "atelier:atelier"
+        ],
+        "report": "banks/research/competitors/shopify-interaction-sample-batch139-2026.md"
       }
     ]
   }
