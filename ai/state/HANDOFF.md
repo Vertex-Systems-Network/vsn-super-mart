@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 109 (Concept:Inova, 2026-10-27)
+
+- Verified demo iframe; furniture home, 7-item Seating collection, Embrace Lounge Chair PDP and empty cart inspected read-only. Cookie notice left untouched.
+- Coverage 111/127 unique homes, 328 pages across 80 presets; 16 remain. No shopper actions, screenshot, viewport/editor/checkout/performance tests; product claims unverified.
+- Next: continue next unverified preset.
+
+
 ## Shopify live-demo research — Batch 108 (Concept:Concept, 2026-10-27)
 
 - Verified demo iframe; inspected home, Headphones collection (14 products after delayed render), Air Beats PDP and empty cart read-only.
