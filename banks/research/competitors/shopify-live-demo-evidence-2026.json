@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets retain combined-source home, collection, product and cart coverage. Mobile review has 10 visually reviewed presets and 3 additional previews with verified 360×640 frames but blurred captures; 114 presets remain unreviewed on mobile.",
+  "summary": "127/127 selected presets have combined-source home, collection, product and cart coverage. Mobile review: 14/127 visually reviewed at 360×640 CSS px; 3 captures remain blurred and 110 presets have not yet been reviewed on mobile.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5477,8 +5477,8 @@
     "opened_product": 107,
     "opened_empty_cart": 127,
     "interactive_events_tested": 1,
-    "opened_mobile": 13,
-    "mobile_visual_reviews_completed": 10,
+    "opened_mobile": 17,
+    "mobile_visual_reviews_completed": 14,
     "mobile_preview_blurred": 3
   },
   "caveats": [
@@ -12671,7 +12671,7 @@
     }
   ],
   "browser_render_counts": {
-    "pages": 456,
+    "pages": 460,
     "selected_presets": 127,
     "unique_selected_homepages_across_all_source_types": 127,
     "pages_by_kind": {
@@ -12679,7 +12679,7 @@
       "collection": 105,
       "product": 107,
       "cart": 127,
-      "mobile": 13
+      "mobile": 17
     }
   },
   "interactive_test_observations": [
@@ -12902,6 +12902,74 @@
       },
       "status": "reviewed",
       "observations": "Dark, image-led beauty hero with small utility navigation and editorial brand links; narrow viewport retains a cinematic image.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-motion:motion-2026-10-27",
+      "selected_preset_id": "motion:motion",
+      "store_url": "https://motion-theme-vision.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/motion/presets/motion",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Mobile header collapses to menu/wordmark/search/cart; full-width sports image hero with large two-line campaign heading. Text and hero controls fit within phone width.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-motion:satchel-2026-10-27",
+      "selected_preset_id": "motion:satchel",
+      "store_url": "https://motion-theme-satchel.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/motion/presets/satchel",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Compact menu/centered wordmark/search/cart header; portrait fashion campaign with large Summer 2026 heading. Hero imagery dominates the first screen.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-motion:memo-2026-10-27",
+      "selected_preset_id": "motion:memo",
+      "store_url": "https://motion-theme-memo.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/motion/presets/memo",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Compact utility header; stationery/lifestyle hero with centered headline and a full-width outlined collection CTA.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-palo-alto:palo-alto-2026-10-27",
+      "selected_preset_id": "palo-alto:palo-alto",
+      "store_url": "https://palo-alto-theme-alto.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/palo-alto/presets/palo-alto",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "360px view shows promo/nav text clipped at right edge and hero heading/button extending beyond viewport; horizontal overflow risk.",
       "screenshot_captured": true,
       "screenshot_saved": false,
       "evidence_class": "browser_mobile_preview"
