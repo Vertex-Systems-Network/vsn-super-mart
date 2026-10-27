@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Tier 4 interaction group complete (38/38) and removed from pending. Overall targeted interactions: 110/127 presets (112 observations). Continue the 17 remaining selected families. Mobile review remains 127/127; Theme Editor, checkout, keyboard/accessibility and Lighthouse checks remain open.",
+  "next_action": "Targeted interaction coverage complete: 127/127 selected presets across 129 observations, with no interaction presets pending. Mobile review remains 127/127. Next audit gaps: Theme Editor, checkout, keyboard/accessibility and Lighthouse for the selected cohort.",
   "approvals": {},
   "figma": {
     "file_key": null,
