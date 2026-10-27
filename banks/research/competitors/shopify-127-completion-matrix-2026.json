@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Across indexed HTML and read-only rendered evidence, selected-preset coverage is 127/127 homes, collections, product pages and carts. One 360×640 mobile preview and one CTA interaction attempt are recorded for Ignite:Peak; the CTA opens an unanswered 21+ age gate. Full interaction coverage, Theme Editor, checkout and Lighthouse remain unverified.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile preview was attempted for 13 presets; 10 have completed visual review at 360×640 CSS px, 3 captures remain visually pending due to blur, and 114 presets have not yet been reviewed on mobile. Interaction, Theme Editor, checkout and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -13,18 +13,19 @@
     "product": 40,
     "cart": 11,
     "interactive": 1,
-    "mobile": 1,
+    "mobile": 10,
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 444,
+    "browser_rendered_pages": 456,
     "browser_rendered_selected_presets": 127,
     "distinct_selected_homepages_any_source": 127,
     "read_only_homepages_across_sources": 127,
     "read_only_collections_across_sources": 127,
     "read_only_products_across_sources": 127,
     "read_only_carts_across_sources": 127,
-    "browser_rendered_mobile": 1
+    "browser_rendered_mobile": 13,
+    "mobile_viewport_attempts": 13
   },
   "pending": {
     "home": 0,
@@ -33,7 +34,7 @@
     "cart": 0,
     "home_any_source": 0,
     "interactive": 126,
-    "mobile": 126,
+    "mobile": 117,
     "editor": 127,
     "checkout": 127,
     "lighthouse": 127
@@ -465,12 +466,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://impulse-theme-fashion.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://impulse-theme-fashion.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Mobile hero has collapsed menu, centered wordmark/cart, full-width shoppable fashion image with hotspot markers; next section heading follows cleanly."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -478,7 +490,6 @@
       "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, Quick View, size or cart actions executed",
-        "No screenshot or measured viewport/mobile render",
         "No Theme Editor, checkout, keyboard or performance testing",
         "Organic, fit, inventory, certification, shipping and other seller claims unverified"
       ],
@@ -507,7 +518,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-impulse-impulse-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-impulse:impulse-2026-10-27"
+      }
     },
     {
       "audit_rank": 2,
@@ -535,20 +555,30 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://impulse-theme-apparel.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://impulse-theme-apparel.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact Dune/search/menu/cart header and vertical editorial hero; headline and single CTA are readable within the phone frame."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
       "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised.",
-        "No screenshot, mobile viewport, Theme Editor, keyboard or performance test. Merchant product, stock, origin, shipping and sustainability claims unverified."
+        "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised."
       ],
       "next_action": [
         "Continue remaining priority presets; retry official listing preview blockers later."
@@ -576,7 +606,16 @@
         },
         "shopify-impulse-dune-browser-render",
         "shopify-live-impulse-dune-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-impulse:dune-2026-10-27"
+      }
     },
     {
       "audit_rank": 3,
@@ -3011,12 +3050,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://local-theme-main.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://local-theme-main.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Single-column grocery hero with short headline, product image and Shop Now CTA; product/retail content follows the fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -3024,7 +3074,6 @@
       "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No collection filters, sort or compare actions; no variants/add/cart/checkout actions",
-        "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance testing",
         "Food, nutrition, organic, rating, availability, pickup and delivery claims unverified"
       ],
@@ -3053,7 +3102,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-local-default"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-local:local-2026-10-27"
+      }
     },
     {
       "audit_rank": 39,
@@ -3081,12 +3139,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://local-theme-soleway.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://local-theme-soleway.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Footwear hero and large headline; store-location/pickup and merchandising panels stack below."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -3094,7 +3163,6 @@
       "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, variant, zoom, add-to-cart, cart or checkout actions",
-        "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance tests",
         "Demo product, material, waterproof, sale and fulfillment claims unverified"
       ],
@@ -3123,7 +3191,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-local-soleway"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-local:soleway-2026-10-27"
+      }
     },
     {
       "audit_rank": 40,
@@ -3151,20 +3228,29 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://local-theme-thrive.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://local-theme-thrive.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Collapsed menu/logo/cart with centered protein product hero, headline and CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
       "evidence_quality": "browser_render_readonly",
-      "blockers": [
-        "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing"
-      ],
+      "blockers": [],
       "next_action": [
         "Continue to next unobserved selected preset; retain read-only evidence and verify merchant-owned claims before relying on them"
       ],
@@ -3190,7 +3276,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-local-thrive-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-local:thrive-2026-10-27"
+      }
     },
     {
       "audit_rank": 41,
@@ -3218,12 +3313,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://local-theme-caffeine.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "viewport_verified_visual_pending",
+          "url": "https://local-theme-caffeine.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "360×640 frame verified; first captures remained blurred after initial wait, so layout detail not signed off."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -3252,7 +3358,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-local-caffeine-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "visual_pending_blurred",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-local:caffeine-2026-10-27"
+      }
     },
     {
       "audit_rank": 42,
@@ -3280,12 +3395,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://local-theme-lively.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "viewport_verified_visual_pending",
+          "url": "https://local-theme-lively.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "360×640 frame verified; first captures remained blurred after initial wait, so layout detail not signed off."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -3319,7 +3445,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-local-lively-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "visual_pending_blurred",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-local:lively-2026-10-27"
+      }
     },
     {
       "audit_rank": 43,
@@ -3347,20 +3482,29 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://empire-theme-supply.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://empire-theme-supply.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Mobile header retains category/search navigation in a horizontal row; some header labels extend beyond the 360px viewport, a clipping/overflow risk."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
       "evidence_quality": "browser_render_readonly",
-      "blockers": [
-        "Interaction, mobile, editor, checkout, visual screenshot and performance testing remain unverified."
-      ],
+      "blockers": [],
       "next_action": [
         "Continue to remaining selected presets in rank order."
       ],
@@ -3386,7 +3530,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-empire-empire-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-empire:empire-2026-10-27"
+      }
     },
     {
       "audit_rank": 44,
@@ -3414,20 +3567,29 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://empire-theme-industrial.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://empire-theme-industrial.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Hamburger, centered Circuit logo, cart and search fit the top fold; promo/benefit line clips horizontally at the right edge."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
       "evidence_quality": "browser_render_readonly",
-      "blockers": [
-        "Interaction, mobile, editor, checkout, visual screenshot and performance testing remain unverified."
-      ],
+      "blockers": [],
       "next_action": [
         "Continue to remaining selected presets in rank order."
       ],
@@ -3453,7 +3615,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-empire-circuit-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-empire:circuit-2026-10-27"
+      }
     },
     {
       "audit_rank": 45,
@@ -3481,12 +3652,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://empire-theme-depot.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://empire-theme-depot.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Hamburger/logo/cart and search row stack above an image-led single-column hero with two clear CTAs."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -3494,7 +3676,6 @@
       "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper controls, filters, sorting, quantity, purchase or checkout actions",
-        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
         "Seller certification, order-volume, product, inventory, shipping and fulfillment claims unverified"
       ],
       "next_action": [
@@ -3522,7 +3703,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-empire-depot"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-empire:depot-2026-10-27"
+      }
     },
     {
       "audit_rank": 46,
@@ -3550,12 +3740,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://empire-theme-graphic.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "viewport_verified_visual_pending",
+          "url": "https://empire-theme-graphic.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "360×640 frame verified; first capture remained blurred, so layout detail not signed off."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -3589,7 +3790,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-empire-forma-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "visual_pending_blurred",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-empire:forma-2026-10-27"
+      }
     },
     {
       "audit_rank": 47,
@@ -3617,20 +3827,29 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://beyours-theme-beauty.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://beyours-theme-beauty.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Dark, image-led beauty hero with small utility navigation and editorial brand links; narrow viewport retains a cinematic image."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
       "evidence_quality": "browser_render_readonly",
-      "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
-      ],
+      "blockers": [],
       "next_action": [
         "Continue with next unverified selected preset"
       ],
@@ -3656,7 +3875,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-be-yours-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-be-yours:be-yours-2026-10-27"
+      }
     },
     {
       "audit_rank": 48,
