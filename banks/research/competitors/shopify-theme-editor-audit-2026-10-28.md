@@ -161,3 +161,15 @@ Checkout QA has been **removed from the active task at the user's request**. The
 - This is a limited manual smoke review, not a WCAG conformance audit.
 
 Lighthouse has not been run for Dune. Additional PSI retrieval is currently blocked in this browser after Google's unusual-traffic human-verification challenge; it was not solved.
+
+
+### Dune keyboard verification addendum — 2026-10-28
+
+Follow-up confirmed keyboard operation on the Dune demo:
+
+- On the collection page, Tab reached the SIZE filter after the skip link; Enter expanded it, Tab moved through the four labeled size checkboxes, and Space selected S. The URL gained `?filter.v.option.size=S`; the test was cleared by navigating back to the base collection URL.
+- On the product page, Tab reached the labeled size radio options and Add to Cart.
+- The collection Filter drawer can be opened with Enter and its controls are traversable by Tab. Escape closes the drawer, but the resulting focus is at the page root and a Search combobox appears; this focus behavior should be reviewed.
+- The product gallery has an unnamed button, and Shop the Look has two unnamed buttons in the accessibility tree.
+
+This remains a manual smoke review only, not a WCAG conformance audit.
