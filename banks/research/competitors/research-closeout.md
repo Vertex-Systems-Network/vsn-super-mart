@@ -46,3 +46,8 @@ python3 scripts/vsn.py validate
 ```
 
 New themes and demos are incremental future research, not blockers for signing off this **curated research cohort**. PR #1 is an AI system foundation merge, **not** the Shopify theme release or Figma Stage 6 design approval.
+
+
+## Selected Shopify mobile sweep update — 2026-10-27
+
+The curated Shopify cohort now has a 127/127 mobile preview sweep at 360×640 CSS px, documented in `shopify-mobile-review-batch131-2026.md`. This supersedes the earlier “no all-mobile screenshot sweep” limitation for the selected Shopify cohort only. It does not claim marketplace-wide coverage or a full interactive, editor, accessibility, checkout or performance audit. Two hero images had limited clarity; see the linked preset-level records.
