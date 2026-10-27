@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "purpose": "Evidence -> VSN option IDs -> design decisions. Research only; never copy competitor code or pixels.",
   "patterns": [
     {
@@ -2494,12 +2494,14 @@
         "Tier 1 PDPs used care, warranty, FAQ, shipping, description, specifications and subscription disclosure controls.",
         "Expanded content stayed in place and retained the product context.",
         "Tier 2 adds live examples of product care, ingredients, sizing, shipping, materials, warranty and returns panels across Focal, Expanse, Stiletto, Motion, Palo Alto and Pipeline demos.",
-        "Trade exposed an expandable Product features panel with product details in the page context."
+        "Trade exposed an expandable Product features panel with product details in the page context.",
+        "Tier 4 demos across Sleek, Wonder, Eurus, Shapes and Vision provided additional product-detail accordions."
       ],
       "source_entry_ids": [
         "shopify-tier1-disclosure-coverage",
         "shopify-tier2-product-disclosures",
-        "tier3-trade-trade-2026-10-27"
+        "tier3-trade-trade-2026-10-27",
+        "shopify-tier4-interaction-controls"
       ],
       "option_ids": [
         "collapsible-tabs",
@@ -2515,12 +2517,14 @@
       "signals": [
         "Empire:Forma opened a Product zoom dialog from an image and displayed a Close control.",
         "Pipeline:Pahoa and Pipeline:Phantom opened gallery zoom dialogs with image navigation and a Close control; Concept:Inova opened a media modal with Close.",
-        "Tier 3 first-party demos Tinker and Atelier also opened gallery zoom views and returned to the PDP with a Close control."
+        "Tier 3 first-party demos Tinker and Atelier also opened gallery zoom views and returned to the PDP with a Close control.",
+        "Sleek, Be Yours and Ignite Tier 4 demos opened reversible product gallery zoom controls."
       ],
       "source_entry_ids": [
         "shopify-tier1-gallery-zoom",
         "shopify-tier2-gallery-modal",
-        "shopify-tier3-native-baseline-interactions"
+        "shopify-tier3-native-baseline-interactions",
+        "shopify-tier4-interaction-controls"
       ],
       "option_ids": [
         "media-gallery-layouts",
@@ -2533,13 +2537,15 @@
       "context": "Storefront localization and pickup availability appeared as separate interactive panels during Tier 2 review.",
       "signals": [
         "Local:Local expanded a language selector and Local:Caffeine expanded country/currency choices.",
-        "Local:Soleway and Local:Lively exposed pickup-location interfaces with store/map information."
+        "Local:Soleway and Local:Lively exposed pickup-location interfaces with store/map information.",
+        "Release and Ignite Tier 4 storefronts exposed expandable country/region or country/language selectors; no locale was changed."
       ],
       "source_entry_ids": [
         "tier2-local-local-2026-10-27",
         "tier2-local-caffeine-2026-10-27",
         "tier2-local-soleway-2026-10-27",
-        "tier2-local-lively-2026-10-27"
+        "tier2-local-lively-2026-10-27",
+        "shopify-tier4-interaction-controls"
       ],
       "option_ids": [
         "localization-selector",
