@@ -1568,6 +1568,18 @@
         "PDP color/size selection, offer and size guide"
       ],
       "design_hypothesis": "Apparel browsing pairs category taxonomy and editorial merchandising with granular color/size/price filters; shoppable video adds product access, while sourcing clarity helps users understand mixed-brand demos."
+    },
+    {
+      "id": "shopify-live-wonder-nook",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Room-based mega navigation",
+        "Department category tiles and editorial collages",
+        "Sale countdown and collection tabs",
+        "Shoppable video/reels and room inspiration",
+        "Furniture PDP with configuration/color, dimensions, material and warranty"
+      ],
+      "design_hypothesis": "High-consideration furniture shopping benefits from room taxonomy, material and feature filters, clear dimensions and configuration choices; trust copy should be validated and kept consistent with product facts."
     }
   ]
 }
