@@ -98,3 +98,8 @@ See `shopify-mobile-synthesis-2026.md`, `shopify-mobile-review-batch131-2026.md`
 ## Targeted interaction supplement — 2026-10-27
 
 Read-only live storefront interactions were sampled on Enterprise:Enterprise and Prestige:Couture and added to the existing Ignite:Peak gate observation. Findings cover a cascading catalog finder, filter/sort menus, variant-dependent stock and an empty cart recommendation drawer. The four new checks ran in a 1363×936 CSS px browser viewport; they are not mobile-emulated interaction tests. See `shopify-interaction-sample-batch133-2026.md`.
+
+
+## Targeted interaction update — Batch 134 (2026-10-27)
+
+A third read-only browser session tested Impulse:Impulse on The Lido Short PDP. Quick View opened the related The Vela Shirt in a modal with gallery media, compare-at and sale price, product details, size-chart access, stock state and accordions. No cart action followed. Combined targeted interaction coverage is now **4 of 127 presets across 6 observations**; this interaction sample ran at 1363×936 CSS px and is not mobile emulation. See `shopify-interaction-sample-batch134-2026.md`.
