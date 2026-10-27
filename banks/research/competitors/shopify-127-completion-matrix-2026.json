@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 5 presets; 122 still pending. Theme Editor, checkout and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 6 presets; 121 still pending. Theme Editor, checkout and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -12,7 +12,7 @@
     "collection": 38,
     "product": 40,
     "cart": 11,
-    "interactive": 5,
+    "interactive": 6,
     "mobile": 127,
     "editor": 0,
     "checkout": 0,
@@ -33,7 +33,7 @@
     "product": 0,
     "cart": 0,
     "home_any_source": 0,
-    "interactive": 122,
+    "interactive": 121,
     "mobile": 0,
     "editor": 127,
     "checkout": 127,
@@ -680,18 +680,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing"
+        "Only size M selection was tested; variant inventory difference, cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue to next unobserved selected preset; retain read-only evidence and verify merchant-owned claims before relying on them"
+        "Continue targeted interaction review on the next untested selected preset; completed presets are marked and excluded from the pending count."
       ],
       "browser_render_observations": [
         {
@@ -714,7 +714,13 @@
           "url": "https://impulse-theme-sports.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-impulse-terrain-browser-render"
+        "shopify-impulse-terrain-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://impulse-theme-sports.myshopify.com/products/2016-carbine-expert-build?variant=7839884836925",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "impulse-terrain-variant-size-m-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -725,7 +731,11 @@
         },
         "observation_id": "mobile-impulse:terrain-2026-10-27",
         "observations": "Compact commerce header with an edge-to-edge cycling hero, centered headline and Watch CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "impulse-terrain-variant-size-m-2026-10-27"
+      ]
     },
     {
       "audit_rank": 4,
