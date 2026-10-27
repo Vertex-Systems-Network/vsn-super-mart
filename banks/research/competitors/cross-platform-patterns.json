@@ -2443,6 +2443,25 @@
         "related-products"
       ],
       "design_implication": "Pair a clear empty state with relevant product discovery and an obvious return path; never make a recommendation look like a cart line."
+    },
+    {
+      "id": "shopify-related-product-quick-view-context",
+      "context": "Related product inspection can be offered inline without replacing the shopper's current product page.",
+      "signals": [
+        "Impulse:Impulse related-products rail opened The Vela Shirt in a modal over The Lido Short PDP.",
+        "Modal presented imagery, sale/compare-at price, description, size-chart access, inventory message and detail accordions; cart remained untouched."
+      ],
+      "source_entry_ids": [
+        "shopify-interaction-impulse-quick-view"
+      ],
+      "option_ids": [
+        "quick-view",
+        "related-products",
+        "product-blocks",
+        "size-chart",
+        "inventory-status"
+      ],
+      "design_implication": "Keep quick view focused on product decision details, allow closing back to the original PDP, and avoid treating modal exposure as a cart action."
     }
   ]
 }
