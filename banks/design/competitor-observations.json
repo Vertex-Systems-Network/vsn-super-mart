@@ -1628,6 +1628,18 @@
         "PDP compatibility table with technical PDFs"
       ],
       "design_hypothesis": "Automotive catalogs need fitment selection and compatibility visible across search, collection, cards and PDP; conflicting fitment data can undermine high-consequence purchasing decisions."
+    },
+    {
+      "id": "shopify-live-shapes-aura",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Values icon row and skincare hero",
+        "Essentials/serum product carousels",
+        "Ingredient/sustainability story",
+        "Product concern tags",
+        "Ingredient, shipping and recycling accordions"
+      ],
+      "design_hypothesis": "Values-led skincare merchandising can connect concise product benefits with ingredients and care details; clearly distinguish real verified claims from demo content."
     }
   ]
 }
