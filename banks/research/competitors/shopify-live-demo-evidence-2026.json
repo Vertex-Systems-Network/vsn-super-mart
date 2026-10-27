@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 69 additional browser-rendered homes are documented (120/127 unique); 351 read-only rendered pages across 89 selected presets.",
+  "summary": "51 indexed HTML selected homes and 70 additional browser-rendered homes are documented (121/127 unique); 355 read-only rendered pages across 90 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 89,
-    "opened_home": 89,
-    "opened_collection": 75,
-    "opened_product": 77,
-    "opened_empty_cart": 43,
+    "opened_stores": 90,
+    "opened_home": 90,
+    "opened_collection": 76,
+    "opened_product": 78,
+    "opened_empty_cart": 44,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -11041,11 +11041,73 @@
       "limits": [
         "No filters, sort, quantity, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product-category content quality only assessed qualitatively."
       ]
+    },
+    {
+      "id": "shopify-prestige-prestige-browser-render",
+      "selected_preset_id": "prestige:prestige",
+      "theme_family": "Prestige",
+      "preset": "Prestige",
+      "store_url": "https://prestige-theme-allure.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Prestige:Prestige listing View demo, verified iframe host, inspected home, Women collection, Le Dino PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://prestige-theme-allure.myshopify.com/",
+          "observations": [
+            "Luxury handbag demo with campaign countdown, women/men hero, bestseller tabs, product rails, weekend-bag feature, brand story, collaboration, material/story content, blog and service strip.",
+            "Footer explicitly says Léo et Violette allowed demo use of products; merchandising and brand storytelling align around handbags."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://prestige-theme-allure.myshopify.com/collections/women-1",
+          "observations": [
+            "Women collection states 65 products; filter and sort plus three product-image density controls visible, untouched.",
+            "Bag-specific description, product badges and pagination; a lower Black Friday panel carries an expiry date in 2025 while current sale banner says Nov 25 2026."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://prestige-theme-allure.myshopify.com/products/le-dino-black-liege",
+          "observations": [
+            "Le Dino Black Liégé at $440 with color links, six-image gallery, review summary, Italian leather description, demo-store disclosure and official brand link.",
+            "Product detail, combine-with items, key features, materials, care tips and related products support product storytelling; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://prestige-theme-allure.myshopify.com/cart",
+          "observations": [
+            "Dedicated empty cart state with Continue Shopping link and brand/service/footer content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, density controls, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product claims not independently verified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 351,
-    "selected_presets": 89,
-    "unique_selected_homepages_across_all_source_types": 120
+    "pages": 355,
+    "selected_presets": 90,
+    "unique_selected_homepages_across_all_source_types": 121
   }
-}\n
+}
