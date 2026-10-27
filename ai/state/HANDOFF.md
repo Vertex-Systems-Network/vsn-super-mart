@@ -1,3 +1,14 @@
+## 2026-10-27 — Shopify mobile preview Batch 129
+
+**Done**
+- Verified 360×640 CSS-pixel mobile previews for 12 additional presets: Impulse:Impulse, Impulse:Dune, Local:Local, Local:Soleway, Local:Thrive, Local:Caffeine, Local:Lively, Empire:Empire, Empire:Circuit, Empire:Depot, Empire:Forma and Be Yours:Be Yours.
+- Visually reviewed 9 of these; Caffeine, Lively and Forma captures were blurred and remain pending visual review.
+- Mobile observations recorded: Empire:Empire and Empire:Circuit show possible horizontal header/promo clipping at 360px; Empire:Depot stacks CTAs in a single-column hero; Impulse and Local headers collapse for phone layouts.
+- Combined template coverage remains **127/127** for home, collection, product and cart. Mobile: **10/127 visually reviewed**, **3 additional previews pending clear captures**, **114 not yet reviewed**.
+
+**Next**
+- Continue mobile review on remaining presets, retry the three blurred previews, and record each result before marking complete.
+
 ## 2026-10-27 — Shopify validation checkpoint Batch 128
 
 **Done**
