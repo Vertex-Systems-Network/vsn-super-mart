@@ -2481,6 +2481,39 @@
         "product-blocks"
       ],
       "design_implication": "Reflect the selected variant in the control and URL. Recompute stock messaging per variant, and keep it stable when availability is unchanged."
+    },
+    {
+      "id": "shopify-in-page-product-disclosures",
+      "context": "Supporting product information can be organized into explicit in-page disclosures.",
+      "signals": [
+        "Tier 1 PDPs used care, warranty, FAQ, shipping, description, specifications and subscription disclosure controls.",
+        "Expanded content stayed in place and retained the product context."
+      ],
+      "source_entry_ids": [
+        "shopify-tier1-disclosure-coverage"
+      ],
+      "option_ids": [
+        "collapsible-tabs",
+        "product-blocks",
+        "shipping-information",
+        "product-faq"
+      ],
+      "design_implication": "Label each disclosure by its content, keep buying-critical facts near purchase controls, and avoid hiding the primary product story."
+    },
+    {
+      "id": "shopify-product-gallery-zoom-dialog",
+      "context": "A gallery zoom dialog supports closer product inspection without navigating away.",
+      "signals": [
+        "Empire:Forma opened a Product zoom dialog from an image and displayed a Close control."
+      ],
+      "source_entry_ids": [
+        "shopify-tier1-gallery-zoom"
+      ],
+      "option_ids": [
+        "media-gallery-layouts",
+        "product-gallery"
+      ],
+      "design_implication": "Open zoom in a focused dialog with clear close and image navigation controls; preserve PDP state on return."
     }
   ]
 }
