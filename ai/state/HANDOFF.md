@@ -1425,3 +1425,12 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Stiletto:Stiletto's selected product URL returned 404; the public homepage search modal was used as the same-preset fallback.
 - Report: `banks/research/competitors/shopify-interaction-sample-batch138-2026.md`.
 - Next: Tier 3 (6 presets).
+
+
+## Batch 139 — Tier 3 interaction group closeout (2026-10-27)
+
+- Verified one live interaction on all 6 Tier 3 presets and removed the group from pending.
+- Overall targeted interaction evidence: 72/127 presets across 74 observations; 55 remain (Tier 4: 38, other selected families: 17).
+- Mobile visual review remains 127/127 at 360×640 CSS px; two limited-clarity hero previews remain documented.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch139-2026.md`.
+- Next: Tier 4 (38 presets).
