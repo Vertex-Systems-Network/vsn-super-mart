@@ -85,14 +85,11 @@
     "live_product_verified": 40,
     "live_cart_verified": 11,
     "live_mobile_verified": 0,
-    "browser_rendered_pages": 281,
+    "browser_rendered_pages": 284,
     "browser_rendered_selected_presets": 72,
     "selected_home_observed_any_source": 103,
     "distinct_selected_homepages_any_source": 103,
-    "unique_homepages_remaining": 24,
-    "rendered_pages": null,
-    "unique_homepages": 103,
-    "selected_presets_with_rendered_evidence": 72
+    "unique_homepages_remaining": 24
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
