@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 53 additional browser-rendered homes are documented (104/127 unique); 288 read-only rendered pages across 73 selected presets.",
+  "summary": "51 indexed HTML selected homes and 54 additional browser-rendered homes are documented (105/127 unique); 292 read-only rendered pages across 74 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 73,
-    "opened_home": 73,
-    "opened_collection": 60,
-    "opened_product": 61,
-    "opened_empty_cart": 27,
+    "opened_stores": 74,
+    "opened_home": 74,
+    "opened_collection": 61,
+    "opened_product": 62,
+    "opened_empty_cart": 28,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10082,11 +10082,70 @@
       "limits": [
         "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Seller, product, pricing, shipping and promotional claims unverified."
       ]
+    },
+    {
+      "id": "shopify-be-yours-browser-render",
+      "selected_preset_id": "be-yours:be-yours",
+      "theme_family": "Be Yours",
+      "preset": "Be Yours",
+      "store_url": "https://beyours-theme-beauty.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Shopify Be Yours listing, verified its View demo iframe src, and inspected rendered home, skincare collection, Calming Serum PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://beyours-theme-beauty.myshopify.com/",
+          "observations": [
+            "Beauty storefront with announcement strip, brand navigation, skincare/kids/hair/body categories, campaign slideshow, new-arrivals cards with ingredient/skin/type metadata, shade/skin-tone module, routine quiz callout, tabbed bestsellers, UGC routines, comparison tables, before/after, Shop the Look, brand/story modules, testimonials, store-locator section and newsletter. Skincare and retail claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://beyours-theme-beauty.myshopify.com/collections/skincare",
+          "observations": [
+            "Skincare collection shows 16 products; Brand, Price, Size and Availability facets; sort-by control and pagination visible but untouched; editor-picks shelf, category sublinks, product metadata, badges and Quick View controls."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://beyours-theme-beauty.myshopify.com/products/calming-serum",
+          "observations": [
+            "Calming Serum PDP with four gallery items, €190 price, ingredient/skin/texture/use metadata, stock counter, shipping information, before/after comparison, ritual timeline, testimonials, set builder, guarantees and FAQs. Demo says it is a demonstration store and points to Undone for real purchase; cosmetic claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://beyours-theme-beauty.myshopify.com/cart",
+          "observations": [
+            "Empty cart text and Return to Shop link observed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Skincare, ingredient, clinical, retailer and merchant claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 288,
-    "selected_presets": 73,
-    "unique_selected_homepages_across_all_source_types": 104
+    "pages": 292,
+    "selected_presets": 74,
+    "unique_selected_homepages_across_all_source_types": 105
   }
 }
