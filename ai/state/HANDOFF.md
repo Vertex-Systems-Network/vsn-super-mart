@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 105 (Pipeline:Petra, 2026-10-27)
+
+- Official demo iframe led to Pipeline Light footwear store: home, men's collection, Sky moccasin PDP and empty cart inspected read-only. This differs from the Petra listing's luxury-brand positioning; preserve the mismatch and do not attribute footwear modules as Petra-specific.
+- Coverage 107/127 unique homes, 300 rendered pages across 76 presets; 20 homes remain. No interactions, screenshot, viewport/editor/checkout/performance tests; product claims unverified.
+- Next: inspect next unverified preset and validate iframe/content mapping.
+
+
 ## Shopify live-demo research — Batch 104 (Motion:Satchel, 2026-10-27)
 
 - Verified official demo iframe; inspected rendered home, Bags collection, Whelma Bag PDP and empty cart read-only.
