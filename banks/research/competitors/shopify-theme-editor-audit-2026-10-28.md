@@ -147,3 +147,17 @@ The Product Desktop PSI report loaded its field data but the Lighthouse scoring 
 ### PSI retry limitation
 
 A single reload retry for the stalled Product Desktop report was redirected to Google's reCAPTCHA page, which said unusual traffic was detected. The challenge was not solved. This browser cannot currently retrieve additional PSI results; missing scores remain pending.
+
+
+## Scope update and Dune keyboard/accessibility review — 2026-10-28
+
+Checkout QA has been **removed from the active task at the user's request**. The earlier Impulse:Impulse terms-gate attempt remains in this report as historical context only; it is no longer a pending deliverable. The matrix sets pending checkout to zero and records the scope change without claiming a completed checkout test.
+
+### Dune (Impulse:Dune) manual keyboard smoke review
+
+- Homepage: visible focus on “Skip to content”; Tab traversal reached the Shop menu, which expanded on focus, and its submenu links were reachable.
+- Product page: Tab traversal reached the size radio choices and Add to Cart. The product gallery has an unnamed button; Shop the Look has two unnamed buttons in the accessibility tree.
+- Collection page: the Filter drawer exposes named Color, Price, Size, Product Type and Brand controls. Escape closed the drawer and returned focus to Filter. A Search combobox appeared after Escape. The drawer was opened by pointer, so keyboard opening itself was not confirmed.
+- This is a limited manual smoke review, not a WCAG conformance audit.
+
+Lighthouse has not been run for Dune. Additional PSI retrieval is currently blocked in this browser after Google's unusual-traffic human-verification challenge; it was not solved.
