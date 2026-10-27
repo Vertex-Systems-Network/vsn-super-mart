@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 6
+    "partial_keyboard_accessibility_presets": 7
   },
   "pending": {
     "home": 0,
@@ -1235,7 +1235,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -1289,7 +1290,28 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-prestige-vogue-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "observed_date": "2026-10-28",
+          "pages": [
+            "https://prestige-theme-vogue.myshopify.com/",
+            "https://prestige-theme-vogue.myshopify.com/collections/kits"
+          ],
+          "observations": [
+            "Home: Tab reached the named Navigation menu button; Enter expanded the keyboard menu, exposing FACE, BODY, COLLECTIONS, JOURNAL and PRESETS. Escape collapsed it while focus remained on the menu button.",
+            "Collection: Tab traversal reached Availability; Enter expanded it and exposed the named In stock only checkbox. Space toggled it on and the URL reflected filter.v.availability=1. The test filter was cleared by returning to the base collection URL.",
+            "Homepage accessibility tree exposed named product variant radios, quantity controls and Add to Cart for the featured Konjac Sponge product; keyboard activation of those controls was not verified."
+          ],
+          "limitations": "Limited manual smoke and accessibility-tree inspection only; not a WCAG conformance audit. Standalone product-page keyboard behavior and Lighthouse were not tested."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "run_date": "2026-10-28",
+          "reason": "Google PageSpeed Insights access in this browser is currently blocked by the unusual-traffic human-verification challenge encountered during the earlier run. No CAPTCHA was solved."
+        }
+      }
     },
     {
       "audit_rank": 8,
