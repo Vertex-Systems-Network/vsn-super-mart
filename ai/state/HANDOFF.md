@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 108 (Concept:Concept, 2026-10-27)
+
+- Verified demo iframe; inspected home, Headphones collection (14 products after delayed render), Air Beats PDP and empty cart read-only.
+- Coverage 110/127 unique homes, 320 rendered pages across 79 presets; 17 remain. Product and merchant claims unverified; no interactions, screenshots, viewport/editor/checkout/performance tests.
+- Next: continue next unverified preset.
+
+
 ## Shopify live-demo research — Batch 107 (Pipeline:Phantom, 2026-10-27)
 
 - Verified demo iframe; Pipeline Dark swimwear home, six-item Sets collection, Nina PDP and empty cart inspected read-only.
