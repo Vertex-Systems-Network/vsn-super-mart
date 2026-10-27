@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 104 (Motion:Satchel, 2026-10-27)
+
+- Verified official demo iframe; inspected rendered home, Bags collection, Whelma Bag PDP and empty cart read-only.
+- Coverage 106/127 unique homes, 296 rendered pages across 75 presets; 21 unique homes remain. Seller/product/price/review claims unverified; empty cart shows generic example products. No interactions, screenshot, viewport/editor/checkout/performance tests.
+- Next: continue next unverified selected preset.
+
+
 ## Shopify live-demo research — Batch 103 (Be Yours:Be Yours, 2026-10-27)
 
 - Verified official demo iframe; inspected rendered home, 16-product Skincare collection, Calming Serum PDP and empty cart read-only.
