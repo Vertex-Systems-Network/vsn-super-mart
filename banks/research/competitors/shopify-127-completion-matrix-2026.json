@@ -12,7 +12,7 @@
     "collection": 38,
     "product": 40,
     "cart": 11,
-    "interactive": 1,
+    "interactive": 3,
     "mobile": 127,
     "editor": 0,
     "checkout": 0,
@@ -33,7 +33,7 @@
     "product": 0,
     "cart": 0,
     "home_any_source": 0,
-    "interactive": 126,
+    "interactive": 124,
     "mobile": 0,
     "editor": 127,
     "checkout": 127,
@@ -908,20 +908,21 @@
         "https://prestige-theme-couture.myshopify.com/collections/dresses"
       ],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No filters, sort, swatch, layout, size, quantity, purchase or cart actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant pricing, inventory, ratings, sustainability, shipping and service claims unverified"
+        "Merchant pricing, inventory, ratings, sustainability, shipping and service claims unverified",
+        "Only the size S selector was tested; filters, other size/color choices, purchase and cart actions remain untested.",
+        "No checkout, Theme Editor, keyboard/accessibility or performance testing."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Continue targeted interaction review on the next selected preset; keep the 360×640 visual preview and normal-browser DOM interactions as separate evidence modes."
       ],
       "browser_render_observations": [
         {
@@ -955,7 +956,11 @@
         },
         "observation_id": "mobile-prestige:couture-2026-10-27",
         "observations": "Compact header and full-width editorial fashion hero; CTA sits near the lower fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "prestige-couture-size-variant-2026-10-27"
+      ]
     },
     {
       "audit_rank": 7,
@@ -2176,19 +2181,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
-        "Official Enterprise listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified."
+        "Official Enterprise listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified.",
+        "Only the finder, collection filter/sort menu, and empty-cart drawer were tested; no item was added.",
+        "No checkout, Theme Editor, keyboard/accessibility or performance testing."
       ],
       "next_action": [
-        "Recheck only if the official listing exposes a valid matching demo host; do not infer one."
+        "Continue targeted interaction review on the next selected preset; keep the 360×640 visual preview and normal-browser DOM interactions as separate evidence modes."
       ],
       "browser_render_observations": [
         {
@@ -2222,7 +2228,13 @@
         },
         "observation_id": "mobile-enterprise:enterprise-2026-10-27",
         "observations": "Search-centric mobile header stacks department selector, search field and shipping strip above hero."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "enterprise-cascading-finder-2026-10-27",
+        "enterprise-collection-filter-sort-2026-10-27",
+        "enterprise-empty-cart-drawer-2026-10-27"
+      ]
     },
     {
       "audit_rank": 21,
