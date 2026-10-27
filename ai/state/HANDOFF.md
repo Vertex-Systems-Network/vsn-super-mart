@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 107 (Pipeline:Phantom, 2026-10-27)
+
+- Verified demo iframe; Pipeline Dark swimwear home, six-item Sets collection, Nina PDP and empty cart inspected read-only.
+- Coverage 109/127 unique homes, 312 rendered pages across 78 presets; 18 remain. No interactions, screenshots, viewport/editor/checkout/performance tests; sustainability and seller claims unverified.
+- Next: continue next unverified selected preset.
+
+
 ## Shopify live-demo research — Batch 106 (Pipeline:Pahoa, 2026-10-27)
 
 - Verified official demo iframe; Pipeline Bright/Darma home, 11-item Bestsellers collection, Fig PDP and empty cart inspected read-only. Store explicitly says catalog is fictional theme-demo content.
