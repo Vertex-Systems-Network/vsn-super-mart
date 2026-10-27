@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Collection/product/cart read-only coverage complete across 127/127 selected presets. Next: feasible interactive behavior and mobile validation; Theme Editor/checkout/performance feasibility remains to be verified.",
+  "next_action": "Page coverage complete across 127/127 selected presets for home, collection, product and cart. Batch128 recorded Ignite:Peak mobile preview at 360×640 CSS px and one Shop now CTA interaction; an unanswered 21+ gate blocked further behavior. Remaining: representative filters/variants/quick-view/keyboard checks, Theme Editor access, checkout-flow inspection and Lighthouse/performance measurement.",
   "approvals": {},
   "figma": {
     "file_key": null,
