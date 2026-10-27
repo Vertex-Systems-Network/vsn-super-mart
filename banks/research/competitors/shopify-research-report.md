@@ -108,3 +108,8 @@ A third read-only browser session tested Impulse:Impulse on The Lido Short PDP. 
 ## Targeted interaction update — Batch 135 (2026-10-27)
 
 Impulse:Dune's Naked & Famous Crewneck PDP was tested at 1363×936 CSS px. Selecting M updated the selected radio and URL to a variant-specific ID while the in-stock message stayed unchanged. No cart action followed. Coverage is now **5 of 127 presets across 7 observations**; completed presets are marked in the matrix and removed from pending counts. See `shopify-interaction-sample-batch135-2026.md`.
+
+
+## Targeted interaction update — Batch 136 (2026-10-27)
+
+Impulse:Terrain's 2016 Carbine Expert Build PDP was tested at 1363×936 CSS px. Selecting M updated the radio state and URL with a variant ID; “In stock, ready to ship” remained unchanged. No cart action followed. Overall targeted coverage is **6 of 127 presets across 8 observations**; completed presets are marked and excluded from the pending list. See `shopify-interaction-sample-batch136-2026.md`.
