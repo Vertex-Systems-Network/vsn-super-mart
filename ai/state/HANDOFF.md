@@ -1,3 +1,18 @@
+## 2026-10-27 — Shopify rendered demo research Batch 111 (Wonder:Velour)
+
+**Done**
+- Verified the official View demo host and inspected home, 16-product New Arrivals collection, Dress Sailor Galaxia PDP and empty cart read-only.
+- Coverage: 113/127 unique homes (51 indexed HTML + 62 additional rendered); canonical rendered counter 324 pages across 82 presets; 14 remain.
+- Collection supports availability/color/price/size filters; PDP includes variant sizing and a size guide. Demo discloses product sourcing; claims remain unverified.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No shopping controls, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
 ## 2026-10-27 — Shopify rendered demo research Batch 110 (Sleek:Wildpeak)
 
 **Done**
