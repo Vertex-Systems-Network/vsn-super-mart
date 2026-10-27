@@ -9348,6 +9348,38 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official demo host verified; rendered home, Mountain Bikes collection, FC-Moto jacket PDP and empty cart inspected read-only.",
       "notes": "Collection has unrelated motorcycle apparel/accessories under Mountain Bikes; jacket PDP contains helmet description and Polygon bike-copy sections; empty cart recently viewed area includes generic placeholder text."
+    },
+    {
+      "id": "shopify-live-prestige-prestige",
+      "platform": "shopify",
+      "theme": "Prestige",
+      "preset": "Prestige",
+      "url": "https://prestige-theme-allure.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "campaign-countdown",
+        "collection-density-controls",
+        "product-story-gallery",
+        "related-products",
+        "empty-cart"
+      ],
+      "niches": [
+        "fashion",
+        "handbags",
+        "luxury"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official demo host verified; rendered home, Women collection, Le Dino PDP and empty cart inspected read-only.",
+      "notes": "Collection contains outdated Black Friday expiry date from 2025 while homepage campaign says November 25, 2026; demo home credits product-use permission to Léo et Violette."
     }
   ],
   "discovery_sources": [
@@ -9475,4 +9507,4 @@
     "scope": "47 selected theme families; NOT whole Shopify marketplace"
   },
   "shopify_live_demo_evidence": "banks/research/competitors/shopify-live-demo-evidence-2026.json"
-}\n
+}
