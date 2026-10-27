@@ -1389,3 +1389,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Totals: 4 presets / 6 interaction observations; 123 presets remain for interaction sampling.
 - Report: `banks/research/competitors/shopify-interaction-sample-batch134-2026.md`.
 - Next: continue representative interactions on a new preset without purchase or checkout.
+
+
+## Shopify targeted interaction sample — Batch 135 (2026-10-27)
+- Impulse:Dune: selected size M on the Naked & Famous Crewneck PDP. M became active, S inactive, and the URL reflected the selected variant ID; the in-stock status remained unchanged.
+- No cart mutation, purchase, checkout, Theme Editor, keyboard/accessibility or Lighthouse check.
+- Overall: 5 presets / 7 interaction observations; 122 presets remain pending. Completed presets are marked in the matrix and excluded from the pending interaction count.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch135-2026.md`.
+- Next: continue the next untested selected preset.
