@@ -111,3 +111,34 @@ Official sources checked on 2026-10-28:
 - [Checkout UI extensions](https://shopify.dev/docs/api/checkout-ui-extensions/latest) — checkout/app extension scope and targets.
 
 This closes the **requirements research** portion only. No Lighthouse run, keyboard session, checkout progression or Theme Store benchmark was available in this environment; the live QA items and 0/127 private-editor count remain open.
+
+
+## Live QA evidence — Impulse:Impulse (2026-10-28)
+
+### Checkout
+
+A reversible cart smoke test added *The Ames Trouser* ($145) and opened the cart drawer. Checkout was attempted with the required terms checkbox left unchecked; the merchant displayed a required-consent alert and did not advance. No terms were accepted, no personal/payment details were entered, and no order was placed. The test item was removed and the cart showed empty. Status: **attempted, blocked before checkout; incomplete**.
+
+### Keyboard and accessibility smoke review
+
+- Homepage: Tab reached the “Skip to content” link with a visible focus outline. The Clothing navigation control was keyboard reachable and expanded on focus.
+- Collection: the Filter button was keyboard reachable; Enter opened the filter drawer and exposed Price, Size, Product Type and Availability controls. Escape closed the drawer.
+- Product: the tab sequence reached Add to Cart. Two product-gallery buttons appeared without accessible names in the accessibility tree.
+- This is a limited manual smoke review, not a WCAG conformance claim.
+
+### PageSpeed Insights / Lighthouse runs
+
+Lighthouse 13.5.0 results captured for five of the six Home/Product/Collection device views:
+
+| Page | Device | Performance | Accessibility | Best practices | SEO |
+|---|---:|---:|---:|---:|---:|
+| Home | Mobile | 56 | 86 | 96 | 77 |
+| Home | Desktop | 89 | 90 | 96 | 77 |
+| Product | Mobile | 59 | 95 | 96 | 92 |
+| Collection | Mobile | 91 | 100 | 96 | 92 |
+| Collection | Desktop | 99 | 100 | 96 | 92 |
+| Product | Desktop | Pending | Pending | Pending | Pending |
+
+The Product Desktop PSI report loaded its field data but the Lighthouse scoring panel remained in “loading,” so it is not counted. Cart was not run. Home mobile flagged missing image alt text, unnamed links, focusable descendants under aria-hidden, and heading order. Product mobile flagged focusable descendants under aria-hidden and heading order. Collection mobile and desktop each retained manual accessibility checks. These are lab snapshots for one demo theme/preset only, not proof for the other 126 presets.
+
+**Disposition:** QA coverage improved for one preset, but checkout, full keyboard/accessibility review, and Lighthouse coverage remain incomplete. The canonical matrix counters remain at 0/127 for completed checkout and Lighthouse runs; no cohort-wide completion is claimed.
