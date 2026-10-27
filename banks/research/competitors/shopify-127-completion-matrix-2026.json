@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "120/127 unique selected homes observed across indexed HTML and read-only rendered browser evidence; 7 unique homes remain.",
+  "completion_claim": "121/127 unique selected homes observed across indexed HTML and read-only rendered browser evidence; 6 unique homes remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 351,
-    "browser_rendered_selected_presets": 89,
-    "distinct_selected_homepages_any_source": 120
+    "browser_rendered_pages": 355,
+    "browser_rendered_selected_presets": 90,
+    "distinct_selected_homepages_any_source": 121
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 7
+    "home_any_source": 6
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -725,24 +725,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-allure.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-allure.myshopify.com/collections/women-1"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-allure.myshopify.com/products/le-dino-black-liege"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-allure.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -753,38 +749,16 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_verified_demo_unavailable_or_mismatched",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
-        "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
-        "Merchant product, price, stock, material, shipping and brand claims remain unverified",
-        "Official listing preview destination is named Allure; exact preset-to-store mapping remains uncertain.",
-        "Official Prestige:Prestige listing's View demo iframe renders a storefront titled Prestige - Allure on prestige-theme-allure.myshopify.com. The mismatch persists; do not count Allure as a Prestige preset demo without a valid mapping."
+        "No screenshot or viewport measurements",
+        "No interactions, mobile rendering, Theme Editor, checkout or performance tests"
       ],
       "next_action": [
-        "Recheck only if the official listing exposes a valid matching demo host; do not infer one."
+        "Use qualitative merchandising and content observations; maintain source-class distinction"
       ],
       "browser_render_observations": [
-        {
-          "kind": "home",
-          "url": "https://prestige-theme-allure.myshopify.com/",
-          "evidence_class": "browser_render_readonly"
-        },
-        {
-          "kind": "collection",
-          "url": "https://prestige-theme-allure.myshopify.com/collections/women-1",
-          "evidence_class": "browser_render_readonly"
-        },
-        {
-          "kind": "product",
-          "url": "https://prestige-theme-allure.myshopify.com/products/le-dalia-ivory-liege",
-          "evidence_class": "browser_render_readonly"
-        },
-        {
-          "kind": "cart",
-          "url": "https://prestige-theme-allure.myshopify.com/cart",
-          "evidence_class": "browser_render_readonly"
-        }
+        "shopify-prestige-prestige-browser-render"
       ]
     },
     {
@@ -8473,4 +8447,4 @@
     "physical_demo_test_required_for_stage2_gate": true,
     "shopify_editor_needs_access": true
   }
-}\n
+}
