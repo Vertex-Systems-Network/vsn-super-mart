@@ -38,3 +38,8 @@ Three selected presets now have limited interaction evidence (5 observations): I
 ## Targeted interaction update — Batch 134 (2026-10-27)
 
 Impulse:Impulse adds one targeted Quick View interaction to the sample. Overall: 4 of 127 presets, 6 observations. The modal retained the current PDP context and showed the related product's media, pricing, description, size-chart access, stock message and accordions. No add-to-cart or checkout action was run. 123 selected presets remain without targeted interactions; mobile visual review remains complete at 127/127.
+
+
+## Targeted interaction update — Batch 135 (2026-10-27)
+
+Impulse:Dune adds one variant-selection check: size M became selected, S deselected and the URL reflected a variant ID; stock copy did not change. No add-to-cart action was run. Targeted coverage is 5/127 presets (7 observations); 122 remain pending. Mobile visual review remains complete at 127/127.
