@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 57 additional browser-rendered homes are documented (108/127 unique); 304 read-only rendered pages across 77 selected presets.",
+  "summary": "51 indexed HTML selected homes and 58 additional browser-rendered homes are documented (109/127 unique); 312 read-only rendered pages across 78 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 77,
-    "opened_home": 77,
-    "opened_collection": 64,
-    "opened_product": 65,
-    "opened_empty_cart": 31,
+    "opened_stores": 78,
+    "opened_home": 78,
+    "opened_collection": 65,
+    "opened_product": 66,
+    "opened_empty_cart": 32,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10318,11 +10318,70 @@
       "limits": [
         "Store footer explicitly states products are not real and storefront demonstrates the theme. Product/ingredient/retail claims are fictional/unverified. No interaction, screenshot, mobile, editor, checkout or performance tests."
       ]
+    },
+    {
+      "id": "shopify-pipeline-phantom-browser-render",
+      "selected_preset_id": "pipeline:phantom",
+      "theme_family": "Pipeline",
+      "preset": "Phantom",
+      "store_url": "https://pipeline-botanical.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Pipeline:Phantom listing and verified its demo iframe src; inspected home, Sets collection, Nina PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://pipeline-botanical.myshopify.com/",
+          "observations": [
+            "Pipeline:Phantom demo host is Pipeline Dark swimwear storefront: swimwear hero and video, Uluwatu Dreams products, Shop the Sale category tabs, showroom and philosophy sections, service benefits, and newsletter. Sustainability/ethical claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://pipeline-botanical.myshopify.com/collections/sets",
+          "observations": [
+            "Sets collection lists six products by designers, with Collections, Price, Size, Designer, Availability and Color filters; sorting and 2/3/4-column controls visible but untouched; product color variants and Quick Add controls."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://pipeline-botanical.myshopify.com/products/nina",
+          "observations": [
+            "Nina swimwear PDP, 12 gallery images, £270, sizes XS-L, Ink/Envy/Tartan colors, low-stock copy, fit/size-chart link, Description/Information/Details accordions, Buy It With Wendy Sea Black Top £110, year-of-wear copy and brand content. Claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://pipeline-botanical.myshopify.com/cart",
+          "observations": [
+            "Empty cart and Continue Browsing link; shipping/delivery/tracking FAQ controls and shipping/returns/support message visible, untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No shopper interactions, screenshots, mobile viewport, editor, checkout, keyboard or performance tests. Product, sustainability and seller claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 304,
-    "selected_presets": 77,
-    "unique_selected_homepages_across_all_source_types": 108
+    "pages": 308,
+    "selected_presets": 78,
+    "unique_selected_homepages_across_all_source_types": 109
   }
 }
