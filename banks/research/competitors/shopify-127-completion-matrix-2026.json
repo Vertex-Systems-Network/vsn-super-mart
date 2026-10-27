@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "124/127 unique selected homes observed across indexed HTML and read-only rendered browser evidence; 3 unique homes remain.",
+  "completion_claim": "125/127 unique selected homes observed across indexed HTML and read-only rendered browser evidence; 2 unique homes remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 367,
-    "browser_rendered_selected_presets": 93,
-    "distinct_selected_homepages_any_source": 124
+    "browser_rendered_pages": 371,
+    "browser_rendered_selected_presets": 94,
+    "distinct_selected_homepages_any_source": 125
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 3
+    "home_any_source": 2
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -6529,24 +6529,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-toys-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-toys-demo.myshopify.com/collections/bestsellers"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-toys-demo.myshopify.com/products/ultimate-hardwood-towering-blocks"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-toys-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6557,14 +6553,15 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No screenshots or viewport dimensions; no filters, variants, cart actions, mobile, editor, checkout or performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/ignite/presets/playtime",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue unique official demo-host research for two remaining selected homes"
+      ],
+      "browser_render_observations": [
+        "shopify-ignite-playtime-browser-render"
       ]
     },
     {
