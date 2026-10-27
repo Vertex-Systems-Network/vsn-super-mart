@@ -1640,6 +1640,18 @@
         "Ingredient, shipping and recycling accordions"
       ],
       "design_hypothesis": "Values-led skincare merchandising can connect concise product benefits with ingredients and care details; clearly distinguish real verified claims from demo content."
+    },
+    {
+      "id": "shopify-live-vision-velocite",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Bike-category hero and navigation",
+        "Featured gear carousel",
+        "Specifications and testimonials",
+        "Polygon bike-story sections",
+        "Collection filters and product cards"
+      ],
+      "design_hypothesis": "A tightly curated sport catalog should keep collection labels, product types, PDP description and lower-page brand story aligned; relevant recently viewed items can support an empty-cart recovery path."
     }
   ]
-}
+}\n
