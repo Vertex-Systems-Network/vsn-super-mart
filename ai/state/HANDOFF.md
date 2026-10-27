@@ -1,3 +1,13 @@
+## 2026-10-27 — Shopify rendered demo research Batch 122 (Release:Renaissance)
+
+**Done**
+- Verified new official demo host; inspected home, Rings collection, Vivien Ring PDP and empty cart read-only.
+- Coverage: 124/127 unique homes (51 indexed HTML + 73 browser-rendered additions), 367 rendered pages across 93 presets; 3 remain.
+- Recorded countdown mismatch, unrelated skincare testimonial, product recommendation mismatch and cart /false destination. Updated evidence, matrix, audit, observations, plan and progress.
+
+**Next**
+- Continue branch `research/shopify-live-demo-batch6`; deduplicate hosts and finish the remaining 3 unique demos.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 121 (Eurus:Eurus)
 
 **Done**
