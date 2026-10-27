@@ -1,3 +1,21 @@
+## 2026-10-28 — Cross-repository VSN Builder app embed finding
+
+**Done**
+- Corrected the earlier repo-local app extension diagnosis after searching the same organization: `vsn-builder` contains the VSN Builder Theme App Extension.
+- Verified `vsn-page-renderer.liquid` has `target: body` (app embed); 25 other extension block files have `target: section` (inline app blocks).
+- Read the T032 fixture status: no Shopify store installed/published/deployed; live Theme Editor/storefront acceptance remains pending; T033 real extension E2E is WAITING. Direct deploy/config-switch is blocked by repository safety script.
+- Updated the Theme Editor report and audit readiness. No deployment, credential access or app code edit occurred.
+
+**Conclusion / still open**
+- Likely reason the App embeds entry is missing: extension source exists but it is not deployed/installed in the target store. The target store is not connected, so this is not directly confirmed.
+- Competitor editor cohort remains 0/127 reviewed, 127 pending. VSN live editor also remains unverified.
+
+**Next**
+- After VSN Builder's deployment safeguards are satisfied, install/update the app on the target development store, then verify Theme settings → App embeds using the existing activation/status workflow.
+- Do not add a duplicate theme setting or deploy from this Stage 2 research task.
+
+---
+
 ## 2026-10-28 — Missing app embed option diagnosis
 
 **Done**
