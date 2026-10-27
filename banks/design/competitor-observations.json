@@ -1544,6 +1544,17 @@
         "Empty cart reassurance and footer"
       ],
       "design_hypothesis": "Home furnishing navigation benefits from broad room/product categories and product-spec/material facets; actual claims are unverified."
+    },
+    {
+      "id": "shopify-live-sleek-wildpeak",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Multi-slide outdoor apparel hero",
+        "Faceted Best Sellers catalog with product type, price, color, size and availability",
+        "Product detail with size-chart popup, stock text and service accordions",
+        "Empty-cart collection suggestions"
+      ],
+      "design_hypothesis": "A large filter set can span apparel attributes, but category breadth and related editorial content need to remain product-relevant; this demo’s mixed catalog and unrelated PDP review/story modules weaken trust and coherence. Claims unverified."
     }
   ]
 }
