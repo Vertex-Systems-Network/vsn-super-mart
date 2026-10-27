@@ -56,3 +56,19 @@ To complete the VSN editor QA later, use the authorized VSN development store co
 5. No unsupported competitor control claims are imported into the design spec.
 
 To close competitor editor research, each record needs authorized direct access to that preset’s editor or a vendor-published schema/settings source. Until then, retain 0/127 reviewed and 127/127 pending.
+
+
+## App block / app embed visibility diagnosis — 2026-10-28
+
+The reported “embedded app option” can refer to two different Shopify features:
+
+| Feature | Where it appears | What this repository supports | What is still required |
+|---|---|---|---|
+| **App embed** (floating widget, tracking, overlay) | Theme Editor → Theme settings → App embeds | `theme/layout/theme.liquid` contains `{{ content_for_header }}` and the normal layout output hook, so no missing global hook was found in the inspected file. | The actual Shopify app must provide and deploy a Theme App Extension with an embed block, and that app must be installed on the store. There is no app project or extension directory in this repository, so theme code alone cannot create its app-embed toggle. |
+| **App block** (inline content such as reviews) | Apps section or an app-compatible section in a JSON template | `vsn-section.liquid` declares `@app` and renders `{% content_for 'blocks' %}`. This is present on the single `page.vsn-prototype.json` template. | The app must provide an app block. The current 12 Liquid templates are not JSON templates, so they do not provide this section-based insertion path yet. Convert them during the planned Stage 7 architecture work. |
+
+Shopify documents these as separate extension targets: app blocks use `target: content` and require JSON templates plus a section that supports and renders `@app`; app embeds use `head`, `body`, or `compliance_head` and are enabled from Theme settings → App embeds after the app is installed. App embeds work without JSON templates. See [Shopify theme app extension configuration](https://shopify.dev/docs/apps/build/online-store/theme-app-extensions/configuration) and [App blocks for themes](https://shopify.dev/docs/storefronts/themes/architecture/blocks/app-blocks).
+
+**Most likely cause:** if the missing control is in the App embeds panel, the extension is not installed/deployed in the target store (or the target app does not provide an embed block). The VSN theme does not define that app-owned control. If the missing control is an inline app block, it is only structurally available in the prototype JSON page today, not throughout the Liquid templates. The repository has no store connection or app installation state, so this is a source-based diagnosis, not direct confirmation of the store's installed-app state.
+
+No code or matrix counters changed. Theme Editor competitor coverage remains 0/127 reviewed, 127 pending.
