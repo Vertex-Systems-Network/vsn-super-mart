@@ -1364,3 +1364,10 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Retry cleared prior blur cases for Local:Caffeine, Local:Lively, Empire:Forma, Sleek:Jumped, Eurus:Placid/Whiff, Release:Grasse, Shapes:Fizz/Aura, Vision:Vision, Rise:Rise, and Stiletto:Linen.
 - Report: `banks/research/competitors/shopify-mobile-review-batch131-2026.md`.
 - Next: synthesize mobile patterns into design research; no Theme Editor, checkout, Lighthouse, or shopper interaction testing was included.
+
+
+## Shopify mobile design synthesis — Batch 132 (2026-10-27)
+- Converted the completed 127-preset mobile sweep into six qualitative competitor observations and five responsive design patterns.
+- Added `banks/research/competitors/shopify-mobile-synthesis-2026.md`; linked mobile evidence from design bank README, Shopify research report, audit readiness and cross-platform closeout.
+- Visual fingerprint status remains conservative: mobile qualitative evidence does not verify desktop, product, collection or interaction dimensions.
+- Next: targeted mobile interaction reviews for drawer/search, collection filters/sort, variant selection and cart drawer; avoid purchase/checkout.
