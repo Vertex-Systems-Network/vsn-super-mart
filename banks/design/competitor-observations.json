@@ -1493,6 +1493,18 @@
         "Empty cart state"
       ],
       "design_hypothesis": "Rendered pages show footwear merchandising patterns, but the listing/demo mismatch prevents treating these as verified Petra-specific design signals."
+    },
+    {
+      "id": "shopify-live-pipeline-pahoa",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skincare hero and tabbed product shelves",
+        "Routine education accordion and hotspots",
+        "Product collection with type/size facets",
+        "PDP with ingredient tabs and routine cross-sells",
+        "Empty cart with shipping FAQs"
+      ],
+      "design_hypothesis": "Educational routine content and product metadata can structure skincare browsing. Treat only as theme layout because the demo declares its catalog fictional."
     }
   ]
 }
