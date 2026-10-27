@@ -8429,16 +8429,16 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false,
         "ui_interaction_attempt": true
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Shop now CTA opened a 21+ age-verification gate; it was left unanswered.",
+        "Shop Now reached a 21+ verification gate. The prompt was left unanswered and no further interaction was attempted.",
         "No Theme Editor or checkout session opened; merchant credentials/store access not available.",
         "No Lighthouse/performance tool or run available in this research environment."
       ],
@@ -8448,7 +8448,13 @@
         "Run Lighthouse/performance measurement in an environment with the Lighthouse runner."
       ],
       "browser_render_observations": [
-        "shopify-ignite-peak-browser-render"
+        "shopify-ignite-peak-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://benchmark-food-demo.myshopify.com/",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "ignite-peak-age-gate-click-test-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -8459,7 +8465,11 @@
         },
         "observation_id": "mobile-ignite:peak-2026-10-27",
         "observations": "Compact food brand header and green, single-column hero with Shop Now CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "ignite-peak-age-gate-click-test-2026-10-27"
+      ]
     },
     {
       "audit_rank": 95,
