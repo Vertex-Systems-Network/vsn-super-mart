@@ -1555,6 +1555,19 @@
         "Empty-cart collection suggestions"
       ],
       "design_hypothesis": "A large filter set can span apparel attributes, but category breadth and related editorial content need to remain product-relevant; this demo’s mixed catalog and unrelated PDP review/story modules weaken trust and coherence. Claims unverified."
+    },
+    {
+      "id": "shopify-live-wonder-velour",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Fashion-category mega navigation",
+        "Three-slide campaign hero",
+        "Collection and bestseller/product tabs",
+        "Shoppable video/reels",
+        "Blog/editorial and social gallery",
+        "PDP color/size selection, offer and size guide"
+      ],
+      "design_hypothesis": "Apparel browsing pairs category taxonomy and editorial merchandising with granular color/size/price filters; shoppable video adds product access, while sourcing clarity helps users understand mixed-brand demos."
     }
   ]
 }
