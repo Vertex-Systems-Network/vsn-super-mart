@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 103 (Be Yours:Be Yours, 2026-10-27)
+
+- Verified official demo iframe; inspected rendered home, 16-product Skincare collection, Calming Serum PDP and empty cart read-only.
+- Coverage 105/127 unique homes, 292 rendered pages across 74 presets; 22 unique homes remain. Cosmetic, ingredient, retailer and seller claims unverified; no interaction, screenshot, viewport/editor/checkout/performance tests.
+- Next: continue next unverified selected preset.
+
+
 ## Shopify live-demo research — Batch 102 (Palo Alto:Pluma, 2026-10-27)
 
 - Verified official demo iframe; inspected rendered home, 8-item Bestsellers collection, Botanica Placemat PDP and empty cart read-only.
