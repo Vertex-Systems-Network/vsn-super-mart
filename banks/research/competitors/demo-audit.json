@@ -9130,6 +9130,37 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official listing demo host verified; rendered home, New Arrivals collection, Dress Sailor Galaxia PDP and empty cart inspected read-only.",
       "notes": "Demo supplies product sourcing information via About Us and names Cudmoda on PDP; source claims not independently validated."
+    },
+    {
+      "id": "shopify-live-wonder-nook",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Nook",
+      "url": "https://wonder-theme-interior.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "room-mega-navigation",
+        "brand-facets",
+        "material-facets",
+        "configuration-options",
+        "empty-cart"
+      ],
+      "niches": [
+        "home-furnishings",
+        "furniture"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official Wonder:Nook demo host verified; rendered home, Sofas collection, Mellow Sofa PDP and empty cart inspected read-only.",
+      "notes": "Demo links product supplier NAP and includes warranty/delivery claims; not independently verified."
     }
   ],
   "discovery_sources": [
