@@ -125,7 +125,7 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch137-2026.md",
-  "next_action": "Tier 1 (27 presets) is closed and archived from the pending list. Continue targeted read-only interactions with Tier 2's 33 pending presets; keep cart mutation and checkout out of scope.",
+  "next_action": "Tier 1 is complete and archived (27 presets). Continue targeted read-only interactions with Tier 2's 33 pending presets; 94 interaction presets remain overall.",
   "pending_interaction_groups": {
     "updated_at": "2026-10-27",
     "definition": "Only presets with interactive_tested=false in the completion matrix are included. When a preset is completed, remove it from its group's items and decrement pending_count.",
