@@ -84,8 +84,8 @@
     "live_collection_verified": 38,
     "live_product_verified": 40,
     "live_cart_verified": 11,
-    "live_mobile_verified": 1,
-    "browser_rendered_pages": 444,
+    "live_mobile_verified": 10,
+    "browser_rendered_pages": 456,
     "browser_rendered_selected_presets": 127,
     "selected_home_observed_any_source": 127,
     "distinct_selected_homepages_any_source": 127,
@@ -105,7 +105,10 @@
       "cart": 0
     },
     "interactive_events_tested": 1,
-    "browser_rendered_mobile": 1
+    "browser_rendered_mobile": 13,
+    "mobile_viewport_attempts": 13,
+    "mobile_visual_reviews_completed": 10,
+    "mobile_preview_blurred": 3
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -121,5 +124,5 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-live-demo-batch127-2026.md",
-  "next_action": "Template coverage is complete at 127/127 for home, collection, product and cart. One Ignite:Peak mobile preview (360×640 CSS px) and one CTA interaction attempt are recorded; Shop now opens an unanswered 21+ age gate. Still open: representative filter/variant/quick-view/keyboard tests across the cohort, Theme Editor access, checkout flow, and Lighthouse/performance measurement."
+  "next_action": "Mobile review: 10/127 visually reviewed at 360×640 CSS px; 3 preview captures were still blurred and 114 presets remain. Continue preset-by-preset; record visual issues (Empire/Empire and Empire/Circuit show horizontal clipping risk). Then finish interaction tests, Theme Editor access, checkout inspection and Lighthouse/performance."
 }
