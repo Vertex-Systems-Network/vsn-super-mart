@@ -1437,9 +1437,12 @@
       "id": "shopify-live-palo-alto-phenomena",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Official Palo Alto:Phenomena View demo iframe resolved to this beauty storefront. Rendered homepage shows promotional bar with US$75 free-shipping and WELCOME10 copy, Shop All/Bestsellers/About navigation, cosmetics hero, tabbed bestseller/brush shelf with Quick Buy and shades, editorial collection groupings, product-benefit claims (skin-first, inclusive, vegan/cruelty-free), testimonial cards, Shop the Look, featured product, product-list module, social gallery and newsletter/footer."
+        "Promotional cosmetics storefront with tabbed bestseller and brush shelves",
+        "Beauty category collection with 12 products, category shortcuts, visible facets and sorting",
+        "Halo highlighter PDP with 12-image gallery, four shade options, accordions and Buy It With shelf",
+        "Empty cart route verified"
       ],
-      "design_hypothesis": "Observe playful cosmetics merchandising, shade-forward tabbed product cards and beauty editorial storytelling. Collection, product, mobile rendering and controls remain unverified; independently substantiate beauty claims before reuse."
+      "design_hypothesis": "Shade-forward product cards and beauty editorial storytelling are visible across home, collection and PDP. Product and merchant claims remain unverified; no visual breakpoint or interaction testing."
     }
   ]
 }
