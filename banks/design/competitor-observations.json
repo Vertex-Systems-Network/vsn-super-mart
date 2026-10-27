@@ -1665,6 +1665,19 @@
         "Blog and service strip"
       ],
       "design_hypothesis": "Premium catalog pages can build confidence through layered material, care and brand-origin information, while campaign dates should remain synchronized across templates."
+    },
+    {
+      "id": "shopify-live-eurus-mystique",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shop-by-style taxonomy",
+        "Seasonal product tabs",
+        "Shop-the-look hotspots",
+        "Two-step bundle builder",
+        "Craftsmanship/material story",
+        "Warranty and care details"
+      ],
+      "design_hypothesis": "A product-led bag catalog can turn fit constraints into useful filters and structured PDP data, while material and variant labels need to stay consistent across card, selection and description."
     }
   ]
 }
