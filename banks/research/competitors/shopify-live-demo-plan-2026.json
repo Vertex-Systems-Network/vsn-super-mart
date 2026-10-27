@@ -124,5 +124,5 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-mobile-review-batch131-2026.md",
-  "next_action": "Mobile review complete: all 127 selected presets inspected at 360×640 CSS px. Synthesize responsive patterns into the Shopify design research; retain the two limited-clarity caveats for Eurus:Arise and Stiletto:Luster."
+  "next_action": "Mobile synthesis is incorporated into banks/design/competitor-observations.json and cross-platform-patterns.json. Next: perform targeted mobile interaction reviews on representative presets, prioritizing drawer navigation/search on a dense catalog, collection filters/sort, product variant selection, and cart drawer; keep purchases/checkout out of scope."
 }
