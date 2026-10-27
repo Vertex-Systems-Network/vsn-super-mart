@@ -104,12 +104,12 @@
       "product": 0,
       "cart": 0
     },
-    "interactive_events_tested": 7,
+    "interactive_events_tested": 8,
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2,
-    "interactive_presets_tested": 5
+    "interactive_presets_tested": 6
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -124,6 +124,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch135-2026.md",
-  "next_action": "Mobile visual synthesis is complete for 127/127 presets. Targeted interactions cover Ignite:Peak, Enterprise:Enterprise, Prestige:Couture, Impulse:Impulse and Impulse:Dune (7 observations). Continue with the next untested selected preset; completed presets are excluded from pending interaction work."
+  "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch136-2026.md",
+  "next_action": "Mobile visual synthesis is complete for 127/127 presets. Targeted interactions cover Ignite:Peak, Enterprise:Enterprise, Prestige:Couture, Impulse:Impulse, Impulse:Dune and Impulse:Terrain (8 observations). Continue with the next untested selected preset; completed presets are excluded from pending interaction work."
 }
