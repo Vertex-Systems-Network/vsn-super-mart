@@ -183,3 +183,8 @@ This remains a manual smoke review only, not a WCAG conformance audit.
 - Manual smoke test only; not a WCAG conformance audit.
 
 The matrix now shows **0/127 complete** and **4/127 with partial keyboard/accessibility observations**. Lighthouse remains **0/127 complete**; PSI is still blocked by the human-verification challenge from the prior retry.
+
+
+### Prestige — Allure homepage keyboard smoke review — 2026-10-28
+
+Tab traversal reached the primary WOMEN, MEN, ABOUT and PRESETS buttons and the site logo. The buttons were named in the accessibility tree. Menu activation, product/collection keyboard behavior and Lighthouse were not verified. This is a homepage-only partial observation, not a WCAG audit.
