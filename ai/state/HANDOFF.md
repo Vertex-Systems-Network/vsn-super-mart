@@ -1,3 +1,18 @@
+## 2026-10-28 — Shopify Tier 4 interaction closeout, Batch 140
+
+**Done**
+- Verified one live interaction on all 38 Tier 4 presets across Be Yours, Sleek, Wonder, Eurus, Release, Ignite, Shapes and Vision.
+- Actions included reversible gallery zoom, variant selection, product disclosures/tabs, and menu/locale-selector expansion.
+- Overall targeted interaction coverage: **110/127 presets across 112 observations**. Tier 1–4 are archived; 17 other selected-family presets remain.
+- Mobile preview review remains 127/127. No locale was changed; no cart or checkout action was taken.
+
+**Next**
+- Continue the remaining 17 selected families: Refresh, Rise, Origin, Craft, Publisher, Ride, Sense, Studio, Taste, Crave, Spotlight, Vessel, Heritage, Pitch, Dwell, Ritual and Fabric.
+- Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open for all 127 presets.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch140-2026.md`.
+
+---
+
 ## 2026-10-27 — Shopify mobile preview Batch 130
 
 **Done**
