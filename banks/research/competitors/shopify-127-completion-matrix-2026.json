@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "104/127 unique selected homepages documented (51 indexed HTML + 53 additional browser-rendered); 288 rendered pages across 73 selected presets. 23 unique homes remain.",
+  "completion_claim": "105/127 unique selected homepages documented (51 indexed HTML + 54 additional browser-rendered); 292 rendered pages across 74 selected presets. 22 unique homes remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 288,
-    "browser_rendered_selected_presets": 73,
-    "distinct_selected_homepages_any_source": 104
+    "browser_rendered_pages": 292,
+    "browser_rendered_selected_presets": 74,
+    "distinct_selected_homepages_any_source": 105
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 23
+    "home_any_source": 22
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -3780,14 +3780,34 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "cart",
-        "no interactive/mobile/editor/test access"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Continue with next unverified selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://beyours-theme-beauty.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://beyours-theme-beauty.myshopify.com/collections/skincare",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://beyours-theme-beauty.myshopify.com/products/calming-serum",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://beyours-theme-beauty.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
