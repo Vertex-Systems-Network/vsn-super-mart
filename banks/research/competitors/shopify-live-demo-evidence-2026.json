@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets have combined-source home, collection, product and cart coverage. Batch128 adds one mobile viewport render and one CTA interaction attempt for Ignite:Peak; the CTA stopped at an unanswered age gate. Theme Editor, checkout and Lighthouse remain unverified.",
+  "summary": "127/127 selected presets retain combined-source home, collection, product and cart coverage. Mobile review has 10 visually reviewed presets and 3 additional previews with verified 360×640 frames but blurred captures; 114 presets remain unreviewed on mobile.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5477,7 +5477,9 @@
     "opened_product": 107,
     "opened_empty_cart": 127,
     "interactive_events_tested": 1,
-    "opened_mobile": 1
+    "opened_mobile": 13,
+    "mobile_visual_reviews_completed": 10,
+    "mobile_preview_blurred": 3
   },
   "caveats": [
     "Area/Flow outside selected 127-theme-store-preset cohort",
@@ -12669,7 +12671,7 @@
     }
   ],
   "browser_render_counts": {
-    "pages": 444,
+    "pages": 456,
     "selected_presets": 127,
     "unique_selected_homepages_across_all_source_types": 127,
     "pages_by_kind": {
@@ -12677,7 +12679,7 @@
       "collection": 105,
       "product": 107,
       "cart": 127,
-      "mobile": 1
+      "mobile": 13
     }
   },
   "interactive_test_observations": [
@@ -12697,6 +12699,212 @@
       "confidence": "browser_render_interaction",
       "screenshot_captured": true,
       "screenshot_saved": false
+    }
+  ],
+  "mobile_review_observations": [
+    {
+      "id": "mobile-impulse:impulse-2026-10-27",
+      "selected_preset_id": "impulse:impulse",
+      "store_url": "https://impulse-theme-fashion.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/impulse/presets/impulse",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Mobile hero has collapsed menu, centered wordmark/cart, full-width shoppable fashion image with hotspot markers; next section heading follows cleanly.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-impulse:dune-2026-10-27",
+      "selected_preset_id": "impulse:dune",
+      "store_url": "https://impulse-theme-apparel.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/impulse/presets/dune",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Compact Dune/search/menu/cart header and vertical editorial hero; headline and single CTA are readable within the phone frame.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-local:local-2026-10-27",
+      "selected_preset_id": "local:local",
+      "store_url": "https://local-theme-main.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/local/presets/local",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Single-column grocery hero with short headline, product image and Shop Now CTA; product/retail content follows the fold.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-local:soleway-2026-10-27",
+      "selected_preset_id": "local:soleway",
+      "store_url": "https://local-theme-soleway.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/local/presets/soleway",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Footwear hero and large headline; store-location/pickup and merchandising panels stack below.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-local:thrive-2026-10-27",
+      "selected_preset_id": "local:thrive",
+      "store_url": "https://local-theme-thrive.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/local/presets/thrive",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Collapsed menu/logo/cart with centered protein product hero, headline and CTA.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-local:caffeine-2026-10-27",
+      "selected_preset_id": "local:caffeine",
+      "store_url": "https://local-theme-caffeine.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/local/presets/caffeine",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "visual_pending_blurred",
+      "observations": "360×640 frame verified; first captures remained blurred after initial wait, so layout detail not signed off.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview_load_pending"
+    },
+    {
+      "id": "mobile-local:lively-2026-10-27",
+      "selected_preset_id": "local:lively",
+      "store_url": "https://local-theme-lively.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/local/presets/lively",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "visual_pending_blurred",
+      "observations": "360×640 frame verified; first captures remained blurred after initial wait, so layout detail not signed off.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview_load_pending"
+    },
+    {
+      "id": "mobile-empire:empire-2026-10-27",
+      "selected_preset_id": "empire:empire",
+      "store_url": "https://empire-theme-supply.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/empire/presets/empire",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Mobile header retains category/search navigation in a horizontal row; some header labels extend beyond the 360px viewport, a clipping/overflow risk.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-empire:circuit-2026-10-27",
+      "selected_preset_id": "empire:circuit",
+      "store_url": "https://empire-theme-industrial.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/empire/presets/circuit",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Hamburger, centered Circuit logo, cart and search fit the top fold; promo/benefit line clips horizontally at the right edge.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-empire:depot-2026-10-27",
+      "selected_preset_id": "empire:depot",
+      "store_url": "https://empire-theme-depot.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/empire/presets/depot",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Hamburger/logo/cart and search row stack above an image-led single-column hero with two clear CTAs.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
+    },
+    {
+      "id": "mobile-empire:forma-2026-10-27",
+      "selected_preset_id": "empire:forma",
+      "store_url": "https://empire-theme-graphic.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/empire/presets/forma",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "visual_pending_blurred",
+      "observations": "360×640 frame verified; first capture remained blurred, so layout detail not signed off.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview_load_pending"
+    },
+    {
+      "id": "mobile-be-yours:be-yours-2026-10-27",
+      "selected_preset_id": "be-yours:be-yours",
+      "store_url": "https://beyours-theme-beauty.myshopify.com/",
+      "official_listing_url": "https://themes.shopify.com/themes/be-yours/presets/be-yours",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 360,
+        "height": 640,
+        "units": "CSS px"
+      },
+      "status": "reviewed",
+      "observations": "Dark, image-led beauty hero with small utility navigation and editorial brand links; narrow viewport retains a cinematic image.",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "evidence_class": "browser_mobile_preview"
     }
   ]
 }
