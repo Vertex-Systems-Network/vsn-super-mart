@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Checkout QA removed from active task by user request. Continue keyboard/accessibility smoke review across presets and Lighthouse runs when PSI is accessible without a human-verification challenge. Impulse:Impulse and Dune have partial manual accessibility evidence; full WCAG review remains open. Lighthouse complete count remains 0/127; PSI recently triggered Google's unusual-traffic reCAPTCHA and the challenge was not solved. Details: banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md and banks/research/competitors/shopify-127-completion-matrix-2026.json.",
+  "next_action": "Checkout QA is removed from active scope by user request. Continue keyboard/accessibility smoke reviews across the selected presets; Impulse:Impulse, Dune and Terrain now have partial evidence. Full WCAG review remains open. Lighthouse completion remains 0/127; PSI results are still blocked in this browser following Google's unusual-traffic human-verification challenge, which was not solved. Record is in banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md and banks/research/competitors/shopify-127-completion-matrix-2026.json.",
   "approvals": {},
   "figma": {
     "file_key": null,
