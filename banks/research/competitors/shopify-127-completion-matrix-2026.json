@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. One preset (Impulse:Impulse) now has partial checkout, keyboard/accessibility and Lighthouse evidence; checkout did not proceed past required terms consent, manual accessibility review is incomplete, and Lighthouse scoring is incomplete. These categories remain open across the 127-preset cohort.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune now has a partial manual keyboard/accessibility review. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -36,7 +36,7 @@
     "interactive": 0,
     "mobile": 0,
     "editor": 127,
-    "checkout": 127,
+    "checkout": 0,
     "lighthouse": 127
   },
   "source_type_distinctions": {
@@ -661,14 +661,16 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Only size M selection was tested; filters, sorting, pagination, Quick View, cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Keyboard/accessibility review is partial: full WCAG checklist pending; Filter was not confirmed keyboard-openable; Lighthouse not run due PSI human-verification block."
       ],
       "next_action": [
-        "Continue targeted interaction review on the next untested selected preset; completed presets are marked and excluded from the pending count."
+        "Continue keyboard/accessibility review across selected presets; verify filter opening with keyboard on accessible pages",
+        "Resume Lighthouse runs when PSI is available without a human-verification challenge"
       ],
       "browser_render_observations": [
         {
@@ -713,7 +715,29 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "impulse-dune-variant-size-m-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://impulse-theme-apparel.myshopify.com/",
+            "https://impulse-theme-apparel.myshopify.com/collections/new-arrivals",
+            "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black"
+          ],
+          "observations": [
+            "Home: Tab focus showed visible Skip to content focus indicator; keyboard Tab traversal reached the Shop menu, which expanded on focus, and its submenu links were reachable.",
+            "Collection: 249-product collection exposes Filter, sort selection, and product Quick View controls. Filter drawer presents named Color, Price, Size, Product Type and Brand controls. Escape closed the drawer and returned focus to Filter; a global Search combobox also appeared after Escape.",
+            "Product: keyboard Tab sequence reached Size radio choices and Add to Cart. Product gallery includes an unnamed button, and Shop the Look has two unnamed buttons in the accessibility tree."
+          ],
+          "limitations": "Limited manual smoke review only; Filter was opened by pointer and closed by keyboard; keyboard opening was not confirmed. Not a full WCAG audit."
+        },
+        "lighthouse": {
+          "status": "not_run_due_to_current_psi_challenge",
+          "reason": "Google PSI reload retry on the previous report presented an unusual-traffic reCAPTCHA; no challenge was solved.",
+          "scores": []
+        }
+      }
     },
     {
       "audit_rank": 3,
@@ -12231,5 +12255,13 @@
     "may_handoff_before_full_completion": true,
     "physical_demo_test_required_for_stage2_gate": true,
     "shopify_editor_needs_access": true
-  }
+  },
+  "scope_changes": [
+    {
+      "date": "2026-10-28",
+      "item": "checkout QA",
+      "status": "removed_from_active_task_by_user_request",
+      "note": "Existing Impulse:Impulse checkout attempt is retained as historical evidence only; no checkout work remains in the active plan."
+    }
+  ]
 }
