@@ -265,3 +265,5 @@
 - No shopper interactions, screenshot, mobile/editor/checkout/keyboard/performance tests; merchant claims unverified. CI/PR refresh pending.
 
 - 2026-10-28 [Shopify Theme Editor audit] Read-only VSN prototype audit: 7 global settings groups / 36 value settings; 5 VSN block schemas; setting IDs unique and select defaults consistent. One JSON prototype template, 12 Liquid templates, one VSN section. No admin preview; competitor editor matrix remains 0/127 reviewed, 127 pending. Added shopify-theme-editor-audit-2026-10-28.md; no code or matrix counters changed.
+
+- 2026-10-28 [Shopify Theme Editor / app embed diagnosis] Verified VSN layout has content_for_header; repo contains no app/Theme App Extension. vsn-section supports and renders @app, but only the prototype JSON template instantiates it; 12 templates remain Liquid. Clarified app-embed panel requires installed app extension while inline app blocks use compatible JSON section. Recorded in Theme Editor audit/readiness; no code or matrix changes.
