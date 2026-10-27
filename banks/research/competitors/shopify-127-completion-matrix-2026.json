@@ -23,9 +23,9 @@
   },
   "pending": {
     "home": 76,
-    "collection": 88,
-    "product": 86,
-    "cart": 115,
+    "collection": 89,
+    "product": 87,
+    "cart": 116,
     "home_any_source": 24
   },
   "source_type_distinctions": {
