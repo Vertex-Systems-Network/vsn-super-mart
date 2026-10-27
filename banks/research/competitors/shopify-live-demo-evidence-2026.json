@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 70 additional browser-rendered homes are documented (121/127 unique); 355 read-only rendered pages across 90 selected presets.",
+  "summary": "51 indexed HTML selected homes and 71 additional browser-rendered homes are documented (122/127 unique); 359 read-only rendered pages across 91 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 90,
-    "opened_home": 90,
-    "opened_collection": 76,
-    "opened_product": 78,
-    "opened_empty_cart": 44,
+    "opened_stores": 91,
+    "opened_home": 91,
+    "opened_collection": 77,
+    "opened_product": 79,
+    "opened_empty_cart": 45,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -11103,11 +11103,73 @@
       "limits": [
         "No filters, sort, density controls, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product claims not independently verified."
       ]
+    },
+    {
+      "id": "shopify-eurus-mystique-browser-render",
+      "selected_preset_id": "eurus:mystique",
+      "theme_family": "Eurus",
+      "preset": "Mystique",
+      "store_url": "https://eurus-mystique.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Eurus:Mystique View demo iframe host verified; inspected home, Totes collection, Sienna Pinstripe Market Tote PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://eurus-mystique.myshopify.com/",
+          "observations": [
+            "Leather-bag storefront positions Tuscan leather, Nashville handcraft, warranty/returns, shop-by-style, bestseller/new-arrival tabs, shop-the-look hotspots, bundle builder, craftsmanship, materials comparison, testimonials and FAQ.",
+            "Color variants and bundle controls visible but untouched; demo includes Shopify social links and contact details."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://eurus-mystique.myshopify.com/collections/totes",
+          "observations": [
+            "Totes collection has 16 products, six filters including Laptop Fit and Carry Modes, sort, grid/list views and page-size control; untouched.",
+            "Product cards show color swatches and sale prices; size/capacity guide links support selection."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://eurus-mystique.myshopify.com/collections/totes/products/sienna-pinstripe-market-tote",
+          "observations": [
+            "Sienna Pinstripe Market Tote shows $365 reduced to $219; description states cotton canvas but conflicts with homepage leather-focused value proposition only at material positioning, not product identity.",
+            "PDP has nine-image gallery, Denim/Sage/Butter/Coral colors, 19L capacity, 15-inch laptop fit, delivery estimate, free shipping, 30-day returns, 2-year warranty and size/material table; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://eurus-mystique.myshopify.com/cart",
+          "observations": [
+            "Empty cart offers Best Sellers collection and login prompt as recovery routes."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, grid/list, quantity, purchase or bundle actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Claims not independently verified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 355,
-    "selected_presets": 90,
-    "unique_selected_homepages_across_all_source_types": 121
+    "pages": 359,
+    "selected_presets": 91,
+    "unique_selected_homepages_across_all_source_types": 122
   }
 }
