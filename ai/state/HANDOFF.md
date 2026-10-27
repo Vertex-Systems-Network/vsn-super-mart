@@ -1397,3 +1397,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Overall: 5 presets / 7 interaction observations; 122 presets remain pending. Completed presets are marked in the matrix and excluded from the pending interaction count.
 - Report: `banks/research/competitors/shopify-interaction-sample-batch135-2026.md`.
 - Next: continue the next untested selected preset.
+
+
+## Shopify targeted interaction sample — Batch 136 (2026-10-27)
+- Impulse:Terrain: selected size M on the 2016 Carbine Expert Build PDP. M became active, S inactive, and the URL reflected variant ID `7839884836925`; stock text stayed unchanged.
+- No cart mutation, purchase, checkout, Theme Editor, keyboard/accessibility or Lighthouse checks.
+- Overall: 6 presets / 8 interaction observations; 121 presets remain pending. Completed presets are excluded from the pending interaction count.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch136-2026.md`.
+- Next: continue with the next untested selected preset.
