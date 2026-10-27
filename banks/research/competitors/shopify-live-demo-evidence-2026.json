@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 96 additional browser-rendered homes are documented (127/127 unique); 379 read-only rendered pages across 96 selected presets.",
+  "summary": "51 indexed HTML selected homes and 102 browser-rendered selected presets are documented; 127/127 selected preset homes are now linked across sources, with 403 read-only rendered pages.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 96,
-    "opened_home": 96,
-    "opened_collection": 82,
-    "opened_product": 84,
-    "opened_empty_cart": 50,
+    "opened_stores": 102,
+    "opened_home": 102,
+    "opened_collection": 88,
+    "opened_product": 90,
+    "opened_empty_cart": 56,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -11475,11 +11475,371 @@
       "limits": [
         "No filters, sorting, variant options, add-to-cart or other controls used; no screenshots, viewport dimensions, mobile, Theme Editor, keyboard or performance tests. Claims unverified."
       ]
+    },
+    {
+      "id": "shopify-ignite-peak-browser-render",
+      "selected_preset_id": "ignite:peak",
+      "theme_family": "Ignite",
+      "preset": "Peak",
+      "store_url": "https://benchmark-food-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify theme listing preview verified; inspected home, collection, product and empty cart for Ignite:Peak read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://benchmark-food-demo.myshopify.com/",
+          "observations": [
+            "Food storefront combines category search and taste/allergy preference selector with an ingredient-rich hero and bestsellers."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://benchmark-food-demo.myshopify.com/collections/bestsellers",
+          "observations": [
+            "Bestsellers collection lists 27 items and detailed-ingredient/dietary filters."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://benchmark-food-demo.myshopify.com/products/renew-cereal-cinnamon-crunch-250g",
+          "observations": [
+            "Cereal PDP shows 3-image gallery, 189 in stock, dairy-free badge, Nutri-Score, allergen accordion, 250g/400g/600g choices (400g unavailable), GBP unit price and purchase cadence."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://benchmark-food-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart has Continue shopping and branded bestseller rail."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No purchase, filter, sort, variant, cart or other controls used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-shapes-shapes-browser-render",
+      "selected_preset_id": "shapes:shapes",
+      "theme_family": "Shapes",
+      "preset": "Shapes",
+      "store_url": "https://shapes-preset-pantry.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify theme listing preview verified; inspected home, collection, product and empty cart for Shapes:Shapes read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://shapes-preset-pantry.myshopify.com/",
+          "observations": [
+            "Pantry home uses playful oversized type, Hella Goods brand, ingredient/health badges and product carousel."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://shapes-preset-pantry.myshopify.com/collections/all",
+          "observations": [
+            "All collection exposes Filter and Sort, color options on apparel merchandise and quick add-to-cart buttons."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://shapes-preset-pantry.myshopify.com/products/crispy-chili-oil",
+          "observations": [
+            "Crispy Chili Oil PDP has $12 price, ingredient copy, taste scale, dietary badges and Add to Cart."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://shapes-preset-pantry.myshopify.com/cart",
+          "observations": [
+            "Cart is empty with AUD subtotal despite dollar product pricing."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No purchase, filter, sort, variant, cart or other controls used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-shapes-candy-browser-render",
+      "selected_preset_id": "shapes:candy",
+      "theme_family": "Shapes",
+      "preset": "Candy",
+      "store_url": "https://shapes-theme-chocolate-2.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify theme listing preview verified; inspected home, collection, product and empty cart for Shapes:Candy read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/",
+          "observations": [
+            "Chocolate home uses Billy's Chocolaterie identity and flavor-led carousel with ingredient/quality claims."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/collections/chocolate",
+          "observations": [
+            "Chocolate collection supports filter/sort and card-level flavor merchandising."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/products/cheesecake",
+          "observations": [
+            "Cheesecake PDP presents $15 price, flavor selector, Single/Pack of 8, narrative description, taste metrics and Ingredients/Shipping/Wholesale accordions."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/cart",
+          "observations": [
+            "Cart is empty with AUD subtotal."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No purchase, filter, sort, variant, cart or other controls used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-shapes-scratch-browser-render",
+      "selected_preset_id": "shapes:scratch",
+      "theme_family": "Shapes",
+      "preset": "Scratch",
+      "store_url": "https://shapes-preset-pets.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify theme listing preview verified; inspected home, collection, product and empty cart for Shapes:Scratch read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://shapes-preset-pets.myshopify.com/",
+          "observations": [
+            "Pats home uses dog-first hero, vet/ingredient badges and Treats & Chews product blocks."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://shapes-preset-pets.myshopify.com/collections/food",
+          "observations": [
+            "Treats collection links Treats/Accessories/Bundles and exposes Filter/Sort with benefit tags."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://shapes-preset-pets.myshopify.com/products/dog-treats-salmon-bites",
+          "observations": [
+            "Salmon bites PDP has four-image gallery, $25 price, health tags and flavor links; descriptive copy expands via Read more."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://shapes-preset-pets.myshopify.com/cart",
+          "observations": [
+            "Empty cart contains featured recommendation rail and AUD subtotal."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No purchase, filter, sort, variant, cart or other controls used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-vision-onyx-browser-render",
+      "selected_preset_id": "vision:onyx",
+      "theme_family": "Vision",
+      "preset": "Onyx",
+      "store_url": "https://vision-jewelery.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify theme listing preview verified; inspected home, collection, product and empty cart for Vision:Onyx read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://vision-jewelery.myshopify.com/",
+          "observations": [
+            "Jewelry homepage combines editorial collection blocks, new arrivals and color availability."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://vision-jewelery.myshopify.com/collections/earrings",
+          "observations": [
+            "Earrings collection has availability/price/color facets with product count and price range."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://vision-jewelery.myshopify.com/products/malachite-york-acrylic-earrings",
+          "observations": [
+            "Malachite earrings PDP shows sale price $115 from $140, Green/Red color and S/M/L sizes, image gallery and product story; disclaimer says store offers no goods for purchase."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://vision-jewelery.myshopify.com/cart",
+          "observations": [
+            "Cart empty state includes tailored Continue shopping and merch blocks."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No purchase, filter, sort, variant, cart or other controls used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-vision-solstice-browser-render",
+      "selected_preset_id": "vision:solstice",
+      "theme_family": "Vision",
+      "preset": "Solstice",
+      "store_url": "https://vision-winter.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Shopify theme listing preview verified; inspected home, collection, product and empty cart for Vision:Solstice read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://vision-winter.myshopify.com/",
+          "observations": [
+            "Winter fashion homepage uses seasonal campaign hero, sale/return strips, price-tier links and favorites rail."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://vision-winter.myshopify.com/collections/all",
+          "observations": [
+            "All Products collection shows 11 products and price-tier collection shortcuts with filter/sort."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://vision-winter.myshopify.com/products/the-waffle-knit-hoodie",
+          "observations": [
+            "Waffle-Knit Hoodie PDP has Beige color, XS–XL sizes, fit guide, stock count, discount code block, product story and purchase controls."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://vision-winter.myshopify.com/cart",
+          "observations": [
+            "Cart is empty with recently-viewed recommendation and secondary company content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No purchase, filter, sort, variant, cart or other controls used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 379,
-    "selected_presets": 96,
-    "unique_selected_homepages_across_all_source_types": 127
+    "pages": 403,
+    "selected_presets": 102,
+    "unique_selected_homepages_across_all_source_types": 127,
+    "pages_by_kind": {
+      "home": 102,
+      "collection": 101,
+      "product": 101,
+      "cart": 99
+    }
   }
 }
