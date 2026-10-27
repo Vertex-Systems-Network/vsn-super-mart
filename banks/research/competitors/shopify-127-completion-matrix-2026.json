@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile preview was attempted for 13 presets; 10 have completed visual review at 360×640 CSS px, 3 captures remain visually pending due to blur, and 114 presets have not yet been reviewed on mobile. Interaction, Theme Editor, checkout and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 14/127 visually complete at 360×640 CSS px; 3 captures remain blurred and 110 presets have not yet been reviewed. Interaction, Theme Editor, checkout and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -13,19 +13,19 @@
     "product": 40,
     "cart": 11,
     "interactive": 1,
-    "mobile": 10,
+    "mobile": 14,
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 456,
+    "browser_rendered_pages": 460,
     "browser_rendered_selected_presets": 127,
     "distinct_selected_homepages_any_source": 127,
     "read_only_homepages_across_sources": 127,
     "read_only_collections_across_sources": 127,
     "read_only_products_across_sources": 127,
     "read_only_carts_across_sources": 127,
-    "browser_rendered_mobile": 13,
-    "mobile_viewport_attempts": 13
+    "browser_rendered_mobile": 17,
+    "mobile_viewport_attempts": 17
   },
   "pending": {
     "home": 0,
@@ -34,7 +34,7 @@
     "cart": 0,
     "home_any_source": 0,
     "interactive": 126,
-    "mobile": 117,
+    "mobile": 113,
     "editor": 127,
     "checkout": 127,
     "lighthouse": 127
@@ -4452,12 +4452,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://motion-theme-adventure.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://motion-theme-vision.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Mobile header collapses to menu/wordmark/search/cart; full-width sports image hero with large two-line campaign heading. Text and hero controls fit within phone width."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4493,7 +4504,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-motion-motion-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-motion:motion-2026-10-27"
+      }
     },
     {
       "audit_rank": 57,
@@ -4521,12 +4541,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://motion-theme-accessories.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://motion-theme-satchel.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact menu/centered wordmark/search/cart header; portrait fashion campaign with large Summer 2026 heading. Hero imagery dominates the first screen."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4560,7 +4591,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-motion-satchel-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-motion:satchel-2026-10-27"
+      }
     },
     {
       "audit_rank": 58,
@@ -4588,12 +4628,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://motion-theme-home.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://motion-theme-memo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact utility header; stationery/lifestyle hero with centered headline and a full-width outlined collection CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4629,7 +4680,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-motion-memo-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-motion:memo-2026-10-27"
+      }
     },
     {
       "audit_rank": 59,
@@ -4657,12 +4717,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://palo-alto-theme-main.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://palo-alto-theme-alto.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "360px view shows promo/nav text clipped at right edge and hero heading/button extending beyond viewport; horizontal overflow risk."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4696,7 +4767,16 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-palo-alto-palo-alto-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-palo-alto:palo-alto-2026-10-27"
+      }
     },
     {
       "audit_rank": 60,
