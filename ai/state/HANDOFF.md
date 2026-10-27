@@ -1,3 +1,14 @@
+## 2026-10-27 — Shopify mobile preview Batch 130
+
+**Done**
+- Visually reviewed Motion:Motion, Motion:Satchel, Motion:Memo and Palo Alto:Palo Alto in 360×640 CSS px preview.
+- Motion presets use compact mobile headers and image-led campaign heroes; Memo fits a full-width collection CTA.
+- Palo Alto shows visible horizontal clipping in its promo strip, navigation and hero heading/button at the measured width.
+- Mobile visual coverage: **14/127 complete**; **3 blurred previews pending retry**; **110 not yet reviewed**.
+
+**Next**
+- Continue with Palo Alto:Dynamo and the remaining ordered preset list; retry the three blurred captures after a longer load.
+
 ## 2026-10-27 — Shopify mobile preview Batch 129
 
 **Done**
