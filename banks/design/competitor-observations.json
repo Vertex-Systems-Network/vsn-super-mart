@@ -1678,6 +1678,19 @@
         "Warranty and care details"
       ],
       "design_hypothesis": "A product-led bag catalog can turn fit constraints into useful filters and structured PDP data, while material and variant labels need to stay consistent across card, selection and description."
+    },
+    {
+      "id": "shopify-live-eurus-eurus",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skin routine quiz",
+        "Skin-concern taxonomy",
+        "Staged personalized bundle",
+        "Ingredient comparison table",
+        "Testimonials and founder story",
+        "FAQ and product reels"
+      ],
+      "design_hypothesis": "A guided skincare catalog can use concern-based discovery and ingredient comparison to make large assortments navigable, but visible claims and testimonials need trustworthy product-level alignment."
     }
   ]
 }
