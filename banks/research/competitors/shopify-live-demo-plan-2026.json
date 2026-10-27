@@ -104,12 +104,12 @@
       "product": 0,
       "cart": 0
     },
-    "interactive_events_tested": 8,
+    "interactive_events_tested": 35,
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2,
-    "interactive_presets_tested": 6
+    "interactive_presets_tested": 33
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -124,166 +124,13 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch136-2026.md",
-  "next_action": "Continue targeted interactions in priority-tier order. The plan now stores the pending presets in groups; remove each preset from its group when completed.",
+  "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch137-2026.md",
+  "next_action": "Tier 1 (27 presets) is closed and archived from the pending list. Continue targeted read-only interactions with Tier 2's 33 pending presets; keep cart mutation and checkout out of scope.",
   "pending_interaction_groups": {
     "updated_at": "2026-10-27",
     "definition": "Only presets with interactive_tested=false in the completion matrix are included. When a preset is completed, remove it from its group's items and decrement pending_count.",
-    "total_pending": 121,
+    "total_pending": 94,
     "groups": [
-      {
-        "id": "priority_tier_1",
-        "label": "Tier 1",
-        "objective": "Top paid/large-catalog and premium merchandisers; inspect home/category/PDP/cart",
-        "families": [
-          "impulse",
-          "prestige",
-          "symmetry",
-          "broadcast",
-          "enterprise",
-          "warehouse",
-          "empire",
-          "impact"
-        ],
-        "items": [
-          {
-            "preset_id": "impulse:apothecary",
-            "theme_family": "impulse",
-            "preset": "Apothecary"
-          },
-          {
-            "preset_id": "prestige:prestige",
-            "theme_family": "prestige",
-            "preset": "Prestige"
-          },
-          {
-            "preset_id": "prestige:vogue",
-            "theme_family": "prestige",
-            "preset": "Vogue"
-          },
-          {
-            "preset_id": "prestige:strass",
-            "theme_family": "prestige",
-            "preset": "Strass"
-          },
-          {
-            "preset_id": "prestige:signature",
-            "theme_family": "prestige",
-            "preset": "Signature"
-          },
-          {
-            "preset_id": "symmetry:symmetry",
-            "theme_family": "symmetry",
-            "preset": "Symmetry"
-          },
-          {
-            "preset_id": "symmetry:salt-yard",
-            "theme_family": "symmetry",
-            "preset": "Salt Yard"
-          },
-          {
-            "preset_id": "symmetry:beatnik",
-            "theme_family": "symmetry",
-            "preset": "Beatnik"
-          },
-          {
-            "preset_id": "symmetry:duke",
-            "theme_family": "symmetry",
-            "preset": "Duke"
-          },
-          {
-            "preset_id": "symmetry:amara",
-            "theme_family": "symmetry",
-            "preset": "Amara"
-          },
-          {
-            "preset_id": "broadcast:broadcast",
-            "theme_family": "broadcast",
-            "preset": "Broadcast"
-          },
-          {
-            "preset_id": "broadcast:relay",
-            "theme_family": "broadcast",
-            "preset": "Relay"
-          },
-          {
-            "preset_id": "broadcast:airwave",
-            "theme_family": "broadcast",
-            "preset": "Airwave"
-          },
-          {
-            "preset_id": "broadcast:motif",
-            "theme_family": "broadcast",
-            "preset": "Motif"
-          },
-          {
-            "preset_id": "broadcast:stellar",
-            "theme_family": "broadcast",
-            "preset": "Stellar"
-          },
-          {
-            "preset_id": "enterprise:outlet",
-            "theme_family": "enterprise",
-            "preset": "Outlet"
-          },
-          {
-            "preset_id": "enterprise:homestead",
-            "theme_family": "enterprise",
-            "preset": "Homestead"
-          },
-          {
-            "preset_id": "impact:impact",
-            "theme_family": "impact",
-            "preset": "Impact"
-          },
-          {
-            "preset_id": "impact:cocoon",
-            "theme_family": "impact",
-            "preset": "Cocoon"
-          },
-          {
-            "preset_id": "impact:balance",
-            "theme_family": "impact",
-            "preset": "Balance"
-          },
-          {
-            "preset_id": "warehouse:warehouse",
-            "theme_family": "warehouse",
-            "preset": "Warehouse"
-          },
-          {
-            "preset_id": "warehouse:wood",
-            "theme_family": "warehouse",
-            "preset": "Wood"
-          },
-          {
-            "preset_id": "warehouse:mesh",
-            "theme_family": "warehouse",
-            "preset": "Mesh"
-          },
-          {
-            "preset_id": "empire:empire",
-            "theme_family": "empire",
-            "preset": "Empire"
-          },
-          {
-            "preset_id": "empire:circuit",
-            "theme_family": "empire",
-            "preset": "Circuit"
-          },
-          {
-            "preset_id": "empire:depot",
-            "theme_family": "empire",
-            "preset": "Depot"
-          },
-          {
-            "preset_id": "empire:forma",
-            "theme_family": "empire",
-            "preset": "Forma"
-          }
-        ],
-        "pending_count": 27
-      },
       {
         "id": "priority_tier_2",
         "label": "Tier 2",
@@ -832,6 +679,45 @@
           }
         ],
         "pending_count": 17
+      }
+    ],
+    "closed_groups": [
+      {
+        "id": "priority_tier_1",
+        "label": "Tier 1",
+        "status": "complete",
+        "completed_on": "2026-10-27",
+        "completed_count": 27,
+        "preset_ids": [
+          "impulse:apothecary",
+          "prestige:prestige",
+          "prestige:vogue",
+          "prestige:strass",
+          "prestige:signature",
+          "symmetry:symmetry",
+          "symmetry:salt-yard",
+          "symmetry:beatnik",
+          "symmetry:duke",
+          "symmetry:amara",
+          "broadcast:broadcast",
+          "broadcast:relay",
+          "broadcast:airwave",
+          "broadcast:motif",
+          "broadcast:stellar",
+          "enterprise:outlet",
+          "enterprise:homestead",
+          "impact:impact",
+          "impact:cocoon",
+          "impact:balance",
+          "warehouse:warehouse",
+          "warehouse:wood",
+          "warehouse:mesh",
+          "empire:empire",
+          "empire:circuit",
+          "empire:depot",
+          "empire:forma"
+        ],
+        "report": "banks/research/competitors/shopify-interaction-sample-batch137-2026.md"
       }
     ]
   }
