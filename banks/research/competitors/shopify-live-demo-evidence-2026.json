@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 72 additional browser-rendered homes are documented (123/127 unique); 363 read-only rendered pages across 92 selected presets.",
+  "summary": "51 indexed HTML selected homes and 73 additional browser-rendered homes are documented (124/127 unique); 367 read-only rendered pages across 93 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 92,
-    "opened_home": 92,
-    "opened_collection": 78,
-    "opened_product": 80,
-    "opened_empty_cart": 46,
+    "opened_stores": 93,
+    "opened_home": 93,
+    "opened_collection": 79,
+    "opened_product": 81,
+    "opened_empty_cart": 47,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -11227,11 +11227,73 @@
       "limits": [
         "No filters, sort, view, routine quiz, product option, bundle, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, safety, sourcing and efficacy claims not verified."
       ]
+    },
+    {
+      "id": "shopify-release-renaissance-browser-render",
+      "selected_preset_id": "release:renaissance",
+      "theme_family": "Release",
+      "preset": "Renaissance",
+      "store_url": "https://release-emerald.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Release:Renaissance demo host verified; inspected home, Rings collection, Vivien Ring Gold PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://release-emerald.myshopify.com/",
+          "observations": [
+            "Jewelry storefront features localization, emerald-sale banner/counter, featured rings, category/story blocks, magazine, shop-the-look and highlighted product.",
+            "Homepage includes an unrelated skincare testimonial; banner says next 24h while timer shows 277 days."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://release-emerald.myshopify.com/collections/rings",
+          "observations": [
+            "Six ring products, Availability/Price/More Filters, relevance sort and grid density toggle; untouched.",
+            "Gold/Silver and ring-size choices appear on cards."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://release-emerald.myshopify.com/products/vivien-ring-gold",
+          "observations": [
+            "Vivien Ring Gold at €64.95, 13 media assets, green-stone description, color/ring size options, quantity/purchase controls and delivery/returns accordions.",
+            "Recommendation says Carmen Earrings but links to Jade Earrings; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://release-emerald.myshopify.com/cart",
+          "observations": [
+            "Branded empty state with Start Shopping and You May Also Like; View All resolves to /false."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, grid, variants, quantity, purchase or cart actions; no screenshots, mobile, Theme Editor, keyboard or performance tests. Claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 363,
-    "selected_presets": 92,
-    "unique_selected_homepages_across_all_source_types": 123
+    "pages": 367,
+    "selected_presets": 93,
+    "unique_selected_homepages_across_all_source_types": 124
   }
 }
