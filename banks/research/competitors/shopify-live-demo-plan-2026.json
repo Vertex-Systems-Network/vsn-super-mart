@@ -104,12 +104,12 @@
       "product": 0,
       "cart": 0
     },
-    "interactive_events_tested": 5,
+    "interactive_events_tested": 6,
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2,
-    "interactive_presets_tested": 3
+    "interactive_presets_tested": 4
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -125,5 +125,5 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-mobile-review-batch131-2026.md",
-  "next_action": "Mobile visual synthesis is complete for 127/127 presets. Targeted interactions cover Ignite:Peak, Enterprise:Enterprise and Prestige:Couture (5 observations total). Continue with the next untested preset interaction workflow—navigation/search or PDP/cart—without purchase/checkout."
+  "next_action": "Mobile visual synthesis is complete for 127/127 presets. Targeted interactions cover Ignite:Peak, Enterprise:Enterprise, Prestige:Couture and Impulse:Impulse (6 observations). Continue representative live-demo interaction research on the next untested preset; do not add products or enter checkout."
 }
