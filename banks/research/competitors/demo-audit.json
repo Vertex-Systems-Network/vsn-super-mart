@@ -9099,6 +9099,37 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official listing demo host verified; rendered home, Best Sellers collection, linked Emma 3L Shell Jacket PDP and empty cart inspected read-only.",
       "notes": "Demo content coherence is weak: collection mixes broad fashion categories with outdoor apparel; PDP reviews and editorial sections refer to unrelated products and categories. Merchant/product claims unverified."
+    },
+    {
+      "id": "shopify-live-wonder-velour",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Velour",
+      "url": "https://wonder-theme-fashion.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "fashion-editorial-home",
+        "collection-facets",
+        "size-guide",
+        "product-offer",
+        "empty-cart"
+      ],
+      "niches": [
+        "fashion",
+        "apparel"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing demo host verified; rendered home, New Arrivals collection, Dress Sailor Galaxia PDP and empty cart inspected read-only.",
+      "notes": "Demo supplies product sourcing information via About Us and names Cudmoda on PDP; source claims not independently validated."
     }
   ],
   "discovery_sources": [
