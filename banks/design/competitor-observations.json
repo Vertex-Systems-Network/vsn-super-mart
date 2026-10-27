@@ -1731,6 +1731,20 @@
         "Featured products in empty cart"
       ],
       "design_hypothesis": "Pet retail benefits from animal and product-type navigation plus brand/type facets, with color previews and quick view helping compare supplies; locale-specific contact and shipping details should align."
+    },
+    {
+      "id": "shopify-live-shapes-fizz",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Playful oversized type and compact nav",
+        "Flavor carousel",
+        "Dietary benefit badges",
+        "Filter and sort collection",
+        "Flavor cross-links and pack-size options",
+        "Taste profile indicators",
+        "Empty cart with newsletter signup"
+      ],
+      "design_hypothesis": "A beverage brand can organize a small catalog around flavor and pack size, then reinforce choice with dietary badges and taste profiles; brand naming and currency should stay consistent across collection, PDP and cart."
     }
   ]
 }
