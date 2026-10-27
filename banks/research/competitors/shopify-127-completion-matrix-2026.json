@@ -485,8 +485,8 @@
         "Private Theme Editor still unavailable",
         "Checkout requires explicit acceptance of merchant terms; test stopped before consent",
         "Keyboard/accessibility review is a limited manual smoke test and needs full criteria coverage",
-        "Lighthouse scores captured for five of six home/product/collection device views; product desktop scoring panel stalled and cart has not been run",
-        "Organic, fit, inventory, certification, shipping and other seller claims unverified"
+        "Organic, fit, inventory, certification, shipping and other seller claims unverified",
+        "Lighthouse: Product Desktop score panel stalled; a single reload retry surfaced Google's unusual-traffic reCAPTCHA. No challenge solved; remaining views not run."
       ],
       "next_action": [
         "Continue Theme Editor evidence only if accessible through authorized preview/editor",
@@ -605,12 +605,13 @@
           "unavailable_view": {
             "page": "product",
             "device": "desktop",
-            "reason": "PSI report generated and desktop CrUX panel loaded, but Lighthouse scoring panel remained on loading; not counted."
+            "reason": "PSI scoring panel remained on loading. One reload retry then displayed Google's 'unusual traffic' reCAPTCHA; stopped without solving it."
           },
           "not_run": [
             "cart mobile",
             "cart desktop"
-          ]
+          ],
+          "site_limitation": "Further PSI access in this browser is currently blocked by Google's human-verification challenge."
         },
         "completion": "These results do not complete this preset's checkout, keyboard/accessibility, or Lighthouse checklist, and do not change the cohort completion counters."
       }
