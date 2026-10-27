@@ -1,3 +1,13 @@
+## 2026-10-27 — Shopify rendered demo research Batch 120 (Eurus:Mystique)
+
+**Done**
+- Verified official View demo host; inspected home, Totes collection, Sienna Tote PDP and empty cart read-only.
+- Coverage: 122/127 unique homes (51 indexed HTML + 71 rendered additions), 359 pages across 91 presets; 5 remain.
+- Recorded product label mismatch (selected Denim, body copy sage) and fit/material filter model. Updated evidence, matrix, audit, observations, plan, progress and report.
+
+**Next**
+- Continue branch `research/shopify-live-demo-batch6`; select new official unique hosts until 127/127.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 119 (Prestige:Prestige)
 
 **Done**
