@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "note": "Qualitative observations include source-linked live storefront evidence and the 127-preset 360×640 CSS px mobile preview sweep. Fingerprints remain approximate until a comparable visual audit covers desktop, collection, product and mobile views at defined breakpoints.",
   "observations": [
     {
@@ -2290,6 +2290,15 @@
         "Horizon exposed a checked size option; Savor exposed checked pack quantity; Tinker and Atelier exposed reversible gallery zoom controls."
       ],
       "design_hypothesis": "Keep selection state visible and provide clear close behavior for gallery overlays so shoppers can return to the product page."
+    },
+    {
+      "id": "shopify-tier4-interaction-controls",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Tier 4 interactions covered product gallery zoom, product variant selections, product-detail disclosures and tabs, storefront navigation menus, and country/language selectors across Be Yours, Sleek, Wonder, Eurus, Release, Ignite, Shapes and Vision demos.",
+        "Locale selectors were opened without changing the selected market; no cart or checkout action was taken."
+      ],
+      "design_hypothesis": "Group product controls by task, expose the active variant or tab clearly, keep informational disclosures reversible, and make locale menus easy to identify and dismiss."
     }
   ]
 }
