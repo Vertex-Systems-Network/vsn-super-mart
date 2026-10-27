@@ -2166,6 +2166,15 @@
         "Recommended products expose Choose options actions"
       ],
       "design_hypothesis": "Use the empty cart as a recovery point with relevant recommendations and a clear return to shopping while keeping the empty state unmistakable."
+    },
+    {
+      "id": "shopify-interaction-impulse-quick-view",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Impulse:Impulse related-products rail opens Quick View for The Vela Shirt without leaving The Lido Short PDP",
+        "Modal includes product media, sale/compare-at price, description, size-chart access, stock state and detail accordions"
+      ],
+      "design_hypothesis": "Let shoppers inspect a related item in context with essential buying information and a clear close path, while preserving the original PDP."
     }
   ]
 }
