@@ -1,3 +1,18 @@
+## 2026-10-27 — Shopify rendered demo research Batch 110 (Sleek:Wildpeak)
+
+**Done**
+- Verified the official Sleek:Wildpeak View demo host and inspected home, 20-product Best Sellers collection, Emma 3L Shell Jacket PDP and empty cart read-only.
+- Coverage is 112/127 unique homes (51 indexed HTML + 61 additional rendered); source-of-truth rendered total is 320 pages across 81 presets; 15 unique homes remain.
+- Collection spans seven product types with price/color/size/availability facets. PDP includes a size chart; reviews and editorial sections refer to unrelated products/categories, creating a content-coherence issue.
+- Updated evidence, completion matrix, audit, design observation, plan, progress and batch report.
+
+**Limits**
+- No shopping-control actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests; merchant, stock and product claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
 ## Shopify live-demo research — Batch 109 (Concept:Inova, 2026-10-27)
 
 - Verified demo iframe; furniture home, 7-item Seating collection, Embrace Lounge Chair PDP and empty cart inspected read-only. Cookie notice left untouched.
