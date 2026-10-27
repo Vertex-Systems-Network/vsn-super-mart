@@ -9316,6 +9316,38 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official demo host verified; rendered home, Essentials collection, Hand Balm PDP and empty cart inspected read-only.",
       "notes": "Store explicitly describes Aura as fictional; skincare and sustainability claims are illustrative, unverified."
+    },
+    {
+      "id": "shopify-live-vision-velocite",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Velocite",
+      "url": "https://vision-recreation.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "bike-category-hero",
+        "product-collection-filters",
+        "variant-size-color",
+        "empty-cart",
+        "recently-viewed"
+      ],
+      "niches": [
+        "cycling",
+        "sports",
+        "outdoor"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official demo host verified; rendered home, Mountain Bikes collection, FC-Moto jacket PDP and empty cart inspected read-only.",
+      "notes": "Collection has unrelated motorcycle apparel/accessories under Mountain Bikes; jacket PDP contains helmet description and Polygon bike-copy sections; empty cart recently viewed area includes generic placeholder text."
     }
   ],
   "discovery_sources": [
@@ -9443,4 +9475,4 @@
     "scope": "47 selected theme families; NOT whole Shopify marketplace"
   },
   "shopify_live_demo_evidence": "banks/research/competitors/shopify-live-demo-evidence-2026.json"
-}
+}\n
