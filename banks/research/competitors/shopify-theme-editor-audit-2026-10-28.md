@@ -198,3 +198,13 @@ Tab traversal reached the primary WOMEN, MEN, ABOUT and PRESETS buttons and the 
 - This is a limited manual smoke review, not a WCAG conformance audit. Lighthouse was not run for this preset because PSI access in this browser remains blocked by the previously encountered Google unusual-traffic verification challenge; no CAPTCHA was solved.
 
 The keyboard partial-observation count is now 6/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Prestige — Vogue keyboard smoke review — 2026-10-28
+
+- Homepage: Tab reached the named Navigation menu button; Enter expanded the menu and exposed FACE, BODY, COLLECTIONS, JOURNAL and PRESETS. Escape collapsed it while focus remained on the menu button.
+- Kits collection: Tab reached Availability; Enter expanded it and exposed the named “In stock only” checkbox. Space toggled it on and the URL reflected `filter.v.availability=1`. The test filter was cleared by returning to the base collection URL.
+- The homepage accessibility tree exposed named product variant radios, quantity controls and Add to Cart for the featured Konjac Sponge. Keyboard activation of those product controls and the standalone product page were not verified.
+- Limited manual smoke review only; not a WCAG conformance audit. Lighthouse was not run because PSI access in this browser remains blocked by the previously encountered Google unusual-traffic verification challenge; no CAPTCHA was solved.
+
+The keyboard partial-observation count is now 7/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
