@@ -8915,6 +8915,36 @@
       "design_signals": [
         "Homeware and hosting storefront with urgency messaging, tabbed product shelf, designer-story modules, category shortcuts, mosaic collections, shop-the-table product merchandising, testimonials and FAQs."
       ]
+    },
+    {
+      "id": "shopify-live-pipeline-petra",
+      "platform": "shopify",
+      "theme": "Pipeline",
+      "preset": "Petra",
+      "url": "https://pipeline-light.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "faceted-layout-controls",
+        "quick-view",
+        "size-selectors",
+        "hotspots",
+        "empty-cart"
+      ],
+      "niches": [
+        "footwear"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly_with_mismatch",
+      "document_verification_scope": "Official listing iframe src verified; home, men's shoes collection, Sky PDP and empty cart inspected. Rendered store is Pipeline Light footwear rather than luxury/Petra positioning. No interaction or viewport/editor/checkout/performance tests.",
+      "notes": "Mismatch warrants caution: demo copy links to Vayarta for actual footwear; seller claims unverified."
     }
   ],
   "discovery_sources": [
