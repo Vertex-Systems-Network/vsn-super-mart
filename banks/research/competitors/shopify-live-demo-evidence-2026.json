@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 55 additional browser-rendered homes are documented (106/127 unique); 296 read-only rendered pages across 75 selected presets.",
+  "summary": "51 indexed HTML selected homes and 56 additional browser-rendered homes are documented (107/127 unique); 300 read-only rendered pages across 76 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 75,
-    "opened_home": 75,
-    "opened_collection": 62,
-    "opened_product": 63,
-    "opened_empty_cart": 29,
+    "opened_stores": 76,
+    "opened_home": 76,
+    "opened_collection": 63,
+    "opened_product": 64,
+    "opened_empty_cart": 30,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10200,11 +10200,70 @@
       "limits": [
         "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Seller/product/price/shipping/review claims unverified; cart shelf includes generic example products."
       ]
+    },
+    {
+      "id": "shopify-pipeline-petra-browser-render",
+      "selected_preset_id": "pipeline:petra",
+      "theme_family": "Pipeline",
+      "preset": "Petra",
+      "store_url": "https://pipeline-light.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Pipeline:Petra listing, verified the exact View demo iframe src, and inspected rendered home, Men collection, Sky PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://pipeline-light.myshopify.com/",
+          "observations": [
+            "Official Pipeline:Petra listing iframe resolves to pipeline-light.myshopify.com, whose storefront header says Pipeline Light and merchandising sells footwear/moccasins. Homepage includes cookie-consent overlay, men/women nav, footwear hero and gendered product shelves, hotspots, size selectors and quick views. This is a material preset-to-store content mismatch; do not infer it is Petra's intended demo content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://pipeline-light.myshopify.com/collections/mens",
+          "observations": [
+            "Men footwear collection with sort control, 2/3/4-column layout controls, many named colorway/product cards and Quick View buttons. No sort/layout interaction performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://pipeline-light.myshopify.com/products/sky",
+          "observations": [
+            "Sky Classic Moccasin Bright PDP, three images, $195, size options with some sold out, description/Our Promise/Environment/Five Percent accordions, pickup availability, Buy It With and hotspots. Copy points to Vayarta as source for real shoes; claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://pipeline-light.myshopify.com/cart",
+          "observations": [
+            "Empty cart text and Continue Browsing link."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Material official-preset-to-rendered-content mismatch: listing says luxury brand, demo host is Pipeline Light and sells shoes/moccasins. No interaction, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller/product/retailer claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 296,
-    "selected_presets": 75,
-    "unique_selected_homepages_across_all_source_types": 106
+    "pages": 300,
+    "selected_presets": 76,
+    "unique_selected_homepages_across_all_source_types": 107
   }
 }
