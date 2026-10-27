@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 73 additional browser-rendered homes are documented (124/127 unique); 367 read-only rendered pages across 93 selected presets.",
+  "summary": "51 indexed HTML selected homes and 94 additional browser-rendered homes are documented (125/127 unique); 371 read-only rendered pages across 94 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 93,
-    "opened_home": 93,
-    "opened_collection": 79,
-    "opened_product": 81,
-    "opened_empty_cart": 47,
+    "opened_stores": 94,
+    "opened_home": 94,
+    "opened_collection": 80,
+    "opened_product": 82,
+    "opened_empty_cart": 48,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -11289,11 +11289,73 @@
       "limits": [
         "No filters, sort, grid, variants, quantity, purchase or cart actions; no screenshots, mobile, Theme Editor, keyboard or performance tests. Claims unverified."
       ]
+    },
+    {
+      "id": "shopify-ignite-playtime-browser-render",
+      "selected_preset_id": "ignite:playtime",
+      "theme_family": "Ignite",
+      "preset": "Playtime",
+      "store_url": "https://benchmark-toys-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Ignite:Playtime demo host verified; inspected home, Bestsellers collection, Ultimate Towering Blocks Game PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://benchmark-toys-demo.myshopify.com/",
+          "observations": [
+            "Toy storefront combines product-type search, age finder, Gift Finder, service ticker, four-slide hero, bestsellers, collectible trading cards, gift-guide/age categories, editorial, testimonials and newsletter.",
+            "Homepage shows free delivery over $100 while United Kingdom/GBP is selected; footer social handles identify Orchard Toys and Instagram URL is malformed (httsp). Testimonials show US city locations and appear unrelated to UK locale."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://benchmark-toys-demo.myshopify.com/collections/bestsellers",
+          "observations": [
+            "Bestsellers collection has 13 products, a long educational merchandising description, age filters and collection grid controls; sale countdown popup present.",
+            "Age facet values are inconsistent (e.g. 3–6, 4, 10–90, 2+), suggesting demo catalog data quality issues; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://benchmark-toys-demo.myshopify.com/products/ultimate-hardwood-towering-blocks",
+          "observations": [
+            "Six-image gallery, single review, low-stock badge, £16 sale/£20 regular price, quantity and purchase controls, educational skill icons, teacher quote and accordions.",
+            "Page pairs a 38-review feature stat with one displayed review; supplementary PDP sections include frequently purchased together, learning content, testimonials and FAQ; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://benchmark-toys-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart heading and Continue shopping link; page adds a four-item featured collection."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, product options, quantity, add-to-cart or other controls used; no screenshots, mobile, Theme Editor, keyboard or performance tests. Claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 367,
-    "selected_presets": 93,
-    "unique_selected_homepages_across_all_source_types": 124
+    "pages": 371,
+    "selected_presets": 94,
+    "unique_selected_homepages_across_all_source_types": 125
   }
 }
