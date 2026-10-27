@@ -1356,3 +1356,11 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 
 **Next**
 - Continue next unobserved selected preset.
+
+
+## Shopify mobile review — Batch 131 (2026-10-27)
+- Completed mobile preview inspection for all 127 selected Shopify presets at 360×640 CSS px.
+- Final count: 127/127 visually reviewed, 0 unreviewed. Two views had limited hero clarity: Eurus:Arise (cookie consent overlay/soft background) and Stiletto:Luster (soft hero media); headers and mobile composition were still reviewed and limitations are recorded per preset.
+- Retry cleared prior blur cases for Local:Caffeine, Local:Lively, Empire:Forma, Sleek:Jumped, Eurus:Placid/Whiff, Release:Grasse, Shapes:Fizz/Aura, Vision:Vision, Rise:Rise, and Stiletto:Linen.
+- Report: `banks/research/competitors/shopify-mobile-review-batch131-2026.md`.
+- Next: synthesize mobile patterns into design research; no Theme Editor, checkout, Lighthouse, or shopper interaction testing was included.
