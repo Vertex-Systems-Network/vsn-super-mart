@@ -4757,7 +4757,7 @@
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
       "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA. One mobile preview and one CTA interaction attempt recorded; age gate not submitted.",
       "feature_option_ids": [
         "mega-menu",
         "faceted-filters",
@@ -4770,13 +4770,13 @@
       "niches": [
         "electronics-gadgets"
       ],
-      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
+      "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses. Batch128: mobile storefront preview measured at 360×640 CSS px; Shop now CTA opened a 21+ age gate, left unanswered. Full interaction behavior, editor, checkout and Lighthouse remain unverified.",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
         "cart": "not_verified",
-        "mobile": "not_verified"
+        "mobile": "browser_preview_verified"
       }
     },
     {
