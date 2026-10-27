@@ -1414,3 +1414,14 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - No cart mutation, checkout, Theme Editor, keyboard/accessibility or Lighthouse testing.
 - Report: `banks/research/competitors/shopify-interaction-sample-batch137-2026.md`.
 - Next: Tier 2.
+
+
+## Batch 138 — Tier 2 interaction group closeout (2026-10-27)
+
+- Verified one live interaction on all 33 Tier 2 presets and removed the group from pending.
+- Overall targeted interaction evidence: 66/127 presets across 68 observations; 61 remain (Tier 3: 6, Tier 4: 38, other selected families: 17).
+- Mobile visual review remains 127/127 at 360×640 CSS px; two limited-clarity hero previews remain documented.
+- One accidental quantity-2 add-to-cart state occurred on Stiletto:Linen during control targeting; both units were removed and the final demo cart was verified empty. No checkout or payment occurred.
+- Stiletto:Stiletto's selected product URL returned 404; the public homepage search modal was used as the same-preset fallback.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch138-2026.md`.
+- Next: Tier 3 (6 presets).
