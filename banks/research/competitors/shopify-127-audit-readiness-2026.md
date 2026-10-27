@@ -28,3 +28,8 @@ All 127 selected official preset listing URLs were separately documented. The co
 ## Mobile evidence addendum — 2026-10-27
 
 All 127 selected presets now have an individually documented mobile preview review at 360×640 CSS px. The prior mobile gap is closed for this selected cohort. Two views retain limited hero clarity, recorded in the matrix. Interactive behavior, accessibility, desktop visual fingerprint validation and performance remain separate audit gates.
+
+
+## Targeted interaction addendum — 2026-10-27
+
+Three selected presets now have limited interaction evidence (5 observations): Ignite:Peak age-gate CTA, Enterprise:Enterprise finder/filter/sort/cart drawer, and Prestige:Couture size option. This is a representative sample, not a complete shopper workflow audit. The two new storefront sessions ran at 1363×936 CSS px; the 360×640 work remains a visual preview audit. 124 selected presets still have no targeted interaction checks. No add-to-cart, checkout, Theme Editor, keyboard/accessibility or Lighthouse validation was performed.
