@@ -85,3 +85,8 @@ A read-only static audit of the VSN prototype Theme Editor schema is complete; s
 ## App embed visibility diagnosis — 2026-10-28
 
 The VSN layout includes Shopify's `content_for_header` hook, but the repository contains no app project or Theme App Extension. App embeds are app-owned extensions activated in Theme settings after the app is installed; they cannot be created by adding a theme setting. Inline app blocks are a separate feature: the one VSN section declares and renders `@app`, but that section is only instantiated in the prototype JSON page. See [Theme Editor audit](shopify-theme-editor-audit-2026-10-28.md). No store/app installation state is available here, so this diagnosis is code-based. The canonical matrix remains editor 0/127 reviewed, 127 pending.
+
+
+## VSN Builder app-embed cross-check — 2026-10-28
+
+Correction to the previous repo-local note: the VSN Builder app-owned Theme App Extension is in the separate `Vertex-Systems-Network/vsn-builder` repository. It contains `vsn-page-renderer.liquid` with `target: body`, the app embed, and 25 `target: section` inline app blocks. The extension's T032 fixture report says no Shopify store installed/published/deployed; live editor E2E T033 remains pending and direct CLI deployment is guarded. Therefore source implementation exists, but target-store installation/deployment is the likely missing prerequisite. No target-store state was available to verify. Full correction and sources: [Theme Editor audit](shopify-theme-editor-audit-2026-10-28.md). Canonical competitor matrix remains editor 0/127 reviewed, 127 pending.
