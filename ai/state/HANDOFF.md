@@ -1,3 +1,14 @@
+## 2026-10-27 — Shopify rendered demo research Batch 119 (Prestige:Prestige)
+
+**Done**
+- Verified official View demo host and inspected home, Women collection, Le Dino PDP and empty cart read-only.
+- Coverage: 121/127 unique homes (51 indexed HTML + 70 browser-rendered additions), 355 rendered pages across 90 presets; 6 homes remain.
+- Recorded collection countdown mismatch: dated 2025 Black Friday panel below current 2026 sale campaign. Demo footer credits Léo et Violette product-use permission.
+- Updated evidence JSON, completion matrix, demo audit, competitor observations, plan and progress state; added Batch 119 report.
+
+**Next**
+- Continue on branch `research/shopify-live-demo-batch6`; find a new unique official demo host and deduplicate by hostname; stop at 127/127.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 118 (Vision:Velocite)
 
 **Done**
