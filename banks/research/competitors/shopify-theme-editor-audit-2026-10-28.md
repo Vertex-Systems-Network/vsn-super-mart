@@ -208,3 +208,13 @@ The keyboard partial-observation count is now 6/127; full keyboard/accessibility
 - Limited manual smoke review only; not a WCAG conformance audit. Lighthouse was not run because PSI access in this browser remains blocked by the previously encountered Google unusual-traffic verification challenge; no CAPTCHA was solved.
 
 The keyboard partial-observation count is now 7/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Prestige — Strass keyboard smoke review — 2026-10-28
+
+- Homepage: the Navigation menu button appeared in the accessibility tree. Tab traversal was observed across Skip to content, announcement Previous/Next and the logo; keyboard activation of the menu was not verified.
+- Necklaces collection: Tab reached FILTER; Enter expanded the filter drawer and exposed Availability, Price, Color, Close and View Results. Tab entered Availability and Escape closed the drawer, returning focus to FILTER.
+- Homepage featured products expose Add to Cart / Choose options in the accessibility tree; keyboard activation was not verified.
+- Limited manual smoke review only; not a WCAG conformance audit. Product-page keyboard behavior and Lighthouse were not tested. PSI access remains blocked in this browser by the previously encountered Google unusual-traffic verification challenge; no CAPTCHA was solved.
+
+The keyboard partial-observation count is now 8/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
