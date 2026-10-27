@@ -1745,6 +1745,82 @@
         "Empty cart with newsletter signup"
       ],
       "design_hypothesis": "A beverage brand can organize a small catalog around flavor and pack size, then reinforce choice with dietary badges and taste profiles; brand naming and currency should stay consistent across collection, PDP and cart."
+    },
+    {
+      "id": "shopify-live-ignite-peak",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "taste-and-allergen-preferences",
+        "product-type-search",
+        "nutritional-facets",
+        "unit-pricing",
+        "pack-size-options",
+        "nutri-score"
+      ],
+      "design_hypothesis": "food/wellness/nutrition merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-shapes-shapes",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "creative-product-display",
+        "product-carousel",
+        "filter-sort",
+        "ingredient-tabs",
+        "taste-profile",
+        "dietary-badges"
+      ],
+      "design_hypothesis": "food/condiments/pantry merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-shapes-candy",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "flavor-carousel",
+        "collection-filter-sort",
+        "flavor-picker",
+        "pack-size-options",
+        "taste-profile",
+        "ingredients-accordion"
+      ],
+      "design_hypothesis": "food/chocolate/confectionery merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-shapes-scratch",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "pet-category-merchandising",
+        "health-benefit-tags",
+        "collection-filter-sort",
+        "product-flavor-links",
+        "long-form-product-info"
+      ],
+      "design_hypothesis": "pets/pet-food/dog-treats merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-vision-onyx",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "jewelry-category-navigation",
+        "sale-pricing",
+        "color-variant-swatches",
+        "size-picker",
+        "filter-sort"
+      ],
+      "design_hypothesis": "jewelry/accessories/fashion merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-vision-solstice",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "seasonal-editorial-hero",
+        "price-tier-collections",
+        "color-size-variants",
+        "fit-guide",
+        "stock-count",
+        "quick-view"
+      ],
+      "design_hypothesis": "fashion/apparel/seasonal merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
     }
   ]
 }
