@@ -9477,6 +9477,40 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official host verified; home, Rings collection, Vivien Ring PDP and empty cart inspected read-only.",
       "notes": "Countdown says next 24h while timer showed 277 days; unrelated skincare testimonial on jewelry home. Cart View All and some community links point to /false; recommendation title/product route mismatch."
+    },
+    {
+      "id": "shopify-live-ignite-playtime",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Playtime",
+      "url": "https://benchmark-toys-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "product-type-search",
+        "gift-finder",
+        "age-finder",
+        "collection-filters",
+        "low-stock-badges",
+        "educational-content"
+      ],
+      "niches": [
+        "toys",
+        "children",
+        "gifts",
+        "education"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official host verified; home, Bestsellers collection, Ultimate Towering Blocks Game PDP and empty cart inspected read-only.",
+      "notes": "UK/GBP locale conflicts with $100 free-delivery messaging; Orchard Toys social links and malformed Instagram scheme conflict with Playtime branding. Collection age facets include anomalous ranges and the PDP shows one review but a 38-review stat."
     }
   ],
   "discovery_sources": [
