@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 63 additional browser-rendered homes are documented (114/127 unique); 328 read-only rendered pages across 83 selected presets.",
+  "summary": "51 indexed HTML selected homes and 64 additional browser-rendered homes are documented (115/127 unique); 331 read-only rendered pages across 84 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 83,
-    "opened_home": 83,
+    "opened_stores": 84,
+    "opened_home": 84,
     "opened_collection": 70,
-    "opened_product": 71,
-    "opened_empty_cart": 37,
+    "opened_product": 72,
+    "opened_empty_cart": 38,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10681,11 +10681,61 @@
       "limits": [
         "No filters, sort, variants, quantity, add-to-cart, cart edits or checkout actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Retailer, product, warranty and delivery claims unverified."
       ]
+    },
+    {
+      "id": "shopify-wonder-petit-browser-render",
+      "selected_preset_id": "wonder:petit",
+      "theme_family": "Wonder",
+      "preset": "Petit",
+      "store_url": "https://wonder-theme-petit-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Wonder:Petit View demo, verified iframe storefront, inspected single-product home, linked Petit Baby Monitor PDP and empty cart read-only; no collection link was exposed in the inspected navigation.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/",
+          "observations": [
+            "Single-product baby-monitor landing page with rating/reassurance hero, product feature storytelling, comparison table, specs/benefit modules, review carousel, FAQ, support and newsletter.",
+            "No collection route is linked in inspected homepage navigation. Strong performance, privacy, infant-safety, review and warranty statements are merchant-provided and not independently verified; duplicated testimonial text is visible."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/products/petit",
+          "observations": [
+            "Petit Baby Monitor PDP at $149 with seven media items, Standard/Pro model links, feature checklist, technical specs and app details accordions, customer-story section, sticky purchase control, shipping/return/warranty claims.",
+            "Product and infant-safety/performance claims are unverified; store explicitly states it is a demo store."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/cart",
+          "observations": [
+            "Dedicated empty cart page with continue shopping, login prompt, information/product links, newsletter and payment footer."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No product, selector, add-to-cart, cart or checkout actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product, infant-safety, privacy, performance, delivery and warranty claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 328,
-    "selected_presets": 83,
-    "unique_selected_homepages_across_all_source_types": 114
+    "pages": 331,
+    "selected_presets": 84,
+    "unique_selected_homepages_across_all_source_types": 115
   }
 }
