@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Deep screen research status: 127/127 homes, 123/127 collections, 123/127 product pages, 100/127 carts have source-linked coverage; 4 collection, 4 product and 27 cart pages remain. Interactive/mobile/editor/checkout/Lighthouse still untested.",
+  "next_action": "Collection/product/cart read-only coverage complete across 127/127 selected presets. Next: feasible interactive behavior and mobile validation; Theme Editor/checkout/performance feasibility remains to be verified.",
   "approvals": {},
   "figma": {
     "file_key": null,
