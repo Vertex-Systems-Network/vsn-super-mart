@@ -103,3 +103,8 @@ Read-only live storefront interactions were sampled on Enterprise:Enterprise and
 ## Targeted interaction update — Batch 134 (2026-10-27)
 
 A third read-only browser session tested Impulse:Impulse on The Lido Short PDP. Quick View opened the related The Vela Shirt in a modal with gallery media, compare-at and sale price, product details, size-chart access, stock state and accordions. No cart action followed. Combined targeted interaction coverage is now **4 of 127 presets across 6 observations**; this interaction sample ran at 1363×936 CSS px and is not mobile emulation. See `shopify-interaction-sample-batch134-2026.md`.
+
+
+## Targeted interaction update — Batch 135 (2026-10-27)
+
+Impulse:Dune's Naked & Famous Crewneck PDP was tested at 1363×936 CSS px. Selecting M updated the selected radio and URL to a variant-specific ID while the in-stock message stayed unchanged. No cart action followed. Coverage is now **5 of 127 presets across 7 observations**; completed presets are marked in the matrix and removed from pending counts. See `shopify-interaction-sample-batch135-2026.md`.
