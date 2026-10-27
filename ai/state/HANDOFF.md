@@ -1,3 +1,18 @@
+## 2026-10-27 — Shopify rendered demo research Batch 112 (Wonder:Nook)
+
+**Done**
+- Verified official demo and inspected home, 16-product Sofas collection, Mellow Sofa 3 seats PDP and empty cart read-only.
+- Coverage: 114/127 homes (51 indexed HTML + 63 additional rendered); canonical rendered total 328 pages across 83 presets; 13 remain.
+- Furniture collection exposes brand, price, availability, fabric, color and features. PDP includes configuration, dimensions, material and warranty/delivery copy.
+- Updated evidence, matrix, audit, design observation, plan, progress and batch report.
+
+**Limits**
+- No shopping-control actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Product and service claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
 ## 2026-10-27 — Shopify rendered demo research Batch 111 (Wonder:Velour)
 
 **Done**
