@@ -1,3 +1,16 @@
+## 2026-10-28 — Shopify remaining-family interaction closeout, Batch 141
+
+**Done**
+- Verified interactions for the remaining 17 presets across Refresh, Rise, Origin, Craft, Publisher, Ride, Sense, Studio, Taste, Crave, Spotlight, Vessel, Heritage, Pitch, Dwell, Ritual and Fabric.
+- Overall targeted interaction coverage is **127/127 presets across 129 observations**; the interaction queue is empty.
+- Mobile visual preview review remains 127/127. No purchase/checkout action was used.
+
+**Next**
+- Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open for the selected cohort; storefront interactions do not verify those areas.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch141-2026.md`.
+
+---
+
 ## 2026-10-28 — Shopify Tier 4 interaction closeout, Batch 140
 
 **Done**
