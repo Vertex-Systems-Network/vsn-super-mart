@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 6 presets; 121 still pending. Theme Editor, checkout and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 33 presets; 94 still pending. Tier 1 is closed. Theme Editor, checkout and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -12,7 +12,7 @@
     "collection": 38,
     "product": 40,
     "cart": 11,
-    "interactive": 6,
+    "interactive": 33,
     "mobile": 127,
     "editor": 0,
     "checkout": 0,
@@ -33,7 +33,7 @@
     "product": 0,
     "cart": 0,
     "home_any_source": 0,
-    "interactive": 121,
+    "interactive": 94,
     "mobile": 0,
     "editor": 127,
     "checkout": 127,
@@ -778,18 +778,19 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing"
+        "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue to next unobserved selected preset; retain read-only evidence and verify merchant-owned claims before relying on them"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -812,7 +813,13 @@
           "url": "https://impulse-theme-jewelry.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-impulse-apothecary-browser-render"
+        "shopify-impulse-apothecary-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://impulse-theme-jewelry.myshopify.com/products/amber-candle",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-impulse-apothecary-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -823,7 +830,11 @@
         },
         "observation_id": "mobile-impulse:apothecary-2026-10-27",
         "observations": "Minimal header sits above a product-led fragrance hero; product row follows directly below."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-impulse-apothecary-2026-10-27"
+      ]
     },
     {
       "audit_rank": 5,
@@ -866,23 +877,29 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No screenshot or viewport measurements",
-        "No interactions, mobile rendering, Theme Editor, checkout or performance tests"
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Use qualitative merchandising and content observations; maintain source-class distinction"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         "shopify-prestige-prestige-browser-render",
-        "shopify-live-prestige-prestige-rendered"
+        "shopify-live-prestige-prestige-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://prestige-theme-allure.myshopify.com/products/le-dino-black-liege",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-prestige-prestige-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -893,7 +910,11 @@
         },
         "observation_id": "mobile-prestige:prestige-2026-10-27",
         "observations": "Slim offer bar and centered wordmark; full-bleed fashion image with collection CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-prestige-prestige-2026-10-27"
+      ]
     },
     {
       "audit_rank": 6,
@@ -1035,20 +1056,21 @@
         "https://prestige-theme-vogue.myshopify.com/products/cinnamon-sage-lip-balm"
       ],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No sort, filter, image-density, product option, quantity, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant prices, reviews, ingredient, efficacy, shipping and brand claims unverified"
+        "Merchant prices, reviews, ingredient, efficacy, shipping and brand claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1071,7 +1093,13 @@
           "url": "https://prestige-theme-vogue.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-prestige-vogue"
+        "shopify-live-prestige-vogue",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://prestige-theme-vogue.myshopify.com/products/brazilian-supermask-masque-brush-kit",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-prestige-vogue-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1082,7 +1110,11 @@
         },
         "observation_id": "mobile-prestige:vogue-2026-10-27",
         "observations": "Promo strip and transparent header over a skincare/product hero with centered CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-prestige-vogue-2026-10-27"
+      ]
     },
     {
       "audit_rank": 8,
@@ -1127,20 +1159,21 @@
         "https://prestige-theme-strass2.myshopify.com/collections/bracelets"
       ],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, image-density, color, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant jewelry, stone, sourcing, workmanship, pricing and delivery claims unverified"
+        "Merchant jewelry, stone, sourcing, workmanship, pricing and delivery claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1163,7 +1196,13 @@
           "url": "https://prestige-theme-strass2.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-prestige-strass"
+        "shopify-live-prestige-strass",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://prestige-theme-strass2.myshopify.com/products/mineral-alliance-green-aventurine-necklace",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-prestige-strass-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1174,7 +1213,11 @@
         },
         "observation_id": "mobile-prestige:strass-2026-10-27",
         "observations": "Jewellery campaign hero fills the phone width; compact logo, search and bag controls."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-prestige-strass-2026-10-27"
+      ]
     },
     {
       "audit_rank": 9,
@@ -1217,20 +1260,21 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No sort, filter, image-density, color, size-chart, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant material, craftsmanship, fit, pricing and delivery claims unverified"
+        "Merchant material, craftsmanship, fit, pricing and delivery claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1253,7 +1297,13 @@
           "url": "https://prestige-theme-signature.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-prestige-signature"
+        "shopify-live-prestige-signature",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://prestige-theme-signature.myshopify.com/products/simone-pumps-110-black",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-prestige-signature-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1264,7 +1314,11 @@
         },
         "observation_id": "mobile-prestige:signature-2026-10-27",
         "observations": "Split red-and-white visual hero with fashion campaign text aligned near the lower fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-prestige-signature-2026-10-27"
+      ]
     },
     {
       "audit_rank": 10,
@@ -1307,21 +1361,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Homepage screenshot captured; no viewport dimensions or mobile render",
         "Collection and Borderline One Piece product page inspected, but product URL was truncated in browser accessibility output and omitted from URL-indexed evidence",
         "No theme editor, checkout, keyboard or performance tests",
-        "No shopper controls or purchase flow tested; viewport/mobile, editor, checkout, keyboard and performance remain unverified"
+        "No shopper controls or purchase flow tested; viewport/mobile, editor, checkout, keyboard and performance remain unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1339,7 +1394,13 @@
           "url": "https://chantilly.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-symmetry-symmetry-browser-render"
+        "shopify-symmetry-symmetry-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://chantilly.myshopify.com/products/swim-systems-momir-t545-ahoy-halter",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-symmetry-symmetry-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1350,7 +1411,11 @@
         },
         "observation_id": "mobile-symmetry:symmetry-2026-10-27",
         "observations": "Centered wordmark and full-width swimwear hero; large headline below the image fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-symmetry-symmetry-2026-10-27"
+      ]
     },
     {
       "audit_rank": 11,
@@ -1393,21 +1458,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "collection",
         "cart",
-        "no interactive/mobile/editor/test access"
+        "no interactive/mobile/editor/test access",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset; primary indexed-HTML coverage remains separate from browser-rendered observations"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1430,7 +1496,13 @@
           "url": "https://salt-yard.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-symmetry-salt-yard"
+        "shopify-live-symmetry-salt-yard",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-symmetry-salt-yard-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1441,7 +1513,11 @@
         },
         "observation_id": "mobile-symmetry:salt-yard-2026-10-27",
         "observations": "Transparent header overlays a lifestyle portrait; two-line hero headline and supporting text."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-symmetry-salt-yard-2026-10-27"
+      ]
     },
     {
       "audit_rank": 12,
@@ -1484,24 +1560,23 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "collection",
         "product",
         "cart",
-        "no interactive/mobile/editor/test access"
+        "no interactive/mobile/editor/test access",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Open actual collection URL from storefront navigation",
-        "Open actual product URL from storefront navigation",
-        "Open actual cart URL from storefront navigation"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1524,7 +1599,13 @@
           "url": "https://beatnik-5.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-symmetry-beatnik"
+        "shopify-live-symmetry-beatnik",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses/products/kaka",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-symmetry-beatnik-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1535,7 +1616,11 @@
         },
         "observation_id": "mobile-symmetry:beatnik-2026-10-27",
         "observations": "Campaign portrait dominates; display headline begins below the fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-symmetry-beatnik-2026-10-27"
+      ]
     },
     {
       "audit_rank": 13,
@@ -1578,20 +1663,21 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Unverified template types",
         "cart",
-        "no interactive/mobile/editor/test access"
+        "no interactive/mobile/editor/test access",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Open actual cart URL from storefront navigation"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1614,7 +1700,13 @@
           "url": "https://duke-16.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-symmetry-duke"
+        "shopify-live-symmetry-duke",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://duke-16.myshopify.com/collections/skateboards/products/libellule-1",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-symmetry-duke-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1625,7 +1717,11 @@
         },
         "observation_id": "mobile-symmetry:duke-2026-10-27",
         "observations": "Monochrome skate image with oversized yellow headline; high contrast on mobile."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-symmetry-duke-2026-10-27"
+      ]
     },
     {
       "audit_rank": 14,
@@ -1668,21 +1764,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, variants, cart actions or checkout tested",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance testing",
-        "Seller price, fit, British-made, ethical-material, shipping and review claims unverified"
+        "Seller price, fit, British-made, ethical-material, shipping and review claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1705,7 +1802,13 @@
           "url": "https://symmetry-amara.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-symmetry-amara-browser-render"
+        "shopify-symmetry-amara-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://symmetry-amara.myshopify.com/collections/rings/products/personalised-9ct-diamond-engagement-ring",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-symmetry-amara-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1716,7 +1819,11 @@
         },
         "observation_id": "mobile-symmetry:amara-2026-10-27",
         "observations": "Dark campaign image and centered jewelry statement under a narrow header."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-symmetry-amara-2026-10-27"
+      ]
     },
     {
       "audit_rank": 15,
@@ -1759,21 +1866,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort or Add to Cart action executed",
         "PDP size options appeared sold out/unavailable; not interacted with",
         "No screenshot or measured viewport/mobile render",
-        "No Theme Editor, checkout, keyboard or performance tests; seller claims unverified"
+        "No Theme Editor, checkout, keyboard or performance tests; seller claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1796,7 +1904,13 @@
           "url": "https://broadcast-theme-main.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-broadcast-default-browser-render"
+        "shopify-broadcast-default-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://broadcast-theme-main.myshopify.com/products/miro-signet-in-gold",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-broadcast-broadcast-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1807,7 +1921,11 @@
         },
         "observation_id": "mobile-broadcast:broadcast-2026-10-27",
         "observations": "Compact promo/header stack over a single fashion campaign image and short headline."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-broadcast-broadcast-2026-10-27"
+      ]
     },
     {
       "audit_rank": 16,
@@ -1850,19 +1968,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
-        "Official Broadcast:Relay listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified."
+        "Official Broadcast:Relay listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified.",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Recheck only if the official listing exposes a valid matching demo host; do not infer one."
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1885,7 +2004,13 @@
           "url": "https://broadcast-theme-relay.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-broadcast-relay-browser-render"
+        "shopify-broadcast-relay-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://broadcast-theme-relay.myshopify.com/products/contrast-jogger",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-broadcast-relay-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1896,7 +2021,11 @@
         },
         "observation_id": "mobile-broadcast:relay-2026-10-27",
         "observations": "Simple wordmark header and image-led hero; large Stay Cozy headline over portrait."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-broadcast-relay-2026-10-27"
+      ]
     },
     {
       "audit_rank": 17,
@@ -1939,21 +2068,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, Quick Add, variant, quantity, accordion or cart actions executed",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, checkout, keyboard or performance testing",
-        "Seller product, inventory, shipping and sourcing claims unverified"
+        "Seller product, inventory, shipping and sourcing claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -1976,7 +2106,13 @@
           "url": "https://broadcast-theme-airwave.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-broadcast-airwave"
+        "shopify-live-broadcast-airwave",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-broadcast-airwave-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -1987,7 +2123,11 @@
         },
         "observation_id": "mobile-broadcast:airwave-2026-10-27",
         "observations": "Transparent logo over a coffee lifestyle image; minimal hero copy in initial view."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-broadcast-airwave-2026-10-27"
+      ]
     },
     {
       "audit_rank": 18,
@@ -2030,21 +2170,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, quick-add, variant or cart action executed",
         "PDP size controls appeared sold out/unavailable in observed page",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Seller delivery, fit, material and promotional claims unverified"
+        "Seller delivery, fit, material and promotional claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -2067,7 +2208,13 @@
           "url": "https://broadcast-motif.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-broadcast-motif-browser-render"
+        "shopify-broadcast-motif-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://broadcast-motif.myshopify.com/collections/all/products/checkered-tank",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-broadcast-motif-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -2078,7 +2225,11 @@
         },
         "observation_id": "mobile-broadcast:motif-2026-10-27",
         "observations": "Hero overlays run close to both phone edges; sale text and buttons appear crowded horizontally."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-broadcast-motif-2026-10-27"
+      ]
     },
     {
       "audit_rank": 19,
@@ -2121,20 +2272,21 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No sort, pagination, quick-add, variant, cart or checkout actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, keyboard or performance tests",
-        "SPF, health, ingredient, dermatology, shipping, discount, inventory and seller claims unverified"
+        "SPF, health, ingredient, dermatology, shipping, discount, inventory and seller claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -2157,7 +2309,13 @@
           "url": "https://broadcast-stellar.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-broadcast-stellar-browser-render"
+        "shopify-broadcast-stellar-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen/products/spf-30-lotion",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-broadcast-stellar-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -2168,7 +2326,11 @@
         },
         "observation_id": "mobile-broadcast:stellar-2026-10-27",
         "observations": "Minimal transparent navigation with fashion photo and short campaign line."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-broadcast-stellar-2026-10-27"
+      ]
     },
     {
       "audit_rank": 20,
@@ -2306,20 +2468,21 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, grid/list, compare, quantity or cart actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Product, supplier, athlete, inventory, ratings, shipping, discounts and other merchant claims unverified"
+        "Product, supplier, athlete, inventory, ratings, shipping, discounts and other merchant claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -2342,7 +2505,13 @@
           "url": "https://enterprise-theme-active.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-enterprise-outlet-browser-render"
+        "shopify-enterprise-outlet-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all/products/514g-eco-gold-chalk-honnold-edition",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-enterprise-outlet-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -2353,7 +2522,11 @@
         },
         "observation_id": "mobile-enterprise:outlet-2026-10-27",
         "observations": "Dense search header and strong promo banner precede the outdoor campaign hero."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-enterprise-outlet-2026-10-27"
+      ]
     },
     {
       "audit_rank": 22,
@@ -2396,20 +2569,21 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, grid/list, variant, quantity or cart actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Seller stock, rating, shipping, price, product and brand claims unverified"
+        "Seller stock, rating, shipping, price, product and brand claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -2432,7 +2606,13 @@
           "url": "https://enterprise-theme-home.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-enterprise-homestead-browser-render"
+        "shopify-enterprise-homestead-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://enterprise-theme-home.myshopify.com/collections/all/products/slant-table-lamp",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-enterprise-homestead-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -2443,7 +2623,11 @@
         },
         "observation_id": "mobile-enterprise:homestead-2026-10-27",
         "observations": "Search-first furniture header, discount strip and large stacked headline."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-enterprise-homestead-2026-10-27"
+      ]
     },
     {
       "audit_rank": 23,
@@ -2486,21 +2670,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, pagination, swatch, quantity, add-on or cart actions executed",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, checkout, keyboard or performance testing",
-        "Seller claims and product/inventory/review details unverified"
+        "Seller claims and product/inventory/review details unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -2523,7 +2708,13 @@
           "url": "https://impact-theme-sound.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-impact-sound"
+        "shopify-live-impact-sound",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://impact-theme-sound.myshopify.com/products/mw07-plus-tortoiseshell-stainless-steel-case",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-impact-impact-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -2534,7 +2725,11 @@
         },
         "observation_id": "mobile-impact:impact-2026-10-27",
         "observations": "Compact dark header over tall product hero; large multi-line heading wraps within the narrow viewport."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-impact-impact-2026-10-27"
+      ]
     },
     {
       "audit_rank": 24,
@@ -2577,21 +2772,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, swatch, purchase or cart actions executed",
         "Selected lamp PDP showed Sold Out; state is an observation from this page only",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant product, rating, inventory, life-span and designer claims unverified"
+        "Merchant product, rating, inventory, life-span and designer claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -2614,7 +2810,13 @@
           "url": "https://impact-theme-home.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-impact-cocoon-browser-render"
+        "shopify-impact-cocoon-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://impact-theme-home.myshopify.com/products/hay-pc-portable-lamp-olive-green",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-impact-cocoon-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -2625,7 +2827,11 @@
         },
         "observation_id": "mobile-impact:cocoon-2026-10-27",
         "observations": "Minimal header and full-width living-room hero with large stacked headline."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-impact-cocoon-2026-10-27"
+      ]
     },
     {
       "audit_rank": 25,
@@ -2668,20 +2874,21 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, swatch, size, purchase, accordion or add-on actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant price, rating, inventory, shipment, fabric, environmental, certification and performance claims unverified"
+        "Merchant price, rating, inventory, shipment, fabric, environmental, certification and performance claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -2704,7 +2911,13 @@
           "url": "https://impact-theme-shape.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-impact-balance-browser-render"
+        "shopify-impact-balance-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://impact-theme-shape.myshopify.com/products/silhouette-bra-black",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-impact-balance-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -2715,7 +2928,11 @@
         },
         "observation_id": "mobile-impact:balance-2026-10-27",
         "observations": "Activewear image hero with centered long copy; headline consumes most of the first view."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-impact-balance-2026-10-27"
+      ]
     },
     {
       "audit_rank": 26,
@@ -3118,20 +3335,21 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, view, pagination, product option, quantity, shipping-estimator, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant price, inventory, review, shipping and store claims unverified"
+        "Merchant price, inventory, review, shipping and store claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -3154,7 +3372,13 @@
           "url": "https://warehouse-theme-metal.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-warehouse-warehouse-browser-render"
+        "shopify-warehouse-warehouse-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://warehouse-theme-metal.myshopify.com/products/shure-srh440-professional-studio-headphones",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-warehouse-warehouse-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3165,7 +3389,11 @@
         },
         "observation_id": "mobile-warehouse:warehouse-2026-10-27",
         "observations": "Search-heavy header and promotional strip are tall; campaign begins below them."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-warehouse-warehouse-2026-10-27"
+      ]
     },
     {
       "audit_rank": 31,
@@ -3208,21 +3436,22 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, pagination, grid/list, variant, quantity, add-to-cart, or checkout actions executed",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance testing",
-        "Seller price, inventory, reviews, shipping and fulfillment claims unverified"
+        "Seller price, inventory, reviews, shipping and fulfillment claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -3245,7 +3474,13 @@
           "url": "https://warehouse-theme-wood.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-warehouse-wood"
+        "shopify-live-warehouse-wood",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-warehouse-wood-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3256,7 +3491,11 @@
         },
         "observation_id": "mobile-warehouse:wood-2026-10-27",
         "observations": "Compact header over furniture product hero with a centered CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-warehouse-wood-2026-10-27"
+      ]
     },
     {
       "audit_rank": 32,
@@ -3299,19 +3538,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Primary indexed-HTML pages not independently recorded",
-        "No shopper interaction, mobile, editor, checkout, keyboard or performance tests"
+        "No shopper interaction, mobile, editor, checkout, keyboard or performance tests",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue with next selected preset; keep browser-rendered evidence separate from primary indexed-HTML counts"
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -3334,7 +3574,13 @@
           "url": "https://warehouse-theme-fabric.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-warehouse-mesh"
+        "shopify-warehouse-mesh",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://warehouse-theme-fabric.myshopify.com/products/oros-apparel-discovery-hybrid-jacket-men-s",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-warehouse-mesh-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3345,7 +3591,11 @@
         },
         "observation_id": "mobile-warehouse:mesh-2026-10-27",
         "observations": "Single-column outdoor equipment hero with centered headline and Shop Hike CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-warehouse-mesh-2026-10-27"
+      ]
     },
     {
       "audit_rank": 33,
@@ -4280,16 +4530,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
-      "blockers": [],
+      "evidence_quality": "browser_render_with_targeted_interactions",
+      "blockers": [
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+      ],
       "next_action": [
-        "Continue to remaining selected presets in rank order."
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -4312,7 +4564,13 @@
           "url": "https://empire-theme-supply.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-empire-empire-rendered"
+        "shopify-live-empire-empire-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale/products/circuit-racer-magnetic-block-set",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-empire-empire-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4323,7 +4581,11 @@
         },
         "observation_id": "mobile-empire:empire-2026-10-27",
         "observations": "Mobile header retains category/search navigation in a horizontal row; some header labels extend beyond the 360px viewport, a clipping/overflow risk."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-empire-empire-2026-10-27"
+      ]
     },
     {
       "audit_rank": 44,
@@ -4366,16 +4628,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
-      "blockers": [],
+      "evidence_quality": "browser_render_with_targeted_interactions",
+      "blockers": [
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+      ],
       "next_action": [
-        "Continue to remaining selected presets in rank order."
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -4398,7 +4662,13 @@
           "url": "https://empire-theme-industrial.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-empire-circuit-rendered"
+        "shopify-live-empire-circuit-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://empire-theme-industrial.myshopify.com/products/osmo-mobile-handheld-mount",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-empire-circuit-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4409,7 +4679,11 @@
         },
         "observation_id": "mobile-empire:circuit-2026-10-27",
         "observations": "Hamburger, centered Circuit logo, cart and search fit the top fold; promo/benefit line clips horizontally at the right edge."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-empire-circuit-2026-10-27"
+      ]
     },
     {
       "audit_rank": 45,
@@ -4452,19 +4726,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper controls, filters, sorting, quantity, purchase or checkout actions",
-        "Seller certification, order-volume, product, inventory, shipping and fulfillment claims unverified"
+        "Seller certification, order-volume, product, inventory, shipping and fulfillment claims unverified",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue next unobserved selected preset; retain indexed and rendered source classes separately."
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -4487,7 +4762,13 @@
           "url": "https://empire-theme-depot.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-empire-depot"
+        "shopify-live-empire-depot",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://empire-theme-depot.myshopify.com/products/battery-operated-compact-impact-wrench-1-2-inch-detent-pin-tool-only",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-empire-depot-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4498,7 +4779,11 @@
         },
         "observation_id": "mobile-empire:depot-2026-10-27",
         "observations": "Hamburger/logo/cart and search row stack above an image-led single-column hero with two clear CTAs."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-empire-depot-2026-10-27"
+      ]
     },
     {
       "audit_rank": 46,
@@ -4541,18 +4826,19 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified."
+        "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified.",
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
-        "Continue remaining selected presets in rank order."
+        "Tier 1 interaction review complete; continue with the next open priority group."
       ],
       "browser_render_observations": [
         {
@@ -4575,7 +4861,13 @@
           "url": "https://empire-theme-graphic.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-empire-forma-rendered"
+        "shopify-live-empire-forma-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://empire-theme-graphic.myshopify.com/products/turning-table",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier1-empire-forma-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4586,7 +4878,11 @@
         },
         "observation_id": "mobile-empire:forma-2026-10-27",
         "observations": "360×640 frame verified; first capture remained blurred, so layout detail not signed off."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier1-empire-forma-2026-10-27"
+      ]
     },
     {
       "audit_rank": 47,
