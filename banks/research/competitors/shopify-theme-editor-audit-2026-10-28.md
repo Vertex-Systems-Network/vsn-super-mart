@@ -72,3 +72,20 @@ Shopify documents these as separate extension targets: app blocks use `target: c
 **Most likely cause:** if the missing control is in the App embeds panel, the extension is not installed/deployed in the target store (or the target app does not provide an embed block). The VSN theme does not define that app-owned control. If the missing control is an inline app block, it is only structurally available in the prototype JSON page today, not throughout the Liquid templates. The repository has no store connection or app installation state, so this is a source-based diagnosis, not direct confirmation of the store's installed-app state.
 
 No code or matrix counters changed. Theme Editor competitor coverage remains 0/127 reviewed, 127 pending.
+
+
+## Cross-repository correction — VSN Builder Theme App Extension
+
+A follow-up read-only search across the same organization's VSN Builder app repository found the actual Theme App Extension. This corrects the earlier repo-local statement: **`vsn-super-mart` itself has no app project/extension, but the app extension exists in `Vertex-Systems-Network/vsn-builder`.**
+
+- `extensions/vsn-page-builder-theme/shopify.extension.toml` declares the “VSN Builder Theme” extension.
+- `extensions/vsn-page-builder-theme/blocks/vsn-page-renderer.liquid` declares `"target": "body"`, which is the VSN Builder app embed.
+- 25 other extension blocks declare `"target": "section"`, providing inline app-blocks.
+- `app/services/theme-embed-status.server.js` generates the activation deep link and checks `config/settings_data.json` for the active `vsn-page-renderer` block; `TopNav.jsx` also checks Shopify App Bridge extension activation status.
+- `docs/t032-upstream-theme-fixtures.md` states **no Shopify store installed, published, or deployed** and leaves real Theme Editor/storefront acceptance pending. The roadmap lists real extension E2E as T033 WAITING. `scripts/deployment-blocked.mjs` disables direct Shopify CLI deploy/config-switch until the environment/release gates are satisfied.
+
+**Updated likely cause:** the embed implementation exists in source, but it is not deployed/installed in the target Shopify store (or the target store is not the matching VSN Builder app installation). That would explain why the embed is absent in Theme Editor. This is strongly supported by repository release evidence, but remains **unconfirmed against the user's store**, which is not connected here. Shopify only shows an app-owned embed after its extension is installed and available to that store. See [VSN Builder extension source](https://github.com/Vertex-Systems-Network/vsn-builder/tree/development/extensions/vsn-page-builder-theme) and [T032 fixture status](https://github.com/Vertex-Systems-Network/vsn-builder/blob/development/docs/t032-upstream-theme-fixtures.md).
+
+**Next required action:** after deployment safeguards are satisfied, install/update VSN Builder on the target development store, then use the existing activation URL/status workflow and verify Theme settings → App embeds. Do not create another theme setting or confuse this body embed with the section-target app blocks. No deployment was attempted and no app code or credentials were changed.
+
+The competitor Theme Editor matrix remains editor 0/127 reviewed, 127 pending; this app-extension diagnosis is separate from the competitor cohort.
