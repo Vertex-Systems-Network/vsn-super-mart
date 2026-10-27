@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Across indexed HTML and read-only rendered evidence, selected-preset coverage is 127/127 homes, 127/127 collections, 127/127 product pages and 127/127 carts. Interactions, mobile, Theme Editor, checkout and Lighthouse checks remain unverified.",
+  "completion_claim": "Across indexed HTML and read-only rendered evidence, selected-preset coverage is 127/127 homes, collections, product pages and carts. One 360×640 mobile preview and one CTA interaction attempt are recorded for Ignite:Peak; the CTA opens an unanswered 21+ age gate. Full interaction coverage, Theme Editor, checkout and Lighthouse remain unverified.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -12,25 +12,31 @@
     "collection": 38,
     "product": 40,
     "cart": 11,
-    "interactive": 0,
-    "mobile": 0,
+    "interactive": 1,
+    "mobile": 1,
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 443,
+    "browser_rendered_pages": 444,
     "browser_rendered_selected_presets": 127,
     "distinct_selected_homepages_any_source": 127,
     "read_only_homepages_across_sources": 127,
     "read_only_collections_across_sources": 127,
     "read_only_products_across_sources": 127,
-    "read_only_carts_across_sources": 127
+    "read_only_carts_across_sources": 127,
+    "browser_rendered_mobile": 1
   },
   "pending": {
     "home": 0,
     "collection": 0,
     "product": 0,
     "cart": 0,
-    "home_any_source": 0
+    "home_any_source": 0,
+    "interactive": 126,
+    "mobile": 126,
+    "editor": 127,
+    "checkout": 127,
+    "lighthouse": 127
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -6446,22 +6452,37 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://benchmark-food-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "browser_preview_verified",
+          "url": "https://benchmark-food-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27"
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "ui_interaction_attempt": true
       },
       "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests"
+        "Shop now CTA opened a 21+ age-verification gate; it was left unanswered.",
+        "No Theme Editor or checkout session opened; merchant credentials/store access not available.",
+        "No Lighthouse/performance tool or run available in this research environment."
       ],
       "next_action": [
-        "Continue unresolved selected-preset screen coverage"
+        "Test representative collection/product controls on an accessible non-gated demo.",
+        "Obtain authorized Theme Editor access if editor-level research is required.",
+        "Run Lighthouse/performance measurement in an environment with the Lighthouse runner."
       ],
       "browser_render_observations": [
         "shopify-ignite-peak-browser-render"
