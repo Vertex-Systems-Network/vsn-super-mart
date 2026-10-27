@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 68 additional browser-rendered homes are documented (119/127 unique); 347 read-only rendered pages across 88 selected presets.",
+  "summary": "51 indexed HTML selected homes and 69 additional browser-rendered homes are documented (120/127 unique); 351 read-only rendered pages across 89 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 88,
-    "opened_home": 88,
-    "opened_collection": 74,
-    "opened_product": 76,
-    "opened_empty_cart": 42,
+    "opened_stores": 89,
+    "opened_home": 89,
+    "opened_collection": 75,
+    "opened_product": 77,
+    "opened_empty_cart": 43,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10979,11 +10979,73 @@
       "limits": [
         "No filters, sort, quantity, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Fictional product and skincare claims are unverified."
       ]
+    },
+    {
+      "id": "shopify-vision-velocite-browser-render",
+      "selected_preset_id": "vision:velocite",
+      "theme_family": "Vision",
+      "preset": "Velocite",
+      "store_url": "https://vision-recreation.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Vision:Velocite listing View demo, verified iframe host, inspected home, Mountain Bikes collection, linked FC-Moto jacket PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://vision-recreation.myshopify.com/",
+          "observations": [
+            "Cycling storefront with bike-category hero/navigation, featured gear carousel, specifications/testimonials and Polygon bike storytelling.",
+            "Homepage copy and product mix include cycling parts and accessories; consistency is weakened by unrelated placeholder text and mismatched category content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://vision-recreation.myshopify.com/collections/mountain-bikes",
+          "observations": [
+            "Seven products with Availability, Size, Color and Price filters plus best-selling sort; controls untouched.",
+            "Mountain Bikes collection mixes a motorcycle softshell jacket, bottle, brake, helmet, cassette adapter, jersey and saddle rather than mountain bikes."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://vision-recreation.myshopify.com/collections/mountain-bikes/products/fc-moto-fcm-ssj-softshell-jacket",
+          "observations": [
+            "FC-Moto Black and Yellow Softshell Jacket at $112, Yellow, sizes Small/Medium/Large; quantity and purchase controls present but untouched.",
+            "Jacket description area contains Entity helmet copy and lower Polygon bike-brand sections; cross-category and template-content mismatches."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://vision-recreation.myshopify.com/cart",
+          "observations": [
+            "Dedicated empty cart message with Continue shopping link; recently viewed section shows jacket and generic placeholder description."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, quantity, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product-category content quality only assessed qualitatively."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 347,
-    "selected_presets": 88,
-    "unique_selected_homepages_across_all_source_types": 119
+    "pages": 351,
+    "selected_presets": 89,
+    "unique_selected_homepages_across_all_source_types": 120
   }
-}
+}\n
