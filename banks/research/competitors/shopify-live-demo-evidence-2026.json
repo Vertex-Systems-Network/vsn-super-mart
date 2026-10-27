@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 71 additional browser-rendered homes are documented (122/127 unique); 359 read-only rendered pages across 91 selected presets.",
+  "summary": "51 indexed HTML selected homes and 72 additional browser-rendered homes are documented (123/127 unique); 363 read-only rendered pages across 92 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 91,
-    "opened_home": 91,
-    "opened_collection": 77,
-    "opened_product": 79,
-    "opened_empty_cart": 45,
+    "opened_stores": 92,
+    "opened_home": 92,
+    "opened_collection": 78,
+    "opened_product": 80,
+    "opened_empty_cart": 46,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -11165,11 +11165,73 @@
       "limits": [
         "No filters, sort, grid/list, quantity, purchase or bundle actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Claims not independently verified."
       ]
+    },
+    {
+      "id": "shopify-eurus-eurus-browser-render",
+      "selected_preset_id": "eurus:eurus",
+      "theme_family": "Eurus",
+      "preset": "Eurus",
+      "store_url": "https://eurus-puff.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Official Eurus:Eurus listing iframe loaded Puff storefront; confirmed host and inspected home, Products collection, Natural Deodorant Trio PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://eurus-puff.myshopify.com/",
+          "observations": [
+            "Skincare storefront has routine quiz CTA, product recommendations, staged bundle builder, skin-concern labels, ingredient comparison table, testimonials, founder/philosophy narrative, FAQ and product reels.",
+            "Promotional copy includes BFCM, limited-collection and flash-sale messaging; several content pieces and product/brand references appear mixed. Health/efficacy and safety claims are merchant copy and unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://eurus-puff.myshopify.com/collections/all",
+          "observations": [
+            "Products collection reports 116 items and loads 8 initially; has filter/sort, grid/list, availability, price, tags, color, brand, skin type, size, texture, collection and ingredient facets; controls untouched.",
+            "Skin-concern quick links show counts; product listings mix skincare, sunscreen and body care, with some unrelated editorial copy."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://eurus-puff.myshopify.com/collections/saje-kits/products/natural-deodorant-trio",
+          "observations": [
+            "Natural Deodorant Trio $51 reduced to $45, 3.8/5 from 5 reviews, version choices and option selector; purchase controls untouched.",
+            "Description claims mineral-salt odor protection; pickup, usage/returns details, ingredients, videos and testimonials are included. Some testimonials shown refer to unrelated products and skin concerns; efficacy claims not independently verified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://eurus-puff.myshopify.com/cart",
+          "observations": [
+            "Empty cart offers Puff New, Body Care and Make Up collections, plus login prompt."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filters, sort, view, routine quiz, product option, bundle, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, safety, sourcing and efficacy claims not verified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 359,
-    "selected_presets": 91,
-    "unique_selected_homepages_across_all_source_types": 122
+    "pages": 363,
+    "selected_presets": 92,
+    "unique_selected_homepages_across_all_source_types": 123
   }
 }
