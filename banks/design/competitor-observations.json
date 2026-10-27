@@ -2274,6 +2274,22 @@
         "Stiletto:Stiletto's selected product URL returned 404 during this pass; the public homepage search modal opened as a same-preset fallback and no query was entered."
       ],
       "design_hypothesis": "When a product route is unavailable, record the limitation and use an observed same-store entry point for a bounded interaction check."
+    },
+    {
+      "id": "shopify-tier3-native-baseline-interactions",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Dawn opened a search dialog; Horizon selected a size; Tinker and Atelier opened gallery zoom; Savor selected a multi-bottle pack; Trade expanded Product features."
+      ],
+      "design_hypothesis": "Use the free first-party themes as interaction baselines: search should open without submitting, selections should show their active state, and gallery and product-detail controls should remain reversible."
+    },
+    {
+      "id": "shopify-tier3-gallery-and-variant-controls",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Horizon exposed a checked size option; Savor exposed checked pack quantity; Tinker and Atelier exposed reversible gallery zoom controls."
+      ],
+      "design_hypothesis": "Keep selection state visible and provide clear close behavior for gallery overlays so shoppers can return to the product page."
     }
   ]
 }
