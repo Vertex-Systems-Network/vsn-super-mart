@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 33 presets; 94 still pending. Tier 1 is closed. Theme Editor, checkout and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 66 presets; 61 remain pending. Tier 1 and Tier 2 are closed. Theme Editor, checkout and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -12,7 +12,7 @@
     "collection": 38,
     "product": 40,
     "cart": 11,
-    "interactive": 33,
+    "interactive": 66,
     "mobile": 127,
     "editor": 0,
     "checkout": 0,
@@ -33,7 +33,7 @@
     "product": 0,
     "cart": 0,
     "home_any_source": 0,
-    "interactive": 94,
+    "interactive": 61,
     "mobile": 0,
     "editor": 127,
     "checkout": 127,
@@ -433,11 +433,7 @@
     "vision:vision",
     "ignite:ignite",
     "sleek:jumped",
-    "be-yours:sheen",
-    "palo-alto:palo-alto",
-    "pipeline:pipeline",
-    "focal:focal",
-    "local:thrive"
+    "be-yours:sheen"
   ],
   "presets": [
     {
@@ -2975,18 +2971,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -3009,7 +3005,13 @@
           "url": "https://focal-theme-carbon.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-focal-focal-browser-render"
+        "shopify-focal-focal-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://focal-theme-carbon.myshopify.com/products/leather-case-for-airpods-pro",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-focal-focal-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3020,7 +3022,11 @@
         },
         "observation_id": "mobile-focal:focal-2026-10-27",
         "observations": "Bold announcement bar, compact dark header and high-contrast collection hero."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-focal-focal-2026-10-27"
+      ]
     },
     {
       "audit_rank": 27,
@@ -3063,13 +3069,13 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, Quick View, variant, size chart, add-on or purchase actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -3077,7 +3083,7 @@
         "Seller price, material, sustainability, shipping and fulfillment claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -3100,7 +3106,13 @@
           "url": "https://focal-theme-ivory.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-focal-ivory"
+        "shopify-live-focal-ivory",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://focal-theme-ivory.myshopify.com/products/evaline-e54-blazer",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-focal-ivory-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3111,7 +3123,11 @@
         },
         "observation_id": "mobile-focal:ivory-2026-10-27",
         "observations": "Muted promo/header bars and a full-width editorial fashion portrait."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-focal-ivory-2026-10-27"
+      ]
     },
     {
       "audit_rank": 28,
@@ -3154,20 +3170,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, pagination, option, quantity, tab, quick-view, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
         "Merchant price, inventory, review, warranty, shipping, material and product-history claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -3190,7 +3206,13 @@
           "url": "https://focal-theme-quartz.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-focal-quartz-browser-render"
+        "shopify-focal-quartz-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://focal-theme-quartz.myshopify.com/products/1969-vintage-steel-white-36-39mm",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-focal-quartz-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3201,7 +3223,11 @@
         },
         "observation_id": "mobile-focal:quartz-2026-10-27",
         "observations": "Watch campaign image with large centered headline and compact dark wordmark row."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-focal-quartz-2026-10-27"
+      ]
     },
     {
       "audit_rank": 29,
@@ -3244,13 +3270,13 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, pagination, zoom, variant, Quick View, add-to-cart or purchase action executed",
         "No screenshot or measured viewport/mobile render",
@@ -3258,7 +3284,7 @@
         "Seller jewelry, material, rating, shipping and warranty claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -3281,7 +3307,13 @@
           "url": "https://focal-theme-sapphire.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-focal-sapphire"
+        "shopify-live-focal-sapphire",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://focal-theme-sapphire.myshopify.com/products/double-meteorites-stud-earrings-ae9784ox",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-focal-sapphire-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3292,7 +3324,11 @@
         },
         "observation_id": "mobile-focal:sapphire-2026-10-27",
         "observations": "Jewellery portrait fills the screen; oversized serif copy begins below the image."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-focal-sapphire-2026-10-27"
+      ]
     },
     {
       "audit_rank": 30,
@@ -3638,13 +3674,13 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filter, sort, view density, variant, zoom, add-to-cart or checkout actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -3652,7 +3688,7 @@
         "Merchant product, stock, pickup, shipping and sustainability claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -3675,7 +3711,13 @@
           "url": "https://expanse-theme-furniture.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-expanse"
+        "shopify-expanse",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://expanse-theme-furniture.myshopify.com/collections/planters/products/trigg-wall-vessel",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-expanse-expanse-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3686,7 +3728,11 @@
         },
         "observation_id": "mobile-expanse:expanse-2026-10-27",
         "observations": "Search and cart controls remain compact above an appliance/product-led image."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-expanse-expanse-2026-10-27"
+      ]
     },
     {
       "audit_rank": 34,
@@ -3729,13 +3775,13 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, view density, variant, zoom, quantity, Quick Shop, cart or checkout actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -3743,7 +3789,7 @@
         "Merchant seller, inventory, fulfillment and promotional claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -3766,7 +3812,13 @@
           "url": "https://expanse-theme-beauty.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-expanse-revive"
+        "shopify-expanse-revive",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://expanse-theme-beauty.myshopify.com/collections/face-mists/products/valmont-priming-with-a-hydrating-fluid",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-expanse-revive-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3777,7 +3829,11 @@
         },
         "observation_id": "mobile-expanse:revive-2026-10-27",
         "observations": "Transparent header overlays skincare portrait; Shop Now CTA centered in the hero."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-expanse-revive-2026-10-27"
+      ]
     },
     {
       "audit_rank": 35,
@@ -3820,13 +3876,13 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filter, sort, density, quick shop, cart or checkout actions",
         "No screenshot or measured viewport/mobile render",
@@ -3834,7 +3890,7 @@
         "Demo product, inventory, organic, alcohol-free, shipping and promotion claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -3857,7 +3913,13 @@
           "url": "https://expanse-theme-food-and-drink.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-expanse-spritz"
+        "shopify-expanse-spritz",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-expanse-spritz-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3868,7 +3930,11 @@
         },
         "observation_id": "mobile-expanse:spritz-2026-10-27",
         "observations": "Clean drinkware/product photography and sparse logo navigation."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-expanse-spritz-2026-10-27"
+      ]
     },
     {
       "audit_rank": 36,
@@ -3911,13 +3977,13 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filters, sort, density, product or cart actions",
         "No screenshot or measured viewport/mobile render",
@@ -3925,7 +3991,7 @@
         "Demo product, sustainability, shipping and promotion claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -3948,7 +4014,13 @@
           "url": "https://fetch-theme-modern.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-expanse-fetch"
+        "shopify-live-expanse-fetch",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/pink-dog-collar-walk-kit-bag-pins",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-expanse-fetch-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -3959,7 +4031,11 @@
         },
         "observation_id": "mobile-expanse:fetch-2026-10-27",
         "observations": "Pet portrait is prominent in a pale, single-column campaign layout."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-expanse-fetch-2026-10-27"
+      ]
     },
     {
       "audit_rank": 37,
@@ -4002,13 +4078,13 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filter, sort, density, variant, zoom, add-to-cart, cart or checkout action",
         "No screenshot or measured viewport/mobile render",
@@ -4016,7 +4092,7 @@
         "Seller product, stock, material, sustainability and service claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -4039,7 +4115,13 @@
           "url": "https://gem-theme-emerald.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-expanse-gem"
+        "shopify-expanse-gem",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://gem-theme-emerald.myshopify.com/collections/earrings/products/karasuba",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-expanse-gem-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4050,7 +4132,11 @@
         },
         "observation_id": "mobile-expanse:gem-2026-10-27",
         "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-expanse-gem-2026-10-27"
+      ]
     },
     {
       "audit_rank": 38,
@@ -4093,20 +4179,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filters, sort or compare actions; no variants/add/cart/checkout actions",
         "No Theme Editor, keyboard or performance testing",
         "Food, nutrition, organic, rating, availability, pickup and delivery claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -4129,7 +4215,13 @@
           "url": "https://local-theme-main.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-local-default"
+        "shopify-live-local-default",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://local-theme-main.myshopify.com/collections/bread-buns-crisps/products/some-bread",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-local-local-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4140,7 +4232,11 @@
         },
         "observation_id": "mobile-local:local-2026-10-27",
         "observations": "Single-column grocery hero with short headline, product image and Shop Now CTA; product/retail content follows the fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-local-local-2026-10-27"
+      ]
     },
     {
       "audit_rank": 39,
@@ -4183,20 +4279,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, variant, zoom, add-to-cart, cart or checkout actions",
         "No Theme Editor, keyboard or performance tests",
         "Demo product, material, waterproof, sale and fulfillment claims unverified"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -4219,7 +4315,13 @@
           "url": "https://local-theme-soleway.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-local-soleway"
+        "shopify-local-soleway",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers/products/timberland%C2%AE-premium-6-inch-waterproof-boot",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-local-soleway-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4230,7 +4332,11 @@
         },
         "observation_id": "mobile-local:soleway-2026-10-27",
         "observations": "Footwear hero and large headline; store-location/pickup and merchandising panels stack below."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-local-soleway-2026-10-27"
+      ]
     },
     {
       "audit_rank": 40,
@@ -4273,16 +4379,16 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [],
       "next_action": [
-        "Continue to next unobserved selected preset; retain read-only evidence and verify merchant-owned claims before relying on them"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -4305,7 +4411,13 @@
           "url": "https://local-theme-thrive.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-local-thrive-browser-render"
+        "shopify-local-thrive-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://local-theme-thrive.myshopify.com/products/gut-health-ground-coffee",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-local-thrive-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4316,7 +4428,11 @@
         },
         "observation_id": "mobile-local:thrive-2026-10-27",
         "observations": "Collapsed menu/logo/cart with centered protein product hero, headline and CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-local-thrive-2026-10-27"
+      ]
     },
     {
       "audit_rank": 41,
@@ -4359,18 +4475,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified."
       ],
       "next_action": [
-        "Continue remaining selected presets in rank order."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -4388,7 +4504,13 @@
           "url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-local-caffeine-rendered"
+        "shopify-live-local-caffeine-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-local-caffeine-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4399,7 +4521,11 @@
         },
         "observation_id": "mobile-local:caffeine-2026-10-27",
         "observations": "360×640 frame verified; first captures remained blurred after initial wait, so layout detail not signed off."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-local-caffeine-2026-10-27"
+      ]
     },
     {
       "audit_rank": 42,
@@ -4442,18 +4568,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified."
       ],
       "next_action": [
-        "Continue remaining selected presets in rank order."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -4476,7 +4602,13 @@
           "url": "https://local-theme-lively.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-local-lively-rendered"
+        "shopify-live-local-lively-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://local-theme-lively.myshopify.com/collections/red/products/crimson-reserve-2016",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-local-lively-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -4487,7 +4619,11 @@
         },
         "observation_id": "mobile-local:lively-2026-10-27",
         "observations": "360×640 frame verified; first captures remained blurred after initial wait, so layout detail not signed off."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-local-lively-2026-10-27"
+      ]
     },
     {
       "audit_rank": 43,
@@ -5267,20 +5403,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Official listing iframe src host and loaded storefront link host differ; retain the mapping caveat.",
         "No shopper interactions, screenshot, measured viewport/mobile, Theme Editor, checkout, keyboard or performance testing.",
         "Seller product, stock, material, shipping and sustainability claims remain unverified."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset while retaining the Stiletto preview host discrepancy."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -5303,7 +5439,13 @@
           "url": "https://stiletto-theme-stiletto.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-stiletto"
+        "shopify-live-stiletto",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-stiletto-stiletto-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -5314,7 +5456,11 @@
         },
         "observation_id": "mobile-stiletto:stiletto-2026-10-27",
         "observations": "Large fashion hero under compact header; oversized serif headline and CTA lower in view."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-stiletto-stiletto-2026-10-27"
+      ]
     },
     {
       "audit_rank": 52,
@@ -5357,20 +5503,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sorting, Quick View, product options, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
         "Seller material, sourcing, sustainability, stock, shipping and store claims remain unverified."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset and keep rendered evidence separate from indexed HTML page coverage."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -5393,7 +5539,13 @@
           "url": "https://stiletto-theme-luster.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-stiletto-luster-rendered"
+        "shopify-stiletto-luster-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry/products/the-rivi-ring",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-stiletto-luster-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed_with_limited_visual_clarity",
@@ -5404,7 +5556,11 @@
         },
         "observation_id": "mobile-stiletto:luster-2026-10-27",
         "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-stiletto-luster-2026-10-27"
+      ]
     },
     {
       "audit_rank": 53,
@@ -5447,20 +5603,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, size, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
         "Seller product, availability, shipping, material and sourcing claims remain unverified."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset; do not add unique-home credit because Linen homepage was already indexed."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -5483,7 +5639,13 @@
           "url": "https://stiletto-theme-linen.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-stiletto-linen-rendered"
+        "shopify-live-stiletto-linen-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://stiletto-theme-linen.myshopify.com/collections/footwear/products/teddy-heel-ecru?variant=45491245416563",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-stiletto-linen-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -5494,7 +5656,11 @@
         },
         "observation_id": "mobile-stiletto:linen-2026-10-27",
         "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-stiletto-linen-2026-10-27"
+      ]
     },
     {
       "audit_rank": 54,
@@ -5539,20 +5705,20 @@
         "https://stiletto-theme-glimmer.myshopify.com/collections/minis"
       ],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sorting, Quick View, variants, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
         "Seller efficacy, ingredients, inventory, sustainability and promotion claims remain unverified."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset; do not add unique-home credit because Glimmer home was already indexed."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -5575,7 +5741,13 @@
           "url": "https://stiletto-theme-glimmer.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-stiletto-glimmer-rendered"
+        "shopify-live-stiletto-glimmer-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/collections/face/products/marula-face-oil",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-stiletto-glimmer-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -5586,7 +5758,11 @@
         },
         "observation_id": "mobile-stiletto:glimmer-2026-10-27",
         "observations": "Centered wordmark and compact controls; product-led skincare hero with centered Shop Now button."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-stiletto-glimmer-2026-10-27"
+      ]
     },
     {
       "audit_rank": 55,
@@ -5629,20 +5805,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sorting, Quick View, product options, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
         "Seller product, safety, studio, location, class and shipping claims remain unverified."
       ],
       "next_action": [
-        "Continue with next unobserved selected preset; keep rendered evidence separate because Tapestry home was already indexed."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -5665,7 +5841,13 @@
           "url": "https://stiletto-theme-tapestry.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-stiletto-tapestry-rendered"
+        "shopify-live-stiletto-tapestry-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all/products/wine-cup-anthracite",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-stiletto-tapestry-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -5676,7 +5858,11 @@
         },
         "observation_id": "mobile-stiletto:tapestry-2026-10-27",
         "observations": "Compact header and sale strip over a pottery/lifestyle hero; product campaign begins below the fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-stiletto-tapestry-2026-10-27"
+      ]
     },
     {
       "audit_rank": 56,
@@ -5719,20 +5905,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
         "Merchant product, price, stock, material, shipping and brand claims remain unverified"
       ],
       "next_action": [
-        "Rendered home, collection, product and cart inspected read-only; optional interaction/device testing remains pending."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -5755,7 +5941,13 @@
           "url": "https://motion-theme-adventure.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-motion-motion-rendered"
+        "shopify-live-motion-motion-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips/products/merino-wool-quarter-zip",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-motion-motion-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -5766,7 +5958,11 @@
         },
         "observation_id": "mobile-motion:motion-2026-10-27",
         "observations": "Mobile header collapses to menu/wordmark/search/cart; full-width sports image hero with large two-line campaign heading. Text and hero controls fit within phone width."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-motion-motion-2026-10-27"
+      ]
     },
     {
       "audit_rank": 57,
@@ -5809,18 +6005,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unverified selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -5843,7 +6039,13 @@
           "url": "https://motion-theme-accessories.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-motion-satchel-browser-render"
+        "shopify-motion-satchel-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://motion-theme-accessories.myshopify.com/products/whelma-bag",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-motion-satchel-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -5854,7 +6056,11 @@
         },
         "observation_id": "mobile-motion:satchel-2026-10-27",
         "observations": "Compact menu/centered wordmark/search/cart header; portrait fashion campaign with large Summer 2026 heading. Hero imagery dominates the first screen."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-motion-satchel-2026-10-27"
+      ]
     },
     {
       "audit_rank": 58,
@@ -5897,20 +6103,20 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
         "Merchant product, price, stock, material, shipping and brand claims remain unverified"
       ],
       "next_action": [
-        "Rendered home, collection, product and cart inspected read-only; optional interaction/device testing remains pending."
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -5933,7 +6139,13 @@
           "url": "https://motion-theme-home.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-live-motion-memo-rendered"
+        "shopify-live-motion-memo-rendered",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://motion-theme-home.myshopify.com/collections/homewares/products/tumbler-eggplant",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-motion-memo-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -5944,7 +6156,11 @@
         },
         "observation_id": "mobile-motion:memo-2026-10-27",
         "observations": "Compact utility header; stationery/lifestyle hero with centered headline and a full-width outlined collection CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-motion-memo-2026-10-27"
+      ]
     },
     {
       "audit_rank": 59,
@@ -5987,18 +6203,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6021,7 +6237,13 @@
           "url": "https://palo-alto-theme-main.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-palo-alto-palo-alto-browser-render"
+        "shopify-palo-alto-palo-alto-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals/products/sabine-skirt",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-palo-alto-palo-alto-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6032,7 +6254,11 @@
         },
         "observation_id": "mobile-palo-alto:palo-alto-2026-10-27",
         "observations": "360px view shows promo/nav text clipped at right edge and hero heading/button extending beyond viewport; horizontal overflow risk."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-palo-alto-palo-alto-2026-10-27"
+      ]
     },
     {
       "audit_rank": 60,
@@ -6075,18 +6301,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset; keep untested surfaces explicitly pending"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6109,7 +6335,13 @@
           "url": "https://palo-alto-theme-dynamo.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-palo-alto-dynamo-browser-render"
+        "shopify-palo-alto-dynamo-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/products/navigator-backpack",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-palo-alto-dynamo-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6120,7 +6352,11 @@
         },
         "observation_id": "mobile-palo-alto:dynamo-2026-10-27",
         "observations": "Promo/header copy is horizontally clipped at phone width; hero text also approaches both edges."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-palo-alto-dynamo-2026-10-27"
+      ]
     },
     {
       "audit_rank": 61,
@@ -6163,18 +6399,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue next unobserved selected preset; keep all untested surfaces pending"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6197,7 +6433,13 @@
           "url": "https://palo-alto-theme-skylight.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-palo-alto-skylight-browser-render"
+        "shopify-palo-alto-skylight-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/products/kalinda-boots",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-palo-alto-skylight-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6208,7 +6450,11 @@
         },
         "observation_id": "mobile-palo-alto:skylight-2026-10-27",
         "observations": "Clean mobile header and centered lifestyle hero with clear CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-palo-alto-skylight-2026-10-27"
+      ]
     },
     {
       "audit_rank": 62,
@@ -6251,18 +6497,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unverified selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6285,7 +6531,13 @@
           "url": "https://palo-alto-theme-phenomena.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-palo-alto-phenomena-browser-render"
+        "shopify-palo-alto-phenomena-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/products/halo-highlighter",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-palo-alto-phenomena-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6296,7 +6548,11 @@
         },
         "observation_id": "mobile-palo-alto:phenomena-2026-10-27",
         "observations": "Centered header and short hero CTA sit cleanly above the fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-palo-alto-phenomena-2026-10-27"
+      ]
     },
     {
       "audit_rank": 63,
@@ -6339,18 +6595,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unverified selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6373,7 +6629,13 @@
           "url": "https://palo-alto-theme-pluma.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-palo-alto-pluma-browser-render"
+        "shopify-palo-alto-pluma-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/products/jardin-placemat",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-palo-alto-pluma-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6384,7 +6646,11 @@
         },
         "observation_id": "mobile-palo-alto:pluma-2026-10-27",
         "observations": "Large hero headline and CTA fit the phone width but push lower content down."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-palo-alto-pluma-2026-10-27"
+      ]
     },
     {
       "audit_rank": 64,
@@ -6427,18 +6693,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unobserved selected preset; keep all untested surfaces explicitly pending"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6461,7 +6727,13 @@
           "url": "https://pipeline-theme-fashion.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-pipeline-pipeline-browser-render"
+        "shopify-pipeline-pipeline-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://pipeline-theme-fashion.myshopify.com/products/callie-looker-cardigan-beige",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-pipeline-pipeline-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6472,7 +6744,11 @@
         },
         "observation_id": "mobile-pipeline:pipeline-2026-10-27",
         "observations": "Compact header and centered editorial copy make a restrained mobile opening."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-pipeline-pipeline-2026-10-27"
+      ]
     },
     {
       "audit_rank": 65,
@@ -6515,18 +6791,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Official preset positioning and rendered demo content mismatch; no interactions, mobile, editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Verify other Pipeline preset demos independently"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6549,7 +6825,13 @@
           "url": "https://pipeline-light.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-pipeline-petra-browser-render"
+        "shopify-pipeline-petra-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://pipeline-light.myshopify.com/products/sky",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-pipeline-petra-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6560,7 +6842,11 @@
         },
         "observation_id": "mobile-pipeline:petra-2026-10-27",
         "observations": "Minimal hamburger/logo/cart header with product hero, title and CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-pipeline-petra-2026-10-27"
+      ]
     },
     {
       "audit_rank": 66,
@@ -6603,18 +6889,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Demo explicitly says catalog products are fictional; no interactions, mobile, editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unverified selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6637,7 +6923,13 @@
           "url": "https://pipeline-theme.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-pipeline-pahoa-browser-render"
+        "shopify-pipeline-pahoa-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://pipeline-theme.myshopify.com/products/fig",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-pipeline-pahoa-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6648,7 +6940,11 @@
         },
         "observation_id": "mobile-pipeline:pahoa-2026-10-27",
         "observations": "Single-column skincare hero and Shop Now action."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-pipeline-pahoa-2026-10-27"
+      ]
     },
     {
       "audit_rank": 67,
@@ -6691,18 +6987,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No interactions, mobile viewport, editor, checkout or Lighthouse tests; seller claims unverified"
       ],
       "next_action": [
-        "Continue with next unverified selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6725,7 +7021,13 @@
           "url": "https://pipeline-botanical.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-pipeline-phantom-browser-render"
+        "shopify-pipeline-phantom-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://pipeline-botanical.myshopify.com/products/nina",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-pipeline-phantom-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6736,7 +7038,11 @@
         },
         "observation_id": "mobile-pipeline:phantom-2026-10-27",
         "observations": "Minimal product header, product image and short CTA."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-pipeline-phantom-2026-10-27"
+      ]
     },
     {
       "audit_rank": 68,
@@ -6779,18 +7085,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No interactions, mobile viewport, editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unverified selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6813,7 +7119,13 @@
           "url": "https://concept-theme-tech.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-concept-browser-render"
+        "shopify-concept-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://concept-theme-tech.myshopify.com/products/air-beats",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-concept-concept-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6824,7 +7136,11 @@
         },
         "observation_id": "mobile-concept:concept-2026-10-27",
         "observations": "Image-led audio hero; headline treatment is large and campaign focused."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-concept-concept-2026-10-27"
+      ]
     },
     {
       "audit_rank": 69,
@@ -6867,18 +7183,18 @@
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
-        "actual_dom_interactions": false,
+        "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "browser_render_readonly",
+      "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Cookie notice remained visible; no interactions, mobile viewport, editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Continue with next unverified selected preset"
+        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
       ],
       "browser_render_observations": [
         {
@@ -6901,7 +7217,13 @@
           "url": "https://concept-theme-inova.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         },
-        "shopify-concept-inova-browser-render"
+        "shopify-concept-inova-browser-render",
+        {
+          "kind": "targeted_interaction",
+          "url": "https://concept-theme-inova.myshopify.com/collections/seating/products/embrace-lounge-chair",
+          "evidence_class": "browser_render_interaction",
+          "observation_id": "tier2-concept-inova-2026-10-27"
+        }
       ],
       "mobile_review": {
         "status": "reviewed",
@@ -6912,7 +7234,11 @@
         },
         "observation_id": "mobile-concept:inova-2026-10-27",
         "observations": "Editorial furniture image with long left-aligned headline continuing below the fold."
-      }
+      },
+      "interactive_tested": true,
+      "interaction_observation_ids": [
+        "tier2-concept-inova-2026-10-27"
+      ]
     },
     {
       "audit_rank": 70,
