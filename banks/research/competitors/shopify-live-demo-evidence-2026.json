@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed. Targeted live-store interactions now cover 4 selected presets (6 observations total including Ignite:Peak).",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed. Targeted live-store interactions now cover 5 selected presets (7 observations total including Ignite:Peak).",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5464,12 +5464,15 @@
           "product-grid"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
-        "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised.",
-        "No screenshot, mobile viewport, Theme Editor, keyboard or performance test. Merchant product, stock, origin, shipping and sustainability claims unverified."
+        "No screenshot, mobile viewport, Theme Editor, keyboard or performance test. Merchant product, stock, origin, shipping and sustainability claims unverified.",
+        "Collection filters, sorting, pagination, quick view, cart mutation, mobile interaction, checkout and Theme Editor remain untested."
+      ],
+      "interaction_observation_ids": [
+        "impulse-dune-variant-size-m-2026-10-27"
       ]
     }
   ],
@@ -5479,7 +5482,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 6,
+    "interactive_events_tested": 7,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -12790,6 +12793,24 @@
       "action": "Opened Quick View from the related-products rail on The Lido Short PDP; did not add to cart.",
       "observed_result": "Quick View modal opened for The Vela Shirt and showed product media, name, sale and compare-at pricing, description, size-chart access, in-stock message and DESCRIPTION / MATERIALS & CARE accordions.",
       "result": "related_product_quick_view_opened_with_product_details",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false
+    },
+    {
+      "id": "impulse-dune-variant-size-m-2026-10-27",
+      "selected_preset_id": "impulse:dune",
+      "store_url": "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black?variant=30237988749383",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1363,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Selected size M on the Naked & Famous Crewneck PDP; did not add to cart.",
+      "observed_result": "M became selected and S deselected. The URL updated with variant=30237988749383. The stock message remained In stock, ready to ship.",
+      "result": "variant_selection_updated_radio_and_url_stock_unchanged",
       "confidence": "browser_render_interaction",
       "screenshot_captured": false,
       "screenshot_saved": false
