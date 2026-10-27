@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "126/127 unique selected homes observed across indexed HTML and read-only rendered browser evidence; 1 unique home remains.",
+  "completion_claim": "127/127 unique selected homes observed across indexed HTML and read-only rendered browser evidence; 0 unique homes remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 375,
-    "browser_rendered_selected_presets": 95,
-    "distinct_selected_homepages_any_source": 126
+    "browser_rendered_pages": 379,
+    "browser_rendered_selected_presets": 96,
+    "distinct_selected_homepages_any_source": 127
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 1
+    "home_any_source": 0
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -6774,24 +6774,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-soda-2.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-soda-2.myshopify.com/collections/seltzers"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-soda-2.myshopify.com/products/grape"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-soda-2.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6802,14 +6798,15 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No screenshots or viewport dimensions; no filters, sort, variant options, cart actions, mobile, editor, checkout or performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/shapes/presets/fizz",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Unique selected-home research complete at 127/127"
+      ],
+      "browser_render_observations": [
+        "shopify-shapes-fizz-browser-render"
       ]
     },
     {
