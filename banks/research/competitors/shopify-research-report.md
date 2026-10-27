@@ -93,3 +93,8 @@ The 127-preset mobile preview sweep is complete at **360×640 CSS px**. It adds 
 - Review age-gate and cookie-consent states as part of the first viewport. Lively and Eurus:Arise exposed these overlays in the reviewed view.
 
 See `shopify-mobile-synthesis-2026.md`, `shopify-mobile-review-batch131-2026.md`, `shopify-127-completion-matrix-2026.json` and `banks/design/competitor-observations.json`. All findings inform original responsive design; exact competitor layouts, imagery and type combinations should not be copied.
+
+
+## Targeted interaction supplement — 2026-10-27
+
+Read-only live storefront interactions were sampled on Enterprise:Enterprise and Prestige:Couture and added to the existing Ignite:Peak gate observation. Findings cover a cascading catalog finder, filter/sort menus, variant-dependent stock and an empty cart recommendation drawer. The four new checks ran in a 1363×936 CSS px browser viewport; they are not mobile-emulated interaction tests. See `shopify-interaction-sample-batch133-2026.md`.
