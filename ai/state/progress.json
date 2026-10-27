@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Completed static VSN Theme Editor audit and diagnosed the missing app control: app embeds require an installed app's deployed Theme App Extension; the repo has no app extension. The theme layout contains content_for_header. Inline @app blocks are declared/rendered only by vsn-section, instantiated on the prototype JSON page; 12 current Liquid templates lack the JSON-template app-block route. Report: banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md. Store/app state is unavailable, so live confirmation remains pending; competitor editor matrix stays 0/127 reviewed, 127 pending. Continue Stage 2 only.",
+  "next_action": "Cross-repository check found VSN Builder's Theme App Extension: vsn-page-renderer is a target:body app embed and 25 target:section app blocks. The VSN Builder T032 record says no Shopify store installed/published/deployed; real editor E2E T033 remains waiting and direct CLI deploy is guarded. Likely missing embed cause is extension deployment/installation in the target store; no store session is connected to confirm. Full evidence is in banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md. Do not alter code/deploy in Stage 2. Competitor editor matrix remains 0/127 reviewed, 127 pending.",
   "approvals": {},
   "figma": {
     "file_key": null,
