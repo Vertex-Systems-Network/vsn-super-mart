@@ -1,3 +1,17 @@
+## 2026-10-27 — Shopify all-screen template coverage checkpoint — COMPLETE
+
+**Done**
+- Reconciled preset IDs across indexed HTML and browser-rendered evidence; earlier pending counters were indexed-only.
+- Filled the remaining collection, product and cart routes, then rechecked all combined page coverage.
+- Status: **127/127 homes · 127/127 collections · 127/127 product pages · 127/127 carts.**
+- Evidence now records 443 rendered pages across 127 browser observation records.
+
+**Still unverified**
+- Actual interactive behavior, mobile viewport, private Theme Editor, checkout progression and Lighthouse/performance measurement.
+
+**Next**
+- Continue with feasible read-only interaction/mobile validation; document access or tooling limits for the remaining test environments.
+
 ## 2026-10-27 — Shopify missing-demo reconciliation Batch 126
 
 **Done**
