@@ -1456,6 +1456,18 @@
         "Empty cart recommendations and threshold copy"
       ],
       "design_hypothesis": "Homewares direction organizes colorful tabletop product around gathering occasions, with editorial story modules around commerce shelves. Product claims and responsive behavior remain unverified."
+    },
+    {
+      "id": "shopify-live-be-yours",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Campaign slideshow and new arrivals shelf with skincare metadata",
+        "Skin-tone and routine quiz modules",
+        "Tabbed bestsellers and UGC routines",
+        "Featured PDP, comparison table and ingredient-story sections",
+        "Before/after module, Shop the Look, testimonials and guarantees"
+      ],
+      "design_hypothesis": "Beauty merchandising joins routine education and product comparison with conversion modules; actual efficacy, retailer, and ingredient claims remain unverified."
     }
   ]
 }
