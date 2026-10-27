@@ -118,3 +118,10 @@ Impulse:Terrain's 2016 Carbine Expert Build PDP was tested at 1363×936 CSS px. 
 ## Tier 1 interaction group closeout — Batch 137 (2026-10-27)
 
 All **27/27 Tier 1 pending presets** received a verified read-only interaction. Checks covered product-detail disclosures, navigation/search, size-chart access and gallery zoom. No cart mutation or checkout was performed. Tier 1 has been removed from pending groups and archived as complete; overall targeted interaction coverage is **33/127 presets across 35 observations**, with 94 presets pending in lower-priority groups. See `shopify-interaction-sample-batch137-2026.md`.
+
+
+## Tier 2 interaction group closeout — Batch 138 (2026-10-27)
+
+All **33/33 Tier 2 pending presets** received a verified live interaction and were removed from pending groups. Checks covered product disclosures, size guidance, variant state, product gallery dialogs, locale controls, pickup-location panels and search. Overall targeted interaction coverage is **66/127 presets across 68 observations**, with 61 presets pending: Tier 3 (6), Tier 4 (38) and other selected families (17). Mobile visual review remains 127/127. See `shopify-interaction-sample-batch138-2026.md`.
+
+During the Stiletto:Linen review, an unintended quantity-2 cart state occurred while controls were being targeted. Both units were removed; the cart was verified empty. No checkout or payment occurred. Stiletto:Stiletto's listed product route returned 404, so its public homepage search modal was used as a fallback.
