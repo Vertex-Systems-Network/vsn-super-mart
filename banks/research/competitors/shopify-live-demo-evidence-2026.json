@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 56 additional browser-rendered homes are documented (107/127 unique); 300 read-only rendered pages across 76 selected presets.",
+  "summary": "51 indexed HTML selected homes and 57 additional browser-rendered homes are documented (108/127 unique); 304 read-only rendered pages across 77 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 76,
-    "opened_home": 76,
-    "opened_collection": 63,
-    "opened_product": 64,
-    "opened_empty_cart": 30,
+    "opened_stores": 77,
+    "opened_home": 77,
+    "opened_collection": 64,
+    "opened_product": 65,
+    "opened_empty_cart": 31,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10259,11 +10259,70 @@
       "limits": [
         "Material official-preset-to-rendered-content mismatch: listing says luxury brand, demo host is Pipeline Light and sells shoes/moccasins. No interaction, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller/product/retailer claims unverified."
       ]
+    },
+    {
+      "id": "shopify-pipeline-pahoa-browser-render",
+      "selected_preset_id": "pipeline:pahoa",
+      "theme_family": "Pipeline",
+      "preset": "Pahoa",
+      "store_url": "https://pipeline-theme.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Pipeline:Pahoa listing, verified View demo iframe src, inspected home, Bestsellers collection, Fig PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://pipeline-theme.myshopify.com/",
+          "observations": [
+            "Pipeline: Pahoa official iframe shows Pipeline Bright / Darma skincare demo: cosmetic hero; Our Top Shelf Best Sellers/New Arrivals tabs; product shelves; routine education accordions; product hotspots; moisturizer and ritual shelves; claims about natural/organic/cruelty-free products. Footer explicitly states products are not real and the store was created to demonstrate Pipeline theme."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://pipeline-theme.myshopify.com/collections/bestsellers",
+          "observations": [
+            "Bestsellers collection lists 11 products with Price, Size, Availability and Product Type facets; sort and 2/3/4-column layout controls visible but untouched; quick-add controls."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://pipeline-theme.myshopify.com/products/fig",
+          "observations": [
+            "Fig PDP, five gallery images, $25 price, 30ml variant, one-left stock message, Description/Customer Results/Ingredient List tabs, related product, ingredients story, routine pairings, product hotspots, claims/review proof. Demo explicitly says products are not real."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://pipeline-theme.myshopify.com/cart",
+          "observations": [
+            "Empty cart and Continue Browsing link; three collapsed shipping/tracking FAQ controls visible but untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Store footer explicitly states products are not real and storefront demonstrates the theme. Product/ingredient/retail claims are fictional/unverified. No interaction, screenshot, mobile, editor, checkout or performance tests."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 300,
-    "selected_presets": 76,
-    "unique_selected_homepages_across_all_source_types": 107
+    "pages": 304,
+    "selected_presets": 77,
+    "unique_selected_homepages_across_all_source_types": 108
   }
 }
