@@ -130,3 +130,8 @@ During the Stiletto:Linen review, an unintended quantity-2 cart state occurred w
 ## Tier 3 interaction group closeout — Batch 139 (2026-10-27)
 
 All **6/6 Tier 3 presets** received a verified live interaction and were removed from pending groups. Checks covered search, size and pack selection, product feature disclosure and gallery zoom in the first-party free theme baseline. Overall targeted interaction coverage is **72/127 presets across 74 observations**, with 55 presets pending: Tier 4 (38) and other selected families (17). Mobile visual review remains 127/127. See `shopify-interaction-sample-batch139-2026.md`.
+
+
+## Tier 4 interaction group closeout — Batch 140 (2026-10-28)
+
+All **38/38 Tier 4 presets** received a verified live-demo interaction and were archived from pending. Coverage spans Be Yours, Sleek, Wonder, Eurus, Release, Ignite, Shapes and Vision. Actions included reversible gallery zoom, variant selection, product-detail disclosures and tabs, and opening navigation/localization menus. No locale was changed; cart and checkout actions were not used. Overall targeted interaction coverage is now **110/127 presets across 112 observations**, with **17 presets pending** in Other selected families. Mobile visual review remains 127/127. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain unverified. See `shopify-interaction-sample-batch140-2026.md`.
