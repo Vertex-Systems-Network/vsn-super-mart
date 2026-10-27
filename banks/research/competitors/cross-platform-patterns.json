@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "purpose": "Evidence -> VSN option IDs -> design decisions. Research only; never copy competitor code or pixels.",
   "patterns": [
     {
@@ -2261,6 +2261,114 @@
         "related-products"
       ],
       "design_implication": "Make eyewear-specific protection, fit and prescription information easy to find alongside color and purchase controls, and keep provenance claims clearly identified."
+    },
+    {
+      "id": "shopify-mobile-header-hierarchy",
+      "context": "At phone width, promo, search, brand, navigation and cart compete for the same narrow header area.",
+      "signals": [
+        "Most reviewed presets reduce primary navigation to a compact drawer/header row.",
+        "Enterprise and Warehouse retain search and department controls, creating a taller header stack.",
+        "Palo Alto:Dynamo and Empire variants showed crowded/clipped text or controls."
+      ],
+      "source_entry_ids": [
+        "shopify-mobile-sweep-header-hierarchy",
+        "shopify-mobile-sweep-overflow"
+      ],
+      "option_ids": [
+        "announcement-bar",
+        "mobile-drawer-menu",
+        "header-layouts",
+        "sticky-header",
+        "transparent-header",
+        "predictive-search",
+        "cart-icon-count"
+      ],
+      "design_implication": "Build a responsive header stack with optional promo/search rows and a 360 px no-overflow check; preserve access to menu, search and cart."
+    },
+    {
+      "id": "shopify-mobile-hero-copy-fit",
+      "context": "Campaign-led storefronts keep image-first storytelling on mobile, while editorial copy often spans multiple lines.",
+      "signals": [
+        "Full-width imagery is the dominant first-screen pattern across fashion, beauty, food, home and pet examples.",
+        "Large headlines often continue below the fold; centered and left-aligned CTAs both appear.",
+        "Refresh and Spotlight surface product cards early, providing an alternate product-first entry."
+      ],
+      "source_entry_ids": [
+        "shopify-mobile-sweep-hero-copy",
+        "shopify-mobile-sweep-catalog-density"
+      ],
+      "option_ids": [
+        "image-banner",
+        "video-section",
+        "image-focal-points",
+        "responsive-images",
+        "button-styles",
+        "featured-collection"
+      ],
+      "design_implication": "Provide mobile focal-point controls, sensible headline wrapping, CTA spacing and a product-first alternative; review the full hero and next-section transition."
+    },
+    {
+      "id": "shopify-mobile-catalog-density",
+      "context": "Mobile catalog entry can prioritize search and filters or move directly to editorial products.",
+      "signals": [
+        "Enterprise/Warehouse mobile previews stack search and category controls above content.",
+        "Refresh and Spotlight display two product cards across at phone width.",
+        "Many campaign presets keep a single-column image/text sequence."
+      ],
+      "source_entry_ids": [
+        "shopify-mobile-sweep-catalog-density"
+      ],
+      "option_ids": [
+        "predictive-search",
+        "faceted-filters",
+        "filter-layouts",
+        "sorting",
+        "grid-density",
+        "collection-grid-list-toggle",
+        "product-card-variants"
+      ],
+      "design_implication": "Use progressive disclosure for dense catalog tools and a legible two-column card default, with an optional one-column treatment for larger imagery."
+    },
+    {
+      "id": "shopify-mobile-overflow-and-copy",
+      "context": "Horizontal overflow can make announcement strips and image overlays difficult to scan at narrow widths.",
+      "signals": [
+        "Palo Alto:Dynamo and Broadcast:Motif showed text approaching or clipping the phone edges.",
+        "Empire:Empire and Empire:Circuit had crowded mobile header/hero copy.",
+        "Long headlines on several editorial presets wrapped into tall but readable vertical layouts."
+      ],
+      "source_entry_ids": [
+        "shopify-mobile-sweep-overflow"
+      ],
+      "option_ids": [
+        "announcement-bar",
+        "scrolling-text",
+        "image-banner",
+        "typography-settings",
+        "layout-settings",
+        "contrast"
+      ],
+      "design_implication": "Add narrow-width overflow checks for promo strips, header controls and overlaid headings; allow copy to wrap or use a bounded, intentional ticker."
+    },
+    {
+      "id": "shopify-mobile-overlay-states",
+      "context": "Consent and age-verification overlays change the usable first viewport and need dedicated mobile treatment.",
+      "signals": [
+        "Lively showed age verification in the initial mobile view.",
+        "Eurus:Arise cookie consent covered much of the hero; the preview background remained soft.",
+        "Two previews retained limited hero media clarity even though mobile composition was reviewed."
+      ],
+      "source_entry_ids": [
+        "shopify-mobile-sweep-overlays"
+      ],
+      "option_ids": [
+        "cookie-consent",
+        "age-verification",
+        "touch-targets",
+        "keyboard-focus",
+        "a11y-lighthouse"
+      ],
+      "design_implication": "Include consent and gate states in mobile layout review; check dialog size, readable controls and focus paths. Track placeholder/media clarity separately from layout."
     }
   ]
 }
