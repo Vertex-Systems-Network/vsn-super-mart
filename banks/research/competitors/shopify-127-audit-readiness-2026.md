@@ -70,3 +70,8 @@ Tier 3 is complete: **6/6 preset interactions verified** and archived from pendi
 ## Tier 4 interaction closeout — Batch 140 (2026-10-28)
 
 Tier 4 is complete: **38/38 preset interactions verified** and removed from pending. Targeted interaction evidence now covers **110/127 presets across 112 observations**; **17 interaction presets remain** in Other selected families. Mobile review remains 127/127. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain unverified. Locale menus were opened but no market was changed; no cart or checkout actions were taken. See `shopify-interaction-sample-batch140-2026.md`.
+
+
+## Remaining selected-family interaction closeout — Batch 141 (2026-10-28)
+
+The final **17/17 interaction presets** are complete; the interaction queue is now **0 pending**. Targeted live interactions cover **127/127 presets across 129 observations**. Mobile review remains 127/127. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain unverified for all 127 presets. See `shopify-interaction-sample-batch141-2026.md`.
