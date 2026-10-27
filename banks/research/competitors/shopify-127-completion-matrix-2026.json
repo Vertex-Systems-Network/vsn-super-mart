@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 14/127 visually complete at 360×640 CSS px; 3 captures remain blurred and 110 presets have not yet been reviewed. Interaction, Theme Editor, checkout and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews.  Interaction, Theme Editor, checkout and Lighthouse checks remain open.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -13,19 +13,19 @@
     "product": 40,
     "cart": 11,
     "interactive": 1,
-    "mobile": 14,
+    "mobile": 127,
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 460,
+    "browser_rendered_pages": 570,
     "browser_rendered_selected_presets": 127,
     "distinct_selected_homepages_any_source": 127,
     "read_only_homepages_across_sources": 127,
     "read_only_collections_across_sources": 127,
     "read_only_products_across_sources": 127,
     "read_only_carts_across_sources": 127,
-    "browser_rendered_mobile": 17,
-    "mobile_viewport_attempts": 17
+    "browser_rendered_mobile": 127,
+    "mobile_viewport_attempts": 127
   },
   "pending": {
     "home": 0,
@@ -34,7 +34,7 @@
     "cart": 0,
     "home_any_source": 0,
     "interactive": 126,
-    "mobile": 113,
+    "mobile": 0,
     "editor": 127,
     "checkout": 127,
     "lighthouse": 127
@@ -526,7 +526,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-impulse:impulse-2026-10-27"
+        "observation_id": "mobile-impulse:impulse-2026-10-27",
+        "observations": "Mobile hero has collapsed menu, centered wordmark/cart, full-width shoppable fashion image with hotspot markers; next section heading follows cleanly."
       }
     },
     {
@@ -614,7 +615,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-impulse:dune-2026-10-27"
+        "observation_id": "mobile-impulse:dune-2026-10-27",
+        "observations": "Compact Dune/search/menu/cart header and vertical editorial hero; headline and single CTA are readable within the phone frame."
       }
     },
     {
@@ -643,12 +645,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://impulse-theme-sports.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://impulse-theme-sports.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact commerce header with an edge-to-edge cycling hero, centered headline and Watch CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -682,7 +695,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-impulse-terrain-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-impulse:terrain-2026-10-27",
+        "observations": "Compact commerce header with an edge-to-edge cycling hero, centered headline and Watch CTA."
+      }
     },
     {
       "audit_rank": 4,
@@ -710,12 +733,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://impulse-theme-jewelry.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://impulse-theme-jewelry.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal header sits above a product-led fragrance hero; product row follows directly below."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -749,7 +783,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-impulse-apothecary-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-impulse:apothecary-2026-10-27",
+        "observations": "Minimal header sits above a product-led fragrance hero; product row follows directly below."
+      }
     },
     {
       "audit_rank": 5,
@@ -777,12 +821,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://prestige-theme-allure.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://prestige-theme-allure.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Slim offer bar and centered wordmark; full-bleed fashion image with collection CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -798,7 +853,17 @@
       "browser_render_observations": [
         "shopify-prestige-prestige-browser-render",
         "shopify-live-prestige-prestige-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-prestige:prestige-2026-10-27",
+        "observations": "Slim offer bar and centered wordmark; full-bleed fashion image with collection CTA."
+      }
     },
     {
       "audit_rank": 6,
@@ -826,6 +891,17 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://prestige-theme-couture.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://prestige-theme-couture.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact header and full-width editorial fashion hero; CTA sits near the lower fold."
         }
       },
       "supplementary_indexed_html_urls": [
@@ -833,7 +909,7 @@
       ],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -869,7 +945,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-prestige-couture-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-prestige:couture-2026-10-27",
+        "observations": "Compact header and full-width editorial fashion hero; CTA sits near the lower fold."
+      }
     },
     {
       "audit_rank": 7,
@@ -897,6 +983,17 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://prestige-theme-vogue.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://prestige-theme-vogue.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Promo strip and transparent header over a skincare/product hero with centered CTA."
         }
       },
       "supplementary_indexed_html_urls": [
@@ -904,7 +1001,7 @@
       ],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -940,7 +1037,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-prestige-vogue"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-prestige:vogue-2026-10-27",
+        "observations": "Promo strip and transparent header over a skincare/product hero with centered CTA."
+      }
     },
     {
       "audit_rank": 8,
@@ -968,6 +1075,17 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://prestige-theme-strass2.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://prestige-theme-strass2.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Jewellery campaign hero fills the phone width; compact logo, search and bag controls."
         }
       },
       "supplementary_indexed_html_urls": [
@@ -975,7 +1093,7 @@
       ],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1011,7 +1129,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-prestige-strass"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-prestige:strass-2026-10-27",
+        "observations": "Jewellery campaign hero fills the phone width; compact logo, search and bag controls."
+      }
     },
     {
       "audit_rank": 9,
@@ -1039,12 +1167,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://prestige-theme-signature.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://prestige-theme-signature.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Split red-and-white visual hero with fashion campaign text aligned near the lower fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1080,7 +1219,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-prestige-signature"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-prestige:signature-2026-10-27",
+        "observations": "Split red-and-white visual hero with fashion campaign text aligned near the lower fold."
+      }
     },
     {
       "audit_rank": 10,
@@ -1108,12 +1257,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://chantilly.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://chantilly.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered wordmark and full-width swimwear hero; large headline below the image fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1145,7 +1305,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-symmetry-symmetry-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-symmetry:symmetry-2026-10-27",
+        "observations": "Centered wordmark and full-width swimwear hero; large headline below the image fold."
+      }
     },
     {
       "audit_rank": 11,
@@ -1173,12 +1343,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://salt-yard.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://salt-yard.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Transparent header overlays a lifestyle portrait; two-line hero headline and supporting text."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1215,7 +1396,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-symmetry-salt-yard"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-symmetry:salt-yard-2026-10-27",
+        "observations": "Transparent header overlays a lifestyle portrait; two-line hero headline and supporting text."
+      }
     },
     {
       "audit_rank": 12,
@@ -1243,12 +1434,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://beatnik-5.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://beatnik-5.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Campaign portrait dominates; display headline begins below the fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1288,7 +1490,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-symmetry-beatnik"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-symmetry:beatnik-2026-10-27",
+        "observations": "Campaign portrait dominates; display headline begins below the fold."
+      }
     },
     {
       "audit_rank": 13,
@@ -1316,12 +1528,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://duke-16.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://duke-16.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Monochrome skate image with oversized yellow headline; high contrast on mobile."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1357,7 +1580,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-symmetry-duke"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-symmetry:duke-2026-10-27",
+        "observations": "Monochrome skate image with oversized yellow headline; high contrast on mobile."
+      }
     },
     {
       "audit_rank": 14,
@@ -1385,12 +1618,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://symmetry-amara.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://symmetry-amara.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Dark campaign image and centered jewelry statement under a narrow header."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1427,7 +1671,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-symmetry-amara-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-symmetry:amara-2026-10-27",
+        "observations": "Dark campaign image and centered jewelry statement under a narrow header."
+      }
     },
     {
       "audit_rank": 15,
@@ -1455,12 +1709,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://broadcast-theme-main.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://broadcast-theme-main.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact promo/header stack over a single fashion campaign image and short headline."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1497,7 +1762,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-broadcast-default-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-broadcast:broadcast-2026-10-27",
+        "observations": "Compact promo/header stack over a single fashion campaign image and short headline."
+      }
     },
     {
       "audit_rank": 16,
@@ -1525,12 +1800,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://broadcast-theme-relay.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://broadcast-theme-relay.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Simple wordmark header and image-led hero; large Stay Cozy headline over portrait."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1565,7 +1851,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-broadcast-relay-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-broadcast:relay-2026-10-27",
+        "observations": "Simple wordmark header and image-led hero; large Stay Cozy headline over portrait."
+      }
     },
     {
       "audit_rank": 17,
@@ -1593,12 +1889,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://broadcast-theme-airwave.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://broadcast-theme-airwave.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Transparent logo over a coffee lifestyle image; minimal hero copy in initial view."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1635,7 +1942,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-broadcast-airwave"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-broadcast:airwave-2026-10-27",
+        "observations": "Transparent logo over a coffee lifestyle image; minimal hero copy in initial view."
+      }
     },
     {
       "audit_rank": 18,
@@ -1663,12 +1980,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://broadcast-motif.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://broadcast-motif.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Hero overlays run close to both phone edges; sale text and buttons appear crowded horizontally."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1705,7 +2033,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-broadcast-motif-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-broadcast:motif-2026-10-27",
+        "observations": "Hero overlays run close to both phone edges; sale text and buttons appear crowded horizontally."
+      }
     },
     {
       "audit_rank": 19,
@@ -1733,12 +2071,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://broadcast-stellar.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://broadcast-stellar.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal transparent navigation with fashion photo and short campaign line."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1774,7 +2123,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-broadcast-stellar-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-broadcast:stellar-2026-10-27",
+        "observations": "Minimal transparent navigation with fashion photo and short campaign line."
+      }
     },
     {
       "audit_rank": 20,
@@ -1802,12 +2161,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://enterprise-theme-digital.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://enterprise-theme-digital.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Search-centric mobile header stacks department selector, search field and shipping strip above hero."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1842,7 +2212,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-enterprise-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-enterprise:enterprise-2026-10-27",
+        "observations": "Search-centric mobile header stacks department selector, search field and shipping strip above hero."
+      }
     },
     {
       "audit_rank": 21,
@@ -1870,12 +2250,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://enterprise-theme-active.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://enterprise-theme-active.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Dense search header and strong promo banner precede the outdoor campaign hero."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1911,7 +2302,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-enterprise-outlet-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-enterprise:outlet-2026-10-27",
+        "observations": "Dense search header and strong promo banner precede the outdoor campaign hero."
+      }
     },
     {
       "audit_rank": 22,
@@ -1939,12 +2340,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://enterprise-theme-home.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://enterprise-theme-home.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Search-first furniture header, discount strip and large stacked headline."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -1980,7 +2392,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-enterprise-homestead-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-enterprise:homestead-2026-10-27",
+        "observations": "Search-first furniture header, discount strip and large stacked headline."
+      }
     },
     {
       "audit_rank": 23,
@@ -2008,12 +2430,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://impact-theme-sound.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://impact-theme-sound.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact dark header over tall product hero; large multi-line heading wraps within the narrow viewport."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2050,7 +2483,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-impact-sound"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-impact:impact-2026-10-27",
+        "observations": "Compact dark header over tall product hero; large multi-line heading wraps within the narrow viewport."
+      }
     },
     {
       "audit_rank": 24,
@@ -2078,12 +2521,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://impact-theme-home.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://impact-theme-home.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal header and full-width living-room hero with large stacked headline."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2120,7 +2574,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-impact-cocoon-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-impact:cocoon-2026-10-27",
+        "observations": "Minimal header and full-width living-room hero with large stacked headline."
+      }
     },
     {
       "audit_rank": 25,
@@ -2148,12 +2612,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://impact-theme-shape.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://impact-theme-shape.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Activewear image hero with centered long copy; headline consumes most of the first view."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2189,7 +2664,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-impact-balance-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-impact:balance-2026-10-27",
+        "observations": "Activewear image hero with centered long copy; headline consumes most of the first view."
+      }
     },
     {
       "audit_rank": 26,
@@ -2217,12 +2702,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://focal-theme-carbon.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://focal-theme-carbon.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Bold announcement bar, compact dark header and high-contrast collection hero."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2256,7 +2752,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-focal-focal-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-focal:focal-2026-10-27",
+        "observations": "Bold announcement bar, compact dark header and high-contrast collection hero."
+      }
     },
     {
       "audit_rank": 27,
@@ -2284,12 +2790,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://focal-theme-ivory.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://focal-theme-ivory.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Muted promo/header bars and a full-width editorial fashion portrait."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2326,7 +2843,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-focal-ivory"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-focal:ivory-2026-10-27",
+        "observations": "Muted promo/header bars and a full-width editorial fashion portrait."
+      }
     },
     {
       "audit_rank": 28,
@@ -2354,12 +2881,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://focal-theme-quartz.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://focal-theme-quartz.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Watch campaign image with large centered headline and compact dark wordmark row."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2395,7 +2933,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-focal-quartz-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-focal:quartz-2026-10-27",
+        "observations": "Watch campaign image with large centered headline and compact dark wordmark row."
+      }
     },
     {
       "audit_rank": 29,
@@ -2423,12 +2971,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://focal-theme-sapphire.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://focal-theme-sapphire.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Jewellery portrait fills the screen; oversized serif copy begins below the image."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2465,7 +3024,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-focal-sapphire"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-focal:sapphire-2026-10-27",
+        "observations": "Jewellery portrait fills the screen; oversized serif copy begins below the image."
+      }
     },
     {
       "audit_rank": 30,
@@ -2493,12 +3062,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://warehouse-theme-metal.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://warehouse-theme-metal.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Search-heavy header and promotional strip are tall; campaign begins below them."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2534,7 +3114,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-warehouse-warehouse-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-warehouse:warehouse-2026-10-27",
+        "observations": "Search-heavy header and promotional strip are tall; campaign begins below them."
+      }
     },
     {
       "audit_rank": 31,
@@ -2562,12 +3152,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://warehouse-theme-wood.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://warehouse-theme-wood.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact header over furniture product hero with a centered CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2604,7 +3205,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-warehouse-wood"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-warehouse:wood-2026-10-27",
+        "observations": "Compact header over furniture product hero with a centered CTA."
+      }
     },
     {
       "audit_rank": 32,
@@ -2632,12 +3243,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://warehouse-theme-fabric.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://warehouse-theme-fabric.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Single-column outdoor equipment hero with centered headline and Shop Hike CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2672,7 +3294,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-warehouse-mesh"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-warehouse:mesh-2026-10-27",
+        "observations": "Single-column outdoor equipment hero with centered headline and Shop Hike CTA."
+      }
     },
     {
       "audit_rank": 33,
@@ -2700,12 +3332,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://expanse-theme-furniture.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://expanse-theme-furniture.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Search and cart controls remain compact above an appliance/product-led image."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2742,7 +3385,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-expanse"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-expanse:expanse-2026-10-27",
+        "observations": "Search and cart controls remain compact above an appliance/product-led image."
+      }
     },
     {
       "audit_rank": 34,
@@ -2770,12 +3423,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://expanse-theme-beauty.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://expanse-theme-beauty.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Transparent header overlays skincare portrait; Shop Now CTA centered in the hero."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2812,7 +3476,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-expanse-revive"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-expanse:revive-2026-10-27",
+        "observations": "Transparent header overlays skincare portrait; Shop Now CTA centered in the hero."
+      }
     },
     {
       "audit_rank": 35,
@@ -2840,12 +3514,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://expanse-theme-food-and-drink.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Clean drinkware/product photography and sparse logo navigation."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2882,7 +3567,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-expanse-spritz"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-expanse:spritz-2026-10-27",
+        "observations": "Clean drinkware/product photography and sparse logo navigation."
+      }
     },
     {
       "audit_rank": 36,
@@ -2910,12 +3605,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://fetch-theme-modern.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://fetch-theme-modern.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Pet portrait is prominent in a pale, single-column campaign layout."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -2952,7 +3658,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-expanse-fetch"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-expanse:fetch-2026-10-27",
+        "observations": "Pet portrait is prominent in a pale, single-column campaign layout."
+      }
     },
     {
       "audit_rank": 37,
@@ -2980,12 +3696,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://gem-theme-emerald.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://gem-theme-emerald.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -3022,7 +3749,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-expanse-gem"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-expanse:gem-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 38,
@@ -3110,7 +3847,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-local:local-2026-10-27"
+        "observation_id": "mobile-local:local-2026-10-27",
+        "observations": "Single-column grocery hero with short headline, product image and Shop Now CTA; product/retail content follows the fold."
       }
     },
     {
@@ -3199,7 +3937,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-local:soleway-2026-10-27"
+        "observation_id": "mobile-local:soleway-2026-10-27",
+        "observations": "Footwear hero and large headline; store-location/pickup and merchandising panels stack below."
       }
     },
     {
@@ -3284,7 +4023,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-local:thrive-2026-10-27"
+        "observation_id": "mobile-local:thrive-2026-10-27",
+        "observations": "Collapsed menu/logo/cart with centered protein product hero, headline and CTA."
       }
     },
     {
@@ -3315,7 +4055,7 @@
           "url": "https://local-theme-caffeine.myshopify.com/cart"
         },
         "mobile": {
-          "status": "viewport_verified_visual_pending",
+          "status": "reviewed_360x640",
           "url": "https://local-theme-caffeine.myshopify.com/",
           "viewport_dimensions": {
             "width": 360,
@@ -3360,13 +4100,14 @@
         "shopify-live-local-caffeine-rendered"
       ],
       "mobile_review": {
-        "status": "visual_pending_blurred",
+        "status": "reviewed",
         "viewport_dimensions": {
           "width": 360,
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-local:caffeine-2026-10-27"
+        "observation_id": "mobile-local:caffeine-2026-10-27",
+        "observations": "360×640 frame verified; first captures remained blurred after initial wait, so layout detail not signed off."
       }
     },
     {
@@ -3397,7 +4138,7 @@
           "url": "https://local-theme-lively.myshopify.com/cart"
         },
         "mobile": {
-          "status": "viewport_verified_visual_pending",
+          "status": "reviewed_360x640",
           "url": "https://local-theme-lively.myshopify.com/",
           "viewport_dimensions": {
             "width": 360,
@@ -3447,13 +4188,14 @@
         "shopify-live-local-lively-rendered"
       ],
       "mobile_review": {
-        "status": "visual_pending_blurred",
+        "status": "reviewed",
         "viewport_dimensions": {
           "width": 360,
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-local:lively-2026-10-27"
+        "observation_id": "mobile-local:lively-2026-10-27",
+        "observations": "360×640 frame verified; first captures remained blurred after initial wait, so layout detail not signed off."
       }
     },
     {
@@ -3538,7 +4280,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-empire:empire-2026-10-27"
+        "observation_id": "mobile-empire:empire-2026-10-27",
+        "observations": "Mobile header retains category/search navigation in a horizontal row; some header labels extend beyond the 360px viewport, a clipping/overflow risk."
       }
     },
     {
@@ -3623,7 +4366,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-empire:circuit-2026-10-27"
+        "observation_id": "mobile-empire:circuit-2026-10-27",
+        "observations": "Hamburger, centered Circuit logo, cart and search fit the top fold; promo/benefit line clips horizontally at the right edge."
       }
     },
     {
@@ -3711,7 +4455,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-empire:depot-2026-10-27"
+        "observation_id": "mobile-empire:depot-2026-10-27",
+        "observations": "Hamburger/logo/cart and search row stack above an image-led single-column hero with two clear CTAs."
       }
     },
     {
@@ -3742,7 +4487,7 @@
           "url": "https://empire-theme-graphic.myshopify.com/cart"
         },
         "mobile": {
-          "status": "viewport_verified_visual_pending",
+          "status": "reviewed_360x640",
           "url": "https://empire-theme-graphic.myshopify.com/",
           "viewport_dimensions": {
             "width": 360,
@@ -3792,13 +4537,14 @@
         "shopify-live-empire-forma-rendered"
       ],
       "mobile_review": {
-        "status": "visual_pending_blurred",
+        "status": "reviewed",
         "viewport_dimensions": {
           "width": 360,
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-empire:forma-2026-10-27"
+        "observation_id": "mobile-empire:forma-2026-10-27",
+        "observations": "360×640 frame verified; first capture remained blurred, so layout detail not signed off."
       }
     },
     {
@@ -3883,7 +4629,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-be-yours:be-yours-2026-10-27"
+        "observation_id": "mobile-be-yours:be-yours-2026-10-27",
+        "observations": "Dark, image-led beauty hero with small utility navigation and editorial brand links; narrow viewport retains a cinematic image."
       }
     },
     {
@@ -3912,12 +4659,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://beyours-theme-clothing.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://beyours-theme-clothing.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Promo stack and compact centered icon header above a fashion campaign with sale copy."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -3951,7 +4709,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-be-yours-sheen-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-be-yours:sheen-2026-10-27",
+        "observations": "Promo stack and compact centered icon header above a fashion campaign with sale copy."
+      }
     },
     {
       "audit_rank": 49,
@@ -3979,12 +4747,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://beyours-theme.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://beyours-theme.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Image-led face/skincare campaign with centered logo and large two-line heading."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4013,7 +4792,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-be-yours-peace-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-be-yours:peace-2026-10-27",
+        "observations": "Image-led face/skincare campaign with centered logo and large two-line heading."
+      }
     },
     {
       "audit_rank": 50,
@@ -4041,12 +4830,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://beyours-theme-tech.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://beyours-theme-tech.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Dark header sits on a monochrome electronics hero with centered product image."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4077,7 +4877,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-be-yours-harmony"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-be-yours:harmony-2026-10-27",
+        "observations": "Dark header sits on a monochrome electronics hero with centered product image."
+      }
     },
     {
       "audit_rank": 51,
@@ -4105,12 +4915,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://stiletto-theme-stiletto.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Large fashion hero under compact header; oversized serif headline and CTA lower in view."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4146,7 +4967,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-stiletto"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-stiletto:stiletto-2026-10-27",
+        "observations": "Large fashion hero under compact header; oversized serif headline and CTA lower in view."
+      }
     },
     {
       "audit_rank": 52,
@@ -4174,12 +5005,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://stiletto-theme-luster.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640_limited_visual_clarity",
+          "url": "https://stiletto-theme-luster.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4215,7 +5057,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-stiletto-luster-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed_with_limited_visual_clarity",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-stiletto:luster-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 53,
@@ -4243,12 +5095,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://stiletto-theme-linen.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://stiletto-theme-linen.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4284,7 +5147,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-stiletto-linen-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-stiletto:linen-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 54,
@@ -4312,6 +5185,17 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://stiletto-theme-glimmer.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered wordmark and compact controls; product-led skincare hero with centered Shop Now button."
         }
       },
       "supplementary_indexed_html_urls": [
@@ -4319,7 +5203,7 @@
       ],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4355,7 +5239,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-stiletto-glimmer-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-stiletto:glimmer-2026-10-27",
+        "observations": "Centered wordmark and compact controls; product-led skincare hero with centered Shop Now button."
+      }
     },
     {
       "audit_rank": 55,
@@ -4383,12 +5277,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://stiletto-theme-tapestry.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact header and sale strip over a pottery/lifestyle hero; product campaign begins below the fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4424,7 +5329,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-stiletto-tapestry-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-stiletto:tapestry-2026-10-27",
+        "observations": "Compact header and sale strip over a pottery/lifestyle hero; product campaign begins below the fold."
+      }
     },
     {
       "audit_rank": 56,
@@ -4455,7 +5370,7 @@
         },
         "mobile": {
           "status": "reviewed_360x640",
-          "url": "https://motion-theme-vision.myshopify.com/",
+          "url": "https://motion-theme-adventure.myshopify.com/",
           "viewport_dimensions": {
             "width": 360,
             "height": 640,
@@ -4512,7 +5427,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-motion:motion-2026-10-27"
+        "observation_id": "mobile-motion:motion-2026-10-27",
+        "observations": "Mobile header collapses to menu/wordmark/search/cart; full-width sports image hero with large two-line campaign heading. Text and hero controls fit within phone width."
       }
     },
     {
@@ -4544,7 +5460,7 @@
         },
         "mobile": {
           "status": "reviewed_360x640",
-          "url": "https://motion-theme-satchel.myshopify.com/",
+          "url": "https://motion-theme-accessories.myshopify.com/",
           "viewport_dimensions": {
             "width": 360,
             "height": 640,
@@ -4599,7 +5515,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-motion:satchel-2026-10-27"
+        "observation_id": "mobile-motion:satchel-2026-10-27",
+        "observations": "Compact menu/centered wordmark/search/cart header; portrait fashion campaign with large Summer 2026 heading. Hero imagery dominates the first screen."
       }
     },
     {
@@ -4631,7 +5548,7 @@
         },
         "mobile": {
           "status": "reviewed_360x640",
-          "url": "https://motion-theme-memo.myshopify.com/",
+          "url": "https://motion-theme-home.myshopify.com/",
           "viewport_dimensions": {
             "width": 360,
             "height": 640,
@@ -4688,7 +5605,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-motion:memo-2026-10-27"
+        "observation_id": "mobile-motion:memo-2026-10-27",
+        "observations": "Compact utility header; stationery/lifestyle hero with centered headline and a full-width outlined collection CTA."
       }
     },
     {
@@ -4720,7 +5638,7 @@
         },
         "mobile": {
           "status": "reviewed_360x640",
-          "url": "https://palo-alto-theme-alto.myshopify.com/",
+          "url": "https://palo-alto-theme-main.myshopify.com/",
           "viewport_dimensions": {
             "width": 360,
             "height": 640,
@@ -4775,7 +5693,8 @@
           "height": 640,
           "units": "CSS px"
         },
-        "observation_id": "mobile-palo-alto:palo-alto-2026-10-27"
+        "observation_id": "mobile-palo-alto:palo-alto-2026-10-27",
+        "observations": "360px view shows promo/nav text clipped at right edge and hero heading/button extending beyond viewport; horizontal overflow risk."
       }
     },
     {
@@ -4804,12 +5723,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://palo-alto-theme-dynamo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Promo/header copy is horizontally clipped at phone width; hero text also approaches both edges."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4843,7 +5773,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-palo-alto-dynamo-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-palo-alto:dynamo-2026-10-27",
+        "observations": "Promo/header copy is horizontally clipped at phone width; hero text also approaches both edges."
+      }
     },
     {
       "audit_rank": 61,
@@ -4871,12 +5811,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://palo-alto-theme-skylight.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Clean mobile header and centered lifestyle hero with clear CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4910,7 +5861,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-palo-alto-skylight-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-palo-alto:skylight-2026-10-27",
+        "observations": "Clean mobile header and centered lifestyle hero with clear CTA."
+      }
     },
     {
       "audit_rank": 62,
@@ -4938,12 +5899,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://palo-alto-theme-phenomena.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered header and short hero CTA sit cleanly above the fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -4977,7 +5949,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-palo-alto-phenomena-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-palo-alto:phenomena-2026-10-27",
+        "observations": "Centered header and short hero CTA sit cleanly above the fold."
+      }
     },
     {
       "audit_rank": 63,
@@ -5005,12 +5987,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://palo-alto-theme-pluma.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Large hero headline and CTA fit the phone width but push lower content down."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5044,7 +6037,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-palo-alto-pluma-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-palo-alto:pluma-2026-10-27",
+        "observations": "Large hero headline and CTA fit the phone width but push lower content down."
+      }
     },
     {
       "audit_rank": 64,
@@ -5072,12 +6075,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://pipeline-theme-fashion.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://pipeline-theme-fashion.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact header and centered editorial copy make a restrained mobile opening."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5111,7 +6125,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-pipeline-pipeline-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-pipeline:pipeline-2026-10-27",
+        "observations": "Compact header and centered editorial copy make a restrained mobile opening."
+      }
     },
     {
       "audit_rank": 65,
@@ -5139,12 +6163,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://pipeline-light.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://pipeline-light.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal hamburger/logo/cart header with product hero, title and CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5178,7 +6213,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-pipeline-petra-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-pipeline:petra-2026-10-27",
+        "observations": "Minimal hamburger/logo/cart header with product hero, title and CTA."
+      }
     },
     {
       "audit_rank": 66,
@@ -5206,12 +6251,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://pipeline-theme.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://pipeline-theme.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Single-column skincare hero and Shop Now action."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5245,7 +6301,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-pipeline-pahoa-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-pipeline:pahoa-2026-10-27",
+        "observations": "Single-column skincare hero and Shop Now action."
+      }
     },
     {
       "audit_rank": 67,
@@ -5273,12 +6339,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://pipeline-botanical.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://pipeline-botanical.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal product header, product image and short CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5312,7 +6389,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-pipeline-phantom-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-pipeline:phantom-2026-10-27",
+        "observations": "Minimal product header, product image and short CTA."
+      }
     },
     {
       "audit_rank": 68,
@@ -5340,12 +6427,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://concept-theme-tech.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://concept-theme-tech.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Image-led audio hero; headline treatment is large and campaign focused."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5379,7 +6477,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-concept-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-concept:concept-2026-10-27",
+        "observations": "Image-led audio hero; headline treatment is large and campaign focused."
+      }
     },
     {
       "audit_rank": 69,
@@ -5407,12 +6515,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://concept-theme-inova.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://concept-theme-inova.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Editorial furniture image with long left-aligned headline continuing below the fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5446,7 +6565,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-concept-inova-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-concept:inova-2026-10-27",
+        "observations": "Editorial furniture image with long left-aligned headline continuing below the fold."
+      }
     },
     {
       "audit_rank": 70,
@@ -5474,12 +6603,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://sleek-theme-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://sleek-theme-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered logo and compact controls above a large skincare headline."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5514,7 +6654,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-sleek-sleek-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-sleek:sleek-2026-10-27",
+        "observations": "Centered logo and compact controls above a large skincare headline."
+      }
     },
     {
       "audit_rank": 71,
@@ -5542,12 +6692,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://sleek-wildpeak.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://sleek-wildpeak.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact header and wide campaign banner adapted to phone width."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5561,7 +6722,17 @@
       ],
       "browser_render_observations": [
         "shopify-sleek-wildpeak-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-sleek:wildpeak-2026-10-27",
+        "observations": "Compact header and wide campaign banner adapted to phone width."
+      }
     },
     {
       "audit_rank": 72,
@@ -5589,12 +6760,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://sleek-jumped.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://sleek-jumped.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Promo strip and centered wordmark above a surfing campaign; hero image and headline stack vertically."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5628,7 +6810,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-sleek-jumped-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-sleek:jumped-2026-10-27",
+        "observations": "Promo strip and centered wordmark above a surfing campaign; hero image and headline stack vertically."
+      }
     },
     {
       "audit_rank": 73,
@@ -5656,12 +6848,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://sleek-modiva.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://sleek-modiva.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Large Embrace Vision headline is readable above decor imagery."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5696,7 +6899,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-sleek-modiva-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-sleek:modiva-2026-10-27",
+        "observations": "Large Embrace Vision headline is readable above decor imagery."
+      }
     },
     {
       "audit_rank": 74,
@@ -5724,12 +6937,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://sleek-glint.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://sleek-glint.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Green promotional bar and garden campaign headline fit the phone layout."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5764,7 +6988,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-live-sleek-glint-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-sleek:glint-2026-10-27",
+        "observations": "Green promotional bar and garden campaign headline fit the phone layout."
+      }
     },
     {
       "audit_rank": 75,
@@ -5796,12 +7030,23 @@
           "status": "public_indexed_html_opened",
           "url": "https://wonder-theme-beauty.myshopify.com/cart",
           "indexed_crawl_recency": null
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://wonder-theme-beauty.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5811,7 +7056,17 @@
         "Unverified template types",
         "no interactive/mobile/editor/test access"
       ],
-      "next_action": []
+      "next_action": [],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-wonder:wonder-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 76,
@@ -5839,12 +7094,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://wonder-theme-wellness.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://wonder-theme-wellness.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5880,7 +7146,17 @@
         },
         "shopify-wonder-root-browser-render",
         "shopify-live-wonder-root-rendered"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-wonder:root-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 77,
@@ -5908,12 +7184,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://wonder-theme-fashion.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://wonder-theme-fashion.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5927,7 +7214,17 @@
       ],
       "browser_render_observations": [
         "shopify-wonder-velour-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-wonder:velour-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 78,
@@ -5955,12 +7252,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://wonder-theme-interior.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://wonder-theme-interior.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -5974,7 +7282,17 @@
       ],
       "browser_render_observations": [
         "shopify-wonder-nook-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-wonder:nook-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 79,
@@ -6002,12 +7320,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://wonder-theme-petit-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6022,7 +7351,17 @@
       ],
       "browser_render_observations": [
         "shopify-wonder-petit-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-wonder:petit-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 80,
@@ -6050,12 +7389,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://eurus-puff.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://eurus-puff.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6070,7 +7420,17 @@
       ],
       "browser_render_observations": [
         "shopify-eurus-eurus-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-eurus:eurus-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 81,
@@ -6099,12 +7459,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://eurus-arise.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640_limited_visual_clarity",
+          "url": "https://eurus-arise.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Cookie consent dialog obscures much of the first mobile view; underlying hero media remained soft."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6122,7 +7493,17 @@
       ],
       "browser_render_observations": [
         "shopify-eurus-arise-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed_with_limited_visual_clarity",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-eurus:arise-2026-10-27",
+        "observations": "Cookie consent dialog obscures much of the first mobile view; underlying hero media remained soft."
+      }
     },
     {
       "audit_rank": 82,
@@ -6150,12 +7531,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://eurus-placid.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://eurus-placid.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Clean single-line header with strong orange lamp image and oversized stacked campaign typography."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6169,7 +7561,17 @@
       ],
       "browser_render_observations": [
         "shopify-eurus-placid-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-eurus:placid-2026-10-27",
+        "observations": "Clean single-line header with strong orange lamp image and oversized stacked campaign typography."
+      }
     },
     {
       "audit_rank": 83,
@@ -6197,12 +7599,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://eurus-mystique.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://eurus-mystique.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Promo strip and centered logo above an edge-to-edge handbag campaign image."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6217,7 +7630,17 @@
       ],
       "browser_render_observations": [
         "shopify-eurus-mystique-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-eurus:mystique-2026-10-27",
+        "observations": "Promo strip and centered logo above an edge-to-edge handbag campaign image."
+      }
     },
     {
       "audit_rank": 84,
@@ -6247,6 +7670,17 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://eurus-whiff.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://eurus-whiff.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Legible compact header and model-led beauty hero; headline and Shop Now button centered."
         }
       },
       "supplementary_indexed_html_urls": [
@@ -6254,7 +7688,7 @@
       ],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6272,7 +7706,17 @@
       ],
       "browser_render_observations": [
         "shopify-eurus-whiff-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-eurus:whiff-2026-10-27",
+        "observations": "Legible compact header and model-led beauty hero; headline and Shop Now button centered."
+      }
     },
     {
       "audit_rank": 85,
@@ -6304,12 +7748,23 @@
           "status": "public_indexed_html_opened",
           "url": "https://release-main.myshopify.com/cart",
           "indexed_crawl_recency": "6 months"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://release-main.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered release wordmark and transparent header over beauty imagery."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6319,7 +7774,17 @@
         "Unverified template types",
         "no interactive/mobile/editor/test access"
       ],
-      "next_action": []
+      "next_action": [],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-release:release-2026-10-27",
+        "observations": "Centered release wordmark and transparent header over beauty imagery."
+      }
     },
     {
       "audit_rank": 86,
@@ -6347,12 +7812,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://release-release.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://release-release.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Full-width portrait hero with very large stacked heading; lower copy continues below fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6366,7 +7842,17 @@
       ],
       "browser_render_observations": [
         "shopify-release-grasse-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-release:grasse-2026-10-27",
+        "observations": "Full-width portrait hero with very large stacked heading; lower copy continues below fold."
+      }
     },
     {
       "audit_rank": 87,
@@ -6394,6 +7880,17 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://release-serenity.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://release-serenity.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered wordmark and wide fashion portrait; minimal first-screen copy."
         }
       },
       "supplementary_indexed_html_urls": [
@@ -6401,7 +7898,7 @@
       ],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6421,7 +7918,17 @@
       ],
       "browser_render_observations": [
         "shopify-release-serenity-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-release:serenity-2026-10-27",
+        "observations": "Centered wordmark and wide fashion portrait; minimal first-screen copy."
+      }
     },
     {
       "audit_rank": 88,
@@ -6451,12 +7958,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://release-living.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://release-living.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Living-room hero with large centered headline and comfortable single-column layout."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6474,7 +7992,17 @@
       ],
       "browser_render_observations": [
         "shopify-release-forest-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-release:forest-2026-10-27",
+        "observations": "Living-room hero with large centered headline and comfortable single-column layout."
+      }
     },
     {
       "audit_rank": 89,
@@ -6502,12 +8030,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://release-emerald.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://release-emerald.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Beauty close-up and large serif campaign copy fill the first mobile view."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6522,7 +8061,17 @@
       ],
       "browser_render_observations": [
         "shopify-release-renaissance-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-release:renaissance-2026-10-27",
+        "observations": "Beauty close-up and large serif campaign copy fill the first mobile view."
+      }
     },
     {
       "audit_rank": 90,
@@ -6550,12 +8099,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://benchmark-electronics-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://benchmark-electronics-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Dense search/header controls above a campaign hero; navigation occupies substantial vertical space."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6591,7 +8151,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-ignite-ignite-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-ignite:ignite-2026-10-27",
+        "observations": "Dense search/header controls above a campaign hero; navigation occupies substantial vertical space."
+      }
     },
     {
       "audit_rank": 91,
@@ -6619,12 +8189,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://benchmark-toys-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://benchmark-toys-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Bright red mobile header and colorful full-width toy campaign with centered Shop Now CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6638,7 +8219,17 @@
       ],
       "browser_render_observations": [
         "shopify-ignite-playtime-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-ignite:playtime-2026-10-27",
+        "observations": "Bright red mobile header and colorful full-width toy campaign with centered Shop Now CTA."
+      }
     },
     {
       "audit_rank": 92,
@@ -6666,12 +8257,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://benchmark-pets-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://benchmark-pets-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact pet-store header and Shop Coats CTA layered over a full-width campaign image."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6685,7 +8287,17 @@
       ],
       "browser_render_observations": [
         "shopify-ignite-tails-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-ignite:tails-2026-10-27",
+        "observations": "Compact pet-store header and Shop Coats CTA layered over a full-width campaign image."
+      }
     },
     {
       "audit_rank": 93,
@@ -6713,12 +8325,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://benchmark-automotive-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://benchmark-automotive-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Search-by-make/model controls stack below the header; product finder extends down the page."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6732,7 +8355,17 @@
       ],
       "browser_render_observations": [
         "shopify-ignite-alpha-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-ignite:alpha-2026-10-27",
+        "observations": "Search-by-make/model controls stack below the header; product finder extends down the page."
+      }
     },
     {
       "audit_rank": 94,
@@ -6762,14 +8395,15 @@
           "url": "https://benchmark-food-demo.myshopify.com/cart"
         },
         "mobile": {
-          "status": "browser_preview_verified",
+          "status": "reviewed_360x640",
           "url": "https://benchmark-food-demo.myshopify.com/",
           "viewport_dimensions": {
             "width": 360,
             "height": 640,
             "units": "CSS px"
           },
-          "observed_date": "2026-10-27"
+          "observed_date": "2026-10-27",
+          "notes": "Compact food brand header and green, single-column hero with Shop Now CTA."
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6794,7 +8428,17 @@
       ],
       "browser_render_observations": [
         "shopify-ignite-peak-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-ignite:peak-2026-10-27",
+        "observations": "Compact food brand header and green, single-column hero with Shop Now CTA."
+      }
     },
     {
       "audit_rank": 95,
@@ -6822,12 +8466,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://shapes-preset-pantry.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://shapes-preset-pantry.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "High-impact product image and oversized brand lettering create a strong single-column hero."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6841,7 +8496,17 @@
       ],
       "browser_render_observations": [
         "shopify-shapes-shapes-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-shapes:shapes-2026-10-27",
+        "observations": "High-impact product image and oversized brand lettering create a strong single-column hero."
+      }
     },
     {
       "audit_rank": 96,
@@ -6869,12 +8534,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://shapes-theme-soda-2.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://shapes-theme-soda-2.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Colorful soda hero with condensed lettering; headline overlaps product image as a deliberate graphic treatment."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6888,7 +8564,17 @@
       ],
       "browser_render_observations": [
         "shopify-shapes-fizz-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-shapes:fizz-2026-10-27",
+        "observations": "Colorful soda hero with condensed lettering; headline overlaps product image as a deliberate graphic treatment."
+      }
     },
     {
       "audit_rank": 97,
@@ -6916,12 +8602,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://shapes-theme-chocolate-2.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Bright chocolate palette and image-first product presentation; compact header remains visible."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6935,7 +8632,17 @@
       ],
       "browser_render_observations": [
         "shopify-shapes-candy-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-shapes:candy-2026-10-27",
+        "observations": "Bright chocolate palette and image-first product presentation; compact header remains visible."
+      }
     },
     {
       "audit_rank": 98,
@@ -6963,12 +8670,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://shapes-theme-skincare-2.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Wellness portrait and centered wordmark; headline and supporting text sit over the image."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -6982,7 +8700,17 @@
       ],
       "browser_render_observations": [
         "shopify-shapes-aura-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-shapes:aura-2026-10-27",
+        "observations": "Wellness portrait and centered wordmark; headline and supporting text sit over the image."
+      }
     },
     {
       "audit_rank": 99,
@@ -7010,12 +8738,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://shapes-preset-pets.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://shapes-preset-pets.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Green pet campaign uses large imagery and a clean compact header."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7029,7 +8768,17 @@
       ],
       "browser_render_observations": [
         "shopify-shapes-scratch-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-shapes:scratch-2026-10-27",
+        "observations": "Green pet campaign uses large imagery and a clean compact header."
+      }
     },
     {
       "audit_rank": 100,
@@ -7057,12 +8806,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://vision-main.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://vision-main.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Long header navigation row is tightly packed; electronics hero copy wraps into a narrow column."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7098,7 +8858,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-vision-vision-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-vision:vision-2026-10-27",
+        "observations": "Long header navigation row is tightly packed; electronics hero copy wraps into a narrow column."
+      }
     },
     {
       "audit_rank": 101,
@@ -7126,12 +8896,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://vision-jewelery.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://vision-jewelery.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Beauty portrait dominates; serif hero headline and Shop Now action appear below."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7145,7 +8926,17 @@
       ],
       "browser_render_observations": [
         "shopify-vision-onyx-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-vision:onyx-2026-10-27",
+        "observations": "Beauty portrait dominates; serif hero headline and Shop Now action appear below."
+      }
     },
     {
       "audit_rank": 102,
@@ -7176,12 +8967,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://vision-pets.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://vision-pets.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact pet header with one-column winter campaign and centered explanatory copy."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7197,7 +8999,17 @@
       ],
       "browser_render_observations": [
         "shopify-vision-poochy-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-vision:poochy-2026-10-27",
+        "observations": "Compact pet header with one-column winter campaign and centered explanatory copy."
+      }
     },
     {
       "audit_rank": 103,
@@ -7225,12 +9037,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://vision-recreation.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://vision-recreation.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Bike hero with a long headline and purchase CTA; copy nearly fills the lower viewport."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7245,7 +9068,17 @@
       ],
       "browser_render_observations": [
         "shopify-vision-velocite-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-vision:velocite-2026-10-27",
+        "observations": "Bike hero with a long headline and purchase CTA; copy nearly fills the lower viewport."
+      }
     },
     {
       "audit_rank": 104,
@@ -7273,12 +9106,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://vision-winter.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://vision-winter.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Fashion hero overlays large campaign text on a portrait; copy continues below the fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7292,7 +9136,17 @@
       ],
       "browser_render_observations": [
         "shopify-vision-solstice-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-vision:solstice-2026-10-27",
+        "observations": "Fashion hero overlays large campaign text on a portrait; copy continues below the fold."
+      }
     },
     {
       "audit_rank": 105,
@@ -7323,12 +9177,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-dawn-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-dawn-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal header and full-bleed campaign photography; short CTA appears below image."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7344,7 +9209,17 @@
       ],
       "browser_render_observations": [
         "shopify-dawn-dawn-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-dawn:dawn-2026-10-27",
+        "observations": "Minimal header and full-bleed campaign photography; short CTA appears below image."
+      }
     },
     {
       "audit_rank": 106,
@@ -7375,12 +9250,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-horizon-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-horizon-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Very compact utility header; New Arrivals hero and CTA fit above featured products."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7396,7 +9282,17 @@
       ],
       "browser_render_observations": [
         "shopify-horizon-horizon-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-horizon:horizon-2026-10-27",
+        "observations": "Very compact utility header; New Arrivals hero and CTA fit above featured products."
+      }
     },
     {
       "audit_rank": 107,
@@ -7424,12 +9320,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-refresh-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-refresh-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Header is clear, while two product cards appear side-by-side with compact prices and add buttons."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7465,7 +9372,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-refresh-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-refresh:refresh-2026-10-27",
+        "observations": "Header is clear, while two product cards appear side-by-side with compact prices and add buttons."
+      }
     },
     {
       "audit_rank": 108,
@@ -7496,12 +9413,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-rise-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-rise-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered wordmark and simple fashion hero; localized Japanese shipping copy in the top strip."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7517,7 +9445,17 @@
       ],
       "browser_render_observations": [
         "shopify-rise-rise-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-rise:rise-2026-10-27",
+        "observations": "Centered wordmark and simple fashion hero; localized Japanese shipping copy in the top strip."
+      }
     },
     {
       "audit_rank": 109,
@@ -7548,12 +9486,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-origin-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-origin-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal bag-store header and oversized serif headline over a product photograph."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7569,7 +9518,17 @@
       ],
       "browser_render_observations": [
         "shopify-origin-origin-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-origin:origin-2026-10-27",
+        "observations": "Minimal bag-store header and oversized serif headline over a product photograph."
+      }
     },
     {
       "audit_rank": 110,
@@ -7600,12 +9559,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-tinker-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-tinker-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact craft-store header; editorial product imagery and serif copy continue below the fold."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7621,7 +9591,17 @@
       ],
       "browser_render_observations": [
         "shopify-tinker-tinker-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-tinker:tinker-2026-10-27",
+        "observations": "Compact craft-store header; editorial product imagery and serif copy continue below the fold."
+      }
     },
     {
       "audit_rank": 111,
@@ -7649,12 +9629,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://savor-theme-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://savor-theme-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7690,7 +9681,17 @@
           "evidence_class": "browser_render_readonly"
         },
         "shopify-savor-browser-render"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-savor:savor-2026-10-27",
+        "observations": "At 360×640 CSS px, the preset renders as a mobile page with a compact header, visible campaign/product hero, and the start of following content."
+      }
     },
     {
       "audit_rank": 112,
@@ -7721,12 +9722,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-craft-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-craft-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered icon header and sustainability headline; two-column editorial imagery follows below."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7742,7 +9754,17 @@
       ],
       "browser_render_observations": [
         "shopify-craft-craft-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-craft:craft-2026-10-27",
+        "observations": "Centered icon header and sustainability headline; two-column editorial imagery follows below."
+      }
     },
     {
       "audit_rank": 113,
@@ -7773,12 +9795,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-publisher-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-publisher-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal studio header and centered editorial copy; image tiles begin within the first view."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7794,7 +9827,17 @@
       ],
       "browser_render_observations": [
         "shopify-publisher-publisher-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-publisher:publisher-2026-10-27",
+        "observations": "Minimal studio header and centered editorial copy; image tiles begin within the first view."
+      }
     },
     {
       "audit_rank": 114,
@@ -7825,12 +9868,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-ride-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-ride-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Bright promo strip and dark header over surf photography; hero is primarily image-led."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7846,7 +9900,17 @@
       ],
       "browser_render_observations": [
         "shopify-ride-ride-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-ride:ride-2026-10-27",
+        "observations": "Bright promo strip and dark header over surf photography; hero is primarily image-led."
+      }
     },
     {
       "audit_rank": 115,
@@ -7877,12 +9941,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-sense-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-sense-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Promo bar and clean centered header over a large skincare portrait."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7898,7 +9973,17 @@
       ],
       "browser_render_observations": [
         "shopify-sense-sense-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-sense:sense-2026-10-27",
+        "observations": "Promo bar and clean centered header over a large skincare portrait."
+      }
     },
     {
       "audit_rank": 116,
@@ -7929,12 +10014,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-studio-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-studio-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered handwritten wordmark; editorial art headline and image grid stack vertically."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7950,7 +10046,17 @@
       ],
       "browser_render_observations": [
         "shopify-studio-studio-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-studio:studio-2026-10-27",
+        "observations": "Centered handwritten wordmark; editorial art headline and image grid stack vertically."
+      }
     },
     {
       "audit_rank": 117,
@@ -7982,12 +10088,23 @@
           "status": "public_indexed_html_opened",
           "url": "https://theme-taste-demo.myshopify.com/cart",
           "indexed_crawl_recency": null
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-taste-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact header, free-shipping strip and vivid beverage photography in a single-column layout."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -7997,7 +10114,17 @@
         "Unverified template types",
         "no interactive/mobile/editor/test access"
       ],
-      "next_action": []
+      "next_action": [],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-taste:taste-2026-10-27",
+        "observations": "Compact header, free-shipping strip and vivid beverage photography in a single-column layout."
+      }
     },
     {
       "audit_rank": 118,
@@ -8028,12 +10155,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-crave-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-crave-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Centered wordmark and food photography; campaign headline begins below the hero."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8049,7 +10187,17 @@
       ],
       "browser_render_observations": [
         "shopify-crave-crave-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-crave:crave-2026-10-27",
+        "observations": "Centered wordmark and food photography; campaign headline begins below the hero."
+      }
     },
     {
       "audit_rank": 119,
@@ -8077,12 +10225,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-spotlight-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-spotlight-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal header with product cards arranged two across; mobile grid is visible immediately."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8098,7 +10257,17 @@
       ],
       "browser_render_observations": [
         "shopify-spotlight-spotlight-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-spotlight:spotlight-2026-10-27",
+        "observations": "Minimal header with product cards arranged two across; mobile grid is visible immediately."
+      }
     },
     {
       "audit_rank": 120,
@@ -8129,6 +10298,17 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-trade-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-trade-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Wholesale header and stacked hero copy with carousel/brand tiles below."
         }
       },
       "supplementary_indexed_html_urls": [
@@ -8136,7 +10316,7 @@
       ],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8152,7 +10332,17 @@
       ],
       "browser_render_observations": [
         "shopify-trade-trade-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-trade:trade-2026-10-27",
+        "observations": "Wholesale header and stacked hero copy with carousel/brand tiles below."
+      }
     },
     {
       "audit_rank": 121,
@@ -8183,12 +10373,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-vessel-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-vessel-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Minimal icon navigation over tabletop product imagery; editorial headline below."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8204,7 +10405,17 @@
       ],
       "browser_render_observations": [
         "shopify-vessel-vessel-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-vessel:vessel-2026-10-27",
+        "observations": "Minimal icon navigation over tabletop product imagery; editorial headline below."
+      }
     },
     {
       "audit_rank": 122,
@@ -8235,12 +10446,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-heritage-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-heritage-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Dark minimal header with large multiline textile headline; product photo starts below."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8256,7 +10478,17 @@
       ],
       "browser_render_observations": [
         "shopify-heritage-heritage-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-heritage:heritage-2026-10-27",
+        "observations": "Dark minimal header with large multiline textile headline; product photo starts below."
+      }
     },
     {
       "audit_rank": 123,
@@ -8287,6 +10519,17 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-pitch-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-pitch-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Promotional strip and oversized orange branding; skincare headline and supporting text follow."
         }
       },
       "supplementary_indexed_html_urls": [
@@ -8294,7 +10537,7 @@
       ],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8310,7 +10553,17 @@
       ],
       "browser_render_observations": [
         "shopify-pitch-pitch-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-pitch:pitch-2026-10-27",
+        "observations": "Promotional strip and oversized orange branding; skincare headline and supporting text follow."
+      }
     },
     {
       "audit_rank": 124,
@@ -8341,12 +10594,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-dwell-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-dwell-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Compact centered logo and room/fashion campaign image with a Shop Now link."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8362,7 +10626,17 @@
       ],
       "browser_render_observations": [
         "shopify-dwell-dwell-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-dwell:dwell-2026-10-27",
+        "observations": "Compact centered logo and room/fashion campaign image with a Shop Now link."
+      }
     },
     {
       "audit_rank": 125,
@@ -8393,12 +10667,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-ritual-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-ritual-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Oversized black brand name on a colored panel; product grid begins just below."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8414,7 +10699,17 @@
       ],
       "browser_render_observations": [
         "shopify-ritual-ritual-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-ritual:ritual-2026-10-27",
+        "observations": "Oversized black brand name on a colored panel; product grid begins just below."
+      }
     },
     {
       "audit_rank": 126,
@@ -8445,12 +10740,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-fabric-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-fabric-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Fashion campaign image spans the width; large heading and collection grid follow."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8466,7 +10772,17 @@
       ],
       "browser_render_observations": [
         "shopify-fabric-fabric-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-fabric:fabric-2026-10-27",
+        "observations": "Fashion campaign image spans the width; large heading and collection grid follow."
+      }
     },
     {
       "audit_rank": 127,
@@ -8497,12 +10813,23 @@
         "cart": {
           "status": "browser_rendered_readonly",
           "url": "https://theme-atelier-demo.myshopify.com/cart"
+        },
+        "mobile": {
+          "status": "reviewed_360x640",
+          "url": "https://theme-atelier-demo.myshopify.com/",
+          "viewport_dimensions": {
+            "width": 360,
+            "height": 640,
+            "units": "CSS px"
+          },
+          "observed_date": "2026-10-27",
+          "notes": "Transparent centered header over a luxury accessories image and large serif campaign copy."
         }
       },
       "supplementary_indexed_html_urls": [],
       "test_scope": {
         "actual_dom_interactions": false,
-        "mobile_viewport_render": false,
+        "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
         "real_lighthouse": false
@@ -8518,7 +10845,17 @@
       ],
       "browser_render_observations": [
         "shopify-atelier-atelier-screen-coverage"
-      ]
+      ],
+      "mobile_review": {
+        "status": "reviewed",
+        "viewport_dimensions": {
+          "width": 360,
+          "height": 640,
+          "units": "CSS px"
+        },
+        "observation_id": "mobile-atelier:atelier-2026-10-27",
+        "observations": "Transparent centered header over a luxury accessories image and large serif campaign copy."
+      }
     }
   ],
   "validation_policy": {
