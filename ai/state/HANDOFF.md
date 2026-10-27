@@ -1,3 +1,18 @@
+## 2026-10-27 — Shopify rendered demo research Batch 116 (Ignite:Alpha)
+
+**Done**
+- Verified official View demo; inspected automotive home, 87-product BMV collection, Foot Rest Brake & Gas Pedal PDP and empty cart read-only.
+- Coverage: 118/127 homes (51 indexed HTML + 67 additional rendered); canonical rendered total 343 pages across 87 presets; 9 remain.
+- Catalog has vehicle/part fitment finder, compatibility facets, comparison switch, PDP compatibility table and product PDFs. Recorded potential series/generation fitment mismatch for validation.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No vehicle selectors, collection controls, purchase/cart actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Product and fitment claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
 ## 2026-10-27 — Shopify rendered demo research Batch 115 (Release:Grasse)
 
 **Done**
