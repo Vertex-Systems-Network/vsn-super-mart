@@ -1,3 +1,18 @@
+## 2026-10-27 — Shopify validation checkpoint Batch 128
+
+**Done**
+- Reopened the official Ignite:Peak Shopify Theme Store preview in Mobile mode; measured the embedded storefront viewport at 360×640 CSS px and captured a screenshot in the browser session (not committed as an image).
+- Tapped the homepage “Shop now” CTA. The demo displayed a 21+ age gate. It was left unanswered, so no age claim or downstream action was made.
+- Updated evidence, matrix, plan, audit and progress. Template coverage remains **127/127 homes · collections · product pages · carts**; rendered evidence is now 444 pages across 127 presets.
+
+**Still open**
+- One mobile preview and one interaction attempt are samples, not cohort-wide tests. Quick view, filters, variants and keyboard behavior remain unverified.
+- Theme Editor and checkout were not opened; no merchant-store credentials/session were available.
+- Lighthouse/performance measurement was not run; no Lighthouse runner was available.
+
+**Next**
+- Test representative non-age-gated collection/product controls, then record Theme Editor, checkout and performance access limits or results. Do not attest the 21+ gate without a user-provided age confirmation.
+
 ## 2026-10-27 — Shopify all-screen template coverage checkpoint — COMPLETE
 
 **Done**
