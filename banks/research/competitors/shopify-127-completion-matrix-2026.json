@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain and Impulse:Apothecary now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary and Prestige:Prestige now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 4
+    "partial_keyboard_accessibility_presets": 5
   },
   "pending": {
     "home": 0,
@@ -1011,15 +1011,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No screenshot or viewport measurements",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard/accessibility is home-only partial; product/collection checks and menu activation remain untested. Lighthouse not run due PSI challenge."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete menu activation plus product and collection keyboard checks",
+        "Run Lighthouse when PSI is accessible without human-verification challenge"
       ],
       "browser_render_observations": [
         "shopify-prestige-prestige-browser-render",
@@ -1044,7 +1047,26 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-prestige-prestige-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_homepage_keyboard_review",
+          "pages": [
+            "https://prestige-theme-allure.myshopify.com/"
+          ],
+          "observations": [
+            "Tab sequence reached the primary WOMEN, MEN, ABOUT, and PRESETS menu buttons and the site logo.",
+            "Each primary menu button was exposed as a named button in the accessibility tree; keyboard activation/expansion was not confirmed."
+          ],
+          "limitations": "Home-only partial smoke review; product and collection keyboard behavior and the full WCAG checklist remain untested."
+        },
+        "lighthouse": {
+          "status": "not_run_due_to_current_psi_challenge",
+          "reason": "Further PageSpeed Insights access is paused after a Google unusual-traffic reCAPTCHA appeared on the prior retry; no challenge was solved.",
+          "scores": []
+        }
+      }
     },
     {
       "audit_rank": 6,
