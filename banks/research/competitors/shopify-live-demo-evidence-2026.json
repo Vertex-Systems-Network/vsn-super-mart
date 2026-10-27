@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 64 additional browser-rendered homes are documented (115/127 unique); 331 read-only rendered pages across 84 selected presets.",
+  "summary": "51 indexed HTML selected homes and 65 additional browser-rendered homes are documented (116/127 unique); 335 read-only rendered pages across 85 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 84,
-    "opened_home": 84,
-    "opened_collection": 70,
-    "opened_product": 72,
-    "opened_empty_cart": 38,
+    "opened_stores": 85,
+    "opened_home": 85,
+    "opened_collection": 71,
+    "opened_product": 73,
+    "opened_empty_cart": 39,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10731,11 +10731,73 @@
       "limits": [
         "No product, selector, add-to-cart, cart or checkout actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Product, infant-safety, privacy, performance, delivery and warranty claims unverified."
       ]
+    },
+    {
+      "id": "shopify-eurus-placid-browser-render",
+      "selected_preset_id": "eurus:placid",
+      "theme_family": "Eurus",
+      "preset": "Placid",
+      "store_url": "https://eurus-placid.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Eurus:Placid listing View demo, verified iframe host and inspected home, New Arrivals collection, linked Clay Fold Vase PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://eurus-placid.myshopify.com/",
+          "observations": [
+            "Home-decor storefront with shipping/returns announcement, Shop by Shade tabs and variant-rich products, room collection links, product edits, trust strip, set-building bundle, shop-the-look, material notes, testimonials, craft/origin narrative and social feed.",
+            "Catalog styling is quiet, neutral and material-led; some menus point to the same home URL. Merchant claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://eurus-placid.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "19 products; category shortcuts, material, availability, price, category and size facets; grid/list controls, featured sort and pagination/per-page controls visible untouched.",
+            "Product grid includes color swatches, item prices and limited-release editorial tile; collection includes cross-sell, materials/care and FAQs."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://eurus-placid.myshopify.com/collections/new-arrivals/products/clay-fold-vase",
+          "observations": [
+            "Clay Fold Vase $62 PDP with six media slots, in-stock and estimated-delivery copy, detailed stoneware/glaze/dimension/weight/not-watertight/care/origin attributes, gift note, color choices, quantity, add-to-cart, payment/trust details and bundle cross-sell.",
+            "Below-PDP Craft & Origin copy says Ripple is Turkish travertine although current product is Clay Fold Vase and its facts say stoneware made in Vietnam; notable content mismatch. Claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://eurus-placid.myshopify.com/cart",
+          "observations": [
+            "Empty cart with continue-shopping and login links, newsletter signup, customer care/policy, product category and payment footer."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No facet, sort, grid, variant, bundle, cart or checkout interactions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Retailer/product/shipping claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 331,
-    "selected_presets": 84,
-    "unique_selected_homepages_across_all_source_types": 115
+    "pages": 335,
+    "selected_presets": 85,
+    "unique_selected_homepages_across_all_source_types": 116
   }
 }
