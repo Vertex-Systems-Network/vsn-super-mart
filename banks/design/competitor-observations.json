@@ -2175,6 +2175,15 @@
         "Modal includes product media, sale/compare-at price, description, size-chart access, stock state and detail accordions"
       ],
       "design_hypothesis": "Let shoppers inspect a related item in context with essential buying information and a clear close path, while preserving the original PDP."
+    },
+    {
+      "id": "shopify-interaction-impulse-dune-variant",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Impulse:Dune Naked & Famous Crewneck PDP uses S/M/L/XL radio-style size options.",
+        "Selecting M updates the selected radio and the URL's variant ID; the in-stock message remains unchanged."
+      ],
+      "design_hypothesis": "Keep the selected variant reflected in the URL and visible control state; update availability messaging when a variant actually changes stock."
     }
   ]
 }
