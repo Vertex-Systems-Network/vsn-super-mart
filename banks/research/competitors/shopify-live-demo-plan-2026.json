@@ -85,11 +85,11 @@
     "live_product_verified": 40,
     "live_cart_verified": 11,
     "live_mobile_verified": 0,
-    "browser_rendered_pages": 347,
-    "browser_rendered_selected_presets": 88,
-    "selected_home_observed_any_source": 119,
-    "distinct_selected_homepages_any_source": 119,
-    "unique_homepages_remaining": 8
+    "browser_rendered_pages": 351,
+    "browser_rendered_selected_presets": 89,
+    "selected_home_observed_any_source": 120,
+    "distinct_selected_homepages_any_source": 120,
+    "unique_homepages_remaining": 7
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -104,6 +104,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch117-2026.md",
-  "next_action": "Continue with next unverified selected preset; 8 unique homes remain."
-}
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch118-2026.md",
+  "next_action": "Continue with a new unique official Shopify theme demo host; target 7 remaining distinct homes. Batch 118 completed Vision:Velocite."
+}\n
