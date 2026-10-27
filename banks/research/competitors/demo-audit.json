@@ -9192,6 +9192,37 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official demo host verified; rendered home, Petit PDP and empty cart inspected; no collection route exposed by inspected navigation.",
       "notes": "Product claims include privacy, health/sleep monitoring and infant safety; all merchant assertions unverified. Repeated review content noted."
+    },
+    {
+      "id": "shopify-live-eurus-placid",
+      "platform": "shopify",
+      "theme": "Eurus",
+      "preset": "Placid",
+      "url": "https://eurus-placid.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "shade-tabs",
+        "room-navigation",
+        "material-facets",
+        "bundle-builder",
+        "shop-the-look"
+      ],
+      "niches": [
+        "home-decor",
+        "home-furnishings"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official View demo host verified; rendered home, New Arrivals collection, Clay Fold Vase PDP and empty cart inspected read-only.",
+      "notes": "PDP facts describe a Vietnam stoneware vase but adjacent Craft & Origin copy describes a Ripple travertine object; content mismatch noted. Claims unverified."
     }
   ],
   "discovery_sources": [
