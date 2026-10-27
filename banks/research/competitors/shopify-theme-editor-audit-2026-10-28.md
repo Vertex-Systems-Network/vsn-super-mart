@@ -173,3 +173,13 @@ Follow-up confirmed keyboard operation on the Dune demo:
 - The product gallery has an unnamed button, and Shop the Look has two unnamed buttons in the accessibility tree.
 
 This remains a manual smoke review only, not a WCAG conformance audit.
+
+
+### Apothecary keyboard smoke review — 2026-10-28
+
+- Homepage: Tab reached the SHOP button; its submenu expanded while focused.
+- Collection: Tab reached Filter after Skip to content. Space showed the FilterDrawer (Availability and Price sections) in the resulting accessibility snapshot. On the next Tab, the drawer had disappeared and focus was on Sort. Keyboard activation/focus persistence is inconsistent in this observation and needs follow-up.
+- Product: Tab from Skip to content reached Add to Cart. Product disclosure controls were named and exposed as expandable buttons.
+- Manual smoke test only; not a WCAG conformance audit.
+
+The matrix now shows **0/127 complete** and **4/127 with partial keyboard/accessibility observations**. Lighthouse remains **0/127 complete**; PSI is still blocked by the human-verification challenge from the prior retry.
