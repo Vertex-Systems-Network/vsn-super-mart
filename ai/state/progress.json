@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Page coverage complete across 127/127 selected presets for home, collection, product and cart. Batch128 recorded Ignite:Peak mobile preview at 360×640 CSS px and one Shop now CTA interaction; an unanswered 21+ gate blocked further behavior. Remaining: representative filters/variants/quick-view/keyboard checks, Theme Editor access, checkout-flow inspection and Lighthouse/performance measurement.",
+  "next_action": "Continue Shopify mobile review from local:Caffeine, local:Lively and Empire:Forma (360×640 frames verified but screenshots blurred); 10/127 visually reviewed, 114 not yet reviewed. Then continue the ordered preset cohort, recording viewport and visible layout; current clipping risks: Empire:Empire and Empire:Circuit.",
   "approvals": {},
   "figma": {
     "file_key": null,
