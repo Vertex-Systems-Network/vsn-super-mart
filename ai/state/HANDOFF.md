@@ -1,5 +1,11 @@
 ## Shopify live-demo research — Batch 101 (Palo Alto:Phenomena, 2026-10-27)
 
+- Verified official demo iframe; inspected rendered home, Best sellers collection (12 products), Halo highlighter PDP and empty cart read-only.
+- Coverage 103/127 unique homes, 284 rendered pages across 72 presets; 24 unique homes remain. Beauty and merchant claims unverified; no interactions, screenshot, viewport/editor/checkout/performance tests.
+- Next: select the next unique preset without browser-rendered evidence.
+
+
+
 - Confirmed official demo iframe and inspected rendered homepage. Collection navigation timed out; only one page counted. Collection/PDP/cart remain unverified.
 - Coverage 103/127 unique homes, 281 pages across 72 presets; 24 homes remain. Beauty claims unverified; no interaction or viewport/editor/checkout/performance tests.
 - Retry route when browser service recovers.
