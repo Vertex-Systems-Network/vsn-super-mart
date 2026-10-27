@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-28",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover 110 selected presets (112 observations total including Ignite:Peak). Tier 1, Tier 2, Tier 3 and Tier 4 are closed.",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover all 127 selected presets (129 observations total, including two additional observations). Tier 1–4 and Other selected families are closed.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5578,7 +5578,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 112,
+    "interactive_events_tested": 129,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -14906,6 +14906,329 @@
       "screenshot_captured": false,
       "screenshot_saved": false,
       "batch_id": "batch140-tier4-close"
+    },
+    {
+      "id": "other-refresh:refresh-2026-10-28",
+      "selected_preset_id": "refresh:refresh",
+      "store_url": "https://theme-refresh-demo.myshopify.com/products/shampoo-2",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-rise:rise-2026-10-28",
+      "selected_preset_id": "rise:rise",
+      "store_url": "https://theme-rise-demo.myshopify.com/products/white-hoodie",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected the M size option on the product page and verified its checked state.",
+      "result": "product_variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-origin:origin-2026-10-28",
+      "selected_preset_id": "origin:origin",
+      "store_url": "https://theme-origin-demo.myshopify.com/products/2unfold-bag-copy",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-craft:craft-2026-10-28",
+      "selected_preset_id": "craft:craft",
+      "store_url": "https://theme-craft-demo.myshopify.com/products/the-everything-bowls",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-publisher:publisher-2026-10-28",
+      "selected_preset_id": "publisher:publisher",
+      "store_url": "https://theme-publisher-demo.myshopify.com/products/braulio-amado-2021",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-ride:ride-2026-10-28",
+      "selected_preset_id": "ride:ride",
+      "store_url": "https://theme-ride-demo.myshopify.com/products/filipe-toledo-wildfire",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-sense:sense-2026-10-28",
+      "selected_preset_id": "sense:sense",
+      "store_url": "https://theme-sense-demo.myshopify.com/products/natural-vegan-lip-balm-lemon-lime",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-studio:studio-2026-10-28",
+      "selected_preset_id": "studio:studio",
+      "store_url": "https://theme-studio-demo.myshopify.com/products/rhyme",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-taste:taste-2026-10-28",
+      "selected_preset_id": "taste:taste",
+      "store_url": "https://theme-taste-demo.myshopify.com/products/copy-of-the-good",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-crave:crave-2026-10-28",
+      "selected_preset_id": "crave:crave",
+      "store_url": "https://theme-crave-demo.myshopify.com/products/thai-larb-starter-pack",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-spotlight:spotlight-2026-10-28",
+      "selected_preset_id": "spotlight:spotlight",
+      "store_url": "https://theme-spotlight-demo.myshopify.com/products/copy-of-ebbets-wool-c-cap-navy",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened product gallery zoom, verified the media viewer and close behavior, then closed it.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-vessel:vessel-2026-10-28",
+      "selected_preset_id": "vessel:vessel",
+      "store_url": "https://theme-vessel-demo.myshopify.com/products/us-25192?variant=44459717656633",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Product Details and verified its open state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-heritage:heritage-2026-10-28",
+      "selected_preset_id": "heritage:heritage",
+      "store_url": "https://theme-heritage-demo.myshopify.com/products/mof-melton-wool-blanket",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Opened the storefront search dialog; verified its search UI appeared without submitting a query.",
+      "result": "search_dialog_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-pitch:pitch-2026-10-28",
+      "selected_preset_id": "pitch:pitch",
+      "store_url": "https://theme-pitch-demo.myshopify.com/products/age-serum",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Natural ingredients and verified the disclosure opened.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-dwell:dwell-2026-10-28",
+      "selected_preset_id": "dwell:dwell",
+      "store_url": "https://theme-dwell-demo.myshopify.com/products/top-sheet-brushed-cotton",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Materials + Care and verified the disclosure opened.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-ritual:ritual-2026-10-28",
+      "selected_preset_id": "ritual:ritual",
+      "store_url": "https://theme-ritual-demo.myshopify.com/products/rose-11-bag-1?variant=45042658443453",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Selected the Ivory product color and verified its checked state.",
+      "result": "product_variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
+    },
+    {
+      "id": "other-fabric:fabric-2026-10-28",
+      "selected_preset_id": "fabric:fabric",
+      "store_url": "https://theme-fabric-demo.myshopify.com/products/womens-essential-sweatpant-in-black?variant=44434707710005",
+      "observed_on": "2026-10-28",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo.",
+      "observed_result": "Expanded Product Details and verified its open state.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch141-other-families-close"
     }
   ],
   "mobile_review_observations": [
