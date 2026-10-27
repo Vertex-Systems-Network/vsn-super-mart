@@ -1380,3 +1380,12 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Interaction pass ran at 1363×936 CSS px in normal browser mode, not the 360×640 preview. No checkout, theme editor, accessibility or Lighthouse testing.
 - Report: `banks/research/competitors/shopify-interaction-sample-batch133-2026.md`.
 - Next: continue the next selected preset's menu/search or PDP/cart interaction workflow; keep purchases and checkout out of scope.
+
+
+## Shopify targeted interaction sample — Batch 134 (2026-10-27)
+- Added Impulse:Impulse Quick View interaction on the related-product rail. The Vela Shirt modal showed imagery, sale/compare-at price, description, size-chart access, stock state and accordions while retaining the Lido Short PDP context.
+- No cart action, purchase, checkout, Theme Editor, keyboard/accessibility or Lighthouse test.
+- Interaction evidence at 1363×936 CSS px; mobile visual review remains separately complete at 127/127.
+- Totals: 4 presets / 6 interaction observations; 123 presets remain for interaction sampling.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch134-2026.md`.
+- Next: continue representative interactions on a new preset without purchase or checkout.
