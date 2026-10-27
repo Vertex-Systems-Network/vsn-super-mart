@@ -43,3 +43,8 @@ Impulse:Impulse adds one targeted Quick View interaction to the sample. Overall:
 ## Targeted interaction update — Batch 135 (2026-10-27)
 
 Impulse:Dune adds one variant-selection check: size M became selected, S deselected and the URL reflected a variant ID; stock copy did not change. No add-to-cart action was run. Targeted coverage is 5/127 presets (7 observations); 122 remain pending. Mobile visual review remains complete at 127/127.
+
+
+## Targeted interaction update — Batch 136 (2026-10-27)
+
+Impulse:Terrain adds one size selection check: M became selected, S deselected, and the URL reflected the selected variant ID; stock copy remained unchanged. No add-to-cart action was run. Targeted coverage is 6/127 presets (8 observations); 121 remain pending. Mobile visual review remains complete at 127/127.
