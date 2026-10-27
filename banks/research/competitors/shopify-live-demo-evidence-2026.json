@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover 33 selected presets (35 observations total including Ignite:Peak).",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover 66 selected presets (68 observations total including Ignite:Peak).",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -730,7 +730,7 @@
       "product": null,
       "cart": null,
       "embedded_empty_cart_html_on_home": true,
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
@@ -738,6 +738,9 @@
         "real Add to Cart or Quick View interactions",
         "mobile/desktop rendered screenshots",
         "theme editor settings"
+      ],
+      "interaction_observation_ids": [
+        "tier2-motion-satchel-2026-10-27"
       ]
     },
     {
@@ -844,7 +847,7 @@
           "cart-lines"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
@@ -853,6 +856,9 @@
         "real product add/cart mutation",
         "live mobile UX",
         "private Theme Editor access"
+      ],
+      "interaction_observation_ids": [
+        "tier2-local-local-2026-10-27"
       ]
     },
     {
@@ -1191,9 +1197,12 @@
         "Drawer click/notes not executed",
         "Merchant settings not inspected"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier2-focal-ivory-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-focal-sapphire",
@@ -1261,9 +1270,12 @@
         "No screenshot, viewport/mobile, Theme Editor, keyboard, checkout or performance tests.",
         "Merchant jewelry, material, shipping and warranty claims unverified."
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier2-focal-sapphire-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-symmetry-beatnik",
@@ -1519,9 +1531,12 @@
         "Countdown actual campaign or expired state cannot be inferred",
         "Click behavior, screen geometry, mobile/editor/Lighthouse untested"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier2-expanse-fetch-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-stiletto-linen",
@@ -1565,9 +1580,12 @@
         "Cart page was not retrievable; drawer markup is not route",
         "Any live Quick View/swatches or mobile rendering"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier2-stiletto-linen-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-stiletto-glimmer",
@@ -1631,7 +1649,7 @@
         "Quick View / size switching and bundle discount not clicked",
         "No independent cart route or mobile renders"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "supplemental_documentation": [
@@ -1657,6 +1675,9 @@
             "product-grid"
           ]
         }
+      ],
+      "interaction_observation_ids": [
+        "tier2-stiletto-glimmer-2026-10-27"
       ]
     },
     {
@@ -1748,9 +1769,12 @@
         "Conflicting thresholds not verified as same shipping zone",
         "Actual variant change/cart mutation, screen render or checkout"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier2-stiletto-tapestry-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-prestige-strass",
@@ -3755,9 +3779,12 @@
         "Merchant seller claims, stock, local pickup and sale discounts are illustrative and unchecked.",
         "No interactive Shopify editor, mobile, accessibility or checkout test."
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier2-expanse-expanse-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-release-release",
@@ -4328,7 +4355,7 @@
           "product-grid"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
@@ -4336,6 +4363,9 @@
         "No screenshot, measured viewport/mobile, keyboard, editor or performance tests",
         "Merchant/demo price, stock, materials, shipping, sustainability and location claims are unverified",
         "Shopify listing preview initially showed about:blank; clicking the visible View demo button in a fresh tab exposed the exact iframe URL. The live store title is Motion Theme — Apparel."
+      ],
+      "interaction_observation_ids": [
+        "tier2-motion-motion-2026-10-27"
       ]
     },
     {
@@ -4423,7 +4453,7 @@
           "product-grid"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
@@ -4431,6 +4461,9 @@
         "No screenshot, measured viewport/mobile, keyboard, editor or performance tests",
         "Merchant/demo price, stock, materials, shipping, sustainability and location claims are unverified",
         "Exact iframe src was read from the official Memo listing after clicking View demo. Store page title is Motion Theme — Home; its demo content uses home/desk goods."
+      ],
+      "interaction_observation_ids": [
+        "tier2-motion-memo-2026-10-27"
       ]
     },
     {
@@ -4603,13 +4636,16 @@
         ]
       },
       "cart": null,
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
         "No filters, variants, subscription, quantity, cart mutation, checkout or other controls activated.",
         "No dedicated cart page inspected; drawer state only.",
         "No screenshot, viewport/mobile, editor, keyboard or performance tests; seller claims unverified."
+      ],
+      "interaction_observation_ids": [
+        "tier2-local-caffeine-2026-10-27"
       ]
     },
     {
@@ -4697,13 +4733,16 @@
           "cart-summary"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
         "No age verification, filters, sort, quantity, cart mutation or checkout actions.",
         "No screenshot, viewport/mobile, editor, keyboard or performance tests.",
         "Merchant wine, stock, event, location and regulatory statements unverified."
+      ],
+      "interaction_observation_ids": [
+        "tier2-local-lively-2026-10-27"
       ]
     },
     {
@@ -5524,7 +5563,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 35,
+    "interactive_events_tested": 68,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -5536,7 +5575,9 @@
     "Do not copy competitor imagery, code or exact layouts",
     "Batch83 cart drawer is not a dedicated cart-page visit; Batch84 age gate remained visible and unsubmitted. No visual/device or interaction tests.",
     "Batch128: Ignite:Peak mobile preview measured 360×640 CSS px; Shop now opened a 21+ gate, left unanswered. One interaction attempt and one mobile viewport recorded; no age claim, purchase or checkout.",
-    "Four additional read-only interaction observations were made on public demos at 1363×936 CSS px: Enterprise product finder, filters/sort, empty cart drawer, and Prestige:Couture size variant. These are not 360×640 interaction tests; no item was added or checkout opened."
+    "Four additional read-only interaction observations were made on public demos at 1363×936 CSS px: Enterprise product finder, filters/sort, empty cart drawer, and Prestige:Couture size variant. These are not 360×640 interaction tests; no item was added or checkout opened.",
+    "Batch 138: 33 targeted interactions were observed across Tier 2. One accidental quantity-2 add-to-cart state occurred on Stiletto Linen while controls were being targeted; both units were removed and the demo cart was verified empty. No checkout or payment occurred.",
+    "For Stiletto:Stiletto, the listed product URL returned 404 during the interaction pass; the public homepage search modal was used as the same-preset fallback, with no query submitted."
   ],
   "selected_127_document_count": 51,
   "browser_render_observations": [
@@ -13387,6 +13428,633 @@
       "screenshot_captured": false,
       "screenshot_saved": false,
       "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier2-focal-focal-2026-10-27",
+      "selected_preset_id": "focal:focal",
+      "store_url": "https://focal-theme-carbon.myshopify.com/products/leather-case-for-airpods-pro",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened TECH SPECS on the product page; specifications panel expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-focal-ivory-2026-10-27",
+      "selected_preset_id": "focal:ivory",
+      "store_url": "https://focal-theme-ivory.myshopify.com/products/evaline-e54-blazer",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Size chart on the product page; the sizing chart expanded.",
+      "result": "size_chart_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-focal-quartz-2026-10-27",
+      "selected_preset_id": "focal:quartz",
+      "store_url": "https://focal-theme-quartz.myshopify.com/products/1969-vintage-steel-white-36-39mm",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened SHIPPING & RETURNS on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-focal-sapphire-2026-10-27",
+      "selected_preset_id": "focal:sapphire",
+      "store_url": "https://focal-theme-sapphire.myshopify.com/products/double-meteorites-stud-earrings-ae9784ox",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened WARRANTY on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-expanse-expanse-2026-10-27",
+      "selected_preset_id": "expanse:expanse",
+      "store_url": "https://expanse-theme-furniture.myshopify.com/collections/planters/products/trigg-wall-vessel",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Description on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-expanse-revive-2026-10-27",
+      "selected_preset_id": "expanse:revive",
+      "store_url": "https://expanse-theme-beauty.myshopify.com/collections/face-mists/products/valmont-priming-with-a-hydrating-fluid",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Description on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-expanse-spritz-2026-10-27",
+      "selected_preset_id": "expanse:spritz",
+      "store_url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Description on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-expanse-fetch-2026-10-27",
+      "selected_preset_id": "expanse:fetch",
+      "store_url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/pink-dog-collar-walk-kit-bag-pins",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Description on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-expanse-gem-2026-10-27",
+      "selected_preset_id": "expanse:gem",
+      "store_url": "https://gem-theme-emerald.myshopify.com/collections/earrings/products/karasuba",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Shipping information on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-local-local-2026-10-27",
+      "selected_preset_id": "local:local",
+      "store_url": "https://local-theme-main.myshopify.com/collections/bread-buns-crisps/products/some-bread",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened the Language selector; English options became visible.",
+      "result": "localization_selector_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-local-soleway-2026-10-27",
+      "selected_preset_id": "local:soleway",
+      "store_url": "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers/products/timberland%C2%AE-premium-6-inch-waterproof-boot",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened the pickup-location selector; a Select pickup location dialog with a map appeared.",
+      "result": "pickup_location_modal_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-local-thrive-2026-10-27",
+      "selected_preset_id": "local:thrive",
+      "store_url": "https://local-theme-thrive.myshopify.com/products/gut-health-ground-coffee",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Description on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-local-caffeine-2026-10-27",
+      "selected_preset_id": "local:caffeine",
+      "store_url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened the Country/region selector; currency options became visible.",
+      "result": "localization_selector_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-local-lively-2026-10-27",
+      "selected_preset_id": "local:lively",
+      "store_url": "https://local-theme-lively.myshopify.com/collections/red/products/crimson-reserve-2016",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened the store pickup/location panel; the map and store details appeared. The age prompt was left unanswered.",
+      "result": "pickup_location_modal_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-stiletto-stiletto-2026-10-27",
+      "selected_preset_id": "stiletto:stiletto",
+      "store_url": "https://stiletto-theme-stiletto.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. No search was submitted.",
+      "observed_result": "The listed product URL returned 404 during this review, so the same preset's public homepage was used. Opened its search modal and left the query blank.",
+      "result": "search_modal_opened_homepage_fallback",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-stiletto-luster-2026-10-27",
+      "selected_preset_id": "stiletto:luster",
+      "store_url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry/products/the-rivi-ring",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Materials & Care on the product page; the panel expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-stiletto-linen-2026-10-27",
+      "selected_preset_id": "stiletto:linen",
+      "store_url": "https://stiletto-theme-linen.myshopify.com/collections/footwear/products/teddy-heel-ecru?variant=45491245416563",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Selected size 36; the selected-size label and variant-specific URL updated.",
+      "result": "variant_selected_url_updated",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-stiletto-glimmer-2026-10-27",
+      "selected_preset_id": "stiletto:glimmer",
+      "store_url": "https://stiletto-theme-glimmer.myshopify.com/collections/face/products/marula-face-oil",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Ingredients on the product page; the panel expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-stiletto-tapestry-2026-10-27",
+      "selected_preset_id": "stiletto:tapestry",
+      "store_url": "https://stiletto-theme-tapestry.myshopify.com/collections/all/products/wine-cup-anthracite",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Product Care on the product page; the panel expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-motion-motion-2026-10-27",
+      "selected_preset_id": "motion:motion",
+      "store_url": "https://motion-theme-adventure.myshopify.com/collections/half-zips/products/merino-wool-quarter-zip",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Size guide on the product page.",
+      "result": "size_guide_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-motion-satchel-2026-10-27",
+      "selected_preset_id": "motion:satchel",
+      "store_url": "https://motion-theme-accessories.myshopify.com/products/whelma-bag",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Description on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-motion-memo-2026-10-27",
+      "selected_preset_id": "motion:memo",
+      "store_url": "https://motion-theme-home.myshopify.com/collections/homewares/products/tumbler-eggplant",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Shipping information on the product page; the disclosure expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-palo-alto-palo-alto-2026-10-27",
+      "selected_preset_id": "palo-alto:palo-alto",
+      "store_url": "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals/products/sabine-skirt",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Size guide on the product page.",
+      "result": "size_guide_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-palo-alto-dynamo-2026-10-27",
+      "selected_preset_id": "palo-alto:dynamo",
+      "store_url": "https://palo-alto-theme-dynamo.myshopify.com/products/navigator-backpack",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Materials and specs on the product page; the panel expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-palo-alto-skylight-2026-10-27",
+      "selected_preset_id": "palo-alto:skylight",
+      "store_url": "https://palo-alto-theme-skylight.myshopify.com/products/kalinda-boots",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Size chart on the product page.",
+      "result": "size_chart_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-palo-alto-phenomena-2026-10-27",
+      "selected_preset_id": "palo-alto:phenomena",
+      "store_url": "https://palo-alto-theme-phenomena.myshopify.com/products/halo-highlighter",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Description on the product page; the panel expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-palo-alto-pluma-2026-10-27",
+      "selected_preset_id": "palo-alto:pluma",
+      "store_url": "https://palo-alto-theme-pluma.myshopify.com/products/jardin-placemat",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Product details on the product page; the panel expanded.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-pipeline-pipeline-2026-10-27",
+      "selected_preset_id": "pipeline:pipeline",
+      "store_url": "https://pipeline-theme-fashion.myshopify.com/products/callie-looker-cardigan-beige",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Size on the product page; the size section expanded.",
+      "result": "size_selector_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-pipeline-petra-2026-10-27",
+      "selected_preset_id": "pipeline:petra",
+      "store_url": "https://pipeline-light.myshopify.com/products/sky",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Our Promise; the associated returns and payment information panel appeared.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-pipeline-pahoa-2026-10-27",
+      "selected_preset_id": "pipeline:pahoa",
+      "store_url": "https://pipeline-theme.myshopify.com/products/fig",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened product-image Zoom; a gallery dialog with image navigation and Close appeared.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-pipeline-phantom-2026-10-27",
+      "selected_preset_id": "pipeline:phantom",
+      "store_url": "https://pipeline-botanical.myshopify.com/products/nina",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened product-image Zoom; a gallery dialog with image navigation and Close appeared.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-concept-concept-2026-10-27",
+      "selected_preset_id": "concept:concept",
+      "store_url": "https://concept-theme-tech.myshopify.com/products/air-beats",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Selected Gold Tone; the option became checked and the product variant state changed.",
+      "result": "variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier2-concept-inova-2026-10-27",
+      "selected_preset_id": "concept:inova",
+      "store_url": "https://concept-theme-inova.myshopify.com/collections/seating/products/embrace-lounge-chair",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened gallery media 1 in a modal; a Close control was available, then closed it.",
+      "result": "product_gallery_modal_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch138-tier2-close"
     }
   ],
   "mobile_review_observations": [
