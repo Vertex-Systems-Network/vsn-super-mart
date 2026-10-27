@@ -9161,6 +9161,37 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official Wonder:Nook demo host verified; rendered home, Sofas collection, Mellow Sofa PDP and empty cart inspected read-only.",
       "notes": "Demo links product supplier NAP and includes warranty/delivery claims; not independently verified."
+    },
+    {
+      "id": "shopify-live-wonder-petit",
+      "platform": "shopify",
+      "theme": "Wonder",
+      "preset": "Petit",
+      "url": "https://wonder-theme-petit-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "single-product-landing",
+        "product-comparison",
+        "product-specs",
+        "sticky-purchase",
+        "empty-cart"
+      ],
+      "niches": [
+        "baby-monitor",
+        "consumer-electronics"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official demo host verified; rendered home, Petit PDP and empty cart inspected; no collection route exposed by inspected navigation.",
+      "notes": "Product claims include privacy, health/sleep monitoring and infant safety; all merchant assertions unverified. Repeated review content noted."
     }
   ],
   "discovery_sources": [
