@@ -1604,6 +1604,18 @@
         "Shop-the-look hotspots and care guidance"
       ],
       "design_hypothesis": "Home-decor discovery can use shade, room, material and curated sets as complementary pathways; product-specific origin/craft content must track the active SKU to retain confidence."
+    },
+    {
+      "id": "shopify-live-release-grasse",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Men's grooming hero and featured/preorder cards",
+        "Best-seller collection tabs",
+        "Before/after comparison slider",
+        "Featured PDP with volume options",
+        "Shop-the-look, guides and testimonials"
+      ],
+      "design_hypothesis": "Grooming merchandising can combine concerns-based collection routes, before/after storytelling and volume choices; product facts, inventory states and shipping thresholds need to remain consistent across placements."
     }
   ]
 }
