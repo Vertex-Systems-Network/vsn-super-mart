@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated_at": "2026-10-27",
-  "note": "Qualitative observations only; do not mark exact 12-dimensional fingerprints verified until a human or visual screenshot audit captures the live demo across templates and breakpoints.",
+  "note": "Qualitative observations include source-linked live storefront evidence and the 127-preset 360×640 CSS px mobile preview sweep. Fingerprints remain approximate until a comparable visual audit covers desktop, collection, product and mobile views at defined breakpoints.",
   "observations": [
     {
       "id": "woo-flatsome-mega",
@@ -2071,6 +2071,65 @@
         "Empty-cart state and recommendations"
       ],
       "design_hypothesis": "The atelier Atelier demo's cart pages document additional screen patterns for atelier-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-mobile-sweep-header-hierarchy",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "360×640 CSS px review of 127 selected Theme Store presets",
+        "Compact hamburger/wordmark/search/cart headers across paid and free themes",
+        "Search-heavy stacked header variants in Enterprise and Warehouse"
+      ],
+      "design_hypothesis": "At phone widths, treat announcement bars, search, brand and cart as a constrained header stack. Keep primary navigation reachable without letting utility rows consume the hero; benchmark all variants at 360 px."
+    },
+    {
+      "id": "shopify-mobile-sweep-hero-copy",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Image-led full-width campaign heroes",
+        "Large editorial headlines that continue below the first viewport",
+        "Centered and left-aligned CTAs across fashion, food, beauty, home and specialty stores"
+      ],
+      "design_hypothesis": "Give merchants focal-point controls and mobile headline/CTA spacing so the key message remains readable and the action is discoverable before or immediately after the hero. Verify text-on-image contrast."
+    },
+    {
+      "id": "shopify-mobile-sweep-catalog-density",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Two-column product grids in Refresh and Spotlight",
+        "Stacked search/department controls in Enterprise and Warehouse",
+        "Single-column campaign and product-image layouts"
+      ],
+      "design_hypothesis": "Support a clear two-column product-card baseline with a configurable one-column option, and progressively disclose filters/search on dense catalogs. Keep tap targets and prices legible at 360 px."
+    },
+    {
+      "id": "shopify-mobile-sweep-overflow",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Horizontal text/promo clipping in Palo Alto:Dynamo and Broadcast:Motif",
+        "Crowded header/hero copy in Empire:Empire and Empire:Circuit"
+      ],
+      "design_hypothesis": "Add a narrow-viewport overflow check for every promo bar, ticker, header control and hero heading. Long copy should wrap, truncate accessibly, or scroll within a bounded region rather than push the document wider."
+    },
+    {
+      "id": "shopify-mobile-sweep-overlays",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Lively age-verification gate in the first mobile view",
+        "Eurus:Arise cookie-consent overlay obscuring much of the hero",
+        "Limited-clarity hero media in Eurus:Arise and Stiletto:Luster"
+      ],
+      "design_hypothesis": "Treat consent and age-gate overlays as first-screen layout states. Preserve a visible path to the underlying page, maintain readable dialog bounds and focus behavior, and test image placeholders separately from mobile layout."
+    },
+    {
+      "id": "shopify-mobile-sweep-responsive-family-styles",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Shared preset families vary in header density, type scale, imagery and campaign pacing",
+        "Atelier, Tinker, Savor and other free themes reviewed as standalone designs",
+        "Mobile observations are linked to individual preset IDs in the completion matrix"
+      ],
+      "design_hypothesis": "Keep family presets as token/layout variations over shared responsive components. Use this evidence to inform original VSN styles; do not reproduce competitors' photography, typography pairings or exact composition."
     }
   ]
 }
