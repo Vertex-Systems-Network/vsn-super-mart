@@ -135,3 +135,8 @@ All **6/6 Tier 3 presets** received a verified live interaction and were removed
 ## Tier 4 interaction group closeout — Batch 140 (2026-10-28)
 
 All **38/38 Tier 4 presets** received a verified live-demo interaction and were archived from pending. Coverage spans Be Yours, Sleek, Wonder, Eurus, Release, Ignite, Shapes and Vision. Actions included reversible gallery zoom, variant selection, product-detail disclosures and tabs, and opening navigation/localization menus. No locale was changed; cart and checkout actions were not used. Overall targeted interaction coverage is now **110/127 presets across 112 observations**, with **17 presets pending** in Other selected families. Mobile visual review remains 127/127. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain unverified. See `shopify-interaction-sample-batch140-2026.md`.
+
+
+## Remaining selected-family interaction closeout — Batch 141 (2026-10-28)
+
+All **17/17 remaining interaction presets** received a verified non-purchase live-demo interaction. Checks covered reversible product gallery zoom, size/color option selection, product detail/ingredient/material disclosures and a search dialog. Overall targeted interaction coverage is now **127/127 presets across 129 observations**, with **zero interaction presets pending**. Mobile visual review remains 127/127. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open for all 127; these storefront checks do not certify those areas. See `shopify-interaction-sample-batch141-2026.md`.
