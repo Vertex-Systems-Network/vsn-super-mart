@@ -1531,6 +1531,19 @@
         "Empty cart reassurance strip"
       ],
       "design_hypothesis": "Electronics product discovery benefits from scan-friendly specification chips and compatible accessory upsells; actual product claims require independent validation."
+    },
+    {
+      "id": "shopify-live-concept-inova",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Furniture hero slideshow",
+        "Seating/sofas/lighting/accessories image categories",
+        "Designer/brand story video",
+        "Material/color/type/price filters",
+        "PDP with eight-image gallery and color options",
+        "Empty cart reassurance and footer"
+      ],
+      "design_hypothesis": "Home furnishing navigation benefits from broad room/product categories and product-spec/material facets; actual claims are unverified."
     }
   ]
 }
