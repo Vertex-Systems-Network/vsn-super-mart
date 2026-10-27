@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "103/127 unique selected homepages documented (51 indexed HTML + 52 additional browser-rendered); 281 rendered pages across 72 selected presets. 24 unique homes remain.",
+  "completion_claim": "103/127 unique selected homepages documented (51 indexed HTML + 52 additional browser-rendered); 284 rendered pages across 72 selected presets. 24 unique homes remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,15 +17,15 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 281,
+    "browser_rendered_pages": 284,
     "browser_rendered_selected_presets": 72,
     "distinct_selected_homepages_any_source": 103
   },
   "pending": {
     "home": 76,
-    "collection": 89,
-    "product": 87,
-    "cart": 116,
+    "collection": 88,
+    "product": 86,
+    "cart": 115,
     "home_any_source": 24
   },
   "source_type_distinctions": {
@@ -4802,18 +4802,32 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_partial",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Collection route navigation timed out; collection/PDP/cart remain unverified",
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Retry routes if browser recovers; otherwise continue next selected preset and preserve partial status"
+        "Continue with next unverified selected preset"
       ],
       "browser_render_observations": [
         {
           "kind": "home",
           "url": "https://palo-alto-theme-phenomena.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/collections/best-sellers-1",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/products/halo-highlighter",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
         }
       ]
