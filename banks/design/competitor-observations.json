@@ -1616,6 +1616,18 @@
         "Shop-the-look, guides and testimonials"
       ],
       "design_hypothesis": "Grooming merchandising can combine concerns-based collection routes, before/after storytelling and volume choices; product facts, inventory states and shipping thresholds need to remain consistent across placements."
+    },
+    {
+      "id": "shopify-live-ignite-alpha",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Vehicle make/model/year/generation finder",
+        "Part-type search and compatibility garage",
+        "Fitment-aware product cards",
+        "Layered vehicle/part facets and compare",
+        "PDP compatibility table with technical PDFs"
+      ],
+      "design_hypothesis": "Automotive catalogs need fitment selection and compatibility visible across search, collection, cards and PDP; conflicting fitment data can undermine high-consequence purchasing decisions."
     }
   ]
 }
