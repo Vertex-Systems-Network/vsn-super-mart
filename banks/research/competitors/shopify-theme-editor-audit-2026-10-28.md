@@ -188,3 +188,13 @@ The matrix now shows **0/127 complete** and **4/127 with partial keyboard/access
 ### Prestige — Allure homepage keyboard smoke review — 2026-10-28
 
 Tab traversal reached the primary WOMEN, MEN, ABOUT and PRESETS buttons and the site logo. The buttons were named in the accessibility tree. Menu activation, product/collection keyboard behavior and Lighthouse were not verified. This is a homepage-only partial observation, not a WCAG audit.
+
+
+### Prestige — Couture keyboard smoke review — 2026-10-28
+
+- Homepage: Tab reached Skip to content, logo, HOME, SHOP, BLOG, ABOUT and PRESETS. Shift+Tab returned to SHOP; Enter expanded the submenu.
+- Collection: Tab traversal reached Availability; Enter expanded it and exposed the named “In stock only” checkbox. Space toggled it on and the URL reflected `filter.v.availability=1`. The filter was cleared by returning to the base collection URL.
+- Product: the accessibility tree exposed named gallery images, Black color radio, size chart, XS/S/M/L size radios, quantity controls, Add to Cart, Buy It Now and shipping/returns disclosures. Keyboard activation of every product control was not verified.
+- This is a limited manual smoke review, not a WCAG conformance audit. Lighthouse was not run for this preset because PSI access in this browser remains blocked by the previously encountered Google unusual-traffic verification challenge; no CAPTCHA was solved.
+
+The keyboard partial-observation count is now 6/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
