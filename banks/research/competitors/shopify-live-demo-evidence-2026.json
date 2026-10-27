@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 51 additional browser-rendered homes are documented (102/127 unique); 280 read-only rendered pages across 71 selected presets.",
+  "summary": "51 indexed HTML selected homes and 52 additional browser-rendered homes are documented (103/127 unique); 281 read-only rendered pages across 72 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,8 +5471,8 @@
     }
   ],
   "counts": {
-    "opened_stores": 71,
-    "opened_home": 71,
+    "opened_stores": 72,
+    "opened_home": 72,
     "opened_collection": 58,
     "opened_product": 59,
     "opened_empty_cart": 25,
@@ -9964,11 +9964,38 @@
         "No sorting, filtering, variant selection, quantity, Quick Buy, add-to-cart or checkout actions; no screenshot, mobile viewport, editor, keyboard or performance testing.",
         "Merchant stock, promotion, material, shipping, workmanship and product claims unverified."
       ]
+    },
+    {
+      "id": "shopify-palo-alto-phenomena-browser-render",
+      "selected_preset_id": "palo-alto:phenomena",
+      "theme_family": "Palo Alto",
+      "preset": "Phenomena",
+      "store_url": "https://palo-alto-theme-phenomena.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Shopify Palo Alto:Phenomena listing and read its exact View demo iframe src; read the rendered homepage. Collection route navigation timed out; no additional routes verified.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/",
+          "observations": [
+            "Official Palo Alto:Phenomena View demo iframe resolved to this beauty storefront. Rendered homepage shows promotional bar with US$75 free-shipping and WELCOME10 copy, Shop All/Bestsellers/About navigation, cosmetics hero, tabbed bestseller/brush shelf with Quick Buy and shades, editorial collection groupings, product-benefit claims (skin-first, inclusive, vegan/cruelty-free), testimonial cards, Shop the Look, featured product, product-list module, social gallery and newsletter/footer."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Only homepage render verified; attempt to open official visible Best sellers link timed out. Product and cart not inspected.",
+        "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Beauty/product, free-from and merchant claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 280,
-    "selected_presets": 71,
-    "unique_selected_homepages_across_all_source_types": 102
+    "pages": 281,
+    "selected_presets": 72,
+    "unique_selected_homepages_across_all_source_types": 103
   }
 }
