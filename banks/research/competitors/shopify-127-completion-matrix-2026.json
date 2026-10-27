@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "105/127 unique selected homepages documented (51 indexed HTML + 54 additional browser-rendered); 292 rendered pages across 74 selected presets. 22 unique homes remain.",
+  "completion_claim": "106/127 unique selected homepages documented (51 indexed HTML + 55 additional browser-rendered); 296 rendered pages across 75 selected presets. 21 unique homes remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 292,
-    "browser_rendered_selected_presets": 74,
-    "distinct_selected_homepages_any_source": 105
+    "browser_rendered_pages": 296,
+    "browser_rendered_selected_presets": 75,
+    "distinct_selected_homepages_any_source": 106
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 22
+    "home_any_source": 21
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -4486,18 +4486,34 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Unverified template types",
-        "collection",
-        "product",
-        "cart",
-        "no interactive/mobile/editor/test access"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Open actual collection URL from storefront navigation",
-        "Open actual product URL from storefront navigation",
-        "Open actual cart URL from storefront navigation"
+        "Continue with next unverified selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://motion-theme-accessories.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://motion-theme-accessories.myshopify.com/collections/bags-1",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://motion-theme-accessories.myshopify.com/products/whelma-bag",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://motion-theme-accessories.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
