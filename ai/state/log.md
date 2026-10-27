@@ -263,3 +263,5 @@
 - Earrings: 117 products, five facets, Featured sort, five-page pagination (no controls activated). PDP €114, White Silver, SKU, stock/review cues, media, details/warranty and recommendations.
 - Home/cart already indexed; unique selected homes remain 79/127; rendered pages 163 across 41 presets; 48 homes remain.
 - No shopper interactions, screenshot, mobile/editor/checkout/keyboard/performance tests; merchant claims unverified. CI/PR refresh pending.
+
+- 2026-10-28 [Shopify Theme Editor audit] Read-only VSN prototype audit: 7 global settings groups / 36 value settings; 5 VSN block schemas; setting IDs unique and select defaults consistent. One JSON prototype template, 12 Liquid templates, one VSN section. No admin preview; competitor editor matrix remains 0/127 reviewed, 127 pending. Added shopify-theme-editor-audit-2026-10-28.md; no code or matrix counters changed.
