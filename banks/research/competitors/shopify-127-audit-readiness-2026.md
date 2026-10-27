@@ -33,3 +33,8 @@ All 127 selected presets now have an individually documented mobile preview revi
 ## Targeted interaction addendum — 2026-10-27
 
 Three selected presets now have limited interaction evidence (5 observations): Ignite:Peak age-gate CTA, Enterprise:Enterprise finder/filter/sort/cart drawer, and Prestige:Couture size option. This is a representative sample, not a complete shopper workflow audit. The two new storefront sessions ran at 1363×936 CSS px; the 360×640 work remains a visual preview audit. 124 selected presets still have no targeted interaction checks. No add-to-cart, checkout, Theme Editor, keyboard/accessibility or Lighthouse validation was performed.
+
+
+## Targeted interaction update — Batch 134 (2026-10-27)
+
+Impulse:Impulse adds one targeted Quick View interaction to the sample. Overall: 4 of 127 presets, 6 observations. The modal retained the current PDP context and showed the related product's media, pricing, description, size-chart access, stock message and accordions. No add-to-cart or checkout action was run. 123 selected presets remain without targeted interactions; mobile visual review remains complete at 127/127.
