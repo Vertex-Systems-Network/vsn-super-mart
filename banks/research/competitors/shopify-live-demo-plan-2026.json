@@ -5,7 +5,7 @@
   "method": "Indexed public HTML evidence and direct rendered browser observations are maintained as separate source classes; interactions are counted only after execution.",
   "reason": "Live-demo page documents accessible through public web, but GUI interactions, rendering and screenshot comparison remain unverified. Former Figma Stage 6 superseded; entirely new design planned later.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "deep_screen_research_in_progress_batch126",
+  "status": "screen_coverage_home_collection_product_cart_complete",
   "checks": [
     "demo_entry_url",
     "home",
@@ -85,8 +85,8 @@
     "live_product_verified": 40,
     "live_cart_verified": 11,
     "live_mobile_verified": 0,
-    "browser_rendered_pages": 403,
-    "browser_rendered_selected_presets": 102,
+    "browser_rendered_pages": 443,
+    "browser_rendered_selected_presets": 127,
     "selected_home_observed_any_source": 127,
     "distinct_selected_homepages_any_source": 127,
     "unique_homepages_remaining": 0,
@@ -95,9 +95,15 @@
     "browser_rendered_products": 101,
     "browser_rendered_carts": 99,
     "all_source_unique_homes": 127,
-    "all_source_unique_collections": 123,
-    "all_source_unique_products": 123,
-    "all_source_unique_carts": 100
+    "all_source_unique_collections": 127,
+    "all_source_unique_products": 127,
+    "all_source_unique_carts": 127,
+    "screen_coverage_remaining": {
+      "home": 0,
+      "collection": 0,
+      "product": 0,
+      "cart": 0
+    }
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -112,6 +118,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch126-2026.md",
-  "next_action": "Cover 4 collection pages, 4 product pages and 27 cart pages still missing from the selected cohort; interactive/mobile/editor/checkout/performance scope needs separately feasible validation."
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch127-2026.md",
+  "next_action": "Home, collection, product and empty-cart template coverage now reaches 127/127 across combined evidence. Remaining: interactive event tests, mobile viewport review, Theme Editor, checkout-flow inspection and Lighthouse/performance measurement."
 }
