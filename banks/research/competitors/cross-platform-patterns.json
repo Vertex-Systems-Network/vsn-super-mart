@@ -2470,12 +2470,15 @@
         "On Impulse:Dune, selecting size M deselected S and changed the product URL to a variant-specific query.",
         "The in-stock message stayed the same after selection.",
         "Impulse:Terrain similarly updated its URL to a variant ID after choosing M; its in-stock message remained stable.",
-        "On Stiletto:Linen, selecting size 36 changed the visible Size label and updated the product URL to a variant-specific query."
+        "On Stiletto:Linen, selecting size 36 changed the visible Size label and updated the product URL to a variant-specific query.",
+        "Tier 3 variant controls showed checked state for Horizon size M and Savor's 2 Bottles pack after selection."
       ],
       "source_entry_ids": [
         "shopify-interaction-impulse-dune-variant",
         "shopify-interaction-impulse-terrain-variant",
-        "tier2-stiletto-linen-2026-10-27"
+        "tier2-stiletto-linen-2026-10-27",
+        "tier3-horizon-horizon-2026-10-27",
+        "tier3-savor-savor-2026-10-27"
       ],
       "option_ids": [
         "variant-picker-styles",
@@ -2490,11 +2493,13 @@
       "signals": [
         "Tier 1 PDPs used care, warranty, FAQ, shipping, description, specifications and subscription disclosure controls.",
         "Expanded content stayed in place and retained the product context.",
-        "Tier 2 adds live examples of product care, ingredients, sizing, shipping, materials, warranty and returns panels across Focal, Expanse, Stiletto, Motion, Palo Alto and Pipeline demos."
+        "Tier 2 adds live examples of product care, ingredients, sizing, shipping, materials, warranty and returns panels across Focal, Expanse, Stiletto, Motion, Palo Alto and Pipeline demos.",
+        "Trade exposed an expandable Product features panel with product details in the page context."
       ],
       "source_entry_ids": [
         "shopify-tier1-disclosure-coverage",
-        "shopify-tier2-product-disclosures"
+        "shopify-tier2-product-disclosures",
+        "tier3-trade-trade-2026-10-27"
       ],
       "option_ids": [
         "collapsible-tabs",
@@ -2509,11 +2514,13 @@
       "context": "A gallery zoom dialog supports closer product inspection without navigating away.",
       "signals": [
         "Empire:Forma opened a Product zoom dialog from an image and displayed a Close control.",
-        "Pipeline:Pahoa and Pipeline:Phantom opened gallery zoom dialogs with image navigation and a Close control; Concept:Inova opened a media modal with Close."
+        "Pipeline:Pahoa and Pipeline:Phantom opened gallery zoom dialogs with image navigation and a Close control; Concept:Inova opened a media modal with Close.",
+        "Tier 3 first-party demos Tinker and Atelier also opened gallery zoom views and returned to the PDP with a Close control."
       ],
       "source_entry_ids": [
         "shopify-tier1-gallery-zoom",
-        "shopify-tier2-gallery-modal"
+        "shopify-tier2-gallery-modal",
+        "shopify-tier3-native-baseline-interactions"
       ],
       "option_ids": [
         "media-gallery-layouts",
