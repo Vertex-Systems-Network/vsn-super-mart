@@ -1505,6 +1505,19 @@
         "Empty cart with shipping FAQs"
       ],
       "design_hypothesis": "Educational routine content and product metadata can structure skincare browsing. Treat only as theme layout because the demo declares its catalog fictional."
+    },
+    {
+      "id": "shopify-live-pipeline-phantom",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Swimwear hero with video",
+        "Product shelf and Shop the Sale categories",
+        "Showroom/philosophy modules",
+        "Sets collection with designer, color and size filtering",
+        "PDP with large gallery, fit guidance and cross-sell",
+        "Empty cart with shipping FAQ and service promises"
+      ],
+      "design_hypothesis": "Swimwear merchandising uses large imagery and designer/color taxonomy with fit details; sourcing and durability claims remain unverified."
     }
   ]
 }
