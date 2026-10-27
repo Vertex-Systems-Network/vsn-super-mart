@@ -79,3 +79,17 @@ python3 scripts/shopify_theme_research.py next
 python3 scripts/competitor_audit.py validate
 python3 scripts/vsn.py validate
 ```
+
+
+## Mobile design synthesis addendum — 2026-10-27
+
+The 127-preset mobile preview sweep is complete at **360×640 CSS px**. It adds a mobile visual evidence layer to the older Theme Store listing and rendered-page research; it does not mark collection/PDP/cart interactions, Theme Editor, checkout, accessibility, or Lighthouse as tested. Two storefront hero previews remained limited in clarity (Eurus:Arise and Stiletto:Luster), while their mobile headers/compositions were reviewed.
+
+### Patterns carried into design research
+- Keep announcement, search, logo, menu and cart controls within a measured 360 px header stack; search-heavy layouts need progressive disclosure.
+- Preserve image-led storytelling while controlling mobile focal points, headline wrapping and CTA separation.
+- Treat a two-column product grid as a useful baseline where imagery and labels remain legible; allow one-column editorial/product views.
+- Check every ticker, promo strip and image-overlay headline for horizontal clipping. Palo Alto:Dynamo, Broadcast:Motif and Empire variants showed specific crowding risks.
+- Review age-gate and cookie-consent states as part of the first viewport. Lively and Eurus:Arise exposed these overlays in the reviewed view.
+
+See `shopify-mobile-synthesis-2026.md`, `shopify-mobile-review-batch131-2026.md`, `shopify-127-completion-matrix-2026.json` and `banks/design/competitor-observations.json`. All findings inform original responsive design; exact competitor layouts, imagery and type combinations should not be copied.
