@@ -1821,6 +1821,256 @@
         "quick-view"
       ],
       "design_hypothesis": "fashion/apparel/seasonal merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-wonder-petit-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Collection filters and grid"
+      ],
+      "design_hypothesis": "The wonder Petit demo's collection pages document additional screen patterns for wonder-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-eurus-arise-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Collection filters and grid",
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The eurus Arise demo's collection, product, cart pages document additional screen patterns for eurus-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-release-serenity-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Home template",
+        "Collection filters and grid",
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The release Serenity demo's home, collection, product, cart pages document additional screen patterns for release-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-spotlight-spotlight-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Home template",
+        "Collection filters and grid",
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The spotlight Spotlight demo's home, collection, product, cart pages document additional screen patterns for spotlight-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-symmetry-symmetry-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product detail, variants and purchase state"
+      ],
+      "design_hypothesis": "The symmetry Symmetry demo's product pages document additional screen patterns for symmetry-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-eurus-whiff-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The eurus Whiff demo's product, cart pages document additional screen patterns for eurus-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-release-forest-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The release Forest demo's product, cart pages document additional screen patterns for release-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-local-caffeine-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The local Caffeine demo's cart pages document additional screen patterns for local-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-be-yours-peace-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The be-yours Peace demo's cart pages document additional screen patterns for be-yours-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-be-yours-harmony-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The be-yours Harmony demo's cart pages document additional screen patterns for be-yours-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-vision-poochy-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The vision Poochy demo's cart pages document additional screen patterns for vision-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-dawn-dawn-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The dawn Dawn demo's cart pages document additional screen patterns for dawn-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-horizon-horizon-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The horizon Horizon demo's cart pages document additional screen patterns for horizon-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-rise-rise-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The rise Rise demo's cart pages document additional screen patterns for rise-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-origin-origin-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The origin Origin demo's cart pages document additional screen patterns for origin-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-tinker-tinker-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The tinker Tinker demo's cart pages document additional screen patterns for tinker-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-craft-craft-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The craft Craft demo's cart pages document additional screen patterns for craft-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-publisher-publisher-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The publisher Publisher demo's cart pages document additional screen patterns for publisher-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-ride-ride-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The ride Ride demo's cart pages document additional screen patterns for ride-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-sense-sense-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The sense Sense demo's cart pages document additional screen patterns for sense-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-studio-studio-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The studio Studio demo's cart pages document additional screen patterns for studio-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-crave-crave-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The crave Crave demo's cart pages document additional screen patterns for crave-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-trade-trade-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The trade Trade demo's cart pages document additional screen patterns for trade-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-vessel-vessel-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The vessel Vessel demo's cart pages document additional screen patterns for vessel-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-heritage-heritage-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The heritage Heritage demo's cart pages document additional screen patterns for heritage-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-pitch-pitch-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The pitch Pitch demo's cart pages document additional screen patterns for pitch-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-dwell-dwell-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The dwell Dwell demo's cart pages document additional screen patterns for dwell-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-ritual-ritual-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The ritual Ritual demo's cart pages document additional screen patterns for ritual-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-fabric-fabric-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The fabric Fabric demo's cart pages document additional screen patterns for fabric-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-atelier-atelier-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The atelier Atelier demo's cart pages document additional screen patterns for atelier-family storefronts; validate those patterns against target-store content and behavior before adoption."
     }
   ]
 }
