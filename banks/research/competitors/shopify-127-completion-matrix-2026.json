@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "127/127 unique selected homes observed across indexed HTML and read-only rendered browser evidence; 0 unique homes remain.",
+  "completion_claim": "127/127 selected preset homes now have linked evidence across indexed HTML and read-only browser renders; rendered screen coverage is 127 homes, 123 collections, 123 products and 100 carts. Cross-preset interactive, mobile, theme-editor, checkout and Lighthouse checks remain unverified.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,15 +17,19 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 379,
-    "browser_rendered_selected_presets": 96,
-    "distinct_selected_homepages_any_source": 127
+    "browser_rendered_pages": 403,
+    "browser_rendered_selected_presets": 102,
+    "distinct_selected_homepages_any_source": 127,
+    "read_only_homepages_across_sources": 127,
+    "read_only_collections_across_sources": 123,
+    "read_only_products_across_sources": 123,
+    "read_only_carts_across_sources": 100
   },
   "pending": {
-    "home": 76,
-    "collection": 89,
-    "product": 87,
-    "cart": 116,
+    "home": 0,
+    "collection": 4,
+    "product": 4,
+    "cart": 27,
     "home_any_source": 0
   },
   "source_type_distinctions": {
@@ -6674,24 +6678,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-food-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-food-demo.myshopify.com/collections/bestsellers"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-food-demo.myshopify.com/products/renew-cereal-cinnamon-crunch-250g"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-food-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6702,14 +6702,15 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/ignite/presets/peak",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue unresolved selected-preset screen coverage"
+      ],
+      "browser_render_observations": [
+        "shopify-ignite-peak-browser-render"
       ]
     },
     {
@@ -6724,24 +6725,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-preset-pantry.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-preset-pantry.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-preset-pantry.myshopify.com/products/crispy-chili-oil"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-preset-pantry.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6752,14 +6749,15 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/shapes/presets/shapes",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue unresolved selected-preset screen coverage"
+      ],
+      "browser_render_observations": [
+        "shopify-shapes-shapes-browser-render"
       ]
     },
     {
@@ -6821,24 +6819,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/collections/chocolate"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/products/cheesecake"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-chocolate-2.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6849,14 +6843,15 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/shapes/presets/candy",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue unresolved selected-preset screen coverage"
+      ],
+      "browser_render_observations": [
+        "shopify-shapes-candy-browser-render"
       ]
     },
     {
@@ -6922,24 +6917,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-preset-pets.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-preset-pets.myshopify.com/collections/food"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-preset-pets.myshopify.com/products/dog-treats-salmon-bites"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-preset-pets.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6950,14 +6941,15 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/shapes/presets/scratch",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue unresolved selected-preset screen coverage"
+      ],
+      "browser_render_observations": [
+        "shopify-shapes-scratch-browser-render"
       ]
     },
     {
@@ -7044,24 +7036,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-jewelery.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-jewelery.myshopify.com/collections/earrings"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-jewelery.myshopify.com/products/malachite-york-acrylic-earrings"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-jewelery.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7072,14 +7060,15 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/vision/presets/onyx",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue unresolved selected-preset screen coverage"
+      ],
+      "browser_render_observations": [
+        "shopify-vision-onyx-browser-render"
       ]
     },
     {
@@ -7192,24 +7181,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-winter.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-winter.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-winter.myshopify.com/products/the-waffle-knit-hoodie"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-winter.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7220,14 +7205,15 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/vision/presets/solstice",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue unresolved selected-preset screen coverage"
+      ],
+      "browser_render_observations": [
+        "shopify-vision-solstice-browser-render"
       ]
     },
     {
