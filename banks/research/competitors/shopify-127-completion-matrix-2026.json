@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "107/127 unique selected homepages documented (51 indexed HTML + 56 additional browser-rendered); 300 rendered pages across 76 selected presets. 20 unique homes remain.",
+  "completion_claim": "108/127 unique selected homepages documented (51 indexed HTML + 57 additional browser-rendered); 304 rendered pages across 77 selected presets. 19 unique homes remain.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,16 +17,16 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 300,
-    "browser_rendered_selected_presets": 76,
-    "distinct_selected_homepages_any_source": 107
+    "browser_rendered_pages": 304,
+    "browser_rendered_selected_presets": 77,
+    "distinct_selected_homepages_any_source": 108
   },
   "pending": {
     "home": 76,
     "collection": 89,
     "product": 87,
     "cart": 116,
-    "home_any_source": 20
+    "home_any_source": 19
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -5118,14 +5118,34 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_only",
+      "evidence_quality": "official_listing_and_browser_render_readonly",
       "blockers": [
-        "Direct preset-specific public demo hostname/HTML not independently retrieved",
-        "No collection/PDP/cart/browser or editor tests"
+        "Demo explicitly says catalog products are fictional; no interactions, mobile, editor, checkout or Lighthouse tests"
       ],
       "next_action": [
-        "Resolve actual View Demo destination for https://themes.shopify.com/themes/pipeline/presets/pahoa",
-        "Open independent demo homepage HTML and subsequently collection/PDP/cart"
+        "Continue with next unverified selected preset"
+      ],
+      "browser_render_observations": [
+        {
+          "kind": "home",
+          "url": "https://pipeline-theme.myshopify.com/",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "collection",
+          "url": "https://pipeline-theme.myshopify.com/collections/bestsellers",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "product",
+          "url": "https://pipeline-theme.myshopify.com/products/fig",
+          "evidence_class": "browser_render_readonly"
+        },
+        {
+          "kind": "cart",
+          "url": "https://pipeline-theme.myshopify.com/cart",
+          "evidence_class": "browser_render_readonly"
+        }
       ]
     },
     {
