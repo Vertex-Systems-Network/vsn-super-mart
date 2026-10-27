@@ -9577,6 +9577,202 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official host verified; home, Spritz collection, Grape PDP and empty cart inspected read-only.",
       "notes": "Theme dropdown says Spritz; site logo says SLAM. Product pricing presents dollars and cart subtotal is AUD. No controls or checkout were tested."
+    },
+    {
+      "id": "shopify-live-ignite-peak",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Peak",
+      "url": "https://benchmark-food-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "taste-and-allergen-preferences",
+        "product-type-search",
+        "nutritional-facets",
+        "unit-pricing",
+        "pack-size-options",
+        "nutri-score"
+      ],
+      "niches": [
+        "food",
+        "wellness",
+        "nutrition"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official theme listing preview verified; home, collection, product and empty cart inspected read-only for Ignite:Peak.",
+      "notes": "Food storefront combines category search and taste/allergy preference selector with an ingredient-rich hero and bestsellers. Bestsellers collection lists 27 items and detailed-ingredient/dietary filters. Cereal PDP shows 3-image gallery, 189 in stock, dairy-free badge, Nutri-Score, allergen accordion, 250g/400g/600g choices (400g unavailable), GBP unit price and purchase cadence. Empty cart has Continue shopping and branded bestseller rail."
+    },
+    {
+      "id": "shopify-live-shapes-shapes",
+      "platform": "shopify",
+      "theme": "Shapes",
+      "preset": "Shapes",
+      "url": "https://shapes-preset-pantry.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "creative-product-display",
+        "product-carousel",
+        "filter-sort",
+        "ingredient-tabs",
+        "taste-profile",
+        "dietary-badges"
+      ],
+      "niches": [
+        "food",
+        "condiments",
+        "pantry"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official theme listing preview verified; home, collection, product and empty cart inspected read-only for Shapes:Shapes.",
+      "notes": "Pantry home uses playful oversized type, Hella Goods brand, ingredient/health badges and product carousel. All collection exposes Filter and Sort, color options on apparel merchandise and quick add-to-cart buttons. Crispy Chili Oil PDP has $12 price, ingredient copy, taste scale, dietary badges and Add to Cart. Cart is empty with AUD subtotal despite dollar product pricing."
+    },
+    {
+      "id": "shopify-live-shapes-candy",
+      "platform": "shopify",
+      "theme": "Shapes",
+      "preset": "Candy",
+      "url": "https://shapes-theme-chocolate-2.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "flavor-carousel",
+        "collection-filter-sort",
+        "flavor-picker",
+        "pack-size-options",
+        "taste-profile",
+        "ingredients-accordion"
+      ],
+      "niches": [
+        "food",
+        "chocolate",
+        "confectionery"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official theme listing preview verified; home, collection, product and empty cart inspected read-only for Shapes:Candy.",
+      "notes": "Chocolate home uses Billy's Chocolaterie identity and flavor-led carousel with ingredient/quality claims. Chocolate collection supports filter/sort and card-level flavor merchandising. Cheesecake PDP presents $15 price, flavor selector, Single/Pack of 8, narrative description, taste metrics and Ingredients/Shipping/Wholesale accordions. Cart is empty with AUD subtotal."
+    },
+    {
+      "id": "shopify-live-shapes-scratch",
+      "platform": "shopify",
+      "theme": "Shapes",
+      "preset": "Scratch",
+      "url": "https://shapes-preset-pets.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "pet-category-merchandising",
+        "health-benefit-tags",
+        "collection-filter-sort",
+        "product-flavor-links",
+        "long-form-product-info"
+      ],
+      "niches": [
+        "pets",
+        "pet-food",
+        "dog-treats"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official theme listing preview verified; home, collection, product and empty cart inspected read-only for Shapes:Scratch.",
+      "notes": "Pats home uses dog-first hero, vet/ingredient badges and Treats & Chews product blocks. Treats collection links Treats/Accessories/Bundles and exposes Filter/Sort with benefit tags. Salmon bites PDP has four-image gallery, $25 price, health tags and flavor links; descriptive copy expands via Read more. Empty cart contains featured recommendation rail and AUD subtotal."
+    },
+    {
+      "id": "shopify-live-vision-onyx",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Onyx",
+      "url": "https://vision-jewelery.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "jewelry-category-navigation",
+        "sale-pricing",
+        "color-variant-swatches",
+        "size-picker",
+        "filter-sort"
+      ],
+      "niches": [
+        "jewelry",
+        "accessories",
+        "fashion"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official theme listing preview verified; home, collection, product and empty cart inspected read-only for Vision:Onyx.",
+      "notes": "Jewelry homepage combines editorial collection blocks, new arrivals and color availability. Earrings collection has availability/price/color facets with product count and price range. Malachite earrings PDP shows sale price $115 from $140, Green/Red color and S/M/L sizes, image gallery and product story; disclaimer says store offers no goods for purchase. Cart empty state includes tailored Continue shopping and merch blocks."
+    },
+    {
+      "id": "shopify-live-vision-solstice",
+      "platform": "shopify",
+      "theme": "Vision",
+      "preset": "Solstice",
+      "url": "https://vision-winter.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "seasonal-editorial-hero",
+        "price-tier-collections",
+        "color-size-variants",
+        "fit-guide",
+        "stock-count",
+        "quick-view"
+      ],
+      "niches": [
+        "fashion",
+        "apparel",
+        "seasonal"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official theme listing preview verified; home, collection, product and empty cart inspected read-only for Vision:Solstice.",
+      "notes": "Winter fashion homepage uses seasonal campaign hero, sale/return strips, price-tier links and favorites rail. All Products collection shows 11 products and price-tier collection shortcuts with filter/sort. Waffle-Knit Hoodie PDP has Beige color, XS–XL sizes, fit guide, stock count, discount code block, product story and purchase controls. Cart is empty with recently-viewed recommendation and secondary company content."
     }
   ],
   "discovery_sources": [
