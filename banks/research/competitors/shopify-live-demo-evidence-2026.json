@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed. Targeted live-store interactions now cover 6 selected presets (8 observations total including Ignite:Peak).",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover 33 selected presets (35 observations total including Ignite:Peak).",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -214,7 +214,7 @@
           "newsletter"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "supplemental_documentation": [
@@ -236,6 +236,9 @@
           ],
           "kind": "additional_product"
         }
+      ],
+      "interaction_observation_ids": [
+        "tier1-prestige-vogue-2026-10-27"
       ]
     },
     {
@@ -395,7 +398,7 @@
       "catalog_preset_id": "empire:depot",
       "selected_127": true,
       "focus": "hardware-large-inventory",
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "homepage": {
@@ -452,7 +455,10 @@
           "spec-table"
         ]
       },
-      "cart": null
+      "cart": null,
+      "interaction_observation_ids": [
+        "tier1-empire-depot-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-wonder",
@@ -1006,9 +1012,12 @@
         "pickup accuracy",
         "responsive UI"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier1-symmetry-salt-yard-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-expanse-food-drink-legacy",
@@ -1133,9 +1142,12 @@
         "Merchant shipping, product, stock and review claims remain unverified",
         "Browser-rendered collection, PDP and cart are recorded separately; they are not indexed-document counts."
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier1-warehouse-wood-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-focal-ivory",
@@ -1294,9 +1306,12 @@
         "Countdown may be historical/demo data; no real event verified",
         "Crawl age 4 months; visuals and conversion controls untested"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier1-symmetry-beatnik-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-symmetry-duke",
@@ -1388,9 +1403,12 @@
         "Ambiguous shipping thresholds without regional/product context",
         "Mobile browser and merchant editor"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier1-symmetry-duke-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-expanse-fetch",
@@ -1821,7 +1839,7 @@
         "Collection vs PDP warranty claim scope and locale UI behavior",
         "Cart or mobile and Theme Editor"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "supplemental_documentation": [
@@ -1845,6 +1863,9 @@
           ],
           "kind": "additional_collection"
         }
+      ],
+      "interaction_observation_ids": [
+        "tier1-prestige-strass-2026-10-27"
       ]
     },
     {
@@ -2055,9 +2076,12 @@
         "Real offer countdown, 2026 campaign and consumer conversion",
         "Device/mobile and variants/editor access"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier1-prestige-signature-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-broadcast-airwave",
@@ -2153,9 +2177,12 @@
         "Dynamic shipping threshold and inventory/notify-state consistency",
         "Screenshots or Theme Editor"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier1-broadcast-airwave-2026-10-27"
+      ]
     },
     {
       "id": "shopify-enterprise-sections-reference",
@@ -3628,9 +3655,12 @@
         "Shopify Theme Store approval for comparison capability depends on correct theme-vs-app plan and release policy.",
         "Mobile rendered state and actual interaction/checkout untested."
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier1-impact-impact-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-expanse-furniture",
@@ -4488,7 +4518,7 @@
           "product-grid"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
@@ -4496,6 +4526,9 @@
         "No screenshot, measured viewport/mobile, keyboard, editor or performance tests",
         "Merchant/demo price, stock, materials, shipping, sustainability and location claims are unverified",
         "The Prestige listing's visible View demo iframe src led to a storefront titled Prestige — Allure (host prestige-theme-allure.myshopify.com). Preserve this listing-to-store naming mismatch; findings describe the destination actually rendered, not a confirmed exact Prestige visual preset match."
+      ],
+      "interaction_observation_ids": [
+        "tier1-prestige-prestige-2026-10-27"
       ]
     },
     {
@@ -4758,13 +4791,16 @@
           "cart-summary"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
         "No filters, sort, compare, variants, quantity, cart mutation or checkout actions.",
         "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
         "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
+      ],
+      "interaction_observation_ids": [
+        "tier1-empire-empire-2026-10-27"
       ]
     },
     {
@@ -4852,13 +4888,16 @@
           "cart-summary"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
         "No filters, sort, compare, variants, quantity, cart mutation or checkout actions.",
         "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
         "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
+      ],
+      "interaction_observation_ids": [
+        "tier1-empire-circuit-2026-10-27"
       ]
     },
     {
@@ -4947,13 +4986,16 @@
           "cart-summary"
         ]
       },
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "unverified": [
         "No filters, sorting, comparison, variant, quantity, cart mutation or checkout actions.",
         "No screenshots, measured viewport/mobile, editor, keyboard or performance tests.",
         "Seller product, stock, material, location and fulfillment claims are demo copy, unverified."
+      ],
+      "interaction_observation_ids": [
+        "tier1-empire-forma-2026-10-27"
       ]
     },
     {
@@ -5482,7 +5524,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 8,
+    "interactive_events_tested": 35,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -12832,6 +12874,519 @@
       "confidence": "browser_render_interaction",
       "screenshot_captured": false,
       "screenshot_saved": false
+    },
+    {
+      "id": "tier1-impulse-apothecary-2026-10-27",
+      "selected_preset_id": "impulse:apothecary",
+      "store_url": "https://impulse-theme-jewelry.myshopify.com/products/amber-candle",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened HOW TO USE on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded HOW TO USE on Amber Candle PDP; safe-use and burn-care steps appeared.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-prestige-prestige-2026-10-27",
+      "selected_preset_id": "prestige:prestige",
+      "store_url": "https://prestige-theme-allure.myshopify.com/products/le-dino-black-liege",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened WOMEN menu on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Activated the WOMEN navigation control; storefront navigated to the Women collection at /collections/women-1.",
+      "result": "navigation_control_opened_collection",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-prestige-vogue-2026-10-27",
+      "selected_preset_id": "prestige:vogue",
+      "store_url": "https://prestige-theme-vogue.myshopify.com/products/brazilian-supermask-masque-brush-kit",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened OUR GUARANTEE on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded OUR GUARANTEE on the product page; guarantee text appeared.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-prestige-strass-2026-10-27",
+      "selected_preset_id": "prestige:strass",
+      "store_url": "https://prestige-theme-strass2.myshopify.com/products/mineral-alliance-green-aventurine-necklace",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened WARRANTY on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded WARRANTY on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-prestige-signature-2026-10-27",
+      "selected_preset_id": "prestige:signature",
+      "store_url": "https://prestige-theme-signature.myshopify.com/products/simone-pumps-110-black",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Size chart on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Opened the size-chart overlay; conversion-chart table appeared.",
+      "result": "size_chart_modal_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-symmetry-symmetry-2026-10-27",
+      "selected_preset_id": "symmetry:symmetry",
+      "store_url": "https://chantilly.myshopify.com/products/swim-systems-momir-t545-ahoy-halter",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Description on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the Description disclosure on the PDP.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-symmetry-salt-yard-2026-10-27",
+      "selected_preset_id": "symmetry:salt-yard",
+      "store_url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Description on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the Description disclosure on the PDP.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-symmetry-beatnik-2026-10-27",
+      "selected_preset_id": "symmetry:beatnik",
+      "store_url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses/products/kaka",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Shipping on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded Shipping; shipping details appeared.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-symmetry-duke-2026-10-27",
+      "selected_preset_id": "symmetry:duke",
+      "store_url": "https://duke-16.myshopify.com/collections/skateboards/products/libellule-1",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Shipping on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded Shipping on the PDP.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-symmetry-amara-2026-10-27",
+      "selected_preset_id": "symmetry:amara",
+      "store_url": "https://symmetry-amara.myshopify.com/collections/rings/products/personalised-9ct-diamond-engagement-ring",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Description on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the Description disclosure on the PDP.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-broadcast-broadcast-2026-10-27",
+      "selected_preset_id": "broadcast:broadcast",
+      "store_url": "https://broadcast-theme-main.myshopify.com/products/miro-signet-in-gold",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened CARE INSTRUCTIONS on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded CARE INSTRUCTIONS on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-broadcast-relay-2026-10-27",
+      "selected_preset_id": "broadcast:relay",
+      "store_url": "https://broadcast-theme-relay.myshopify.com/products/contrast-jogger",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened SEARCH on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the SEARCH control on the storefront header.",
+      "result": "search_panel_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-broadcast-airwave-2026-10-27",
+      "selected_preset_id": "broadcast:airwave",
+      "store_url": "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened FAQ on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded FAQ on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-broadcast-motif-2026-10-27",
+      "selected_preset_id": "broadcast:motif",
+      "store_url": "https://broadcast-motif.myshopify.com/collections/all/products/checkered-tank",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Care FAQ on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the care FAQ disclosure on the PDP.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-broadcast-stellar-2026-10-27",
+      "selected_preset_id": "broadcast:stellar",
+      "store_url": "https://broadcast-stellar.myshopify.com/collections/sunscreen/products/spf-30-lotion",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Reef-safe FAQ on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the reef-safe FAQ disclosure.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-enterprise-outlet-2026-10-27",
+      "selected_preset_id": "enterprise:outlet",
+      "store_url": "https://enterprise-theme-active.myshopify.com/collections/shop-all/products/514g-eco-gold-chalk-honnold-edition",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened DESCRIPTION on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded DESCRIPTION on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-enterprise-homestead-2026-10-27",
+      "selected_preset_id": "enterprise:homestead",
+      "store_url": "https://enterprise-theme-home.myshopify.com/collections/all/products/slant-table-lamp",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Specifications on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded Specifications on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-impact-impact-2026-10-27",
+      "selected_preset_id": "impact:impact",
+      "store_url": "https://impact-theme-sound.myshopify.com/products/mw07-plus-tortoiseshell-stainless-steel-case",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Collaborations on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded Collaborations on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-impact-cocoon-2026-10-27",
+      "selected_preset_id": "impact:cocoon",
+      "store_url": "https://impact-theme-home.myshopify.com/products/hay-pc-portable-lamp-olive-green",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Shipping & Returns on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded Shipping & Returns on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-impact-balance-2026-10-27",
+      "selected_preset_id": "impact:balance",
+      "store_url": "https://impact-theme-shape.myshopify.com/products/silhouette-bra-black",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Size chart on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the Size chart disclosure on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-warehouse-warehouse-2026-10-27",
+      "selected_preset_id": "warehouse:warehouse",
+      "store_url": "https://warehouse-theme-metal.myshopify.com/products/shure-srh440-professional-studio-headphones",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Subscribe & Save on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded Subscribe & Save disclosure on the PDP.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-warehouse-wood-2026-10-27",
+      "selected_preset_id": "warehouse:wood",
+      "store_url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Subscribe to our newsletter on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded Subscribe to our newsletter disclosure.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-warehouse-mesh-2026-10-27",
+      "selected_preset_id": "warehouse:mesh",
+      "store_url": "https://warehouse-theme-fabric.myshopify.com/products/oros-apparel-discovery-hybrid-jacket-men-s",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Subscribe on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded Subscribe disclosure on the PDP.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-empire-empire-2026-10-27",
+      "selected_preset_id": "empire:empire",
+      "store_url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale/products/circuit-racer-magnetic-block-set",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Categories on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the Categories control on the product page.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-empire-circuit-2026-10-27",
+      "selected_preset_id": "empire:circuit",
+      "store_url": "https://empire-theme-industrial.myshopify.com/products/osmo-mobile-handheld-mount",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Drone flight-time FAQ on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the FAQ about maximum flight time and range.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-empire-depot-2026-10-27",
+      "selected_preset_id": "empire:depot",
+      "store_url": "https://empire-theme-depot.myshopify.com/products/battery-operated-compact-impact-wrench-1-2-inch-detent-pin-tool-only",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened BY CATEGORY on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Expanded the BY CATEGORY navigation disclosure.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
+    },
+    {
+      "id": "tier1-empire-forma-2026-10-27",
+      "selected_preset_id": "empire:forma",
+      "store_url": "https://empire-theme-graphic.myshopify.com/products/turning-table",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened Product image zoom on the selected preset's public demo product page; no cart action was taken.",
+      "observed_result": "Opened the product zoom dialog from the gallery; a Close control was available.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch137-tier1-close"
     }
   ],
   "mobile_review_observations": [
