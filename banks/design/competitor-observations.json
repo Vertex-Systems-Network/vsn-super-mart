@@ -1703,6 +1703,20 @@
         "Trust claims"
       ],
       "design_hypothesis": "Jewelry browsing can use size/material variants and editorial guidance, while campaign timing, social proof and destinations need consistent product alignment."
+    },
+    {
+      "id": "shopify-live-ignite-playtime",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product-type search and age finder",
+        "Gift Finder",
+        "Bestseller carousel with sale and low-stock labels",
+        "Collectible trading cards",
+        "Age and editorial collections",
+        "Educational PDP content and recommendations",
+        "Empty-cart featured collection"
+      ],
+      "design_hypothesis": "Children's toy browsing can pair age and gift discovery with educational product benefits, but locale, age facets and testimonial/review counts need consistent data."
     }
   ]
 }
