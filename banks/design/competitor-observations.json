@@ -2299,6 +2299,15 @@
         "Locale selectors were opened without changing the selected market; no cart or checkout action was taken."
       ],
       "design_hypothesis": "Group product controls by task, expose the active variant or tab clearly, keep informational disclosures reversible, and make locale menus easy to identify and dismiss."
+    },
+    {
+      "id": "shopify-other-family-interaction-controls",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "The remaining 17 selected presets across Refresh, Rise, Origin, Craft, Publisher, Ride, Sense, Studio, Taste, Crave, Spotlight, Vessel, Heritage, Pitch, Dwell, Ritual and Fabric provided verified gallery, variant, disclosure or search-dialog interactions.",
+        "This closes targeted interaction coverage for the full 127-preset cohort; Theme Editor, checkout, keyboard/accessibility and performance remain unaudited."
+      ],
+      "design_hypothesis": "Keep media zoom, size/color state, product-information disclosures and search entry points clear and reversible across free and paid theme families."
     }
   ]
 }
