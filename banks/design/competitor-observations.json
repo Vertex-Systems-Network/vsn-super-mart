@@ -1580,6 +1580,18 @@
         "Furniture PDP with configuration/color, dimensions, material and warranty"
       ],
       "design_hypothesis": "High-consideration furniture shopping benefits from room taxonomy, material and feature filters, clear dimensions and configuration choices; trust copy should be validated and kept consistent with product facts."
+    },
+    {
+      "id": "shopify-live-wonder-petit",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Single-product assurance hero",
+        "Feature storytelling and comparison table",
+        "Product specs and app cross-sell",
+        "Customer reviews and FAQ",
+        "Sticky PDP purchase controls"
+      ],
+      "design_hypothesis": "A single-product storefront can use an editorial landing page to explain product features before the PDP; repeat claims and duplicated testimonials can undermine credibility, especially for infant safety and privacy."
     }
   ]
 }
