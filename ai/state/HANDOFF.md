@@ -1405,3 +1405,12 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Overall: 6 presets / 8 interaction observations; 121 presets remain pending. Completed presets are excluded from the pending interaction count.
 - Report: `banks/research/competitors/shopify-interaction-sample-batch136-2026.md`.
 - Next: continue with the next untested selected preset.
+
+
+## Shopify Tier 1 interaction group closeout — Batch 137 (2026-10-27)
+- Completed and verified one read-only interaction on each of the 27 Tier 1 pending presets.
+- The 27 presets are marked in the completion matrix and removed from `pending_interaction_groups`; the completed group is archived with preset IDs and closeout report.
+- Overall targeted interactions: 33 presets / 35 observations. Remaining interaction presets: 94.
+- No cart mutation, checkout, Theme Editor, keyboard/accessibility or Lighthouse testing.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch137-2026.md`.
+- Next: Tier 2.
