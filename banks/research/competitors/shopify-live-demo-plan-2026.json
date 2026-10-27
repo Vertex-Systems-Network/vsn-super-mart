@@ -5,7 +5,7 @@
   "method": "Indexed public HTML evidence and direct rendered browser observations are maintained as separate source classes; interactions are counted only after execution.",
   "reason": "Live-demo page documents accessible through public web, but GUI interactions, rendering and screenshot comparison remain unverified. Former Figma Stage 6 superseded; entirely new design planned later.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
-  "status": "batch123_ignite_playtime_routes_complete",
+  "status": "batch124_ignite_tails_routes_complete",
   "checks": [
     "demo_entry_url",
     "home",
@@ -85,11 +85,11 @@
     "live_product_verified": 40,
     "live_cart_verified": 11,
     "live_mobile_verified": 0,
-    "browser_rendered_pages": 371,
-    "browser_rendered_selected_presets": 94,
-    "selected_home_observed_any_source": 125,
-    "distinct_selected_homepages_any_source": 125,
-    "unique_homepages_remaining": 2
+    "browser_rendered_pages": 375,
+    "browser_rendered_selected_presets": 95,
+    "selected_home_observed_any_source": 126,
+    "distinct_selected_homepages_any_source": 126,
+    "unique_homepages_remaining": 1
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -104,6 +104,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch123-2026.md",
-  "next_action": "Continue unique official demo-host research; 2 selected unique homes remain after Batch 123 Ignite:Playtime."
+  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch124-2026.md",
+  "next_action": "Inspect the final selected unique official demo host and stop when 127/127 homes are reached."
 }
