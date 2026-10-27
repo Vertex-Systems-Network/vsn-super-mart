@@ -80,3 +80,8 @@ The final **17/17 interaction presets** are complete; the interaction queue is n
 ## Theme Editor source audit — 2026-10-28
 
 A read-only static audit of the VSN prototype Theme Editor schema is complete; see [shopify-theme-editor-audit-2026-10-28.md](shopify-theme-editor-audit-2026-10-28.md). It found seven global settings groups with 36 value settings, five VSN theme-block schemas, one VSN section and one JSON prototype page. The remaining 12 templates are Liquid; no header/footer section-group JSON was present in the current prototype files. IDs/select defaults passed static consistency checks. No Shopify Admin preview was available. This source review is not a competitor-editor test and does not change the canonical matrix: editor 0/127 reviewed, 127 pending. The VSN live editor preview remains unverified.
+
+
+## App embed visibility diagnosis — 2026-10-28
+
+The VSN layout includes Shopify's `content_for_header` hook, but the repository contains no app project or Theme App Extension. App embeds are app-owned extensions activated in Theme settings after the app is installed; they cannot be created by adding a theme setting. Inline app blocks are a separate feature: the one VSN section declares and renders `@app`, but that section is only instantiated in the prototype JSON page. See [Theme Editor audit](shopify-theme-editor-audit-2026-10-28.md). No store/app installation state is available here, so this diagnosis is code-based. The canonical matrix remains editor 0/127 reviewed, 127 pending.
