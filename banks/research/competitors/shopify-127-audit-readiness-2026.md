@@ -48,3 +48,8 @@ Impulse:Dune adds one variant-selection check: size M became selected, S deselec
 ## Targeted interaction update — Batch 136 (2026-10-27)
 
 Impulse:Terrain adds one size selection check: M became selected, S deselected, and the URL reflected the selected variant ID; stock copy remained unchanged. No add-to-cart action was run. Targeted coverage is 6/127 presets (8 observations); 121 remain pending. Mobile visual review remains complete at 127/127.
+
+
+## Tier 1 interaction group closeout — Batch 137 (2026-10-27)
+
+Tier 1 is complete: 27/27 preset interactions verified and archived from pending groups. Overall 33/127 presets have targeted interaction evidence; 94 remain across Tier 2–4 and additional families. Mobile visual review remains 127/127. Cart mutation, checkout, Theme Editor and Lighthouse are still unverified.
