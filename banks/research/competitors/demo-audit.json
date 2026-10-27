@@ -8879,6 +8879,42 @@
       "design_signals": [
         "Official Palo Alto:Phenomena View demo iframe resolved to this beauty storefront. Rendered homepage shows promotional bar with US$75 free-shipping and WELCOME10 copy, Shop All/Bestsellers/About navigation, cosmetics hero, tabbed bestseller/brush shelf with Quick Buy and shades, editorial collection groupings, product-benefit claims (skin-first, inclusive, vegan/cruelty-free), testimonial cards, Shop the Look, featured product, product-list module, social gallery and newsletter/footer."
       ]
+    },
+    {
+      "id": "shopify-live-palo-alto-pluma",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Pluma",
+      "feature_option_ids": [
+        "tabbed-featured-collection",
+        "product-facets",
+        "color-swatches",
+        "quick-buy",
+        "shop-the-table",
+        "empty-cart"
+      ],
+      "niches": [
+        "home-decor",
+        "tableware",
+        "hosting"
+      ],
+      "url": "https://palo-alto-theme-pluma.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing iframe src verified; home, Bestsellers collection, Botanica Placemat PDP and empty cart inspected read-only. No interaction, screenshot, viewport/editor/checkout/performance tests.",
+      "notes": "Demo states its images are used with permission from Sofra and links to the real seller; product/merchant claims remain unverified.",
+      "design_signals": [
+        "Homeware and hosting storefront with urgency messaging, tabbed product shelf, designer-story modules, category shortcuts, mosaic collections, shop-the-table product merchandising, testimonials and FAQs."
+      ]
     }
   ],
   "discovery_sources": [
