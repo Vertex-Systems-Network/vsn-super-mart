@@ -2468,10 +2468,12 @@
       "context": "Variant selection can be represented in shareable page state even when the selected option does not change inventory.",
       "signals": [
         "On Impulse:Dune, selecting size M deselected S and changed the product URL to a variant-specific query.",
-        "The in-stock message stayed the same after selection."
+        "The in-stock message stayed the same after selection.",
+        "Impulse:Terrain similarly updated its URL to a variant ID after choosing M; its in-stock message remained stable."
       ],
       "source_entry_ids": [
-        "shopify-interaction-impulse-dune-variant"
+        "shopify-interaction-impulse-dune-variant",
+        "shopify-interaction-impulse-terrain-variant"
       ],
       "option_ids": [
         "variant-picker-styles",
