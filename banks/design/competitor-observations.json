@@ -1481,6 +1481,18 @@
         "Empty cart Popular Picks shelf with placeholder products"
       ],
       "design_hypothesis": "Accessories merchandising combines color variant exploration and editorial story modules; visible placeholder cart recommendations should be replaced with genuine catalog matches in a production design."
+    },
+    {
+      "id": "shopify-live-pipeline-petra",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Officially linked demo rendered as footwear storefront",
+        "Men/women collection navigation with layout controls and Quick View",
+        "Featured collection cards with colorways",
+        "PDP with sizes, pickup and hotspot modules",
+        "Empty cart state"
+      ],
+      "design_hypothesis": "Rendered pages show footwear merchandising patterns, but the listing/demo mismatch prevents treating these as verified Petra-specific design signals."
     }
   ]
 }
