@@ -2130,6 +2130,42 @@
         "Mobile observations are linked to individual preset IDs in the completion matrix"
       ],
       "design_hypothesis": "Keep family presets as token/layout variations over shared responsive components. Use this evidence to inform original VSN styles; do not reproduce competitors' photography, typography pairings or exact composition."
+    },
+    {
+      "id": "shopify-interaction-enterprise-cascading-finder",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shop our range finder cascades Department → Category → Product type",
+        "Smart Tech → Home Technology → Smart Cameras resolves to seven products"
+      ],
+      "design_hypothesis": "A progressive finder can reduce taxonomy complexity when each selection updates the next choice and leads to a precise collection. Preserve a direct search/category fallback."
+    },
+    {
+      "id": "shopify-interaction-enterprise-filter-sort",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Smart Cameras collection exposes an Availability filter with counts, a Price range and Brand options",
+        "Sort menu groups featured/relevance, sales, alphabetical, price and date orders"
+      ],
+      "design_hypothesis": "Group filters in a predictable drawer and keep sort choices adjacent to the result count; selected filter counts should match the resulting collection."
+    },
+    {
+      "id": "shopify-interaction-prestige-variant-stock",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Edie Cascade Wrap Mini Dress PDP provides Color and Size selectors, a size chart and stock messaging",
+        "Changing XS to S updates selected state and the stock message"
+      ],
+      "design_hypothesis": "Bind variant availability and inventory messaging to the selected option combination, with size guidance near the selector."
+    },
+    {
+      "id": "shopify-interaction-enterprise-empty-cart",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty cart drawer shows a $0 subtotal and a Hot deals on tech recommendation shelf",
+        "Recommended products expose Choose options actions"
+      ],
+      "design_hypothesis": "Use the empty cart as a recovery point with relevant recommendations and a clear return to shopping while keeping the empty state unmistakable."
     }
   ]
 }
