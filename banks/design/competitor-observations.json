@@ -1468,6 +1468,19 @@
         "Before/after module, Shop the Look, testimonials and guarantees"
       ],
       "design_hypothesis": "Beauty merchandising joins routine education and product comparison with conversion modules; actual efficacy, retailer, and ingredient claims remain unverified."
+    },
+    {
+      "id": "shopify-live-motion-satchel",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Featured bag shelf with five color options",
+        "Editorial handbag and service benefit section",
+        "Featured collection tiles",
+        "Brand story and journal links",
+        "Collection facets, sorting and Quick View",
+        "Empty cart Popular Picks shelf with placeholder products"
+      ],
+      "design_hypothesis": "Accessories merchandising combines color variant exploration and editorial story modules; visible placeholder cart recommendations should be replaced with genuine catalog matches in a production design."
     }
   ]
 }
