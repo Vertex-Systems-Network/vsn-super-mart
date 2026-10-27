@@ -2469,11 +2469,13 @@
       "signals": [
         "On Impulse:Dune, selecting size M deselected S and changed the product URL to a variant-specific query.",
         "The in-stock message stayed the same after selection.",
-        "Impulse:Terrain similarly updated its URL to a variant ID after choosing M; its in-stock message remained stable."
+        "Impulse:Terrain similarly updated its URL to a variant ID after choosing M; its in-stock message remained stable.",
+        "On Stiletto:Linen, selecting size 36 changed the visible Size label and updated the product URL to a variant-specific query."
       ],
       "source_entry_ids": [
         "shopify-interaction-impulse-dune-variant",
-        "shopify-interaction-impulse-terrain-variant"
+        "shopify-interaction-impulse-terrain-variant",
+        "tier2-stiletto-linen-2026-10-27"
       ],
       "option_ids": [
         "variant-picker-styles",
@@ -2487,10 +2489,12 @@
       "context": "Supporting product information can be organized into explicit in-page disclosures.",
       "signals": [
         "Tier 1 PDPs used care, warranty, FAQ, shipping, description, specifications and subscription disclosure controls.",
-        "Expanded content stayed in place and retained the product context."
+        "Expanded content stayed in place and retained the product context.",
+        "Tier 2 adds live examples of product care, ingredients, sizing, shipping, materials, warranty and returns panels across Focal, Expanse, Stiletto, Motion, Palo Alto and Pipeline demos."
       ],
       "source_entry_ids": [
-        "shopify-tier1-disclosure-coverage"
+        "shopify-tier1-disclosure-coverage",
+        "shopify-tier2-product-disclosures"
       ],
       "option_ids": [
         "collapsible-tabs",
@@ -2504,16 +2508,38 @@
       "id": "shopify-product-gallery-zoom-dialog",
       "context": "A gallery zoom dialog supports closer product inspection without navigating away.",
       "signals": [
-        "Empire:Forma opened a Product zoom dialog from an image and displayed a Close control."
+        "Empire:Forma opened a Product zoom dialog from an image and displayed a Close control.",
+        "Pipeline:Pahoa and Pipeline:Phantom opened gallery zoom dialogs with image navigation and a Close control; Concept:Inova opened a media modal with Close."
       ],
       "source_entry_ids": [
-        "shopify-tier1-gallery-zoom"
+        "shopify-tier1-gallery-zoom",
+        "shopify-tier2-gallery-modal"
       ],
       "option_ids": [
         "media-gallery-layouts",
         "product-gallery"
       ],
       "design_implication": "Open zoom in a focused dialog with clear close and image navigation controls; preserve PDP state on return."
+    },
+    {
+      "id": "shopify-localization-and-pickup-panels",
+      "context": "Storefront localization and pickup availability appeared as separate interactive panels during Tier 2 review.",
+      "signals": [
+        "Local:Local expanded a language selector and Local:Caffeine expanded country/currency choices.",
+        "Local:Soleway and Local:Lively exposed pickup-location interfaces with store/map information."
+      ],
+      "source_entry_ids": [
+        "tier2-local-local-2026-10-27",
+        "tier2-local-caffeine-2026-10-27",
+        "tier2-local-soleway-2026-10-27",
+        "tier2-local-lively-2026-10-27"
+      ],
+      "option_ids": [
+        "localization-selector",
+        "store-pickup",
+        "store-locator"
+      ],
+      "design_implication": "Label locale and pickup controls clearly, show selection changes in the visible state, and allow users to dismiss location panels without disturbing product configuration."
     }
   ]
 }
