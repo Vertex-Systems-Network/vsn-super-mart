@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 102 browser-rendered selected presets are documented; 127/127 selected preset homes are now linked across sources, with 403 read-only rendered pages.",
+  "summary": "51 indexed HTML selected homes and 127 browser-rendered preset records are documented; 127/127 homes, 127/127 collections, 127/127 products and 127/127 carts have source-linked coverage.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 102,
-    "opened_home": 102,
-    "opened_collection": 88,
-    "opened_product": 90,
-    "opened_empty_cart": 56,
+    "opened_stores": 127,
+    "opened_home": 104,
+    "opened_collection": 105,
+    "opened_product": 107,
+    "opened_empty_cart": 127,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -6530,6 +6530,17 @@
             "Cart states 'Your bag is empty' and links to Start Shopping.",
             "A Before you go... carousel presents best-seller products, prices, preorder labels and ratings/review counts.",
             "No cart action or checkout was performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://chantilly.myshopify.com/products/swim-systems-momir-t545-ahoy-halter",
+          "observations": [
+            "Mirage Ahoy Halter PDP at $123 with seven color choices, XS–L, size guide, fit guidance, four reviews and Sold out purchase state."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -8725,6 +8736,17 @@
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://beyours-theme-tech.myshopify.com/cart",
+          "observations": [
+            "Your cart is currently empty; product recommendation links appear beneath."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
         }
       ],
       "limits": [
@@ -9235,6 +9257,17 @@
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://local-theme-caffeine.myshopify.com/cart",
+          "observations": [
+            "Shopping Cart page states the cart is currently empty and links to Continue browsing; same-day shipping cutoff message appears."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
         }
       ],
       "limits": [
@@ -9532,6 +9565,17 @@
           "url": "https://beyours-theme.myshopify.com/collections/all/products/money-tree",
           "observations": [
             "Money Tree PDP shows media gallery/video, €14.99, size options (displayed sold out/unavailable), add/buy controls, sticky-cart form, care/delivery details, green-claims, reviews and pickup information."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://beyours-theme.myshopify.com/cart",
+          "observations": [
+            "Your cart is currently empty; Shipping & Returns link is visible."
           ],
           "evidence_class": "browser_render_readonly",
           "interactions_executed": false,
@@ -10726,6 +10770,17 @@
           "interactions_executed": false,
           "screenshot_captured": false,
           "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/collections/all",
+          "observations": [
+            "Mini catalog titled Products with three items (Petit App, Petit Baby Monitor, Petit Pro Baby Monitor); the theme's home/collection model is a compact product listing with no visible filter/sort."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
         }
       ],
       "limits": [
@@ -11829,17 +11884,777 @@
       "limits": [
         "No purchase, filter, sort, variant, cart or other controls used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
       ]
+    },
+    {
+      "id": "shopify-eurus-arise-screen-coverage",
+      "selected_preset_id": "eurus:arise",
+      "theme_family": "eurus",
+      "preset": "Arise",
+      "store_url": "https://eurus-arise.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "collection",
+          "url": "https://eurus-arise.myshopify.com/collections/subscribers-favorite",
+          "observations": [
+            "Our Favorite collection has category shortcuts and Availability, Price, Form and Diet facets; supplement product cards list 30/60-tablet variants. Controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://eurus-arise.myshopify.com/collections/subscribers-favorite/products/maca-root-energy-libido",
+          "observations": [
+            "Maca Root Energy & Libido PDP at $40 with 30/60-tablet choice, subscription cadence discounts (weekly/biweekly/monthly), one-time option, quantity and frequently-bought-together block. Controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://eurus-arise.myshopify.com/cart",
+          "observations": [
+            "Branded empty-cart state with Continue shopping."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-release-serenity-screen-coverage",
+      "selected_preset_id": "release:serenity",
+      "theme_family": "release",
+      "preset": "Serenity",
+      "store_url": "https://release-serenity.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://release-serenity.myshopify.com/",
+          "observations": [
+            "Serenity handbag storefront with SS26/free-shipping ticker, dual-slide collection hero, sustainable-luxury messaging and bag categories."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://release-serenity.myshopify.com/collections/best-sellers",
+          "observations": [
+            "Best Sellers collection has category shortcuts and 12 products, Filters and Best selling sort; controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://release-serenity.myshopify.com/products/serena-bag-grey",
+          "observations": [
+            "Amanda Bag Grey PDP shows €1,499, five linked color choices, 15-left stock state, premium description, quantity, Add to Cart and pre-order related product merchandising. Controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://release-serenity.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Start Shopping and You may also like rail; View all link resolves to literal false."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-spotlight-spotlight-screen-coverage",
+      "selected_preset_id": "spotlight:spotlight",
+      "theme_family": "spotlight",
+      "preset": "Spotlight",
+      "store_url": "https://theme-spotlight-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://theme-spotlight-demo.myshopify.com/",
+          "observations": [
+            "Sparse default-theme storefront shows product carousel with CAD pricing, search/cart links and a basic title/logo."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://theme-spotlight-demo.myshopify.com/collections/all",
+          "observations": [
+            "Products collection lists assorted apparel/merch cards with title and CAD prices; no visible filters or sort in the captured portion."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://theme-spotlight-demo.myshopify.com/products/copy-of-ebbets-wool-c-cap-navy",
+          "observations": [
+            "Cap Ebbets Corduroy PDP at $48 CAD is sold out; quantity controls remain visible but Add/Buy are disabled. Demo states items are unavailable for purchase and points to Coursework."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://theme-spotlight-demo.myshopify.com/cart",
+          "observations": [
+            "Empty-cart heading and Continue shopping link to Products."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-eurus-whiff-screen-coverage",
+      "selected_preset_id": "eurus:whiff",
+      "theme_family": "eurus",
+      "preset": "Whiff",
+      "store_url": "https://eurus-whiff.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "product",
+          "url": "https://eurus-whiff.myshopify.com/collections/best-sellers-1/products/ocean-breeze-anklet",
+          "observations": [
+            "Ocean Breeze Anklet PDP shows 5.0 rating, Dhs. 746 reduced to Dhs. 560, shipping policy, size finder and care/product/packaging/returns accordions. Description refers to a mini huggie ring, inconsistent with the product title."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://eurus-whiff.myshopify.com/cart",
+          "observations": [
+            "Empty-cart page with a branded Your cart is empty state."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-release-forest-screen-coverage",
+      "selected_preset_id": "release:forest",
+      "theme_family": "release",
+      "preset": "Forest",
+      "store_url": "https://release-living.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "product",
+          "url": "https://release-living.myshopify.com/products/elma-sarkit",
+          "observations": [
+            "APPLE PENDANT LAMP PDP at €379 with designer HAMM DESIGN and five color options; every displayed color variant is marked sold out/unavailable."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://release-living.myshopify.com/cart",
+          "observations": [
+            "Empty-cart state with Start Shopping and You may also like recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-vision-poochy-screen-coverage",
+      "selected_preset_id": "vision:poochy",
+      "theme_family": "vision",
+      "preset": "Poochy",
+      "store_url": "https://vision-pets.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://vision-pets.myshopify.com/cart",
+          "observations": [
+            "Your cart is empty with Continue shopping, newsletter signup and company/resource links."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-dawn-dawn-screen-coverage",
+      "selected_preset_id": "dawn:dawn",
+      "theme_family": "dawn",
+      "preset": "Dawn",
+      "store_url": "https://theme-dawn-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-dawn-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and product recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-horizon-horizon-screen-coverage",
+      "selected_preset_id": "horizon:horizon",
+      "theme_family": "horizon",
+      "preset": "Horizon",
+      "store_url": "https://theme-horizon-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-horizon-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and recently viewed/recommended apparel."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-rise-rise-screen-coverage",
+      "selected_preset_id": "rise:rise",
+      "theme_family": "rise",
+      "preset": "Rise",
+      "store_url": "https://theme-rise-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-rise-demo.myshopify.com/cart",
+          "observations": [
+            "Japanese-localized empty cart with continue-shopping action and popular-product rail; prices shown in JPY."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-origin-origin-screen-coverage",
+      "selected_preset_id": "origin:origin",
+      "theme_family": "origin",
+      "preset": "Origin",
+      "store_url": "https://theme-origin-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-origin-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and Shipping policy link."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-tinker-tinker-screen-coverage",
+      "selected_preset_id": "tinker:tinker",
+      "theme_family": "tinker",
+      "preset": "Tinker",
+      "store_url": "https://theme-tinker-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-tinker-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart with Continue shopping and recommended products."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-craft-craft-screen-coverage",
+      "selected_preset_id": "craft:craft",
+      "theme_family": "craft",
+      "preset": "Craft",
+      "store_url": "https://theme-craft-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-craft-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and featured products."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-publisher-publisher-screen-coverage",
+      "selected_preset_id": "publisher:publisher",
+      "theme_family": "publisher",
+      "preset": "Publisher",
+      "store_url": "https://theme-publisher-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-publisher-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and related notebooks."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-ride-ride-screen-coverage",
+      "selected_preset_id": "ride:ride",
+      "theme_family": "ride",
+      "preset": "Ride",
+      "store_url": "https://theme-ride-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-ride-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and featured action-sports products."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-sense-sense-screen-coverage",
+      "selected_preset_id": "sense:sense",
+      "theme_family": "sense",
+      "preset": "Sense",
+      "store_url": "https://theme-sense-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-sense-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and skincare recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-studio-studio-screen-coverage",
+      "selected_preset_id": "studio:studio",
+      "theme_family": "studio",
+      "preset": "Studio",
+      "store_url": "https://theme-studio-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-studio-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and art-print recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-crave-crave-screen-coverage",
+      "selected_preset_id": "crave:crave",
+      "theme_family": "crave",
+      "preset": "Crave",
+      "store_url": "https://theme-crave-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-crave-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and apparel recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-trade-trade-screen-coverage",
+      "selected_preset_id": "trade:trade",
+      "theme_family": "trade",
+      "preset": "Trade",
+      "store_url": "https://theme-trade-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-trade-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and home-goods recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-vessel-vessel-screen-coverage",
+      "selected_preset_id": "vessel:vessel",
+      "theme_family": "vessel",
+      "preset": "Vessel",
+      "store_url": "https://theme-vessel-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-vessel-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart with Continue shopping and coffee-ware recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-heritage-heritage-screen-coverage",
+      "selected_preset_id": "heritage:heritage",
+      "theme_family": "heritage",
+      "preset": "Heritage",
+      "store_url": "https://theme-heritage-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-heritage-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart with Continue shopping and apparel recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-pitch-pitch-screen-coverage",
+      "selected_preset_id": "pitch:pitch",
+      "theme_family": "pitch",
+      "preset": "Pitch",
+      "store_url": "https://theme-pitch-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-pitch-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart, Continue shopping and beauty product recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-dwell-dwell-screen-coverage",
+      "selected_preset_id": "dwell:dwell",
+      "theme_family": "dwell",
+      "preset": "Dwell",
+      "store_url": "https://theme-dwell-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-dwell-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart with Continue shopping and home-textile recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-ritual-ritual-screen-coverage",
+      "selected_preset_id": "ritual:ritual",
+      "theme_family": "ritual",
+      "preset": "Ritual",
+      "store_url": "https://theme-ritual-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-ritual-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart with Continue shopping and fashion recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-fabric-fabric-screen-coverage",
+      "selected_preset_id": "fabric:fabric",
+      "theme_family": "fabric",
+      "preset": "Fabric",
+      "store_url": "https://theme-fabric-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-fabric-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart with Continue shopping and apparel recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
+    },
+    {
+      "id": "shopify-atelier-atelier-screen-coverage",
+      "selected_preset_id": "atelier:atelier",
+      "theme_family": "atelier",
+      "preset": "Atelier",
+      "store_url": "https://theme-atelier-demo.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Public selected-preset demo pages inspected read-only to complete collection, product and cart coverage.",
+      "pages": [
+        {
+          "kind": "cart",
+          "url": "https://theme-atelier-demo.myshopify.com/cart",
+          "observations": [
+            "Empty cart with Continue shopping and accessories recommendations."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "Controls not used; no screenshots, viewport measurements, mobile, Theme Editor, checkout or performance tests."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 403,
-    "selected_presets": 102,
+    "pages": 443,
+    "selected_presets": 127,
     "unique_selected_homepages_across_all_source_types": 127,
     "pages_by_kind": {
-      "home": 102,
-      "collection": 101,
-      "product": 101,
-      "cart": 99
+      "home": 104,
+      "collection": 105,
+      "product": 107,
+      "cart": 127
     }
   }
 }
