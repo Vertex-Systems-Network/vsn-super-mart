@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover 66 selected presets (68 observations total including Ignite:Peak).",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity. All 127 were opened and visually inspected. Targeted live-store interactions now cover 72 selected presets (74 observations total including Ignite:Peak). Tier 1, Tier 2 and Tier 3 are closed.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -2051,9 +2051,12 @@
         "All sales/stock states and locale pricing only from HTML",
         "No actual mobile/device or Shopify Theme Editor"
       ],
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier3-dawn-dawn-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-prestige-signature",
@@ -2339,9 +2342,12 @@
         "source_crawl_recency": "2 weeks"
       },
       "cart": null,
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier3-horizon-horizon-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-craft-free",
@@ -2468,7 +2474,7 @@
         "source_crawl_recency": "yesterday"
       },
       "cart": null,
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
       "editor_tested": false,
       "supplemental_documentation": [
@@ -2477,6 +2483,9 @@
           "evidence": "Company account request document only, not Shopify Plus verified",
           "crawl": "2 months"
         }
+      ],
+      "interaction_observation_ids": [
+        "tier3-trade-trade-2026-10-27"
       ]
     },
     {
@@ -2807,9 +2816,12 @@
         "source_crawl_recency": "last month"
       },
       "cart": null,
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier3-tinker-tinker-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-origin-free",
@@ -2945,9 +2957,12 @@
         "source_crawl_recency": "2 weeks"
       },
       "cart": null,
-      "interactive_tested": false,
+      "interactive_tested": true,
       "mobile_render_tested": false,
-      "editor_tested": false
+      "editor_tested": false,
+      "interaction_observation_ids": [
+        "tier3-atelier-atelier-2026-10-27"
+      ]
     },
     {
       "id": "shopify-live-rise-free",
@@ -5563,7 +5578,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 68,
+    "interactive_events_tested": 74,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -14055,6 +14070,120 @@
       "screenshot_captured": false,
       "screenshot_saved": false,
       "batch_id": "batch138-tier2-close"
+    },
+    {
+      "id": "tier3-dawn-dawn-2026-10-27",
+      "selected_preset_id": "dawn:dawn",
+      "store_url": "https://theme-dawn-demo.myshopify.com/products/small-convertible-flex-bag-cappuccino",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. No search query was submitted.",
+      "observed_result": "Opened the header Search control; the Search dialog and empty combobox appeared. No search was submitted.",
+      "result": "search_modal_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch139-tier3-close"
+    },
+    {
+      "id": "tier3-horizon-horizon-2026-10-27",
+      "selected_preset_id": "horizon:horizon",
+      "store_url": "https://theme-horizon-demo.myshopify.com/products/1tuck-tapered-pants-424",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Selected size M; the radio changed to checked.",
+      "result": "variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch139-tier3-close"
+    },
+    {
+      "id": "tier3-tinker-tinker-2026-10-27",
+      "selected_preset_id": "tinker:tinker",
+      "store_url": "https://theme-tinker-demo.myshopify.com/products/gather-magsafe-phone-stand-black-walnut",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened the product gallery zoom; a dialog with a Close control and image navigation appeared, then was closed.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch139-tier3-close"
+    },
+    {
+      "id": "tier3-savor-savor-2026-10-27",
+      "selected_preset_id": "savor:savor",
+      "store_url": "https://savor-theme-demo.myshopify.com/products/sweet-pineapple",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Selected the 2 Bottles pack option; its radio changed to checked.",
+      "result": "pack_variant_selected",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch139-tier3-close"
+    },
+    {
+      "id": "tier3-trade-trade-2026-10-27",
+      "selected_preset_id": "trade:trade",
+      "store_url": "https://theme-trade-demo.myshopify.com/products/classic-towels",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened Product features; the panel expanded and product feature details were shown.",
+      "result": "product_accordion_expanded",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false,
+      "batch_id": "batch139-tier3-close"
+    },
+    {
+      "id": "tier3-atelier-atelier-2026-10-27",
+      "selected_preset_id": "atelier:atelier",
+      "store_url": "https://theme-atelier-demo.myshopify.com/products/mini-isla-suede-caramel?variant=50126854848810",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1344,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Opened or selected a visible, non-purchase control on the selected preset's public demo. ",
+      "observed_result": "Opened the product gallery in full-screen zoom; the image strip and Close control were visible. Closed the viewer and returned to the PDP.",
+      "result": "product_gallery_zoom_opened",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": true,
+      "screenshot_saved": false,
+      "batch_id": "batch139-tier3-close"
     }
   ],
   "mobile_review_observations": [
