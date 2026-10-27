@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "purpose": "Source-traceable competitor research for VSN's AI workflow; NOT copies of third-party themes.",
   "evidence_levels": {
     "official_preset_page": "Official product/preset listing opened; listed features are vendor claims; interactive demo NOT independently tested.",
@@ -8841,6 +8841,43 @@
         "New Arrivals collection reports 27 products, category links for flats/boots/heels/loafers/mules/sandals, five facet groups (availability, price, color, product type, size), sort control, Quick Buy cards and two-page pagination. Controls untouched.",
         "Kalinda Boots PDP shows eight gallery images, $500 final-sale price, seven-left stock message, Brown/Black and sizes 35–41, size chart, quantity and buy controls, fit/material accordions, cross-sell, sticky cart bar and FAQs. Page and footer identify demo goods as Alohas-provided, but product, stock and seller claims remain unverified. The Alohas attribution link resolves to an encoded URL on a different broadcast-luxe.myshopify.com host.",
         "Dedicated cart is empty and suggests Loafers, Spring Lookbook, Sandals and Flats; displays $200 shipping threshold and newsletter/footer."
+      ]
+    },
+    {
+      "id": "shopify-live-palo-alto-phenomena",
+      "platform": "shopify",
+      "theme": "Palo Alto",
+      "preset": "Phenomena",
+      "feature_option_ids": [
+        "tabbed-featured-collection",
+        "quick-view",
+        "color-swatches",
+        "product-badges",
+        "shop-the-look",
+        "testimonials",
+        "empty-states"
+      ],
+      "niches": [
+        "beauty",
+        "makeup",
+        "cosmetics"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "not_verified",
+        "mobile": "not_verified"
+      },
+      "url": "https://palo-alto-theme-phenomena.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "document_verification_status": "browser_rendered_readonly_partial",
+      "document_verification_scope": "Rendered homepage only. Collection navigation timed out; collection/PDP/cart not verified. No interactions or viewport/editor/checkout/performance tests.",
+      "notes": "Exact official listing iframe src verified. Beauty product, ingredient, vegan/cruelty-free, testimonial, promotion and merchant claims unverified.",
+      "design_signals": [
+        "Official Palo Alto:Phenomena View demo iframe resolved to this beauty storefront. Rendered homepage shows promotional bar with US$75 free-shipping and WELCOME10 copy, Shop All/Bestsellers/About navigation, cosmetics hero, tabbed bestseller/brush shelf with Quick Buy and shades, editorial collection groupings, product-benefit claims (skin-first, inclusive, vegan/cruelty-free), testimonial cards, Shop the Look, featured product, product-list module, social gallery and newsletter/footer."
       ]
     }
   ],
