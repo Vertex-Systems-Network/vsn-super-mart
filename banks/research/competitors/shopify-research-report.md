@@ -125,3 +125,8 @@ All **27/27 Tier 1 pending presets** received a verified read-only interaction. 
 All **33/33 Tier 2 pending presets** received a verified live interaction and were removed from pending groups. Checks covered product disclosures, size guidance, variant state, product gallery dialogs, locale controls, pickup-location panels and search. Overall targeted interaction coverage is **66/127 presets across 68 observations**, with 61 presets pending: Tier 3 (6), Tier 4 (38) and other selected families (17). Mobile visual review remains 127/127. See `shopify-interaction-sample-batch138-2026.md`.
 
 During the Stiletto:Linen review, an unintended quantity-2 cart state occurred while controls were being targeted. Both units were removed; the cart was verified empty. No checkout or payment occurred. Stiletto:Stiletto's listed product route returned 404, so its public homepage search modal was used as a fallback.
+
+
+## Tier 3 interaction group closeout — Batch 139 (2026-10-27)
+
+All **6/6 Tier 3 presets** received a verified live interaction and were removed from pending groups. Checks covered search, size and pack selection, product feature disclosure and gallery zoom in the first-party free theme baseline. Overall targeted interaction coverage is **72/127 presets across 74 observations**, with 55 presets pending: Tier 4 (38) and other selected families (17). Mobile visual review remains 127/127. See `shopify-interaction-sample-batch139-2026.md`.
