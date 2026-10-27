@@ -267,13 +267,13 @@
         "home-furniture"
       ],
       "notes": "",
-      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
-      "document_verification_status": "official_listing",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified. Supplemental browser-rendered routes added for product.",
+      "document_verification_status": "browser_rendered_readonly",
       "document_verified_on": "2026-10-25",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
-        "product": "not_verified",
+        "product": "browser_rendered_readonly",
         "cart": "not_verified",
         "mobile": "not_verified"
       }
@@ -332,14 +332,14 @@
         "fashion-apparel"
       ],
       "notes": "",
-      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified.",
-      "document_verification_status": "official_listing",
+      "document_verification_scope": "Official theme/preset listing checked earlier; interactive live-demo QA not verified. Supplemental browser-rendered routes added for cart.",
+      "document_verification_status": "browser_rendered_readonly",
       "document_verified_on": "2026-10-25",
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -1059,8 +1059,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "accessible",
-      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests. Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "sticky-header",
         "hero-slideshow",
@@ -1079,7 +1079,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -1262,8 +1262,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "accessible",
-      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests. Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "mega-menu",
         "quantity-selector",
@@ -1281,7 +1281,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -1327,8 +1327,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "accessible",
-      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests. Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "product-blocks",
         "product-reviews-slot",
@@ -1345,7 +1345,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -1358,8 +1358,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "accessible",
-      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing content inspected; claims and screenshots are not independent live-demo tests. Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "image-banner",
         "image-with-text",
@@ -1377,7 +1377,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2213,8 +2213,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -2232,7 +2232,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2245,8 +2245,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "featured-collection",
         "theme-styles-presets",
@@ -2264,7 +2264,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2277,8 +2277,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "video-section",
         "animation-settings",
@@ -2296,7 +2296,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2341,8 +2341,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "featured-collection",
         "theme-styles-presets",
@@ -2360,7 +2360,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2373,8 +2373,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "video-section",
         "animation-settings",
@@ -2392,7 +2392,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2405,8 +2405,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -2424,7 +2424,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2469,8 +2469,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "video-section",
         "animation-settings",
@@ -2488,7 +2488,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2501,8 +2501,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for home, collection, product, cart.",
       "feature_option_ids": [
         "featured-collection",
         "theme-styles-presets",
@@ -2517,10 +2517,10 @@
       ],
       "notes": "Feature IDs are system research targets; do not infer a vendor implemented every mapped option. Paid preset names verified on Shopify listing, free themes separate.",
       "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "home": "browser_rendered_readonly",
+        "collection": "browser_rendered_readonly",
+        "product": "browser_rendered_readonly",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2533,8 +2533,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -2552,7 +2552,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2565,8 +2565,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -2584,7 +2584,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2597,8 +2597,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "video-section",
         "animation-settings",
@@ -2616,7 +2616,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2629,8 +2629,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -2648,7 +2648,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2661,8 +2661,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -2680,7 +2680,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2693,8 +2693,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "mega-menu",
         "faceted-filters",
@@ -2712,7 +2712,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2725,8 +2725,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual theme listing and advertised preset list checked, no interactive demo validated Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -2744,7 +2744,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -2886,7 +2886,7 @@
       "opened_on": "2026-10-27",
       "document_verified_on": "2026-10-27",
       "document_verification_status": "browser_rendered_readonly",
-      "document_verification_scope": "Rendered accessibility-tree inspection of home, collection and product; cart drawer only, not standalone cart; no interactions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.",
+      "document_verification_scope": "Rendered accessibility-tree inspection of home, collection and product; cart drawer only, not standalone cart; no interactions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "ingredients-nutrition",
         "pickup-availability",
@@ -2906,7 +2906,7 @@
         "home": "document_only",
         "collection": "document_only",
         "product": "document_only",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -4372,8 +4372,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA. Supplemental browser-rendered routes added for collection.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -4389,7 +4389,7 @@
       "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
       "page_coverage": {
         "home": "listing_only",
-        "collection": "not_verified",
+        "collection": "browser_rendered_readonly",
         "product": "not_verified",
         "cart": "not_verified",
         "mobile": "not_verified"
@@ -4404,8 +4404,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA. Supplemental browser-rendered routes added for collection, product, cart.",
       "feature_option_ids": [
         "featured-collection",
         "theme-styles-presets",
@@ -4421,9 +4421,9 @@
       "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
       "page_coverage": {
         "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "collection": "browser_rendered_readonly",
+        "product": "browser_rendered_readonly",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -4500,8 +4500,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA. Supplemental browser-rendered routes added for product, cart.",
       "feature_option_ids": [
         "featured-collection",
         "theme-styles-presets",
@@ -4518,8 +4518,8 @@
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "product": "browser_rendered_readonly",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -4564,8 +4564,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA. Supplemental browser-rendered routes added for home, collection, product, cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -4580,10 +4580,10 @@
       ],
       "notes": "Official Shopify preset product listing source, not demo store. Feature mappings are VSN hypotheses.",
       "page_coverage": {
-        "home": "listing_only",
-        "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "home": "browser_rendered_readonly",
+        "collection": "browser_rendered_readonly",
+        "product": "browser_rendered_readonly",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -4596,8 +4596,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA. Supplemental browser-rendered routes added for product, cart.",
       "feature_option_ids": [
         "shop-the-look",
         "media-gallery-layouts",
@@ -4614,8 +4614,8 @@
       "page_coverage": {
         "home": "listing_only",
         "collection": "not_verified",
-        "product": "not_verified",
-        "cart": "not_verified",
+        "product": "browser_rendered_readonly",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -4948,8 +4948,8 @@
       "evidence_level": "official_preset_page",
       "opened_on": "2026-10-25",
       "document_verified_on": "2026-10-25",
-      "document_verification_status": "official_listing_accessible",
-      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA.",
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Individual official preset listing opened on Shopify Theme Store; no standalone demo session, product/cart flow or device QA. Supplemental browser-rendered routes added for cart.",
       "feature_option_ids": [
         "video-section",
         "animation-settings",
@@ -4967,7 +4967,7 @@
         "home": "listing_only",
         "collection": "not_verified",
         "product": "not_verified",
-        "cart": "not_verified",
+        "cart": "browser_rendered_readonly",
         "mobile": "not_verified"
       }
     },
@@ -9773,6 +9773,58 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official theme listing preview verified; home, collection, product and empty cart inspected read-only for Vision:Solstice.",
       "notes": "Winter fashion homepage uses seasonal campaign hero, sale/return strips, price-tier links and favorites rail. All Products collection shows 11 products and price-tier collection shortcuts with filter/sort. Waffle-Knit Hoodie PDP has Beige color, XS–XL sizes, fit guide, stock count, discount code block, product story and purchase controls. Cart is empty with recently-viewed recommendation and secondary company content."
+    },
+    {
+      "id": "shopify-screen-be-yours-peace",
+      "platform": "shopify",
+      "theme": "be-yours",
+      "preset": "Peace",
+      "url": "https://beyours-theme.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "collection-page",
+        "product-page",
+        "empty-cart-state"
+      ],
+      "niches": [],
+      "page_coverage": {
+        "home": "not_verified",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "browser_rendered_readonly",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Read-only direct demo screen inspection. Supplemental browser-rendered routes added for cart.",
+      "notes": ""
+    },
+    {
+      "id": "shopify-screen-be-yours-harmony",
+      "platform": "shopify",
+      "theme": "be-yours",
+      "preset": "Harmony",
+      "url": "https://beyours-theme-tech.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "collection-page",
+        "product-page",
+        "empty-cart-state"
+      ],
+      "niches": [],
+      "page_coverage": {
+        "home": "not_verified",
+        "collection": "not_verified",
+        "product": "not_verified",
+        "cart": "browser_rendered_readonly",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Read-only direct demo screen inspection. Supplemental browser-rendered routes added for cart.",
+      "notes": ""
     }
   ],
   "discovery_sources": [
