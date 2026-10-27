@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Mobile review and design synthesis complete for the selected 127 Shopify presets. Next priority: targeted mobile interaction research on representative themes (navigation/search, collection filters, product variants, cart drawer); no purchase or checkout actions.",
+  "next_action": "Mobile visual review and synthesis complete (127/127); targeted interaction checks cover 3 presets / 5 observations. Next: continue representative live-demo interaction research (navigation/search, filters/sort, variants and cart) while keeping purchase/checkout out of scope.",
   "approvals": {},
   "figma": {
     "file_key": null,
