@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 101 (Palo Alto:Phenomena, 2026-10-27)
+
+- Confirmed official demo iframe and inspected rendered homepage. Collection navigation timed out; only one page counted. Collection/PDP/cart remain unverified.
+- Coverage 103/127 unique homes, 281 pages across 72 presets; 24 homes remain. Beauty claims unverified; no interaction or viewport/editor/checkout/performance tests.
+- Retry route when browser service recovers.
+
+
 ## Shopify live-demo research — Batch 100 (Palo Alto:Skylight, 2026-10-26)
 
 - Verified official demo iframe; inspected home, 27-item New Arrivals collection, Kalinda Boots PDP and empty cart read-only.
