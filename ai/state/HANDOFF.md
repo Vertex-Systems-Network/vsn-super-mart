@@ -1,3 +1,16 @@
+## 2026-10-27 — Shopify rendered demo research Batch 125 (Shapes:Fizz) — COMPLETE
+
+**Done**
+- Verified final unique official demo host: https://shapes-theme-soda-2.myshopify.com/; inspected home, Spritz collection, Grape PDP and empty cart read-only.
+- Updated evidence, completion matrix, audit, design observations, plan and progress.
+- Final status: **127/127 unique homes · 379 rendered pages · 96 presets · 0 remaining.**
+
+**Limits**
+- No controls used, screenshots, viewport measurements, mobile/editor/checkout/performance tests. Research is read-only rendered structure and merchant claims remain unverified.
+
+**Next**
+- Stop this 127-home research pass. Design-pattern synthesis is the next separate phase.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 124 (Ignite:Tails)
 
 **Done**
