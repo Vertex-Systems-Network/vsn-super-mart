@@ -1,3 +1,14 @@
+## 2026-10-27 — Shopify rendered demo research Batch 121 (Eurus:Eurus)
+
+**Done**
+- Verified official listing loaded a new unique host and inspected home, all-products collection, Natural Deodorant Trio PDP and empty cart read-only.
+- Coverage: 123/127 homes (51 indexed HTML + 72 rendered additions), 363 pages across 92 presets; 4 remain.
+- Logged concern-based filters/routine and bundle design; flagged mixed testimonials and unverified health/efficacy claims.
+- Updated evidence, matrix, demo audit, observations, plan, progress and batch report.
+
+**Next**
+- Continue branch `research/shopify-live-demo-batch6`; deduplicate by host and complete four distinct homes.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 120 (Eurus:Mystique)
 
 **Done**
