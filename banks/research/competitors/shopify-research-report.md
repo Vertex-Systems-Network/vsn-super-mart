@@ -113,3 +113,8 @@ Impulse:Dune's Naked & Famous Crewneck PDP was tested at 1363×936 CSS px. Selec
 ## Targeted interaction update — Batch 136 (2026-10-27)
 
 Impulse:Terrain's 2016 Carbine Expert Build PDP was tested at 1363×936 CSS px. Selecting M updated the radio state and URL with a variant ID; “In stock, ready to ship” remained unchanged. No cart action followed. Overall targeted coverage is **6 of 127 presets across 8 observations**; completed presets are marked and excluded from the pending list. See `shopify-interaction-sample-batch136-2026.md`.
+
+
+## Tier 1 interaction group closeout — Batch 137 (2026-10-27)
+
+All **27/27 Tier 1 pending presets** received a verified read-only interaction. Checks covered product-detail disclosures, navigation/search, size-chart access and gallery zoom. No cart mutation or checkout was performed. Tier 1 has been removed from pending groups and archived as complete; overall targeted interaction coverage is **33/127 presets across 35 observations**, with 94 presets pending in lower-priority groups. See `shopify-interaction-sample-batch137-2026.md`.
