@@ -84,8 +84,8 @@
     "live_collection_verified": 38,
     "live_product_verified": 40,
     "live_cart_verified": 11,
-    "live_mobile_verified": 14,
-    "browser_rendered_pages": 460,
+    "live_mobile_verified": 127,
+    "browser_rendered_pages": 570,
     "browser_rendered_selected_presets": 127,
     "selected_home_observed_any_source": 127,
     "distinct_selected_homepages_any_source": 127,
@@ -105,10 +105,10 @@
       "cart": 0
     },
     "interactive_events_tested": 1,
-    "browser_rendered_mobile": 17,
-    "mobile_viewport_attempts": 17,
-    "mobile_visual_reviews_completed": 14,
-    "mobile_preview_blurred": 3
+    "browser_rendered_mobile": 127,
+    "mobile_viewport_attempts": 127,
+    "mobile_visual_reviews_completed": 127,
+    "mobile_preview_blurred": 2
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -123,6 +123,6 @@
   "live_demo_evidence_file": "banks/research/competitors/shopify-live-demo-evidence-2026.json",
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
-  "last_batch_report": "banks/research/competitors/shopify-live-demo-batch127-2026.md",
-  "next_action": "Continue mobile review from Palo Alto:Dynamo; 14/127 presets visually reviewed at 360×640 CSS px. Retry Caffeine, Lively and Forma previews (their initial captures blurred); 110 presets remain unreviewed. Record clipping risks found on Empire:Empire, Empire:Circuit and Palo Alto:Palo Alto."
+  "last_batch_report": "banks/research/competitors/shopify-mobile-review-batch131-2026.md",
+  "next_action": "Mobile review complete: all 127 selected presets inspected at 360×640 CSS px. Synthesize responsive patterns into the Shopify design research; retain the two limited-clarity caveats for Eurus:Arise and Stiletto:Luster."
 }
