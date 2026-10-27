@@ -1,3 +1,16 @@
+## 2026-10-27 — Shopify rendered demo research Batch 123 (Ignite:Playtime)
+
+**Done**
+- Verified unique official demo host: https://benchmark-toys-demo.myshopify.com/; read home, Bestsellers collection, Ultimate Towering Blocks Game PDP and empty cart.
+- Logged four read-only routes and design/data-quality notes in evidence, matrix, audit and design observations.
+- Status: 125/127 unique homes · 371 rendered pages · 94 presets · 2 homes remain.
+
+**Limits**
+- No controls used, screenshots, viewport measurements, mobile/editor/checkout/performance tests.
+
+**Next**
+- Continue two remaining unique official demo hosts and stop at 127/127.
+
 ## 2026-10-27 — Shopify rendered demo research Batch 122 (Release:Renaissance)
 
 **Done**
