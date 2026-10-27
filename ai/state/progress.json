@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Completed a static source audit of the VSN prototype Theme Editor schema; report: banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md. This does not close the 127 selected competitor editors (private editor settings still require authorized direct access); matrix remains editor 0/127 reviewed, 127 pending. Current VSN live editor preview and full editor QA remain unverified; continue Stage 2 research without advancing into design/development.",
+  "next_action": "Completed static VSN Theme Editor audit and diagnosed the missing app control: app embeds require an installed app's deployed Theme App Extension; the repo has no app extension. The theme layout contains content_for_header. Inline @app blocks are declared/rendered only by vsn-section, instantiated on the prototype JSON page; 12 current Liquid templates lack the JSON-template app-block route. Report: banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md. Store/app state is unavailable, so live confirmation remains pending; competitor editor matrix stays 0/127 reviewed, 127 pending. Continue Stage 2 only.",
   "approvals": {},
   "figma": {
     "file_key": null,
