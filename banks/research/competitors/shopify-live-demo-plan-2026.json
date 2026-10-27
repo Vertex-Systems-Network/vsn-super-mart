@@ -3,7 +3,7 @@
   "updated_at": "2026-10-28",
   "scope": "The 127 selected popular Shopify theme/preset records",
   "method": "Indexed public HTML evidence and direct rendered browser observations are maintained as separate source classes; interactions are counted only after execution.",
-  "reason": "Public demo screen coverage is complete for the selected cohort; targeted interactions now cover 110 presets. Full interaction coverage (17 presets remain), Theme Editor, checkout, keyboard/accessibility and Lighthouse checks are incomplete.",
+  "reason": "Targeted interaction review now covers all 127 selected presets. Theme Editor, checkout, keyboard/accessibility and Lighthouse evidence remain incomplete for the selected cohort.",
   "input_bank": "banks/research/competitors/shopify-presets-2026.json",
   "status": "screen_coverage_complete_validation_partial",
   "checks": [
@@ -104,12 +104,12 @@
       "product": 0,
       "cart": 0
     },
-    "interactive_events_tested": 112,
+    "interactive_events_tested": 129,
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2,
-    "interactive_presets_tested": 110
+    "interactive_presets_tested": 127
   },
   "required_evidence_per_screen": {
     "url": "Actual visited live demo URL, not Theme Store listing",
@@ -125,125 +125,12 @@
   "vendor_demo_section_recipes_file": "banks/research/competitors/shopify-vendor-homepage-recipes-2026.json",
   "count_semantics": "Primary counts at most one read-only HTML document per host/page kind; preexisting Prestige pages do not count a second time; supplementary pages, vendor listings and independent reviews separate.",
   "last_batch_report": "banks/research/competitors/shopify-interaction-sample-batch139-2026.md",
-  "next_action": "Tier 4 is complete and archived (38 presets). Continue the 17 remaining selected families; Theme Editor, checkout and Lighthouse remain open for all 127.",
+  "next_action": "All 127 selected presets now have at least one verified storefront interaction; no interaction presets remain pending. Continue with the open audit gaps: Theme Editor, checkout, keyboard/accessibility and Lighthouse.",
   "pending_interaction_groups": {
     "updated_at": "2026-10-28",
     "definition": "Only presets with interactive_tested=false in the completion matrix are included. When a preset is completed, remove it from its group's items and decrement pending_count.",
-    "total_pending": 17,
-    "groups": [
-      {
-        "id": "other_selected_families",
-        "label": "Other selected families",
-        "objective": "Selected Shopify families outside the four current priority tiers.",
-        "families": [
-          "refresh",
-          "rise",
-          "origin",
-          "craft",
-          "publisher",
-          "ride",
-          "sense",
-          "studio",
-          "taste",
-          "crave",
-          "spotlight",
-          "vessel",
-          "heritage",
-          "pitch",
-          "dwell",
-          "ritual",
-          "fabric"
-        ],
-        "items": [
-          {
-            "preset_id": "refresh:refresh",
-            "theme_family": "refresh",
-            "preset": "Refresh"
-          },
-          {
-            "preset_id": "rise:rise",
-            "theme_family": "rise",
-            "preset": "Rise"
-          },
-          {
-            "preset_id": "origin:origin",
-            "theme_family": "origin",
-            "preset": "Origin"
-          },
-          {
-            "preset_id": "craft:craft",
-            "theme_family": "craft",
-            "preset": "Craft"
-          },
-          {
-            "preset_id": "publisher:publisher",
-            "theme_family": "publisher",
-            "preset": "Publisher"
-          },
-          {
-            "preset_id": "ride:ride",
-            "theme_family": "ride",
-            "preset": "Ride"
-          },
-          {
-            "preset_id": "sense:sense",
-            "theme_family": "sense",
-            "preset": "Sense"
-          },
-          {
-            "preset_id": "studio:studio",
-            "theme_family": "studio",
-            "preset": "Studio"
-          },
-          {
-            "preset_id": "taste:taste",
-            "theme_family": "taste",
-            "preset": "Taste"
-          },
-          {
-            "preset_id": "crave:crave",
-            "theme_family": "crave",
-            "preset": "Crave"
-          },
-          {
-            "preset_id": "spotlight:spotlight",
-            "theme_family": "spotlight",
-            "preset": "Spotlight"
-          },
-          {
-            "preset_id": "vessel:vessel",
-            "theme_family": "vessel",
-            "preset": "Vessel"
-          },
-          {
-            "preset_id": "heritage:heritage",
-            "theme_family": "heritage",
-            "preset": "Heritage"
-          },
-          {
-            "preset_id": "pitch:pitch",
-            "theme_family": "pitch",
-            "preset": "Pitch"
-          },
-          {
-            "preset_id": "dwell:dwell",
-            "theme_family": "dwell",
-            "preset": "Dwell"
-          },
-          {
-            "preset_id": "ritual:ritual",
-            "theme_family": "ritual",
-            "preset": "Ritual"
-          },
-          {
-            "preset_id": "fabric:fabric",
-            "theme_family": "fabric",
-            "preset": "Fabric"
-          }
-        ],
-        "pending_count": 17
-      }
-    ],
+    "total_pending": 0,
+    "groups": [],
     "closed_groups": [
       {
         "id": "priority_tier_1",
@@ -388,6 +275,33 @@
           "vision:solstice"
         ],
         "report": "banks/research/competitors/shopify-interaction-sample-batch140-2026.md"
+      },
+      {
+        "id": "other_selected_families",
+        "label": "Other selected families",
+        "status": "complete",
+        "completed_on": "2026-10-28",
+        "completed_count": 17,
+        "preset_ids": [
+          "refresh:refresh",
+          "rise:rise",
+          "origin:origin",
+          "craft:craft",
+          "publisher:publisher",
+          "ride:ride",
+          "sense:sense",
+          "studio:studio",
+          "taste:taste",
+          "crave:crave",
+          "spotlight:spotlight",
+          "vessel:vessel",
+          "heritage:heritage",
+          "pitch:pitch",
+          "dwell:dwell",
+          "ritual:ritual",
+          "fabric:fabric"
+        ],
+        "report": "banks/research/competitors/shopify-interaction-sample-batch141-2026.md"
       }
     ]
   }
