@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 65 additional browser-rendered homes are documented (116/127 unique); 335 read-only rendered pages across 85 selected presets.",
+  "summary": "51 indexed HTML selected homes and 66 additional browser-rendered homes are documented (117/127 unique); 339 read-only rendered pages across 86 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 85,
-    "opened_home": 85,
-    "opened_collection": 71,
-    "opened_product": 73,
-    "opened_empty_cart": 39,
+    "opened_stores": 86,
+    "opened_home": 86,
+    "opened_collection": 72,
+    "opened_product": 74,
+    "opened_empty_cart": 40,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10793,11 +10793,73 @@
       "limits": [
         "No facet, sort, grid, variant, bundle, cart or checkout interactions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Retailer/product/shipping claims unverified."
       ]
+    },
+    {
+      "id": "shopify-release-grasse-browser-render",
+      "selected_preset_id": "release:grasse",
+      "theme_family": "Release",
+      "preset": "Grasse",
+      "store_url": "https://release-release.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Release:Grasse listing View demo, verified iframe host and inspected home, Face Care collection, linked Guasha Stone PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://release-release.myshopify.com/",
+          "observations": [
+            "Men's grooming storefront with stacked announcement bars, grooming hero, featured products and preorder states, discount countdown, social proof, best-seller category tabs, before/after slider, highlighted product, collection cards, shop-the-look, grooming guide, testimonials and magazine.",
+            "Copy includes duplicated shipping thresholds ($150 header vs €150 footer), generic claims/reviews, and a storefront URL /false social link."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://release-release.myshopify.com/collections/face-care",
+          "observations": [
+            "Face Care collection shows 9 of 9 products, Best Selling sort and filter drawer; product cards show preorder, sold-out, variant-volume, sale and new/bestseller states.",
+            "Collection copy is gender-specific grooming; navigation/filter controls untouched."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://release-release.myshopify.com/products/guasha-stone?variant=45149600350446",
+          "observations": [
+            "Guasha Stone PDP at €19.95 with two gallery images, Black selector labeled unavailable, but inventory text says 10 left; return/payment/shipping trust text and description/delivery/ingredients accordions.",
+            "Lower PDP module describes premium razor blades, inconsistent with Guasha Stone. Strong content and variant/inventory mismatches; merchant claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://release-release.myshopify.com/cart",
+          "observations": [
+            "Dedicated empty cart with Start Shopping, You May Also Like section, trust strip, newsletter and footer."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No filter/sort, variants, purchase or cart actions; no screenshot, viewport/mobile, Theme Editor, keyboard or performance testing. Product, availability, stock, quality and service claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 335,
-    "selected_presets": 85,
-    "unique_selected_homepages_across_all_source_types": 116
+    "pages": 339,
+    "selected_presets": 86,
+    "unique_selected_homepages_across_all_source_types": 117
   }
 }
