@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed. Targeted live-store interactions now cover 5 selected presets (7 observations total including Ignite:Peak).",
+  "summary": "127/127 selected presets received a 360×640 CSS px mobile preview review. 125 reviews had clear storefront imagery; Eurus:Arise and Stiletto:Luster had limited hero-image clarity, documented in the per-preset notes. All 127 were opened and visually inspected; no presets remain unreviewed. Targeted live-store interactions now cover 6 selected presets (8 observations total including Ignite:Peak).",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5482,7 +5482,7 @@
     "opened_collection": 105,
     "opened_product": 107,
     "opened_empty_cart": 127,
-    "interactive_events_tested": 7,
+    "interactive_events_tested": 8,
     "opened_mobile": 127,
     "mobile_visual_reviews_completed": 127,
     "mobile_preview_blurred": 2
@@ -12810,6 +12810,24 @@
       },
       "action": "Selected size M on the Naked & Famous Crewneck PDP; did not add to cart.",
       "observed_result": "M became selected and S deselected. The URL updated with variant=30237988749383. The stock message remained In stock, ready to ship.",
+      "result": "variant_selection_updated_radio_and_url_stock_unchanged",
+      "confidence": "browser_render_interaction",
+      "screenshot_captured": false,
+      "screenshot_saved": false
+    },
+    {
+      "id": "impulse-terrain-variant-size-m-2026-10-27",
+      "selected_preset_id": "impulse:terrain",
+      "store_url": "https://impulse-theme-sports.myshopify.com/products/2016-carbine-expert-build?variant=7839884836925",
+      "observed_on": "2026-10-27",
+      "viewport_dimensions": {
+        "width": 1363,
+        "height": 936,
+        "units": "CSS px",
+        "mode": "desktop_browser"
+      },
+      "action": "Selected size M on the 2016 Carbine Expert Build PDP; did not add to cart.",
+      "observed_result": "M became selected and S deselected. URL updated with variant=7839884836925. The stock message remained In stock, ready to ship.",
       "result": "variant_selection_updated_radio_and_url_stock_unchanged",
       "confidence": "browser_render_interaction",
       "screenshot_captured": false,
