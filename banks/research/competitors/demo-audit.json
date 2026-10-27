@@ -9007,6 +9007,37 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official listing iframe src verified; home, Sets collection, Nina PDP and empty cart inspected read-only.",
       "notes": "Swimwear and seller claim copy unverified; no control interactions or device testing."
+    },
+    {
+      "id": "shopify-live-concept",
+      "platform": "shopify",
+      "theme": "Concept",
+      "preset": "Concept",
+      "url": "https://concept-theme-tech.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "tech-spec-cards",
+        "collection-facets",
+        "accessory-upsells",
+        "reviews",
+        "empty-cart"
+      ],
+      "niches": [
+        "electronics",
+        "audio"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official listing iframe src verified; rendered home, 14-item headphones collection after hydration, Air Beats PDP and empty cart inspected read-only.",
+      "notes": "Product ratings/specs, discounts and customer service claims unverified."
     }
   ],
   "discovery_sources": [
