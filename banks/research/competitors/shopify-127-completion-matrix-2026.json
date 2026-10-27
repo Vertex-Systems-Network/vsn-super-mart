@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary and Prestige:Prestige now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary, Prestige:Prestige and Prestige:Couture now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 5
+    "partial_keyboard_accessibility_presets": 6
   },
   "pending": {
     "home": 0,
@@ -1115,7 +1115,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -1163,7 +1164,29 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "prestige-couture-size-variant-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "observed_date": "2026-10-28",
+          "pages": [
+            "https://prestige-theme-couture.myshopify.com/",
+            "https://prestige-theme-couture.myshopify.com/collections/dresses",
+            "https://prestige-theme-couture.myshopify.com/products/edie-cascade-wrap-mini-dress-black"
+          ],
+          "observations": [
+            "Home: Tab traversed Skip to content, logo, HOME, SHOP, BLOG, ABOUT and PRESETS; Shift+Tab returned to SHOP and Enter expanded its submenu.",
+            "Collection: Tab traversal reached the Availability filter; Enter expanded it and exposed the named In stock only checkbox. Space toggled it on and the URL reflected filter.v.availability=1. Test filter was cleared by returning to the base collection URL.",
+            "Product: accessibility tree exposed named gallery images, Black color radio, size chart, XS/S/M/L size radios, quantity controls, Add to Cart, Buy It Now and shipping/returns disclosures."
+          ],
+          "limitations": "Limited manual smoke and accessibility-tree inspection only; not a WCAG conformance audit. Product controls were inspected in the tree, but keyboard activation of every product control was not verified. Lighthouse was not run for this preset."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "run_date": "2026-10-28",
+          "reason": "Google PageSpeed Insights access in this browser is currently blocked by the unusual-traffic human-verification challenge encountered during the earlier run. No CAPTCHA was solved."
+        }
+      }
     },
     {
       "audit_rank": 7,
