@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 102 (Palo Alto:Pluma, 2026-10-27)
+
+- Verified official demo iframe; inspected rendered home, 8-item Bestsellers collection, Botanica Placemat PDP and empty cart read-only.
+- Coverage 104/127 unique homes, 288 rendered pages across 73 presets; 23 unique homes remain. Seller/product/promotional claims unverified; no interaction, screenshot, viewport/editor/checkout/performance tests.
+- Next: continue next unique preset without rendered evidence.
+
+
 ## Shopify live-demo research — Batch 101 (Palo Alto:Phenomena, 2026-10-27)
 
 - Verified official demo iframe; inspected rendered home, Best sellers collection (12 products), Halo highlighter PDP and empty cart read-only.
