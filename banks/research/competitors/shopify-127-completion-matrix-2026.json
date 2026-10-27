@@ -3,7 +3,7 @@
   "generated_on": "2026-10-27",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "127/127 selected preset homes now have linked evidence across indexed HTML and read-only browser renders; rendered screen coverage is 127 homes, 123 collections, 123 products and 100 carts. Cross-preset interactive, mobile, theme-editor, checkout and Lighthouse checks remain unverified.",
+  "completion_claim": "Across indexed HTML and read-only rendered evidence, selected-preset coverage is 127/127 homes, 127/127 collections, 127/127 product pages and 127/127 carts. Interactions, mobile, Theme Editor, checkout and Lighthouse checks remain unverified.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -17,19 +17,19 @@
     "editor": 0,
     "checkout": 0,
     "lighthouse": 0,
-    "browser_rendered_pages": 403,
-    "browser_rendered_selected_presets": 102,
+    "browser_rendered_pages": 443,
+    "browser_rendered_selected_presets": 127,
     "distinct_selected_homepages_any_source": 127,
     "read_only_homepages_across_sources": 127,
-    "read_only_collections_across_sources": 123,
-    "read_only_products_across_sources": 123,
-    "read_only_carts_across_sources": 100
+    "read_only_collections_across_sources": 127,
+    "read_only_products_across_sources": 127,
+    "read_only_carts_across_sources": 127
   },
   "pending": {
     "home": 0,
-    "collection": 4,
-    "product": 4,
-    "cart": 27,
+    "collection": 0,
+    "product": 0,
+    "cart": 0,
     "home_any_source": 0
   },
   "source_type_distinctions": {
@@ -445,24 +445,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impulse-theme-fashion.myshopify.com/",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-fashion.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-fashion.myshopify.com/collections/all"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impulse-theme-fashion.myshopify.com/collections/2026-the-linen-edit/products/the-lido-short",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-fashion.myshopify.com/products/the-ames-trouser"
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impulse-theme-fashion.myshopify.com/cart",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-fashion.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -473,7 +469,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, Quick View, size or cart actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -503,7 +499,8 @@
           "kind": "cart",
           "url": "https://impulse-theme-fashion.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-impulse-impulse-browser-render"
       ]
     },
     {
@@ -518,24 +515,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-apparel.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-apparel.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-apparel.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -546,7 +539,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Read-only browser rendering; filter, sort, pagination, size, quick-view, add-to-cart and checkout were not exercised.",
         "No screenshot, mobile viewport, Theme Editor, keyboard or performance test. Merchant product, stock, origin, shipping and sustainability claims unverified."
@@ -574,7 +567,9 @@
           "kind": "cart",
           "url": "https://impulse-theme-apparel.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-impulse-dune-browser-render",
+        "shopify-live-impulse-dune-rendered"
       ]
     },
     {
@@ -589,24 +584,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-sports.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-sports.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-sports.myshopify.com/products/2016-carbine-expert-build"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-sports.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -617,7 +608,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing"
       ],
@@ -644,7 +635,8 @@
           "kind": "cart",
           "url": "https://impulse-theme-sports.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-impulse-terrain-browser-render"
       ]
     },
     {
@@ -659,24 +651,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-jewelry.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-jewelry.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-jewelry.myshopify.com/products/amber-candle"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impulse-theme-jewelry.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -687,7 +675,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing"
       ],
@@ -714,7 +702,8 @@
           "kind": "cart",
           "url": "https://impulse-theme-jewelry.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-impulse-apothecary-browser-render"
       ]
     },
     {
@@ -762,7 +751,8 @@
         "Use qualitative merchandising and content observations; maintain source-class distinction"
       ],
       "browser_render_observations": [
-        "shopify-prestige-prestige-browser-render"
+        "shopify-prestige-prestige-browser-render",
+        "shopify-live-prestige-prestige-rendered"
       ]
     },
     {
@@ -777,24 +767,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-couture.myshopify.com/",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-couture.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-couture.myshopify.com/collections/shop",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-couture.myshopify.com/collections/dresses"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-couture.myshopify.com/products/desert-dandelion-grace-maxi-dress-emerald",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-couture.myshopify.com/products/edie-cascade-wrap-mini-dress-black"
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-couture.myshopify.com/cart",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-couture.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [
@@ -807,7 +793,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort, swatch, layout, size, quantity, purchase or cart actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -836,7 +822,8 @@
           "kind": "cart",
           "url": "https://prestige-theme-couture.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-prestige-couture-browser-render"
       ]
     },
     {
@@ -851,24 +838,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-vogue.myshopify.com/",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-vogue.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-vogue.myshopify.com/collections/skincare",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-vogue.myshopify.com/collections/kits"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-vogue.myshopify.com/products/bali-papaya-rice-masque",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-vogue.myshopify.com/products/brazilian-supermask-masque-brush-kit"
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-vogue.myshopify.com/cart",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-vogue.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [
@@ -881,7 +864,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No sort, filter, image-density, product option, quantity, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -910,7 +893,8 @@
           "kind": "cart",
           "url": "https://prestige-theme-vogue.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-prestige-vogue"
       ]
     },
     {
@@ -925,24 +909,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-strass2.myshopify.com/",
-          "indexed_crawl_recency": "3 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-strass2.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-strass2.myshopify.com/collections/earrings",
-          "indexed_crawl_recency": "2 weeks"
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-strass2.myshopify.com/collections/necklaces"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-strass2.myshopify.com/products/wave-silver-necklace",
-          "indexed_crawl_recency": "3 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-strass2.myshopify.com/products/mineral-alliance-green-aventurine-necklace"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-strass2.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [
@@ -955,7 +935,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, image-density, color, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -984,7 +964,8 @@
           "kind": "cart",
           "url": "https://prestige-theme-strass2.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-prestige-strass"
       ]
     },
     {
@@ -999,24 +980,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://prestige-theme-signature.myshopify.com/",
-          "indexed_crawl_recency": "1 month"
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-signature.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-signature.myshopify.com/collections/pumps"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-signature.myshopify.com/products/simone-pumps-110-black"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://prestige-theme-signature.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1027,7 +1004,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No sort, filter, image-density, color, size-chart, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -1056,7 +1033,8 @@
           "kind": "cart",
           "url": "https://prestige-theme-signature.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-prestige-signature"
       ]
     },
     {
@@ -1071,24 +1049,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://chantilly.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://chantilly.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://chantilly.myshopify.com/products/swim-systems-momir-t545-ahoy-halter"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://chantilly.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1099,7 +1073,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Homepage screenshot captured; no viewport dimensions or mobile render",
         "Collection and Borderline One Piece product page inspected, but product URL was truncated in browser accessibility output and omitted from URL-indexed evidence",
@@ -1124,7 +1098,8 @@
           "kind": "cart",
           "url": "https://chantilly.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-symmetry-symmetry-browser-render"
       ]
     },
     {
@@ -1139,24 +1114,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://salt-yard.myshopify.com/",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://salt-yard.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://salt-yard.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1167,7 +1138,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "collection",
@@ -1197,7 +1168,8 @@
           "kind": "cart",
           "url": "https://salt-yard.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-symmetry-salt-yard"
       ]
     },
     {
@@ -1212,24 +1184,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://beatnik-5.myshopify.com/",
-          "indexed_crawl_recency": "4 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://beatnik-5.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beatnik-5.myshopify.com/collections/womens-sunglasses/products/kaka"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beatnik-5.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1240,7 +1208,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "collection",
@@ -1273,7 +1241,8 @@
           "kind": "cart",
           "url": "https://beatnik-5.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-symmetry-beatnik"
       ]
     },
     {
@@ -1288,24 +1257,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://duke-16.myshopify.com/",
-          "indexed_crawl_recency": "2 weeks"
+          "status": "browser_rendered_readonly",
+          "url": "https://duke-16.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://duke-16.myshopify.com/collections/skateboards",
-          "indexed_crawl_recency": "2 weeks"
+          "status": "browser_rendered_readonly",
+          "url": "https://duke-16.myshopify.com/collections/skateboards"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://duke-16.myshopify.com/collections/skateboards/products/libellule-1",
-          "indexed_crawl_recency": "2 weeks"
+          "status": "browser_rendered_readonly",
+          "url": "https://duke-16.myshopify.com/collections/skateboards/products/libellule-1"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://duke-16.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1316,7 +1281,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -1345,7 +1310,8 @@
           "kind": "cart",
           "url": "https://duke-16.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-symmetry-duke"
       ]
     },
     {
@@ -1360,24 +1326,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://symmetry-amara.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://symmetry-amara.myshopify.com/collections/rings"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://symmetry-amara.myshopify.com/collections/rings/products/personalised-9ct-diamond-engagement-ring"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://symmetry-amara.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1388,7 +1350,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort, variants, cart actions or checkout tested",
         "No screenshot or measured viewport/mobile render",
@@ -1418,7 +1380,8 @@
           "kind": "cart",
           "url": "https://symmetry-amara.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-symmetry-amara-browser-render"
       ]
     },
     {
@@ -1433,24 +1396,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-main.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-main.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-main.myshopify.com/products/miro-signet-in-gold"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-main.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1461,7 +1420,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort or Add to Cart action executed",
         "PDP size options appeared sold out/unavailable; not interacted with",
@@ -1491,7 +1450,8 @@
           "kind": "cart",
           "url": "https://broadcast-theme-main.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-broadcast-default-browser-render"
       ]
     },
     {
@@ -1506,24 +1466,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-relay.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-relay.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-relay.myshopify.com/products/contrast-jogger"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-relay.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1534,7 +1490,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_verified_demo_unavailable_or_mismatched",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
         "Official Broadcast:Relay listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified."
@@ -1562,7 +1518,8 @@
           "kind": "cart",
           "url": "https://broadcast-theme-relay.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-broadcast-relay-browser-render"
       ]
     },
     {
@@ -1577,24 +1534,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://broadcast-theme-airwave.myshopify.com/",
-          "indexed_crawl_recency": "4 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-airwave.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://broadcast-theme-airwave.myshopify.com/collections/all",
-          "indexed_crawl_recency": "about 1 year"
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-airwave.myshopify.com/collections/all"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend",
-          "indexed_crawl_recency": "2 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-theme-airwave.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1605,7 +1558,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, Quick Add, variant, quantity, accordion or cart actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -1635,7 +1588,8 @@
           "kind": "cart",
           "url": "https://broadcast-theme-airwave.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-broadcast-airwave"
       ]
     },
     {
@@ -1650,24 +1604,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-motif.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-motif.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-motif.myshopify.com/collections/all/products/checkered-tank"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-motif.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1678,7 +1628,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, quick-add, variant or cart action executed",
         "PDP size controls appeared sold out/unavailable in observed page",
@@ -1708,7 +1658,8 @@
           "kind": "cart",
           "url": "https://broadcast-motif.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-broadcast-motif-browser-render"
       ]
     },
     {
@@ -1723,24 +1674,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-stellar.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen/products/spf-30-lotion"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://broadcast-stellar.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1751,7 +1698,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No sort, pagination, quick-add, variant, cart or checkout actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, keyboard or performance tests",
@@ -1780,7 +1727,8 @@
           "kind": "cart",
           "url": "https://broadcast-stellar.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-broadcast-stellar-browser-render"
       ]
     },
     {
@@ -1795,24 +1743,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-digital.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1/products/smartcamera-with-voice-control"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-digital.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1823,7 +1767,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_verified_demo_unavailable_or_mismatched",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
         "Official Enterprise listing's View demo control became disabled and preview iframe had no source; no official demo host or storefront page could be verified."
@@ -1851,7 +1795,8 @@
           "kind": "cart",
           "url": "https://enterprise-theme-digital.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-enterprise-browser-render"
       ]
     },
     {
@@ -1866,24 +1811,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-active.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all/products/514g-eco-gold-chalk-honnold-edition"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-active.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1894,7 +1835,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, grid/list, compare, quantity or cart actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -1923,7 +1864,8 @@
           "kind": "cart",
           "url": "https://enterprise-theme-active.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-enterprise-outlet-browser-render"
       ]
     },
     {
@@ -1938,24 +1880,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-home.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-home.myshopify.com/collections/all-products"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-home.myshopify.com/collections/all-products/products/slant-table-lamp"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://enterprise-theme-home.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -1966,7 +1904,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort, grid/list, variant, quantity or cart actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -1995,7 +1933,8 @@
           "kind": "cart",
           "url": "https://enterprise-theme-home.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-enterprise-homestead-browser-render"
       ]
     },
     {
@@ -2010,24 +1949,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impact-theme-sound.myshopify.com/",
-          "indexed_crawl_recency": "6 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-sound.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-sound.myshopify.com/collections/headphones"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impact-theme-sound.myshopify.com/products/mw07-plus-leica",
-          "indexed_crawl_recency": "5 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-sound.myshopify.com/products/mw07-plus-tortoiseshell-stainless-steel-case"
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://impact-theme-sound.myshopify.com/cart",
-          "indexed_crawl_recency": "about 1.2 years"
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-sound.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2038,7 +1973,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort, pagination, swatch, quantity, add-on or cart actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -2068,7 +2003,8 @@
           "kind": "cart",
           "url": "https://impact-theme-sound.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-impact-sound"
       ]
     },
     {
@@ -2083,24 +2019,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-home.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-home.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-home.myshopify.com/products/hay-pc-portable-lamp-olive-green"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-home.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2111,7 +2043,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort, swatch, purchase or cart actions executed",
         "Selected lamp PDP showed Sold Out; state is an observation from this page only",
@@ -2141,7 +2073,8 @@
           "kind": "cart",
           "url": "https://impact-theme-home.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-impact-cocoon-browser-render"
       ]
     },
     {
@@ -2156,24 +2089,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-shape.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-shape.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-shape.myshopify.com/products/silhouette-bra-black"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://impact-theme-shape.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2184,7 +2113,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, swatch, size, purchase, accordion or add-on actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -2213,7 +2142,8 @@
           "kind": "cart",
           "url": "https://impact-theme-shape.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-impact-balance-browser-render"
       ]
     },
     {
@@ -2228,24 +2158,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-carbon.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-carbon.myshopify.com/collections/iphone-cases"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-carbon.myshopify.com/products/leather-case-for-airpods-pro"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-carbon.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2256,7 +2182,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -2283,7 +2209,8 @@
           "kind": "cart",
           "url": "https://focal-theme-carbon.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-focal-focal-browser-render"
       ]
     },
     {
@@ -2298,24 +2225,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://focal-theme-ivory.myshopify.com/",
-          "indexed_crawl_recency": "6 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-ivory.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-ivory.myshopify.com/collections/outerwear"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-ivory.myshopify.com/products/evaline-e54-blazer"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-ivory.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2326,7 +2249,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, Quick View, variant, size chart, add-on or purchase actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -2356,7 +2279,8 @@
           "kind": "cart",
           "url": "https://focal-theme-ivory.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-focal-ivory"
       ]
     },
     {
@@ -2371,24 +2295,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-quartz.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-quartz.myshopify.com/collections/mens-watches"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-quartz.myshopify.com/products/1969-vintage-steel-white-36-39mm"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-quartz.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2399,7 +2319,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, pagination, option, quantity, tab, quick-view, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -2428,7 +2348,8 @@
           "kind": "cart",
           "url": "https://focal-theme-quartz.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-focal-quartz-browser-render"
       ]
     },
     {
@@ -2443,24 +2364,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://focal-theme-sapphire.myshopify.com/",
-          "indexed_crawl_recency": "6 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-sapphire.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-sapphire.myshopify.com/collections/earrings"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-sapphire.myshopify.com/products/double-meteorites-stud-earrings-ae9784ox"
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://focal-theme-sapphire.myshopify.com/cart",
-          "indexed_crawl_recency": "11 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://focal-theme-sapphire.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2471,7 +2388,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, pagination, zoom, variant, Quick View, add-to-cart or purchase action executed",
         "No screenshot or measured viewport/mobile render",
@@ -2501,7 +2418,8 @@
           "kind": "cart",
           "url": "https://focal-theme-sapphire.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-focal-sapphire"
       ]
     },
     {
@@ -2516,24 +2434,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-metal.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-metal.myshopify.com/collections/headphones"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-metal.myshopify.com/products/shure-srh440-professional-studio-headphones"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-metal.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2544,7 +2458,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, view, pagination, product option, quantity, shipping-estimator, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
@@ -2573,7 +2487,8 @@
           "kind": "cart",
           "url": "https://warehouse-theme-metal.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-warehouse-warehouse-browser-render"
       ]
     },
     {
@@ -2588,24 +2503,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://warehouse-theme-wood.myshopify.com/",
-          "indexed_crawl_recency": "2 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-wood.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-wood.myshopify.com/collections/tableware"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-wood.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2616,7 +2527,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, pagination, grid/list, variant, quantity, add-to-cart, or checkout actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -2646,7 +2557,8 @@
           "kind": "cart",
           "url": "https://warehouse-theme-wood.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-warehouse-wood"
       ]
     },
     {
@@ -2661,24 +2573,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-fabric.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-fabric.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-fabric.myshopify.com/products/oros-apparel-discovery-hybrid-jacket-men-s"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://warehouse-theme-fabric.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2689,7 +2597,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_rendered_demo",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Primary indexed-HTML pages not independently recorded",
         "No shopper interaction, mobile, editor, checkout, keyboard or performance tests"
@@ -2717,7 +2625,8 @@
           "kind": "cart",
           "url": "https://warehouse-theme-fabric.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-warehouse-mesh"
       ]
     },
     {
@@ -2732,24 +2641,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://expanse-theme-furniture.myshopify.com/",
-          "indexed_crawl_recency": "2 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-furniture.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://expanse-theme-furniture.myshopify.com/collections/furniture",
-          "indexed_crawl_recency": "5 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-furniture.myshopify.com/collections/planters"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://expanse-theme-furniture.myshopify.com/collections/coffee-makers/products/90018-neapolitan-coffee-maker",
-          "indexed_crawl_recency": "2 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-furniture.myshopify.com/collections/planters/products/trigg-wall-vessel"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-furniture.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2760,7 +2665,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No collection filter, sort, view density, variant, zoom, add-to-cart or checkout actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -2790,7 +2695,8 @@
           "kind": "cart",
           "url": "https://expanse-theme-furniture.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-expanse"
       ]
     },
     {
@@ -2805,24 +2711,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-beauty.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-beauty.myshopify.com/collections/face-mists"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-beauty.myshopify.com/collections/face-mists/products/valmont-priming-with-a-hydrating-fluid"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-beauty.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2833,7 +2735,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, view density, variant, zoom, quantity, Quick Shop, cart or checkout actions executed",
         "No screenshot or measured viewport/mobile render",
@@ -2863,7 +2765,8 @@
           "kind": "cart",
           "url": "https://expanse-theme-beauty.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-expanse-revive"
       ]
     },
     {
@@ -2878,24 +2781,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://expanse-theme-food-and-drink.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2906,7 +2805,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No collection filter, sort, density, quick shop, cart or checkout actions",
         "No screenshot or measured viewport/mobile render",
@@ -2936,7 +2835,8 @@
           "kind": "cart",
           "url": "https://expanse-theme-food-and-drink.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-expanse-spritz"
       ]
     },
     {
@@ -2951,24 +2851,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://fetch-theme-modern.myshopify.com/",
-          "indexed_crawl_recency": "today"
+          "status": "browser_rendered_readonly",
+          "url": "https://fetch-theme-modern.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits",
-          "indexed_crawl_recency": "5 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/lilac-dog-collar-walk-kit",
-          "indexed_crawl_recency": "3 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/pink-dog-collar-walk-kit-bag-pins"
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://fetch-theme-modern.myshopify.com/cart",
-          "indexed_crawl_recency": "1 week"
+          "status": "browser_rendered_readonly",
+          "url": "https://fetch-theme-modern.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -2979,7 +2875,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No collection filters, sort, density, product or cart actions",
         "No screenshot or measured viewport/mobile render",
@@ -3009,7 +2905,8 @@
           "kind": "cart",
           "url": "https://fetch-theme-modern.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-expanse-fetch"
       ]
     },
     {
@@ -3024,24 +2921,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://gem-theme-emerald.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://gem-theme-emerald.myshopify.com/collections/earrings"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://gem-theme-emerald.myshopify.com/collections/earrings/products/karasuba"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://gem-theme-emerald.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3052,7 +2945,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No collection filter, sort, density, variant, zoom, add-to-cart, cart or checkout action",
         "No screenshot or measured viewport/mobile render",
@@ -3082,7 +2975,8 @@
           "kind": "cart",
           "url": "https://gem-theme-emerald.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-expanse-gem"
       ]
     },
     {
@@ -3097,24 +2991,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://local-theme-main.myshopify.com/",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-main.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://local-theme-main.myshopify.com/collections/all",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-main.myshopify.com/collections/bread-buns-crisps"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://local-theme-main.myshopify.com/collections/all/products/sliced-tomato-puree",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-main.myshopify.com/collections/bread-buns-crisps/products/some-bread"
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://local-theme-main.myshopify.com/cart",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-main.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3125,7 +3015,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No collection filters, sort or compare actions; no variants/add/cart/checkout actions",
         "No screenshot or measured viewport/mobile render",
@@ -3155,7 +3045,8 @@
           "kind": "cart",
           "url": "https://local-theme-main.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-local-default"
       ]
     },
     {
@@ -3170,24 +3061,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-soleway.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers/products/timberland%C2%AE-premium-6-inch-waterproof-boot"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-soleway.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3198,7 +3085,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filter, sort, variant, zoom, add-to-cart, cart or checkout actions",
         "No screenshot or measured viewport/mobile render",
@@ -3228,7 +3115,8 @@
           "kind": "cart",
           "url": "https://local-theme-soleway.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-local-soleway"
       ]
     },
     {
@@ -3243,24 +3131,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-thrive.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-thrive.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-thrive.myshopify.com/products/gut-health-ground-coffee"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-thrive.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3271,7 +3155,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing"
       ],
@@ -3298,7 +3182,8 @@
           "kind": "cart",
           "url": "https://local-theme-thrive.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-local-thrive-browser-render"
       ]
     },
     {
@@ -3313,24 +3198,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-caffeine.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-caffeine.myshopify.com/collections/coffee"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-caffeine.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3341,7 +3222,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified."
       ],
@@ -3363,7 +3244,8 @@
           "kind": "product",
           "url": "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-local-caffeine-rendered"
       ]
     },
     {
@@ -3378,24 +3260,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-lively.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-lively.myshopify.com/collections/red"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-lively.myshopify.com/collections/red/products/crimson-reserve-2016"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://local-theme-lively.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3406,7 +3284,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified."
       ],
@@ -3433,7 +3311,8 @@
           "kind": "cart",
           "url": "https://local-theme-lively.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-local-lively-rendered"
       ]
     },
     {
@@ -3448,24 +3327,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-supply.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-supply.myshopify.com/collections/clearance-sale/products/circuit-racer-magnetic-block-set"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-supply.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3476,7 +3351,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Interaction, mobile, editor, checkout, visual screenshot and performance testing remain unverified."
       ],
@@ -3503,7 +3378,8 @@
           "kind": "cart",
           "url": "https://empire-theme-supply.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-empire-empire-rendered"
       ]
     },
     {
@@ -3518,24 +3394,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-industrial.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-industrial.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-industrial.myshopify.com/products/osmo-mobile-handheld-mount"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-industrial.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3546,7 +3418,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Interaction, mobile, editor, checkout, visual screenshot and performance testing remain unverified."
       ],
@@ -3573,7 +3445,8 @@
           "kind": "cart",
           "url": "https://empire-theme-industrial.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-empire-circuit-rendered"
       ]
     },
     {
@@ -3588,24 +3461,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://empire-theme-depot.myshopify.com/",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-depot.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://empire-theme-depot.myshopify.com/collections/by-category",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-depot.myshopify.com/collections/by-category"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://empire-theme-depot.myshopify.com/products/battery-operated-compact-impact-wrench-1-2-inch-detent-pin-tool-only",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-depot.myshopify.com/products/battery-operated-compact-impact-wrench-1-2-inch-detent-pin-tool-only"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-depot.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3616,7 +3485,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper controls, filters, sorting, quantity, purchase or checkout actions",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
@@ -3645,7 +3514,8 @@
           "kind": "cart",
           "url": "https://empire-theme-depot.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-empire-depot"
       ]
     },
     {
@@ -3660,24 +3530,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-graphic.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-graphic.myshopify.com/collections/living-room"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-graphic.myshopify.com/products/turning-table"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://empire-theme-graphic.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3688,7 +3554,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified."
       ],
@@ -3715,7 +3581,8 @@
           "kind": "cart",
           "url": "https://empire-theme-graphic.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-empire-forma-rendered"
       ]
     },
     {
@@ -3730,24 +3597,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://beyours-theme-beauty.myshopify.com/",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-beauty.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://beyours-theme-beauty.myshopify.com/collections/skincare",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-beauty.myshopify.com/collections/skincare"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://beyours-theme-beauty.myshopify.com/products/enzyme-cleanser",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-beauty.myshopify.com/products/calming-serum"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-beauty.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3758,7 +3621,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -3785,7 +3648,8 @@
           "kind": "cart",
           "url": "https://beyours-theme-beauty.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-be-yours-browser-render"
       ]
     },
     {
@@ -3800,24 +3664,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-clothing.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-clothing.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-clothing.myshopify.com/collections/all/products/shimmer-dress"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-clothing.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3828,7 +3688,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -3855,7 +3715,8 @@
           "kind": "cart",
           "url": "https://beyours-theme-clothing.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-be-yours-sheen-browser-render"
       ]
     },
     {
@@ -3870,24 +3731,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme.myshopify.com/collections/all/products/money-tree"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3898,7 +3755,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified."
       ],
@@ -3920,7 +3777,8 @@
           "kind": "product",
           "url": "https://beyours-theme.myshopify.com/collections/all/products/money-tree",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-be-yours-peace-rendered"
       ]
     },
     {
@@ -3935,24 +3793,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-tech.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-tech.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-tech.myshopify.com/products/beoplay-h95"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://beyours-theme-tech.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -3963,7 +3817,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Demo home copy describes a one-product store while its Headphones collection lists three products; PDP technical copy also contains inconsistent fit and color-availability statements.",
         "No shopper interactions, screenshot, measured viewport/mobile, Theme Editor, checkout, keyboard or performance testing.",
@@ -3987,7 +3841,8 @@
           "kind": "product",
           "url": "https://beyours-theme-tech.myshopify.com/products/beoplay-h95",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-be-yours-harmony"
       ]
     },
     {
@@ -4002,24 +3857,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1/products/alex-metallic-top"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-stiletto.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4030,7 +3881,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Official listing iframe src host and loaded storefront link host differ; retain the mapping caveat.",
         "No shopper interactions, screenshot, measured viewport/mobile, Theme Editor, checkout, keyboard or performance testing.",
@@ -4059,7 +3910,8 @@
           "kind": "cart",
           "url": "https://stiletto-theme-stiletto.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-stiletto"
       ]
     },
     {
@@ -4074,24 +3926,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-luster.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry/products/the-rivi-ring"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-luster.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4102,7 +3950,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sorting, Quick View, product options, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
@@ -4131,7 +3979,8 @@
           "kind": "cart",
           "url": "https://stiletto-theme-luster.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-stiletto-luster-rendered"
       ]
     },
     {
@@ -4146,24 +3995,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://stiletto-theme-linen.myshopify.com/",
-          "indexed_crawl_recency": "3 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-linen.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-linen.myshopify.com/collections/footwear"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-linen.myshopify.com/collections/footwear/products/teddy-heel-ecru"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-linen.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4174,7 +4019,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort, size, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
@@ -4203,7 +4048,8 @@
           "kind": "cart",
           "url": "https://stiletto-theme-linen.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-stiletto-linen-rendered"
       ]
     },
     {
@@ -4218,24 +4064,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://stiletto-theme-glimmer.myshopify.com/",
-          "indexed_crawl_recency": "2 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://stiletto-theme-glimmer.myshopify.com/collections",
-          "indexed_crawl_recency": "2 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/collections/face"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/collections/face/products/marula-face-oil"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-glimmer.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [
@@ -4248,7 +4090,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sorting, Quick View, variants, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
@@ -4277,7 +4119,8 @@
           "kind": "cart",
           "url": "https://stiletto-theme-glimmer.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-stiletto-glimmer-rendered"
       ]
     },
     {
@@ -4292,24 +4135,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://stiletto-theme-tapestry.myshopify.com/",
-          "indexed_crawl_recency": "6 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/"
         },
         "collection": {
-          "status": "public_indexed_html_opened",
-          "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all-ceramics",
-          "indexed_crawl_recency": "1 week"
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://stiletto-theme-tapestry.myshopify.com/products/4-piece-dinnerware-set",
-          "indexed_crawl_recency": "1 month"
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/collections/all/products/wine-cup-anthracite"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://stiletto-theme-tapestry.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4320,7 +4159,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_indexed_html_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sorting, Quick View, product options, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
@@ -4349,7 +4188,8 @@
           "kind": "cart",
           "url": "https://stiletto-theme-tapestry.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-stiletto-tapestry-rendered"
       ]
     },
     {
@@ -4364,24 +4204,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-adventure.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips/products/merino-wool-quarter-zip"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-adventure.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4392,7 +4228,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
@@ -4421,7 +4257,8 @@
           "kind": "cart",
           "url": "https://motion-theme-adventure.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-motion-motion-rendered"
       ]
     },
     {
@@ -4436,24 +4273,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://motion-theme-accessories.myshopify.com/",
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-accessories.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-accessories.myshopify.com/collections/bags-1"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-accessories.myshopify.com/products/whelma-bag"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-accessories.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4464,7 +4297,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -4491,7 +4324,8 @@
           "kind": "cart",
           "url": "https://motion-theme-accessories.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-motion-satchel-browser-render"
       ]
     },
     {
@@ -4506,24 +4340,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-home.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-home.myshopify.com/collections/homewares"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-home.myshopify.com/collections/homewares/products/tumbler-eggplant"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://motion-theme-home.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4534,7 +4364,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
@@ -4563,7 +4393,8 @@
           "kind": "cart",
           "url": "https://motion-theme-home.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-motion-memo-rendered"
       ]
     },
     {
@@ -4578,24 +4409,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-main.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals/products/sabine-skirt"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-main.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4606,7 +4433,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -4633,7 +4460,8 @@
           "kind": "cart",
           "url": "https://palo-alto-theme-main.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-palo-alto-palo-alto-browser-render"
       ]
     },
     {
@@ -4648,24 +4476,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/collections/best-sellers-aer"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/products/navigator-backpack"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-dynamo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4676,7 +4500,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -4703,7 +4527,8 @@
           "kind": "cart",
           "url": "https://palo-alto-theme-dynamo.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-palo-alto-dynamo-browser-render"
       ]
     },
     {
@@ -4718,24 +4543,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/products/kalinda-boots"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-skylight.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4746,7 +4567,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -4773,7 +4594,8 @@
           "kind": "cart",
           "url": "https://palo-alto-theme-skylight.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-palo-alto-skylight-browser-render"
       ]
     },
     {
@@ -4788,24 +4610,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/collections/best-sellers-1"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/products/halo-highlighter"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-phenomena.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4816,7 +4634,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -4843,7 +4661,8 @@
           "kind": "cart",
           "url": "https://palo-alto-theme-phenomena.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-palo-alto-phenomena-browser-render"
       ]
     },
     {
@@ -4858,24 +4677,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/collections/bestsellers"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/products/jardin-placemat"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4886,7 +4701,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -4913,7 +4728,8 @@
           "kind": "cart",
           "url": "https://palo-alto-theme-pluma.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-palo-alto-pluma-browser-render"
       ]
     },
     {
@@ -4928,24 +4744,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-theme-fashion.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-theme-fashion.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-theme-fashion.myshopify.com/products/callie-looker-cardigan-beige"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-theme-fashion.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -4956,7 +4768,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -4983,7 +4795,8 @@
           "kind": "cart",
           "url": "https://pipeline-theme-fashion.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-pipeline-pipeline-browser-render"
       ]
     },
     {
@@ -4998,24 +4811,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-light.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-light.myshopify.com/collections/mens"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-light.myshopify.com/products/sky"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-light.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5026,7 +4835,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly_with_mismatch",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Official preset positioning and rendered demo content mismatch; no interactions, mobile, editor, checkout or Lighthouse tests"
       ],
@@ -5053,7 +4862,8 @@
           "kind": "cart",
           "url": "https://pipeline-light.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-pipeline-petra-browser-render"
       ]
     },
     {
@@ -5068,24 +4878,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-theme.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-theme.myshopify.com/collections/bestsellers"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-theme.myshopify.com/products/fig"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-theme.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5096,7 +4902,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Demo explicitly says catalog products are fictional; no interactions, mobile, editor, checkout or Lighthouse tests"
       ],
@@ -5123,7 +4929,8 @@
           "kind": "cart",
           "url": "https://pipeline-theme.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-pipeline-pahoa-browser-render"
       ]
     },
     {
@@ -5138,24 +4945,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-botanical.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-botanical.myshopify.com/collections/sets"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-botanical.myshopify.com/products/nina"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://pipeline-botanical.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5166,7 +4969,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No interactions, mobile viewport, editor, checkout or Lighthouse tests; seller claims unverified"
       ],
@@ -5193,7 +4996,8 @@
           "kind": "cart",
           "url": "https://pipeline-botanical.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-pipeline-phantom-browser-render"
       ]
     },
     {
@@ -5208,24 +5012,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://concept-theme-tech.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://concept-theme-tech.myshopify.com/collections/headphones"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://concept-theme-tech.myshopify.com/products/air-beats"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://concept-theme-tech.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5236,7 +5036,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No interactions, mobile viewport, editor, checkout or Lighthouse tests"
       ],
@@ -5263,7 +5063,8 @@
           "kind": "cart",
           "url": "https://concept-theme-tech.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-concept-browser-render"
       ]
     },
     {
@@ -5278,24 +5079,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://concept-theme-inova.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://concept-theme-inova.myshopify.com/collections/seating"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://concept-theme-inova.myshopify.com/collections/seating/products/embrace-lounge-chair"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://concept-theme-inova.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5306,7 +5103,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Cookie notice remained visible; no interactions, mobile viewport, editor, checkout or Lighthouse tests"
       ],
@@ -5333,7 +5130,8 @@
           "kind": "cart",
           "url": "https://concept-theme-inova.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-concept-inova-browser-render"
       ]
     },
     {
@@ -5348,24 +5146,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-theme-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-theme-demo.myshopify.com/collections/skincare"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-theme-demo.myshopify.com/products/protective-day-oil"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-theme-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5376,7 +5170,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "All product, inventory, ingredient and seller claims are demo content and unverified.",
         "No filters, sort, variants, quantity, bundle, add-to-cart, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
@@ -5404,7 +5198,8 @@
           "kind": "cart",
           "url": "https://sleek-theme-demo.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-sleek-sleek-rendered"
       ]
     },
     {
@@ -5419,24 +5214,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://sleek-wildpeak.myshopify.com/",
-          "indexed_crawl_recency": "1 week"
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-wildpeak.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-wildpeak.myshopify.com/collections/best-sellers"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://sleek-wildpeak.myshopify.com/products/amelia-hiking-pants-with-adjustable-waist-camel",
-          "indexed_crawl_recency": "1 month"
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-wildpeak.myshopify.com/products/emma-3l-shell-jacket-green"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-wildpeak.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5470,24 +5261,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-jumped.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-jumped.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-jumped.myshopify.com/products/zenith-shirt"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-jumped.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5498,7 +5285,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_and_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
       ],
@@ -5525,7 +5312,8 @@
           "kind": "cart",
           "url": "https://sleek-jumped.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-sleek-jumped-browser-render"
       ]
     },
     {
@@ -5540,24 +5328,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-modiva.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-modiva.myshopify.com/collections/best-sellers"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-modiva.myshopify.com/products/parlour-club-chair"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-modiva.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5568,7 +5352,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Observed chair description appears inconsistent with furniture context; storefront copy remains unverified.",
         "No shopper controls, screenshot, mobile viewport, editor, checkout, keyboard or performance testing."
@@ -5596,7 +5380,8 @@
           "kind": "cart",
           "url": "https://sleek-modiva.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-sleek-modiva-rendered"
       ]
     },
     {
@@ -5611,24 +5396,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-glint.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-glint.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-glint.myshopify.com/products/kennith-short"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://sleek-glint.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5639,7 +5420,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "A homepage-linked Brandywine Straw Hat route returned 404; a second visible PDP link resolved to Kennith Pant. The mixed product-story consistency remains a demo-content issue to review.",
         "No filters, sort, pagination, variants, add-to-cart, cart changes, checkout, screenshot, mobile viewport, editor, keyboard or performance testing."
@@ -5667,7 +5448,8 @@
           "kind": "cart",
           "url": "https://sleek-glint.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-live-sleek-glint-rendered"
       ]
     },
     {
@@ -5729,24 +5511,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-wellness.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-wellness.myshopify.com/collections/frontpage"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-wellness.myshopify.com/products/longevity-gummies"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-wellness.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5757,7 +5535,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Read-only route inspection; no sort, subscription, variant, add-to-cart, bundle, quiz or checkout actions.",
         "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, ingredients, efficacy, certification, customer and seller claims remain unverified."
@@ -5785,7 +5563,9 @@
           "kind": "cart",
           "url": "https://wonder-theme-wellness.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-wonder-root-browser-render",
+        "shopify-live-wonder-root-rendered"
       ]
     },
     {
@@ -5800,24 +5580,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-fashion.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-fashion.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-fashion.myshopify.com/products/dress-sailor-galaxia-green"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-fashion.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5851,24 +5627,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-interior.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-interior.myshopify.com/collections/sofas"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-interior.myshopify.com/collections/sofas/products/mellow-sofa-3-seats"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-interior.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -5902,24 +5674,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/collections/all"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/products/petit"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://wonder-theme-petit-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6007,19 +5775,16 @@
           "indexed_crawl_recency": "today"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-arise.myshopify.com/collections/subscribers-favorite"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://eurus-arise.myshopify.com/collections/subscribers-favorite/products/maca-root-energy-libido",
-          "indexed_crawl_recency": "2 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-arise.myshopify.com/collections/subscribers-favorite/products/maca-root-energy-libido"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-arise.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6030,7 +5795,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "collection",
@@ -6040,6 +5805,9 @@
       "next_action": [
         "Open actual collection URL from storefront navigation",
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-eurus-arise-screen-coverage"
       ]
     },
     {
@@ -6054,24 +5822,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-placid.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-placid.myshopify.com/collections/new-arrivals"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-placid.myshopify.com/collections/new-arrivals/products/clay-fold-vase"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-placid.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6163,14 +5927,12 @@
           "indexed_crawl_recency": "2 months"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-whiff.myshopify.com/collections/best-sellers-1/products/ocean-breeze-anklet"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://eurus-whiff.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [
@@ -6183,7 +5945,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "product",
@@ -6193,6 +5955,9 @@
       "next_action": [
         "Open actual product URL from storefront navigation",
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-eurus-whiff-screen-coverage"
       ]
     },
     {
@@ -6254,24 +6019,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-release.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-release.myshopify.com/collections/face-care"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-release.myshopify.com/products/guasha-stone?variant=45149600350446"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-release.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6305,24 +6066,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://release-serenity.myshopify.com/",
-          "indexed_crawl_recency": "last month"
+          "status": "browser_rendered_readonly",
+          "url": "https://release-serenity.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-serenity.myshopify.com/collections/best-sellers"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-serenity.myshopify.com/products/serena-bag-grey"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-serenity.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [
@@ -6335,7 +6092,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "collection",
@@ -6347,6 +6104,9 @@
         "Open actual collection URL from storefront navigation",
         "Open actual product URL from storefront navigation",
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-release-serenity-screen-coverage"
       ]
     },
     {
@@ -6371,14 +6131,12 @@
           "indexed_crawl_recency": "last month"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-living.myshopify.com/products/elma-sarkit"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://release-living.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6389,7 +6147,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "product",
@@ -6399,6 +6157,9 @@
       "next_action": [
         "Open actual product URL from storefront navigation",
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-release-forest-screen-coverage"
       ]
     },
     {
@@ -6461,24 +6222,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-electronics-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-electronics-demo.myshopify.com/collections/phones"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-electronics-demo.myshopify.com/products/pixa-9"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-electronics-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6489,7 +6246,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "This recheck refreshes the already counted Ignite:Ignite observation; rendered page and preset counters remain unchanged.",
         "No filters, compare, variants, gallery, cart or purchase actions; no screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests.",
@@ -6518,7 +6275,8 @@
           "kind": "cart",
           "url": "https://benchmark-electronics-demo.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-ignite-ignite-browser-render"
       ]
     },
     {
@@ -6627,24 +6385,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-automotive-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-automotive-demo.myshopify.com/collections/bmv"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-automotive-demo.myshopify.com/products/foot-rest-brake-gas-pedal-e30-e36-e39-e46-e87-e90-e91-e92-e93"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://benchmark-automotive-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6866,24 +6620,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/collections/essentials"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/products/hand-balm"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://shapes-theme-skincare-2.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6964,24 +6714,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-main.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-main.myshopify.com/collections/doorbells"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-main.myshopify.com/products/smart-home-speaker-with-google-assistant"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-main.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -6992,7 +6738,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Refreshed observation of a storefront already included in the rendered totals; counters intentionally unchanged.",
         "Read-only; no filters, sort, compare, variants, quantity, purchase, cart or checkout actions; no screenshot, mobile viewport, Theme Editor, keyboard or performance test.",
@@ -7021,7 +6767,8 @@
           "kind": "cart",
           "url": "https://vision-main.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-vision-vision-browser-render"
       ]
     },
     {
@@ -7098,9 +6845,8 @@
           "indexed_crawl_recency": "about 1.1 years"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://vision-pets.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7111,7 +6857,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7119,6 +6865,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-vision-poochy-screen-coverage"
       ]
     },
     {
@@ -7243,9 +6992,8 @@
           "indexed_crawl_recency": "same day"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-dawn-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7256,7 +7004,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7264,6 +7012,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-dawn-dawn-screen-coverage"
       ]
     },
     {
@@ -7293,9 +7044,8 @@
           "indexed_crawl_recency": "2 weeks"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-horizon-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7306,7 +7056,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7314,6 +7064,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-horizon-horizon-screen-coverage"
       ]
     },
     {
@@ -7328,24 +7081,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-refresh-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-refresh-demo.myshopify.com/collections/hair"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-refresh-demo.myshopify.com/products/shampoo-2"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-refresh-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7356,7 +7105,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No rendered screenshot or measured viewport; mobile layout untested",
         "No interactions, cart mutation, checkout, private Theme Editor, keyboard, VSN accessibility audit or Lighthouse"
@@ -7385,7 +7134,8 @@
           "kind": "cart",
           "url": "https://theme-refresh-demo.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-refresh-browser-render"
       ]
     },
     {
@@ -7415,9 +7165,8 @@
           "indexed_crawl_recency": "9 months"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-rise-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7428,7 +7177,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7436,6 +7185,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-rise-rise-screen-coverage"
       ]
     },
     {
@@ -7465,9 +7217,8 @@
           "indexed_crawl_recency": "last week"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-origin-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7478,7 +7229,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7486,6 +7237,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-origin-origin-screen-coverage"
       ]
     },
     {
@@ -7515,9 +7269,8 @@
           "indexed_crawl_recency": "last month"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-tinker-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7528,7 +7281,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7536,6 +7289,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-tinker-tinker-screen-coverage"
       ]
     },
     {
@@ -7550,24 +7306,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://savor-theme-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://savor-theme-demo.myshopify.com/collections/all-products"
         },
         "product": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://savor-theme-demo.myshopify.com/products/sweet-pineapple"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://savor-theme-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7578,7 +7330,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "official_listing_plus_browser_render_readonly",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "No rendered screenshot or measured viewport; mobile layout untested",
         "No interactions, cart mutation, checkout, private Theme Editor, keyboard, VSN accessibility audit or Lighthouse"
@@ -7607,7 +7359,8 @@
           "kind": "cart",
           "url": "https://savor-theme-demo.myshopify.com/cart",
           "evidence_class": "browser_render_readonly"
-        }
+        },
+        "shopify-savor-browser-render"
       ]
     },
     {
@@ -7637,9 +7390,8 @@
           "indexed_crawl_recency": "yesterday"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-craft-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7650,7 +7402,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7658,6 +7410,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-craft-craft-screen-coverage"
       ]
     },
     {
@@ -7687,9 +7442,8 @@
           "indexed_crawl_recency": "3 weeks"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-publisher-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7700,7 +7454,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7708,6 +7462,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-publisher-publisher-screen-coverage"
       ]
     },
     {
@@ -7737,9 +7494,8 @@
           "indexed_crawl_recency": "5 days"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-ride-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7750,7 +7506,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7758,6 +7514,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-ride-ride-screen-coverage"
       ]
     },
     {
@@ -7787,9 +7546,8 @@
           "indexed_crawl_recency": "yesterday"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-sense-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7800,7 +7558,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7808,6 +7566,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-sense-sense-screen-coverage"
       ]
     },
     {
@@ -7837,9 +7598,8 @@
           "indexed_crawl_recency": "last month"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-studio-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7850,7 +7610,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7858,6 +7618,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-studio-studio-screen-coverage"
       ]
     },
     {
@@ -7934,9 +7697,8 @@
           "indexed_crawl_recency": "2 months"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-crave-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7947,7 +7709,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -7955,6 +7717,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-crave-crave-screen-coverage"
       ]
     },
     {
@@ -7969,24 +7734,20 @@
       },
       "primary_demo": {
         "homepage": {
-          "status": "public_indexed_html_opened",
-          "url": "https://theme-spotlight-demo.myshopify.com/",
-          "indexed_crawl_recency": "6 days"
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-spotlight-demo.myshopify.com/"
         },
         "collection": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-spotlight-demo.myshopify.com/collections/all"
         },
         "product": {
-          "status": "public_indexed_html_opened",
-          "url": "https://theme-spotlight-demo.myshopify.com/products/copy-of-ebbets-wool-c-cap-navy",
-          "indexed_crawl_recency": "3 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-spotlight-demo.myshopify.com/products/copy-of-ebbets-wool-c-cap-navy"
         },
         "cart": {
-          "status": "public_indexed_html_opened",
-          "url": "https://theme-spotlight-demo.myshopify.com/cart",
-          "indexed_crawl_recency": "7 months"
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-spotlight-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -7997,7 +7758,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "collection",
@@ -8005,6 +7766,9 @@
       ],
       "next_action": [
         "Open actual collection URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-spotlight-spotlight-screen-coverage"
       ]
     },
     {
@@ -8034,9 +7798,8 @@
           "indexed_crawl_recency": "yesterday"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-trade-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [
@@ -8049,7 +7812,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -8057,6 +7820,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-trade-trade-screen-coverage"
       ]
     },
     {
@@ -8086,9 +7852,8 @@
           "indexed_crawl_recency": "today"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-vessel-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -8099,7 +7864,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -8107,6 +7872,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-vessel-vessel-screen-coverage"
       ]
     },
     {
@@ -8136,9 +7904,8 @@
           "indexed_crawl_recency": "6 days"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-heritage-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -8149,7 +7916,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -8157,6 +7924,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-heritage-heritage-screen-coverage"
       ]
     },
     {
@@ -8186,9 +7956,8 @@
           "indexed_crawl_recency": "3 days"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-pitch-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [
@@ -8201,7 +7970,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -8209,6 +7978,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-pitch-pitch-screen-coverage"
       ]
     },
     {
@@ -8238,9 +8010,8 @@
           "indexed_crawl_recency": "yesterday"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-dwell-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -8251,7 +8022,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -8259,6 +8030,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-dwell-dwell-screen-coverage"
       ]
     },
     {
@@ -8288,9 +8062,8 @@
           "indexed_crawl_recency": "today"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-ritual-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -8301,7 +8074,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -8309,6 +8082,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-ritual-ritual-screen-coverage"
       ]
     },
     {
@@ -8338,9 +8114,8 @@
           "indexed_crawl_recency": "today"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-fabric-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -8351,7 +8126,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -8359,6 +8134,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-fabric-fabric-screen-coverage"
       ]
     },
     {
@@ -8388,9 +8166,8 @@
           "indexed_crawl_recency": "2 weeks"
         },
         "cart": {
-          "status": "not_verified",
-          "url": null,
-          "indexed_crawl_recency": null
+          "status": "browser_rendered_readonly",
+          "url": "https://theme-atelier-demo.myshopify.com/cart"
         }
       },
       "supplementary_indexed_html_urls": [],
@@ -8401,7 +8178,7 @@
         "checkout": false,
         "real_lighthouse": false
       },
-      "evidence_quality": "indexed_public_document_only",
+      "evidence_quality": "browser_render_readonly",
       "blockers": [
         "Unverified template types",
         "cart",
@@ -8409,6 +8186,9 @@
       ],
       "next_action": [
         "Open actual cart URL from storefront navigation"
+      ],
+      "browser_render_observations": [
+        "shopify-atelier-atelier-screen-coverage"
       ]
     }
   ],
