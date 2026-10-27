@@ -1,3 +1,10 @@
+## Shopify live-demo research — Batch 106 (Pipeline:Pahoa, 2026-10-27)
+
+- Verified official demo iframe; Pipeline Bright/Darma home, 11-item Bestsellers collection, Fig PDP and empty cart inspected read-only. Store explicitly says catalog is fictional theme-demo content.
+- Coverage 108/127 unique homes, 304 rendered pages across 77 presets; 19 homes remain. No interactions, screenshot, viewport/editor/checkout/performance tests; skincare claims unverified.
+- Next: continue next unverified preset.
+
+
 ## Shopify live-demo research — Batch 105 (Pipeline:Petra, 2026-10-27)
 
 - Official demo iframe led to Pipeline Light footwear store: home, men's collection, Sky moccasin PDP and empty cart inspected read-only. This differs from the Petra listing's luxury-brand positioning; preserve the mismatch and do not attribute footwear modules as Petra-specific.
