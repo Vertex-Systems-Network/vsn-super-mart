@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 54 additional browser-rendered homes are documented (105/127 unique); 292 read-only rendered pages across 74 selected presets.",
+  "summary": "51 indexed HTML selected homes and 55 additional browser-rendered homes are documented (106/127 unique); 296 read-only rendered pages across 75 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 74,
-    "opened_home": 74,
-    "opened_collection": 61,
-    "opened_product": 62,
-    "opened_empty_cart": 28,
+    "opened_stores": 75,
+    "opened_home": 75,
+    "opened_collection": 62,
+    "opened_product": 63,
+    "opened_empty_cart": 29,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10141,11 +10141,70 @@
       "limits": [
         "No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Skincare, ingredient, clinical, retailer and merchant claims unverified."
       ]
+    },
+    {
+      "id": "shopify-motion-satchel-browser-render",
+      "selected_preset_id": "motion:satchel",
+      "theme_family": "Motion",
+      "preset": "Satchel",
+      "store_url": "https://motion-theme-accessories.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Shopify Motion:Satchel listing, verified the View demo iframe src, then inspected home, Bags collection, Whelma Bag PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://motion-theme-accessories.myshopify.com/",
+          "observations": [
+            "Accessories demo with Best Sellers and Satchels/Cross body/Totes navigation; featured Whelma bag shelf and five color options; classic handbags editorial, service promises, featured collections, brand story and journal; footer newsletter and social links."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://motion-theme-accessories.myshopify.com/collections/bags-1",
+          "observations": [
+            "Bags collection with filter drawer, sort options (including featured, best selling, alphabetic, price and date), subcategory links, product cards and Quick View buttons; Whelma and Elena bag color variants are shown. No filter/sort interaction performed."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://motion-theme-accessories.myshopify.com/products/whelma-bag",
+          "observations": [
+            "Whelma Bag - Sand PDP, five gallery images, $1,250, five color choices, 4.8/5 review claim, free worldwide shipping and low stock message; product, shipping and ask-a-question accordions; paired-with section, testimonials and brand story. Claims unverified."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://motion-theme-accessories.myshopify.com/cart",
+          "observations": [
+            "Empty cart and Continue shopping link; Popular Picks shelf contains generic Example product $29 labels, likely demo placeholder content."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Seller/product/price/shipping/review claims unverified; cart shelf includes generic example products."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 292,
-    "selected_presets": 74,
-    "unique_selected_homepages_across_all_source_types": 105
+    "pages": 296,
+    "selected_presets": 75,
+    "unique_selected_homepages_across_all_source_types": 106
   }
 }
