@@ -1717,6 +1717,20 @@
         "Empty-cart featured collection"
       ],
       "design_hypothesis": "Children's toy browsing can pair age and gift discovery with educational product benefits, but locale, age facets and testimonial/review counts need consistent data."
+    },
+    {
+      "id": "shopify-live-ignite-tails",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product-type search",
+        "Animal-category collections",
+        "Bestseller rail with color previews and quick view",
+        "Service and editorial content",
+        "Faceted collection filters",
+        "PDP color options and video rail",
+        "Featured products in empty cart"
+      ],
+      "design_hypothesis": "Pet retail benefits from animal and product-type navigation plus brand/type facets, with color previews and quick view helping compare supplies; locale-specific contact and shipping details should align."
     }
   ]
 }
