@@ -2,7 +2,7 @@
   "version": 1,
   "updated_at": "2026-10-27",
   "evidence_kind": "public_html_document_only",
-  "summary": "51 indexed HTML selected homes and 52 additional browser-rendered homes are documented (103/127 unique); 284 read-only rendered pages across 72 selected presets.",
+  "summary": "51 indexed HTML selected homes and 53 additional browser-rendered homes are documented (104/127 unique); 288 read-only rendered pages across 73 selected presets.",
   "stores": [
     {
       "id": "shopify-live-prestige-couture",
@@ -5471,11 +5471,11 @@
     }
   ],
   "counts": {
-    "opened_stores": 72,
-    "opened_home": 72,
-    "opened_collection": 59,
-    "opened_product": 60,
-    "opened_empty_cart": 26,
+    "opened_stores": 73,
+    "opened_home": 73,
+    "opened_collection": 60,
+    "opened_product": 61,
+    "opened_empty_cart": 27,
     "interactive_events_tested": 0
   },
   "caveats": [
@@ -10023,11 +10023,70 @@
       "limits": [
         "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Beauty/product, ingredient, vegan/cruelty-free, promotion and merchant claims unverified."
       ]
+    },
+    {
+      "id": "shopify-palo-alto-pluma-browser-render",
+      "selected_preset_id": "palo-alto:pluma",
+      "theme_family": "Palo Alto",
+      "preset": "Pluma",
+      "store_url": "https://palo-alto-theme-pluma.myshopify.com/",
+      "observed_on": "2026-10-27",
+      "source_class": "browser_render_readonly",
+      "capture_method": "Opened official Shopify Palo Alto:Pluma listing, verified View demo iframe src, and inspected rendered home, Bestsellers collection, Botanica Placemat PDP and empty cart read-only.",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/",
+          "observations": [
+            "Homewares/hosting demo with promo countdown and shipping copy; hero 'Elevate every gathering'; tabbed Bestsellers/Sale; eight-item collection callout; designer-story content; tableware, drinkware, serveware and decor categories; Shop the Table product shelf; mosaic sale/bestsellers/new cards; featured Kensington Candle; testimonial carousel; FAQs and newsletter. Footer credits Sofra for demo imagery and links to real seller."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "collection",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/collections/bestsellers",
+          "observations": [
+            "Bestsellers collection shows 8 products; Availability, Price and Category facets; sort control visible but untouched; product cards show color variants and Quick Buy controls; category navigation to decor, drinkware, linens, serveware and tableware."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "product",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/products/jardin-placemat",
+          "observations": [
+            "Botanica Placemat PDP, five gallery images, $60, in-stock; Forest/Maroon/Purple color options; quantity and purchase controls; Product details, Care & use instructions and Shipping & returns accordions; Buy It With Classic Candles ($12); social gallery, brand story and FAQs. Demo says shop these products for real from Sofra."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        },
+        {
+          "kind": "cart",
+          "url": "https://palo-alto-theme-pluma.myshopify.com/cart",
+          "observations": [
+            "Empty cart text, links to Bestsellers/Sale/Shop All, and free-shipping threshold copy over $100."
+          ],
+          "evidence_class": "browser_render_readonly",
+          "interactions_executed": false,
+          "screenshot_captured": false,
+          "viewport_dimensions_measured": false
+        }
+      ],
+      "limits": [
+        "No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Seller, product, pricing, shipping and promotional claims unverified."
+      ]
     }
   ],
   "browser_render_counts": {
-    "pages": 284,
-    "selected_presets": 72,
-    "unique_selected_homepages_across_all_source_types": 103
+    "pages": 288,
+    "selected_presets": 73,
+    "unique_selected_homepages_across_all_source_types": 104
   }
 }
