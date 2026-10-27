@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 7
+    "partial_keyboard_accessibility_presets": 8
   },
   "pending": {
     "home": 0,
@@ -1360,7 +1360,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -1414,7 +1415,28 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-prestige-strass-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "observed_date": "2026-10-28",
+          "pages": [
+            "https://prestige-theme-strass2.myshopify.com/",
+            "https://prestige-theme-strass2.myshopify.com/collections/necklaces"
+          ],
+          "observations": [
+            "Home: Navigation menu button appears in the accessibility tree; Tab traversal was observed across skip-to-content, announcement Previous/Next controls and the logo, but keyboard activation of Navigation menu was not verified.",
+            "Collection: Tab reached FILTER; Enter expanded the filter drawer and exposed Availability, Price and Color sections plus Close and View Results. Tab entered Availability and Escape closed the drawer, returning focus to FILTER.",
+            "Homepage featured products expose Add to Cart / Choose options buttons in the accessibility tree; keyboard activation was not verified."
+          ],
+          "limitations": "Limited manual smoke and accessibility-tree inspection only; not a WCAG conformance audit. Product-page keyboard behavior and Lighthouse were not tested."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "run_date": "2026-10-28",
+          "reason": "Google PageSpeed Insights access in this browser is currently blocked by the unusual-traffic human-verification challenge encountered during the earlier run. No CAPTCHA was solved."
+        }
+      }
     },
     {
       "audit_rank": 9,
