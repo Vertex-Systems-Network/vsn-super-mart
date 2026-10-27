@@ -666,7 +666,7 @@
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Keyboard/accessibility review is partial: full WCAG checklist pending; Filter was not confirmed keyboard-openable; Lighthouse not run due PSI human-verification block."
+        "Keyboard/accessibility remains a partial manual review, not a full WCAG audit; unnamed buttons were observed and Escape from Dune Filter returns focus to page root while Search combobox appears. Lighthouse not run due PSI verification block."
       ],
       "next_action": [
         "Continue keyboard/accessibility review across selected presets; verify filter opening with keyboard on accessible pages",
@@ -719,18 +719,20 @@
       "qa_reviews": {
         "observed_date": "2026-10-28",
         "keyboard_accessibility": {
-          "status": "partial_manual_smoke_review",
+          "status": "partial_manual_keyboard_review_controls_verified",
           "pages": [
             "https://impulse-theme-apparel.myshopify.com/",
             "https://impulse-theme-apparel.myshopify.com/collections/new-arrivals",
             "https://impulse-theme-apparel.myshopify.com/products/naked-famous-crewneck-heavyweight-terry-black"
           ],
           "observations": [
-            "Home: Tab focus showed visible Skip to content focus indicator; keyboard Tab traversal reached the Shop menu, which expanded on focus, and its submenu links were reachable.",
-            "Collection: 249-product collection exposes Filter, sort selection, and product Quick View controls. Filter drawer presents named Color, Price, Size, Product Type and Brand controls. Escape closed the drawer and returned focus to Filter; a global Search combobox also appeared after Escape.",
-            "Product: keyboard Tab sequence reached Size radio choices and Add to Cart. Product gallery includes an unnamed button, and Shop the Look has two unnamed buttons in the accessibility tree."
+            "Home: Tab focus visibly outlined Skip to content; keyboard Tab traversal reached Shop, expanded on focus, and submenu links were reachable.",
+            "Collection: Tab reached SIZE after Skip to content; Enter expanded it; Tab moved through four labeled size checkboxes; Space selected S and changed URL to ?filter.v.option.size=S. Navigated back to the unfiltered collection after this reversible test.",
+            "Collection drawer behavior from the preceding targeted check: Enter opened Filter; Tab traversed Close menu, Color, checkboxes, price sliders, Size, Product Type and Brand. Escape closed the drawer; the follow-up state showed focus at page root and Search combobox present.",
+            "Product: Tab sequence reached labeled size radio choices and ADD TO CART.",
+            "Accessibility tree included an unnamed product gallery button and two unnamed Shop the Look buttons."
           ],
-          "limitations": "Limited manual smoke review only; Filter was opened by pointer and closed by keyboard; keyboard opening was not confirmed. Not a full WCAG audit."
+          "limitations": "Manual smoke checks only, not a WCAG conformance audit. Escape from the Dune filter drawer closes it but focus returns to page root and Search combobox appears. Unnamed buttons need assistive-technology review."
         },
         "lighthouse": {
           "status": "not_run_due_to_current_psi_challenge",
