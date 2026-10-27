@@ -9254,6 +9254,37 @@
       "document_verification_status": "browser_rendered_readonly",
       "document_verification_scope": "Official demo host verified; rendered home, Face Care collection, Guasha Stone PDP and empty cart inspected read-only.",
       "notes": "PDP includes conflicting unavailable/stock text and an unrelated razor-blade content module; homepage shipping threshold and social link also inconsistent. Merchant claims unverified."
+    },
+    {
+      "id": "shopify-live-ignite-alpha",
+      "platform": "shopify",
+      "theme": "Ignite",
+      "preset": "Alpha",
+      "url": "https://benchmark-automotive-demo.myshopify.com/",
+      "evidence_level": "live_demo_page",
+      "opened_on": "2026-10-27",
+      "document_verified_on": "2026-10-27",
+      "feature_option_ids": [
+        "vehicle-fitment-finder",
+        "vehicle-metadata-facets",
+        "comparison",
+        "fitment-table",
+        "product-documents"
+      ],
+      "niches": [
+        "automotive",
+        "auto-parts"
+      ],
+      "page_coverage": {
+        "home": "document_only",
+        "collection": "document_only",
+        "product": "document_only",
+        "cart": "document_only",
+        "mobile": "not_verified"
+      },
+      "document_verification_status": "browser_rendered_readonly",
+      "document_verification_scope": "Official demo host verified; rendered home, 87-product BMV collection, linked pedal kit PDP and empty cart inspected read-only.",
+      "notes": "Compatibility table's series/generation pairings warrant independent validation; merchant compatibility and stock claims unverified."
     }
   ],
   "discovery_sources": [
