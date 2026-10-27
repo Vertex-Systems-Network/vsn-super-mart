@@ -1,3 +1,19 @@
+## 2026-10-27 — Shopify rendered demo research Batch 113 (Wonder:Petit)
+
+**Done**
+- Verified official demo; inspected single-product home, Petit Baby Monitor PDP and empty cart.
+- No collection route found in inspected navigation; omitted collection page count.
+- Coverage: 115/127 homes (51 indexed HTML + 64 additional rendered); canonical rendered total 331 pages across 84 presets; 12 remain.
+- Recorded unverified infant-safety/privacy/product claims and duplicated review content.
+- Updated evidence, matrix, audit, design observation, plan, progress and batch report.
+
+**Limits**
+- No product or cart actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Merchant claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
 ## 2026-10-27 — Shopify rendered demo research Batch 112 (Wonder:Nook)
 
 **Done**
