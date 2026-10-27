@@ -1,3 +1,22 @@
+## 2026-10-28 — VSN Theme Editor source audit
+
+**Done**
+- Read-only audited `theme/config/settings_schema.json`, VSN block/section schemas, prototype JSON template, template inventory, `settings_data.json`, Shopify editor feasibility record, root instructions and accepted theme architecture ADR.
+- Static checks found seven global settings groups with 36 value settings; five VSN block schemas; unique setting IDs and select defaults consistent with their option lists. Responsive overrides are gated by conditional settings.
+- Added `banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md` with findings, boundaries and completion gate.
+- No theme code changed.
+
+**Still open**
+- Competitor Theme Editor coverage remains 0/127 reviewed, 127 pending. Private settings cannot be inferred from public demo stores.
+- VSN live Theme Editor preview not tested. The prototype contains one JSON page template, while 12 templates remain Liquid and the sections directory has one VSN section; remaining page/section-group architecture is scheduled for Stage 7.
+- Do not change matrix counters based on this static source review.
+
+**Next**
+- Resume Stage 2 only. For live VSN editor verification, use the authorized development store connected through the approved Shopify GitHub integration after the preview is available.
+- Continue other open research evidence without advancing into design or development.
+
+---
+
 ## 2026-10-28 — Shopify remaining-family interaction closeout, Batch 141
 
 **Done**
