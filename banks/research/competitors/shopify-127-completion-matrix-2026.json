@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Theme Editor, checkout, keyboard/accessibility and Lighthouse checks remain open.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. One preset (Impulse:Impulse) now has partial checkout, keyboard/accessibility and Lighthouse evidence; checkout did not proceed past required terms consent, manual accessibility review is incomplete, and Lighthouse scoring is incomplete. These categories remain open across the 127-preset cohort.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -476,17 +476,21 @@
         "actual_dom_interactions": true,
         "mobile_viewport_render": true,
         "private_theme_editor": false,
-        "checkout": false,
-        "real_lighthouse": false
+        "checkout": true,
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No Theme Editor, checkout, keyboard or performance testing",
-        "Organic, fit, inventory, certification, shipping and other seller claims unverified",
-        "Only related-product Quick View was exercised; collection filters, variant selection, cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Private Theme Editor still unavailable",
+        "Checkout requires explicit acceptance of merchant terms; test stopped before consent",
+        "Keyboard/accessibility review is a limited manual smoke test and needs full criteria coverage",
+        "Lighthouse scores captured for five of six home/product/collection device views; product desktop scoring panel stalled and cart has not been run",
+        "Organic, fit, inventory, certification, shipping and other seller claims unverified"
       ],
       "next_action": [
-        "Continue targeted interaction review on the next selected preset; keep visual preview and normal-browser DOM interactions as separate evidence modes."
+        "Continue Theme Editor evidence only if accessible through authorized preview/editor",
+        "Complete full keyboard/accessibility checklist and missing Lighthouse views without accepting terms or submitting orders"
       ],
       "browser_render_observations": [
         {
@@ -530,7 +534,86 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "impulse-quick-view-related-product-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "checkout": {
+          "status": "attempted_blocked_at_required_terms_consent",
+          "url": "https://impulse-theme-fashion.myshopify.com/products/the-ames-trouser",
+          "result": "Add to Cart opened the drawer; Checkout without selecting the merchant's terms checkbox triggered a required-consent alert. No agreement accepted, checkout not entered, no customer/payment details submitted. Test item was removed; cart verified empty."
+        },
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://impulse-theme-fashion.myshopify.com/",
+            "https://impulse-theme-fashion.myshopify.com/collections/all",
+            "https://impulse-theme-fashion.myshopify.com/products/the-ames-trouser"
+          ],
+          "observations": [
+            "Home: Tab reached Skip to content with visible focus outline; top-level Clothing menu reachable by keyboard and expanded on focus.",
+            "Collection: Filter button reachable by keyboard; Enter opened filter drawer exposing PRICE, SIZE, PRODUCT TYPE and AVAILABILITY; Escape closed filter drawer.",
+            "Product: keyboard tab sequence reached Add to Cart; two gallery buttons had no accessible name in the accessibility tree."
+          ],
+          "limitations": "Manual smoke review only; not a WCAG conformance audit. Lighthouse accessibility also reported issues."
+        },
+        "lighthouse": {
+          "status": "partial_5_of_6_views_scored",
+          "run_date": "2026-10-28",
+          "tool": "PageSpeed Insights / Lighthouse 13.5.0",
+          "views": [
+            {
+              "page": "home",
+              "device": "mobile",
+              "performance": 56,
+              "accessibility": 86,
+              "best_practices": 96,
+              "seo": 77
+            },
+            {
+              "page": "home",
+              "device": "desktop",
+              "performance": 89,
+              "accessibility": 90,
+              "best_practices": 96,
+              "seo": 77
+            },
+            {
+              "page": "product",
+              "device": "mobile",
+              "performance": 59,
+              "accessibility": 95,
+              "best_practices": 96,
+              "seo": 92
+            },
+            {
+              "page": "collection",
+              "device": "mobile",
+              "performance": 91,
+              "accessibility": 100,
+              "best_practices": 96,
+              "seo": 92
+            },
+            {
+              "page": "collection",
+              "device": "desktop",
+              "performance": 99,
+              "accessibility": 100,
+              "best_practices": 96,
+              "seo": 92
+            }
+          ],
+          "unavailable_view": {
+            "page": "product",
+            "device": "desktop",
+            "reason": "PSI report generated and desktop CrUX panel loaded, but Lighthouse scoring panel remained on loading; not counted."
+          },
+          "not_run": [
+            "cart mobile",
+            "cart desktop"
+          ]
+        },
+        "completion": "These results do not complete this preset's checkout, keyboard/accessibility, or Lighthouse checklist, and do not change the cohort completion counters."
+      }
     },
     {
       "audit_rank": 2,
