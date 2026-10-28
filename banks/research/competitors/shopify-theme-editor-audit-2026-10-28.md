@@ -534,3 +534,63 @@ The keyboard partial-observation count is now 26/127; full keyboard/accessibilit
 - One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
 
 Keyboard/accessibility partial evidence is now 57/127; full completion remains 0/127. Lighthouse remains 0/127.
+
+
+### Additional collection keyboard smoke batch — 2026-10-28
+
+#### focal:sapphire
+
+- Enter on Product type; Tab reached named Earrings checkbox. No value changed.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### empire:empire
+
+- Enter on All categories dropdown; next Tab focused Search field.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### empire:depot
+
+- Enter on All categories dropdown; next Tab focused Search field.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### palo-alto:pluma
+
+- Featured radio was selected; keyboard action left focus on Availability control. No filter value changed.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### pipeline:pipeline
+
+- Enter on Hide filters; next Tab focused Sort.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### pipeline:petra
+
+- Collection Sort button was keyboard activated; next Tab focused the FEATURED link.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### pipeline:pahoa
+
+- Enter on Hide filters; next Tab focused Sort.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### pipeline:phantom
+
+- Enter on Hide filters; next Tab focused Sort.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### concept:concept
+
+- Enter on Show filters; next Tab focused All Headphones collection link, not a filter option.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### concept:inova
+
+- Enter on Hide filters; next Tab focused All Seating collection link, not filter options.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+#### sleek:sleek
+
+- Enter on Availability; next Tab focused the named In stock checkbox. No value changed.
+- Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
+
+Partial collection keyboard evidence is now 68/127; full completion remains 0/127. Lighthouse remains 0/127.
