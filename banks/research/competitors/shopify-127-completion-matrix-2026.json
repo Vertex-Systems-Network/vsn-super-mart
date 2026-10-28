@@ -5426,11 +5426,11 @@
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified.",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -5476,12 +5476,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://local-theme-caffeine.myshopify.com/collections/coffee"
+            "https://local-theme-caffeine.myshopify.com/",
+            "https://local-theme-caffeine.myshopify.com/collections/coffee",
+            "https://local-theme-caffeine.myshopify.com/collections/coffee/products/nicaragua-copy"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -5779,11 +5783,11 @@
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -5834,12 +5838,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://empire-theme-industrial.myshopify.com/collections/new-arrivals"
+            "https://empire-theme-industrial.myshopify.com/",
+            "https://empire-theme-industrial.myshopify.com/collections/new-arrivals",
+            "https://empire-theme-industrial.myshopify.com/products/osmo-mobile-handheld-mount"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -7225,11 +7233,11 @@
         "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
         "Merchant product, price, stock, material, shipping and brand claims remain unverified",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -7280,12 +7288,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://motion-theme-adventure.myshopify.com/collections/half-zips"
+            "https://motion-theme-adventure.myshopify.com/",
+            "https://motion-theme-adventure.myshopify.com/collections/half-zips",
+            "https://motion-theme-adventure.myshopify.com/collections/half-zips/products/merino-wool-quarter-zip"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9482,11 +9494,11 @@
       "blockers": [
         "Unverified template types",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "mobile_review": {
@@ -9516,12 +9528,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://wonder-theme-beauty.myshopify.com/collections"
+            "https://wonder-theme-beauty.myshopify.com/",
+            "https://wonder-theme-beauty.myshopify.com/collections",
+            "https://wonder-theme-beauty.myshopify.com/products/bakuchiol-retinol-alternative-smoothing-serum"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9581,11 +9597,11 @@
       "blockers": [
         "Read-only route inspection; no sort, subscription, variant, add-to-cart, bundle, quiz or checkout actions.",
         "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Health, ingredients, efficacy, certification, customer and seller claims remain unverified.",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -9637,12 +9653,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://wonder-theme-wellness.myshopify.com/collections/frontpage"
+            "https://wonder-theme-wellness.myshopify.com/",
+            "https://wonder-theme-wellness.myshopify.com/collections/frontpage",
+            "https://wonder-theme-wellness.myshopify.com/products/longevity-gummies"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9900,11 +9920,11 @@
       "blockers": [
         "No interactions, screenshot, viewport/mobile/editor/test access",
         "No collection route found in inspected navigation",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -9935,12 +9955,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://wonder-theme-petit-demo.myshopify.com/collections/all"
+            "https://wonder-theme-petit-demo.myshopify.com/",
+            "https://wonder-theme-petit-demo.myshopify.com/collections/all",
+            "https://wonder-theme-petit-demo.myshopify.com/products/petit"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12154,11 +12178,11 @@
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -12189,12 +12213,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://vision-jewelery.myshopify.com/collections/earrings"
+            "https://vision-jewelery.myshopify.com/",
+            "https://vision-jewelery.myshopify.com/collections/earrings",
+            "https://vision-jewelery.myshopify.com/products/malachite-york-acrylic-earrings"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12457,11 +12485,11 @@
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No interactions, screenshots, viewport or mobile/editor/checkout/performance tests",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -12492,12 +12520,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://vision-winter.myshopify.com/collections/all"
+            "https://vision-winter.myshopify.com/",
+            "https://vision-winter.myshopify.com/collections/all",
+            "https://vision-winter.myshopify.com/products/the-waffle-knit-hoodie"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12993,11 +13025,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -13028,12 +13060,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-origin-demo.myshopify.com/collections/all"
+            "https://theme-origin-demo.myshopify.com/",
+            "https://theme-origin-demo.myshopify.com/collections/all",
+            "https://theme-origin-demo.myshopify.com/products/2unfold-bag-copy"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13197,11 +13233,11 @@
       "blockers": [
         "No rendered screenshot or measured viewport; mobile layout untested",
         "No interactions, cart mutation, checkout, private Theme Editor, keyboard, VSN accessibility audit or Lighthouse",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -13252,12 +13288,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://savor-theme-demo.myshopify.com/collections/all-products"
+            "https://savor-theme-demo.myshopify.com/",
+            "https://savor-theme-demo.myshopify.com/collections/all-products",
+            "https://savor-theme-demo.myshopify.com/products/sweet-pineapple"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13944,11 +13984,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -13979,12 +14019,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-crave-demo.myshopify.com/collections/meal-starters"
+            "https://theme-crave-demo.myshopify.com/",
+            "https://theme-crave-demo.myshopify.com/collections/meal-starters",
+            "https://theme-crave-demo.myshopify.com/products/thai-larb-starter-pack"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14045,11 +14089,11 @@
         "Unverified template types",
         "collection",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14080,12 +14124,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-spotlight-demo.myshopify.com/collections/all"
+            "https://theme-spotlight-demo.myshopify.com/",
+            "https://theme-spotlight-demo.myshopify.com/collections/all",
+            "https://theme-spotlight-demo.myshopify.com/products/copy-of-ebbets-wool-c-cap-navy"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14151,11 +14199,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14186,12 +14234,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-trade-demo.myshopify.com/collections/all"
+            "https://theme-trade-demo.myshopify.com/",
+            "https://theme-trade-demo.myshopify.com/collections/all",
+            "https://theme-trade-demo.myshopify.com/products/classic-towels"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14255,11 +14307,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14290,12 +14342,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-vessel-demo.myshopify.com/collections/coffee-tea"
+            "https://theme-vessel-demo.myshopify.com/",
+            "https://theme-vessel-demo.myshopify.com/collections/coffee-tea",
+            "https://theme-vessel-demo.myshopify.com/products/us-25192?variant=44459717656633"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14359,11 +14415,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14394,12 +14450,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-heritage-demo.myshopify.com/collections/shop-mens"
+            "https://theme-heritage-demo.myshopify.com/",
+            "https://theme-heritage-demo.myshopify.com/collections/shop-mens",
+            "https://theme-heritage-demo.myshopify.com/products/mof-melton-wool-blanket"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14465,11 +14525,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14500,12 +14560,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-pitch-demo.myshopify.com/collections/skincare"
+            "https://theme-pitch-demo.myshopify.com/",
+            "https://theme-pitch-demo.myshopify.com/collections/skincare",
+            "https://theme-pitch-demo.myshopify.com/products/age-serum"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14569,11 +14633,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14604,12 +14668,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-dwell-demo.myshopify.com/collections/bedding-1"
+            "https://theme-dwell-demo.myshopify.com/",
+            "https://theme-dwell-demo.myshopify.com/collections/bedding-1",
+            "https://theme-dwell-demo.myshopify.com/products/top-sheet-brushed-cotton"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14673,11 +14741,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14708,12 +14776,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-ritual-demo.myshopify.com/collections/new"
+            "https://theme-ritual-demo.myshopify.com/",
+            "https://theme-ritual-demo.myshopify.com/collections/new",
+            "https://theme-ritual-demo.myshopify.com/products/rose-11-bag-1?variant=45042658443453"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14777,11 +14849,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14812,12 +14884,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-fabric-demo.myshopify.com/collections/womenswear-children-only"
+            "https://theme-fabric-demo.myshopify.com/",
+            "https://theme-fabric-demo.myshopify.com/collections/womenswear-children-only",
+            "https://theme-fabric-demo.myshopify.com/products/womens-essential-sweatpant-in-black?variant=44434707710005"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14881,11 +14957,11 @@
         "Unverified template types",
         "cart",
         "no interactive/mobile/editor/test access",
-        "Only the first collection-page Tab target has been checked; filter traversal, homepage and product keyboard flows remain untested.",
-        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge."
+        "No Lighthouse score recorded; PSI remains blocked in this browser after Google's unusual-traffic verification challenge.",
+        "Homepage/product checks covered first Tab only; deeper controls and full checklist remain untested."
       ],
       "next_action": [
-        "Complete collection controls plus homepage and product keyboard smoke.",
+        "Continue keyboard traversal through homepage navigation, collection filters and product controls.",
         "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
@@ -14916,12 +14992,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-atelier-demo.myshopify.com/collections/shoulder-bags"
+            "https://theme-atelier-demo.myshopify.com/",
+            "https://theme-atelier-demo.myshopify.com/collections/shoulder-bags",
+            "https://theme-atelier-demo.myshopify.com/products/mini-isla-suede-caramel?variant=50126854848810"
           ],
           "observations": [
-            "From the page root, the first Tab focused the named Skip to content link."
+            "From the page root, the first Tab focused the named Skip to content link.",
+            "On homepage, the first Tab from page root focused Skip to content.",
+            "On product page, the first Tab from page root focused Skip to content."
           ],
-          "limitations": "One first-Tab collection check only; not a WCAG conformance audit. Filter, homepage and product keyboard behavior remain untested."
+          "limitations": "First-Tab checks only across homepage, collection and product. Filter focus order and deeper product controls remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
