@@ -374,3 +374,163 @@ The keyboard partial-observation count is now 21/127; full keyboard/accessibilit
 - Lighthouse was not run; PSI remains blocked in this browser by Google's unusual-traffic verification challenge. No CAPTCHA was solved.
 
 The keyboard partial-observation count is now 26/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Additional collection keyboard smoke batch — 2026-10-28
+
+#### impulse:terrain
+
+- Enter on SIZE expanded the group; Tab focused the named S checkbox. No value changed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### impact:impact
+
+- Enter on Color expanded the group; Tab focused the first named color checkbox.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### impact:cocoon
+
+- Enter on Color expanded the group; Tab focused the first named color checkbox.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### focal:focal
+
+- Color section exposed named checkboxes; Tab reached Black. No filter value changed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### focal:ivory
+
+- Enter on Color moved focus onward to Size; focus inside the Color options was not confirmed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### focal:quartz
+
+- Show filters responded to Enter; subsequent Tab remained on Show filters; entry into controls was not confirmed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### expanse:expanse
+
+- Enter on Product type left focus on the same button; option traversal was not confirmed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### expanse:revive
+
+- Enter on Price; after Tab, focus was reported at page root. Filter option focus was not confirmed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### expanse:spritz
+
+- Enter on Price; after Tab, focus was reported at page root. Filter option focus was not confirmed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### expanse:fetch
+
+- Enter on Availability; next Tab focused Price heading, not an option.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### expanse:gem
+
+- Enter on Availability; focus remained on the expanded heading after Tab.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### local:local
+
+- Enter on Price; next Tab focused Product type heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### local:soleway
+
+- Enter on Availability; next Tab focused a collection link rather than filter options.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### local:thrive
+
+- Enter on Availability; next Tab focused Price heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### local:lively
+
+- Enter on Availability; next Tab focused Price heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### empire:forma
+
+- Enter on Price; next Tab focused Brand heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### be-yours:be-yours
+
+- Enter on Price; next Tab focused Size heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### be-yours:sheen
+
+- Enter on Color; next Tab focused Size heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### be-yours:peace
+
+- Enter on FILTER; next Tab focused a collection link rather than filter options.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### be-yours:harmony
+
+- Enter on FILTER; next Tab reported a generic container; control traversal was not confirmed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### stiletto:stiletto
+
+- Enter on Hide filters; next Tab focused Sort.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### stiletto:luster
+
+- Enter on Hide filters; next Tab focused Sort.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### stiletto:linen
+
+- Enter on Hide filters; next Tab focused Sort.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### stiletto:glimmer
+
+- Enter on Hide filters; next Tab focused Sort.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### stiletto:tapestry
+
+- Enter on Hide filters; next Tab focused Sort.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### motion:satchel
+
+- Enter on Filter opened a drawer; next Tab focused Close menu. Filter option traversal was not confirmed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### motion:memo
+
+- Enter on Filter opened a drawer; next Tab focused Close menu. Filter option traversal was not confirmed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### palo-alto:palo-alto
+
+- Enter on Availability; next Tab focused Color heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### palo-alto:dynamo
+
+- Enter on Availability; next Tab focused Price heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### palo-alto:skylight
+
+- Enter on Availability; Tab focused the named In stock checkbox. No value changed.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+#### palo-alto:phenomena
+
+- Enter on Availability; next Tab focused Price heading.
+- One collection filter interaction only; homepage/product keyboard flows remain untested. No Lighthouse score was run because PSI is blocked in this browser by the earlier unusual-traffic verification challenge; no CAPTCHA was solved.
+
+Keyboard/accessibility partial evidence is now 57/127; full completion remains 0/127. Lighthouse remains 0/127.
