@@ -2659,11 +2659,9 @@
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, quick-add, variant or cart action executed",
-        "PDP size controls appeared sold out/unavailable in observed page",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
         "Seller delivery, fit, material and promotional claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
-        "Demo is password-protected; no password entered."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
         "Tier 1 interaction review complete; continue with the next open priority group."
@@ -2718,16 +2716,20 @@
           "pages": [
             "https://broadcast-motif.myshopify.com/collections/all",
             "https://broadcast-theme-motif.myshopify.com/",
-            "https://broadcast-theme-motif.myshopify.com/products/smiley-face-hat"
+            "https://broadcast-theme-motif.myshopify.com/products/smiley-face-hat",
+            "https://broadcast-motif.myshopify.com/",
+            "https://broadcast-motif.myshopify.com/collections/all/products/checkered-tank"
           ],
           "observations": [
             "All collection exposes named Availability checkboxes, Price controls, Product type checkboxes and Color checkboxes in the accessibility tree.",
             "The HIDE/SHOW FILTERS control responds to Enter. Tab after toggling it moved to SORT BY rather than the individual filter controls; keyboard traversal within filters is unconfirmed and appears to need focus-management follow-up.",
             "No filter value was selected or applied.",
             "Homepage first Tab from page root focused Skip to content.",
-            "Product and homepage first Tab focused a password field; review stopped without entering credentials."
+            "Product and homepage first Tab focused a password field; review stopped without entering credentials.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -2789,8 +2791,7 @@
         "No sort, pagination, quick-add, variant, cart or checkout actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, keyboard or performance tests",
         "SPF, health, ingredient, dermatology, shipping, discount, inventory and seller claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
-        "Demo store is unavailable in current browser."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
       ],
       "next_action": [
         "Tier 1 interaction review complete; continue with the next open priority group."
@@ -2845,16 +2846,20 @@
           "pages": [
             "https://broadcast-stellar.myshopify.com/collections/sunscreen",
             "https://broadcast-theme-stellar.myshopify.com/",
-            "https://broadcast-theme-stellar.myshopify.com/products/sun-protection-kit"
+            "https://broadcast-theme-stellar.myshopify.com/products/sun-protection-kit",
+            "https://broadcast-stellar.myshopify.com/",
+            "https://broadcast-stellar.myshopify.com/collections/sunscreen/products/spf-30-lotion"
           ],
           "observations": [
             "Sunscreen collection presents a FILTERS toggle and named Availability and Price filter sections in the accessibility tree.",
             "The FILTERS control responds to Enter; after activation, the filter groups disappeared from the current accessibility tree while focus remained on the toggle. Keyboard focus entry into filter controls could not be confirmed.",
             "No filter value was selected or applied.",
             "Homepage first Tab from page root focused Skip to content.",
-            "Homepage/product destinations returned the Shopify store unavailable page; first Tab focused its Shopify link."
+            "Homepage/product destinations returned the Shopify store unavailable page; first Tab focused its Shopify link.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -8088,13 +8093,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://palo-alto-theme-skylight.myshopify.com/collections/new-arrivals"
+            "https://palo-alto-theme-skylight.myshopify.com/collections/new-arrivals",
+            "https://palo-alto-theme-skylight.myshopify.com/",
+            "https://palo-alto-theme-skylight.myshopify.com/products/kalinda-boots"
           ],
           "observations": [
             "Enter on Availability; Tab focused the named In stock checkbox. No value changed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -8208,13 +8217,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://palo-alto-theme-phenomena.myshopify.com/collections/best-sellers-1"
+            "https://palo-alto-theme-phenomena.myshopify.com/collections/best-sellers-1",
+            "https://palo-alto-theme-phenomena.myshopify.com/",
+            "https://palo-alto-theme-phenomena.myshopify.com/products/halo-highlighter"
           ],
           "observations": [
             "Enter on Availability; next Tab focused Price heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -8328,12 +8341,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://palo-alto-theme-pluma.myshopify.com/collections/bestsellers"
+            "https://palo-alto-theme-pluma.myshopify.com/collections/bestsellers",
+            "https://palo-alto-theme-pluma.myshopify.com/",
+            "https://palo-alto-theme-pluma.myshopify.com/products/jardin-placemat"
           ],
           "observations": [
-            "Featured radio was selected; keyboard action left focus on Availability control. No filter value changed."
+            "Featured radio was selected; keyboard action left focus on Availability control. No filter value changed.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -8447,12 +8464,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://pipeline-theme-fashion.myshopify.com/collections/all"
+            "https://pipeline-theme-fashion.myshopify.com/collections/all",
+            "https://pipeline-theme-fashion.myshopify.com/",
+            "https://pipeline-theme-fashion.myshopify.com/products/callie-looker-cardigan-beige"
           ],
           "observations": [
-            "Enter on Hide filters; next Tab focused Sort."
+            "Enter on Hide filters; next Tab focused Sort.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -8566,12 +8587,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://pipeline-light.myshopify.com/collections/mens"
+            "https://pipeline-light.myshopify.com/collections/mens",
+            "https://pipeline-light.myshopify.com/",
+            "https://pipeline-light.myshopify.com/products/sky"
           ],
           "observations": [
-            "Collection Sort button was keyboard activated; next Tab focused the FEATURED link."
+            "Collection Sort button was keyboard activated; next Tab focused the FEATURED link.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -8685,12 +8710,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://pipeline-theme.myshopify.com/collections/bestsellers"
+            "https://pipeline-theme.myshopify.com/collections/bestsellers",
+            "https://pipeline-theme.myshopify.com/",
+            "https://pipeline-theme.myshopify.com/products/fig"
           ],
           "observations": [
-            "Enter on Hide filters; next Tab focused Sort."
+            "Enter on Hide filters; next Tab focused Sort.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -8804,12 +8833,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://pipeline-botanical.myshopify.com/collections/sets"
+            "https://pipeline-botanical.myshopify.com/collections/sets",
+            "https://pipeline-botanical.myshopify.com/",
+            "https://pipeline-botanical.myshopify.com/products/nina"
           ],
           "observations": [
-            "Enter on Hide filters; next Tab focused Sort."
+            "Enter on Hide filters; next Tab focused Sort.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -8923,12 +8956,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://concept-theme-tech.myshopify.com/collections/headphones"
+            "https://concept-theme-tech.myshopify.com/collections/headphones",
+            "https://concept-theme-tech.myshopify.com/",
+            "https://concept-theme-tech.myshopify.com/products/air-beats"
           ],
           "observations": [
-            "Enter on Show filters; next Tab focused All Headphones collection link, not a filter option."
+            "Enter on Show filters; next Tab focused All Headphones collection link, not a filter option.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9042,12 +9079,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://concept-theme-inova.myshopify.com/collections/seating"
+            "https://concept-theme-inova.myshopify.com/collections/seating",
+            "https://concept-theme-inova.myshopify.com/",
+            "https://concept-theme-inova.myshopify.com/collections/seating/products/embrace-lounge-chair"
           ],
           "observations": [
-            "Enter on Hide filters; next Tab focused All Seating collection link, not filter options."
+            "Enter on Hide filters; next Tab focused All Seating collection link, not filter options.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9162,12 +9203,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://sleek-theme-demo.myshopify.com/collections/skincare"
+            "https://sleek-theme-demo.myshopify.com/collections/skincare",
+            "https://sleek-theme-demo.myshopify.com/",
+            "https://sleek-theme-demo.myshopify.com/products/protective-day-oil"
           ],
           "observations": [
-            "Enter on Availability; next Tab focused the named In stock checkbox. No value changed."
+            "Enter on Availability; next Tab focused the named In stock checkbox. No value changed.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9261,12 +9306,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://sleek-wildpeak.myshopify.com/collections/best-sellers"
+            "https://sleek-wildpeak.myshopify.com/collections/best-sellers",
+            "https://sleek-wildpeak.myshopify.com/",
+            "https://sleek-wildpeak.myshopify.com/products/emma-3l-shell-jacket-green"
           ],
           "observations": [
-            "Enter on Product type; Tab reached named Accessories checkbox. No value changed."
+            "Enter on Product type; Tab reached named Accessories checkbox. No value changed.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9380,12 +9429,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://sleek-jumped.myshopify.com/collections/all"
+            "https://sleek-jumped.myshopify.com/collections/all",
+            "https://sleek-jumped.myshopify.com/",
+            "https://sleek-jumped.myshopify.com/products/zenith-shirt"
           ],
           "observations": [
-            "Enter on Product type; Tab reached named Beanies checkbox. No value changed."
+            "Enter on Product type; Tab reached named Beanies checkbox. No value changed.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9500,12 +9553,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://sleek-modiva.myshopify.com/collections/best-sellers"
+            "https://sleek-modiva.myshopify.com/collections/best-sellers",
+            "https://sleek-modiva.myshopify.com/",
+            "https://sleek-modiva.myshopify.com/products/parlour-club-chair"
           ],
           "observations": [
-            "Enter on Product type; Tab reached named Bar Table checkbox. No value changed."
+            "Enter on Product type; Tab reached named Bar Table checkbox. No value changed.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -9620,12 +9677,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://sleek-glint.myshopify.com/collections/all"
+            "https://sleek-glint.myshopify.com/collections/all",
+            "https://sleek-glint.myshopify.com/",
+            "https://sleek-glint.myshopify.com/products/kennith-short"
           ],
           "observations": [
-            "Enter on Product type; Tab reached named Accessories checkbox. No value changed."
+            "Enter on Product type; Tab reached named Accessories checkbox. No value changed.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
