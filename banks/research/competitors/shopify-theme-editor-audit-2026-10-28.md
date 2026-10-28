@@ -1169,3 +1169,43 @@ Thirty-six presets now have first-Tab evidence on homepage and product pages in 
 - Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
 
 Fifty-four presets now have homepage/product first-Tab observations alongside collection keyboard evidence. Full completion remains 0/127.
+
+
+### Additional homepage/product first-Tab checks — 2026-10-28
+
+#### enterprise:enterprise
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation and product control traversal remain untested. Not a WCAG audit.
+
+#### enterprise:outlet
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation and product control traversal remain untested. Not a WCAG audit.
+
+#### impact:balance
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation and product control traversal remain untested. Not a WCAG audit.
+
+#### local:local
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation and product control traversal remain untested. Not a WCAG audit.
+
+#### local:soleway
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation and product control traversal remain untested. Not a WCAG audit.
+
+#### local:thrive
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation and product control traversal remain untested. Not a WCAG audit.
+
+#### local:lively
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation and product control traversal remain untested. Not a WCAG audit.
+
+Sixty-one presets now have home/product first-Tab evidence alongside collection smoke. Full completion remains 0/127.
