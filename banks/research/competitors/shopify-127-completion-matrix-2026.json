@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 15
+    "partial_keyboard_accessibility_presets": 16
   },
   "pending": {
     "home": 0,
@@ -2339,7 +2339,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -2392,7 +2393,27 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-broadcast-relay-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "observed_date": "2026-10-28",
+          "pages": [
+            "https://broadcast-theme-relay.myshopify.com/collections/all"
+          ],
+          "observations": [
+            "Collection exposes named Price, Product type, Size, Color and Availability controls in the accessibility tree.",
+            "The HIDE/SHOW FILTERS control responds to Enter. After opening the filter panel, Tab moved to SORT BY instead of the individual filter controls; keyboard traversal into filters is unconfirmed and appears to need focus-management follow-up.",
+            "No filter value was selected or applied."
+          ],
+          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page keyboard behavior was not tested. Lighthouse was not run."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "run_date": "2026-10-28",
+          "reason": "Google PageSpeed Insights access in this browser is currently blocked by the unusual-traffic human-verification challenge encountered during the earlier run. No CAPTCHA was solved."
+        }
+      }
     },
     {
       "audit_rank": 17,
