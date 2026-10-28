@@ -1094,3 +1094,78 @@ Twenty presets now have first-Tab observations on homepage, collection and produ
 - This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
 
 Thirty-six presets now have first-Tab evidence on homepage and product pages in addition to collection smoke; broader interaction coverage is still incomplete.
+
+
+### Prestige, Symmetry and Broadcast homepage/product first-Tab checks — 2026-10-28
+
+#### prestige:prestige
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### prestige:vogue
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### prestige:strass
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### prestige:signature
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### symmetry:symmetry
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### symmetry:salt-yard
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### symmetry:beatnik
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### symmetry:duke
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### symmetry:amara
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### broadcast:broadcast
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### broadcast:relay
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### broadcast:airwave
+
+- Homepage/product initial keyboard focus was checked. First Tab focused Skip to content on both pages.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### broadcast:motif
+
+- Homepage/product initial keyboard focus was checked. A password field was reached; no password was entered.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+#### broadcast:stellar
+
+- Homepage/product initial keyboard focus was checked. Store unavailable page was reached; no bypass attempted.
+- Deeper navigation and control traversal remain incomplete; not a WCAG conformance audit.
+
+Fifty-four presets now have homepage/product first-Tab observations alongside collection keyboard evidence. Full completion remains 0/127.
