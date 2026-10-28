@@ -274,3 +274,12 @@ The keyboard partial-observation count is now 13/127; full keyboard/accessibilit
 - No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product keyboard behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 14/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Broadcast — main preset keyboard smoke review — 2026-10-28
+
+- Bestsellers collection filter panel exposes named Availability checkboxes, Price controls and Material checkboxes in the accessibility tree.
+- The FILTERS toggle responds to Enter. With filter controls visible, Tab from the toggle moved to SORT BY rather than into the filter controls; keyboard traversal within filters is unconfirmed and appears to need focus-management follow-up.
+- No filter value was changed or applied; the collection was returned to its base URL. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 15/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
