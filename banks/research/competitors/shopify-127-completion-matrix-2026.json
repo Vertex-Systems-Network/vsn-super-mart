@@ -11403,12 +11403,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://benchmark-electronics-demo.myshopify.com/collections/phones"
+            "https://benchmark-electronics-demo.myshopify.com/collections/phones",
+            "https://benchmark-electronics-demo.myshopify.com/",
+            "https://benchmark-electronics-demo.myshopify.com/products/pixa-9"
           ],
           "observations": [
-            "Enter on Select product type; next Tab focused its All option container."
+            "Enter on Select product type; next Tab focused its All option container.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -11502,12 +11505,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://benchmark-toys-demo.myshopify.com/collections/bestsellers"
+            "https://benchmark-toys-demo.myshopify.com/collections/bestsellers",
+            "https://benchmark-toys-demo.myshopify.com/",
+            "https://benchmark-toys-demo.myshopify.com/products/ultimate-hardwood-towering-blocks"
           ],
           "observations": [
-            "Enter on Select product type; next Tab focused its All option container."
+            "Enter on Select product type; next Tab focused its All option container.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -11601,12 +11607,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://benchmark-pets-demo.myshopify.com/collections/dogs"
+            "https://benchmark-pets-demo.myshopify.com/collections/dogs",
+            "https://benchmark-pets-demo.myshopify.com/",
+            "https://benchmark-pets-demo.myshopify.com/products/cozy-retreat-pet-tent-with-soft-bed-pad"
           ],
           "observations": [
-            "Enter on Select product type; next Tab focused its All option container."
+            "Enter on Select product type; next Tab focused its All option container.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -11700,12 +11709,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://benchmark-automotive-demo.myshopify.com/collections/bmv"
+            "https://benchmark-automotive-demo.myshopify.com/collections/bmv",
+            "https://benchmark-automotive-demo.myshopify.com/",
+            "https://benchmark-automotive-demo.myshopify.com/products/foot-rest-brake-gas-pedal-e30-e36-e39-e46-e87-e90-e91-e92-e93"
           ],
           "observations": [
-            "Enter on Select product type; next Tab focused its All option container."
+            "Enter on Select product type; next Tab focused its All option container.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -11802,12 +11814,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://benchmark-food-demo.myshopify.com/collections/bestsellers"
+            "https://benchmark-food-demo.myshopify.com/collections/bestsellers",
+            "https://benchmark-food-demo.myshopify.com/",
+            "https://benchmark-food-demo.myshopify.com/products/renew-cereal-cinnamon-crunch-250g"
           ],
           "observations": [
-            "Enter on Select product type; next Tab focused its All option container."
+            "Enter on Select product type; next Tab focused its All option container.",
+            "product first Tab focused a generic Site notification container; homepage first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -11901,12 +11916,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://shapes-preset-pantry.myshopify.com/collections/all"
+            "https://shapes-preset-pantry.myshopify.com/collections/all",
+            "https://shapes-preset-pantry.myshopify.com/",
+            "https://shapes-preset-pantry.myshopify.com/products/crispy-chili-oil"
           ],
           "observations": [
-            "Enter on FILTER; next Tab focused SORT."
+            "Enter on FILTER; next Tab focused SORT.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12000,12 +12018,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://shapes-theme-soda-2.myshopify.com/collections/seltzers"
+            "https://shapes-theme-soda-2.myshopify.com/collections/seltzers",
+            "https://shapes-theme-soda-2.myshopify.com/",
+            "https://shapes-theme-soda-2.myshopify.com/products/grape"
           ],
           "observations": [
-            "Enter on FILTER; next Tab stayed on FILTER."
+            "Enter on FILTER; next Tab stayed on FILTER.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12099,12 +12120,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://shapes-theme-chocolate-2.myshopify.com/collections/chocolate"
+            "https://shapes-theme-chocolate-2.myshopify.com/collections/chocolate",
+            "https://shapes-theme-chocolate-2.myshopify.com/",
+            "https://shapes-theme-chocolate-2.myshopify.com/products/cheesecake"
           ],
           "observations": [
-            "Enter on FILTER; next Tab stayed on FILTER."
+            "Enter on FILTER; next Tab stayed on FILTER.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12198,12 +12222,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://shapes-theme-skincare-2.myshopify.com/collections/essentials"
+            "https://shapes-theme-skincare-2.myshopify.com/collections/essentials",
+            "https://shapes-theme-skincare-2.myshopify.com/",
+            "https://shapes-theme-skincare-2.myshopify.com/products/hand-balm"
           ],
           "observations": [
-            "Enter on Filter; next Tab focused the Availability section."
+            "Enter on Filter; next Tab focused the Availability section.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12297,12 +12324,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://shapes-preset-pets.myshopify.com/collections/food"
+            "https://shapes-preset-pets.myshopify.com/collections/food",
+            "https://shapes-preset-pets.myshopify.com/",
+            "https://shapes-preset-pets.myshopify.com/products/dog-treats-salmon-bites"
           ],
           "observations": [
-            "Enter on Filter; next Tab stayed on Filter."
+            "Enter on Filter; next Tab stayed on Filter.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12418,12 +12448,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://vision-main.myshopify.com/collections/doorbells"
+            "https://vision-main.myshopify.com/collections/doorbells",
+            "https://vision-main.myshopify.com/",
+            "https://vision-main.myshopify.com/products/smart-home-speaker-with-google-assistant"
           ],
           "observations": [
-            "Enter on Availability; Tab reached named In stock checkbox. No value changed."
+            "Enter on Availability; Tab reached named In stock checkbox. No value changed.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12625,12 +12658,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://vision-pets.myshopify.com/collections/all"
+            "https://vision-pets.myshopify.com/collections/all",
+            "https://vision-pets.myshopify.com/",
+            "https://vision-pets.myshopify.com/products/holiday-penguin-dog-toy"
           ],
           "observations": [
-            "Enter on Availability; Tab reached named In stock checkbox. No value changed."
+            "Enter on Availability; Tab reached named In stock checkbox. No value changed.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12725,12 +12761,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://vision-recreation.myshopify.com/collections/mountain-bikes"
+            "https://vision-recreation.myshopify.com/collections/mountain-bikes",
+            "https://vision-recreation.myshopify.com/",
+            "https://vision-recreation.myshopify.com/collections/mountain-bikes/products/fc-moto-fcm-ssj-softshell-jacket"
           ],
           "observations": [
-            "Enter on Availability; Tab reached named In stock checkbox. No value changed."
+            "Enter on Availability; Tab reached named In stock checkbox. No value changed.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -12932,12 +12971,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-dawn-demo.myshopify.com/collections/bags"
+            "https://theme-dawn-demo.myshopify.com/collections/bags",
+            "https://theme-dawn-demo.myshopify.com/",
+            "https://theme-dawn-demo.myshopify.com/products/small-convertible-flex-bag-cappuccino"
           ],
           "observations": [
-            "Enter on Availability; controls appeared; Tab then focused a button, not confirmed as the checkbox."
+            "Enter on Availability; controls appeared; Tab then focused a button, not confirmed as the checkbox.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13036,12 +13078,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-horizon-demo.myshopify.com/collections/front-page"
+            "https://theme-horizon-demo.myshopify.com/collections/front-page",
+            "https://theme-horizon-demo.myshopify.com/",
+            "https://theme-horizon-demo.myshopify.com/products/1tuck-tapered-pants-424"
           ],
           "observations": [
-            "Enter on Availability; next Tab focused Color heading."
+            "Enter on Availability; next Tab focused Color heading.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13156,12 +13201,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-refresh-demo.myshopify.com/collections/hair"
+            "https://theme-refresh-demo.myshopify.com/collections/hair",
+            "https://theme-refresh-demo.myshopify.com/",
+            "https://theme-refresh-demo.myshopify.com/products/shampoo-2"
           ],
           "observations": [
-            "Enter on Availability; controls appeared; Tab then focused a button, not confirmed as a checkbox."
+            "Enter on Availability; controls appeared; Tab then focused a button, not confirmed as a checkbox.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13260,12 +13308,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-rise-demo.myshopify.com/collections/all"
+            "https://theme-rise-demo.myshopify.com/collections/all",
+            "https://theme-rise-demo.myshopify.com/",
+            "https://theme-rise-demo.myshopify.com/products/white-hoodie"
           ],
           "observations": [
-            "Space selected the named 在庫あり (“in stock”) checkbox; selected state verified; base collection URL restored."
+            "Space selected the named 在庫あり (“in stock”) checkbox; selected state verified; base collection URL restored.",
+            "Homepage and product first Tab focused Japanese Skip to content link."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13472,12 +13523,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-tinker-demo.myshopify.com/collections/the-gather-collection"
+            "https://theme-tinker-demo.myshopify.com/collections/the-gather-collection",
+            "https://theme-tinker-demo.myshopify.com/",
+            "https://theme-tinker-demo.myshopify.com/products/gather-magsafe-phone-stand-black-walnut"
           ],
           "observations": [
-            "Enter on Availability; next Tab focused Price heading."
+            "Enter on Availability; next Tab focused Price heading.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13700,12 +13754,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-craft-demo.myshopify.com/collections/dinnerware"
+            "https://theme-craft-demo.myshopify.com/collections/dinnerware",
+            "https://theme-craft-demo.myshopify.com/",
+            "https://theme-craft-demo.myshopify.com/products/the-everything-bowls"
           ],
           "observations": [
-            "Enter on Availability; controls appeared; next Tab focused a collection link."
+            "Enter on Availability; controls appeared; next Tab focused a collection link.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13804,12 +13861,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-publisher-demo.myshopify.com/collections/books"
+            "https://theme-publisher-demo.myshopify.com/collections/books",
+            "https://theme-publisher-demo.myshopify.com/",
+            "https://theme-publisher-demo.myshopify.com/products/braulio-amado-2021"
           ],
           "observations": [
-            "Enter on Availability; controls appeared; next Tab focused a button."
+            "Enter on Availability; controls appeared; next Tab focused a button.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -13908,12 +13968,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-ride-demo.myshopify.com/collections/performance-boards"
+            "https://theme-ride-demo.myshopify.com/collections/performance-boards",
+            "https://theme-ride-demo.myshopify.com/",
+            "https://theme-ride-demo.myshopify.com/products/filipe-toledo-wildfire"
           ],
           "observations": [
-            "Enter on Filter; next Tab focused a generic container."
+            "Enter on Filter; next Tab focused a generic container.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14012,12 +14075,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-sense-demo.myshopify.com/collections/skin"
+            "https://theme-sense-demo.myshopify.com/collections/skin",
+            "https://theme-sense-demo.myshopify.com/",
+            "https://theme-sense-demo.myshopify.com/products/natural-vegan-lip-balm-lemon-lime"
           ],
           "observations": [
-            "Enter on Availability; controls appeared; next Tab focused a collection link."
+            "Enter on Availability; controls appeared; next Tab focused a collection link.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14116,12 +14182,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-studio-demo.myshopify.com/collections/prints"
+            "https://theme-studio-demo.myshopify.com/collections/prints",
+            "https://theme-studio-demo.myshopify.com/",
+            "https://theme-studio-demo.myshopify.com/products/rhyme"
           ],
           "observations": [
-            "Enter on Availability; controls appeared; next Tab focused a collection link."
+            "Enter on Availability; controls appeared; next Tab focused a collection link.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -14219,12 +14288,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://theme-taste-demo.myshopify.com/collections/all-drinks"
+            "https://theme-taste-demo.myshopify.com/collections/all-drinks",
+            "https://theme-taste-demo.myshopify.com/",
+            "https://theme-taste-demo.myshopify.com/products/copy-of-the-good"
           ],
           "observations": [
-            "Enter on Availability; controls appeared; next Tab focused a collection link."
+            "Enter on Availability; controls appeared; next Tab focused a collection link.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus check only; deeper navigation and control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
