@@ -1585,3 +1585,9 @@ All 127/127 presets have homepage/product first-Tab observations and collection-
 - No cohort Lighthouse scores were generated in this turn. All 127 presets remain pending Lighthouse runs; no score was inferred or fabricated. Current blocker: provide a supported Lighthouse runner/environment or approved PSI access path.
 
 - Additional runner check: Playwright is installed, but its expected bundled Chromium executable is missing from this workspace; no local Lighthouse package or executable was found.
+
+
+### Lighthouse scope update — 2026-10-28
+
+- User removed Lighthouse runs from the active task list. Matrix pending count is now 0/127 by scope exclusion; this does not mean Lighthouse scores were run or completed.
+- The prior runner limitation remains in the research history for context. No Lighthouse scores were generated.
