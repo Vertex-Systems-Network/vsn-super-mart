@@ -1294,3 +1294,88 @@ Sixty-one presets now have home/product first-Tab evidence alongside collection 
 - Initial focus only; deeper controls remain untested. Not a WCAG audit.
 
 Sixty-eight presets now have home/product first-Tab checks alongside collection smoke.
+
+
+### Home/product first-Tab checks for Broadcast, Palo Alto, Pipeline, Concept and Sleek — 2026-10-28
+
+#### broadcast:motif
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### broadcast:stellar
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### palo-alto:skylight
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### palo-alto:phenomena
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### palo-alto:pluma
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### pipeline:pipeline
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### pipeline:petra
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### pipeline:pahoa
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### pipeline:phantom
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### concept:concept
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### concept:inova
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### sleek:sleek
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### sleek:wildpeak
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### sleek:jumped
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### sleek:modiva
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+#### sleek:glint
+
+- Using canonical demo URLs, homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper navigation/filter/product controls remain untested.
+
+Ninety-one presets now have first-Tab evidence on homepage/product as well as collection smoke. Full completion remains 0/127.
