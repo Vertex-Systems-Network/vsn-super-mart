@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary, Prestige:Prestige and Prestige:Couture now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary, Prestige:Prestige and Prestige:Couture and Enterprise:Enterprise now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 19
+    "partial_keyboard_accessibility_presets": 20
   },
   "pending": {
     "home": 0,
@@ -2828,15 +2828,19 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Only the finder, collection filter/sort menu, and empty-cart drawer were tested; no item was added.",
-        "No checkout, Theme Editor, keyboard/accessibility or performance testing."
+        "No checkout, Theme Editor, keyboard/accessibility or performance testing.",
+        "Keyboard smoke review is limited; after opening Filter with Enter, Tab moved to Sort by instead of entering filter controls.",
+        "Lighthouse not run for this preset; further PSI access in this browser is blocked by Google's unusual-traffic verification challenge, which was not solved."
       ],
       "next_action": [
-        "Continue targeted interaction review on the next selected preset; keep the 360×640 visual preview and normal-browser DOM interactions as separate evidence modes."
+        "Complete keyboard traversal checks for the homepage, collection controls and product page; verify filter focus management.",
+        "Run Lighthouse for the preset when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -2876,7 +2880,26 @@
         "enterprise-cascading-finder-2026-10-27",
         "enterprise-collection-filter-sort-2026-10-27",
         "enterprise-empty-cart-drawer-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1"
+          ],
+          "observations": [
+            "The Filter button toggled the filter panel with Enter; Accessibility tree exposed named Availability, Price, Brand, Color and device metadata filter controls.",
+            "After opening Filter, focus remained on the toggle; the next Tab moved to Sort by instead of entering the visible filter controls. Keyboard access to filter values was not confirmed.",
+            "No filter selection was changed; collection remained at its base URL."
+          ],
+          "limitations": "One collection page only; limited manual smoke review, not a WCAG conformance audit. Homepage/product keyboard flows remain untested."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried because a prior request in this browser hit Google's unusual-traffic human-verification challenge; no CAPTCHA was solved."
+        }
+      }
     },
     {
       "audit_rank": 21,
