@@ -15407,6 +15407,6 @@
   "lighthouse_run_status": {
     "status": "blocked_no_local_runner",
     "pending_presets": 127,
-    "details": "No Lighthouse CLI or Chrome executable is available in the workspace, and the connected browser controls do not expose Lighthouse report generation. Previous PSI browser access hit Google's unusual-traffic CAPTCHA; no retry or challenge solving was attempted. No Lighthouse scores were fabricated."
+    "details": "Confirmed runner availability: Lighthouse CLI/package and Chrome executable are absent; Playwright is installed but its expected bundled Chromium executable is also missing. Connected browser controls do not expose Lighthouse report generation. Previous PSI browser access hit Google's unusual-traffic CAPTCHA; no retry or challenge solving was attempted. No Lighthouse scores were fabricated."
   }
 }
