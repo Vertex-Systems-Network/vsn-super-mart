@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Lighthouse: 127/127 presets still pending. Rechecked local options: no Lighthouse CLI/package, no Chrome executable, and installed Playwright has no bundled Chromium binary. Connected browser controls cannot generate Lighthouse reports; prior PSI access hit Google's unusual-traffic CAPTCHA, which was not retried or solved. A supported Lighthouse runner/browser environment is required. Theme Editor review and checkout are removed from scope. Basic keyboard smoke remains complete 127/127.",
+  "next_action": "Basic keyboard smoke is complete for 127/127 presets. Theme Editor review, Lighthouse runs, and checkout are removed from active scope by user request. Broader keyboard/accessibility control traversal remains uncompleted (0/127) if that workstream is resumed; current smoke is not a WCAG audit.",
   "approvals": {},
   "figma": {
     "file_key": null,
