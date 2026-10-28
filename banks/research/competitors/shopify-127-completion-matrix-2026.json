@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 127/127 complete at 360×640 CSS px. Targeted interaction research covers 127/127 presets across 129 observations. Checkout QA was removed from active scope by user request. Keyboard smoke: 126/127 presets have recorded first-Tab observations on homepage, collection and product; all 127 have homepage/product first-Tab and collection-page keyboard evidence, but Prestige:Prestige lacks a recorded collection-page keyboard check. Full keyboard/accessibility control traversal remains 0/127; this is not a WCAG conformance audit. Lighthouse remains 0/127 complete; PSI access is blocked in this browser after Google's unusual-traffic challenge.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 127/127 complete at 360×640 CSS px. Targeted interaction research covers 127/127 presets across 129 observations. Checkout QA was removed from active scope by user request. Basic keyboard smoke is complete for all 127/127 presets: first-Tab observations are recorded on canonical homepage, collection and product pages. Broader keyboard/accessibility control traversal remains 0/127; this is not a WCAG conformance audit. Lighthouse remains 0/127 complete; PSI access is blocked in this browser after Google's unusual-traffic challenge.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -28,7 +28,7 @@
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
     "partial_keyboard_accessibility_presets": 127,
-    "keyboard_accessibility_smoke": 126
+    "keyboard_accessibility_smoke": 127
   },
   "pending": {
     "home": 0,
@@ -42,7 +42,7 @@
     "checkout": 0,
     "lighthouse": 127,
     "keyboard_accessibility": 127,
-    "keyboard_accessibility_smoke": 1
+    "keyboard_accessibility_smoke": 0
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
@@ -1079,18 +1079,20 @@
       "qa_reviews": {
         "observed_date": "2026-10-28",
         "keyboard_accessibility": {
-          "status": "partial_homepage_keyboard_review",
+          "status": "partial_manual_smoke_review",
           "pages": [
             "https://prestige-theme-allure.myshopify.com/",
-            "https://prestige-theme-allure.myshopify.com/products/le-dino-black-liege"
+            "https://prestige-theme-allure.myshopify.com/products/le-dino-black-liege",
+            "https://prestige-theme-allure.myshopify.com/collections/women-1"
           ],
           "observations": [
             "Tab sequence reached the primary WOMEN, MEN, ABOUT, and PRESETS menu buttons and the site logo.",
             "Each primary menu button was exposed as a named button in the accessibility tree; keyboard activation/expansion was not confirmed.",
             "Homepage first Tab from page root focused Skip to content.",
-            "Product first Tab from page root focused Skip to content."
+            "Product first Tab from page root focused Skip to content.",
+            "Collection: canonical /collections/women-1 page loaded; first Tab from page root focused the named Skip to content link. This records initial focus only; filter control was not traversed."
           ],
-          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
+          "limitations": "Initial focus checks and limited collection interactions only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run_due_to_current_psi_challenge",
