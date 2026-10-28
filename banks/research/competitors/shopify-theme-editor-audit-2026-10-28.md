@@ -319,3 +319,13 @@ The keyboard partial-observation count is now 18/127; full keyboard/accessibilit
 - No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 19/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Enterprise keyboard smoke review — 2026-10-28
+
+- Smart Tech collection: Filter toggled open with Enter. The accessibility tree exposed named Availability, Price, Brand, Color, Processor, Display, Memory and CPU Speed controls.
+- Focus remained on the Filter toggle; the next Tab moved to Sort by rather than entering the filter controls. Keyboard traversal to the filter options was not confirmed.
+- No filter was selected or applied; the collection remained at its base URL. Limited manual smoke review only, not a WCAG conformance audit. Homepage and product-page keyboard behavior were not tested.
+- Lighthouse was not run; PSI access remains blocked in this browser after Google's unusual-traffic verification challenge. No CAPTCHA was solved.
+
+The keyboard partial-observation count is now 20/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
