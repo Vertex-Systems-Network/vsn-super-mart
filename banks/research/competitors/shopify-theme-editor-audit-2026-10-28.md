@@ -247,3 +247,12 @@ The keyboard partial-observation count is now 10/127; full keyboard/accessibilit
 - Limited manual smoke review only; not a WCAG conformance audit. Homepage/product keyboard behavior and Lighthouse were not tested. PSI access remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 11/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Symmetry — Beatnik keyboard smoke review — 2026-10-28
+
+- Women's Sunglasses collection: Tab reached the Filter link; Enter activated it and exposed Color and Product type controls with named checkboxes in the accessibility tree.
+- Focus remained on Filter; the next Tab moved to Sort (Featured), skipping the visible filter controls. Keyboard traversal within the filter is unconfirmed and appears to need focus-management follow-up.
+- No filter value was selected or applied. This is limited manual smoke review only, not a WCAG conformance audit. Homepage/product controls and Lighthouse were not tested; PSI remains blocked in this browser by the earlier Google unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 12/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
