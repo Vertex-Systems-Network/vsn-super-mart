@@ -292,3 +292,12 @@ The keyboard partial-observation count is now 15/127; full keyboard/accessibilit
 - No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 16/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Broadcast — Airwave preset keyboard smoke review — 2026-10-28
+
+- All Products collection exposes named Availability checkboxes, Price controls and Product type checkboxes in the accessibility tree.
+- The HIDE/SHOW FILTERS control responds to Enter. Tab after activating it moved to SORT BY rather than into the filter controls; keyboard traversal within the filter pane is unconfirmed and appears to need focus-management follow-up.
+- No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 17/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
