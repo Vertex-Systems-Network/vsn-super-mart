@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 8
+    "partial_keyboard_accessibility_presets": 9
   },
   "pending": {
     "home": 0,
@@ -1483,7 +1483,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -1537,7 +1538,28 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-prestige-signature-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "observed_date": "2026-10-28",
+          "pages": [
+            "https://prestige-theme-signature.myshopify.com/",
+            "https://prestige-theme-signature.myshopify.com/collections/pumps"
+          ],
+          "observations": [
+            "Collection: Tab traversal reached FILTER; Enter opened the drawer. Tab reached Availability, Enter expanded it and exposed the named In stock only checkbox. Space toggled it on. Escape closed the drawer and returned focus to FILTER.",
+            "Collection drawer exposed named Availability, Color, Size and Price sections plus Close and View Results controls.",
+            "Home keyboard menu and standalone product-page behavior were not tested."
+          ],
+          "limitations": "Limited manual keyboard smoke review only; not a WCAG conformance audit. Lighthouse was not run."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "run_date": "2026-10-28",
+          "reason": "Google PageSpeed Insights access in this browser is currently blocked by the unusual-traffic human-verification challenge encountered during the earlier run. No CAPTCHA was solved."
+        }
+      }
     },
     {
       "audit_rank": 10,
