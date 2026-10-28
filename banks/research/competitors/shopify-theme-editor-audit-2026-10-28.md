@@ -1591,3 +1591,9 @@ All 127/127 presets have homepage/product first-Tab observations and collection-
 
 - User removed Lighthouse runs from the active task list. Matrix pending count is now 0/127 by scope exclusion; this does not mean Lighthouse scores were run or completed.
 - The prior runner limitation remains in the research history for context. No Lighthouse scores were generated.
+
+
+### Broader keyboard/accessibility scope update — 2026-10-28
+
+- User removed deeper keyboard/accessibility control traversal from the active task list. The matrix pending count is now 0/127 by scope exclusion; this is not a claim that the full control audit was performed.
+- Basic first-Tab keyboard smoke remains recorded for all 127/127 presets.
