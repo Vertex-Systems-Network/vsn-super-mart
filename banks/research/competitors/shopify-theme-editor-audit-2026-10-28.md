@@ -1009,3 +1009,88 @@ All presets now have at least partial collection keyboard-smoke evidence (127/12
 - These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
 
 Twenty presets now have first-Tab observations on homepage, collection and product pages. Full keyboard/accessibility completion remains 0/127.
+
+
+### Additional homepage and product first-Tab checks — 2026-10-28
+
+#### impulse:terrain
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### impact:impact
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### impact:cocoon
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### focal:focal
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### focal:ivory
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### focal:quartz
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### focal:sapphire
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### enterprise:homestead
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### warehouse:warehouse
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### warehouse:wood
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### warehouse:mesh
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### expanse:expanse
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### expanse:revive
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### expanse:spritz
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### expanse:fetch
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+#### expanse:gem
+
+- Homepage and product: first Tab from page root focused Skip to content. The collection interaction remains recorded in the preset entry.
+- This is initial focus evidence only; deeper controls remain untested. Expanse:Spritz's product displayed an age-verification modal; no choice was activated. Not a WCAG conformance audit.
+
+Thirty-six presets now have first-Tab evidence on homepage and product pages in addition to collection smoke; broader interaction coverage is still incomplete.
