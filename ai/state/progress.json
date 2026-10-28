@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Checkout QA remains removed from active scope by user request. Continue keyboard/accessibility smoke reviews across the 127 presets. Nineteen presets now have partial evidence; 0/127 meet the full completion bar. Lighthouse completion remains 0/127; PSI is blocked in this browser after Google's unusual-traffic verification challenge, which was not solved. See canonical matrix and QA audit under banks/research/competitors.",
+  "next_action": "Checkout QA remains removed from active scope by user request. Continue keyboard/accessibility smoke reviews across the 127 presets. Twenty presets now have partial evidence; 0/127 meet the full completion bar. Lighthouse completion remains 0/127; PSI is blocked in this browser after Google's unusual-traffic verification challenge, which was not solved. See canonical matrix and QA audit under banks/research/competitors.",
   "approvals": {},
   "figma": {
     "file_key": null,
