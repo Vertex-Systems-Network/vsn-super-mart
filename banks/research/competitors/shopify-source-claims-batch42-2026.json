@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Shopify Broadcast:Motif preset listing View demo inspected read-only with rendered browser accessibility tree. Home, 117-product All collection, Checkered Tank PDP and empty cart inspected. No shopper actions, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing.",
+  "sources": [
+    {
+      "id": "broadcast-motif-preset-listing",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/motif",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Broadcast:Motif listing View demo opened broadcast-motif.myshopify.com."
+    },
+    {
+      "id": "shopify-broadcast-motif-browser-render",
+      "url": "https://broadcast-motif.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-motif.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-motif.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-motif.myshopify.com/collections/all/products/checkered-tank"
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-motif.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "motif-fashion-merchandising",
+      "source_ids": [
+        "shopify-broadcast-motif-browser-render"
+      ],
+      "observed": "Home combines sale-led seasonal fashion storytelling and curated product rails; 117-item collection offers filters, sort and quick-add affordances with category structure.",
+      "risk": "No filters, sort or quick-add actions tested; promotion, stock and merchandising copy are seller content.",
+      "vsn_guard": "Maintain usable filters and sort choices across large collections and keep promotions and availability current."
+    },
+    {
+      "id": "motif-size-availability-and-empty-cart",
+      "source_ids": [
+        "shopify-broadcast-motif-browser-render"
+      ],
+      "observed": "Checkered Tank PDP shows size chart, color, fit, care and delivery content; empty cart links to Shop, Sale, Blog and About and shows recently viewed product context.",
+      "risk": "All observed sizes were labeled unavailable; fit/delivery/material claims are unverified.",
+      "vsn_guard": "Keep option availability synchronized with stock and place fit, delivery and return details close to product choices."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Symmetry:Symmetry preset listing demo partially inspected read-only via rendered browser accessibility tree. Home screenshot captured; collection and Borderline One Piece PDP inspected. PDP route was truncated, cart inspected read-only with no shopper actions, viewport/mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "symmetry-symmetry-preset-listing",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/symmetry",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Symmetry:Symmetry listing View demo opened the Chantilly storefront."
+    },
+    {
+      "id": "shopify-symmetry-symmetry-browser-render",
+      "url": "https://chantilly.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://chantilly.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://chantilly.myshopify.com/collections/all"
+        },
+        {
+          "kind": "cart",
+          "url": "https://chantilly.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "symmetry-fashion-discovery",
+      "source_ids": [
+        "shopify-symmetry-symmetry-browser-render"
+      ],
+      "observed": "Homepage combines campaign and category-led fashion discovery; All Our Products collection lists 68 products with category links, filter entry, Featured sort and varied card states. Empty cart provides Start Shopping and a Before you go... best-seller carousel.",
+      "risk": "No collection controls were operated; stock, rating and promotion content are merchant-provided and unverified. Cart cross-sell and rating content were not interacted with or verified.",
+      "vsn_guard": "Keep category, filter and sort affordances understandable and verify card states against current catalog data."
+    },
+    {
+      "id": "symmetry-pdp-fit-guidance",
+      "source_ids": [
+        "shopify-symmetry-symmetry-browser-render"
+      ],
+      "observed": "Borderline One Piece PDP was rendered with color/size choices, fit guide, stock copy, Add to Cart and related products.",
+      "risk": "Exact PDP URL was truncated in browser output; variants, fit, stock, sustainability, and recommendation accuracy were not tested.",
+      "vsn_guard": "Verify variant, fit, inventory and related-product data against product records before design decisions."
+    },
+    {
+      "id": "symmetry-empty-cart-recovery",
+      "source_ids": [
+        "shopify-symmetry-symmetry-browser-render"
+      ],
+      "observed": "Empty cart offers a Start Shopping route and a best-seller carousel with prices, preorder labels and ratings.",
+      "risk": "No cart actions or checkout were tested; displayed ratings and availability are unverified.",
+      "vsn_guard": "Provide a clear return-to-shopping path and keep cart recommendations' availability and reviews current."
+    }
+  ]
+}

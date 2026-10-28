@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-26",
+  "scope": "Visible storefront UI only; merchant claims are not independently verified.",
+  "claims": [
+    {
+      "id": "palo-alto-skylight-home-1",
+      "claim": "Official Palo Alto:Skylight iframe is a footwear and handbags storefront. Home has $200 free-shipping announcement, Catalog/About/Journal/Lookbook navigation, editorial hero, category tiles with product counts, craftsmanship story, Shop the Look, campaign tiles and countdown, handbag product shelf with Quick Buy, lookbook, press, newsletter and collections. Footer labels products as Alohas-provided demo goods; seller claims unverified.",
+      "source_url": "https://palo-alto-theme-skylight.myshopify.com/",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "palo-alto-skylight-collection-1",
+      "claim": "New Arrivals collection reports 27 products, category links for flats/boots/heels/loafers/mules/sandals, five facet groups (availability, price, color, product type, size), sort control, Quick Buy cards and two-page pagination. Controls untouched.",
+      "source_url": "https://palo-alto-theme-skylight.myshopify.com/collections/new-arrivals",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "palo-alto-skylight-product-1",
+      "claim": "Kalinda Boots PDP shows eight gallery images, $500 final-sale price, seven-left stock message, Brown/Black and sizes 35–41, size chart, quantity and buy controls, fit/material accordions, cross-sell, sticky cart bar and FAQs. Page and footer identify demo goods as Alohas-provided, but product, stock and seller claims remain unverified. The Alohas attribution link resolves to an encoded URL on a different broadcast-luxe.myshopify.com host.",
+      "source_url": "https://palo-alto-theme-skylight.myshopify.com/products/kalinda-boots",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "verification": "visible storefront presentation only"
+    },
+    {
+      "id": "palo-alto-skylight-cart-1",
+      "claim": "Dedicated cart is empty and suggests Loafers, Spring Lookbook, Sandals and Flats; displays $200 shipping threshold and newsletter/footer.",
+      "source_url": "https://palo-alto-theme-skylight.myshopify.com/cart",
+      "source_type": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "verification": "visible storefront presentation only"
+    }
+  ]
+}

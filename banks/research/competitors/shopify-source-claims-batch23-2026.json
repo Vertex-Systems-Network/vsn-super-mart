@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Prestige family Allure preview surfaced by the official Prestige selected-preset listing; rendered read-only browser evidence only; selected preset mapping unresolved.",
+  "sources": [
+    {
+      "id": "prestige-selected-preset-listing",
+      "url": "https://themes.shopify.com/themes/prestige/presets/prestige",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Activating View demo opened a storefront branded Prestige - Allure; this does not establish that it is the current selected Prestige preset."
+    },
+    {
+      "id": "prestige-allure-family-demo",
+      "url": "https://prestige-theme-allure.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://prestige-theme-allure.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://prestige-theme-allure.myshopify.com/collections/women-1"
+        },
+        {
+          "kind": "product",
+          "url": "https://prestige-theme-allure.myshopify.com/products/le-dino-black-liege"
+        },
+        {
+          "kind": "cart",
+          "url": "https://prestige-theme-allure.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "prestige-allure-editorial-family-pattern",
+      "source_ids": [
+        "prestige-allure-family-demo"
+      ],
+      "observed": "Rendered pages expose a campaign-led homepage, 65-product category with density/sort/filter controls, product gallery and supporting product/story modules, and a simple empty-cart route.",
+      "risk": "Page structure does not establish visual hierarchy or working behavior, and the store is branded Allure rather than the current selected Prestige preset.",
+      "vsn_guard": "Record as Prestige-family evidence only; validate exact theme/preset mapping and actual interactions before counting it against the selected cohort."
+    },
+    {
+      "id": "prestige-allure-demo-merchant-copy",
+      "source_ids": [
+        "prestige-allure-family-demo"
+      ],
+      "observed": "Sample storefront shows leather, origin, sustainability, delivery, return, discount and review statements.",
+      "risk": "These are merchant statements and were not independently validated.",
+      "vsn_guard": "Require merchant evidence, market scope and current policy before using trust claims."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "batch": 84,
+  "observed_on": "2026-10-27",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "local:lively",
+  "official_listing_url": "https://themes.shopify.com/themes/local/presets/lively",
+  "iframe_src_observed": "https://local-theme-lively.myshopify.com/",
+  "redirected_storefront": "https://local-theme-lively.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://local-theme-lively.myshopify.com/",
+      "observations": [
+        "Wine categories Red/White/Rosé/Sparkling/Not wine, store pickup and Wine Club entry points.",
+        "Organic Wines hero, featured wine shelves, video/editorial, beer category, Wine Club/events/testimonial and location/store-hours footer.",
+        "Over-18 verification banner visible across pages and left untouched; events and location/product statements are sample copy, unverified."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://local-theme-lively.myshopify.com/collections/red",
+      "observations": [
+        "Red collection shows 9 products, Availability facet (In stock 7 / Out of stock 2), Price range and Best selling sort; controls untouched.",
+        "Age-verification banner visible and unsubmitted."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://local-theme-lively.myshopify.com/collections/red/products/crimson-reserve-2016",
+      "observations": [
+        "Crimson Reserve 2016 PDP shows €150, tasting/profile and handling sections, stock copy, quantity/Add/Buy controls and pickup at Lively Store.",
+        "Age gate left visible and untouched; wine claims are demo content."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://local-theme-lively.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart says empty with Continue browsing; over-18 banner visible, not submitted."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "No age verification, filters, sort, quantity, cart mutation or checkout actions.",
+    "No screenshot, viewport/mobile, editor, keyboard or performance tests.",
+    "Merchant wine, stock, event, location and regulatory statements unverified.",
+    "Age banner visible; no confirmation submitted."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch84-2026.md"
+}

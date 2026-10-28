@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "created_on": "2026-10-26",
+  "batch": 53,
+  "selected_preset_id": "prestige:strass",
+  "sources": [
+    {
+      "source_id": "official-shopify-prestige-strass-listing",
+      "source_class": "official_theme_store_listing",
+      "url": "https://themes.shopify.com/themes/prestige/presets/strass",
+      "claims": [
+        "Official listing identifies Strass as Prestige preset; View demo rendered prestige-theme-strass2.myshopify.com."
+      ],
+      "limits": [
+        "Theme Store feature and marketing copy is vendor-authored."
+      ]
+    },
+    {
+      "source_id": "prestige-strass-rendered-pages",
+      "source_class": "browser_render_readonly",
+      "url": "https://prestige-theme-strass2.myshopify.com/",
+      "observed_pages": [
+        {
+          "kind": "home",
+          "url": "https://prestige-theme-strass2.myshopify.com/",
+          "observations": [
+            "Official Shopify Prestige:Strass View demo opened matching prestige-theme-strass2.myshopify.com; the storefront brands itself Prestige Theme Strass and announces free shipping on orders over $300.",
+            "Fine-jewelry homepage uses Mineral Alliance hero, editorial goal statement, featured product carousel, necklace/earring/bracelet/ring category tiles, trending products, design/approach storytelling, Shop Your Set, birthday-sale promotion, magazine/blog content, handmade-workshop brand story, testimonials, service assurance icons and newsletter.",
+            "Merchant material, sourcing, shipping, production and pricing claims are unverified."
+          ]
+        },
+        {
+          "kind": "collection",
+          "url": "https://prestige-theme-strass2.myshopify.com/collections/necklaces",
+          "observations": [
+            "Necklaces collection shows 14 products, sort control, Filter control and three product-image density choices.",
+            "Product cards show jewelry names, EUR prices and direct Add to cart buttons; a collection promo interstitial links to Orea, with related rings/earrings/bracelets routes and service information.",
+            "No filter, sort, image-density or product-card action was activated."
+          ]
+        },
+        {
+          "kind": "product",
+          "url": "https://prestige-theme-strass2.myshopify.com/products/mineral-alliance-green-aventurine-necklace",
+          "observations": [
+            "Mineral Alliance Green Aventurine necklace PDP shows €1,180.00, gallery with five images and color/stone links for Green Aventurine, Milky Quartz and Amethyst.",
+            "PDP includes descriptive editorial text, complementary ring/earring/bracelet recommendations, warranty and shipping/returns disclosures, collection story and related products.",
+            "No color choice, add-to-cart, buy-now or other shopper action occurred; price, stone, workmanship, warranty and shipping claims unverified."
+          ]
+        },
+        {
+          "kind": "cart",
+          "url": "https://prestige-theme-strass2.myshopify.com/cart",
+          "observations": [
+            "Cart page is empty and offers Continue Shopping; service assurances and newsletter remain visible.",
+            "No cart or checkout action was performed."
+          ]
+        }
+      ],
+      "limits": [
+        "Accessibility-tree observation only; no shopper actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance testing.",
+        "Prices, materials, sourcing, craftsmanship, shipping and merchant claims are unverified."
+      ]
+    }
+  ]
+}

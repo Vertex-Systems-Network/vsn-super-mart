@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "status": "proposed_original_settings_only_no_liquid_js_implementation",
+  "sources": [
+    {
+      "id": "shopify-live-stiletto-linen",
+      "home": "https://stiletto-theme-linen.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-stiletto-glimmer",
+      "home": "https://stiletto-theme-glimmer.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-stiletto-tapestry",
+      "home": "https://stiletto-theme-tapestry.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-prestige-strass",
+      "home": "https://prestige-theme-strass2.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-sleek-wildpeak",
+      "home": "https://sleek-wildpeak.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-dawn-free",
+      "home": "https://theme-dawn-demo.myshopify.com/"
+    }
+  ],
+  "controls": [
+    {
+      "id": "facets",
+      "option_ids": [
+        "faceted-filters",
+        "metafield-dynamic-sources",
+        "sorting"
+      ],
+      "settings": [
+        {
+          "id": "show_source_attributes",
+          "type": "checkbox"
+        },
+        {
+          "id": "filter_drawer_on_small_screens",
+          "type": "checkbox"
+        }
+      ],
+      "guardrail": "Only present Shopify-provided facets and counts for current collection."
+    },
+    {
+      "id": "product-card",
+      "option_ids": [
+        "card-swatches",
+        "card-badges",
+        "sale-badge-percent"
+      ],
+      "settings": [
+        {
+          "id": "show_compare_price_when_positive",
+          "type": "checkbox"
+        },
+        {
+          "id": "show_variant_media_count",
+          "type": "checkbox"
+        }
+      ],
+      "guardrail": "No zero/negative saving prices and no invented color availability."
+    },
+    {
+      "id": "bundle",
+      "option_ids": [
+        "bundle-display",
+        "shop-the-look",
+        "cart-ajax"
+      ],
+      "settings": [
+        {
+          "id": "show_bundle_card",
+          "type": "checkbox"
+        },
+        {
+          "id": "bundle_source",
+          "type": "product",
+          "description": "Merchant/app-backed product/bundle reference"
+        }
+      ],
+      "guardrail": "Actual Shopify bundle or app integration must reconcile cart and inventory; demo buttons not tested."
+    },
+    {
+      "id": "cart-summary",
+      "option_ids": [
+        "cart-page",
+        "empty-states",
+        "cart-upsell"
+      ],
+      "settings": [
+        {
+          "id": "show_continue_shopping",
+          "type": "checkbox"
+        },
+        {
+          "id": "recommended_collection",
+          "type": "collection"
+        }
+      ],
+      "guardrail": "Empty cart drawer markup cannot prove interactive cart or nonempty checkout."
+    },
+    {
+      "id": "product-gallery",
+      "option_ids": [
+        "media-gallery-layouts",
+        "variant-picker-styles",
+        "media-zoom"
+      ],
+      "settings": [
+        {
+          "id": "layout",
+          "type": "select",
+          "values": [
+            "grid",
+            "carousel"
+          ]
+        },
+        {
+          "id": "respect_variant_media",
+          "type": "checkbox"
+        }
+      ],
+      "guardrail": "Source products' gallery count does not establish zoom or focus accessibility; test separately."
+    },
+    {
+      "id": "promo-banner",
+      "option_ids": [
+        "free-shipping-bar",
+        "product-badges-trust",
+        "countdown-timer"
+      ],
+      "settings": [
+        {
+          "id": "market_shipping_source",
+          "type": "metaobject_or_shopify_settings"
+        },
+        {
+          "id": "countdown_expiration",
+          "type": "datetime"
+        },
+        {
+          "id": "warranty_source",
+          "type": "product_metafield"
+        }
+      ],
+      "guardrail": "All merchant claims, thresholds, timestamps, and warranty scopes must be true, localizable and nondeceptive."
+    }
+  ]
+}

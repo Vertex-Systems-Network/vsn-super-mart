@@ -1,0 +1,50 @@
+{
+  "batch": 69,
+  "preset_id": "expanse:fetch",
+  "audit_entry_id": "shopify-live-expanse-fetch",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/expanse/presets/fetch",
+  "store_url": "https://fetch-theme-modern.myshopify.com/",
+  "store_url_verification": "official_listing_iframe_src_read_from_rendered_DOM_after_view_demo",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://fetch-theme-modern.myshopify.com/",
+      "observations": [
+        "Dog-accessories home uses Shop Essentials/Supplies navigation, sustainable-dog-accessories hero and walking-kit CTAs.",
+        "Beige walk-kit shelf, grooming products, bundle promotion, sustainability/material/adoption mission, Shop the Look, testimonial, category shortcuts, discount-countdown area, blog, $120 shipping threshold, service promotions and newsletter.",
+        "Direct browser render corroborates indexed home; no shopper controls activated."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits",
+      "observations": [
+        "Walking Kits shows 22 products, Availability/Price/Size filters, Best selling sort and Large/Small/List controls.",
+        "Cards distinguish offers and sale/compare-at pricing; no controls activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/pink-dog-collar-walk-kit-bag-pins",
+      "observations": [
+        "Pink Dog Collar Walk Kit + Poop Bag Holder + Pins PDP shows XS selected with S/M/L/XL options, $150 regular price, in-stock state, Barkalot vendor and gallery/zoom.",
+        "Free-shipping/returns/carbon-neutral/security statements, Add to cart/Buy it now, information accordions and vendor/collection recommendations are visible. Claims unverified; controls untouched."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://fetch-theme-modern.myshopify.com/cart",
+      "observations": [
+        "Header cart drawer says currently empty; dedicated cart HTML already indexed. No cart mutation or checkout."
+      ]
+    }
+  ],
+  "limits": [
+    "No shopper actions",
+    "No screenshot/mobile/editor/checkout/keyboard/performance tests",
+    "Merchant claims unverified",
+    "Homepage/collection/cart already indexed"
+  ]
+}

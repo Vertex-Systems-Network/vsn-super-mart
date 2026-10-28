@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "evidence_type": "official_platform_docs_plus_vendor_release_history_not_executed_vsn_qa",
+  "vsn_qa_executed": false,
+  "sources": {
+    "shopify_css_subsetting": "https://shopify.dev/docs/storefronts/themes/best-practices/performance/stylesheet-subsetting",
+    "shopify_high_variant": "https://shopify.dev/docs/storefronts/themes/product-merchandising/variants/support-high-variant-products",
+    "shopify_editor": "https://shopify.dev/docs/storefronts/themes/best-practices/editor/integrate-sections-and-blocks",
+    "expanse_vendor_release_notes": "https://help.archetypethemes.co/hc/en-us/articles/46027072690835-Expanse-release-notes"
+  },
+  "cases": [
+    {
+      "id": "css-subsetting-render-tree",
+      "source_ids": [
+        "shopify_css_subsetting",
+        "expanse_vendor_release_notes"
+      ],
+      "trigger": "Dynamically loaded Quick View or cart UI uses a class styled only in unrelated Liquid file.",
+      "documented_risk": "Styles can be absent after Shopify subsets stylesheets by rendered component tree; Expanse v10.0.1 reports fixing this class of issue.",
+      "vsn_design_action": "Make each module own its CSS; share global utilities through a stable assets stylesheet.",
+      "qa_gate": "Theme Check ValidScopedCSSClass; inspect computed style after dynamic cart/quick-add render."
+    },
+    {
+      "id": "section-rendering-response-css",
+      "source_ids": [
+        "shopify_css_subsetting"
+      ],
+      "trigger": "Part of Section Rendering API response is inserted into DOM.",
+      "documented_risk": "Response includes style[data-section-stylesheet]; partial extraction may remove it.",
+      "vsn_design_action": "Preserve required data-section-stylesheet tags when injecting partial response, or insert full section.",
+      "qa_gate": "Verify styling after predictive search, quick view and cart replacement."
+    },
+    {
+      "id": "high-variant-liquid-first250",
+      "source_ids": [
+        "shopify_high_variant",
+        "expanse_vendor_release_notes"
+      ],
+      "trigger": "Product contains >250 variants but code loops product.variants.",
+      "documented_risk": "Shopify Liquid product.variants returns at most 250; vendor moved high variant products to normal product template.",
+      "vsn_design_action": "Use option-value APIs and dynamic fetch rather than preloading all variants in Liquid.",
+      "qa_gate": "Test real 251+ and 1000+ variants on PDP, quick add and unavailable combinations."
+    },
+    {
+      "id": "variant-switch-stale-truth",
+      "source_ids": [
+        "expanse_vendor_release_notes"
+      ],
+      "trigger": "Variant selection changes availability, price and pickup status.",
+      "documented_risk": "Vendor release notes describe past stale inventory/pickup and unavailable buy-button states, since fixed in that theme.",
+      "vsn_design_action": "Derive all product promises from the same current selected variant; cancel stale requests.",
+      "qa_gate": "Rapid multi-variant toggles and delayed network QA."
+    },
+    {
+      "id": "theme-editor-dynamic-js",
+      "source_ids": [
+        "shopify_editor"
+      ],
+      "trigger": "Merchant changes a section/block in Theme Editor, dynamically replacing HTML.",
+      "documented_risk": "Page-load JS does not automatically run on editor section re-render.",
+      "vsn_design_action": "Register Shopify editor load/unload/select events; ensure sliders show selected block and pause.",
+      "qa_gate": "Test editor add/reorder/remove and no duplicate JS listeners."
+    },
+    {
+      "id": "css-inp-stylesheet-explosion",
+      "source_ids": [
+        "shopify_css_subsetting"
+      ],
+      "trigger": "Collection builds many product cards and dynamic fragments.",
+      "documented_risk": "Excess individual stylesheets increase parsing/style recalculation work.",
+      "vsn_design_action": "One stable component stylesheet, never append stylesheet link for every card.",
+      "qa_gate": "Count CSS requests and verify responsiveness and actual INP."
+    }
+  ]
+}

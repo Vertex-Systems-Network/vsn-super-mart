@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-25",
+  "evidence_type": "separately_opened_public_indexed_html_not_live_cart_or_policy_qa",
+  "cases": [
+    {
+      "id": "serenity-unrelated-placeholder-testimonial",
+      "source_url": "https://release-serenity.myshopify.com/",
+      "source_crawl_recency": "last month",
+      "observed": "Handbag seller demo testimonial claims love for 'Leo Bikini Bottoms', an unrelated apparel/bikini SKU; Jane Doe example name elsewhere.",
+      "risk": "Reused sample reviews undermine trust and should not imply verified customer or connected product feedback.",
+      "vsn_guard": "Hide empty, sample or unapproved reviews; require merchant-controlled product/category relevance, consent and evidence; never fabricate endorsements."
+    },
+    {
+      "id": "serenity-preorder-without-eta",
+      "source_url": "https://release-serenity.myshopify.com/",
+      "source_crawl_recency": "last month",
+      "observed": "Amanda Bag Pink is labeled Pre-order alongside several color-specific separate product cards.",
+      "risk": "Source markup alone cannot prove real preorder checkout, variant cross-link or expected fulfillment date.",
+      "vsn_guard": "Connect genuine pre-order SKU/availability, merchant release window/lead time and tested Add-to-Cart checkout route; distinguish separate linked SKUs from variant option values."
+    },
+    {
+      "id": "serenity-unvalidated-lifetime-warranty",
+      "source_url": "https://release-serenity.myshopify.com/",
+      "source_crawl_recency": "last month",
+      "observed": "Homepage claims eco-friendly luxury, Lifetime Warranty and exclusive designs.",
+      "risk": "Warranty term, environmental/brand origin and certification not substantiated by demo HTML; shouldn't ship in reusable theme defaults.",
+      "vsn_guard": "Render only merchant-verified policy pages and scoped product/category trust badges; provide blank states."
+    },
+    {
+      "id": "serenity-return-claims-faq",
+      "source_url": "https://release-serenity.myshopify.com/pages/faq",
+      "source_crawl_recency": "last month",
+      "observed": "Supplementary FAQ says orders can be returned within 30 days and refunds processed within 14 business days after receipt.",
+      "risk": "Indexed FAQ copy isn't authenticated live returns configuration, legal obligation or market eligibility.",
+      "vsn_guard": "Keep returns policies centrally configured by market and version, expose accurate links next to cart/PDP and do not hardcode timing defaults."
+    }
+  ]
+}

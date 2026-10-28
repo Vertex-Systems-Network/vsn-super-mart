@@ -1,6 +1,907 @@
+## 2026-10-28 — Cross-repository VSN Builder app embed finding
+
+**Done**
+- Corrected the earlier repo-local app extension diagnosis after searching the same organization: `vsn-builder` contains the VSN Builder Theme App Extension.
+- Verified `vsn-page-renderer.liquid` has `target: body` (app embed); 25 other extension block files have `target: section` (inline app blocks).
+- Read the T032 fixture status: no Shopify store installed/published/deployed; live Theme Editor/storefront acceptance remains pending; T033 real extension E2E is WAITING. Direct deploy/config-switch is blocked by repository safety script.
+- Updated the Theme Editor report and audit readiness. No deployment, credential access or app code edit occurred.
+
+**Conclusion / still open**
+- Likely reason the App embeds entry is missing: extension source exists but it is not deployed/installed in the target store. The target store is not connected, so this is not directly confirmed.
+- Competitor editor cohort remains 0/127 reviewed, 127 pending. VSN live editor also remains unverified.
+
+**Next**
+- After VSN Builder's deployment safeguards are satisfied, install/update the app on the target development store, then verify Theme settings → App embeds using the existing activation/status workflow.
+- Do not add a duplicate theme setting or deploy from this Stage 2 research task.
+
+---
+
+## 2026-10-28 — Missing app embed option diagnosis
+
+**Done**
+- Checked the VSN theme layout, app-supporting section, JSON/Liquid template inventory and repository root for a Shopify app/Theme App Extension.
+- Confirmed `theme/layout/theme.liquid` includes `{{ content_for_header }}`; the root has no app project or theme-app-extension directory.
+- Distinguished app embeds from inline app blocks. App embeds are supplied by an installed app's Theme App Extension; inline app blocks require an app plus a JSON template section that declares `@app` and renders it.
+- VSN's `vsn-section` declares `@app` and renders blocks, but it is instantiated only in `page.vsn-prototype.json`; 12 other templates are still Liquid.
+- Updated the Theme Editor audit and readiness report. No code or matrix counters changed.
+
+**Still open**
+- The target store's installed apps and app-extension deployment state are unavailable; the likely app-embed cause cannot be confirmed against store state.
+- Theme Editor competitor coverage remains 0/127 reviewed, 127 pending. VSN live Theme Editor remains untested.
+
+**Next**
+- For the App embeds panel, confirm the target app is installed and its Theme App Extension is deployed; then verify the toggle in the connected store editor.
+- For inline app blocks, continue only after the app block exists and the relevant VSN template is JSON-backed in Stage 7.
+
+---
+
+## 2026-10-28 — VSN Theme Editor source audit
+
+**Done**
+- Read-only audited `theme/config/settings_schema.json`, VSN block/section schemas, prototype JSON template, template inventory, `settings_data.json`, Shopify editor feasibility record, root instructions and accepted theme architecture ADR.
+- Static checks found seven global settings groups with 36 value settings; five VSN block schemas; unique setting IDs and select defaults consistent with their option lists. Responsive overrides are gated by conditional settings.
+- Added `banks/research/competitors/shopify-theme-editor-audit-2026-10-28.md` with findings, boundaries and completion gate.
+- No theme code changed.
+
+**Still open**
+- Competitor Theme Editor coverage remains 0/127 reviewed, 127 pending. Private settings cannot be inferred from public demo stores.
+- VSN live Theme Editor preview not tested. The prototype contains one JSON page template, while 12 templates remain Liquid and the sections directory has one VSN section; remaining page/section-group architecture is scheduled for Stage 7.
+- Do not change matrix counters based on this static source review.
+
+**Next**
+- Resume Stage 2 only. For live VSN editor verification, use the authorized development store connected through the approved Shopify GitHub integration after the preview is available.
+- Continue other open research evidence without advancing into design or development.
+
+---
+
+## 2026-10-28 — Shopify remaining-family interaction closeout, Batch 141
+
+**Done**
+- Verified interactions for the remaining 17 presets across Refresh, Rise, Origin, Craft, Publisher, Ride, Sense, Studio, Taste, Crave, Spotlight, Vessel, Heritage, Pitch, Dwell, Ritual and Fabric.
+- Overall targeted interaction coverage is **127/127 presets across 129 observations**; the interaction queue is empty.
+- Mobile visual preview review remains 127/127. No purchase/checkout action was used.
+
+**Next**
+- Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open for the selected cohort; storefront interactions do not verify those areas.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch141-2026.md`.
+
+---
+
+## 2026-10-28 — Shopify Tier 4 interaction closeout, Batch 140
+
+**Done**
+- Verified one live interaction on all 38 Tier 4 presets across Be Yours, Sleek, Wonder, Eurus, Release, Ignite, Shapes and Vision.
+- Actions included reversible gallery zoom, variant selection, product disclosures/tabs, and menu/locale-selector expansion.
+- Overall targeted interaction coverage: **110/127 presets across 112 observations**. Tier 1–4 are archived; 17 other selected-family presets remain.
+- Mobile preview review remains 127/127. No locale was changed; no cart or checkout action was taken.
+
+**Next**
+- Continue the remaining 17 selected families: Refresh, Rise, Origin, Craft, Publisher, Ride, Sense, Studio, Taste, Crave, Spotlight, Vessel, Heritage, Pitch, Dwell, Ritual and Fabric.
+- Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open for all 127 presets.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch140-2026.md`.
+
+---
+
+## 2026-10-27 — Shopify mobile preview Batch 130
+
+**Done**
+- Visually reviewed Motion:Motion, Motion:Satchel, Motion:Memo and Palo Alto:Palo Alto in 360×640 CSS px preview.
+- Motion presets use compact mobile headers and image-led campaign heroes; Memo fits a full-width collection CTA.
+- Palo Alto shows visible horizontal clipping in its promo strip, navigation and hero heading/button at the measured width.
+- Mobile visual coverage: **14/127 complete**; **3 blurred previews pending retry**; **110 not yet reviewed**.
+
+**Next**
+- Continue with Palo Alto:Dynamo and the remaining ordered preset list; retry the three blurred captures after a longer load.
+
+## 2026-10-27 — Shopify mobile preview Batch 129
+
+**Done**
+- Verified 360×640 CSS-pixel mobile previews for 12 additional presets: Impulse:Impulse, Impulse:Dune, Local:Local, Local:Soleway, Local:Thrive, Local:Caffeine, Local:Lively, Empire:Empire, Empire:Circuit, Empire:Depot, Empire:Forma and Be Yours:Be Yours.
+- Visually reviewed 9 of these; Caffeine, Lively and Forma captures were blurred and remain pending visual review.
+- Mobile observations recorded: Empire:Empire and Empire:Circuit show possible horizontal header/promo clipping at 360px; Empire:Depot stacks CTAs in a single-column hero; Impulse and Local headers collapse for phone layouts.
+- Combined template coverage remains **127/127** for home, collection, product and cart. Mobile: **10/127 visually reviewed**, **3 additional previews pending clear captures**, **114 not yet reviewed**.
+
+**Next**
+- Continue mobile review on remaining presets, retry the three blurred previews, and record each result before marking complete.
+
+## 2026-10-27 — Shopify validation checkpoint Batch 128
+
+**Done**
+- Reopened the official Ignite:Peak Shopify Theme Store preview in Mobile mode; measured the embedded storefront viewport at 360×640 CSS px and captured a screenshot in the browser session (not committed as an image).
+- Tapped the homepage “Shop now” CTA. The demo displayed a 21+ age gate. It was left unanswered, so no age claim or downstream action was made.
+- Updated evidence, matrix, plan, audit and progress. Template coverage remains **127/127 homes · collections · product pages · carts**; rendered evidence is now 444 pages across 127 presets.
+
+**Still open**
+- One mobile preview and one interaction attempt are samples, not cohort-wide tests. Quick view, filters, variants and keyboard behavior remain unverified.
+- Theme Editor and checkout were not opened; no merchant-store credentials/session were available.
+- Lighthouse/performance measurement was not run; no Lighthouse runner was available.
+
+**Next**
+- Test representative non-age-gated collection/product controls, then record Theme Editor, checkout and performance access limits or results. Do not attest the 21+ gate without a user-provided age confirmation.
+
+## 2026-10-27 — Shopify all-screen template coverage checkpoint — COMPLETE
+
+**Done**
+- Reconciled preset IDs across indexed HTML and browser-rendered evidence; earlier pending counters were indexed-only.
+- Filled the remaining collection, product and cart routes, then rechecked all combined page coverage.
+- Status: **127/127 homes · 127/127 collections · 127/127 product pages · 127/127 carts.**
+- Evidence now records 443 rendered pages across 127 browser observation records.
+
+**Still unverified**
+- Actual interactive behavior, mobile viewport, private Theme Editor, checkout progression and Lighthouse/performance measurement.
+
+**Next**
+- Continue with feasible read-only interaction/mobile validation; document access or tooling limits for the remaining test environments.
+
+## 2026-10-27 — Shopify missing-demo reconciliation Batch 126
+
+**Done**
+- Corrected the prior screen-coverage reconciliation: indexed-source pending counters were not counting browser-rendered evidence; six preset mappings were genuinely absent.
+- Added four rendered routes each for Ignite:Peak, Shapes:Shapes, Shapes:Candy, Shapes:Scratch, Vision:Onyx and Vision:Solstice.
+- Verified current coverage: 127/127 homes, 123/127 collections, 123/127 products, 100/127 carts. Remaining: 4 collections, 4 products, 27 carts.
+
+**Limits**
+- All pages read-only; no purchase/cart/filter/variant actions, screenshots, mobile, Theme Editor, checkout or performance tests.
+
+**Next**
+- Resolve the 4 missing collections, 4 missing product pages and 27 missing cart pages, then reconcile counters again.
+
+## 2026-10-27 — Shopify rendered demo research Batch 125 (Shapes:Fizz) — COMPLETE
+
+**Done**
+- Verified final unique official demo host: https://shapes-theme-soda-2.myshopify.com/; inspected home, Spritz collection, Grape PDP and empty cart read-only.
+- Updated evidence, completion matrix, audit, design observations, plan and progress.
+- Final status: **127/127 unique homes · 379 rendered pages · 96 presets · 0 remaining.**
+
+**Limits**
+- No controls used, screenshots, viewport measurements, mobile/editor/checkout/performance tests. Research is read-only rendered structure and merchant claims remain unverified.
+
+**Next**
+- Stop this 127-home research pass. Design-pattern synthesis is the next separate phase.
+
+## 2026-10-27 — Shopify rendered demo research Batch 124 (Ignite:Tails)
+
+**Done**
+- Verified unique official demo host: https://benchmark-pets-demo.myshopify.com/; inspected home, Dogs collection, Cozy Retreat Pet Tent PDP and empty cart.
+- Logged four read-only routes, locale consistency and pet-commerce modules.
+- Status: 126/127 unique homes · 375 rendered pages · 95 presets · 1 home remains.
+
+**Limits**
+- No controls used, screenshots, viewport measurements, mobile/editor/checkout/performance tests.
+
+**Next**
+- Verify one final unique selected home, update all records and stop at 127/127.
+
+## 2026-10-27 — Shopify rendered demo research Batch 123 (Ignite:Playtime)
+
+**Done**
+- Verified unique official demo host: https://benchmark-toys-demo.myshopify.com/; read home, Bestsellers collection, Ultimate Towering Blocks Game PDP and empty cart.
+- Logged four read-only routes and design/data-quality notes in evidence, matrix, audit and design observations.
+- Status: 125/127 unique homes · 371 rendered pages · 94 presets · 2 homes remain.
+
+**Limits**
+- No controls used, screenshots, viewport measurements, mobile/editor/checkout/performance tests.
+
+**Next**
+- Continue two remaining unique official demo hosts and stop at 127/127.
+
+## 2026-10-27 — Shopify rendered demo research Batch 122 (Release:Renaissance)
+
+**Done**
+- Verified new official demo host; inspected home, Rings collection, Vivien Ring PDP and empty cart read-only.
+- Coverage: 124/127 unique homes (51 indexed HTML + 73 browser-rendered additions), 367 rendered pages across 93 presets; 3 remain.
+- Recorded countdown mismatch, unrelated skincare testimonial, product recommendation mismatch and cart /false destination. Updated evidence, matrix, audit, observations, plan and progress.
+
+**Next**
+- Continue branch `research/shopify-live-demo-batch6`; deduplicate hosts and finish the remaining 3 unique demos.
+
+## 2026-10-27 — Shopify rendered demo research Batch 121 (Eurus:Eurus)
+
+**Done**
+- Verified official listing loaded a new unique host and inspected home, all-products collection, Natural Deodorant Trio PDP and empty cart read-only.
+- Coverage: 123/127 homes (51 indexed HTML + 72 rendered additions), 363 pages across 92 presets; 4 remain.
+- Logged concern-based filters/routine and bundle design; flagged mixed testimonials and unverified health/efficacy claims.
+- Updated evidence, matrix, demo audit, observations, plan, progress and batch report.
+
+**Next**
+- Continue branch `research/shopify-live-demo-batch6`; deduplicate by host and complete four distinct homes.
+
+## 2026-10-27 — Shopify rendered demo research Batch 120 (Eurus:Mystique)
+
+**Done**
+- Verified official View demo host; inspected home, Totes collection, Sienna Tote PDP and empty cart read-only.
+- Coverage: 122/127 unique homes (51 indexed HTML + 71 rendered additions), 359 pages across 91 presets; 5 remain.
+- Recorded product label mismatch (selected Denim, body copy sage) and fit/material filter model. Updated evidence, matrix, audit, observations, plan, progress and report.
+
+**Next**
+- Continue branch `research/shopify-live-demo-batch6`; select new official unique hosts until 127/127.
+
+## 2026-10-27 — Shopify rendered demo research Batch 119 (Prestige:Prestige)
+
+**Done**
+- Verified official View demo host and inspected home, Women collection, Le Dino PDP and empty cart read-only.
+- Coverage: 121/127 unique homes (51 indexed HTML + 70 browser-rendered additions), 355 rendered pages across 90 presets; 6 homes remain.
+- Recorded collection countdown mismatch: dated 2025 Black Friday panel below current 2026 sale campaign. Demo footer credits Léo et Violette product-use permission.
+- Updated evidence JSON, completion matrix, demo audit, competitor observations, plan and progress state; added Batch 119 report.
+
+**Next**
+- Continue on branch `research/shopify-live-demo-batch6`; find a new unique official demo host and deduplicate by hostname; stop at 127/127.
+
+## 2026-10-27 — Shopify rendered demo research Batch 118 (Vision:Velocite)
+
+**Done**
+- Verified official View demo host and inspected home, Mountain Bikes collection, FC-Moto jacket PDP and empty cart read-only.
+- Coverage: 120/127 unique homes (51 indexed HTML + 69 browser-rendered additions), 351 rendered pages across 89 presets; 7 homes remain.
+- Collection/PDP mismatches recorded: motorcycle jacket among Mountain Bikes, helmet description, Polygon bike copy; cart recently viewed area has generic placeholder text.
+- Updated evidence JSON, completion matrix, demo audit, competitor observations, plan and progress state; added Batch 118 report.
+
+**Next**
+- Continue on branch `research/shopify-live-demo-batch6`; find a new unique official demo host and deduplicate by hostname; stop at 127/127.
+
+## 2026-10-27 — Shopify rendered demo research Batch 117 (Shapes:Aura)
+
+**Done**
+- Verified official View demo; inspected home, four-product Essentials collection, Hand Balm PDP and empty cart read-only.
+- Coverage: 119/127 homes (51 indexed HTML + 68 additional rendered); canonical rendered total 347 pages across 88 presets; 8 remain.
+- Store explicitly discloses Aura is fictional demo content. Values-led skincare merchandising includes ingredient story, product concern tags, accordions and reviews.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No collection or cart interactions, screenshots, mobile viewport, editor, checkout, keyboard or performance tests. Skincare/product claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-27 — Shopify rendered demo research Batch 116 (Ignite:Alpha)
+
+**Done**
+- Verified official View demo; inspected automotive home, 87-product BMV collection, Foot Rest Brake & Gas Pedal PDP and empty cart read-only.
+- Coverage: 118/127 homes (51 indexed HTML + 67 additional rendered); canonical rendered total 343 pages across 87 presets; 9 remain.
+- Catalog has vehicle/part fitment finder, compatibility facets, comparison switch, PDP compatibility table and product PDFs. Recorded potential series/generation fitment mismatch for validation.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No vehicle selectors, collection controls, purchase/cart actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Product and fitment claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-27 — Shopify rendered demo research Batch 115 (Release:Grasse)
+
+**Done**
+- Verified official demo and inspected home, 9-item Face Care collection, Guasha Stone PDP and empty cart read-only.
+- Coverage: 117/127 homes (51 indexed HTML + 66 additional rendered); canonical rendered total 339 pages across 86 presets; 10 remain.
+- Recorded preorder/sold-out/bestseller states, before/after slider and shop-the-look. PDP content and availability text mismatch; homepage shipping thresholds differ and one link points to /false.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No shopper actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests; claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-27 — Shopify rendered demo research Batch 114 (Eurus:Placid)
+
+**Done**
+- Verified official demo; inspected home, 19-product New Arrivals collection, Clay Fold Vase PDP and empty cart read-only.
+- Coverage: 116/127 homes (51 indexed HTML + 65 additional rendered); canonical total 335 rendered pages across 85 presets; 11 remain.
+- Collection has material/category/size/price/availability facets and set-building; PDP exposes object specifications and gift note.
+- Noted adjacent PDP craft narrative describes another product/material than the active vase facts.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No shopping-control actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Merchant claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-27 — Shopify rendered demo research Batch 113 (Wonder:Petit)
+
+**Done**
+- Verified official demo; inspected single-product home, Petit Baby Monitor PDP and empty cart.
+- No collection route found in inspected navigation; omitted collection page count.
+- Coverage: 115/127 homes (51 indexed HTML + 64 additional rendered); canonical rendered total 331 pages across 84 presets; 12 remain.
+- Recorded unverified infant-safety/privacy/product claims and duplicated review content.
+- Updated evidence, matrix, audit, design observation, plan, progress and batch report.
+
+**Limits**
+- No product or cart actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Merchant claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-27 — Shopify rendered demo research Batch 112 (Wonder:Nook)
+
+**Done**
+- Verified official demo and inspected home, 16-product Sofas collection, Mellow Sofa 3 seats PDP and empty cart read-only.
+- Coverage: 114/127 homes (51 indexed HTML + 63 additional rendered); canonical rendered total 328 pages across 83 presets; 13 remain.
+- Furniture collection exposes brand, price, availability, fabric, color and features. PDP includes configuration, dimensions, material and warranty/delivery copy.
+- Updated evidence, matrix, audit, design observation, plan, progress and batch report.
+
+**Limits**
+- No shopping-control actions, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Product and service claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-27 — Shopify rendered demo research Batch 111 (Wonder:Velour)
+
+**Done**
+- Verified the official View demo host and inspected home, 16-product New Arrivals collection, Dress Sailor Galaxia PDP and empty cart read-only.
+- Coverage: 113/127 unique homes (51 indexed HTML + 62 additional rendered); canonical rendered counter 324 pages across 82 presets; 14 remain.
+- Collection supports availability/color/price/size filters; PDP includes variant sizing and a size guide. Demo discloses product sourcing; claims remain unverified.
+- Updated evidence, matrix, audit, design observation, plan, progress and report.
+
+**Limits**
+- No shopping controls, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-27 — Shopify rendered demo research Batch 110 (Sleek:Wildpeak)
+
+**Done**
+- Verified the official Sleek:Wildpeak View demo host and inspected home, 20-product Best Sellers collection, Emma 3L Shell Jacket PDP and empty cart read-only.
+- Coverage is 112/127 unique homes (51 indexed HTML + 61 additional rendered); source-of-truth rendered total is 320 pages across 81 presets; 15 unique homes remain.
+- Collection spans seven product types with price/color/size/availability facets. PDP includes a size chart; reviews and editorial sections refer to unrelated products/categories, creating a content-coherence issue.
+- Updated evidence, completion matrix, audit, design observation, plan, progress and batch report.
+
+**Limits**
+- No shopping-control actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests; merchant, stock and product claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 109 (Concept:Inova, 2026-10-27)
+
+- Verified demo iframe; furniture home, 7-item Seating collection, Embrace Lounge Chair PDP and empty cart inspected read-only. Cookie notice left untouched.
+- Coverage 111/127 unique homes, 328 pages across 80 presets; 16 remain. No shopper actions, screenshot, viewport/editor/checkout/performance tests; product claims unverified.
+- Next: continue next unverified preset.
+
+
+## Shopify live-demo research — Batch 108 (Concept:Concept, 2026-10-27)
+
+- Verified demo iframe; inspected home, Headphones collection (14 products after delayed render), Air Beats PDP and empty cart read-only.
+- Coverage 110/127 unique homes, 320 rendered pages across 79 presets; 17 remain. Product and merchant claims unverified; no interactions, screenshots, viewport/editor/checkout/performance tests.
+- Next: continue next unverified preset.
+
+
+## Shopify live-demo research — Batch 107 (Pipeline:Phantom, 2026-10-27)
+
+- Verified demo iframe; Pipeline Dark swimwear home, six-item Sets collection, Nina PDP and empty cart inspected read-only.
+- Coverage 109/127 unique homes, 312 rendered pages across 78 presets; 18 remain. No interactions, screenshots, viewport/editor/checkout/performance tests; sustainability and seller claims unverified.
+- Next: continue next unverified selected preset.
+
+
+## Shopify live-demo research — Batch 106 (Pipeline:Pahoa, 2026-10-27)
+
+- Verified official demo iframe; Pipeline Bright/Darma home, 11-item Bestsellers collection, Fig PDP and empty cart inspected read-only. Store explicitly says catalog is fictional theme-demo content.
+- Coverage 108/127 unique homes, 304 rendered pages across 77 presets; 19 homes remain. No interactions, screenshot, viewport/editor/checkout/performance tests; skincare claims unverified.
+- Next: continue next unverified preset.
+
+
+## Shopify live-demo research — Batch 105 (Pipeline:Petra, 2026-10-27)
+
+- Official demo iframe led to Pipeline Light footwear store: home, men's collection, Sky moccasin PDP and empty cart inspected read-only. This differs from the Petra listing's luxury-brand positioning; preserve the mismatch and do not attribute footwear modules as Petra-specific.
+- Coverage 107/127 unique homes, 300 rendered pages across 76 presets; 20 homes remain. No interactions, screenshot, viewport/editor/checkout/performance tests; product claims unverified.
+- Next: inspect next unverified preset and validate iframe/content mapping.
+
+
+## Shopify live-demo research — Batch 104 (Motion:Satchel, 2026-10-27)
+
+- Verified official demo iframe; inspected rendered home, Bags collection, Whelma Bag PDP and empty cart read-only.
+- Coverage 106/127 unique homes, 296 rendered pages across 75 presets; 21 unique homes remain. Seller/product/price/review claims unverified; empty cart shows generic example products. No interactions, screenshot, viewport/editor/checkout/performance tests.
+- Next: continue next unverified selected preset.
+
+
+## Shopify live-demo research — Batch 103 (Be Yours:Be Yours, 2026-10-27)
+
+- Verified official demo iframe; inspected rendered home, 16-product Skincare collection, Calming Serum PDP and empty cart read-only.
+- Coverage 105/127 unique homes, 292 rendered pages across 74 presets; 22 unique homes remain. Cosmetic, ingredient, retailer and seller claims unverified; no interaction, screenshot, viewport/editor/checkout/performance tests.
+- Next: continue next unverified selected preset.
+
+
+## Shopify live-demo research — Batch 102 (Palo Alto:Pluma, 2026-10-27)
+
+- Verified official demo iframe; inspected rendered home, 8-item Bestsellers collection, Botanica Placemat PDP and empty cart read-only.
+- Coverage 104/127 unique homes, 288 rendered pages across 73 presets; 23 unique homes remain. Seller/product/promotional claims unverified; no interaction, screenshot, viewport/editor/checkout/performance tests.
+- Next: continue next unique preset without rendered evidence.
+
+
+## Shopify live-demo research — Batch 101 (Palo Alto:Phenomena, 2026-10-27)
+
+- Verified official demo iframe; inspected rendered home, Best sellers collection (12 products), Halo highlighter PDP and empty cart read-only.
+- Coverage 103/127 unique homes, 284 rendered pages across 72 presets; 24 unique homes remain. Beauty and merchant claims unverified; no interactions, screenshot, viewport/editor/checkout/performance tests.
+- Next: select the next unique preset without browser-rendered evidence.
+
+
+
+- Confirmed official demo iframe and inspected rendered homepage. Collection navigation timed out; only one page counted. Collection/PDP/cart remain unverified.
+- Coverage 103/127 unique homes, 281 pages across 72 presets; 24 homes remain. Beauty claims unverified; no interaction or viewport/editor/checkout/performance tests.
+- Retry route when browser service recovers.
+
+
+## Shopify live-demo research — Batch 100 (Palo Alto:Skylight, 2026-10-26)
+
+- Verified official demo iframe; inspected home, 27-item New Arrivals collection, Kalinda Boots PDP and empty cart read-only.
+- Coverage 102/127 unique homes, 280 rendered pages across 71 presets; 25 remain. Identified malformed Alohas attribution URL; no shopper or viewport/editor/checkout/performance tests.
+- Next: verify Palo Alto:Phenomena.
+
+
+## Shopify live-demo research — Batch 99 (Palo Alto:Dynamo, 2026-10-26)
+
+- Opened the official selected-preset listing and verified its iframe host; inspected home, Best Sellers - AER collection (12 products), Navigator Backpack PDP and empty cart read-only.
+- New distinct storefront: coverage now 101/127 unique homes, 276 pages across 70 presets; 26 remain. No controls, mobile/editor/checkout/performance testing; merchant claims unverified.
+- Next: Palo Alto:Skylight.
+
+
+## Shopify live-demo research — Batch 98 (Palo Alto:Palo Alto, 2026-10-26)
+
+- Refreshed the previously counted official Palo Alto selected-preset demo: home, 198-product New Arrivals collection, Sabine Skirt PDP and empty cart.
+- Exact iframe host: `palo-alto-theme-main.myshopify.com`; collection card title and PDP browser title differ. No counts added.
+- Coverage unchanged: 100/127 unique homes, 272 rendered pages across 69 presets; 27 remain. No shopper actions or viewport/editor/checkout/performance tests.
+- Next: verify Palo Alto:Dynamo from its official listing.
+
+
+## Shopify live-demo refresh — Batch 97 (2026-10-27)
+
+- Refreshed already counted Ignite:Ignite routes: home, 19-item Phones collection, Edge Pixa 9 PDP and empty cart. No counters added.
+- Noted product/image/spec/variant-unit inconsistencies. No shopper controls, screenshot, mobile viewport, editor, checkout, keyboard or performance tests; seller claims unverified.
+- Totals remain 100/127 unique homes, 272 rendered pages across 69 presets, 27 remaining; indexed HTML remains 51/38/40/11.
+- Report: `banks/research/competitors/shopify-live-demo-batch97-2026.md`.
+- Sleek:Jumped is blocked; continue Be Yours:Sheen.
+
+## Shopify live-demo refresh — Batch 96 (2026-10-27)
+
+- Refreshed previously counted Vision:Vision official iframe routes: home, Doorbells collection, Smart Home Speaker PDP and empty cart. No counters added.
+- New discrepancy evidence: Doorbells mixes unrelated device types; Smart Home Speaker intro describes a peephole camera. No shopper controls, screenshot, mobile, editor, checkout, keyboard or performance tests.
+- Totals remain 100/127 unique homes, 272 rendered pages across 69 presets, 27 remaining. Indexed HTML remains 51/38/40/11.
+- Report: `banks/research/competitors/shopify-live-demo-batch96-2026.md`.
+- Next: Ignite:Ignite.
+
+## Shopify live-demo research — Batches 94–95 (2026-10-27)
+
+- Rechecked Prestige:Prestige: official listing iframe is Prestige - Allure, an unresolved mapping mismatch. Enterprise:Enterprise and Broadcast:Relay View demo controls are disabled, with no iframe source.
+- Rendered Impulse:Dune from official iframe `https://impulse-theme-apparel.myshopify.com/`: home, New Arrivals (249 items), Naked & Famous Crewneck PDP and empty cart.
+- Coverage 100/127 unique selected homes (51 indexed HTML + 49 additional rendered); 272 pages across 69 presets; 27 unique homes remain. Indexed HTML remains 51/38/40/11.
+- Reports: `banks/research/competitors/shopify-live-demo-batch94-2026.md`, `banks/research/competitors/shopify-live-demo-batch95-2026.md`; source claims saved for Dune.
+- No shopper actions, screenshots, mobile viewport, Theme Editor, checkout, keyboard or performance tests. Continue next accessible preset, revisit blocked official previews later.
+
+## Shopify live-demo research — Batch 93 (2026-10-27)
+
+- Wonder:Root official listing iframe resolved to `https://wonder-theme-wellness.myshopify.com/`; inspected home, 8-product collection, Longevity Gummies PDP and dedicated empty cart read-only.
+- Coverage 99/127 unique selected homes (51 indexed HTML + 48 additional rendered); 268 pages across 68 presets; 28 unique homes remain. Indexed HTML remains 51/38/40/11.
+- Report: `banks/research/competitors/shopify-live-demo-batch93-2026.md`; source claims file saved.
+- No shopping interaction, screenshot, mobile viewport, editor, checkout, keyboard or performance tests. Demo's health/product claims unverified.
+- Sleek:Jumped remains blocked (official View demo disabled). Continue next available priority preset and preserve blocked item for later retry.
+
+## Shopify live-demo availability — Batch 92 (2026-10-27)
+
+- Sleek:Jumped official listing opened, but View demo control was disabled and preview iframe had no source; no storefront pages could be verified or counted.
+- Coverage unchanged: 98/127 unique homes, 264 rendered pages across 67 presets, 29 homes remaining. Indexed HTML remains 51/38/40/11.
+- Report: `banks/research/competitors/shopify-live-demo-batch92-2026.md`.
+- Keep Jumped pending and retry only after its official demo becomes available. Next priority: Wonder:Root.
+
+## Shopify live-demo research — Batches 89–91 (2026-10-27)
+
+- Sleek:Sleek, Sleek:Modiva and Sleek:Glint inspected from official listing iframe sources; each has rendered home, collection, product and dedicated empty-cart routes recorded read-only.
+- Coverage 98/127 unique homes (51 indexed HTML + 47 additional rendered); 264 pages across 67 selected presets; 29 unique homes remain. Indexed HTML counts remain 51/38/40/11.
+- Reports: `banks/research/competitors/shopify-live-demo-batch89-2026.md`, `banks/research/competitors/shopify-live-demo-batch90-2026.md`, `banks/research/competitors/shopify-live-demo-batch91-2026.md`. Source claims saved alongside each report.
+- No controls activated, screenshots, mobile viewport, Theme Editor, checkout, keyboard or performance tests. Glint’s first PDP route returned 404; a visible homepage-linked Kennith Pant route rendered. Modiva chair copy and Glint mixed category content are demo-copy observations, not verified merchant claims.
+- Next: continue at Wonder:Velour (rank77) according to remaining-priority order; Sleek:Jumped rank72 remains on priority list.
+
+## 2026-10-27 — Shopify rendered demo research Batches 87–88
+
+**Done**
+- Batch87 Empire:Forma home, Living Room collection, Turning Table PDP and empty cart.
+- Batch88 Be Yours:Peace home, All Plants collection (49 items), Money Tree PDP. Cart control did not reveal a confirmed cart page; not counted.
+- Coverage: 95/127 unique homes, 252 rendered pages across 64 presets; 32 homes remain. Indexed HTML remains 51/38/40/11.
+- Updated evidence, matrix, audit/design, plan, progress and reports/source claims.
+
+**Limits**
+- No interactive, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing. Age-gate or purchase actions were not used; merchant claims unverified.
+
+**Next**
+- Continue Sleek:Sleek (rank70) per pending unique-home queue.
+
+## 2026-10-27 — Shopify rendered demo research Batches 85–86
+
+**Done**
+- Batch85 Empire:Empire: home, Clearance Sale collection, Circuit Racer PDP and empty cart.
+- Batch86 Empire:Circuit: home, New Arrivals category collection, Osmo Mobile Handheld Mount PDP and empty cart.
+- Coverage: 93/127 unique homes, 245 rendered pages across 62 selected presets; 34 homes remain. Indexed HTML totals remain 51/38/40/11.
+- Updated evidence, matrix, audit/design, plan, progress and per-batch reports/source claims.
+
+**Limits**
+- No interaction, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing. Merchant claims are demo copy.
+
+**Next**
+- Continue Empire:Forma (rank46), then Be Yours:Peace.
+
+## 2026-10-27 — Shopify rendered demo research Batches 83–84
+
+**Done**
+- Batch83: Local:Caffeine official demo; home, 7-product Coffee collection, 12° PDP and empty cart drawer. No standalone cart page visited.
+- Batch84: Local:Lively official demo; home, 9-product Red collection, Crimson Reserve PDP and empty cart. Age gate visible and untouched.
+- Coverage: 91/127 unique homes, 237 rendered pages across 60 presets; 36 homes remain. Indexed HTML totals remain 51/38/40/11.
+- Updated evidence, matrix, audit/design observations, plan, progress, reports and source claims.
+
+**Limits**
+- No interactions, screenshots, measured viewport/mobile, editor, checkout, keyboard or performance tests. Seller claims unverified.
+
+**Next**
+- Continue Empire:Empire, selected rank 43.
+
+## 2026-10-27 — Shopify rendered demo research Batches 80–82
+
+**Done**
+- Recovered the Motion:Motion preview and inspected home, Half-Zips collection, Merino Wool Quarter-Zip PDP and empty cart.
+- Inspected the Motion:Memo home, Limited Edition — Äggplanta collection, Tumbler Äggplanta PDP and empty cart.
+- Inspected the storefront destination exposed by the Prestige:Prestige listing: home, Women collection (65 products), Le Dalia PDP and empty cart. Its live title is “Prestige - Allure”; exact listing-to-preset identity remains uncertain and is documented.
+- Coverage now 89/127 unique selected homes; 38 remain. Rendered observations: 230 pages across 58 presets. Indexed HTML totals remain 51 home, 38 collection, 40 product and 11 cart.
+- Corrected Batch80 report to reflect successful recovery; added Batch81/82 reports, source claims, evidence matrix updates, audit and design observations.
+
+**Limits**
+- No filters, sort, options, quantity, cart mutation, checkout, screenshots, measured viewport/mobile, editor, keyboard or performance tests. Merchant content claims remain unverified.
+
+**Next**
+- Continue Local:Caffeine (rank 41) from the pending unique-home list.
+
+## 2026-10-26 — Shopify rendered demo research Batch 79 (Stiletto:Tapestry)
+
+**Done**
+- Opened the official Tapestry preview destination and inspected homepage, 32-result All collection, Wine Cup | Anthracite PDP and empty cart.
+- Homepage includes pottery-class content, handmade/one-of-a-kind merchandise, category shelves, shoppable look, journal and studio copy. Collection exposes Best selling sort and Price/Availability groups. PDP displays $48/$40, color links, quantity/Add to Bag and dimensions/care; no controls activated.
+- Tapestry home was already indexed, so unique-home coverage remains 86/127. Rendered evidence reaches 218 pages across 55 presets; 41 remain. Indexed totals remain 51/38/40/11.
+- Updated evidence, matrix, audit note, design observation, plan, progress and handoff.
+
+**Limits**
+- No filters, sort, product options, quantity, cart mutation, checkout, screenshots, viewport/mobile, editor, keyboard or performance tests. Seller claims remain unverified.
+
+**Next**
+- Continue Motion:Motion (rank 56), which has no indexed homepage.
+
+## 2026-10-26 — Shopify rendered demo research Batch 78 (Stiletto:Glimmer)
+
+**Done**
+- Opened the official Glimmer preview destination and inspected home, Face collection (21 results), Marula Face Oil PDP and empty cart.
+- Collection exposes Best selling sort and Product type/Skin Type/Price/Availability/Size filters. PDP displays $18 compare-at/$15.30 sale, size control and quantity/Add to Bag. No controls activated.
+- Home already had indexed coverage; unique-home total stays 86/127. Rendered evidence reaches 214 pages across 54 presets; 41 unique homes remain. Indexed totals remain 51/38/40/11.
+- Updated evidence, matrix, audit note, design observation, plan, progress and handoff.
+
+**Limits**
+- No filters, sort, Quick View, options, cart mutation, checkout, screenshots, viewport/mobile, editor, keyboard or performance tests. Seller and health/ingredient claims remain unverified.
+
+**Next**
+- Continue Stiletto:Tapestry (rank 55); its indexed homepage means browser render adds no unique-home credit.
+
+## 2026-10-26 — Shopify rendered demo research Batch 77 (Stiletto:Linen)
+
+**Done**
+- Opened the official Linen preview iframe destination; browser navigation redirected from the observed chic host to STO Linen. Inspected home, Footwear (69 results), Teddy Heel PDP and empty cart.
+- Collection shows Featured sort and Product type/Color/Size/Price/Availability filters. PDP shows $620, sizes 35–43, size guide, stock copy, quantity/Add to Bag and care/shipping details. No controls used.
+- Linen homepage was already counted in indexed HTML, so unique-home coverage stays at 86/127. Rendered evidence reaches 210 pages across 53 presets; 41 unique homes remain. Indexed totals remain 51/38/40/11.
+- Updated evidence, matrix, audit note, design observation, plan, progress and handoff.
+
+**Limits**
+- No filters, sorting, size/quantity/purchase, cart mutation, checkout, screenshots, viewport/mobile, Theme Editor, keyboard or performance tests. Merchant claims remain unverified.
+
+**Next**
+- Continue Stiletto:Glimmer (rank 54); its existing indexed homepage means rendered home does not add unique-home credit.
+
+## 2026-10-26 — Shopify rendered demo research Batch 76 (Stiletto:Luster)
+
+**Done**
+- Opened the official Luster preview destination and inspected the homepage, 120-result All Jewelry collection, Batis Ring PDP and empty cart.
+- Collection exposes Best selling sort and Availability/Price/Ring size/Style/Color filters; PDP displays $352, ring-size choices and size guide. No controls were activated.
+- Updated the Luster matrix row, browser evidence, audit note, design observation, plan, progress and handoff.
+- Coverage: 86/127 unique selected homes; 206 rendered pages across 52 presets; 41 remain. Indexed HTML counts remain 51/38/40/11.
+
+**Limits**
+- No filters, sort, Quick View, ring-size, cart mutation, checkout, screenshot, viewport/mobile, editor, keyboard or performance tests. Seller claims remain unverified.
+
+**Next**
+- Continue with Stiletto:Linen (rank 53), whose homepage already counts from indexed HTML; add rendered pages without unique-home credit.
+
+## 2026-10-26 — Shopify rendered demo research Batch 75 (Be Yours:Harmony)
+
+**Done**
+- Read the official Harmony listing iframe destination, then inspected the directly observed Be Yours demo homepage, Headphones collection and Dynasty Headphone PDP.
+- Homepage combines a product video hero, feature story, technical-spec sections, comparison table, reviews and newsletter. Headphones shows 3 products, sort/filter and grid-density controls. PDP displays €899, five colors, stock copy and purchase controls; no controls were activated.
+- Demo inconsistencies retained: homepage calls this a one-product store while its collection contains three; PDP describes over-ear headphones but a technical block says in-ear; the color availability copy conflicts with visible color options.
+- Cart drawer did not expose an empty-cart state or dedicated cart page, so no cart page was counted. Updated evidence, matrix, plan, audit note, design observation, progress and this handoff.
+- Coverage: 85/127 unique selected homes; 202 rendered pages across 51 presets; 42 remain. Indexed HTML counts unchanged at 51/38/40/11.
+
+**Limits**
+- No filters, sort, layout, Quick View, variants, quantity, cart mutation, checkout, screenshot, measured viewport/mobile, editor, keyboard or performance tests. All seller/demo claims unverified.
+
+**Next**
+- Continue with Stiletto:Luster (selected rank 52) and use only its official preview mapping.
+
+## 2026-10-26 — Shopify rendered demo research Batch 74 (Stiletto)
+
+**Done**
+- Inspected the Stiletto official listing preview and directly verified its visible storefront homepage, Tops collection, Alex Metallic Top PDP and empty cart.
+- The collection exposed 34 results, alphabetical sorting and Availability/Category/Color/Size/Price filter groups. PDP shows color/size selection UI, size guide, stock copy and product-information sections; no controls were activated.
+- The official listing iframe src exposed a Vogue demo host, while the loaded STO Stiletto page and its visible links resolved to the Stiletto host. This mapping discrepancy is retained in the evidence; selected-preset attribution follows the listing preview title and rendered content.
+- Added four read-only page observations and synchronized the matrix, plan, existing Stiletto audit note, design observation, progress and this handoff.
+- Coverage: 84/127 unique selected homes; 199 rendered pages across 50 presets; 43 remain. Indexed HTML totals remain 51 home, 38 collection, 40 product and 11 cart.
+
+**Limits**
+- No filters, sorting, variant, quantity, media, cart mutation, checkout, screenshot, viewport/mobile, Theme Editor, keyboard or performance tests. Seller and demo content claims remain unverified.
+
+**Next**
+- Continue Be Yours:Harmony. The first View demo click showed a disabled control and blank iframe in the immediate snapshot; check for delayed content before treating it as blocked.
+
+## 2026-10-26 — Shopify official preview mapping Batch 73
+
+**Done**
+- Checked six official listing previews: Local:Caffeine/Lively, Empire:Empire/Circuit/Forma, and Be Yours:Peace.
+- Each visible View demo control became disabled while its preview frame stayed about:blank. No demo host or homepage was attributed; the completion matrix and official-listing notes now record the blocker.
+- Counts unchanged: 83/127 unique homes, 195 rendered pages across 49 presets; 44 remain. Batch72 CI run 171 passed.
+
+**Next**
+- Continue with Be Yours:Harmony, then the next unobserved selected preset. Count coverage only after direct storefront evidence is verified.
+
+## 2026-10-26 — Shopify rendered demo research Batch 72 (Empire:Depot)
+
+**Done**
+- Inspected the documented Empire:Depot storefront in the rendered browser: homepage, By Category department directory, Compact Impact Wrench PDP and empty cart.
+- Added four read-only rendered page records, updated the existing Depot audit/design observation and comparison/stock pattern, and synchronized the matrix, plan and progress records.
+- Homepage was already indexed, so unique selected-home coverage remains 83/127. Rendered evidence now totals 195 pages across 49 selected presets.
+
+**Limits**
+- No filters, compare, quick shop, quantity, PDP accordions, add-to-cart, checkout or keyboard actions. No screenshot, measured viewport/mobile, Theme Editor or performance test. Seller, rating, availability, specification and fulfillment claims remain unverified. Indexed-HTML counts remain unchanged.
+
+**Next**
+- Continue with the next unobserved selected preset. Local:Caffeine’s official listing preview remained blank/time-out; keep its destination unresolved unless verified.
+
+## 2026-10-26 — Shopify rendered demo research Batch 58 (Symmetry:Duke)
+
+**Done**
+- Inspected official Symmetry:Duke listing-linked storefront: home, Decks collection (35 products), Libellule 1 PDP and empty cart through read-only rendered accessibility trees.
+- Added four rendered pages and source claims; merged the official-listing record into its existing live-demo audit ID; updated the design observation and skate preorder/shipping pattern; added report/handoff notes.
+- Homepage, collection and PDP were already indexed. Coverage remains 79/127 unique selected homes (51 indexed HTML + 28 additional rendered); 143 rendered pages across 36 selected presets. 48 homes remain.
+
+**Limits**
+- No shopper interactions, sort/pagination/size/preorder/cart, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with the next unobserved selected preset; investigate the separate Prestige:Prestige mapping blocker when feasible.
+
+## 2026-10-26 — Shopify rendered demo research Batch 57 (Symmetry:Beatnik)
+
+**Done**
+- Inspected official Symmetry:Beatnik listing-linked storefront: home, Women's Sunglasses collection (10 products), Kaka PDP and empty cart with read-only rendered accessibility trees.
+- Added four rendered page records, source claims, updated existing official-listing audit and Beatnik design observation, added an eyewear guidance/material pattern, report and handoff update.
+- Homepage was already indexed. Coverage remains 79/127 unique selected homes (51 indexed HTML + 28 additional rendered); 139 rendered pages across 35 selected presets. 48 homes remain.
+
+**Limits**
+- No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with the next unobserved selected preset; resolve the separate Prestige:Prestige listing-to-demo mapping blocker when feasible.
+
+## 2026-10-26 — Shopify rendered demo research Batch 56 (Warehouse:Mesh)
+
+**Done**
+- Inspected the official Warehouse:Mesh listing-linked storefront: home, New Arrivals collection (11 products), Discovery Hybrid Jacket PDP and empty cart using rendered accessibility trees; collection layout was visually inspected by screenshot.
+- Added four rendered page records, source claims, updated the existing Warehouse:Mesh official-listing audit into a rendered-demo audit, added its design observation, expanded the large-catalog pattern, and added report/handoff details.
+- Coverage: 79/127 unique selected homes (51 indexed HTML + 28 additional rendered); 135 rendered pages across 34 selected presets. 48 unique homes remain.
+
+**Limits**
+- No shopper interactions, filters/sort/view/variant/quantity/purchase, screenshot audit, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product and merchant claims remain unverified. Primary indexed-HTML counts remain distinct. Stage 2 stays open.
+
+**Next**
+- Continue with the next unobserved selected preset, preserving evidence-source distinctions.
+
+## 2026-10-26 — Shopify rendered demo research Batch 55 (Symmetry:Salt Yard)
+
+**Done**
+- Inspected official Symmetry:Salt Yard listing-linked storefront: home, New Arrivals collection (16 products), Knitted Polo Shirt PDP and empty cart through read-only rendered browser accessibility trees.
+- Added four rendered page records, source claims, updated existing audit/design observation, apparel availability/fit pattern, report and handoff updates.
+- Coverage remains 78/127 unique selected homes (51 indexed HTML + 27 additional rendered); 131 rendered pages across 33 selected presets. Homepage was already in indexed-HTML coverage; 49 unique homes remain.
+
+**Limits**
+- No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product and merchant claims remain unverified. Primary indexed-HTML counts stay distinct from browser-rendered observations. Stage 2 stays open.
+
+**Next**
+- Continue with next unobserved selected preset, prioritizing tier 1; inspect home, collection, PDP and cart in read-only browser capture.
+
+## 2026-10-26 — Shopify rendered demo research Batch 37 (Impulse:Apothecary)
+
+**Done**
+- Inspected official Impulse:Apothecary listing-linked storefront: home, All collection, Amber Candle PDP and empty cart with read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, report and handoff updates.
+- Coverage: 67/127 unique selected homes (51 indexed HTML + 16 rendered); 64 rendered pages across sixteen selected presets. 60 remain.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Store explicitly identifies its products as non-purchasable demo items; product and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with next unobserved selected preset, prioritizing tier 1 and keeping evidence classes distinct.
+
+## 2026-10-26 — Shopify rendered demo research Batch 36 (Impulse:Terrain)
+
+**Done**
+- Inspected official Impulse:Terrain listing-linked storefront: home, All collection, 2016 Carbine Expert Build PDP and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, report and handoff updates.
+- Coverage: 66/127 unique selected homes (51 indexed HTML + 15 rendered); 60 rendered pages across fifteen selected presets. 61 remain.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Product specifications, fit and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with next unobserved selected preset, prioritizing tier 1 and keeping evidence classes distinct.
+
+## 2026-10-26 — Shopify rendered demo research Batch 35 (Local:Thrive)
+
+**Done**
+- Inspected official Local:Thrive listing-linked storefront: home, All collection, Gut Health Ground Coffee PDP and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, report and handoff updates.
+- Coverage: 65/127 unique selected homes (51 indexed HTML + 14 rendered); 56 rendered pages across fourteen selected presets. 62 remain.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Wellness and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with next unobserved selected preset, prioritizing tier 1 and keeping evidence source classes distinct.
+
+## 2026-10-26 — Shopify rendered demo research Batch 30 (Wonder:Root)
+
+**Done**
+- Inspected Wonder:Root official listing-linked demo, homepage, Wellness Products collection, Longevity Gummies PDP and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, report and handoff updates.
+- Coverage: 60/127 unique selected homes (51 indexed HTML + 9 rendered-browser homes); 36 rendered pages across nine selected presets. Batch29 CI passed.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Wellness and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with Be Yours:Sheen and keep indexed HTML and browser-rendered evidence counts distinct.
+
+## 2026-10-26 — Shopify rendered demo research Batch 29 (Sleek:Jumped)
+
+**Done**
+- Inspected Sleek:Jumped official listing-linked demo: home, Shop All collection, Zenith Shirt PDP and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern, a batch report and handoff updates.
+- Coverage: 59/127 unique selected homes (51 indexed HTML + 8 rendered-browser homes); 32 rendered pages across eight selected presets. Batch28 CI passed.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Product/category mismatches and merchant claims remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with Wonder:Root and keep indexed HTML and browser-rendered evidence counts distinct.
+
+## 2026-10-26 — Shopify rendered demo research Batch 28 (Ignite)
+
+**Done**
+- Inspected Ignite:Ignite official listing-linked demo, homepage, Smart Tech collection, Edge Pixa 9 product page and empty cart using read-only rendered browser accessibility trees.
+- Added four page records, source claims, one design observation, one cross-platform pattern and a batch report.
+- Coverage: 58/127 unique selected homes (51 indexed HTML + 7 rendered-browser homes); 28 rendered pages across seven selected presets. Batch27 CI passed.
+
+**Limits**
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance testing. Merchant prices, inventory, promotion, compatibility and review copy remain unverified. Stage 2 stays open.
+
+**Next**
+- Continue with Sleek:Jumped and keep indexed HTML and browser-rendered evidence counts distinct.
+
+## 2026-10-26 — Batch 27 Vision selected-preset rendered audit
+
+Official Vision listing opened vision-main.myshopify.com. Inspected home, 20-product All Products collection, smart-camera PDP and empty cart using read-only rendered accessibility trees. Added four pages, source claims, one pattern, one observation and Batch27 report. Coverage: 57/127 distinct selected homes (51 indexed HTML + 6 rendered), 24 rendered pages total. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Next: Ignite:Ignite.
+
+## 2026-10-26 — Batch 26 Impulse Dune listing-linked rendered audit
+
+Official Impulse:Dune View demo opened impulse-theme-apparel.myshopify.com. Inspected home, 249-item All collection, 5 Panel PDP and empty cart using read-only rendered browser accessibility trees. Added four pages, source claims, one pattern, one observation and Batch26 report. Coverage is 56/127 distinct selected homes (51 indexed HTML + 5 rendered), across 20 rendered pages. The storefront is generically branded Apparel but links a Dune-specific Theme Features page; mapping caveat retained. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Next: Vision:Vision.
+
+## 2026-10-26 — Batch 25 Broadcast Relay selected-preset rendered audit
+
+The official Broadcast:Relay listing preview opened the storefront branded broadcast-theme-relay. Inspected home, All collection, Contrast Jogger PDP and empty cart using rendered browser accessibility trees; added four selected-preset pages, source claims, one pattern, one qualitative observation and Batch25 report. Coverage: 55/127 distinct selected homes (51 indexed HTML + 4 rendered) and 16 rendered pages across four presets. No shopper actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance checks. Prestige:Prestige remains an exact-mapping blocker; next: Impulse:Dune.
+
+## 2026-10-26 — Batch 24 Enterprise selected-preset rendered audit
+
+Resolved the next selected preset to the storefront labelled Enterprise Theme Enterprise from the official listing's View demo. Inspected home, Smart Tech collection, Ecobee Smart Camera PDP and empty cart through read-only rendered browser accessibility trees. Added four selected-preset pages, one cross-platform pattern, one qualitative observation, source claims and Batch24 report. Coverage is 54/127 distinct selected homes (51 indexed HTML + 3 selected browser-rendered homes); rendered evidence is 12 pages across Savor, Refresh and Enterprise. No interactions, screenshot, viewport, mobile, editor, checkout, keyboard or performance tests. Prestige:Prestige remains a mapping blocker because its View demo opened the Allure family preview. Next: Broadcast:Relay.
+
+## 2026-10-26 — Batch 23 Prestige-family Allure preview; selected-preset mismatch
+
+Opened the official selected Prestige listing's View demo control. It resolved to `prestige-theme-allure.myshopify.com`, which brands itself Prestige - Allure. Since Allure does not match selected `prestige:prestige`, inspected family-level home, 65-item Women collection, Le Dino PDP and empty-cart evidence is explicitly unselected; selected coverage remains **53/127 unique homes across source types**, 51 indexed and 2 selected browser-rendered. Added a family-level audit record, source claims, one original pattern, one qualitative observation and Batch23 report. No actions, screenshot, viewport, mobile, editor, checkout, keyboard or performance tests. Next: resolve exact selected Prestige demo mapping; if unresolved, move to Enterprise while retaining Prestige as a blocker.
+
+## 2026-10-26 — Batch 22 Refresh rendered-browser audit (four pages)
+
+Resolved the next priority preset, Refresh, to https://theme-refresh-demo.myshopify.com/ using the official Shopify demo context and the demo host identified in a separate public report; directly inspected home, Hair collection, Shampoo PDP and empty cart with read-only rendered browser accessibility trees. Added four rendered-source pages separately from the indexed HTML counts. No screenshot, viewport measurement, cart action, checkout, mobile, Theme Editor, keyboard or VSN Lighthouse was tested.
+
+The Refresh page sequence covers hero/product quick-add, Hair/Body/Face/Kits category stories, editorial links, sale cards, product-information accordions and a routine cross-link. Added one source-linked design pattern and one qualitative observation; recorded merchant certification, material, origin and guarantee copy as unverified claims. A third-party automated accessibility report for v16.0.0 (dated September 29) is separate and older than the Shopify listing version observed for the theme; it is not a VSN test.
+
+Coverage remains **51/127 indexed homepage documents (40.2%)** plus **2 separately rendered homepages**, for **53/127 unique selected homepage sources observed (41.7%)**. 74 have no homepage source in either class. Stage 2 remains active; next priority: prestige:prestige.
+
+## 2026-10-26 — Batch 21 Savor rendered-browser audit (four pages)
+
+Resolved the top pending priority preset, Savor, to https://savor-theme-demo.myshopify.com/ using the official Shopify listing's demo path and a separate public accessibility report; then directly inspected the rendered read-only browser accessibility tree for home, All Products collection, Sweet Pineapple PDP and empty cart. Recorded four page observations separately from the indexed HTML bank; no screenshots, measured viewport, interactions, add-to-cart, checkout, mobile, Theme Editor, keyboard or VSN Lighthouse audit. No existing indexed page counts were incremented.
+
+Research adds one competitor-audit record, one source-linked pattern (food-multipack-merchandising) and one qualitative design observation. The Savor row in the 127 matrix now carries rendered evidence and updated blockers. Dashboard: **51/127 indexed homepage documents (40.2%)** plus **1 separately rendered homepage**, for **52/127 distinct selected homes observed (40.9%)**; 76 remain missing in the indexed-only count and 75 have no source of either type. The external AccessifyAI scan of Savor is recorded as a third-party automated report, not a VSN accessibility test or certification. PR #9 remains open and research-only.
+
+Next: audit **Refresh**, the next priority pending selected preset; maintain separate indexed/rendered evidence counts. Stage 2 remains active. No design direction, Figma file or theme code started.
+
 # Session handoff
 
 _Update at the end of every session (even mid-task). Newest entry on top._
+
+## 2026-10-26 — 127-record full status audit + Batch20 three genuinely new selected demo homepages
+
+User requested total completion this turn. Systematically reconciled all **127** official selected presets against independently opened demo bank, discovered **three net-new selected actual demo homepages** (Eurus Arise, Eurus Whiff, Vision Poochy); re-opened Prestige Strass/Vogue/Couture but these homepages were already credited in earlier batches and must NOT be counted again. Added **7 primary indexed Shopify demo HTML documents** (+3 home, +2 collection, +2 PDP) plus 4 supplementary indexed pages (Prestige Strass Bracelets, Vogue Cinnamon Sage Lip Balm, Couture Dresses, Eurus Whiff sustainability); source crawl ages range today to 1.1 years. Current **55 stores /151 primary HTML pages / 51 of 127 selected demo homes (40.2%, 76 pending)**, selected **38 collections/40 PDP/11 carts**. Four new source-mapped design/system patterns and six merchant claims QA guards added; 74 patterns /81 qualitative observations.
+
+Created machine-readable **all-127 `shopify-127-completion-matrix-2026.json`** and `shopify-127-audit-readiness-2026.md` with authoritative official listing URL, source age, per-template evidence class, missing pages, true blocking status, and explicit next steps for each selected preset. Added CI `scripts/research_127_coverage.py` to prevent false 127/127 demo claims or stage advancement. Full live demo research **NOT actually complete**: 76 selected demos plus 89 collection/87 PDP/116 cart sources missing; actual mobile, interaction, checkout, Lighthouse, private editor untested. Remain **Stage2**, no active Figma, no theme work. PR #9 open; research-only. Batch20 report `banks/research/competitors/shopify-live-demo-batch20-2026.md`.
+
+## 2026-10-25 — Batch 19 Release Serenity selected homepage HTML (+1) with FAQ supplemental
+
+Independently opened one additional **selected** premium demo homepage, `release-serenity.myshopify.com` for Release/Serenity by DigiFist; public HTML crawler recency last month. Separately fetched Serenity `/pages/faq`, **supplementary** outside primary 4-page page count. Homepage has five separately displayed Amanda handbag color cards (pink preorder), shop-the-look, journals, testimonials and before/after textual marker. Sample testimonial references bikini bottoms on handbags site; warranty/eco/30-day return promises unverified sample content. Three original option-mapped patterns, one qualitative observation and four merchant QA risks added, CI historic floor updated. **48/127 selected homepage sources (37.8%, 79 pending), 52 demo hosts / 144 primary indexed HTML pages** (52 home/40 collection/41 PDP/11 cart); selected deep sources 36/38/11 unchanged. No user clicks, mobile, cart mutation, checkout, editor or Lighthouse; old Figma archived. See `banks/research/competitors/shopify-live-demo-batch19-2026.md` and `shopify-source-claims-batch19-2026.json`. PR #9 remains open.
+
+## 2026-10-25 — Batch 18 vendor release regression plan / independent Vision reviewer, 0 newly retrieved premium demo HTML
+
+Reopened Shopify first-party Theme Store listings for Vision/Poochy (v18.0.0 release 2026-09-29), Ignite/Tails (v2.7.0 release 2026-09-09), Sleek/Jumped (v2.3.0 release 2026-06-16 in accessed listing), and FoxEcom's Sleek vendor page. Created **8 original QA cases** with accurate source types, intended merchant controls, exact VSN IDs and future planned tests (cart-line identity after app changes, safe-area dock, mega clipping, pixels, compatibility finder, product schema, market shipping goal/search, reduced motion). Separately annotated Theme-Hub independent reviewer-described Vision variant/compare interactions and five preset UX patterns as **third-party claims, not VSN executed tests**. CI enforces source types and all test flags false. No independently accessible new premium demo storefront URL found, so **selected 47/127 home (37.0%, 80 pending), 51 hosts/143 primary opened indexed HTML docs** unchanged. No active Figma, no theme development. Report `banks/research/competitors/shopify-vendor-regression-report-batch18-2026.md` and JSON source banks. Stage 2 PR #9 open.
+
+## 2026-10-25 — Batch 17 Release + Forest independently opened demo HTML
+
+Opened 2 more selected Shopify premium **Release-family** sample storefront homes: `release-main.myshopify.com` (Release/default fashion) and `release-living.myshopify.com` (Forest furniture, explicit vendor/theme proof). Added four source pages from default (home, collection, Black Puffer Edge PDP, empty cart) and two Forest pages (home, Living Room material-facet collection): **6 new primary documents**. Total now **51 stores /143 primary indexed HTML documents**; **47/127 selected homepages (37.0%, 80 pending)**; selected 36 collections, 38 PDPs, 11 carts. Three mapped original patterns, two observations and four merchant data/provenance cases added; historical CI floor updated. No browser interaction, checkout, mobile screenshots, Lighthouse or private Theme Editor. Forest PDP/cart still pending. Stage2 no active Figma; PR #9 open. Report `banks/research/competitors/shopify-live-demo-batch17-2026.md`.
+
+## 2026-10-25 — Batch 16 two newly verified premium live demo homepages (+6 primary HTML pages)
+
+CI failure was caused by stale Batch11 snapshot equality in `scripts/platform_feasibility_audit.py` (43==current), even after valid Batch16 45 selected verified home documents. Replaced with preserved historical 43 baseline and cumulative URL/preset/plan reconciliation. This is a test fix, not invented demo evidence. 
+
+Independently opened Impact Sound and Expanse Furniture demo storefronts, plus Impact MW07 Plus Leica PDP + historical empty /cart, Expanse Furniture 13-product collection and Alessi coffee-maker PDP. Selected preset **homepage 45/127 (35.4%), 82 pending**; **49** distinct hosts; **137** primary indexed public HTML pages (49 home/38 category/40 PDP/10 separate cart). **Two new selected PDPs**, plus one collection and one cart, together with two homes. Four original mapped research patterns, two observations, five source integrity merchant guardrails; source crawl ranges 2 days to 1.2 years. Opened HTML is not browser interaction, screenshot, checkout, mobile, Lighthouse or competitor editor. No Figma/design/theme code. See `banks/research/competitors/shopify-live-demo-batch16-2026.md` and `shopify-source-claims-batch16-2026.json`; research branch PR #9.
+
+## 2026-10-25 — Batch 15: 18 external PageSpeed samples + correction to Fetch cohort
+
+Added 18 independently **third-party eDIY-reported October 2026 homepage PageSpeed lab score snapshots** (5 Prestige, 5 Broadcast, 5 Expanse, Impulse, Symmetry, Savor), mapping mobile/desktop Lighthouse scores and reported mobile LCP/CLS/TBT per specific source page. These are NOT executed VSN Lighthouse/browser/mobile tests or new opened Shopify demo HTML. Research plan covers true Shopify Theme Store benchmark QA (homepage, collection, PDP on desktop/mobile; average >=60 performance, >=90 accessibility; three comparable runs/route with median). Corrected Batch14 factual error: **expanse:fetch is in selected 127** and was already verified in Batch5 live HTML; vendor-only recipe adds no new home visit. Updated Batch14 evidence/report, validators, research docs, and logs. **Coverage still 43/127 selected homes, 47 hosts, 131 primary HTML pages; 84 homes pending**. PR #9 research branch only; Stage 2 no active Figma or theme development. New report: `banks/research/competitors/shopify-performance-benchmark-batch15-2026.md`.
+
+## 2026-10-25 — Batch 14 official Expanse recipes and Shopify CSS/variant risks
+
+Official Archetype documentation independently rechecked; stored **5 source-linked ordered homepage recipes** (Expanse/Revive/Spritz/Fetch/Gem; **all 5 selected**, corrected Batch15), **23 normalized section mappings** to existing VSN elements/options and **6 unexecuted Shopify CSS-subsetting/high-variant/editor quality gates** based on official Shopify developers and Expanse v10 vendor notes. Noted missing native image comparison slider element as Stage 3 gap; do not pretend existing `comparison-table` is equivalent. No accessible new live preset home HTML verified, so **43/127 selected homes, 47 hosts, 131 primary HTML documents** unchanged. Old Figma archived, no theme development. Research is in `banks/research/competitors/shopify-vendor-homepage-recipes-expanse-batch14-2026.json`, `shopify-dynamic-render-qa-batch14-2026.json`, `shopify-vendor-homepage-research-batch14-2026.md`. CI rechecks mapping and claims.
+
+## 2026-10-25 — Batch 13 Horizon PDP / Spotlight empty cart + supplemental collection evidence
+
+Opened **2 new primary demo HTML documents**: Horizon tapered trousers PDP (six-image gallery, XS–XXL options) and Spotlight separately fetched empty /cart ($0 CAD). Recorded two separate supplemental faceted collections: Stiletto Glimmer Minis & Kits and Pitch Bundles. **47 hosts / 131 primary indexed HTML docs / 43 of 127 selected demo home sources (33.9%), 38 total PDPs, 9 cart sources**; selected PDP 35 / cart 9. Three evidence-linked patterns, three content integrity QA cases, and CI historical gates added. Browser UI/cart mutation/mobile/editor remain untested; no old Figma or theme code changes. Report: `banks/research/competitors/shopify-live-demo-batch13-2026.md`. Continue missing 84 demo homepages when independently retrievable; avoid vendor listing inflation.
+
+## 2026-10-25 — Batch 12 Shopify free-preset PDP deep evidence
+
+Opened five actual indexed PDP HTML source URLs (Pitch Age Serum, Sense BKIND Lip Balm, Publisher Braulio Amado 2021, Trade Turkish Cotton Towels, Studio Rhyme) and linked to existing selected preset records. Five source-integrity/merchant claim cases (not executed bugs), three new mapped patterns, five expanded observations. **47 hosts / 129 public HTML documents, 43/127 selected homepage sources unchanged, 34 selected PDPs (37 total).** Per-page indexed crawl age recorded; no cart/variant/mobile/editor interactions. PR #9 research branch; no active Figma, no theme development. Next remaining 84 selected home demos or deeper verified URLs. Report: `banks/research/competitors/shopify-live-demo-batch12-2026.md`.
+
+## 2026-10-25 — Batch 11 platform editor and Theme Store feasibility audit
+
+Fetched Shopify first-party block/section/setting constraints and Theme Store requirements; documented **15 original source-linked VSN architecture decisions**. Critical product-scope boundary flagged: the user requires Wishlist & Compare on all demos, but Shopify forbids app-dependent functionality in Theme Store themes/demos; preserve optional VSN app track and decide compliant demo representation before design approval. 192 conceptual elements must compile within 300-file block cap and other template/nesting limits. Reconciled CLAUDE.md and WORKFLOW.md with AGENTS.md (Stage 2, no active Figma, ChatGPT images only), added CI for mapping/instruction drift. **No new demo source opened; counts remain 43/127 home, 47 hosts / 124 HTML documents**. No theme or Figma code/design changed. See `banks/research/competitors/shopify-editor-feasibility-batch11-2026.md`; PR #9 remains open.
+
+## 2026-10-25 — Batch 10 official capability comparison (no demo count change)
+
+Freshly reopened Shopify official listing pages for Impact, Enterprise, Broadcast Relay and Savor. Created source-linked comparison of merchant-facing capabilities, Shopify Plus boundaries, vendor claims and original VSN implementation implications. This is **listing research**, not actual storefront or interactive testing. The Opera browser connector was denied; no real browser screenshots or clicks were performed. Demo count remains 43/127 selected home sources (47 hosts / 124 HTML documents). Stage 2 and archived-Figma policy unchanged. See `banks/research/competitors/shopify-capability-crosscheck-batch10-2026.md`. Continue remaining 84 real demo home audits without counting listings twice. PR #9 remains research-only.
+
+
+## 2026-10-25 — PR #9 Batch 9: 43/127 selected demo HTML homepages
+
+12 additional first-party Shopify demo hosts (Tinker, Origin, Atelier, Rise, Ride, Crave, Fabric, Vessel, Dwell, Heritage, Ritual, Pitch), each with home and collection HTML, plus 11 independently opened PDPs (Pitch PDP unverified). Totals **47 hosts / 124 indexed public HTML documents / 43 of 127 selected homepage sources (33.9%)**. Progress **███████░░░░░░░░░░░░░**. Added 5 source-linked AI patterns + 12 qualitative design observations and adjusted cumulative validator floor. Source crawl ages include last-year Ride collection and 9-month-old Rise PDP; no real interactive QA, mobile rendering, checkout or competitor Theme Editor. Stage 2 remains; old Figma superseded. All work on PR #9 branch, main unmodified pending merge. Next audit remaining 84 demo home sources. See `banks/research/competitors/shopify-live-demo-batch9-2026.md`.
+
+
+## 2026-10-25 — Batch 8: Seven Shopify first-party demo pages
+
+Added Horizon, Craft, Trade, Publisher, Sense, Spotlight and Studio public demo document sources. Total **35 hosts / 89 documents / 31 of 127 selected (24.4%)**. Added five mappings to AI pattern bank and seven design observations. Trade B2B account route is documentary evidence, not Shopify Plus plan entitlement. PR #9 still open; old Figma historical.
+
+
+## 2026-10-25 — Batch 7 appended to open PR #9, 24/127 coverage
+
+Opened **Prestige Signature** and **Broadcast Airwave** live demo HTML home pages, Airwave public collection and PDP, plus Enterprise **sections test storefront** home+collection (excluded from 127 preset denominator). Total 28 distinct hosts and 74 public HTML docs, 24/127 selected preset home coverage (18.9%). Three mapped patterns, three design observations, four proposed control groups and six source-bound risk notes. Continue using existing PR #9 branch until GitHub merge is permitted; prior merge call was blocked, don't claim `main` updated. No browser action/mobile/editor/checkout testing. Old Figma Stage 6 archived.
+
+
+## 2026-10-25 — Shopify demo research batch 6 (progress 22/127 = 17.3%)
+
+Six new selected storefronts: Stiletto Linen/Glimmer/Tapestry, Prestige Strass, Sleek Wildpeak, and Shopify Dawn. Total 25 demo hosts, 68 retrieved public indexed HTML documents; 22 of 127 selected demos now have opened home documents (17.3%). Deep category/product pages where retrievable, exact source-crawl recency, five new system patterns, six design observations and six truthful-claims QA cases. Added six **proposed** VSN control sets. This is not real-time click, checkout, responsive screenshot or Theme Editor verification. Keep displaying a per-batch progress bar. Stage 2 Research remains; old Figma is historical.
+
 
 ## 2026-10-25 — PR #8 Shopify live demo Batch 5; progress bar 16/127
 
@@ -210,3 +1111,410 @@ Tools: `node tools/theme-check.js` (Theme Check), `tools/liquid-render.js` (rend
 - Niche files are `seed`: several sources are search-result links not yet opened, and paid-theme preset
   details come from general knowledge. Stage 2 must verify each niche before design.
 - Competitor fingerprints are `approx`; verify against live demos in Stage 4.
+
+
+## Shopify live-demo research — Batch 31
+- Be Yours:Sheen official preset listing opened its rendered demo; read-only accessibility-tree inspections recorded home, 59-product Clothing collection, Shimmer Dress PDP and empty cart.
+- Coverage: 61/127 selected homes (51 indexed HTML + 10 browser-rendered); 40 rendered pages across 10 presets. 66 selected homes remain.
+- Batch report: `banks/research/competitors/shopify-live-demo-batch31-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch31-2026.json`.
+- No interaction, screenshot, viewport/mobile, Theme Editor, checkout or performance tests. Demo sale, stock, rating, shipping, pickup and return copy is unverified.
+- Next: `palo-alto:palo-alto`.
+
+
+## Shopify live-demo research — Batch 32
+- Palo Alto official preset listing View demo opened rendered storefront; inspected home, 304-product All Clothing collection, Sylvia Blazer PDP and empty cart read-only.
+- Coverage: 62/127 selected homes (51 indexed HTML + 11 browser-rendered); 44 rendered pages across 11 presets. 65 selected homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch32-2026.md`; claims: `banks/research/competitors/shopify-source-claims-batch32-2026.json`.
+- No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout or performance tests. Product, promo, stock, reviews, sustainability and fulfillment copy unverified.
+- Next: continue to next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 33
+- Pipeline official listing View demo opened Pipeline Clean. Read-only rendered inspections recorded home, All collection, Callie Layered Looker Cardigan PDP and empty cart.
+- Coverage: 63/127 selected homes (51 indexed HTML + 12 browser-rendered); 48 rendered pages across 12 presets. 64 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch33-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch33-2026.json`.
+- No interactions, screenshot, viewport/mobile, editor, checkout or performance tests. Sample stock, material, sustainability, promotion and fulfillment statements unverified.
+- Next: continue with next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 34
+- Focal official preset View demo: read-only home, 39-product iPhone Cases collection, Leather Case for AirPods Pro PDP and empty cart inspections.
+- Coverage: 64/127 selected homes (51 indexed HTML + 13 browser-rendered); 52 rendered pages across 13 presets; 63 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch34-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch34-2026.json`.
+- No shopper actions, screenshot, viewport/mobile, Theme Editor, checkout or performance testing. Device compatibility, inventory, promo, review, materials and fulfillment statements remain unverified.
+- Next: continue to the next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 38
+- Symmetry:Symmetry official View demo resolved to chantilly.myshopify.com; homepage and 68-product All Our Products collection inspected in rendered browser. Homepage screenshot captured. Borderline One Piece PDP inspected, but its route was truncated and omitted from URL-indexed evidence; cart could not be inspected after browser connection failure.
+- Coverage: 68/127 unique selected homes (51 indexed HTML + 17 rendered); 67 rendered pages across 17 presets; 59 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch38-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch38-2026.json`.
+- No shopping controls, mobile viewport, editor, checkout, keyboard or performance testing. Seller stock, ratings, fit and sustainability claims remain unverified.
+- Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 39
+- Official Impulse:Impulse View demo opened impulse-theme-fashion.myshopify.com. Read-only rendered inspection covered home, 36-product collection, The Ames Trouser PDP and empty cart. Home overlaps with prior indexed HTML evidence and does not increase unique homepage coverage.
+- Coverage: 68/127 unique selected homes (51 indexed HTML + 17 unique rendered homes); 71 rendered pages across 18 presets; 59 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch39-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch39-2026.json`.
+- No shopper controls, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing. Seller claims unverified; generic Example product cart cards appear demo-like.
+- Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 40
+- Official Symmetry:Amara View demo opened symmetry-amara.myshopify.com. Read-only rendered inspection covered home, 32-product Rings collection, Diamond Engagement Ring PDP and empty cart.
+- Coverage: 69/127 unique selected homes (51 indexed HTML + 18 additional rendered); 75 rendered pages across 19 presets; 58 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch40-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch40-2026.json`.
+- No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller material, fit, sourcing, inventory and service claims remain unverified.
+- Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 41
+- Official Broadcast:Broadcast View demo opened broadcast-theme-main.myshopify.com. Inspected rendered home, 109-product Bestsellers collection, Miro Signet Ring PDP and empty cart read-only.
+- Coverage: 70/127 unique selected homes (51 indexed HTML + 19 additional rendered); 79 rendered pages across 20 presets; 57 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch41-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch41-2026.json`.
+- No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing. Product sizes appeared unavailable; seller claims unverified; footer policy links led to 404.
+- Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 42
+- Official Broadcast:Motif View demo opened broadcast-motif.myshopify.com. Inspected rendered home, 117-product All collection, Checkered Tank PDP and empty cart read-only.
+- Coverage: 71/127 unique selected homes (51 indexed HTML + 20 additional rendered); 83 rendered pages across 21 presets; 56 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch42-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch42-2026.json`.
+- No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. PDP sizes appeared unavailable; seller copy remains unverified.
+- Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 43
+- Broadcast:Stellar official View demo resolved to broadcast-stellar.myshopify.com. Rendered home, 11-product Sunscreen collection, SPF 30 Lotion PDP and empty cart inspected; footer says demo products are not for sale. PDP sizes appeared unavailable. PDP and cart later inspected after browser connection recovered.
+- Coverage: 72/127 unique selected homes (51 indexed HTML + 21 additional rendered); 87 rendered pages across 22 presets; 55 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch43-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch43-2026.json`.
+- No collection/PDP/cart actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. SPF and seller claims unverified.
+- Next: continue next unobserved preset; continue with next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 44
+- Official Enterprise:Outlet View demo opened enterprise-theme-active.myshopify.com. Inspected rendered home, 819-product Shop All collection, chalk PDP and empty cart read-only.
+- Coverage: 73/127 unique selected homes (51 indexed HTML + 22 additional rendered); 91 rendered pages across 23 presets; 54 homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch44-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch44-2026.json`.
+- No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller claims unverified.
+- Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 45
+- Official Enterprise:Homestead View demo opened enterprise-theme-home.myshopify.com. Inspected home, 818-product All Products collection, Slant Table Lamp PDP and empty cart read-only.
+- Coverage: 74/127 unique selected homes (51 indexed HTML + 23 additional rendered); 95 rendered pages across 24 presets; 53 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch45-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch45-2026.json`.
+- No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller claims unverified.
+- Next: continue next unobserved selected preset.
+
+
+## Shopify live-demo research — Batch 46
+- Official Impact:Cocoon View demo opened impact-theme-home.myshopify.com. Inspected rendered home, New Arrivals collection, PC Portable Lamp PDP and empty cart read-only. Selected lamp showed Sold Out.
+- Coverage: 75/127 unique selected homes (51 indexed HTML + 24 additional rendered); 99 rendered pages across 25 presets; 52 unique homes remain.
+- Report: `banks/research/competitors/shopify-live-demo-batch46-2026.md`; source claims: `banks/research/competitors/shopify-source-claims-batch46-2026.json`.
+- No shopper actions/screenshot/viewport/mobile/editor/checkout/keyboard/performance tests. Seller and durability claims unverified.
+- Next: continue next unobserved selected preset.
+
+
+## Batch 48 — Prestige:Couture (2026-10-26)
+
+- Official selected preset View demo opened `https://prestige-theme-couture.myshopify.com/`; home, Dresses collection, Edie Cascade Wrap Mini Dress Black PDP and empty cart inspected read-only.
+- Coverage remains 75/127 unique homes because Couture home was already indexed; rendered evidence 103 pages across 26 presets, 52 unique homes remain.
+- Prestige:Prestige listing View demo routes to an Allure-branded host; not counted pending matching demo mapping.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch48-2026.md`. Continue next truly unobserved preset after CI passes.
+
+
+## Batch 49 — Impact:Balance (2026-10-26)
+
+- Official selected preset View demo opened `https://impact-theme-shape.myshopify.com/`; home, New Arrivals, Silhouette Bra PDP and empty cart inspected read-only.
+- Coverage now 76/127 unique homes, 107 rendered pages across 27 presets; 51 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch49-2026.md`. No shopper actions or viewport tests; continue after CI passes.
+
+
+## Batch 50 — Focal:Quartz (2026-10-26)
+
+- Official selected preset View demo opened `https://focal-theme-quartz.myshopify.com/`; home, 59-product Men's Watches collection, 1969 Vintage Steel / White PDP and empty cart inspected read-only.
+- Coverage now 77/127 unique homes, 111 rendered pages across 28 presets; 50 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch50-2026.md`. No shopper actions or viewport tests; continue after CI passes.
+
+
+## Batch 51 — Warehouse:Warehouse (2026-10-26)
+
+- Official selected preset View demo opened `https://warehouse-theme-metal.myshopify.com/`; home, 75-product Headphones collection, Shure SRH440 PDP and empty cart inspected read-only.
+- Coverage now 78/127 unique homes, 115 rendered pages across 29 presets; 49 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch51-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
+
+
+## Batch 52 — Prestige:Vogue (2026-10-26)
+
+- Official selected preset View demo opened `https://prestige-theme-vogue.myshopify.com/`; home, 10-product Kits collection, Brazilian Supermask Masque + Brush Kit PDP and empty cart inspected read-only.
+- Vogue homepage already existed in indexed HTML evidence; four rendered pages added. Coverage is 78/127 unique homes, 119 rendered pages across 30 presets; 49 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch52-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
+
+
+## Batch 53 — Prestige:Strass (2026-10-26)
+
+- Official selected preset View demo opened `https://prestige-theme-strass2.myshopify.com/`; home, 14-product Necklaces collection, Mineral Alliance Green Aventurine necklace PDP and empty cart inspected read-only.
+- Strass homepage already existed in indexed HTML evidence; four rendered pages added. Coverage is 78/127 unique homes, 123 rendered pages across 31 presets; 49 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch53-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
+
+
+## Batch 54 — Prestige:Signature (2026-10-26)
+
+- Official selected preset View demo opened `https://prestige-theme-signature.myshopify.com/`; home, 13-product Pumps collection, Simone Pumps 110 PDP and empty cart inspected read-only.
+- Signature homepage already existed in indexed HTML evidence; four rendered pages added. Coverage 78/127 unique homes, 127 rendered pages across 32 presets; 49 remain.
+- Evidence/report: `banks/research/competitors/shopify-live-demo-batch54-2026.md`. No shopper actions or viewport tests; continue next unobserved preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 59 (Broadcast:Airwave)
+
+**Done**
+- Opened official Shopify Broadcast:Airwave listing View demo and inspected the rendered home, five-item All Products collection, House Blend PDP and empty cart read-only.
+- Updated browser-render evidence, selected-preset matrix, audit page coverage, design observation, progress/handoff and source-claims report.
+- Indexed home/collection/PDP already existed; unique homepage coverage stays 79/127 (51 indexed HTML + 28 additional rendered); rendered total is 147 pages across 37 presets; 48 homes remain.
+- Observed $100 homepage and $50 PDP free-shipping copy; not reconciled/tested. Cart was empty and unchanged.
+
+**Limits**
+- No shopper interactions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing; seller/product/inventory claims remain unverified.
+
+**Next**
+- Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure rather than Prestige.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 60 (Impact:Impact)
+
+**Done**
+- Opened official Impact:Impact listing View demo and inspected the home, Headphones collection, MW07 Plus PDP and empty cart read-only.
+- Opened Shop navigation to locate the collection route; no merchandising or cart controls were activated.
+- Updated rendered evidence, matrix, audit coverage, design observation, comparison pattern, progress and batch report/source claims.
+- Homepage already existed in indexed HTML: coverage remains 79/127 (51 indexed HTML + 28 additional rendered); rendered total 151 pages across 38 presets; 48 homes remain.
+
+**Limits**
+- No filter, sort, pagination, variant, gallery, quantity, add-on, cart, checkout, screenshot, viewport/mobile, Theme Editor, keyboard or performance testing; seller/product/inventory/review claims unverified.
+
+**Next**
+- Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 61 (Focal:Ivory)
+
+**Done**
+- Opened official Focal:Ivory listing View demo and inspected home, Outerwear collection (8 products/five facet groups), Evaline e54 Blazer PDP and empty cart read-only.
+- Updated rendered evidence, matrix, audit coverage, design observation, Focal editorial pattern, progress and source/report files.
+- Homepage already existed in indexed HTML; coverage stays 79/127 (51 indexed HTML + 28 additional rendered); rendered total 155 pages across 39 presets; 48 homes remain.
+
+**Limits**
+- No shopping-control actions, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance testing; merchant claims unverified.
+
+**Next**
+- Continue next unobserved selected preset; Prestige:Prestige remains uncounted due earlier official demo routing to Allure.
+
+
+## 2026-10-26 — Shopify demo availability check Batch 62
+
+**Done**
+- Opened official Shopify Theme Store listings for Focal:Sapphire and Warehouse:Wood. The preview frame remained blank after selecting “View demo”; the control became disabled.
+- No storefront pages were verified or counted. Counts remain 79/127 unique homepages, 155 rendered pages across 39 presets, and 48 unique homepages remaining.
+- Refreshed PR #9 with Batch 61 evidence, CI pass and current preview blockers.
+
+**Next**
+- Continue with a selected preset whose public storefront can be independently verified; do not infer a demo host from the theme name.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 63 (Warehouse:Wood)
+
+**Done**
+- Verified the official listing's demo iframe source and inspected homepage, Tableware collection (46 products/four filters), Amelia Tea Pot PDP and empty cart read-only.
+- Homepage was already indexed, so coverage remains 79/127 unique; rendered evidence grows to 159 pages across 40 presets; 48 unique homes remain.
+- No interaction, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests.
+
+**Next**
+- Continue next unobserved preset; verify actual store host from official listing/primary evidence.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 64 (Focal:Sapphire)
+
+**Done**
+- Verified the Focal:Sapphire official listing iframe src and inspected homepage, 117-product Earrings collection (five facets), Double Météorites Stud Earrings PDP and empty cart read-only.
+- Home/cart already existed as indexed HTML; unique coverage remains 79/127, rendered total becomes 163 pages across 41 presets; 48 homes remain.
+- No actions, screenshot, viewport/mobile/editor/checkout/keyboard/performance tests.
+
+**Next**
+- Continue with the next unobserved selected preset and verify its storefront through an official listing or first-party source.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 65 (Expanse:Expanse)
+
+**Done**
+- Verified the official Expanse listing's embedded storefront and inspected home, Planters collection (12 products/four filter groups), Trigg Wall Vessel PDP and empty cart drawer read-only.
+- Homepage already existed as indexed HTML; coverage remains 79/127 unique homes (51 indexed + 28 additional rendered). Rendered total is 167 pages across 42 presets; 48 homes remain.
+- Updated rendered evidence, completion matrix, audit note, design observation, large-catalog pattern, progress and batch report/source claims.
+
+**Limits**
+- No filters, sort, view density, variants, zoom, add-to-cart, checkout, screenshot, viewport/mobile, editor, keyboard or performance tests. Seller claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 66 (Expanse:Revive)
+
+**Done**
+- Verified the official Revive listing iframe host and inspected home, Face Mists collection (13 products/four filters), Valmont Priming With a Hydrating Fluid PDP and empty cart drawer read-only.
+- This storefront was not previously recorded as a selected homepage, increasing unique coverage to 80/127 (51 indexed + 29 additional rendered); rendered total is 171 pages across 43 presets; 47 remain.
+- Updated evidence, matrix, audit notes, design observation, promotion pattern, progress and report/source claims.
+
+**Limits**
+- No shopping controls, screenshot, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Seller and promotional claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 67 (Expanse:Gem)
+
+**Done**
+- Verified the official Gem listing iframe host; inspected home, Earrings collection (9 items, two facets, Stud/Hoop shortcuts), Karasuba PDP and dedicated empty cart read-only.
+- Coverage: 81/127 selected homes (51 indexed + 30 additional rendered); 175 rendered pages across 44 presets; 46 remain.
+- Updated evidence, matrix, audit note, design observation, large-catalog pattern, progress and report/source claims.
+
+**Limits**
+- No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 68 (Expanse:Spritz)
+
+**Done**
+- Verified official Spritz listing iframe host (same URL as older historical nonselected record); inspected homepage, 5-product Everything. Organic Wine collection, Organico Lemon Refresher PDP and empty cart drawer read-only.
+- Counted the first selected Spritz homepage at 82/127 unique homes (51 indexed + 31 additional rendered); 179 rendered pages across 45 presets; 45 remain.
+- Updated evidence, matrix, audit note, design observation, promotion pattern, progress and report/source claims.
+
+**Limits**
+- No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance tests. Seller and promotion claims unverified.
+
+**Next**
+- Continue the next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 69 (Expanse:Fetch)
+
+**Done**
+- Verified the official Fetch listing iframe host; inspected home, Walking Kits collection (22 products, three facets), Pink Dog Collar Walk Kit + Poop Bag Holder + Pins PDP and empty cart drawer.
+- Home, collection and cart already had indexed HTML; unique count remains 82/127. Rendered count is 183 pages across 46 presets; 45 remain.
+- Updated evidence, matrix, audit note, design observation, catalog pattern, progress and report/source claims.
+
+**Limits**
+- No collection/product/cart controls, screenshots, viewport/mobile, editor, checkout, keyboard or performance tests. Seller claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 70 (Local:Local)
+
+**Done**
+- Verified Local:Local listing iframe; inspected grocery home, 6-product Bread & Bakery collection (Price/Product type/Availability/Allergens), Sourdough Perth PDP with nutrition and store pickup, and empty cart.
+- Homepage already existed as indexed HTML; unique coverage remains 82/127. Rendered evidence becomes 187 pages across 47 selected presets; 45 homes remain.
+- Updated rendered evidence, matrix, audit note, design observation, catalog pattern, progress and report/source claims.
+
+**Limits**
+- No filter, sort, compare, variant, cart or checkout actions; no screenshot, viewport/mobile, editor, keyboard or performance tests. Retailer claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## 2026-10-26 — Shopify rendered demo research Batch 71 (Local:Soleway)
+
+**Done**
+- Verified official Soleway listing iframe host; inspected footwear home, 8-product Men's Best Sellers (four facets), Timberland boot PDP and empty dedicated cart read-only.
+- New selected homepage raises coverage to 83/127 (51 indexed + 32 additional rendered); 191 rendered pages across 48 presets; 44 remain.
+- Updated evidence, matrix, audit note, design observation, catalog pattern, progress and report/source claims.
+
+**Limits**
+- No filter, sort, variant, zoom, add-to-cart, checkout, screenshot, viewport/mobile, editor, keyboard or performance tests. Merchant claims unverified.
+
+**Next**
+- Continue next unobserved selected preset.
+
+
+## Shopify mobile review — Batch 131 (2026-10-27)
+- Completed mobile preview inspection for all 127 selected Shopify presets at 360×640 CSS px.
+- Final count: 127/127 visually reviewed, 0 unreviewed. Two views had limited hero clarity: Eurus:Arise (cookie consent overlay/soft background) and Stiletto:Luster (soft hero media); headers and mobile composition were still reviewed and limitations are recorded per preset.
+- Retry cleared prior blur cases for Local:Caffeine, Local:Lively, Empire:Forma, Sleek:Jumped, Eurus:Placid/Whiff, Release:Grasse, Shapes:Fizz/Aura, Vision:Vision, Rise:Rise, and Stiletto:Linen.
+- Report: `banks/research/competitors/shopify-mobile-review-batch131-2026.md`.
+- Next: synthesize mobile patterns into design research; no Theme Editor, checkout, Lighthouse, or shopper interaction testing was included.
+
+
+## Shopify mobile design synthesis — Batch 132 (2026-10-27)
+- Converted the completed 127-preset mobile sweep into six qualitative competitor observations and five responsive design patterns.
+- Added `banks/research/competitors/shopify-mobile-synthesis-2026.md`; linked mobile evidence from design bank README, Shopify research report, audit readiness and cross-platform closeout.
+- Visual fingerprint status remains conservative: mobile qualitative evidence does not verify desktop, product, collection or interaction dimensions.
+- Next: targeted mobile interaction reviews for drawer/search, collection filters/sort, variant selection and cart drawer; avoid purchase/checkout.
+
+
+## Shopify targeted interaction sample — Batch 133 (2026-10-27)
+- Four new read-only interaction observations added on Enterprise:Enterprise and Prestige:Couture, alongside the earlier Ignite:Peak age-gate CTA test. Three presets now have targeted interaction evidence.
+- Enterprise cascade finder resolved Smart Tech → Home Technology → Smart Cameras to 7 products; collection filters/sort opened; an empty cart drawer showed a $0 state and product recommendations.
+- Prestige:Couture selecting size S updated the selected state and stock text from 4 to 3; no add-to-cart action followed.
+- Interaction pass ran at 1363×936 CSS px in normal browser mode, not the 360×640 preview. No checkout, theme editor, accessibility or Lighthouse testing.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch133-2026.md`.
+- Next: continue the next selected preset's menu/search or PDP/cart interaction workflow; keep purchases and checkout out of scope.
+
+
+## Shopify targeted interaction sample — Batch 134 (2026-10-27)
+- Added Impulse:Impulse Quick View interaction on the related-product rail. The Vela Shirt modal showed imagery, sale/compare-at price, description, size-chart access, stock state and accordions while retaining the Lido Short PDP context.
+- No cart action, purchase, checkout, Theme Editor, keyboard/accessibility or Lighthouse test.
+- Interaction evidence at 1363×936 CSS px; mobile visual review remains separately complete at 127/127.
+- Totals: 4 presets / 6 interaction observations; 123 presets remain for interaction sampling.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch134-2026.md`.
+- Next: continue representative interactions on a new preset without purchase or checkout.
+
+
+## Shopify targeted interaction sample — Batch 135 (2026-10-27)
+- Impulse:Dune: selected size M on the Naked & Famous Crewneck PDP. M became active, S inactive, and the URL reflected the selected variant ID; the in-stock status remained unchanged.
+- No cart mutation, purchase, checkout, Theme Editor, keyboard/accessibility or Lighthouse check.
+- Overall: 5 presets / 7 interaction observations; 122 presets remain pending. Completed presets are marked in the matrix and excluded from the pending interaction count.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch135-2026.md`.
+- Next: continue the next untested selected preset.
+
+
+## Shopify targeted interaction sample — Batch 136 (2026-10-27)
+- Impulse:Terrain: selected size M on the 2016 Carbine Expert Build PDP. M became active, S inactive, and the URL reflected variant ID `7839884836925`; stock text stayed unchanged.
+- No cart mutation, purchase, checkout, Theme Editor, keyboard/accessibility or Lighthouse checks.
+- Overall: 6 presets / 8 interaction observations; 121 presets remain pending. Completed presets are excluded from the pending interaction count.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch136-2026.md`.
+- Next: continue with the next untested selected preset.
+
+
+## Shopify Tier 1 interaction group closeout — Batch 137 (2026-10-27)
+- Completed and verified one read-only interaction on each of the 27 Tier 1 pending presets.
+- The 27 presets are marked in the completion matrix and removed from `pending_interaction_groups`; the completed group is archived with preset IDs and closeout report.
+- Overall targeted interactions: 33 presets / 35 observations. Remaining interaction presets: 94.
+- No cart mutation, checkout, Theme Editor, keyboard/accessibility or Lighthouse testing.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch137-2026.md`.
+- Next: Tier 2.
+
+
+## Batch 138 — Tier 2 interaction group closeout (2026-10-27)
+
+- Verified one live interaction on all 33 Tier 2 presets and removed the group from pending.
+- Overall targeted interaction evidence: 66/127 presets across 68 observations; 61 remain (Tier 3: 6, Tier 4: 38, other selected families: 17).
+- Mobile visual review remains 127/127 at 360×640 CSS px; two limited-clarity hero previews remain documented.
+- One accidental quantity-2 add-to-cart state occurred on Stiletto:Linen during control targeting; both units were removed and the final demo cart was verified empty. No checkout or payment occurred.
+- Stiletto:Stiletto's selected product URL returned 404; the public homepage search modal was used as the same-preset fallback.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch138-2026.md`.
+- Next: Tier 3 (6 presets).
+
+
+## Batch 139 — Tier 3 interaction group closeout (2026-10-27)
+
+- Verified one live interaction on all 6 Tier 3 presets and removed the group from pending.
+- Overall targeted interaction evidence: 72/127 presets across 74 observations; 55 remain (Tier 4: 38, other selected families: 17).
+- Mobile visual review remains 127/127 at 360×640 CSS px; two limited-clarity hero previews remain documented.
+- Report: `banks/research/competitors/shopify-interaction-sample-batch139-2026.md`.
+- Next: Tier 4 (38 presets).

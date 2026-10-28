@@ -1,0 +1,7 @@
+# Shopify live-demo research — Batch 91: Sleek Glint (2026-10-27)
+
+- Official Shopify listing: https://themes.shopify.com/themes/sleek/presets/glint
+- Rendered storefront: https://sleek-glint.myshopify.com/
+- Read-only routes inspected: home https://sleek-glint.myshopify.com/; collection https://sleek-glint.myshopify.com/collections/all; product https://sleek-glint.myshopify.com/products/kennith-short; cart https://sleek-glint.myshopify.com/cart.
+- Observations: Home/garden/workwear hybrid homepage uses garden-bed campaign slides, Planting Essentials/Harvesting Gear/Garden Goods category rails, shoppable lookbook, linen copy, bundle promo, reviews, store locator/contact and newsletter. Mixed apparel and gardening content. Shop All reports 70 products, facets for Product type, Price, Color, Size and Availability (70 in stock, 0 out), Best selling sort and pagination through page 5. Facet labels mix gardening tools and apparel; controls untouched. Kennith Pant PDP reached through a visible homepage product link despite the short slug; page shows pickup availability and complementary/related products. Captured AX tree included pickup region and accessory suggestions; full price/variant details were not retained in this checkpoint, so details remain unverified. Dedicated cart route is empty and recommends Accessories, Jackets & Coats, Bottoms and T-shirts collections.
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Merchant claims remain unverified.

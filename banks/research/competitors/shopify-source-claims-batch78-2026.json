@@ -1,0 +1,54 @@
+{
+  "batch": 78,
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "stiletto:glimmer",
+  "official_listing_url": "https://themes.shopify.com/themes/stiletto/presets/glimmer",
+  "iframe_src_observed": "https://stiletto-theme-organic.myshopify.com/",
+  "redirected_storefront": "https://stiletto-theme-glimmer.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://stiletto-theme-glimmer.myshopify.com/",
+      "observations": [
+        "Home presents a back-in-stock Flower Mist hero, Om Organics demonstration attribution, skincare product and bundle shelves, video product section, skin-concern and product-type discovery, minis promotion, best sellers, brand/impact messaging, journal and email capture.",
+        "Visible modules include several zero-valued counters, historic promotional end dates, and seller-provided organic/clean/sustainability copy; record as demo content, not current business/product facts."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://stiletto-theme-glimmer.myshopify.com/collections/face",
+      "observations": [
+        "Face collection shows 21 results and Best selling sort, with Product type, Skin Type, Price, Availability and Size filter sections.",
+        "Product cards show size and price cues. No facets, sort, Quick View or product card control was activated."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://stiletto-theme-glimmer.myshopify.com/collections/face/products/marula-face-oil",
+      "observations": [
+        "Marula Face Oil PDP shows sale/new badges, compare-at $18 and $15.30 sale price, size 60 ml selected, quantity control and Add to Bag, related-product shelf and seller-linked product description.",
+        "No option, quantity, accordion or purchase control was used; prices, ingredients, stock and seller efficacy claims remain unverified."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://stiletto-theme-glimmer.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart reports Your cart is empty and There are no items in your cart, with Continue Shopping and collection/footer/newsletter content.",
+        "No cart mutation or checkout."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "Glimmer homepage was already indexed; browser-rendered home adds no unique-home credit.",
+    "No filters, sort, Quick View, size, quantity, cart mutation or checkout interactions.",
+    "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance tests.",
+    "Merchant product, ingredients, efficacy, inventory, sustainability, fulfillment and promotion claims are unverified."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch78-2026.md"
+}

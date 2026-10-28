@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-25",
-  "note": "Qualitative observations only; do not mark exact 12-dimensional fingerprints verified until a human or visual screenshot audit captures the live demo across templates and breakpoints.",
+  "updated_at": "2026-10-28",
+  "note": "Qualitative observations include source-linked live storefront evidence and the 127-preset 360×640 CSS px mobile preview sweep. Fingerprints remain approximate until a comparable visual audit covers desktop, collection, product and mobile views at defined breakpoints.",
   "observations": [
     {
       "id": "woo-flatsome-mega",
@@ -73,12 +73,13 @@
     },
     {
       "id": "shopify-prestige",
-      "evidence_level": "official_preset_page",
+      "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "claimed lookbook/media merchandising",
-        "claimed configurable sections"
+        "Campaign hero, best-seller navigation, category shelves and editorial brand sections",
+        "65-item Women collection with visible sorting/filter and density controls",
+        "Color-linked bag PDP and empty cart; rendered destination title differs from listing preset"
       ],
-      "design_hypothesis": "Premium editorial visual hierarchy; no exact screenshot fingerprint captured."
+      "design_hypothesis": "The destination storefront pairs luxury bag merchandising with editorial campaigns, shoppable looks and product storytelling. Since the official Prestige listing preview resolved to a store titled Allure, treat this as a verified rendered destination with a mapping caveat rather than a clean preset-to-store identity."
     },
     {
       "id": "shopify-warehouse",
@@ -244,9 +245,13 @@
       "homepage_modules": [
         "nested clothing/capsules categories",
         "campaign slides and collection shelves",
-        "lookbook, brand story and journal"
+        "lookbook, brand story and journal",
+        "free-shipping banner and luxury navigation",
+        "new-collection hero and weekly selection",
+        "category tiles, Shop the Look, press/blog and featured product",
+        "brand values, boutique details, service assurances and newsletter"
       ],
-      "design_hypothesis": "Actual public HTML describes modules, not pixel-perfect visual hierarchy; screenshots/mobile testing remain pending."
+      "design_hypothesis": "Editorial luxury positioning can coexist with practical shopping routes when category, product options, stock, shipping and returns stay accessible."
     },
     {
       "id": "shopify-live-prestige-vogue",
@@ -254,9 +259,12 @@
       "homepage_modules": [
         "Face and Body taxonomy with promotional mega-menu tiles",
         "featured Masques/Lips tab selector",
-        "direct add-to-cart product shelf and kits"
+        "direct add-to-cart product shelf and kits",
+        "BODY GLOW + SHINE campaign hero",
+        "Skincare/body/hair/kits category routes and bundle merchandising",
+        "Before/after story, featured product options, customer stories, journal and newsletter"
       ],
-      "design_hypothesis": "Actual public HTML describes modules, not pixel-perfect visual hierarchy; screenshots/mobile testing remain pending."
+      "design_hypothesis": "Beauty shopping can connect a focused campaign to bundles and product education when customers can scan product content, disclosures and recommendations before acting; existing public HTML and browser-rendered structure do not establish pixel-perfect hierarchy."
     },
     {
       "id": "shopify-live-area-technical",
@@ -282,9 +290,12 @@
       "id": "shopify-live-empire-depot",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Multi-level tool/hardware department navigation, quick-shop and compare controls, sale and pre-order states"
+        "Department-oriented category/industry navigation and search selector",
+        "Hero and compare shelf expose stock, rating, price and sale states",
+        "Featured product block and best-seller shelf bridge to detailed catalog",
+        "Sale/countdown, category directory, articles and service navigation"
       ],
-      "design_hypothesis": "Public HTML confirms element semantics, not exact layout/behaviour on devices; future screenshot-based fingerprint required."
+      "design_hypothesis": "The rendered Depot flow pairs a merchandise-attribute directory with technical product detail and multiple stock states; expose truthful stock and specification information, while leaving compare and quote behavior clearly scoped. Browser render establishes visible structure only, not interactions or claim truth."
     },
     {
       "id": "shopify-live-wonder",
@@ -328,25 +339,21 @@
         "multi-level pantry/produce/bakery/dairy/drinks navigation with promo cards",
         "pickup store preference and delivery estimate labels",
         "best sellers, organic diet badges and food content sections",
-        "store hours/location cards and newsletter"
+        "store hours/location cards and newsletter",
+        "Browser render adds fresh/organic hero, bakery & category rails, star-rated/allergen-aware best sellers, store/delivery selection, kitchenware and meal modules, recipes, events and nutritional detail."
       ],
-      "design_hypothesis": "HTML content evidence supports feature presence but not interactive functionality, screenshots or a unique visual fingerprint."
-    },
-    {
-      "id": "shopify-live-impulse-default",
-      "evidence_level": "live_demo_page",
-      "homepage_modules": [
-        "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source"
-      ],
-      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access."
+      "design_hypothesis": "For grocery retail, pair product discovery with allergen/nutrition context and store-level pickup/delivery; rendered page content supports these modules, while fulfillment, ratings and nutrition claims remain unverified."
     },
     {
       "id": "shopify-live-symmetry-salt-yard",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Category/sale rails, pre-order and sold-out cards, size/color swatches and promotional service banners"
+        "Apparel hero and category/promo tiles",
+        "Essentials, New Arrivals and pre-order product shelves",
+        "Sustainability and magazine storytelling",
+        "Service assurances, store content and newsletter"
       ],
-      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access."
+      "design_hypothesis": "Pre-order availability, fit guidance and pickup details can reduce uncertainty on apparel PDPs; organic and ethical sourcing disclosures support editorial storytelling. These are rendered observations only, not interaction or visual QA."
     },
     {
       "id": "shopify-live-expanse-food-drink-legacy",
@@ -363,20 +370,24 @@
         "Department navigation by Furniture, Lifestyle and Room with promotional category tiles",
         "Search field with All categories selector; brand directory and new arrivals",
         "Featured collection shows per-product stock messages, 1 left, back in stock, restocking, variant prices",
-        "Featured teapot block has SKU, review indicator, colour and Add to cart markup"
+        "Featured teapot block has SKU, review indicator, colour and Add to cart markup",
+        "Nordic design hero and brand identity",
+        "Department/category tiles and brand directory",
+        "Featured collection with price and inventory cues",
+        "Featured PDP and sales/promotional shelves",
+        "Newsletter, blog and service/footer content"
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "For home-goods stores with broad assortments, make brand and room/category discovery visible before dense product shelves; keep stock, discount, and variant cues on cards, then reinforce discovery with a concrete featured product and editorial trust content. Rendered structure only; interactions and visual QA were not tested."
     },
     {
       "id": "shopify-live-focal-ivory",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Distinct Women and Men taxonomy and rich promotional mega-menu",
-        "Large image-led editorial hero/campaign, Essentials, clothing and Lookbook sections",
-        "Homepage HTML exposes empty cart drawer with notes and continue shopping",
-        "Country/currency selection and localized navigation text"
+        "Women/Men fashion home uses campaign hero and a Summer Sale announcement ('up to 60% off'), followed by Shop Essentials with gender tabs and a multi-item product shelf.",
+        "Promotional product cards show sale prices, color counts, new/sold-out badges; an Essentials category grid, lookbook, seasonal Home Sanctuary campaign, sustainability story and a featured dress PDP follow.",
+        "Journal cards, retailer/store details, brand history, service messaging and newsletter complete the page; official demo iframe also showed a 10%-off signup popup. Seller sustainability/shipping/store claims remain unverified."
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "Ivory layers gender-based editorial navigation and seasonal brand storytelling with a sale-led clothing grid, lookbook, featured PDP and store/journal modules. Structural only; no screenshots/viewport audit."
     },
     {
       "id": "shopify-live-focal-sapphire",
@@ -385,31 +396,35 @@
         "Jewelry categories by collection, item type and color",
         "Roma Collection hero, lookbook and editorial product storytelling sections",
         "Language/region selection and free delivery threshold presented",
-        "Collection/world journal and sustainability content"
+        "Collection/world journal and sustainability content",
+        "trending product-type tabs and rated earrings shelf",
+        "three collection tiles and category promo grid",
+        "shoppable featured ring, hotspots and video storytelling",
+        "brand timeline, quality/service promises and newsletter"
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "The jewelry preset layers collection-led storytelling with category shortcuts, review cues and shoppable editorial content. Preserve an easy path from hero to product discovery; validate product, material and fulfillment claims before relying on them."
     },
     {
       "id": "shopify-live-symmetry-beatnik",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Eyewear department mega menu with Men/Women and New Arrivals/Best Sellers",
-        "Brand narrative on recycled sustainable frames and split campaign heroes",
-        "Sale/countdown and multilingual storefront content in document",
-        "Product shelves link to specific model names, blog and brand stories"
+        "Eyewear campaign hero and men's/women's collection links",
+        "Bestseller shelf and sale countdown",
+        "Material/sustainability narrative and product style content",
+        "Customer quotes, blog, store details and newsletter"
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "Eyewear PDPs may need clear lens protection, prescription and fit information beside color and purchase choices, with materials and brand story available nearby. Merchant claims and interactive behavior remain unverified."
     },
     {
       "id": "shopify-live-symmetry-duke",
       "evidence_level": "live_demo_page",
       "homepage_modules": [
-        "Skateboard and apparel category hero with inventory states: preorder/sold-out/new arrival",
-        "Product shelves include color swatches and three-in-stock labels",
-        "Header announcement promises shipping $100 while inner service tile says $35; contexts not confirmed",
-        "Newsletter, collaboration/story sections and marketing reviews"
+        "Skateboard campaign hero and shop-department links",
+        "Deck and latest-apparel product carousels with preorder/sold-out states",
+        "Artist, collaboration, review and blog storytelling",
+        "Service promos, social gallery and newsletter"
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "Skateboard catalogs can connect artist-led deck products to apparel, collaboration stories and preorder availability, while delivery promises should match the applicable product and market. Claims and interactive behavior remain unverified."
     },
     {
       "id": "shopify-live-expanse-fetch",
@@ -419,9 +434,1880 @@
         "Color-coordinated product bundles and positive sale compare-price messaging",
         "Shop-the-look, customer stories and sustainable material claims in content",
         "Cart drawer source includes empty subtotal and checkout-calculated taxes/shipping",
-        "Promotion countdown visual placeholders show no resolved timer value"
+        "Promotion countdown visual placeholders show no resolved timer value",
+        "Browser-rendered Fetch campaign hero, coordinated dog-walk bundles, grooming shelf, sustainability/adoption blocks, category routes, testimonials, shipping threshold and blog."
       ],
-      "design_hypothesis": "Indexed public HTML only (see crawl recency); not a screenshot, click, mobile or editor validation. Use original Shopify design elements."
+      "design_hypothesis": "Pet accessory stores can tie color and size options to bundled walk kits, practical care content, adoption/social proof and clear shipping; live behavior and sustainability claims remain unverified."
+    },
+    {
+      "id": "shopify-live-stiletto-linen",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shoes navigated by footwear category and color; New/Best Sellers shelves, Quick View labels and compare-at prices",
+        "Rendered home adds sale/countdown, shop-the-look hotspots, editorial/journal and brand story",
+        "Footwear collection shows 69 results with product type/color/size/price/availability filters and Featured sort",
+        "Teddy Heel PDP shows size choices, size guide, stock copy and care/shipping sections"
+      ],
+      "design_hypothesis": "Footwear retail can connect style-category discovery and featured products to size guidance and product care; browser-render only, with no visual screenshot or interactions. Claims about product and fulfillment remain unverified."
+    },
+    {
+      "id": "shopify-live-stiletto-glimmer",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shop by skin concern and product type, Face/Body/Lip discovery, minis and skincare bundles",
+        "Product/video shelves, best sellers, collection/filter entry points and sale messaging",
+        "Face collection with product type, skin type, price, availability and size groups",
+        "Marula Face Oil PDP with size, price, quantity/add controls and related recommendations"
+      ],
+      "design_hypothesis": "Skincare stores can organize product discovery around concerns, type, size and bundles, with education and brand impact sections; rendered structure only, no control validation or visual audit. Health, ingredient and efficacy claims remain unverified."
+    },
+    {
+      "id": "shopify-live-stiletto-tapestry",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Handmade ceramics and pottery-class hero with collection navigation",
+        "Shop by category, one-of-a-kind ceramics, lighting and dinnerware shelves",
+        "Shoppable look hotspots, pottery-class listings/testimonial, seconds-sale and journal sections",
+        "32-result collection with price/availability filters; Wine Cup PDP exposes color choice, capacity, dimensions and care copy"
+      ],
+      "design_hypothesis": "Artisan homeware can combine limited-run product stories with category-led shopping and workshop discovery; rendered content only, with no interaction or screenshot audit. Product, class, safety and studio claims are unverified."
+    },
+    {
+      "id": "shopify-live-prestige-strass",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Minimal gold-tone jewelry editorial, brand heritage and mineral-stone collection navigation",
+        "Menu by rings/earrings/necklaces/bracelets and story collections",
+        "Regional currency selector across multiple countries and empty drawer copy",
+        "Product shelf with Choose Options vs Add to Cart states",
+        "Mineral Alliance campaign hero and fine-jewelry category tiles",
+        "Featured/trending jewelry and Shop Your Set",
+        "Design/sourcing stories, artisan workshop, magazine, testimonials and service assurances"
+      ],
+      "design_hypothesis": "Fine-jewelry storytelling can connect collection discovery with product details and complementary sets, while sourcing and material claims need clear merchant verification."
+    },
+    {
+      "id": "shopify-live-sleek-wildpeak",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Tabbed category merchandising and color swatches with extra +4 option state",
+        "Mix & Max outfit with three product selectors and Add All to Cart markup",
+        "Flash Sale countdown copy and Selling Fast claims without verified stock/deadline",
+        "Compare-at placeholders $0.00 and customer review snippets from unrelated merchandise, indicating demo data requires scrutiny",
+        "French/English locale switch evidenced by /fr HTML"
+      ],
+      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+    },
+    {
+      "id": "shopify-live-dawn-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Handbag/footwear taxonomy and sections with hero storytelling and product collections",
+        "Simple sold-out, sale product cards using native color/price presentation",
+        "Currency/region selection, newsletter and standard cart notification strings in page HTML",
+        "This is a demonstration storefront—real commercial checkout not attempted"
+      ],
+      "design_hypothesis": "HTML source-level content observation, not screenshots, verified interactivity, live stock or Theme Editor data."
+    },
+    {
+      "id": "shopify-live-prestige-signature",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "2026 shoes collection menu Pumps, Mules, Flats, Boots; EUR localized pricing and country switch",
+        "Hero, split editorial campaign, best-selling product slider and Shop-the-Look shoe outfits",
+        "Product cards show Choose Options, campaign and local boutique pages",
+        "Coming-soon countdown displays all zero units in HTML; event date not verified",
+        "Empty cart drawer markup on homepage with no separately fetched cart route",
+        "Parisian Reverie and Spring/Summer campaign hero",
+        "Pumps collection with filter/sort and image-density controls",
+        "PDP size chart, color paths, product details and service assurances; empty-cart recovery"
+      ],
+      "design_hypothesis": "Luxury footwear discovery can connect campaign/editorial content to collection and style choices, with size guidance and service details close to product selection; merchant claims need verification."
+    },
+    {
+      "id": "shopify-live-broadcast-airwave",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Coffee-led home uses a video-style hero and repeated $100 free-shipping announcement, followed by a Daily Grind story block.",
+        "Best Sellers shelf links House Blend, Decaf Blend and Logo Mug; a New roast drops countdown precedes a pre-order T-shirt feature.",
+        "Home offers Coffee Blends and All Products collection cards, workshop/event columns, press/testimonial sections and a newsletter form."
+      ],
+      "design_hypothesis": "Rendered Airwave layers coffee education and event/press storytelling around a five-item catalog, preorder callout and multiple product shelves. Shipping threshold copy conflicts ($100 on home, $50 on PDP); visual hierarchy is structural only because no screenshot/viewport audit was captured."
+    },
+    {
+      "id": "shopify-enterprise-sections-reference",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Developer-owned Enterprise Theme Sections test page, not a specific Enterprise/Outlet/Homestead demo",
+        "Department scoped search, quick order, empty comparison table, top brands and campaign promo tiles",
+        "Flash sale countdown end date October 2026 already passed relative to research date",
+        "Product compare table and placeholder products visible in static HTML, not live commerce proof"
+      ],
+      "design_hypothesis": "Indexed static HTML element existence only; no pixel screenshot or working cart/menu performance proven."
+    },
+    {
+      "id": "shopify-live-horizon-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Featured clothing and knitwear; 8 home product cards; empty cart source"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "1Tuck Tapered Pants PDP has six gallery assets and XS-XXL size options; product-form and brand demo disclaimer appear in indexed HTML",
+        "Actual variant switching, inventory, cart and media-modal interactions were not executed"
+      ]
+    },
+    {
+      "id": "shopify-live-craft-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Artisan dinnerware, glassware, ceramics stories and bundles"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA."
+    },
+    {
+      "id": "shopify-live-trade-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Wholesale category hierarchy, partner request and locale selectors"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "Turkish Cotton Towels PDP: table of size/color variants, per-unit labels, quantity rule links, multiple sold-out entries and materials/care content",
+        "Variant table is public sample markup only, not evidence of activated wholesale buyer pricing, Shopify Plus or completed quantity-rule action"
+      ]
+    },
+    {
+      "id": "shopify-live-publisher-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Books, artist publishing, editorial grid, $0 empty cart HTML"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "Book PDP lists dimensions, 232 pages, ISBN, publisher, five source gallery images and quantity control",
+        "Same PDP includes free shipping over $15 near product and over $150 in North America in footer; geographic/policy scope not authenticated"
+      ]
+    },
+    {
+      "id": "shopify-live-sense-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skincare, hair care, body and nail goods; promotional 15% conditional copy"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "BKIND Lip Balm PDP: flavor choices, 7-image source gallery, ingredient list, directions, shipping and returns",
+        "Source includes both sold-out and add-to-cart markup; actual selected-variant visible state not tested"
+      ]
+    },
+    {
+      "id": "shopify-live-spotlight-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Compact caps/apparel/music shelf, sold-out labels and hidden cart success modal"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "cart_modules": [
+        "Separate /cart HTML shows empty-cart message, continue-shopping link, subtotal $0.00 CAD and shipping/tax notice",
+        "Cart-success modal markup also exists in source, but no nonempty cart or add-to-cart mutation was executed"
+      ]
+    },
+    {
+      "id": "shopify-live-studio-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Art gallery prints, originals, artist menu, journal"
+      ],
+      "design_hypothesis": "Document-level module inventory, not screenshot or merchant behavior QA.",
+      "product_modules": [
+        "Rhyme artwork PDP: gouache work dimensions, authenticity/signed-artist note, suggested framing, four media images, artist biography and related works",
+        "Authenticity and shipping language is demo content, not externally validated provenance or fulfillment"
+      ]
+    },
+    {
+      "id": "shopify-live-tinker-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Workspace organizer hero, four collection tiles and newsletter"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-origin-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Single leather bag hero with reviews, journal and craft story"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-atelier-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Deep accessory mega menu and seasonal bag merchandising"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-rise-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Japanese apparel, JPY prices and Japanese/English locale selector"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-ride-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Surfboard hero, rider stories, sale/sold-out cards"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-crave-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Meal starter and combo pack categories, recipe navigation"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-fabric-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Women/men/home mega-menu categories"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-vessel-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Color-rich drinkware, coffee and kitchenware product shelves"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-dwell-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Bedding, bath, decor menu and shop-the-look"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-heritage-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Men/women apparel, wool blanket story and collection routes"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-ritual-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Capsule fashion tiles and premium accessories shelf"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls."
+    },
+    {
+      "id": "shopify-live-pitch-free",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skincare philosophy, bundles, promotional badges, newsletter"
+      ],
+      "design_hypothesis": "Source-backed content/module analysis, not verified rendered visual, user action or competitor Theme Editor controls.",
+      "product_modules": [
+        "Age Serum demo PDP: $21 sample price, 0.5% retinol label, benefits, ingredient/claims copy, four media images and pairing section",
+        "Merchant ingredient, safety and formula claims cannot be reused or assumed verified"
+      ]
+    },
+    {
+      "id": "shopify-live-impact-sound",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Premium audio home leads with an MW08 Sport hero, collaboration promotion, free standard shipping and a demo discount code.",
+        "Category tiles route to Headphones, Earphones, Speakers, Collaborations and Accessories; Best sellers presents a six-item shelf with variant color swatches, star-review summaries, sale pricing and sold-out badges.",
+        "Editorial product story sections feed into a built-in compare table, timeline, FAQ, service promises and newsletter; merchant product/service claims remain unverified."
+      ],
+      "design_hypothesis": "Impact combines premium audio campaign media, color-rich product shelves, technical specification/compare content and collaboration storytelling. Product shelves make dense variant and availability states visible alongside editorial sections; no pixel/viewport or interaction audit was performed.",
+      "product_modules": [
+        "Leica collaboration product page exposes premium PDP and variant/product storytelling layout with related seller content.",
+        "Source age is five months; option changes, inventory, checkout, metafield editor binding and image interactions were not tested."
+      ]
+    },
+    {
+      "id": "shopify-live-expanse-furniture",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Deep Homestyle, Lifestyle, Kids, Brands and country/currency navigation; home furniture and kitchen promotional merchandising.",
+        "Category rail, multiple featured collections, shop-the-look, promotional discount tiles, blog and newsletter, local pickup/service claims.",
+        "One indexed countdown section shows sample 12-day/12-hour/12-minute/12-second labels and Black Friday marketing; actual timer and event date not checked.",
+        "Empty cart drawer text/subtotal appears in homepage HTML, not a dedicated /cart source and not a cart mutation."
+      ],
+      "design_hypothesis": "Open indexed public HTML, not verified visual/screenshot or interactive UX; build original options from merchant-owned sources.",
+      "collection_modules": [
+        "Furniture collection page shows 13 products and sort options such as featured, bestseller, alphabetical, pricing and date.",
+        "Filter groups include product type, price, brand and availability with sample counts, and individual product cards with badges.",
+        "Cart/subscription/size interactions were not tested; product count labels are HTML only."
+      ],
+      "product_modules": [
+        "Alessi Neapolitan coffee-maker has a dedicated product-page route linked from bestseller merchandising.",
+        "Source is about two months old. Actual variation controls, cart actions, current price, gallery behavior and shipping promises untested."
+      ]
+    },
+    {
+      "id": "shopify-live-release-release",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Clothing/fashion homepage with two-level category navigation, editorial collection rails and product cards with size/color availability notes.",
+        "First-party Shopify Markets/country selector and real storefront navigation markup; newsletter, detailed size guide, featured product media and journal.",
+        "Pre-order/sold-out/new/last-few labels co-occur in seller demo; none confirms current stock or successful pre-order."
+      ],
+      "collection_modules": [
+        "21-product New Collection with price, standardized Color taxonomy values and availability filters; sort and product size/color choices.",
+        "Custom editorial tile occurs within listing; 0d/0h/0m/0s countdown text and sale-ended message embedded in old source.",
+        "Indexed HTML only; filters, pagination, interactive variant and user cart not tested."
+      ],
+      "design_hypothesis": "Document-level Shopify demo research only; original merchant-controlled layout/attribute options, not copied visual design.",
+      "product_modules": [
+        "Black Puffer Edge individually opened PDP with variant query param; clothing size/media merchandising and pre-order indicators.",
+        "Cannot infer whether selected variant was actually activated in browser or buyer data persisted; no add-to-cart/checkout action."
+      ],
+      "cart_modules": [
+        "Dedicated empty cart route, cart count 0, continue-shopping link, recommended products heading and empty quick-cart scaffold.",
+        "Old source also contains promotional countdown expired text, age verifier and newsletter popups; these may be hidden components, not visible active states."
+      ]
+    },
+    {
+      "id": "shopify-live-release-forest",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Forest Theme — DigiFist identified on Shopify demo; furniture assortment across Sofas, Lighting, Beds, Tables and editorial room stories.",
+        "Multi-level menu with collection banners, latest-arrivals product list, product-story tiles, seasonal lifestyle editorial, blog and customer testimonials.",
+        "Shipping/financing/service claims presented as merchant demo content; homepage empty cart drawer text is not a separate /cart visit."
+      ],
+      "collection_modules": [
+        "Living Room collection shows 28 of 49 products in indexed HTML with material (Fabric/Wood, Oak/Walnut), availability and price facets.",
+        "Product cards list furniture and one Pre-order item, and repeated filter controls from desktop/mobile markup; no filter action performed.",
+        "Source contains duplicate-looking Material CM, Material and Material VM facet group labels; preserve actual merchandising semantics, never treat this as tested defect."
+      ],
+      "design_hypothesis": "Document-level Shopify demo research only; original merchant-controlled layout/attribute options, not copied visual design."
+    },
+    {
+      "id": "shopify-live-release-serenity",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Serenity Theme — DigiFist homepage identifies handbags and editorial luxury content, linking product collections and bestsellers.",
+        "Amanda Bag colors appear as distinct product cards; Pink is labeled Pre-order, but no variant interaction or actual pre-order eligibility was checked.",
+        "Shop-the-look combines Anna, Luna and Amanda bags with editorial material, three 2024 blog articles, newsletter and testimonial sections.",
+        "Homepage claims eco-friendly luxury, lifetime warranty and exclusive designs, but merchandising claims and testimonial identities are unverified demo copy.",
+        "One testimonial mentions bikini bottoms while the sample store focuses on handbags; content provenance inconsistency, not an executed browser bug."
+      ],
+      "design_hypothesis": "Public indexed homepage HTML alone informs original composable merchandising patterns, not copied design or successful UX interactions.",
+      "supplementary_modules": [
+        "Supplemental FAQ page includes 30-day return language, fourteen-business-day post-receipt refund claim and delivery/account FAQ.",
+        "These are unverified merchant-demo policy statements, not a real order/return-policy test."
+      ]
+    },
+    {
+      "id": "shopify-live-eurus-arise",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Supplements homepage with best sellers and a four-question personalized product finder, prompts retrieved but no answer-selection executed.",
+        "Build Your Own Wellness Bundle chooser shows variant and selling-plan source data, sale 10/20/30% messaging and empty selection state.",
+        "Ingredient/scientific marketing, individual customer reviews and shipping/sustainability copy are merchant sample claims, not verified health data."
+      ],
+      "design_hypothesis": "Original features mapping from independent public indexed HTML, not copied layouts or tested interactions.",
+      "product_modules": [
+        "Maca Root Energy & Libido dedicated public indexed PDP, supplement packaging-size choices and ingredients/benefit story.",
+        "Retinol/medical etc not assumed; current supplement effects and selling plan execution unverified."
+      ]
+    },
+    {
+      "id": "shopify-live-eurus-whiff",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Jewelry products and four-question gifting style quiz markup with a three-piece discount bundle chooser; no quiz/cart click performed.",
+        "AED and localized Japan/Arabic/English example content in HTML, with appointment and bespoke-jewelry seller claims.",
+        "Certification, sourcing and bespoke materials are seller-owned copy; do not infer verified certifications."
+      ],
+      "design_hypothesis": "Original features mapping from independent public indexed HTML, not copied layouts or tested interactions.",
+      "collection_modules": [
+        "Eight selected products, availability/material/brand facet groups with 'Register to see prices' product cards.",
+        "Unused Advanced filter 3 and 4 placeholders in indexed collection; this is source HTML, not a confirmed visible runtime defect."
+      ]
+    },
+    {
+      "id": "shopify-live-vision-poochy",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Pet-food and toys homepage with promo/review/inventory badges, categories and pet brand storytelling.",
+        "Shopper menus, rich product assortment with quick variant names and stock amounts as source text; marketing promises are not validated."
+      ],
+      "design_hypothesis": "Original features mapping from independent public indexed HTML, not copied layouts or tested interactions.",
+      "collection_modules": [
+        "16 pet products, color and size facets, sorting, Compare checkbox source and cart empty source scaffold.",
+        "Colors, size facets and compare markup were not clicked; source over a year old and not current inventory."
+      ],
+      "product_modules": [
+        "Dedicated Holiday Crinkle Penguin Dog Toy historical PDP; product image/variant form markup in old indexed source.",
+        "Stock/variant/checkout interaction not executed."
+      ]
+    },
+    {
+      "id": "shopify-savor-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "hero link to dipping-sauce collection",
+        "six-item product shelf",
+        "brand story and video prompt",
+        "footer shopping/help/social groups and newsletter"
+      ],
+      "design_hypothesis": "The rendered page sequence connects a food-specific campaign to product discovery, pack-size choices on the PDP, and browse recovery in the empty cart. Translate the information hierarchy into an original layout; this pass does not establish visual composition, interactions or mobile behavior."
+    },
+    {
+      "id": "shopify-refresh-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "announcement bar",
+        "three-slide hero with direct product route",
+        "featured products with quick add",
+        "press quote band",
+        "four image-led category stories",
+        "kit shelf",
+        "trust statement columns",
+        "journal slider",
+        "newsletter signup"
+      ],
+      "design_hypothesis": "Refresh links grooming needs to category content, product rails and an editorial routine. On the PDP it layers structured disclosures, a quote, trust copy and related-product links. A new VSN design could support this information hierarchy through settings-driven sections while requiring merchant evidence for claims; a DOM pass cannot establish the visual balance or working controls."
+    },
+    {
+      "id": "shopify-prestige-family-allure-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "campaign promotion and women/men navigation",
+        "segmented best-seller product shelf",
+        "brand story and collection entry points",
+        "lookbook, editorial feed, featured product and brand timeline"
+      ],
+      "design_hypothesis": "The family demo joins premium product discovery with maker story, media and service information. The PDP combines gallery and color routes with details, supporting content and related items; the empty cart gives a direct route back to shopping. This informs family-level architecture only, not the selected Prestige preset's visual layout or interactions."
+    },
+    {
+      "id": "shopify-enterprise-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "department and product-type navigation",
+        "promotional hero, countdown and product shelves",
+        "camera comparison table and popular departments",
+        "advice, FAQ and newsletter"
+      ],
+      "design_hypothesis": "For broad electronics catalogs, connect category-specific technical filtering to side-by-side comparison and PDP specifications. Keep promotion, inventory and service claims merchant-controlled and verifiable; this browser pass establishes structure only, not functioning interactions or visual hierarchy."
+    },
+    {
+      "id": "shopify-broadcast-relay-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "two-slide seasonal apparel campaign",
+        "bestsellers and product quick-add shelf",
+        "category stories and editorial quote modules",
+        "brand story, values and shopping shortcuts"
+      ],
+      "design_hypothesis": "Kids apparel discovery benefits from filters matching real variant choices—size, color, product type and availability—paired with visible sizing guidance and outfit cross-sells. Treat sale, final-sale and stock notices as merchant-managed product data; browser presence alone does not establish correctness."
+    },
+    {
+      "id": "shopify-impulse-dune-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "comfort-focused hero and new-arrivals quick view",
+        "shop-the-look and promotional tiles",
+        "category and featured-collection shelves",
+        "retail details and newsletter"
+      ],
+      "design_hypothesis": "For broad apparel assortments, pair quick product inspection and product-type sorting with size guidance on PDPs, then support cart recovery through recently viewed and popular picks. Keep stock, shipping and promotional urgency data merchant-verified."
+    },
+    {
+      "id": "shopify-vision-vision-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Smart-home homepage has free-shipping/returns/promo bars, smart-device hero slides, accessory discount tiles, category-switchable Bestsellers with swatches/ratings/stock, automations and security education, brand and category rails, customer reviews, news and newsletter. Some story copy and sample claims look generic or inconsistent; not independently verified."
+      ],
+      "design_hypothesis": "Keep the catalog category and product records aligned: this rendered example places multiple unrelated categories in Doorbells and shows a camera description under a speaker title. Product data quality must be validated before treating such content as a design pattern.",
+      "collection_modules": [
+        "Doorbells collection reports 20 products; Availability, Brand, Price and Color facets; Featured sort, Compare checkboxes and pagination. Cards mix speakers, cameras, watches, bulbs and locks despite Doorbells title, with a smart-watch editorial tile. A Compare products overlay appeared in the page AX tree without an intentional action; no controls were used."
+      ],
+      "product_modules": [
+        "Smart Home Speaker PDP shows $82, a three-image gallery, color and material choices, quantity, Add/Buy buttons, pros/cons, tabs/spec sections and FAQs. The intro description refers to a peephole camera, conflicting with the product title; tech/spec content also mixes unrelated home-security topics. Claims remain unverified."
+      ]
+    },
+    {
+      "id": "shopify-ignite-ignite-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Electronics storefront home includes mid-season offer announcements, product-type search, compatibility finder, device/component navigation, three-slide phone hero, best-seller shelf with quick view/options, long phone/watch stories, category and product rails, in-grid promo content, social video, stats/reviews, signup offer and expert-help block. Header logo image description says planter, a content mismatch. Claims remain unverified."
+      ],
+      "design_hypothesis": "For large electronics assortments, structured specs and many metafield facets can aid scanning; validate product data and variant units, since this sample shows inconsistent image/copy signals.",
+      "collection_modules": [
+        "Phones collection reports 19 products; Brand, Color, Storage capacity, Battery life, Processor, RAM, Refresh rate, Screen and Screen resolution facets; Featured sort plus relevance, sales, name, price and date options; Compare control and quick-view cards. Cards show mixed storage units and one product image appears unrelated; no controls used."
+      ],
+      "product_modules": [
+        "Edge Pixa 9 PDP shows from £608, a 15-item gallery, model/color/storage options (512GB and 1TB unavailable), quantity and Add/Buy buttons, stock message, specification table, long-form feature sections, FAQs, contents list and testimonials. Several media and specs/copy sections appear inconsistent (e.g., socks/accessories, conflicting technical detail and origin/price language); all claims unverified."
+      ]
+    },
+    {
+      "id": "shopify-sleek-jumped-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "sale announcement and ocean-lifestyle hero",
+        "weekly product highlights and apparel category tiles",
+        "seasonal collections, lookbook and editorial/video stories",
+        "material and shipping/value panels, press/review content, sale/back-in-stock promos and newsletter"
+      ],
+      "design_hypothesis": "Apparel discovery can combine seasonal storytelling with practical size and fit support. Keep the campaign content coherent with the represented catalog and verify sustainability, stock, shipping and review claims before surfacing them."
+    },
+    {
+      "id": "shopify-wonder-root-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "wellness hero with quiz CTA",
+        "featured supplements and bundle builder",
+        "science/ingredient trust claims",
+        "shoppable video testimonials",
+        "mission/editorial content, press logos and newsletter"
+      ],
+      "design_hypothesis": "Wellness storefronts can connect product selection to education, bundles and routine-building, while making substantiation visible for health-related claims. Keep subscription cadence and one-time purchase choices transparent and avoid presenting sample outcomes as verified evidence."
+    },
+    {
+      "id": "shopify-be-yours-sheen-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "sale announcement and campaign hero",
+        "seasonal collection tabs and category tiles",
+        "Shop the Look product grouping and featured product quick views",
+        "sale campaign, customer testimonials, Instagram gallery and newsletter popup"
+      ],
+      "design_hypothesis": "Fashion discovery benefits when seasonal campaigns route into coherent category assortments and product fit guidance sits beside size selection. Validate sale, stock, rating and fulfillment copy before launch."
+    },
+    {
+      "id": "shopify-palo-alto-palo-alto-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "announcement and campaign hero with sale countdown",
+        "category mosaic and curated featured collection",
+        "lookbook and collection edits",
+        "shop-the-look product hotspots with quick-buy affordances",
+        "reviews, press, client-service FAQs, newsletter and social gallery"
+      ],
+      "design_hypothesis": "Large fashion stores can combine editorial campaigns with structured category routes and fit support at the PDP. Keep promotional and inventory content tied to verified product data; treat demo testimonials and sustainability claims as unsubstantiated."
+    },
+    {
+      "id": "shopify-pipeline-pipeline-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "luxury fashion hero and seasonal announcement",
+        "signature-fabric product tabs and curated collections",
+        "seasonal lookbooks and best-seller merchandise",
+        "Shop the Look hotspots and related quick-add cards",
+        "top collection links, newsletter, service promises and media links"
+      ],
+      "design_hypothesis": "For apparel catalogs, material and fit attributes can complement color/size/price facets, while lookbook modules should route shoppers into relevant assortments. Verify stock, price, material and delivery claims before display."
+    },
+    {
+      "id": "shopify-focal-focal-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "device/category navigation and collection hero",
+        "best-seller/new/bundle tabs with variant color selectors",
+        "design-process editorial, product hotspots and collaborations",
+        "blog, featured product, press and office story",
+        "shipping/service panels and newsletter"
+      ],
+      "design_hypothesis": "Accessory catalogs benefit from clear device-generation navigation and color choices in product cards; complementary-product recommendations can help shoppers complete compatible setups. Verify compatibility, availability, discounts and fulfillment claims."
+    },
+    {
+      "id": "shopify-local-thrive-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "coupon announcement, search/account/cart and store selection",
+        "benefit-led coffee hero and tabbed category/product merchandising",
+        "ingredient/science editorial, Shop the Look products, testimonials and FAQ",
+        "guarantee and newsletter"
+      ],
+      "design_hypothesis": "Benefit-led navigation and product education may help wellness shoppers compare a wide supplement/coffee range; keep category labels and practical pickup/product details easy to find. Health, efficacy and guarantee claims need substantiation."
+    },
+    {
+      "id": "shopify-impulse-terrain-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "video-led cycling hero and announcement",
+        "featured trail-bike collection",
+        "product feature stories and category links",
+        "service proposition strip, promotion countdown, testimonial, blog and newsletter"
+      ],
+      "design_hypothesis": "High-consideration sport products benefit from visible fit/technical information and service context alongside category discovery. Test whether dense campaign modules obscure product details; verify technical, stock and fulfillment claims."
+    },
+    {
+      "id": "shopify-impulse-apothecary-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "fragrance hero with product hotspots and CTA",
+        "brand proposition row and featured oils",
+        "limited-edition promotion tile and Tonka product shelf",
+        "scent-family collection grid",
+        "returns/quality propositions and sustainability/newsletter footer"
+      ],
+      "design_hypothesis": "Scent-family navigation can connect a multi-category fragrance assortment; product-page narratives and usage details should match the product type. Verify product consistency and substantiation behind ingredients and sustainability statements."
+    },
+    {
+      "id": "shopify-symmetry-symmetry-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "fashion/swimwear campaign hero and category links",
+        "trending products and Escape the Everyday editorial",
+        "sustainability/service statements, blog and newsletter"
+      ],
+      "design_hypothesis": "Editorial campaign content can add context to category-led fashion browsing; ensure collection routes, fit guidance and product claims remain clear and substantiated."
+    },
+    {
+      "id": "shopify-live-impulse-default",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "2026 collections, lifestyle editorial content, Quick View rails, campaign promotion, empty cart drawer source",
+        "linen-focused campaign copy and linked category imagery",
+        "Everyday Essentials and All New product shelves",
+        "dress/layer promotional tiles, journal and considered-wear brand story",
+        "newsletter offer"
+      ],
+      "design_hypothesis": "Public HTML signals only; not pixel-matched visual QA, rendered behaviour or merchant editor access. Seasonal editorial, curated everyday products and garment-care storytelling can support fashion discovery when connected to clear category routes and fit details. Keep recommendation content credible and matched to the active catalog."
+    },
+    {
+      "id": "shopify-symmetry-amara-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "four-slide precious-materials campaign hero",
+        "trending Rings/Earrings/Necklaces/Bracelets links",
+        "everyday fine-jewelry story, New Arrivals and care/repair proposition",
+        "recycled silver/gold and designed-for-reinvention content",
+        "gift ideas, showroom links, gift guide/editorial articles and newsletter"
+      ],
+      "design_hypothesis": "A jewelry homepage can organize discovery around product category and occasion while explaining care and materials. Let shoppers move from story modules into clear category and product variant choices; substantiate sourcing and production statements."
+    },
+    {
+      "id": "shopify-broadcast-default-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "everyday-luxury hero and jewelry category links",
+        "bestselling fine jewelry and modern-heirloom product modules",
+        "made-to-order and essentials content, styling/editorial and press",
+        "ethical-sourcing, giving-back and stylist-service propositions",
+        "newsletter"
+      ],
+      "design_hypothesis": "Jewelry discovery can combine gifting, daily styling and materials storytelling. Validate claims, keep collection filters useful at scale, and provide a clear empty-cart path back to categories."
+    },
+    {
+      "id": "shopify-broadcast-motif-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "scrolling sale hero and Worn, Loved and Worn Again editorial",
+        "Bestsellers/New Arrivals product rails and wardrobe essentials",
+        "swim/seasonal edits and shop-the-look content",
+        "free-shipping/security/ethical-production propositions, social feed and newsletter"
+      ],
+      "design_hypothesis": "Editorial fashion themes and merchandising rails can keep discovery active through sale and seasonal changes. Keep product option availability and fit guidance reliable across collection and PDP."
+    },
+    {
+      "id": "shopify-broadcast-stellar-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "sun-care campaign hero and sunscreen/lotion routes",
+        "Golden Hour product shelf and SPF category content",
+        "ingredient and seasonal brand-story modules",
+        "editorial, press, social and newsletter"
+      ],
+      "design_hypothesis": "Sun-care storefronts can link seasonal campaigns to practical category/format discovery. PDP should make SPF, format, ingredients and availability easy to compare; health-related product claims need evidence. Empty cart should retain a clear path to shopping, while demo status remains explicit."
+    },
+    {
+      "id": "shopify-enterprise-outlet-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Adventure Awaits campaign hero and sale code",
+        "activity and department routes across apparel/equipment",
+        "product rails and category merchandising",
+        "athlete stories, journal/video content and social feed",
+        "shipping/returns propositions and member signup"
+      ],
+      "design_hypothesis": "Adventure storytelling can connect gear to activity needs. Large catalogs benefit from meaningful activity paths, compare and layout controls, with technical PDP information and relevant cross-sells."
+    },
+    {
+      "id": "shopify-enterprise-homestead-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "$50-off offer and shipping/returns messaging",
+        "furniture/lighting/textile collection discovery",
+        "room-led inspiration and seasonal offer rails",
+        "brand story, editorial posts and newsletter"
+      ],
+      "design_hypothesis": "Room-led storytelling can make a broad home catalog easier to browse when supported by category, filter, grid/list and comparison tools. Keep product details, stock and service information accurate."
+    },
+    {
+      "id": "shopify-impact-cocoon-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "designer-collaboration announcement and room-refresh hero",
+        "New Arrivals shelf and Explore the Collections",
+        "design/editorial stories and Shop the Room",
+        "designer profiles, color discovery and newsletter"
+      ],
+      "design_hypothesis": "Designer and room storytelling can frame contemporary home product discovery. Use color and in-stock filtering to connect stories to available products; substantiate durability and technical claims."
+    },
+    {
+      "id": "shopify-impact-balance-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "express delivery/returns banner and compact navigation",
+        "matching-sets hero and sustainability metric blocks",
+        "New Arrivals with swatches and price context",
+        "care/stretch/product feature content, reviews and newsletter signup"
+      ],
+      "design_hypothesis": "Activewear discovery can connect product performance content to clear option and sizing paths. Validate fabric and environmental claims and keep fulfillment details current."
+    },
+    {
+      "id": "shopify-focal-quartz-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "limited-edition announcement and specialist navigation",
+        "1926 watch hero and curated category routes",
+        "bestseller tabs with prices, badges and review cues",
+        "Shop the Looks, history/editorial, product customization, store assurances and newsletter"
+      ],
+      "design_hypothesis": "Product history can enrich specialist retail when customization controls and product specifications remain easy to scan, supported by clear service information."
+    },
+    {
+      "id": "shopify-warehouse-warehouse-browser-render",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "free-shipping announcement and category search/navigation",
+        "headphones hero and category promotion tiles",
+        "collection carousels, featured products and top-rated assortment",
+        "brand/store information, editorial and newsletter"
+      ],
+      "design_hypothesis": "For technical catalogs, category navigation and filter controls can carry discovery while the PDP supports purchase confidence with specifications, delivery information, stock/review cues and recommendations."
+    },
+    {
+      "id": "shopify-warehouse-mesh",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Camping/outdoor campaign slides",
+        "Activity and category shortcuts",
+        "Brand directory and brand-led product shelves",
+        "New Arrivals, featured product and editorials",
+        "Delivery, trust and newsletter modules"
+      ],
+      "design_hypothesis": "For extensive gear catalogs, pair activity and brand taxonomies with collection filters and view density controls; brand storytelling and stock/sale cues help orient product discovery. Rendered content only; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-expanse",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Coffee restock hero and category tiles",
+        "Coffee bestsellers, Shop the Look, discount promos, outdoor campaign and brand logos",
+        "Spring arrivals, pickup/location content, brand-value blocks, journal and newsletters"
+      ],
+      "design_hypothesis": "For a large home-goods catalog, combine department navigation and filterable collections with campaign placements, brand discovery, pickup information and editorial content. Supplementary browser-rendered page observations are documented separately; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-expanse-revive",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Tinted SPF hero and bestsellers",
+        "Skincare category tiles, holiday gift promo and Shop the Look",
+        "Testimonials, brand/editorial shelves and salon/spa provenance",
+        "Free-shipping message, pickup/location information, journal and newsletter"
+      ],
+      "design_hypothesis": "Beauty storefronts can combine product-led campaigns, category discovery and service/locality cues with editorial storytelling and transparent product provenance. Supplementary browser render only; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-expanse-gem",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Amara gift promo and curated jewelry collections",
+        "Amara new product shelf; customer moments and testimonials",
+        "Jewelry discovery, brand story, Journal and newsletter",
+        "Authenticity, shipping, returns and expert-guidance statements"
+      ],
+      "design_hypothesis": "Fine-jewelry storefronts can connect collection discovery and gifting to product/material education, customer proof and service reassurance. Browser-render evidence only; no interaction or visual QA."
+    },
+    {
+      "id": "shopify-expanse-spritz",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Organic wine hero and product shelves",
+        "New Arrivals and giveaway campaign/countdown",
+        "Non-alcoholic categories, recipes, brand directory and supplier provenance",
+        "Shipping threshold, gift cards, testimonials and newsletters"
+      ],
+      "design_hypothesis": "Food and beverage stores can align category and brand discovery with seasonal merchandising, recipe/editorial content, supplier provenance and shipping thresholds. Host match is verified through the official preset listing; browser-render only."
+    },
+    {
+      "id": "shopify-local-soleway",
+      "evidence_level": "official_preset_page",
+      "homepage_modules": [
+        "Timberland hero and footwear category tiles",
+        "Men's bestseller/new arrival and accessory/clothing promotions",
+        "Product features and store pickup/delivery entry points",
+        "Local retail story, announcement discounts and newsletter/footer"
+      ],
+      "design_hypothesis": "Footwear retail can connect style-category discovery and featured gear to size/width guidance and store availability, with pickup and delivery access visible across the journey. Browser-render only; product and fulfillment claims are unverified."
+    },
+    {
+      "id": "shopify-stiletto",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Satin-separates campaign hero, brand philosophy and category-entry grid",
+        "Sale/countdown promotion and Statement Tops product shelf with color/size cues",
+        "Lookbook hotspots, video content, featured edits, testimonial carousel and journal",
+        "Collection filtering/sorting and editorial PDP accordions are visible in rendered page structure"
+      ],
+      "design_hypothesis": "Fashion catalog can connect outfit storytelling, category discovery and multi-variant product presentation; rendered structure only, with no screenshot-based visual audit or confirmed interaction."
+    },
+    {
+      "id": "shopify-be-yours-harmony",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product-led headphone video hero and feature-focused product section",
+        "Long technical-specification and included-in-box content, comparison table and expert-review carousel",
+        "Collection filter/sort and grid-density controls with color-variant product cards",
+        "Local-store, newsletter and guarantee/service content"
+      ],
+      "design_hypothesis": "A focused electronics catalog can connect a hero product to technical comparison and product education; demo copy has internal inconsistencies, and no product claims or controls were validated."
+    },
+    {
+      "id": "shopify-stiletto-luster",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Jewelry-led statement-gold hero and category collection discovery",
+        "New-arrival and best-seller shelves, markdown promotion and color/material imagery",
+        "Lookbook hotspots, adjustable before/after image slider, appointment CTA and journal",
+        "120-item collection with availability, price, ring-size, style and color filters; PDP ring-size selection and care/shipping sections"
+      ],
+      "design_hypothesis": "Luxury jewelry storefront can connect material/editorial storytelling with ring-size guidance and dense collection discovery; no screenshot or interaction test supports claims about visual quality or control behavior."
+    },
+    {
+      "id": "shopify-motion",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Apparel campaign hero with seasonal copy and category links",
+        "Collection tabs, half-zip shelf, video hero and promotional sections",
+        "Collection, product and empty-cart structures were inspected read-only"
+      ],
+      "design_hypothesis": "Motion apparel demo layers video/lifestyle storytelling with collection tabs and seasonal product merchandising; the dedicated empty cart contains generic product placeholders. Rendered structure only; seller claims and controls remain unverified."
+    },
+    {
+      "id": "shopify-motion-memo",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Everyday-work hero, category switches and product shelf",
+        "Collection callout, desk/story blocks, lookbook and service messages",
+        "Collection, product and empty-cart structures were inspected read-only"
+      ],
+      "design_hypothesis": "The Memo-hosted demo combines home-office goods discovery, collection switcher shelves and brand/editorial sections. A cart recommendation block links generic example items back to /cart; no shopper action was taken."
+    },
+    {
+      "id": "shopify-local-caffeine",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Coffee storefront with promo and delivery copy, Shop/Brew Guides/Locations/Our Story/Contact navigation and pickup entry.",
+        "Roast Perfection hero; Best Sellers/Limited Edition shelves, product flavor/roast text, editorial and brew guide sections, location cards/newsletter.",
+        "Featured coffee section shows roast/taste/brightness storytelling, grind/size options and store pickup; merchant claims unverified."
+      ],
+      "design_hypothesis": "Use these as observed merchandising patterns only; storefront copy is unverified and responsive treatment needs visual/device review."
+    },
+    {
+      "id": "shopify-local-lively",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Wine categories Red/White/Rosé/Sparkling/Not wine, store pickup and Wine Club entry points.",
+        "Organic Wines hero, featured wine shelves, video/editorial, beer category, Wine Club/events/testimonial and location/store-hours footer.",
+        "Over-18 verification banner visible across pages and left untouched; events and location/product statements are sample copy, unverified."
+      ],
+      "design_hypothesis": "Use these as observed merchandising patterns only; storefront copy is unverified and responsive treatment needs visual/device review."
+    },
+    {
+      "id": "shopify-empire-empire",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Home and gifts storefront with four-slide Made to Last / Everyday Celebrations / Cook a Five Star Meal / Outdoor Oasis hero.",
+        "Promo tiles, mixed category Deals of the Week shelf, countdown module, featured variant/quantity product, trending collections, gift price thresholds, shoppable-image hotspots, testimonial/service rows and blog/newsletter."
+      ],
+      "design_hypothesis": "Treat merchandising and discovery modules as rendered design patterns; validate layout visually across viewport sizes before implementation."
+    },
+    {
+      "id": "shopify-empire-circuit",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Electronics storefront with new arrivals, Clearance/About/Blog/FAQ nav, shipping/pickup/service rows and hero for drone products.",
+        "Trending category rail, deals/new-arrivals shelves, product-card color options, shoppable product hotspot section, featured product detail with color/quantity controls, review/testimonial and search/newsletter."
+      ],
+      "design_hypothesis": "Treat merchandising and discovery modules as rendered design patterns; validate layout visually across viewport sizes before implementation."
+    },
+    {
+      "id": "shopify-empire-forma",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Furniture storefront with shop-by-room and brand navigation, free-shipping announcement and Click & Collect entry.",
+        "Shoppable product hotspots, Brand New Selections shelf, studio-sale slideshow, top collections, designer brands, shop-by-piece/brand/collection navigation, video, customer quotes, service promises and newsletter."
+      ],
+      "design_hypothesis": "Treat observed sections as merchandising patterns and inspect screenshots across devices before making visual conclusions."
+    },
+    {
+      "id": "shopify-be-yours-peace",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Plant store landing with hero, promo, quality/delivery/service panels, plant shelves, gifts, roomscapes, Shop the Look, lookbook, featured PDP, plant-care steps, expert consultation and membership/newsletter.",
+        "Homepage product modules visibly include quick-view controls, bundle selector, stock indicators, review graphics and plant-care content; no actions performed."
+      ],
+      "design_hypothesis": "Treat observed sections as merchandising patterns and inspect screenshots across devices before making visual conclusions."
+    },
+    {
+      "id": "shopify-live-sleek-sleek",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Beauty/cosmetics homepage with multi-slide hero; Whats Hot, Best sellers and Sale product tabs; three-item bundle with Add All To Cart; press testimonials; category/story modules; ingredient/brand-value content; featured product rows, reviews, FAQ and newsletter."
+      ],
+      "design_hypothesis": "Use category storytelling, product discovery and modular merchandising as patterns; validate rendered appearance and responsive behavior before adopting."
+    },
+    {
+      "id": "shopify-live-sleek-modiva",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Furniture/interior homepage presents shop-by-room/category navigation, Embrace Vision hero, room stories, product tabs, Shop the Room, before/after image comparison, design-editorial stories, product quick views and showroom/editorial content."
+      ],
+      "design_hypothesis": "Use category storytelling, product discovery and modular merchandising as patterns; validate rendered appearance and responsive behavior before adopting."
+    },
+    {
+      "id": "shopify-live-sleek-glint",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Home/garden/workwear hybrid homepage uses garden-bed campaign slides, Planting Essentials/Harvesting Gear/Garden Goods category rails, shoppable lookbook, linen copy, bundle promo, reviews, store locator/contact and newsletter. Mixed apparel and gardening content."
+      ],
+      "design_hypothesis": "Use category storytelling, product discovery and modular merchandising as patterns; validate rendered appearance and responsive behavior before adopting."
+    },
+    {
+      "id": "shopify-live-wonder-root",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Supplements storefront home has repeating free-shipping banner, product/shop mega menu, video hero with shop-now and quiz CTAs, featured product cards, bundle link, ingredient-value claims, product-benefit carousel, social/video testimonials, mission/editorial sections, blog, FAQ and newsletter. Footer explicitly says this is a demo store; seller health, safety and performance claims are unverified."
+      ],
+      "design_hypothesis": "Observe video-led hero, supplement bundles and trust sections as page patterns; verify responsive rendering and underlying claim evidence before reuse."
+    },
+    {
+      "id": "shopify-live-impulse-dune",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Apparel and accessories homepage shows returns announcement, brand/shop navigation, fashion hero, New Arrivals quick-view shelf, Shop the Look, promo tiles, category rails, brand collections, feature product, sale banner, retail location and newsletter. Some seasonal/brand copy appears dated or inconsistent; merchant claims unverified."
+      ],
+      "design_hypothesis": "Observe layered promo grids and brand browsing alongside a large catalog; test responsive behavior and all advertised controls before implementation."
+    },
+    {
+      "id": "shopify-live-palo-alto-dynamo",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Official Palo Alto:Dynamo listing iframe resolves to this technical-bags storefront. Rendered home has repeated 10%-off/US$250 free-shipping announcement, shop/about/sale/FAQ/blog navigation, countdown hero, Best Sellers/Tech Accessories tabbed shelf, product Quick Buy cards, mosaics, material/organization editorial, featured products, newsletter and trust row. Footer states demo goods are provided by AER; merchant product and durability claims are unverified.",
+        "Best Sellers - AER collection reports 12 products and category shortcuts; visible sorting offers Featured/relevance/best-selling/alphabetical/price/date choices, with Availability/Price/Color/Product Type facets. Product cards show prices, color counts, Quick Buy and badges; no control used.",
+        "Navigator Backpack PDP has a 20-entry gallery, in-stock label, $268 versus $400 sale pricing, 33% discount, Black/Grey options, quantity and purchase controls, lifetime-guarantee and repair-kit copy, limited-time offer, materials/specs and shipping accordions, product FAQs, nylon editorial, related collection mosaics and recently-viewed module. Seller and stock claims unverified.",
+        "Dedicated cart is empty and links to Small Bags, Work Bags and all products; displays US$250 free-shipping threshold and trust claims for free shipping/returns, lifetime guarantee and recycled materials."
+      ],
+      "design_hypothesis": "Observe category-led technical bag merchandising, dense trust/promotional bars, tabbed product shelves, Quick Buy and specification-led PDP sections. Test responsive behavior and actual controls before reusing; verify warranty and material claims separately."
+    },
+    {
+      "id": "shopify-live-palo-alto-skylight",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Official Palo Alto:Skylight iframe is a footwear and handbags storefront. Home has $200 free-shipping announcement, Catalog/About/Journal/Lookbook navigation, editorial hero, category tiles with product counts, craftsmanship story, Shop the Look, campaign tiles and countdown, handbag product shelf with Quick Buy, lookbook, press, newsletter and collections. Footer labels products as Alohas-provided demo goods; seller claims unverified.",
+        "New Arrivals collection reports 27 products, category links for flats/boots/heels/loafers/mules/sandals, five facet groups (availability, price, color, product type, size), sort control, Quick Buy cards and two-page pagination. Controls untouched.",
+        "Kalinda Boots PDP shows eight gallery images, $500 final-sale price, seven-left stock message, Brown/Black and sizes 35–41, size chart, quantity and buy controls, fit/material accordions, cross-sell, sticky cart bar and FAQs. Page and footer identify demo goods as Alohas-provided, but product, stock and seller claims remain unverified. The Alohas attribution link resolves to an encoded URL on a different broadcast-luxe.myshopify.com host.",
+        "Dedicated cart is empty and suggests Loafers, Spring Lookbook, Sandals and Flats; displays $200 shipping threshold and newsletter/footer."
+      ],
+      "design_hypothesis": "Observe luxury footwear editorial, category links, lookbook storytelling and persistent purchase bar alongside collection facets. Test responsive behavior and actual controls before reuse; treat broken attribution link and seller claims as demo-data quality issues."
+    },
+    {
+      "id": "shopify-live-palo-alto-phenomena",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Promotional cosmetics storefront with tabbed bestseller and brush shelves",
+        "Beauty category collection with 12 products, category shortcuts, visible facets and sorting",
+        "Halo highlighter PDP with 12-image gallery, four shade options, accordions and Buy It With shelf",
+        "Empty cart route verified"
+      ],
+      "design_hypothesis": "Shade-forward product cards and beauty editorial storytelling are visible across home, collection and PDP. Product and merchant claims remain unverified; no visual breakpoint or interaction testing."
+    },
+    {
+      "id": "shopify-live-palo-alto-pluma",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Timed promotional bar and hero",
+        "Tabbed bestsellers/sale shelf and category entry points",
+        "Editorial designer story, table styling imagery and mosaic collections",
+        "Best sellers grid with facets and color swatches",
+        "PDP gallery, color selectors, accordions and Buy It With",
+        "Empty cart recommendations and threshold copy"
+      ],
+      "design_hypothesis": "Homewares direction organizes colorful tabletop product around gathering occasions, with editorial story modules around commerce shelves. Product claims and responsive behavior remain unverified."
+    },
+    {
+      "id": "shopify-live-be-yours",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Campaign slideshow and new arrivals shelf with skincare metadata",
+        "Skin-tone and routine quiz modules",
+        "Tabbed bestsellers and UGC routines",
+        "Featured PDP, comparison table and ingredient-story sections",
+        "Before/after module, Shop the Look, testimonials and guarantees"
+      ],
+      "design_hypothesis": "Beauty merchandising joins routine education and product comparison with conversion modules; actual efficacy, retailer, and ingredient claims remain unverified."
+    },
+    {
+      "id": "shopify-live-motion-satchel",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Featured bag shelf with five color options",
+        "Editorial handbag and service benefit section",
+        "Featured collection tiles",
+        "Brand story and journal links",
+        "Collection facets, sorting and Quick View",
+        "Empty cart Popular Picks shelf with placeholder products"
+      ],
+      "design_hypothesis": "Accessories merchandising combines color variant exploration and editorial story modules; visible placeholder cart recommendations should be replaced with genuine catalog matches in a production design."
+    },
+    {
+      "id": "shopify-live-pipeline-petra",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Officially linked demo rendered as footwear storefront",
+        "Men/women collection navigation with layout controls and Quick View",
+        "Featured collection cards with colorways",
+        "PDP with sizes, pickup and hotspot modules",
+        "Empty cart state"
+      ],
+      "design_hypothesis": "Rendered pages show footwear merchandising patterns, but the listing/demo mismatch prevents treating these as verified Petra-specific design signals."
+    },
+    {
+      "id": "shopify-live-pipeline-pahoa",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skincare hero and tabbed product shelves",
+        "Routine education accordion and hotspots",
+        "Product collection with type/size facets",
+        "PDP with ingredient tabs and routine cross-sells",
+        "Empty cart with shipping FAQs"
+      ],
+      "design_hypothesis": "Educational routine content and product metadata can structure skincare browsing. Treat only as theme layout because the demo declares its catalog fictional."
+    },
+    {
+      "id": "shopify-live-pipeline-phantom",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Swimwear hero with video",
+        "Product shelf and Shop the Sale categories",
+        "Showroom/philosophy modules",
+        "Sets collection with designer, color and size filtering",
+        "PDP with large gallery, fit guidance and cross-sell",
+        "Empty cart with shipping FAQ and service promises"
+      ],
+      "design_hypothesis": "Swimwear merchandising uses large imagery and designer/color taxonomy with fit details; sourcing and durability claims remain unverified."
+    },
+    {
+      "id": "shopify-live-concept",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Slideshow hero with collection CTA",
+        "Audio brand-story section",
+        "Headphone collection chips for use cases",
+        "Spec-rich product cards",
+        "PDP with feature highlights and accessory upsells",
+        "Empty cart reassurance strip"
+      ],
+      "design_hypothesis": "Electronics product discovery benefits from scan-friendly specification chips and compatible accessory upsells; actual product claims require independent validation."
+    },
+    {
+      "id": "shopify-live-concept-inova",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Furniture hero slideshow",
+        "Seating/sofas/lighting/accessories image categories",
+        "Designer/brand story video",
+        "Material/color/type/price filters",
+        "PDP with eight-image gallery and color options",
+        "Empty cart reassurance and footer"
+      ],
+      "design_hypothesis": "Home furnishing navigation benefits from broad room/product categories and product-spec/material facets; actual claims are unverified."
+    },
+    {
+      "id": "shopify-live-sleek-wildpeak",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Multi-slide outdoor apparel hero",
+        "Faceted Best Sellers catalog with product type, price, color, size and availability",
+        "Product detail with size-chart popup, stock text and service accordions",
+        "Empty-cart collection suggestions"
+      ],
+      "design_hypothesis": "A large filter set can span apparel attributes, but category breadth and related editorial content need to remain product-relevant; this demo’s mixed catalog and unrelated PDP review/story modules weaken trust and coherence. Claims unverified."
+    },
+    {
+      "id": "shopify-live-wonder-velour",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Fashion-category mega navigation",
+        "Three-slide campaign hero",
+        "Collection and bestseller/product tabs",
+        "Shoppable video/reels",
+        "Blog/editorial and social gallery",
+        "PDP color/size selection, offer and size guide"
+      ],
+      "design_hypothesis": "Apparel browsing pairs category taxonomy and editorial merchandising with granular color/size/price filters; shoppable video adds product access, while sourcing clarity helps users understand mixed-brand demos."
+    },
+    {
+      "id": "shopify-live-wonder-nook",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Room-based mega navigation",
+        "Department category tiles and editorial collages",
+        "Sale countdown and collection tabs",
+        "Shoppable video/reels and room inspiration",
+        "Furniture PDP with configuration/color, dimensions, material and warranty"
+      ],
+      "design_hypothesis": "High-consideration furniture shopping benefits from room taxonomy, material and feature filters, clear dimensions and configuration choices; trust copy should be validated and kept consistent with product facts."
+    },
+    {
+      "id": "shopify-live-wonder-petit",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Single-product assurance hero",
+        "Feature storytelling and comparison table",
+        "Product specs and app cross-sell",
+        "Customer reviews and FAQ",
+        "Sticky PDP purchase controls"
+      ],
+      "design_hypothesis": "A single-product storefront can use an editorial landing page to explain product features before the PDP; repeat claims and duplicated testimonials can undermine credibility, especially for infant safety and privacy."
+    },
+    {
+      "id": "shopify-live-eurus-placid",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shop by Shade tabs with variant swatches",
+        "Room-based collection navigation",
+        "Material and size-aware catalog filters",
+        "Multi-step bundle builder",
+        "Shop-the-look hotspots and care guidance"
+      ],
+      "design_hypothesis": "Home-decor discovery can use shade, room, material and curated sets as complementary pathways; product-specific origin/craft content must track the active SKU to retain confidence."
+    },
+    {
+      "id": "shopify-live-release-grasse",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Men's grooming hero and featured/preorder cards",
+        "Best-seller collection tabs",
+        "Before/after comparison slider",
+        "Featured PDP with volume options",
+        "Shop-the-look, guides and testimonials"
+      ],
+      "design_hypothesis": "Grooming merchandising can combine concerns-based collection routes, before/after storytelling and volume choices; product facts, inventory states and shipping thresholds need to remain consistent across placements."
+    },
+    {
+      "id": "shopify-live-ignite-alpha",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Vehicle make/model/year/generation finder",
+        "Part-type search and compatibility garage",
+        "Fitment-aware product cards",
+        "Layered vehicle/part facets and compare",
+        "PDP compatibility table with technical PDFs"
+      ],
+      "design_hypothesis": "Automotive catalogs need fitment selection and compatibility visible across search, collection, cards and PDP; conflicting fitment data can undermine high-consequence purchasing decisions."
+    },
+    {
+      "id": "shopify-live-shapes-aura",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Values icon row and skincare hero",
+        "Essentials/serum product carousels",
+        "Ingredient/sustainability story",
+        "Product concern tags",
+        "Ingredient, shipping and recycling accordions"
+      ],
+      "design_hypothesis": "Values-led skincare merchandising can connect concise product benefits with ingredients and care details; clearly distinguish real verified claims from demo content."
+    },
+    {
+      "id": "shopify-live-vision-velocite",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Bike-category hero and navigation",
+        "Featured gear carousel",
+        "Specifications and testimonials",
+        "Polygon bike-story sections",
+        "Collection filters and product cards"
+      ],
+      "design_hypothesis": "A tightly curated sport catalog should keep collection labels, product types, PDP description and lower-page brand story aligned; relevant recently viewed items can support an empty-cart recovery path."
+    },
+    {
+      "id": "shopify-live-prestige-prestige",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Campaign announcement and countdown",
+        "Category hero",
+        "Bestseller tabs and product rails",
+        "Brand and material storytelling",
+        "Lookbook/collaboration",
+        "Blog and service strip"
+      ],
+      "design_hypothesis": "Premium catalog pages can build confidence through layered material, care and brand-origin information, while campaign dates should remain synchronized across templates."
+    },
+    {
+      "id": "shopify-live-eurus-mystique",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shop-by-style taxonomy",
+        "Seasonal product tabs",
+        "Shop-the-look hotspots",
+        "Two-step bundle builder",
+        "Craftsmanship/material story",
+        "Warranty and care details"
+      ],
+      "design_hypothesis": "A product-led bag catalog can turn fit constraints into useful filters and structured PDP data, while material and variant labels need to stay consistent across card, selection and description."
+    },
+    {
+      "id": "shopify-live-eurus-eurus",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Skin routine quiz",
+        "Skin-concern taxonomy",
+        "Staged personalized bundle",
+        "Ingredient comparison table",
+        "Testimonials and founder story",
+        "FAQ and product reels"
+      ],
+      "design_hypothesis": "A guided skincare catalog can use concern-based discovery and ingredient comparison to make large assortments navigable, but visible claims and testimonials need trustworthy product-level alignment."
+    },
+    {
+      "id": "shopify-live-release-renaissance",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Countdown promotion bar",
+        "Featured jewelry rail",
+        "Category and ring-size options",
+        "Editorial and shop-the-look",
+        "Trust claims"
+      ],
+      "design_hypothesis": "Jewelry browsing can use size/material variants and editorial guidance, while campaign timing, social proof and destinations need consistent product alignment."
+    },
+    {
+      "id": "shopify-live-ignite-playtime",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product-type search and age finder",
+        "Gift Finder",
+        "Bestseller carousel with sale and low-stock labels",
+        "Collectible trading cards",
+        "Age and editorial collections",
+        "Educational PDP content and recommendations",
+        "Empty-cart featured collection"
+      ],
+      "design_hypothesis": "Children's toy browsing can pair age and gift discovery with educational product benefits, but locale, age facets and testimonial/review counts need consistent data."
+    },
+    {
+      "id": "shopify-live-ignite-tails",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product-type search",
+        "Animal-category collections",
+        "Bestseller rail with color previews and quick view",
+        "Service and editorial content",
+        "Faceted collection filters",
+        "PDP color options and video rail",
+        "Featured products in empty cart"
+      ],
+      "design_hypothesis": "Pet retail benefits from animal and product-type navigation plus brand/type facets, with color previews and quick view helping compare supplies; locale-specific contact and shipping details should align."
+    },
+    {
+      "id": "shopify-live-shapes-fizz",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Playful oversized type and compact nav",
+        "Flavor carousel",
+        "Dietary benefit badges",
+        "Filter and sort collection",
+        "Flavor cross-links and pack-size options",
+        "Taste profile indicators",
+        "Empty cart with newsletter signup"
+      ],
+      "design_hypothesis": "A beverage brand can organize a small catalog around flavor and pack size, then reinforce choice with dietary badges and taste profiles; brand naming and currency should stay consistent across collection, PDP and cart."
+    },
+    {
+      "id": "shopify-live-ignite-peak",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "taste-and-allergen-preferences",
+        "product-type-search",
+        "nutritional-facets",
+        "unit-pricing",
+        "pack-size-options",
+        "nutri-score"
+      ],
+      "design_hypothesis": "food/wellness/nutrition merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-shapes-shapes",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "creative-product-display",
+        "product-carousel",
+        "filter-sort",
+        "ingredient-tabs",
+        "taste-profile",
+        "dietary-badges"
+      ],
+      "design_hypothesis": "food/condiments/pantry merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-shapes-candy",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "flavor-carousel",
+        "collection-filter-sort",
+        "flavor-picker",
+        "pack-size-options",
+        "taste-profile",
+        "ingredients-accordion"
+      ],
+      "design_hypothesis": "food/chocolate/confectionery merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-shapes-scratch",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "pet-category-merchandising",
+        "health-benefit-tags",
+        "collection-filter-sort",
+        "product-flavor-links",
+        "long-form-product-info"
+      ],
+      "design_hypothesis": "pets/pet-food/dog-treats merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-vision-onyx",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "jewelry-category-navigation",
+        "sale-pricing",
+        "color-variant-swatches",
+        "size-picker",
+        "filter-sort"
+      ],
+      "design_hypothesis": "jewelry/accessories/fashion merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-vision-solstice",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "seasonal-editorial-hero",
+        "price-tier-collections",
+        "color-size-variants",
+        "fit-guide",
+        "stock-count",
+        "quick-view"
+      ],
+      "design_hypothesis": "fashion/apparel/seasonal merchandising can combine category-specific discovery, detailed product choices and contextual proof; keep claims, locale and cart recommendations consistent."
+    },
+    {
+      "id": "shopify-live-wonder-petit-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Collection filters and grid"
+      ],
+      "design_hypothesis": "The wonder Petit demo's collection pages document additional screen patterns for wonder-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-eurus-arise-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Collection filters and grid",
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The eurus Arise demo's collection, product, cart pages document additional screen patterns for eurus-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-release-serenity-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Home template",
+        "Collection filters and grid",
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The release Serenity demo's home, collection, product, cart pages document additional screen patterns for release-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-spotlight-spotlight-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Home template",
+        "Collection filters and grid",
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The spotlight Spotlight demo's home, collection, product, cart pages document additional screen patterns for spotlight-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-symmetry-symmetry-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product detail, variants and purchase state"
+      ],
+      "design_hypothesis": "The symmetry Symmetry demo's product pages document additional screen patterns for symmetry-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-eurus-whiff-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The eurus Whiff demo's product, cart pages document additional screen patterns for eurus-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-release-forest-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Product detail, variants and purchase state",
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The release Forest demo's product, cart pages document additional screen patterns for release-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-local-caffeine-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The local Caffeine demo's cart pages document additional screen patterns for local-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-be-yours-peace-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The be-yours Peace demo's cart pages document additional screen patterns for be-yours-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-be-yours-harmony-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The be-yours Harmony demo's cart pages document additional screen patterns for be-yours-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-vision-poochy-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The vision Poochy demo's cart pages document additional screen patterns for vision-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-dawn-dawn-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The dawn Dawn demo's cart pages document additional screen patterns for dawn-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-horizon-horizon-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The horizon Horizon demo's cart pages document additional screen patterns for horizon-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-rise-rise-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The rise Rise demo's cart pages document additional screen patterns for rise-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-origin-origin-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The origin Origin demo's cart pages document additional screen patterns for origin-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-tinker-tinker-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The tinker Tinker demo's cart pages document additional screen patterns for tinker-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-craft-craft-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The craft Craft demo's cart pages document additional screen patterns for craft-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-publisher-publisher-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The publisher Publisher demo's cart pages document additional screen patterns for publisher-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-ride-ride-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The ride Ride demo's cart pages document additional screen patterns for ride-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-sense-sense-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The sense Sense demo's cart pages document additional screen patterns for sense-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-studio-studio-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The studio Studio demo's cart pages document additional screen patterns for studio-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-crave-crave-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The crave Crave demo's cart pages document additional screen patterns for crave-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-trade-trade-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The trade Trade demo's cart pages document additional screen patterns for trade-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-vessel-vessel-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The vessel Vessel demo's cart pages document additional screen patterns for vessel-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-heritage-heritage-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The heritage Heritage demo's cart pages document additional screen patterns for heritage-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-pitch-pitch-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The pitch Pitch demo's cart pages document additional screen patterns for pitch-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-dwell-dwell-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The dwell Dwell demo's cart pages document additional screen patterns for dwell-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-ritual-ritual-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The ritual Ritual demo's cart pages document additional screen patterns for ritual-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-fabric-fabric-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The fabric Fabric demo's cart pages document additional screen patterns for fabric-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-live-atelier-atelier-screen-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty-cart state and recommendations"
+      ],
+      "design_hypothesis": "The atelier Atelier demo's cart pages document additional screen patterns for atelier-family storefronts; validate those patterns against target-store content and behavior before adoption."
+    },
+    {
+      "id": "shopify-mobile-sweep-header-hierarchy",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "360×640 CSS px review of 127 selected Theme Store presets",
+        "Compact hamburger/wordmark/search/cart headers across paid and free themes",
+        "Search-heavy stacked header variants in Enterprise and Warehouse"
+      ],
+      "design_hypothesis": "At phone widths, treat announcement bars, search, brand and cart as a constrained header stack. Keep primary navigation reachable without letting utility rows consume the hero; benchmark all variants at 360 px."
+    },
+    {
+      "id": "shopify-mobile-sweep-hero-copy",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Image-led full-width campaign heroes",
+        "Large editorial headlines that continue below the first viewport",
+        "Centered and left-aligned CTAs across fashion, food, beauty, home and specialty stores"
+      ],
+      "design_hypothesis": "Give merchants focal-point controls and mobile headline/CTA spacing so the key message remains readable and the action is discoverable before or immediately after the hero. Verify text-on-image contrast."
+    },
+    {
+      "id": "shopify-mobile-sweep-catalog-density",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Two-column product grids in Refresh and Spotlight",
+        "Stacked search/department controls in Enterprise and Warehouse",
+        "Single-column campaign and product-image layouts"
+      ],
+      "design_hypothesis": "Support a clear two-column product-card baseline with a configurable one-column option, and progressively disclose filters/search on dense catalogs. Keep tap targets and prices legible at 360 px."
+    },
+    {
+      "id": "shopify-mobile-sweep-overflow",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Horizontal text/promo clipping in Palo Alto:Dynamo and Broadcast:Motif",
+        "Crowded header/hero copy in Empire:Empire and Empire:Circuit"
+      ],
+      "design_hypothesis": "Add a narrow-viewport overflow check for every promo bar, ticker, header control and hero heading. Long copy should wrap, truncate accessibly, or scroll within a bounded region rather than push the document wider."
+    },
+    {
+      "id": "shopify-mobile-sweep-overlays",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Lively age-verification gate in the first mobile view",
+        "Eurus:Arise cookie-consent overlay obscuring much of the hero",
+        "Limited-clarity hero media in Eurus:Arise and Stiletto:Luster"
+      ],
+      "design_hypothesis": "Treat consent and age-gate overlays as first-screen layout states. Preserve a visible path to the underlying page, maintain readable dialog bounds and focus behavior, and test image placeholders separately from mobile layout."
+    },
+    {
+      "id": "shopify-mobile-sweep-responsive-family-styles",
+      "evidence_level": "browser_mobile_preview",
+      "homepage_modules": [
+        "Shared preset families vary in header density, type scale, imagery and campaign pacing",
+        "Atelier, Tinker, Savor and other free themes reviewed as standalone designs",
+        "Mobile observations are linked to individual preset IDs in the completion matrix"
+      ],
+      "design_hypothesis": "Keep family presets as token/layout variations over shared responsive components. Use this evidence to inform original VSN styles; do not reproduce competitors' photography, typography pairings or exact composition."
+    },
+    {
+      "id": "shopify-interaction-enterprise-cascading-finder",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Shop our range finder cascades Department → Category → Product type",
+        "Smart Tech → Home Technology → Smart Cameras resolves to seven products"
+      ],
+      "design_hypothesis": "A progressive finder can reduce taxonomy complexity when each selection updates the next choice and leads to a precise collection. Preserve a direct search/category fallback."
+    },
+    {
+      "id": "shopify-interaction-enterprise-filter-sort",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Smart Cameras collection exposes an Availability filter with counts, a Price range and Brand options",
+        "Sort menu groups featured/relevance, sales, alphabetical, price and date orders"
+      ],
+      "design_hypothesis": "Group filters in a predictable drawer and keep sort choices adjacent to the result count; selected filter counts should match the resulting collection."
+    },
+    {
+      "id": "shopify-interaction-prestige-variant-stock",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Edie Cascade Wrap Mini Dress PDP provides Color and Size selectors, a size chart and stock messaging",
+        "Changing XS to S updates selected state and the stock message"
+      ],
+      "design_hypothesis": "Bind variant availability and inventory messaging to the selected option combination, with size guidance near the selector."
+    },
+    {
+      "id": "shopify-interaction-enterprise-empty-cart",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empty cart drawer shows a $0 subtotal and a Hot deals on tech recommendation shelf",
+        "Recommended products expose Choose options actions"
+      ],
+      "design_hypothesis": "Use the empty cart as a recovery point with relevant recommendations and a clear return to shopping while keeping the empty state unmistakable."
+    },
+    {
+      "id": "shopify-interaction-impulse-quick-view",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Impulse:Impulse related-products rail opens Quick View for The Vela Shirt without leaving The Lido Short PDP",
+        "Modal includes product media, sale/compare-at price, description, size-chart access, stock state and detail accordions"
+      ],
+      "design_hypothesis": "Let shoppers inspect a related item in context with essential buying information and a clear close path, while preserving the original PDP."
+    },
+    {
+      "id": "shopify-interaction-impulse-dune-variant",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Impulse:Dune Naked & Famous Crewneck PDP uses S/M/L/XL radio-style size options.",
+        "Selecting M updates the selected radio and the URL's variant ID; the in-stock message remains unchanged."
+      ],
+      "design_hypothesis": "Keep the selected variant reflected in the URL and visible control state; update availability messaging when a variant actually changes stock."
+    },
+    {
+      "id": "shopify-interaction-impulse-terrain-variant",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Impulse:Terrain mountain-bike PDP offers S/M/L/XL radio-style size options.",
+        "Selecting M updates the selected state and variant-specific URL; the in-stock message remains unchanged."
+      ],
+      "design_hypothesis": "Keep high-consideration variant choices visible and addressable by URL; keep inventory feedback tied to the selected size."
+    },
+    {
+      "id": "shopify-tier1-disclosure-coverage",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Across Tier 1 demos, product pages exposed expandable care, warranty, FAQ, shipping, description, specifications and subscription disclosures.",
+        "Opening controls revealed contextual content without leaving the product page."
+      ],
+      "design_hypothesis": "Use clearly labeled disclosures for supporting product details; keep essential decision information visible and expand secondary information in place."
+    },
+    {
+      "id": "shopify-tier1-size-guide-overlay",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Prestige:Signature opened a conversion-chart overlay from the size-chart control."
+      ],
+      "design_hypothesis": "Keep size guidance reachable beside variant selection and open it without losing product context."
+    },
+    {
+      "id": "shopify-tier1-gallery-zoom",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Empire:Forma opened a product zoom dialog from a gallery image and displayed a Close control."
+      ],
+      "design_hypothesis": "Provide focused image zoom with a visible close action that returns shoppers to the PDP."
+    },
+    {
+      "id": "shopify-tier1-navigation-search",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Tier 1 interactions opened navigation disclosures for categories/Women and a header search panel."
+      ],
+      "design_hypothesis": "Make navigation and search panels easy to open and dismiss; distinguish category choices from direct links."
+    },
+    {
+      "id": "shopify-tier1-subscription-disclosures",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Warehouse:Warehouse, Wood and Mesh exposed expandable newsletter/subscription disclosures on product pages."
+      ],
+      "design_hypothesis": "Label promotional subscription details clearly and keep them separate from product purchase controls."
+    },
+    {
+      "id": "shopify-tier2-product-disclosures",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Tier 2 product pages exposed Description, Materials & Care, Product Care, Ingredients, Shipping and Returns, Warranty, Specifications, Our Promise and Size chart panels; each sampled panel opened in place."
+      ],
+      "design_hypothesis": "Group secondary product facts in clearly named panels near the buying decision, keep the active state visible, and make it possible to return to the product story without losing selection."
+    },
+    {
+      "id": "shopify-tier2-sizing-and-variant-state",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Focal, Motion and Palo Alto demos exposed Size chart or Size guide controls; Stiletto:Linen changed to size 36 and updated the product URL to a variant-specific query; Concept:Concept marked Gold Tone selected."
+      ],
+      "design_hypothesis": "Show size or variant selection immediately in both the control and the product state, and give size guidance a direct path from the option selector."
+    },
+    {
+      "id": "shopify-tier2-gallery-modal",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Pipeline:Pahoa and Pipeline:Phantom opened product gallery zoom dialogs with image navigation and Close; Concept:Inova opened a media modal with a Close control."
+      ],
+      "design_hypothesis": "Use focused gallery dialogs with clear close and previous/next controls so shoppers can inspect imagery and return to the same product state."
+    },
+    {
+      "id": "shopify-tier2-localization-pickup",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Local:Local and Local:Caffeine expanded language/country-region selectors. Local:Soleway and Local:Lively exposed pickup-location or store-map panels."
+      ],
+      "design_hypothesis": "Keep language, currency and pickup location controls distinct from product options; show the currently active locale or store and provide a clear way to close the panel."
+    },
+    {
+      "id": "shopify-tier2-search-fallback",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Stiletto:Stiletto's selected product URL returned 404 during this pass; the public homepage search modal opened as a same-preset fallback and no query was entered."
+      ],
+      "design_hypothesis": "When a product route is unavailable, record the limitation and use an observed same-store entry point for a bounded interaction check."
+    },
+    {
+      "id": "shopify-tier3-native-baseline-interactions",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Dawn opened a search dialog; Horizon selected a size; Tinker and Atelier opened gallery zoom; Savor selected a multi-bottle pack; Trade expanded Product features."
+      ],
+      "design_hypothesis": "Use the free first-party themes as interaction baselines: search should open without submitting, selections should show their active state, and gallery and product-detail controls should remain reversible."
+    },
+    {
+      "id": "shopify-tier3-gallery-and-variant-controls",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Horizon exposed a checked size option; Savor exposed checked pack quantity; Tinker and Atelier exposed reversible gallery zoom controls."
+      ],
+      "design_hypothesis": "Keep selection state visible and provide clear close behavior for gallery overlays so shoppers can return to the product page."
+    },
+    {
+      "id": "shopify-tier4-interaction-controls",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "Tier 4 interactions covered product gallery zoom, product variant selections, product-detail disclosures and tabs, storefront navigation menus, and country/language selectors across Be Yours, Sleek, Wonder, Eurus, Release, Ignite, Shapes and Vision demos.",
+        "Locale selectors were opened without changing the selected market; no cart or checkout action was taken."
+      ],
+      "design_hypothesis": "Group product controls by task, expose the active variant or tab clearly, keep informational disclosures reversible, and make locale menus easy to identify and dismiss."
+    },
+    {
+      "id": "shopify-other-family-interaction-controls",
+      "evidence_level": "live_demo_page",
+      "homepage_modules": [
+        "The remaining 17 selected presets across Refresh, Rise, Origin, Craft, Publisher, Ride, Sense, Studio, Taste, Crave, Spotlight, Vessel, Heritage, Pitch, Dwell, Ritual and Fabric provided verified gallery, variant, disclosure or search-dialog interactions.",
+        "This closes targeted interaction coverage for the full 127-preset cohort; Theme Editor, checkout, keyboard/accessibility and performance remain unaudited."
+      ],
+      "design_hypothesis": "Keep media zoom, size/color state, product-information disclosures and search entry points clear and reversible across free and paid theme families."
     }
   ]
 }

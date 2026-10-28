@@ -1,0 +1,50 @@
+{
+  "batch": 68,
+  "preset_id": "expanse:spritz",
+  "audit_entry_id": "shopify-expanse-spritz",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/expanse/presets/spritz",
+  "store_url": "https://expanse-theme-food-and-drink.myshopify.com/",
+  "store_url_verification": "official_listing_iframe_src_read_from_rendered_DOM_after_view_demo; same_host_exists_in_historical_nonselected_record",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://expanse-theme-food-and-drink.myshopify.com/",
+      "observations": [
+        "Food/drink storefront has Shop, Recipes, Our Story and FAQ navigation; hero promotes organic wine; Organic Wines and New Arrivals product shelves, bubbly giveaway/countdown, British-tradition feature and non-alcoholic drink category links.",
+        "Homepage also shows $100 free-shipping threshold, Everleaf aperitif feature, recipes/testimonials, non-alcoholic wine shelf, brand directory, gift cards, newsletters, signature recipes and supplier provenance statement.",
+        "This host also appears in a historical nonselected record; the official Spritz listing iframe currently resolves to it. No shopper controls activated."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine",
+      "observations": [
+        "Everything. Organic Wine has 5 products, Price/Brand/Availability filters, Best selling sort and Large/Small/List controls.",
+        "Cards show Organic Collection vendor, $129 pricing and add-to-cart/quick-shop controls. Giveaway and sustainability/seasonal promo blocks follow. No controls activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher",
+      "observations": [
+        "Organico Lemon Refresher 750ml PDP displays $129, in-stock/ready-to-ship, Free worldwide shipping, Alcohol-free, Organic ingredients and Secure payments copy.",
+        "Product has gallery/zoom, Add to cart, Description/Shipping/Ask a question sections, free-giveaway/countdown and vendor/collection recommendations. Claims unverified; no controls activated."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://expanse-theme-food-and-drink.myshopify.com/cart",
+      "observations": [
+        "Header cart drawer states that the cart is currently empty; no dedicated cart page opened and no cart mutation or checkout."
+      ]
+    }
+  ],
+  "limits": [
+    "This host was previously cataloged as a historical nonselected demo; the official Spritz listing now verified the selected preset mapping.",
+    "No filter, sort, density, quick-shop, add-to-cart, cart or checkout actions.",
+    "No screenshot, viewport/mobile, Theme Editor, keyboard or performance tests.",
+    "Product, alcohol-free, organic, inventory, shipping and gift-promotion claims unverified."
+  ]
+}

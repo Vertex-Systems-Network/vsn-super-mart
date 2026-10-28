@@ -1,0 +1,34 @@
+{
+  "batch": 62,
+  "observed_on": "2026-10-26",
+  "scope": "official_listing_preview_availability",
+  "source_class": "browser_render_readonly",
+  "checks": [
+    {
+      "preset_id": "focal:sapphire",
+      "official_listing_url": "https://themes.shopify.com/themes/focal/presets/sapphire",
+      "result": "listing_visible_demo_preview_blank_after_view_demo_disabled",
+      "storefront_url": null,
+      "counted_as_storefront_evidence": false
+    },
+    {
+      "preset_id": "warehouse:wood",
+      "official_listing_url": "https://themes.shopify.com/themes/warehouse/presets/wood",
+      "result": "listing_visible_demo_preview_blank_after_view_demo_disabled",
+      "storefront_url": null,
+      "counted_as_storefront_evidence": false
+    }
+  ],
+  "counts_unchanged": {
+    "unique_homepages": 79,
+    "total_selected": 127,
+    "rendered_pages": 155,
+    "rendered_presets": 39,
+    "remaining_unique_homepages": 48
+  },
+  "limits": [
+    "No standalone storefront URL verified",
+    "No home/collection/product/cart pages inspected",
+    "No screenshot or viewport measurement"
+  ]
+}

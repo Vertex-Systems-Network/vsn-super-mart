@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Shopify Impact:Cocoon preset listing View demo inspected read-only with rendered browser accessibility tree. Home, New Arrivals collection, PC Portable Lamp Olive Green PDP and empty cart inspected. No shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+  "sources": [
+    {
+      "id": "impact-cocoon-preset-listing",
+      "url": "https://themes.shopify.com/themes/impact/presets/cocoon",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Impact:Cocoon listing View demo opened impact-theme-home.myshopify.com."
+    },
+    {
+      "id": "shopify-impact-cocoon-browser-render",
+      "url": "https://impact-theme-home.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://impact-theme-home.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://impact-theme-home.myshopify.com/collections/new-arrivals"
+        },
+        {
+          "kind": "product",
+          "url": "https://impact-theme-home.myshopify.com/products/hay-pc-portable-lamp-olive-green"
+        },
+        {
+          "kind": "cart",
+          "url": "https://impact-theme-home.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "cocoon-home-discovery",
+      "source_ids": [
+        "shopify-impact-cocoon-browser-render"
+      ],
+      "observed": "Home connects designer and room narratives to new arrivals; collection exposes filter, sort and in-stock-only cues with color swatches and ratings.",
+      "risk": "No collection controls tested; ratings and merchant product data are unverified.",
+      "vsn_guard": "Connect room/occasion stories to taxonomy and keep stock and variant cues current."
+    },
+    {
+      "id": "cocoon-lamp-detail-and-empty-cart",
+      "source_ids": [
+        "shopify-impact-cocoon-browser-render"
+      ],
+      "observed": "Portable lamp PDP presents six color paths, Sold Out state, review link and product-design/LED-life details; empty cart provides Continue shopping.",
+      "risk": "Inventory, rating, product life-span and product-design claims are not independently verified.",
+      "vsn_guard": "Make out-of-stock status clear and substantiate durability, LED life and other performance claims."
+    }
+  ]
+}

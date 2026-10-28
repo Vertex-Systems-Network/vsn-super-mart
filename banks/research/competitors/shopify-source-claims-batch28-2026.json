@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Ignite:Ignite official preset listing demo inspected read-only via rendered browser accessibility trees. No shopper actions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "ignite-preset-listing",
+      "url": "https://themes.shopify.com/themes/ignite/presets/ignite",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Ignite preset listing View demo opened the Ignite Tech & Gadgets Co storefront."
+    },
+    {
+      "id": "ignite-demo",
+      "url": "https://benchmark-electronics-demo.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://benchmark-electronics-demo.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://benchmark-electronics-demo.myshopify.com/collections/smart-tech"
+        },
+        {
+          "kind": "product",
+          "url": "https://benchmark-electronics-demo.myshopify.com/collections/smart-tech/products/pixa-9"
+        },
+        {
+          "kind": "cart",
+          "url": "https://benchmark-electronics-demo.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ignite-technical-catalog-and-specs",
+      "source_ids": [
+        "ignite-demo"
+      ],
+      "observed": "Rendered Smart Tech catalog exposes technical facets and a compare control; Edge Pixa 9 product page exposes variant choices and a technical specification table.",
+      "risk": "Visible controls do not prove functional filtering/comparison or factual accuracy of compatibility, specifications, inventory or reviews.",
+      "vsn_guard": "Test catalog and compare behavior and validate merchant-supplied device attributes before using them as product data."
+    },
+    {
+      "id": "ignite-sample-commerce-promises",
+      "source_ids": [
+        "ignite-demo"
+      ],
+      "observed": "Demo pages display sale, trade-in, delivery, discount, stock and customer-rating messages.",
+      "risk": "Sample copy does not substantiate live prices, inventory, shipping terms, discounts or reviews.",
+      "vsn_guard": "Require a source and validation path for each promotional, inventory, delivery and review claim."
+    }
+  ]
+}

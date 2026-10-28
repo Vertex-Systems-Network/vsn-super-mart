@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Enterprise:Enterprise official demo storefront inspected with read-only rendered browser accessibility trees; no shopper actions, screenshot, viewport measurement, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "enterprise-preset-listing",
+      "url": "https://themes.shopify.com/themes/enterprise/presets/enterprise",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Enterprise preset listing View demo opened a storefront labelled Enterprise Theme Enterprise."
+    },
+    {
+      "id": "enterprise-demo",
+      "url": "https://enterprise-theme-digital.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://enterprise-theme-digital.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1"
+        },
+        {
+          "kind": "product",
+          "url": "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1/products/smartcamera-with-voice-control"
+        },
+        {
+          "kind": "cart",
+          "url": "https://enterprise-theme-digital.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "enterprise-large-catalog-facet-compare",
+      "source_ids": [
+        "enterprise-demo"
+      ],
+      "observed": "Smart Tech category structure presents technical filters with sort and compare affordances; the camera PDP displays technical specifications and product details.",
+      "risk": "Browser-rendered control presence does not establish working interactions or consistent comparison behavior.",
+      "vsn_guard": "Implement only after interaction and cross-page field consistency are verified; keep observed structure separate from functional claims."
+    },
+    {
+      "id": "enterprise-demo-merchant-copy",
+      "source_ids": [
+        "enterprise-demo"
+      ],
+      "observed": "Pages display sample pricing, review counts, inventory, shipping, discount and promotion claims.",
+      "risk": "These are merchant statements in a sample store and were not independently validated.",
+      "vsn_guard": "Require merchant evidence, market scope and current policy before using trust or inventory claims."
+    }
+  ]
+}

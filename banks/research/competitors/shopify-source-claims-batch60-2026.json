@@ -1,0 +1,52 @@
+{
+  "batch": 60,
+  "preset_id": "impact:impact",
+  "audit_entry_id": "shopify-live-impact-sound",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/impact/presets/impact",
+  "store_url": "https://impact-theme-sound.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://impact-theme-sound.myshopify.com/",
+      "observations": [
+        "Premium audio home leads with an MW08 Sport hero, collaboration promotion, free standard shipping and a demo discount code.",
+        "Category tiles route to Headphones, Earphones, Speakers, Collaborations and Accessories; Best sellers presents a six-item shelf with variant color swatches, star-review summaries, sale pricing and sold-out badges.",
+        "Editorial product story sections feed into a built-in compare table, timeline, FAQ, service promises and newsletter; merchant product/service claims remain unverified."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://impact-theme-sound.myshopify.com/collections/headphones",
+      "observations": [
+        "Headphones page includes a featured MH40 Wireless product, links to Limited Editions/Noise-Cancelling/Wireless/Gaming shortcuts, and a filterable/sortable product grid.",
+        "Visible facets include In stock only, Product type, Color, Driver, Bluetooth and Price; default sort is Featured and pagination shows page 1 of 3.",
+        "Product cards expose collaboration/new/sold-out labels, $299 sale prices, color swatches and review links. No facets, sorting, pagination, swatch or purchase controls were activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://impact-theme-sound.myshopify.com/products/mw07-plus-tortoiseshell-stainless-steel-case",
+      "observations": [
+        "MW07 Plus PDP shows $249 sale price, Tortoiseshell / Stainless Steel Case, five alternate color/model links, six gallery images and In stock status.",
+        "Page exposes quantity, Add to cart and Buy it now controls, two MC100 charge-pad add-ons, technical specification blocks, in-box contents, a product comparison table, and customer reviews.",
+        "Product performance/material/battery claims and review content are unverified. No variant, gallery, quantity, add-on or purchase action was activated."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://impact-theme-sound.myshopify.com/cart",
+      "observations": [
+        "Cart page shows zero items and Your cart is empty, with a Continue shopping route to All Products.",
+        "Footer repeats design, shipping, support, payment and newsletter areas. Cart state remained unchanged; no checkout action executed."
+      ]
+    }
+  ],
+  "limits": [
+    "Shop menu opened to follow navigation; no merchandizing or cart controls used",
+    "No screenshot, viewport/mobile/editor/checkout/keyboard/performance testing",
+    "Merchant/product/inventory/review claims unverified",
+    "Indexed home already existed; unique homepage count unchanged"
+  ]
+}

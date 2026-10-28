@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Refresh selected preset: direct read-only browser-rendered observations plus attributed third-party automated scan; no VSN interaction or accessibility tests.",
+  "sources": [
+    {
+      "id": "refresh-demo",
+      "url": "https://theme-refresh-demo.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://theme-refresh-demo.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://theme-refresh-demo.myshopify.com/collections/hair"
+        },
+        {
+          "kind": "product",
+          "url": "https://theme-refresh-demo.myshopify.com/products/shampoo-2"
+        },
+        {
+          "kind": "cart",
+          "url": "https://theme-refresh-demo.myshopify.com/cart"
+        }
+      ],
+      "observed_on": "2026-10-26"
+    },
+    {
+      "id": "refresh-official-listing",
+      "url": "https://themes.shopify.com/themes/refresh/presets/refresh",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "listing_version": "16.1.0",
+      "listing_version_date": "2026-10-09"
+    },
+    {
+      "id": "accessifyai-refresh-scan",
+      "url": "https://accessifyai.de/shopify-theme-accessibility/refresh",
+      "source_class": "third_party_automated_accessibility_report",
+      "scan_date": "2026-09-29",
+      "theme_version": "16.0.0"
+    }
+  ],
+  "claims": [
+    {
+      "id": "refresh-routine-and-editorial-merchandising",
+      "source_ids": [
+        "refresh-demo"
+      ],
+      "observed": "Rendered pages expose category stories, product information accordions, a hair-routine cross-link, journal cards and an empty-cart favorites shelf.",
+      "risk": "Rendered DOM presence does not prove working links/controls or that recommendations reflect selected variants.",
+      "vsn_guard": "Build reusable merchant-configured category, disclosure, blog and routine sections; verify interaction and selected-variant context before release."
+    },
+    {
+      "id": "refresh-sample-product-and-brand-claims",
+      "source_ids": [
+        "refresh-demo"
+      ],
+      "observed": "Demo content claims vegan/cruelty-free status, certifications, clinical testing, recyclable packaging, US origin, review volume, a free return guarantee and free-shipping threshold.",
+      "risk": "Demo copy is not independent evidence of real products, certification, jurisdiction, current shipping rules or legal compliance.",
+      "vsn_guard": "Display claims only when the merchant supplies current evidence and market scope; do not ship example promises as default theme copy."
+    },
+    {
+      "id": "refresh-third-party-accessibility-report-version-scope",
+      "source_ids": [
+        "accessifyai-refresh-scan",
+        "refresh-official-listing"
+      ],
+      "observed": "AccessifyAI reports 5 issue types and 9 occurrences on version 16.0.0 dated 2026-09-29; the official listing accessed on 2026-10-26 shows version 16.1.0 released 2026-10-09.",
+      "risk": "The external scan predates the listed theme version and its automated coverage is limited; it cannot establish present accessibility status.",
+      "vsn_guard": "Use the report only as a prompt for independent manual checks on the actual target version and content."
+    }
+  ]
+}

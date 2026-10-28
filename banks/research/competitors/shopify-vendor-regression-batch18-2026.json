@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "batch": 18,
+  "evidence_scope": "official Shopify Theme Store vendor release notes and first-party vendor marketing; NOT competitor live storefront HTML, NOT executed VSN functional QA",
+  "status": "research_not_implemented",
+  "selected_preset_ids": [
+    "vision:poochy",
+    "ignite:tails",
+    "sleek:jumped"
+  ],
+  "sources": [
+    {
+      "id": "vision",
+      "url": "https://themes.shopify.com/themes/vision/presets/poochy",
+      "source_type": "official_theme_store_vendor_listing_and_release_notes"
+    },
+    {
+      "id": "ignite",
+      "url": "https://themes.shopify.com/themes/ignite/presets/tails",
+      "source_type": "official_theme_store_vendor_listing_and_release_notes"
+    },
+    {
+      "id": "sleek",
+      "url": "https://themes.shopify.com/themes/sleek/presets/jumped",
+      "source_type": "official_theme_store_vendor_listing_and_release_notes"
+    },
+    {
+      "id": "sleek_vendor",
+      "url": "https://foxecom.com/products/sleek-shopify-theme",
+      "source_type": "first_party_vendor_marketing"
+    },
+    {
+      "id": "vision_reviewer",
+      "url": "https://www.theme-hub.com/vision-shopify-theme-review",
+      "source_type": "independent_reviewer"
+    },
+    {
+      "id": "shopify_requirements",
+      "url": "https://shopify.dev/docs/storefronts/themes/store/requirements",
+      "source_type": "official_shopify_developer_docs"
+    }
+  ],
+  "checks": [
+    {
+      "id": "cart-line-identity-app-mutations",
+      "source_key": "vision",
+      "source_url": "https://themes.shopify.com/themes/vision/presets/poochy",
+      "catalog_preset_id": "vision:poochy",
+      "evidence_level": "vendor_published_change_note_or_marketing",
+      "option_ids": [
+        "cart-ajax",
+        "cart-drawer",
+        "cart-discounts"
+      ],
+      "element_ids": [
+        "cart-lines",
+        "cart-drawer"
+      ],
+      "observed_vendor_note": "Vision 18.0.0 September 29 release notes describe a fix to quantity/remove affecting wrong cart lines after apps add or remove cart items.",
+      "original_vsn_design_rule": "VSN cart line mutations must use current Shopify line identity/key from latest cart, not stale client indices; debounce and reconcile API responses.",
+      "planned_qa": "Cart fixtures: same SKU with differing selling plans/properties; app-placed lines, discounts and rapid concurrent quantity/remove; verify only intended line changes.",
+      "status": "not_executed"
+    },
+    {
+      "id": "mobile-dock-safe-area-and-sticky-bars",
+      "source_key": "vision",
+      "source_url": "https://themes.shopify.com/themes/vision/presets/poochy",
+      "catalog_preset_id": "vision:poochy",
+      "evidence_level": "vendor_published_change_note_or_marketing",
+      "option_ids": [
+        "mobile-drawer-menu",
+        "sticky-atc",
+        "cart-icon-count"
+      ],
+      "element_ids": [
+        "mobile-menu",
+        "sticky-atc",
+        "cart-icon"
+      ],
+      "observed_vendor_note": "Vision 18.0.0 adds a mobile shortcut dock; vendor doesn't demonstrate VSN rendering or viewport behavior.",
+      "original_vsn_design_rule": "Coordinate mobile dock with sticky Add to Cart, chat/reviews embeds, browser safe area and 320px/360px viewports. Hide or reposition competing fixed bars.",
+      "planned_qa": "Manual phone small viewport with keyboard, expanded cart drawer and reduced motion; assert no clipped action or overlapping click targets.",
+      "status": "not_executed"
+    },
+    {
+      "id": "mega-menu-viewport-overflow",
+      "source_key": "vision",
+      "source_url": "https://themes.shopify.com/themes/vision/presets/poochy",
+      "catalog_preset_id": "vision:poochy",
+      "evidence_level": "vendor_published_change_note_or_marketing",
+      "option_ids": [
+        "mega-menu",
+        "multi-level-menu",
+        "responsive-images"
+      ],
+      "element_ids": [
+        "mega-menu",
+        "product-card"
+      ],
+      "observed_vendor_note": "Vision 18.0.0 fixes desktop mega menus exceeding viewport height being cut off at the bottom.",
+      "original_vsn_design_rule": "Limit menu max-height relative to visual viewport and make internal contents scrollable; preserve visible focus/escape behavior and original menu promotional tiles.",
+      "planned_qa": "Small-height desktop viewport at 1024x600 with keyboard tabbing, RTL, browser zoom 200%; ensure no clipped menu actions.",
+      "status": "not_executed"
+    },
+    {
+      "id": "analytics-standard-events-schema",
+      "source_key": "vision",
+      "source_url": "https://themes.shopify.com/themes/vision/presets/poochy",
+      "catalog_preset_id": "vision:poochy",
+      "evidence_level": "vendor_published_change_note_or_marketing",
+      "option_ids": [
+        "cart-ajax",
+        "quick-add",
+        "section-rendering"
+      ],
+      "element_ids": [
+        "product-card",
+        "cart-drawer"
+      ],
+      "observed_vendor_note": "Vision 18.0.0 notes Shopify standard events schema alignment to restore complete pixel/analytics app data.",
+      "original_vsn_design_rule": "Treat event names/payload/quantity/variant as versioned Shopify specification; emit only meaningful events after successful completed action, never from hidden demo modal markup.",
+      "planned_qa": "Instrument Shopify standard pixel sandbox; compare valid add-to-cart and product-view event payloads vs Ajax cart state; no duplicate event on section rerender.",
+      "status": "not_executed"
+    },
+    {
+      "id": "vehicle-compatibility-catalog-fitment",
+      "source_key": "ignite",
+      "source_url": "https://themes.shopify.com/themes/ignite/presets/tails",
+      "catalog_preset_id": "ignite:tails",
+      "evidence_level": "vendor_published_change_note_or_marketing",
+      "option_ids": [
+        "product-custom-fields",
+        "metafield-dynamic-sources",
+        "faceted-filters"
+      ],
+      "element_ids": [
+        "product-card",
+        "facets"
+      ],
+      "observed_vendor_note": "Ignite 2.7.0 September 9 vendor release introduces Compatibility Finder / My Garage for auto parts and expanded product schema; feature availability may vary by storefront/version.",
+      "original_vsn_design_rule": "Treat car fitment as structured merchant-verified make/model/year/SKU data and filter state, not freeform global promises; separate customer saved vehicle persistence from theme concerns.",
+      "planned_qa": "QA incompatible fitment, missing attributes, customer context, markets, 250+ variants, semantic announcement; do not claim VSN built the finder.",
+      "status": "not_executed"
+    },
+    {
+      "id": "flexible-editor-product-schema",
+      "source_key": "ignite",
+      "source_url": "https://themes.shopify.com/themes/ignite/presets/tails",
+      "catalog_preset_id": "ignite:tails",
+      "evidence_level": "vendor_published_change_note_or_marketing",
+      "option_ids": [
+        "product-blocks",
+        "app-blocks",
+        "metafield-dynamic-sources"
+      ],
+      "element_ids": [
+        "product-title",
+        "product-gallery"
+      ],
+      "observed_vendor_note": "Ignite 2.7.0 release claims extendable product page schema, custom icon uploads, 18 new icons and SEO/GEO improvements.",
+      "original_vsn_design_rule": "Original VSN product sections must be merchant-editable, with accessible icons, semantic markup, dynamically sourced facts and app-slot compatibility; no automatic AI ranking claims.",
+      "planned_qa": "Compile and inspect sections/*.liquid, Theme Editor add/reorder/removal, Alt/text labels, canonical product title, structured data duplication, app block compatibility.",
+      "status": "not_executed"
+    },
+    {
+      "id": "quick-search-promotions-multicurrency-goal",
+      "source_key": "sleek",
+      "source_url": "https://themes.shopify.com/themes/sleek/presets/jumped",
+      "catalog_preset_id": "sleek:jumped",
+      "evidence_level": "vendor_published_change_note_or_marketing",
+      "option_ids": [
+        "predictive-search",
+        "promo-tile-in-grid",
+        "free-shipping-bar"
+      ],
+      "element_ids": [
+        "predictive-search",
+        "product-grid",
+        "cart-summary"
+      ],
+      "observed_vendor_note": "Sleek 2.3.0 June 16 Shopify official release notes feature redesigned search drawer, collection promotion blocks and multi-currency shipping goals.",
+      "original_vsn_design_rule": "Separate search results from advertisements; match free-shipping progress to selected market/currency and actual shipping policy; avoid fabricated thresholds.",
+      "planned_qa": "Search no results/keyboard/RTL; changing country/currency with existing cart; eligible/ineligible shipping regions and promotion card semantics.",
+      "status": "not_executed"
+    },
+    {
+      "id": "motion-control-reduced-motion",
+      "source_key": "sleek_vendor",
+      "source_url": "https://foxecom.com/products/sleek-shopify-theme",
+      "catalog_preset_id": "sleek:jumped",
+      "evidence_level": "vendor_published_change_note_or_marketing",
+      "option_ids": [
+        "animation-settings",
+        "responsive-images",
+        "quick-view"
+      ],
+      "element_ids": [
+        "media-carousel",
+        "quick-view"
+      ],
+      "observed_vendor_note": "FoxEcom markets immersive motion sections and official Sleek v2.3.0 notes global motion controls.",
+      "original_vsn_design_rule": "Expose token-based motion defaults, respect prefers-reduced-motion and keyboard/low-power device usability, avoid motion-only controls.",
+      "planned_qa": "Reduced motion / touch / resize / quick view animations without scroll lock or focus loss.",
+      "status": "not_executed"
+    }
+  ],
+  "demo_homepage_newly_opened": 0,
+  "interactions_executed_by_vsn": 0,
+  "notes": [
+    "Vision vendor v18.0.0 published 2026-09-29; Ignite 2.7.0 2026-09-09; Sleek Shopify official listing v2.3.0 released 2026-06-16 in an indexed listing, not asserted as its newest release today.",
+    "Company-supplied release notes do not prove that the VSN theme currently has a bug or already supports a feature.",
+    "Demo button on Shopify listings was not extractable into a confirmed standalone storefront URL in this web session.",
+    "Potential Shopify Theme Store exclusion for app-dependent wishlist/compare remains a separate compliance decision."
+  ]
+}

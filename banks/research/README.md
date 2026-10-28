@@ -74,3 +74,82 @@ Run `python3 scripts/competitor_audit.py validate` or `python3 scripts/vsn.py co
 
 - `competitors/shopify-live-demo-batch5-2026.md`: six additional selected official preset storefront HTML sources; total 19 demo hosts and 54 page documents. Selected cohort 16/127 (12.6%) with at least opened home HTML, not functional/mobile audits.
 - `banks/elements/specs/shopify-home-category-pdp-controls-2026.json`: proposed original VSN search, inventory, faceting, cart and variant settings, NOT implemented.
+
+- `competitors/shopify-live-demo-batch6-2026.md`: Six new actual Shopify live HTML stores (Stiletto Linen/Glimmer/Tapestry, Prestige Strass, Sleek Wildpeak, Dawn); 25 store hosts, 68 page documents and 22/127 selected presets with live homepage evidence.
+- `competitors/shopify-demo-source-claims-batch6-2026.json`: six merchant claim/pricing/urgency/source-evidence QA cases; not executed bugs.
+- `banks/elements/specs/shopify-merchandising-controls-batch6-2026.json`: six merchant control groups proposed to preserve authentic filters, variants, bundles, offer promises and carts; not implemented.
+
+- `competitors/shopify-live-demo-batch7-2026.md`: Prestige Signature and Broadcast Airwave real Shopify demo public HTML, plus Enterprise developer section showcase (not a selected preset). Coverage 24/127, 28 store roots, 74 documents. No UI/checkout/mobile testing.
+- `competitors/shopify-demo-source-claims-batch7-2026.json`: six contextual shipping/inventory/countdown/compare checks with source URLs.
+- `banks/elements/specs/shopify-controls-batch7-2026.json`: four proposed original VSN merchant setting groups, no runtime implementation.
+
+- Batch 8 Shopify first-party themes: 35 source hosts, 89 HTML pages, 31/127 selected — `competitors/shopify-live-demo-batch8-2026.md`.
+
+## Shopify platform feasibility — Batch 11 (2026-10-25)
+
+- `competitors/shopify-editor-feasibility-batch11-2026.json`: 15 sourced constraints/decisions mapped to existing VSN option IDs; includes serious Theme Store app-dependent wishlist/compare scope conflict. This is **first-party platform documentation only**, not competitor editor or interactive demo inspection.
+- `competitors/shopify-editor-feasibility-batch11-2026.md`: rationale and suggested Stage 4/5/7/8 gates for element compilation, Theme Store rules, responsive settings and image/Figma policy consistency.
+- `python3 scripts/platform_feasibility_audit.py`: checks source mappings, status evidence and that project agents follow `AGENTS.md` and `progress.json` rather than archived Figma/Figma AI instructions.
+- **Cumulative actual demo count remains 43/127 selected homepages, 47 hosts and 124 indexed HTML documents** pending new independently retrieved pages. Listing/vendor docs must not inflate demo coverage.
+
+## Shopify first-party PDP HTML — Batch 12 (2026-10-25)
+
+- `competitors/shopify-live-demo-batch12-2026.md`: five individually opened Pitch/Sense/Publisher/Trade/Studio product pages with source crawl age.
+- `competitors/shopify-pdp-source-claims-batch12-2026.json`: five merchant data/policy claim risk checks (not confirmed runtime defects).
+- Cumulative 47 demo hosts / **129 opened indexed HTML documents**, **43/127 selected demo homepages** and **34 selected PDP documents**. No new interactive/browser/device/checkout verification.
+
+## Shopify indexed demo deep-page audit — Batch 13 (2026-10-25)
+
+- `competitors/shopify-live-demo-batch13-2026.md`: Horizon PDP and Spotlight separately fetched empty-cart evidence; read-only, never an executed variant/add-to-cart test.
+- `competitors/shopify-source-claims-batch13-2026.json`: 3 source integrity guards, not confirmed runtime defects.
+- Stiletto Glimmer Minis and Pitch Bundles faceted collection documents recorded under `supplemental_documentation` rather than double counting primary category screens.
+- Cumulative **47 storefront hosts / 131 primary indexed HTML pages**, **43/127 selected preset demo homes (33.9%)**, **35 selected PDPs / 9 selected carts**; no browser interaction/mobile/editor QA.
+
+## Shopify Expanse documented demo recipes — Batch 14 (2026-10-25)
+
+- `competitors/shopify-vendor-homepage-recipes-expanse-batch14-2026.json`: five vendor-published ordered homepage recipes (Expanse, Revive, Spritz, Fetch and Gem all selected; corrected in Batch15); 23 normalized section kinds linked to actual option/element IDs. **Vendor documentation only — no live HTML pages credited.**
+- `competitors/shopify-dynamic-render-qa-batch14-2026.json`: six *not-yet-executed* original Shopify CSS subsetting/Section Rendering/high-variant/Theme Editor QA cases with official sources and vendor release note context. No implemented code claims.
+- `competitors/shopify-vendor-homepage-research-batch14-2026.md`: distinction between five vendor recipes and verified demo count; image comparison slider missing as a dedicated VSN reusable element.
+- Confirmed live demo progress still **43/127 selected homepage HTML (33.9%), 47 hosts /131 primary HTML documents**, pending 84 actual preset homepages.
+
+## Batch 15 external October PageSpeed comparison (2026-10-25)
+
+- `competitors/shopify-third-party-pagespeed-batch15-2026.json`: 18 selected Shopify preset homepage mobile/desktop PageSpeed lab measurements **reported by independent eDIY October 2026 pages** (six URLs), reported LCP/CLS/TBT, explicit evidence-class and three unexecuted VSN performance QA hypotheses. No raw PSI runs reproduced or mobile demos rendered by VSN.
+- `competitors/shopify-performance-benchmark-batch15-2026.md`: competitor performance research plus **official Shopify requirements**: Theme Store Lighthouse average >=60 performance and >=90 accessibility across home, PDP and collection, mobile + desktop. Three runs, consistent Chrome/network, report median; compare to actual Shopify benchmark later.
+- Corrected **Batch14 Fetch source-classification mistake**: `expanse:fetch` is selected and its demo home/collection/PDP/cart had already been opened in earlier research. Vendor recipe adds **0** new demo documents.
+- Verified preset homepage HTML stays **43/127 (33.9%), 84 pending**, **47 hosts /131 primary documents**. Do not conflate independent publisher PSI snapshot with in-house Lighthouse or individual opened storefront HTML.
+
+## Batch16 — two additional premium Shopify demo HTML audits (2026-10-25)
+
+- `competitors/shopify-live-demo-batch16-2026.md`: opened **Impact Sound** and **Expanse Furniture** home pages, Impact PDP/empty /cart, Expanse Furniture filtered collection and coffee-maker PDP, each with individual source URL and indexed crawl age. **Actual public HTML, not vendor marketing page and not executed interaction.**
+- `competitors/shopify-source-claims-batch16-2026.json`: 5 source-backed merchant claim/variant/urgency QA cases, including negative saved-amount string in older Expanse coffee PDP and inconsistent dated shipping banner language; **not confirmed current runtime bugs**.
+- Four original reusable VSN option/element patterns plus two qualitative observations mapped.
+- Cumulative **45/127 selected homepage HTML sources (35.4%), 82 pending**, **49 distinct Shopify demo hosts / 137 primary HTML documents**. Selected collection 34, PDP 37, cart 10. No browser/mobile/checkout/private Theme Editor testing.
+
+## Shopify premium storefront HTML — Batch 17 (2026-10-25)
+
+- `competitors/shopify-live-demo-batch17-2026.md`: 2 selected paid **Release/Release** and **Release/Forest** Shopify demo homes, plus default clothing collection/PDP/cart and Forest furniture category, each with exact independently opened indexed HTML URL and crawler age.
+- `competitors/shopify-source-claims-batch17-2026.json`: four merchant policy/preorder/material filter/countdown provenance risks, not executed UI defects.
+- Three source-linked, original merchant-control patterns and two catalog observations mapped. Cumulative **47/127 selected demo homes (37.0%)**, **51 hosts /143 primary HTML documents**. Selected: 36 collections, 38 PDPs, 11 carts; interactive/mobile/editor remain 0.
+
+## Batch 18 — vendor release compatibility and independent reviewer notes (2026-10-25)
+
+- `competitors/shopify-vendor-regression-batch18-2026.json`: **8 unexecuted** source-linked original VSN QA gates arising from actual Shopify Theme Store/first-party vendor release notes for Vision/Poochy v18.0.0, Ignite/Tails v2.7.0, Sleek/Jumped v2.3.0.
+- `competitors/shopify-independent-review-batch18-2026.json`: 5 Vision preset visual/interaction findings reported by **a third-party reviewer**, never VSN's own tested clicks; theme app-like compare is not automatic Theme Store approval.
+- `competitors/shopify-vendor-regression-report-batch18-2026.md`: sources, release scope, boundary of evidence and architectural/test implications. **No new live demo HTML visited**: 47/127 selected home sources, 51 hosts/143 primary documents.
+
+## Shopify premium demo HTML — Batch 19 Release Serenity (2026-10-25)
+
+- `competitors/shopify-live-demo-batch19-2026.md`: independently indexed Release/Serenity **homepage** identified as a DigiFist preset, plus **supplemental** standalone FAQ page; precise source URLs and last-month crawl-age, no runtime browser interaction.
+- `competitors/shopify-source-claims-batch19-2026.json`: four merchant policy/testimonial relevance/preorder QA cases with source provenance, **not live-confirmed bugs**. Notably sample bikini testimonial on handbag site.
+- Three new evidence-linked reusable VSN architecture/merchant option patterns, one qualitative design observation; CI guard preventing counting supplemental FAQ as a selected PDP/collection/cart.
+- Cumulative **48/127 selected homepage sources (37.8%, 79 pending)**, **52 hosts /144 primary HTML documents** (52 home, 40 collection, 41 PDP, 11 cart). Selected 36 collections, 38 PDPs, 11 carts unchanged; interactive/mobile/editor still 0.
+
+## Batch20 and complete selected-127 evidence-status matrix (2026-10-26)
+
+- `competitors/shopify-live-demo-batch20-2026.md`: three **net-new** indexed selected storefront homes Eurus/Arise, Eurus/Whiff and Vision/Poochy, plus four separately retrieved supplementary (not double counted) Prestige/Eurus sources; sourced page crawled ages, architectural implications and unresolved QA.
+- `competitors/shopify-127-completion-matrix-2026.json`: exhaustive per-preset **127-row audit status** covering official Shopify listing plus actual independently retrieved home/collection/PDP/cart, source recency, blockers, priority missing demo URLs and unexecuted interactions. The matrix is complete; the direct live demo audit is not.
+- `competitors/shopify-127-audit-readiness-2026.md`: explicit verified/incomplete release gate and deterministic next evidence plan; **76 homepages still missing**.
+- `competitors/shopify-source-claims-batch20-2026.json`: six source-specific merchant copy, health, pricing, sustainability and promo guards; not live tested defects.
+- `python3 scripts/research_127_coverage.py`: GitHub Actions gate ensuring each of 127 rows equals actual documented page sources, crawled recency and Stage 2 state, with no fictitious QA pass/advance.
+- Honest checkpoint: **51/127 verified selected demo homepages (40.2%)**, **55 hosts/151 primary indexed public HTML documents**; 38 selected collection/40 product/11 cart; 74 patterns/81 qualitative observations. **76 direct demo homes pending**, no browser/checkout/private editor tests.

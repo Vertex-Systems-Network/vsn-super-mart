@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Shopify Enterprise:Outlet preset listing View demo inspected read-only via rendered browser accessibility tree. Home, 819-item Shop All collection, 514g Eco Gold Chalk Honnold Edition PDP and empty cart inspected. No shopper actions, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+  "sources": [
+    {
+      "id": "enterprise-outlet-preset-listing",
+      "url": "https://themes.shopify.com/themes/enterprise/presets/outlet",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Enterprise:Outlet listing View demo opened enterprise-theme-active.myshopify.com."
+    },
+    {
+      "id": "shopify-enterprise-outlet-browser-render",
+      "url": "https://enterprise-theme-active.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://enterprise-theme-active.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all"
+        },
+        {
+          "kind": "product",
+          "url": "https://enterprise-theme-active.myshopify.com/collections/shop-all/products/514g-eco-gold-chalk-honnold-edition"
+        },
+        {
+          "kind": "cart",
+          "url": "https://enterprise-theme-active.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "enterprise-outdoor-catalog-discovery",
+      "source_ids": [
+        "shopify-enterprise-outlet-browser-render"
+      ],
+      "observed": "Adventure home links activity stories to deep product departments; 819-product collection has filter/sort and grid/list affordances plus compare, variant and promotion markers.",
+      "risk": "No collection controls were tested; stock, price, promotion and ratings are unverified.",
+      "vsn_guard": "Use activity taxonomy and product attributes to support broad catalogs; validate any comparison and availability signals."
+    },
+    {
+      "id": "enterprise-technical-pdp-and-cart",
+      "source_ids": [
+        "shopify-enterprise-outlet-browser-render"
+      ],
+      "observed": "Chalk PDP separates description, specifications and reviews, provides quantity and Add to Cart, and recommends complementary products. Empty cart offers Start Shopping and a product carousel.",
+      "risk": "No quantity/cart action tested; product specs, supplier, athlete, rating and related-product content are seller-provided.",
+      "vsn_guard": "Surface technical specs and substantiated reviews, and recommend compatible gear while preserving a clear empty-cart recovery route."
+    }
+  ]
+}

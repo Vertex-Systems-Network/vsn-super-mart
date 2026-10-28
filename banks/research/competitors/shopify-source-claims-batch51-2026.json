@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "created_on": "2026-10-26",
+  "batch": 51,
+  "selected_preset_id": "warehouse:warehouse",
+  "sources": [
+    {
+      "source_id": "official-shopify-warehouse-warehouse-listing",
+      "source_class": "official_theme_store_listing",
+      "url": "https://themes.shopify.com/themes/warehouse/presets/warehouse",
+      "claims": [
+        "Official listing identifies Warehouse as the selected Warehouse preset; its View demo destination is https://warehouse-theme-metal.myshopify.com/"
+      ],
+      "limits": [
+        "Theme Store feature and marketing copy is vendor-authored."
+      ]
+    },
+    {
+      "source_id": "warehouse-warehouse-rendered-pages",
+      "source_class": "browser_render_readonly",
+      "url": "https://warehouse-theme-metal.myshopify.com/",
+      "observed_pages": [
+        {
+          "kind": "home",
+          "url": "https://warehouse-theme-metal.myshopify.com/",
+          "observations": [
+            "Official Shopify Warehouse:Warehouse listing View demo opened matching warehouse-theme-metal.myshopify.com; storefront brands itself Warehouse - Metal and links HiDEF Lifestyle.",
+            "Home has free-shipping announcement and Subscribe & Save prompt, category search, dense All Products/New Arrivals/Sales/Collections/Brands/Information navigation, headphones hero, OLED TV/speakers/headphones promo tiles, collection carousels, featured products with sales, ratings, stock and badges, brand/store information, top-rated products, editorial, physical-store content and newsletter.",
+            "Merchant service, stock, prices, shipping and product claims are unverified."
+          ]
+        },
+        {
+          "kind": "collection",
+          "url": "https://warehouse-theme-metal.myshopify.com/collections/headphones",
+          "observations": [
+            "Headphones collection lists 75 products and items 1–24 of 75; controls include Color, Price, Brand and Availability filters, Best selling sort, 24 items per page, grid/list view and pagination.",
+            "Category sidebar exposes Audio and subcollections; cards show brands, prices, badges, review links and inventory counts.",
+            "No filter, sort, view, pagination or product-card action was activated."
+          ]
+        },
+        {
+          "kind": "product",
+          "url": "https://warehouse-theme-metal.myshopify.com/products/shure-srh440-professional-studio-headphones",
+          "observations": [
+            "Shure SRH440 Professional Studio Headphones PDP shows $99.00, 4.33/5 from 3 reviews and an in-stock message (64 units); gallery, quantity, Add to cart and Buy it now controls are present.",
+            "Description, features and package contents appear with Shipping and Returns, Payment & Security and Estimate shipping sections; You may also like recommendations display variants, price, reviews and stock.",
+            "No quantity, shipping estimator, recommendation option, add-to-cart, buy-now or other shopper action was activated; merchant price, stock, review and shipping claims are unverified."
+          ]
+        },
+        {
+          "kind": "cart",
+          "url": "https://warehouse-theme-metal.myshopify.com/cart",
+          "observations": [
+            "Cart page shows an empty-cart message, free-shipping progress text and Shop our products link; recently viewed Shure SRH440 item is shown.",
+            "No cart or checkout action was performed."
+          ]
+        }
+      ],
+      "limits": [
+        "Accessibility-tree observation only; no shopper interactions, screenshot, viewport measurements, mobile testing, editor, checkout, keyboard or performance testing.",
+        "Prices, stock, ratings, shipping and store claims are unverified."
+      ]
+    }
+  ]
+}

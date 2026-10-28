@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Palo Alto official preset listing demo inspected read-only through rendered browser accessibility trees. No shopper action, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "palo-alto-preset-listing",
+      "url": "https://themes.shopify.com/themes/palo-alto/presets/palo-alto",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Palo Alto preset listing View demo opened Palo Alto theme demo storefront."
+    },
+    {
+      "id": "palo-alto-demo",
+      "url": "https://palo-alto-theme-main.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://palo-alto-theme-main.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://palo-alto-theme-main.myshopify.com/collections/all/products/itinerary-blazer-ivory"
+        },
+        {
+          "kind": "cart",
+          "url": "https://palo-alto-theme-main.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "palo-alto-fashion-discovery",
+      "source_ids": [
+        "palo-alto-demo"
+      ],
+      "observed": "Home uses seasonal and sale campaigns, category mosaic, curated collection and Shop the Look; collection displays 304 products with several facets; PDP offers fit guidance and related-product content.",
+      "risk": "Rendered page presence does not establish that facets, quick buy, variants or cross-sell actions work as intended.",
+      "vsn_guard": "Test discovery and fit guidance across responsive shopper flows and check campaign destinations against catalog."
+    },
+    {
+      "id": "palo-alto-sample-promotional-claims",
+      "source_ids": [
+        "palo-alto-demo"
+      ],
+      "observed": "Demo shows discounts, countdowns, low-stock/selling-fast labels, ratings, sustainability/material claims, free shipping and delivery/return statements.",
+      "risk": "These sample statements are not evidence of live inventory, real reviews, substantiated sustainability or actual merchant terms.",
+      "vsn_guard": "Connect urgency to authoritative inventory and validate promotion, review, sustainability and fulfillment statements before release."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-25",
+  "evidence_type": "read_only_indexed_public_demo_html",
+  "cases": [
+    {
+      "id": "spotlight-hidden-cart-success-string",
+      "source_url": "https://theme-spotlight-demo.myshopify.com/cart",
+      "observed": "Separate cart page is empty with $0.00 CAD subtotal; source also contains an Item added to your cart modal string.",
+      "caution": "Do not claim a successful add-to-cart without an actual click and cart mutation.",
+      "vsn_guard": "Render only shopper-cart-driven visible states and test actual add/remove/checkout separately."
+    },
+    {
+      "id": "glimmer-nonadditive-facet-tallies",
+      "source_url": "https://stiletto-theme-glimmer.myshopify.com/collections/minis",
+      "observed": "27 results, In stock (27), Out of stock (3) appear together in indexed HTML; facet groups also include type, skin concern, bottle sizes.",
+      "caution": "Dynamic facet counts may overlap or refer to different result-set scopes; no client click was tested.",
+      "vsn_guard": "Facet counts and visible products must derive from Shopify filtering scope and current market; avoid contradictory merchant-authored count labels."
+    },
+    {
+      "id": "horizon-form-state-not-runtime-proof",
+      "source_url": "https://theme-horizon-demo.myshopify.com/products/1tuck-tapered-pants-424",
+      "observed": "Six images, size choices, Add to cart markup and empty drawer snippet visible in PDP source.",
+      "caution": "Indexed form controls do not demonstrate successful size switching, inventory state or cart checkout.",
+      "vsn_guard": "Test selected variant image, price, disabled state, add-to-cart and keyboard semantics on real product data."
+    }
+  ]
+}

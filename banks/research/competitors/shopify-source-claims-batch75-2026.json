@@ -1,0 +1,42 @@
+{
+  "batch": 75,
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "be-yours:harmony",
+  "official_listing_url": "https://themes.shopify.com/themes/be-yours/presets/harmony",
+  "preview_destination": "https://beyours-theme-tech.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://beyours-theme-tech.myshopify.com/",
+      "evidence": "Rendered accessibility tree, read only",
+      "observations": [
+        "Video-led headphone hero, one-product-store intro, product features, technical specs, comparison, reviews, newsletter, store info.",
+        "The demo calls itself a one-product store, but the rendered collection contains three items."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://beyours-theme-tech.myshopify.com/collections/all",
+      "evidence": "Rendered accessibility tree, read only",
+      "observations": [
+        "Headphones collection lists 3 products and exposes sort, filter, grid-density and Quick View controls; controls not activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://beyours-theme-tech.myshopify.com/products/beoplay-h95",
+      "evidence": "Rendered accessibility tree, read only",
+      "observations": [
+        "Dynasty Headphone PDP shows €899, five color options, stock copy and purchase controls.",
+        "Over-ear headline conflicts with an in-ear fit specification; seller color-availability copy also conflicts with visible choices."
+      ]
+    }
+  ],
+  "caveats": [
+    "Cart drawer did not expose an empty state; no cart page counted.",
+    "No shopper actions, screenshots, mobile viewport, editor, checkout, keyboard or performance testing.",
+    "All seller product, inventory, specification and fulfillment statements remain unverified."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch75-2026.md"
+}

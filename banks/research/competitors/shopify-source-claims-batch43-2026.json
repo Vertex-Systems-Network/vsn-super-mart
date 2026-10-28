@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Shopify Broadcast:Stellar preset listing View demo inspected read-only via rendered browser accessibility tree. Home, Sunscreen collection, SPF 30 Lotion PDP and empty cart inspected. No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+  "sources": [
+    {
+      "id": "broadcast-stellar-preset-listing",
+      "url": "https://themes.shopify.com/themes/broadcast/presets/stellar",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Broadcast:Stellar listing View demo opened broadcast-stellar.myshopify.com."
+    },
+    {
+      "id": "shopify-broadcast-stellar-browser-render",
+      "url": "https://broadcast-stellar.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://broadcast-stellar.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen"
+        },
+        {
+          "kind": "product",
+          "url": "https://broadcast-stellar.myshopify.com/collections/sunscreen/products/spf-30-lotion"
+        },
+        {
+          "kind": "cart",
+          "url": "https://broadcast-stellar.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "stellar-suncare-discovery",
+      "source_ids": [
+        "shopify-broadcast-stellar-browser-render"
+      ],
+      "observed": "Sun-care home connects seasonal hero and SPF messaging with sunscreen/lotion routes; the 11-product collection spans lotions, gels, sprays and bundles and shows price/availability, sorting and pagination cues.",
+      "risk": "No sort, pagination or product controls tested; SPF, health, ingredient and dermatology statements are seller copy and unverified.",
+      "vsn_guard": "Support discovery by format and SPF, and substantiate product protection and ingredient claims with appropriate evidence."
+    },
+    {
+      "id": "stellar-demo-status",
+      "source_ids": [
+        "shopify-broadcast-stellar-browser-render"
+      ],
+      "observed": "Footer explicitly states the storefront is a theme demo and products are not for sale.",
+      "risk": "PDP and cart were not inspected; no purchase functionality should be inferred from the collection display.",
+      "vsn_guard": "Keep demonstration status clear and avoid assuming product or checkout claims represent a live merchant."
+    },
+    {
+      "id": "stellar-spf-pdp-and-empty-cart",
+      "source_ids": [
+        "shopify-broadcast-stellar-browser-render"
+      ],
+      "observed": "SPF 30 Lotion PDP provides two sizes, quantity and purchase affordances with product/benefits/ingredients sections; both sizes appeared unavailable. Empty cart offers Continue Shopping and demo-only notice.",
+      "risk": "No variants, quantity or cart action tested; SPF/health/ingredient/inventory claims are unverified and demo products are not for sale.",
+      "vsn_guard": "Make SPF, format, ingredient and stock information clear and substantiated; keep cart recovery distinct from demo content."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-25",
+  "evidence_type": "read_only_public_indexed_html_not_executed_browser_qa",
+  "source_urls": [
+    "https://release-main.myshopify.com/",
+    "https://release-main.myshopify.com/collections/new-collection",
+    "https://release-main.myshopify.com/products/black-puffer-edge?variant=42204594929743",
+    "https://release-main.myshopify.com/cart",
+    "https://release-living.myshopify.com/",
+    "https://release-living.myshopify.com/collections/living-room"
+  ],
+  "cases": [
+    {
+      "id": "release-clothing-taxonomy-vs-merchant-variant",
+      "source_url": "https://release-main.myshopify.com/collections/new-collection",
+      "source_age": "6 months",
+      "observed": "Old collection source lists Shopify taxonomy Color values, size/color swatches, pre-order, sold-out and discounts.",
+      "vsn_guard": "Selected variant inventory/pricing eligibility must be real, and variant/filter controls must honor native Shopify data, not static old markup; no confirmed click behavior."
+    },
+    {
+      "id": "release-expired-countdown-text",
+      "source_url": "https://release-main.myshopify.com/cart",
+      "source_age": "6 months",
+      "observed": "Old cart source embeds countdown 0D/0H/0M/0S and Sale has ended near header marketing alongside empty cart.",
+      "vsn_guard": "Actual campaign needs merchant-configured end date and timezone; expired fallback and modal visibility should be tested; HTML strings alone are not proof of visible active timer."
+    },
+    {
+      "id": "forest-material-facet-labels",
+      "source_url": "https://release-living.myshopify.com/collections/living-room",
+      "source_age": "last month",
+      "observed": "Living Room HTML has Material CM, Material, Material VM labels alongside availability/price and 28 of 49 shown products.",
+      "vsn_guard": "Preserve distinct merchant metafield namespaces/types and Shopify Search & Discovery filters; do not automatically merge semantically similar labels or assume broken count."
+    },
+    {
+      "id": "forest-installment-delivery-claims",
+      "source_url": "https://release-living.myshopify.com/",
+      "source_age": "3 weeks",
+      "observed": "Merchant sample page promotes up to nine months instalments, selected products in seven days and Europe free delivery.",
+      "vsn_guard": "Payment and shipping promises must be market-aware, policy-backed and merchant-approved, never fixed Theme Store theme claims."
+    }
+  ]
+}

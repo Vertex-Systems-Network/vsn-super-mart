@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Shopify Enterprise:Homestead preset listing View demo inspected read-only via rendered browser accessibility tree. Home, 818-item All Products collection, Slant Table Lamp PDP and empty cart inspected. No shopper controls, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+  "sources": [
+    {
+      "id": "enterprise-homestead-preset-listing",
+      "url": "https://themes.shopify.com/themes/enterprise/presets/homestead",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Enterprise:Homestead listing View demo opened enterprise-theme-home.myshopify.com."
+    },
+    {
+      "id": "shopify-enterprise-homestead-browser-render",
+      "url": "https://enterprise-theme-home.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://enterprise-theme-home.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://enterprise-theme-home.myshopify.com/collections/all-products"
+        },
+        {
+          "kind": "product",
+          "url": "https://enterprise-theme-home.myshopify.com/collections/all-products/products/slant-table-lamp"
+        },
+        {
+          "kind": "cart",
+          "url": "https://enterprise-theme-home.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "homestead-home-catalog-discovery",
+      "source_ids": [
+        "shopify-enterprise-homestead-browser-render"
+      ],
+      "observed": "Home decor homepage links room and category discovery with seasonal offers; 818-item collection exposes filter/sort and grid/list affordances alongside product color/status/price/review signals.",
+      "risk": "No collection controls tested; product, inventory, pricing and review content is unverified.",
+      "vsn_guard": "Structure large home catalogs around product type and room needs; validate current availability and review data."
+    },
+    {
+      "id": "homestead-pdp-comparison",
+      "source_ids": [
+        "shopify-enterprise-homestead-browser-render"
+      ],
+      "observed": "Slant Table Lamp PDP shows stock, color, purchase control, specifications, reviews, delivery/returns, related products and similar-item comparisons; empty cart contains a sale carousel.",
+      "risk": "No product or cart actions tested; stock and merchant claims remain unverified.",
+      "vsn_guard": "Keep technical and service details near purchase choices and make product comparisons accurate and distinct from recommendations."
+    }
+  ]
+}

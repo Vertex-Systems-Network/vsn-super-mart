@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "type": "source-claim-scope_issues_not_interactively_reproduced_bugs",
+  "examples": [
+    {
+      "id": "tapestry-shipping-context",
+      "source_url": "https://stiletto-theme-tapestry.myshopify.com/products/4-piece-dinnerware-set",
+      "other_source_url": "https://stiletto-theme-tapestry.myshopify.com/",
+      "observation": "PDP free shipping on orders over $150 vs homepage banners over $250; market/product/rule conditions not confirmed",
+      "vsn_rule": "One merchant-defined rule per qualified market/product or explicitly labeled exceptions; do not mix promises."
+    },
+    {
+      "id": "strass-warranty-context",
+      "source_url": "https://prestige-theme-strass2.myshopify.com/products/wave-silver-necklace",
+      "other_source_url": "https://prestige-theme-strass2.myshopify.com/collections/earrings",
+      "observation": "PDP describes two-year repair warranty, earrings collection includes three-year warranty tile; applicability may differ",
+      "vsn_rule": "Warranty on a PDP must be tied to merchant-defined product or collection policy and auditable provenance."
+    },
+    {
+      "id": "wildpeak-zero-compare-price",
+      "source_url": "https://sleek-wildpeak.myshopify.com/",
+      "observation": "Crossed-out $0.00 printed on some product cards; static HTML only, not verified visual display state",
+      "vsn_rule": "Hide compare-at markup unless compare_at > price and compare_at > 0."
+    },
+    {
+      "id": "wildpeak-countdown-evidence",
+      "source_url": "https://sleek-wildpeak.myshopify.com/",
+      "observation": "A timed flash sale displays units and offer terms but true expiry and stock claims were not confirmed",
+      "vsn_rule": "Merchant-provided timestamp, timezone and expiry; no fake urgency or selling-fast labels."
+    },
+    {
+      "id": "glimmer-bundle-discount",
+      "source_url": "https://stiletto-theme-glimmer.myshopify.com/",
+      "observation": "Mini-kit and Pink Coconut bundle pricing advertises savings, but multi-SKU Add-to-cart interactions were not tested",
+      "vsn_rule": "Do not mark multi-line transactional bundle verified from merchandising copy alone."
+    },
+    {
+      "id": "dawn-modal-source-only",
+      "source_url": "https://theme-dawn-demo.myshopify.com/",
+      "observation": "Page HTML includes Item added to your cart notification markup despite no action being executed",
+      "vsn_rule": "Static hidden UI markup is not evidence that a successful cart mutation occurred."
+    }
+  ]
+}

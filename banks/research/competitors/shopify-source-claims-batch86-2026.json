@@ -1,0 +1,50 @@
+{
+  "batch": 86,
+  "observed_on": "2026-10-27",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "empire:circuit",
+  "official_listing_url": "https://themes.shopify.com/themes/empire/presets/circuit",
+  "iframe_src_observed": "https://empire-theme-industrial.myshopify.com/",
+  "redirected_storefront": "https://empire-theme-industrial.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://empire-theme-industrial.myshopify.com/",
+      "observations": [
+        "Electronics storefront with new arrivals, Clearance/About/Blog/FAQ nav, shipping/pickup/service rows and hero for drone products.",
+        "Trending category rail, deals/new-arrivals shelves, product-card color options, shoppable product hotspot section, featured product detail with color/quantity controls, review/testimonial and search/newsletter."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://empire-theme-industrial.myshopify.com/collections/new-arrivals",
+      "observations": [
+        "New Arrivals organizes products under Smart Home, Drones, Cameras, Lenses, Turntables, Smartwatches and Health Monitors; cards expose price, stock, review and swatch copy."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://empire-theme-industrial.myshopify.com/products/osmo-mobile-handheld-mount",
+      "observations": [
+        "Osmo Mobile Handheld Mount PDP shows five-image gallery, $599, stock copy, quantity/Add/Buy, product story, FAQ-style details and reviews; controls untouched."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://empire-theme-industrial.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart reports empty and shows free-shipping/demo-store messaging and continue shopping."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "No filters, sort, compare, variants, quantity, cart mutation or checkout actions.",
+    "No screenshots, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
+    "All product, price, stock, shipping, review and merchant claims are demo copy, not verified business facts."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch86-2026.md"
+}

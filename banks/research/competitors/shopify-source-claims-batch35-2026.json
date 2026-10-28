@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Local:Thrive preset listing demo inspected read-only through rendered browser accessibility trees. No shopper interactions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "local-thrive-preset-listing",
+      "url": "https://themes.shopify.com/themes/local/presets/thrive",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Local:Thrive preset listing View demo opened Local Theme Thrive."
+    },
+    {
+      "id": "local-thrive-demo",
+      "url": "https://local-theme-thrive.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://local-theme-thrive.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://local-theme-thrive.myshopify.com/collections/all"
+        },
+        {
+          "kind": "product",
+          "url": "https://local-theme-thrive.myshopify.com/products/gut-health-ground-coffee"
+        },
+        {
+          "kind": "cart",
+          "url": "https://local-theme-thrive.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "local-thrive-benefit-led-discovery",
+      "source_ids": [
+        "local-thrive-demo"
+      ],
+      "observed": "Home combines category/product shelves with benefit-led category modules and product education; collection exposes benefits/availability/price facets and sorting; PDP surfaces variant links, quantity, pickup details, collapsible product content and a complementary product.",
+      "risk": "Rendered labels establish page content and affordances only; no filtering, sorting, selection, pickup lookup or recommendation action was executed.",
+      "vsn_guard": "Keep category discovery understandable and test facet semantics, variant selection, pickup availability and recommendation relevance against real catalog data."
+    },
+    {
+      "id": "local-thrive-wellness-and-commercial-claims",
+      "source_ids": [
+        "local-thrive-demo"
+      ],
+      "observed": "Demo pages show mushroom/ingredient efficacy, reviews, sales-volume, discount, pickup, and money-back guarantee copy.",
+      "risk": "These are merchant-provided demonstration claims and were not independently verified.",
+      "vsn_guard": "Substantiate health and efficacy statements, review counts, prices, stock, pickup data and guarantee terms before displaying them."
+    }
+  ]
+}

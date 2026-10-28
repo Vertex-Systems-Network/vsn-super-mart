@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "evidence_class": "independently_opened_indexed_public_html_readonly_no_actions_executed",
+  "cases": [
+    {
+      "id": "eurus-arise-health-supplement-promises",
+      "source_url": "https://eurus-arise.myshopify.com/",
+      "indexed_crawl_recency": "today",
+      "observed": "Homepage includes clinical dose, improved absorption, testosterone/cortisol, consumer results and third-party tested claims as merchant-written marketing text.",
+      "risk": "Supplement/health claims may be unsubstantiated and cannot become default reusable theme or generated merchant copy.",
+      "vsn_guard": "Require seller-vetted compliant product claims, availability of supporting documents, local laws/markets and neutral field placeholders; never hardcode physiological benefits."
+    },
+    {
+      "id": "eurus-arise-quiz-disclosure-and-selling-plans",
+      "source_url": "https://eurus-arise.myshopify.com/",
+      "indexed_crawl_recency": "today",
+      "observed": "Four-question personalized wellness quiz plus a bundle builder with variant/selling-plan JSON and headline discount tiers in publicly readable HTML.",
+      "risk": "Marketing tier labels and suggestion logic cannot establish eligibility, prices, privacy consent or a completed add-to-cart; inline sensitive questionnaires may need privacy review.",
+      "vsn_guard": "Use merchant-configured, privacy-conscious optional quiz rules; validate real selling plans and native discounts on selected eligible variants, no fabricated financial savings."
+    },
+    {
+      "id": "eurus-whiff-unconfigured-facets",
+      "source_url": "https://eurus-whiff.myshopify.com/collections/best-sellers-1",
+      "indexed_crawl_recency": "2 months",
+      "observed": "Collection displays Advanced filter 3/4 placeholder group names with no values, and some products say Register to see prices.",
+      "risk": "An indexed label without underlying field values may be unconfigured example; restricted price data could leak via client JSON unless buyer entitlement is enforced server-side.",
+      "vsn_guard": "Hide empty filters; honor Shopify/Plus B2B customer eligibility and market-specific price rules before emitting product price data in HTML/Ajax/API."
+    },
+    {
+      "id": "eurus-whiff-sustainability-reused-content",
+      "source_url": "https://eurus-whiff.myshopify.com/pages/our-sustainability",
+      "indexed_crawl_recency": "yesterday",
+      "observed": "Jewellery sourcing page references several apparently unrelated named brands, unverified GIA/RJC/carbon-neutral claims and differing old target dates.",
+      "risk": "Demo sustainability and certifications appear to reuse example text; cannot assert merchant authenticity or legal compliance.",
+      "vsn_guard": "Only display verified merchant claims with evidence/source and market/dated scope, require editorial copy QA and nonduplicated brand names."
+    },
+    {
+      "id": "vision-poochy-aged-inventory-and-compare",
+      "source_url": "https://vision-pets.myshopify.com/collections/all",
+      "indexed_crawl_recency": "about 1.1 years",
+      "observed": "Sixteen products, Compare checkbox controls, in-stock counts, color/size facets; PDP also last crawled around 1.1 years ago.",
+      "risk": "Old indexed quantities do not prove current stock/variant behavior or Theme Store permission for an app-like compare UI.",
+      "vsn_guard": "Use live variant/market inventory data; optional VSN comparison app remains separate from Theme Store release; test actual cart/compare only when rendered session accessible."
+    },
+    {
+      "id": "prestige-strass-shipping-currency-and-expired-timer",
+      "source_url": "https://prestige-theme-strass2.myshopify.com/collections/bracelets",
+      "indexed_crawl_recency": "today",
+      "observed": "EUR price and multiple region options coexist with '$300' shipping threshold copy and zeroed campaign countdown placeholder.",
+      "risk": "Promotional thresholds and time-based promises can be misleading across markets if merchant copy is not policy-linked.",
+      "vsn_guard": "Determine currency/region-qualified free-shipping threshold from the same Shopify policy source and real event deadline; zero/expired timer should hide or show approved ended state."
+    }
+  ]
+}

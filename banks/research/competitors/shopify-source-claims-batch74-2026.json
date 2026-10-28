@@ -1,0 +1,49 @@
+{
+  "batch": 74,
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "stiletto:stiletto",
+  "official_listing_url": "https://themes.shopify.com/themes/stiletto/presets/stiletto",
+  "storefront_url": "https://stiletto-theme-stiletto.myshopify.com/",
+  "mapping_caveat": "Official listing iframe src exposed stiletto-theme-vogue.myshopify.com, while the loaded STO Stiletto page title and its visible internal links resolved to stiletto-theme-stiletto.myshopify.com. Homepage and cart links were independently opened and verified; keep this host discrepancy visible.",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://stiletto-theme-stiletto.myshopify.com/",
+      "claims": [
+        "Hero copy and collection CTAs appear with brand philosophy, category entry links, timed promotion, product shelves, lookbook hotspots, video, testimonials and journal sections."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1",
+      "claims": [
+        "Tops collection shows 34 results, alphabetical sort and Availability, Category, Color, Size and Price filter groups."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1/products/alex-metallic-top",
+      "claims": [
+        "Alex Metallic Top is displayed at $229 with color/size controls, size guide, stock copy, quantity/Add to Bag controls and informational accordions."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://stiletto-theme-stiletto.myshopify.com/cart",
+      "claims": [
+        "Dedicated cart route reports empty and no items and displays Continue Shopping plus informational service/footer content."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "No shopper interactions, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance tests.",
+    "Price, stock, materials, shipping, fulfillment and sustainability claims remain seller-owned and unverified.",
+    "No filter or product state was changed; no cart mutation."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch74-2026.md"
+}

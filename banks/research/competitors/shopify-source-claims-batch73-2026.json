@@ -1,0 +1,55 @@
+{
+  "batch": 73,
+  "observed_on": "2026-10-26",
+  "source_class": "official_listing_preview_attempt",
+  "attempts": [
+    {
+      "preset_id": "local:caffeine",
+      "official_listing_url": "https://themes.shopify.com/themes/local/presets/caffeine",
+      "action": "Opened the official listing and clicked View demo once.",
+      "result": "The listing preview frame remained about:blank and View demo became disabled; no storefront destination or homepage was verified.",
+      "homepage_coverage_credit": 0
+    },
+    {
+      "preset_id": "local:lively",
+      "official_listing_url": "https://themes.shopify.com/themes/local/presets/lively",
+      "action": "Opened the official listing and clicked View demo once.",
+      "result": "The listing preview frame remained about:blank and View demo became disabled; no storefront destination or homepage was verified.",
+      "homepage_coverage_credit": 0
+    },
+    {
+      "preset_id": "empire:empire",
+      "official_listing_url": "https://themes.shopify.com/themes/empire/presets/empire",
+      "action": "Opened the official listing and clicked View demo once.",
+      "result": "The listing preview frame remained about:blank and View demo became disabled; no storefront destination or homepage was verified.",
+      "homepage_coverage_credit": 0
+    },
+    {
+      "preset_id": "empire:circuit",
+      "official_listing_url": "https://themes.shopify.com/themes/empire/presets/circuit",
+      "action": "Opened the official listing and clicked View demo once.",
+      "result": "The listing preview frame remained about:blank and View demo became disabled; no storefront destination or homepage was verified.",
+      "homepage_coverage_credit": 0
+    },
+    {
+      "preset_id": "empire:forma",
+      "official_listing_url": "https://themes.shopify.com/themes/empire/presets/forma",
+      "action": "Opened the official listing and clicked View demo once.",
+      "result": "The listing preview frame remained about:blank and View demo became disabled; no storefront destination or homepage was verified.",
+      "homepage_coverage_credit": 0
+    },
+    {
+      "preset_id": "be-yours:peace",
+      "official_listing_url": "https://themes.shopify.com/themes/be-yours/presets/peace",
+      "action": "Opened the official listing and clicked View demo once.",
+      "result": "The listing preview frame remained about:blank and View demo became disabled; no storefront destination or homepage was verified.",
+      "homepage_coverage_credit": 0
+    }
+  ],
+  "limits": [
+    "No URL inferred from the blank frame",
+    "No storefront pages rendered",
+    "No screenshots, mobile/editor/checkout/interaction/keyboard/performance tests",
+    "Coverage and rendered page counts unchanged"
+  ]
+}

@@ -24,3 +24,8 @@ in the spec's `option_map` / `requirement_map`.
 
 ## Cross-platform design evidence
 Read `banks/research/competitors/demo-audit.json` and `banks/design/competitor-observations.json` before direction search. A vendor listing or text-only live page does not validate a full 12-dimension screenshot fingerprint. Mark fingerprints `verified` **only after** inspecting home, collection, product and mobile views of the actual demo; save evidence and the direct demo URL. Run `vsn.py check-design` against the established fingerprints to prevent cloning recognizable designs.
+
+
+## Shopify mobile evidence
+
+The selected 127-preset cohort now has a 360×640 CSS px mobile preview sweep. See `banks/research/competitors/shopify-mobile-synthesis-2026.md` for the responsive patterns and VSN design implications, and the preset-level matrix/evidence for source-linked notes. This mobile evidence informs responsive layout; it does not upgrade unrelated desktop, PDP, collection, interaction, or performance fingerprint checks.

@@ -79,3 +79,64 @@ python3 scripts/shopify_theme_research.py next
 python3 scripts/competitor_audit.py validate
 python3 scripts/vsn.py validate
 ```
+
+
+## Mobile design synthesis addendum — 2026-10-27
+
+The 127-preset mobile preview sweep is complete at **360×640 CSS px**. It adds a mobile visual evidence layer to the older Theme Store listing and rendered-page research; it does not mark collection/PDP/cart interactions, Theme Editor, checkout, accessibility, or Lighthouse as tested. Two storefront hero previews remained limited in clarity (Eurus:Arise and Stiletto:Luster), while their mobile headers/compositions were reviewed.
+
+### Patterns carried into design research
+- Keep announcement, search, logo, menu and cart controls within a measured 360 px header stack; search-heavy layouts need progressive disclosure.
+- Preserve image-led storytelling while controlling mobile focal points, headline wrapping and CTA separation.
+- Treat a two-column product grid as a useful baseline where imagery and labels remain legible; allow one-column editorial/product views.
+- Check every ticker, promo strip and image-overlay headline for horizontal clipping. Palo Alto:Dynamo, Broadcast:Motif and Empire variants showed specific crowding risks.
+- Review age-gate and cookie-consent states as part of the first viewport. Lively and Eurus:Arise exposed these overlays in the reviewed view.
+
+See `shopify-mobile-synthesis-2026.md`, `shopify-mobile-review-batch131-2026.md`, `shopify-127-completion-matrix-2026.json` and `banks/design/competitor-observations.json`. All findings inform original responsive design; exact competitor layouts, imagery and type combinations should not be copied.
+
+
+## Targeted interaction supplement — 2026-10-27
+
+Read-only live storefront interactions were sampled on Enterprise:Enterprise and Prestige:Couture and added to the existing Ignite:Peak gate observation. Findings cover a cascading catalog finder, filter/sort menus, variant-dependent stock and an empty cart recommendation drawer. The four new checks ran in a 1363×936 CSS px browser viewport; they are not mobile-emulated interaction tests. See `shopify-interaction-sample-batch133-2026.md`.
+
+
+## Targeted interaction update — Batch 134 (2026-10-27)
+
+A third read-only browser session tested Impulse:Impulse on The Lido Short PDP. Quick View opened the related The Vela Shirt in a modal with gallery media, compare-at and sale price, product details, size-chart access, stock state and accordions. No cart action followed. Combined targeted interaction coverage is now **4 of 127 presets across 6 observations**; this interaction sample ran at 1363×936 CSS px and is not mobile emulation. See `shopify-interaction-sample-batch134-2026.md`.
+
+
+## Targeted interaction update — Batch 135 (2026-10-27)
+
+Impulse:Dune's Naked & Famous Crewneck PDP was tested at 1363×936 CSS px. Selecting M updated the selected radio and URL to a variant-specific ID while the in-stock message stayed unchanged. No cart action followed. Coverage is now **5 of 127 presets across 7 observations**; completed presets are marked in the matrix and removed from pending counts. See `shopify-interaction-sample-batch135-2026.md`.
+
+
+## Targeted interaction update — Batch 136 (2026-10-27)
+
+Impulse:Terrain's 2016 Carbine Expert Build PDP was tested at 1363×936 CSS px. Selecting M updated the radio state and URL with a variant ID; “In stock, ready to ship” remained unchanged. No cart action followed. Overall targeted coverage is **6 of 127 presets across 8 observations**; completed presets are marked and excluded from the pending list. See `shopify-interaction-sample-batch136-2026.md`.
+
+
+## Tier 1 interaction group closeout — Batch 137 (2026-10-27)
+
+All **27/27 Tier 1 pending presets** received a verified read-only interaction. Checks covered product-detail disclosures, navigation/search, size-chart access and gallery zoom. No cart mutation or checkout was performed. Tier 1 has been removed from pending groups and archived as complete; overall targeted interaction coverage is **33/127 presets across 35 observations**, with 94 presets pending in lower-priority groups. See `shopify-interaction-sample-batch137-2026.md`.
+
+
+## Tier 2 interaction group closeout — Batch 138 (2026-10-27)
+
+All **33/33 Tier 2 pending presets** received a verified live interaction and were removed from pending groups. Checks covered product disclosures, size guidance, variant state, product gallery dialogs, locale controls, pickup-location panels and search. Overall targeted interaction coverage is **66/127 presets across 68 observations**, with 61 presets pending: Tier 3 (6), Tier 4 (38) and other selected families (17). Mobile visual review remains 127/127. See `shopify-interaction-sample-batch138-2026.md`.
+
+During the Stiletto:Linen review, an unintended quantity-2 cart state occurred while controls were being targeted. Both units were removed; the cart was verified empty. No checkout or payment occurred. Stiletto:Stiletto's listed product route returned 404, so its public homepage search modal was used as a fallback.
+
+
+## Tier 3 interaction group closeout — Batch 139 (2026-10-27)
+
+All **6/6 Tier 3 presets** received a verified live interaction and were removed from pending groups. Checks covered search, size and pack selection, product feature disclosure and gallery zoom in the first-party free theme baseline. Overall targeted interaction coverage is **72/127 presets across 74 observations**, with 55 presets pending: Tier 4 (38) and other selected families (17). Mobile visual review remains 127/127. See `shopify-interaction-sample-batch139-2026.md`.
+
+
+## Tier 4 interaction group closeout — Batch 140 (2026-10-28)
+
+All **38/38 Tier 4 presets** received a verified live-demo interaction and were archived from pending. Coverage spans Be Yours, Sleek, Wonder, Eurus, Release, Ignite, Shapes and Vision. Actions included reversible gallery zoom, variant selection, product-detail disclosures and tabs, and opening navigation/localization menus. No locale was changed; cart and checkout actions were not used. Overall targeted interaction coverage is now **110/127 presets across 112 observations**, with **17 presets pending** in Other selected families. Mobile visual review remains 127/127. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain unverified. See `shopify-interaction-sample-batch140-2026.md`.
+
+
+## Remaining selected-family interaction closeout — Batch 141 (2026-10-28)
+
+All **17/17 remaining interaction presets** received a verified non-purchase live-demo interaction. Checks covered reversible product gallery zoom, size/color option selection, product detail/ingredient/material disclosures and a search dialog. Overall targeted interaction coverage is now **127/127 presets across 129 observations**, with **zero interaction presets pending**. Mobile visual review remains 127/127. Theme Editor, checkout, keyboard/accessibility and Lighthouse remain open for all 127; these storefront checks do not certify those areas. See `shopify-interaction-sample-batch141-2026.md`.

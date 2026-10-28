@@ -1,0 +1,49 @@
+{
+  "batch": 80,
+  "observed_on": "2026-10-27",
+  "source_class": "browser_render_readonly",
+  "selected_preset_id": "motion:motion",
+  "official_listing_url": "https://themes.shopify.com/themes/motion/presets/motion",
+  "iframe_src_observed": "https://motion-theme-adventure.myshopify.com/",
+  "redirected_storefront": "https://motion-theme-adventure.myshopify.com/",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://motion-theme-adventure.myshopify.com/",
+      "observations": [
+        "Apparel hero and seasonal copy; Half-Zips shelf; Wear/Carry tabs; video story, BOGO copy, category and journal sections."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "collection",
+      "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips",
+      "observations": [
+        "Half-Zips shows two products; no result count or filter/sort controls in the captured tree."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "product",
+      "url": "https://motion-theme-adventure.myshopify.com/collections/half-zips/products/merino-wool-quarter-zip",
+      "observations": [
+        "Merino Wool Quarter-Zip $110; Blue/Sky, XS–2XL, stock/shipping copy, size guide and 200gsm merino details."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    },
+    {
+      "kind": "cart",
+      "url": "https://motion-theme-adventure.myshopify.com/cart",
+      "observations": [
+        "Empty cart with four generic Example product links pointing back to /cart."
+      ],
+      "evidence": "Rendered accessibility tree, read only"
+    }
+  ],
+  "caveats": [
+    "Exact iframe URL directly observed; listing preview button was disabled while loading.",
+    "No shopper interactions, screenshot, mobile, editor, keyboard or performance testing.",
+    "Merchant/product claims unverified."
+  ],
+  "report_path": "banks/research/competitors/shopify-live-demo-batch80-2026.md"
+}

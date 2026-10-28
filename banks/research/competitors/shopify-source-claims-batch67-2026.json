@@ -1,0 +1,50 @@
+{
+  "batch": 67,
+  "preset_id": "expanse:gem",
+  "audit_entry_id": "shopify-expanse-gem",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/expanse/presets/gem",
+  "store_url": "https://gem-theme-emerald.myshopify.com/",
+  "store_url_verification": "official_listing_iframe_src_read_from_rendered_DOM_after_view_demo",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://gem-theme-emerald.myshopify.com/",
+      "observations": [
+        "Free-shipping-over-$50 announcement; New/Jewelry/Gifting/World of Gem navigation, search, account and cart.",
+        "Amara Collection gift promo grid; curated links for Earrings, Engagement, Gold Rings, Necklaces, Rose Gold Rings and Gold Jewelry; Amara product shelf; customer moments/testimonials; discovery banner; brand story; Jewelry Journal; authenticity, shipping, returns and expert-guidance promises; newsletter.",
+        "Seller service claims unverified; no controls activated."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://gem-theme-emerald.myshopify.com/collections/earrings",
+      "observations": [
+        "9 products; Availability and Price filters; Stud/Hoop subcollection links; Best selling sort; Large/Small/List view controls.",
+        "Cards show best-seller/new/sale cues, brand and prices (Karasuba studs $920; Inula studs $515 from $550). No controls activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://gem-theme-emerald.myshopify.com/collections/earrings/products/karasuba",
+      "observations": [
+        "Karasuba studs / Karasuba Ear Climbers; 18k yellow gold selected with rose/white gold alternatives; $920; low-stock text (3); gallery/zoom; Add to cart and Buy it now.",
+        "Shipping and diamond-cuts accordions, diamond-shape guide, recommendations, testimonials, craftsmanship/material claims and demonstration-store note linking to Sceona. No controls activated; seller claims unverified."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://gem-theme-emerald.myshopify.com/cart",
+      "observations": [
+        "Dedicated cart page is empty and provides Continue shopping. No mutation or checkout."
+      ]
+    }
+  ],
+  "limits": [
+    "New selected homepage absent from prior selected-home evidence; counts as one additional unique rendered homepage.",
+    "No filters, sorting, density, variants, zoom, add-to-cart, Buy it now, cart or checkout actions.",
+    "No screenshot, mobile viewport, Theme Editor, keyboard or performance tests.",
+    "Product, material, sustainability, stock, shipping, returns, authenticity and seller statements unverified."
+  ]
+}

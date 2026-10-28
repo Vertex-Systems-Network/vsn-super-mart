@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "created_on": "2026-10-26",
+  "batch": 55,
+  "selected_preset_id": "symmetry:salt-yard",
+  "sources": [
+    {
+      "source_id": "official-shopify-symmetry-salt-yard-listing",
+      "source_class": "official_theme_store_listing",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/salt-yard",
+      "claims": [
+        "Official listing identifies Salt Yard as a Symmetry preset; View demo rendered salt-yard.myshopify.com."
+      ],
+      "limits": [
+        "Theme Store feature and marketing copy is vendor-authored."
+      ]
+    },
+    {
+      "source_id": "symmetry-salt-yard-rendered-pages",
+      "source_class": "browser_render_readonly",
+      "url": "https://salt-yard.myshopify.com/",
+      "observed_pages": [
+        {
+          "kind": "home",
+          "url": "https://salt-yard.myshopify.com/",
+          "observations": [
+            "Official Shopify Symmetry:Salt Yard View demo opens salt-yard.myshopify.com and identifies itself as the Symmetry demo, with an Unrecorded apparel shop.",
+            "Homepage pairs an apparel hero and category/promo tiles with Essentials and New Knitwear product slides, New Arrivals, sale messaging, pre-order and sold-out signals, sustainability/editorial storytelling, reviews, denim, magazine, store and newsletter modules.",
+            "Service propositions include shipping, Click & Collect and returns; merchant product, sustainability, fit and service claims are unverified."
+          ]
+        },
+        {
+          "kind": "collection",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals",
+          "observations": [
+            "New Arrivals collection lists 16 products with a Filter link and Featured sort control; cards show prices, pre-order/sale labels, color images and quick size options.",
+            "Products mix apparel, footwear and accessories; organic-cotton and ethical-manufacturing claims appear below the grid and remain unverified.",
+            "No filters, sort, card options or purchase actions were activated."
+          ]
+        },
+        {
+          "kind": "product",
+          "url": "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt",
+          "observations": [
+            "Knitted Polo Shirt PDP shows $100.00, four gallery images, Grey/Navy/Black color choices, sizes S–XL, size guide, fit scale, four-in-stock signal and a Pre-order control; two reviews average 4.5/5.",
+            "Pre-order copy, store pickup availability, Description/Materials & Care/Shipping disclosures, Pre-order FAQs, Complete the Look and related product recommendations are present.",
+            "No variants, size guide, store selector, accordion or purchase control was activated; product, review, fit, inventory, material and delivery claims remain unverified."
+          ]
+        },
+        {
+          "kind": "cart",
+          "url": "https://salt-yard.myshopify.com/cart",
+          "observations": [
+            "Cart is empty and offers Start shopping, followed by a Trending now product carousel.",
+            "No cart or checkout action was executed."
+          ]
+        }
+      ],
+      "limits": [
+        "Read-only rendered accessibility-tree observation; no shopper interaction, screenshot, measured viewport/mobile, editor, checkout, keyboard or performance testing.",
+        "Product and merchant claims remain unverified."
+      ]
+    }
+  ]
+}

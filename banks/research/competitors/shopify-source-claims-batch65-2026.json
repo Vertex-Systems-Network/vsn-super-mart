@@ -1,0 +1,51 @@
+{
+  "batch": 65,
+  "preset_id": "expanse:expanse",
+  "audit_entry_id": "shopify-expanse",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/expanse/presets/expanse",
+  "store_url": "https://expanse-theme-furniture.myshopify.com/",
+  "store_url_verification": "official_listing_embedded_demo_rendered_host_then_public_storefront_navigation",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://expanse-theme-furniture.myshopify.com/",
+      "observations": [
+        "Home-goods storefront header groups Homestyle, Lifestyle, Kids and Brands, with search/account/cart and a shipping/returns announcement.",
+        "Hero promotes restocked coffee items; subsequent modules include category tiles, Coffee Brewing Bestsellers, Shop the Look, discount tiles, outdoor campaign, brand logos, Spring Arrivals, featured product/editorial blocks, countdown, local-pickup/location messaging, brand values, journal, newsletter and service/footer promos.",
+        "United States / USD localization is shown. No shopper controls activated."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://expanse-theme-furniture.myshopify.com/collections/planters",
+      "observations": [
+        "Planters collection displays 12 products, Best selling sort, grid/large/small/list controls and Product type, Price, Brand and Availability filters.",
+        "Product cards show brand, price, sold-out vs add-to-cart states; no filters, sort, grid density or product controls activated."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://expanse-theme-furniture.myshopify.com/collections/planters/products/trigg-wall-vessel",
+      "observations": [
+        "Umbra Trigg Wall Vessel shows $35 regular price, Copper / Concrete selected, Large selected; Small appears sold out. Gallery and zoom, seller-provided free shipping/returns/carbon-neutral/secure-payment statements, low-stock copy, add-to-cart and pickup at Texas Warehouse are visible.",
+        "Description, shipping information and ask-a-question accordions plus vendor/collection recommendations and customer testimonial appear below. No controls activated; seller claims unverified."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://expanse-theme-furniture.myshopify.com/cart",
+      "observations": [
+        "Clicking the header cart opens a drawer that states the cart is currently empty. No cart mutation or checkout action."
+      ]
+    }
+  ],
+  "limits": [
+    "No shopper actions",
+    "No screenshot/mobile/editor/checkout/performance tests",
+    "Merchant claims unverified",
+    "Homepage, indexed Furniture collection and indexed coffee-maker PDP already existed",
+    "Cart drawer only; dedicated /cart page not loaded"
+  ]
+}

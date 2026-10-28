@@ -10,6 +10,10 @@ on:
       - 'scripts/competitor_audit.py'
       - 'scripts/shopify_theme_research.py'
       - 'scripts/shopify_editor_audit.py'
+      - 'scripts/research_127_coverage.py'
+      - 'scripts/platform_feasibility_audit.py'
+      - 'CLAUDE.md'
+      - 'ai/WORKFLOW.md'
       - 'scripts/afterhours_recovery.py'
       - 'ai/recovery/**'
       - 'ai/state/**'
@@ -27,6 +31,10 @@ jobs:
           python-version: '3.12'
       - name: Validate Shopify platform editor capabilities and live demo evidence
         run: python3 scripts/shopify_editor_audit.py
+      - name: Validate all 127 selected preset research statuses and evidence provenance
+        run: python3 scripts/research_127_coverage.py
+      - name: Validate platform feasibility mapping and active AI instructions
+        run: python3 scripts/platform_feasibility_audit.py
       - name: Validate Shopify popular family and preset inventory
         run: python3 scripts/shopify_theme_research.py validate
       - name: Validate competitor evidence and mapped options

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Official Shopify Symmetry:Amara preset listing View demo inspected read-only via rendered browser accessibility tree. Home, Rings collection, Diamond Engagement Ring PDP and empty cart inspected; no shopper control, screenshot, viewport/mobile, editor, checkout, keyboard or performance testing.",
+  "sources": [
+    {
+      "id": "symmetry-amara-preset-listing",
+      "url": "https://themes.shopify.com/themes/symmetry/presets/amara",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Symmetry:Amara listing View demo opened symmetry-amara.myshopify.com."
+    },
+    {
+      "id": "shopify-symmetry-amara-browser-render",
+      "url": "https://symmetry-amara.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://symmetry-amara.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://symmetry-amara.myshopify.com/collections/rings"
+        },
+        {
+          "kind": "product",
+          "url": "https://symmetry-amara.myshopify.com/collections/rings/products/personalised-9ct-diamond-engagement-ring"
+        },
+        {
+          "kind": "cart",
+          "url": "https://symmetry-amara.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "amara-jewelry-discovery",
+      "source_ids": [
+        "shopify-symmetry-amara-browser-render"
+      ],
+      "observed": "Home organizes jewelry through category collections, material/care themes and gifting/editorial content; 32-item Rings collection shows Filter, Featured sort, GBP prices, ratings and sold-out states.",
+      "risk": "No filter or sort behavior tested; reviews, stock and seller content are unverified.",
+      "vsn_guard": "Use product-type and occasion paths to structure jewelry discovery, and validate inventory and review data."
+    },
+    {
+      "id": "amara-ring-configuration-and-cart",
+      "source_ids": [
+        "shopify-symmetry-amara-browser-render"
+      ],
+      "observed": "Engagement-ring PDP presents metal finish and ring size choices with size guidance and service propositions; empty cart provides Start Shopping and a You Might Love These carousel.",
+      "risk": "No variants or cart actions tested; British-made, ethical-material, fit and shipping claims are not independently confirmed.",
+      "vsn_guard": "Make sizing and metal choices clear and substantiate materials and production claims; keep cart recommendations relevant."
+    }
+  ]
+}

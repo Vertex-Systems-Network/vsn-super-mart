@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "observed_at": "2026-10-25",
+  "status": "read_only_indexed_public_html_not_live_interaction_or_merchant_policy_verification",
+  "cases": [
+    {
+      "id": "expanse-negative-savings-label",
+      "source_url": "https://expanse-theme-furniture.myshopify.com/collections/coffee-makers/products/90018-neapolitan-coffee-maker",
+      "source_crawl_recency": "2 months",
+      "observed": "Product HTML contains regular/current price $695 and label 'Save $-695'.",
+      "risk": "Negative savings copy is misleading as a display string; browser visibility, discount model and current live value unverified.",
+      "vsn_guard": "Calculate percent/fixed saving only if compare_at_price > price and variant eligible; never output negative values or sale label without genuine saving."
+    },
+    {
+      "id": "impact-shipping-threshold-conflict",
+      "source_url": "https://impact-theme-sound.myshopify.com/cart",
+      "source_crawl_recency": "about 1.2 years",
+      "observed": "Cart page footer says free worldwide shipping on orders of $99; newer homepage offers 'Free standard shipping on all orders'.",
+      "risk": "Conflicting cross-page thresholds and unknown customer market/promotion; older cart source may be outdated.",
+      "vsn_guard": "Use same merchant-configured markets/shipping-policy source in all bars, product snippets and carts; no stale hardcoded default."
+    },
+    {
+      "id": "expanse-demo-countdown-staleness",
+      "source_url": "https://expanse-theme-furniture.myshopify.com/",
+      "source_crawl_recency": "2 days",
+      "observed": "Homepage countdown section presents a 12-day/12-hour/12-minute/12-second teaser alongside Black Friday sales and Spring merchandising.",
+      "risk": "Only sample source labels; not proof of a running timer, real promotion, deadline or invalid countdown.",
+      "vsn_guard": "Tie campaign status to explicit legitimate end datetime and timezone, show expired fallback and merchant-verified discount."
+    },
+    {
+      "id": "impact-comparison-and-buyer-states",
+      "source_url": "https://impact-theme-sound.myshopify.com/",
+      "source_crawl_recency": "6 days",
+      "observed": "Homepage includes comparison spec rows, variant color text, Quick Add buttons and multiple sold-out labels.",
+      "risk": "Presence of DOM controls and sold-out text does not establish working comparison, accessibility, variant cart behavior or current stock.",
+      "vsn_guard": "Separate theme-native structured spec table from optional VSN compare app; run actual keyboard/card/cart tests in later QA."
+    },
+    {
+      "id": "expanse-low-stock-claim",
+      "source_url": "https://expanse-theme-furniture.myshopify.com/collections/coffee-makers/products/90018-neapolitan-coffee-maker",
+      "source_crawl_recency": "2 months",
+      "observed": "Coffee maker PDP source says one item remaining plus merchant sample sustainability and shipping claims.",
+      "risk": "Source is stale; quantity may have changed, and environmental/fulfillment claims cannot be validated via static demo.",
+      "vsn_guard": "Inventory from selected variant truth only with configurable real threshold; merchant substantiates pickup, shipping and sustainability claims."
+    }
+  ]
+}

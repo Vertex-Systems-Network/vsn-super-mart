@@ -1,0 +1,46 @@
+{
+  "batch": 64,
+  "preset_id": "focal:sapphire",
+  "audit_entry_id": "shopify-live-focal-sapphire",
+  "observed_on": "2026-10-26",
+  "source_class": "browser_render_readonly",
+  "official_listing_url": "https://themes.shopify.com/themes/focal/presets/sapphire",
+  "store_url": "https://focal-theme-sapphire.myshopify.com/",
+  "store_url_verification": "official_listing_iframe_src_read_from_rendered_DOM_after_view_demo",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://focal-theme-sapphire.myshopify.com/",
+      "observations": [
+        "Eclat campaign hero, type tabs, rated product shelf, collection tiles, shoppable editorial ring, brand timeline, story, service claims and newsletter."
+      ]
+    },
+    {
+      "kind": "collection",
+      "url": "https://focal-theme-sapphire.myshopify.com/collections/earrings",
+      "observations": [
+        "117 products; Featured sort; Product type/Collection/Color/Price/Availability facets; page count 5; sale/review cues."
+      ]
+    },
+    {
+      "kind": "product",
+      "url": "https://focal-theme-sapphire.myshopify.com/products/double-meteorites-stud-earrings-ae9784ox",
+      "observations": [
+        "€114; White Silver; SKU AE9784OX; in stock; 4.33/5 from three reviews; zoom/gallery, details/warranty, buy-it-with and related items."
+      ]
+    },
+    {
+      "kind": "cart",
+      "url": "https://focal-theme-sapphire.myshopify.com/cart",
+      "observations": [
+        "Empty cart with Start Shopping; service and warranty statements follow."
+      ]
+    }
+  ],
+  "limits": [
+    "No shopper interactions",
+    "No screenshot/mobile/editor/checkout/performance tests",
+    "Merchant claims unverified",
+    "Homepage and cart already indexed"
+  ]
+}

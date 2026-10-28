@@ -1,0 +1,7 @@
+# Shopify live-demo research — Batch 90: Sleek Modiva (2026-10-27)
+
+- Official Shopify listing: https://themes.shopify.com/themes/sleek/presets/modiva
+- Rendered storefront: https://sleek-modiva.myshopify.com/
+- Read-only routes inspected: home https://sleek-modiva.myshopify.com/; collection https://sleek-modiva.myshopify.com/collections/best-sellers; product https://sleek-modiva.myshopify.com/products/parlour-club-chair; cart https://sleek-modiva.myshopify.com/cart.
+- Observations: Furniture/interior homepage presents shop-by-room/category navigation, Embrace Vision hero, room stories, product tabs, Shop the Room, before/after image comparison, design-editorial stories, product quick views and showroom/editorial content. Best Sellers collection reports 12 products; Product type, Color, Material, Size and Availability facets (12 in stock, 1 out) plus Featured sort. Product grid was blank in accessibility snapshot; controls untouched. Parlour Club Chair PDP shows $699/$999, stock 11, Beige/Black/Orange color choices, quantity/Add/Buy controls, pickup availability, details accordions and reviews. Product copy appears mismatched with the furniture item; record as demo-copy inconsistency, not a verified product claim. Dedicated cart route is empty with collection suggestions.
+- No shopper interactions, screenshots, viewport/mobile, Theme Editor, checkout, keyboard or performance tests. Merchant claims remain unverified.

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "observed_on": "2026-10-26",
+  "scope": "Focal official preset listing demo inspected read-only through rendered browser accessibility trees. No shopper interactions, screenshot, viewport, mobile, editor, checkout or performance testing.",
+  "sources": [
+    {
+      "id": "focal-preset-listing",
+      "url": "https://themes.shopify.com/themes/focal/presets/focal",
+      "source_class": "official_preset_listing",
+      "observed_on": "2026-10-26",
+      "observation": "Official Shopify Focal preset listing View demo opened Focal Theme Carbon."
+    },
+    {
+      "id": "focal-demo",
+      "url": "https://focal-theme-carbon.myshopify.com/",
+      "source_class": "browser_render_readonly",
+      "observed_on": "2026-10-26",
+      "pages": [
+        {
+          "kind": "home",
+          "url": "https://focal-theme-carbon.myshopify.com/"
+        },
+        {
+          "kind": "collection",
+          "url": "https://focal-theme-carbon.myshopify.com/collections/iphone-cases"
+        },
+        {
+          "kind": "product",
+          "url": "https://focal-theme-carbon.myshopify.com/products/leather-case-for-airpods-pro"
+        },
+        {
+          "kind": "cart",
+          "url": "https://focal-theme-carbon.myshopify.com/cart"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "focal-device-and-accessory-discovery",
+      "source_ids": [
+        "focal-demo"
+      ],
+      "observed": "Homepage and collection separate product categories by device generation; collection shows color, price, product type and availability facets; PDP exposes color, tech details and complementary/recommended products.",
+      "risk": "Visible compatibility/product copy and recommendations do not demonstrate actual device fit or recommendation behavior.",
+      "vsn_guard": "Validate device compatibility metadata and test recommendation relevance and variant handling."
+    },
+    {
+      "id": "focal-promo-and-merchant-claims",
+      "source_ids": [
+        "focal-demo"
+      ],
+      "observed": "Pages display sale prices, stock, review rating, leather-origin/production statements, shipping, returns and secure-payment copy.",
+      "risk": "Demo sample statements do not prove discount accuracy, inventory, reviews, material origin or merchant policies.",
+      "vsn_guard": "Tie price and stock to authoritative catalog data and substantiate review, material and fulfillment claims."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-25",
+  "status": "proposed_vsn_settings_not_implemented",
+  "sources": [
+    {
+      "id": "shopify-live-prestige-signature",
+      "url": "https://prestige-theme-signature.myshopify.com/"
+    },
+    {
+      "id": "shopify-live-broadcast-airwave",
+      "url": "https://broadcast-theme-airwave.myshopify.com/"
+    },
+    {
+      "id": "shopify-enterprise-sections-reference",
+      "url": "https://enterprise-sections.myshopify.com/"
+    }
+  ],
+  "controls": [
+    {
+      "id": "product-card",
+      "option_ids": [
+        "product-card-variants",
+        "inventory-status",
+        "pre-order"
+      ],
+      "settings": [
+        "variant_dependent_cta",
+        "preorder_requires_inventory_and_merchant_date",
+        "availability_not_inferred_from_hidden_markup"
+      ],
+      "guardrail": "Show only one action per variant state; hidden fallback markup isn't proof of error."
+    },
+    {
+      "id": "free-shipping-bar",
+      "option_ids": [
+        "free-shipping-bar",
+        "cart-drawer"
+      ],
+      "settings": [
+        "threshold_by_market",
+        "source_checkout_shipping_policy",
+        "hide_progress_when_unknown"
+      ],
+      "guardrail": "Never show qualifying and $X away simultaneously unless clearly different contexts."
+    },
+    {
+      "id": "countdown",
+      "option_ids": [
+        "countdown-timer",
+        "sale-campaign-section"
+      ],
+      "settings": [
+        "merchant_event_end_date_time",
+        "explicit_expired_state"
+      ],
+      "guardrail": "Never restart timer or represent past release date as upcoming."
+    },
+    {
+      "id": "compare",
+      "option_ids": [
+        "product-compare",
+        "app-blocks"
+      ],
+      "settings": [
+        "app_integration_slot",
+        "compare_button_visibility"
+      ],
+      "guardrail": "Data persistence and app ownership must be defined and actually tested, not derived from a test store's static UI."
+    }
+  ]
+}
