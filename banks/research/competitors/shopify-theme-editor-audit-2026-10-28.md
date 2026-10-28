@@ -1209,3 +1209,88 @@ Fifty-four presets now have homepage/product first-Tab observations alongside co
 - Initial focus only; deeper navigation and product control traversal remain untested. Not a WCAG audit.
 
 Sixty-one presets now have home/product first-Tab evidence alongside collection smoke. Full completion remains 0/127.
+
+
+### Additional homepage/product first-Tab checks — 2026-10-28
+
+#### empire:empire
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### empire:depot
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### empire:forma
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### be-yours:be-yours
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### be-yours:sheen
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### be-yours:peace
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### be-yours:harmony
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### stiletto:stiletto
+
+- Homepage and product first Tab focused the carousel Previous button.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### stiletto:luster
+
+- Homepage and product first Tab focused the carousel Previous button.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### stiletto:linen
+
+- Homepage and product first Tab focused the carousel Previous button.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### stiletto:glimmer
+
+- Homepage and product first Tab focused the carousel Previous button.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### stiletto:tapestry
+
+- Homepage and product first Tab focused the carousel Previous button.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### motion:satchel
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### motion:memo
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### palo-alto:palo-alto
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+#### palo-alto:dynamo
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper controls remain untested. Not a WCAG audit.
+
+Sixty-eight presets now have home/product first-Tab checks alongside collection smoke.
