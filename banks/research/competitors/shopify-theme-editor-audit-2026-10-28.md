@@ -227,3 +227,13 @@ The keyboard partial-observation count is now 8/127; full keyboard/accessibility
 - Home keyboard menu and standalone product-page behavior were not tested. This is a limited manual keyboard smoke review, not a WCAG conformance audit. Lighthouse was not run; PSI access in this browser remains blocked by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 9/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Symmetry — Chantilly keyboard smoke review — 2026-10-28
+
+- All Our Products collection: Tab traversal reached the Filter link; Enter expanded the filter form and exposed named availability, color and size controls in the accessibility tree.
+- Focus remained on the Filter trigger after activation. The next Tab moved to Sort (Featured), rather than entering the visible filter controls. Keyboard traversal inside the filter is unconfirmed and appears to need focus-management follow-up.
+- No filter value was selected or applied; the base collection URL was restored.
+- Limited manual smoke review only; not a WCAG conformance audit. Homepage menu and product-page keyboard controls were not tested. Lighthouse was not run; PSI access remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 10/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
