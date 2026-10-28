@@ -1079,13 +1079,16 @@
         "keyboard_accessibility": {
           "status": "partial_homepage_keyboard_review",
           "pages": [
-            "https://prestige-theme-allure.myshopify.com/"
+            "https://prestige-theme-allure.myshopify.com/",
+            "https://prestige-theme-allure.myshopify.com/products/le-dino-black-liege"
           ],
           "observations": [
             "Tab sequence reached the primary WOMEN, MEN, ABOUT, and PRESETS menu buttons and the site logo.",
-            "Each primary menu button was exposed as a named button in the accessibility tree; keyboard activation/expansion was not confirmed."
+            "Each primary menu button was exposed as a named button in the accessibility tree; keyboard activation/expansion was not confirmed.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Home-only partial smoke review; product and collection keyboard behavior and the full WCAG checklist remain untested."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run_due_to_current_psi_challenge",
@@ -1323,14 +1326,17 @@
           "observed_date": "2026-10-28",
           "pages": [
             "https://prestige-theme-vogue.myshopify.com/",
-            "https://prestige-theme-vogue.myshopify.com/collections/kits"
+            "https://prestige-theme-vogue.myshopify.com/collections/kits",
+            "https://prestige-theme-vogue.myshopify.com/products/brazilian-supermask-masque-brush-kit"
           ],
           "observations": [
             "Home: Tab reached the named Navigation menu button; Enter expanded the keyboard menu, exposing FACE, BODY, COLLECTIONS, JOURNAL and PRESETS. Escape collapsed it while focus remained on the menu button.",
             "Collection: Tab traversal reached Availability; Enter expanded it and exposed the named In stock only checkbox. Space toggled it on and the URL reflected filter.v.availability=1. The test filter was cleared by returning to the base collection URL.",
-            "Homepage accessibility tree exposed named product variant radios, quantity controls and Add to Cart for the featured Konjac Sponge product; keyboard activation of those controls was not verified."
+            "Homepage accessibility tree exposed named product variant radios, quantity controls and Add to Cart for the featured Konjac Sponge product; keyboard activation of those controls was not verified.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke and accessibility-tree inspection only; not a WCAG conformance audit. Standalone product-page keyboard behavior and Lighthouse were not tested."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -1448,14 +1454,17 @@
           "observed_date": "2026-10-28",
           "pages": [
             "https://prestige-theme-strass2.myshopify.com/",
-            "https://prestige-theme-strass2.myshopify.com/collections/necklaces"
+            "https://prestige-theme-strass2.myshopify.com/collections/necklaces",
+            "https://prestige-theme-strass2.myshopify.com/products/mineral-alliance-green-aventurine-necklace"
           ],
           "observations": [
             "Home: Navigation menu button appears in the accessibility tree; Tab traversal was observed across skip-to-content, announcement Previous/Next controls and the logo, but keyboard activation of Navigation menu was not verified.",
             "Collection: Tab reached FILTER; Enter expanded the filter drawer and exposed Availability, Price and Color sections plus Close and View Results. Tab entered Availability and Escape closed the drawer, returning focus to FILTER.",
-            "Homepage featured products expose Add to Cart / Choose options buttons in the accessibility tree; keyboard activation was not verified."
+            "Homepage featured products expose Add to Cart / Choose options buttons in the accessibility tree; keyboard activation was not verified.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke and accessibility-tree inspection only; not a WCAG conformance audit. Product-page keyboard behavior and Lighthouse were not tested."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -1571,14 +1580,17 @@
           "observed_date": "2026-10-28",
           "pages": [
             "https://prestige-theme-signature.myshopify.com/",
-            "https://prestige-theme-signature.myshopify.com/collections/pumps"
+            "https://prestige-theme-signature.myshopify.com/collections/pumps",
+            "https://prestige-theme-signature.myshopify.com/products/simone-pumps-110-black"
           ],
           "observations": [
             "Collection: Tab traversal reached FILTER; Enter opened the drawer. Tab reached Availability, Enter expanded it and exposed the named In stock only checkbox. Space toggled it on. Escape closed the drawer and returned focus to FILTER.",
             "Collection drawer exposed named Availability, Color, Size and Price sections plus Close and View Results controls.",
-            "Home keyboard menu and standalone product-page behavior were not tested."
+            "Home keyboard menu and standalone product-page behavior were not tested.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual keyboard smoke review only; not a WCAG conformance audit. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -1689,14 +1701,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://chantilly.myshopify.com/collections/all"
+            "https://chantilly.myshopify.com/collections/all",
+            "https://chantilly.myshopify.com/",
+            "https://chantilly.myshopify.com/products/swim-systems-momir-t545-ahoy-halter"
           ],
           "observations": [
             "Collection: Tab traversal reached the Filter link; Enter expanded the filter form and exposed named availability, color and size controls in the accessibility tree.",
             "After activating Filter, focus remained on the trigger; the next Tab moved to Sort (Featured) instead of entering the visible filter controls. Keyboard traversal within the filter is therefore unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was selected or applied; base collection URL was restored."
+            "No filter value was selected or applied; base collection URL was restored.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage menu and product-page controls were not keyboard tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -1812,14 +1828,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://salt-yard.myshopify.com/collections/new-arrivals"
+            "https://salt-yard.myshopify.com/collections/new-arrivals",
+            "https://salt-yard.myshopify.com/",
+            "https://salt-yard.myshopify.com/collections/new-arrivals/products/knitted-polo-shirt"
           ],
           "observations": [
             "Collection: Tab traversal reached the Filter link; Enter expanded the filter form and exposed Price, Color, Size and Product type controls in the accessibility tree.",
             "After activating Filter, focus remained on the trigger; the next Tab moved to Sort (Featured) instead of entering the visible filter controls. Keyboard traversal within the form is unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was selected or applied; the base collection URL was restored."
+            "No filter value was selected or applied; the base collection URL was restored.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage and product-page keyboard behavior were not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -1936,14 +1956,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://beatnik-5.myshopify.com/collections/womens-sunglasses"
+            "https://beatnik-5.myshopify.com/collections/womens-sunglasses",
+            "https://beatnik-5.myshopify.com/",
+            "https://beatnik-5.myshopify.com/collections/womens-sunglasses/products/kaka"
           ],
           "observations": [
             "Collection: Tab reached the Filter link; Enter activated it and exposed Color and Product type controls with named checkboxes in the accessibility tree.",
             "After Filter activation, focus stayed on the trigger; the next Tab moved to Sort (Featured), skipping the visible filter controls. Keyboard traversal within the filter is unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage and product-page keyboard behavior were not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -2058,14 +2082,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://duke-16.myshopify.com/collections/skateboards"
+            "https://duke-16.myshopify.com/collections/skateboards",
+            "https://duke-16.myshopify.com/",
+            "https://duke-16.myshopify.com/collections/skateboards/products/libellule-1"
           ],
           "observations": [
             "Collection: Tab reached the Filter link; Enter opened the filter form and exposed availability, Price, Product type and Size controls in the accessibility tree.",
             "After activating Filter, the next Tab moved to Sort (Date, new to old), rather than entering the visible filter controls. Keyboard traversal within the filter is unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was selected or applied; base collection URL was restored."
+            "No filter value was selected or applied; base collection URL was restored.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage and product-page keyboard behavior were not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -2181,14 +2209,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://symmetry-amara.myshopify.com/collections/rings"
+            "https://symmetry-amara.myshopify.com/collections/rings",
+            "https://symmetry-amara.myshopify.com/",
+            "https://symmetry-amara.myshopify.com/collections/rings/products/personalised-9ct-diamond-engagement-ring"
           ],
           "observations": [
             "Collection: Tab reached the Filter link; Enter exposed availability radios and Price, Material and Ring Size controls in the accessibility tree.",
             "After Filter activation, focus remained on the trigger; the next Tab moved to Sort (Featured), rather than entering the visible filter controls. Keyboard traversal within the filter is unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage and product-page keyboard behavior were not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -2304,14 +2336,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://broadcast-theme-main.myshopify.com/collections/all"
+            "https://broadcast-theme-main.myshopify.com/collections/all",
+            "https://broadcast-theme-main.myshopify.com/",
+            "https://broadcast-theme-main.myshopify.com/products/miro-signet-in-gold"
           ],
           "observations": [
             "Collection filter panel exposes named Availability checkboxes, Price controls and Material checkboxes in the accessibility tree.",
             "The FILTERS toggle responds to Enter. With the filter controls visible, Tab from the toggle moved to SORT BY rather than into Availability/Price/Material controls; keyboard traversal within filters is unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was changed or applied; collection remained at its base URL."
+            "No filter value was changed or applied; collection remained at its base URL.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page keyboard behavior was not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -2425,14 +2461,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://broadcast-theme-relay.myshopify.com/collections/all"
+            "https://broadcast-theme-relay.myshopify.com/collections/all",
+            "https://broadcast-theme-relay.myshopify.com/",
+            "https://broadcast-theme-relay.myshopify.com/products/contrast-jogger"
           ],
           "observations": [
             "Collection exposes named Price, Product type, Size, Color and Availability controls in the accessibility tree.",
             "The HIDE/SHOW FILTERS control responds to Enter. After opening the filter panel, Tab moved to SORT BY instead of the individual filter controls; keyboard traversal into filters is unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page keyboard behavior was not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -2548,14 +2588,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://broadcast-theme-airwave.myshopify.com/collections/all"
+            "https://broadcast-theme-airwave.myshopify.com/collections/all",
+            "https://broadcast-theme-airwave.myshopify.com/",
+            "https://broadcast-theme-airwave.myshopify.com/products/coffee-blend"
           ],
           "observations": [
             "Collection exposes named Availability checkboxes, Price controls and Product type checkboxes in the accessibility tree.",
             "The HIDE/SHOW FILTERS control responds to Enter. Tab after activating it moved to SORT BY rather than into filter controls; keyboard traversal within the filter pane is unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page keyboard behavior was not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -2618,7 +2662,8 @@
         "PDP size controls appeared sold out/unavailable in observed page",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
         "Seller delivery, fit, material and promotional claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Demo is password-protected; no password entered."
       ],
       "next_action": [
         "Tier 1 interaction review complete; continue with the next open priority group."
@@ -2671,14 +2716,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://broadcast-motif.myshopify.com/collections/all"
+            "https://broadcast-motif.myshopify.com/collections/all",
+            "https://broadcast-theme-motif.myshopify.com/",
+            "https://broadcast-theme-motif.myshopify.com/products/smiley-face-hat"
           ],
           "observations": [
             "All collection exposes named Availability checkboxes, Price controls, Product type checkboxes and Color checkboxes in the accessibility tree.",
             "The HIDE/SHOW FILTERS control responds to Enter. Tab after toggling it moved to SORT BY rather than the individual filter controls; keyboard traversal within filters is unconfirmed and appears to need focus-management follow-up.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Product and homepage first Tab focused a password field; review stopped without entering credentials."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page keyboard behavior was not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -2740,7 +2789,8 @@
         "No sort, pagination, quick-add, variant, cart or checkout actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, keyboard or performance tests",
         "SPF, health, ingredient, dermatology, shipping, discount, inventory and seller claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Demo store is unavailable in current browser."
       ],
       "next_action": [
         "Tier 1 interaction review complete; continue with the next open priority group."
@@ -2793,14 +2843,18 @@
           "status": "partial_manual_smoke_review",
           "observed_date": "2026-10-28",
           "pages": [
-            "https://broadcast-stellar.myshopify.com/collections/sunscreen"
+            "https://broadcast-stellar.myshopify.com/collections/sunscreen",
+            "https://broadcast-theme-stellar.myshopify.com/",
+            "https://broadcast-theme-stellar.myshopify.com/products/sun-protection-kit"
           ],
           "observations": [
             "Sunscreen collection presents a FILTERS toggle and named Availability and Price filter sections in the accessibility tree.",
             "The FILTERS control responds to Enter; after activation, the filter groups disappeared from the current accessibility tree while focus remained on the toggle. Keyboard focus entry into filter controls could not be confirmed.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage first Tab from page root focused Skip to content.",
+            "Homepage/product destinations returned the Shopify store unavailable page; first Tab focused its Shopify link."
           ],
-          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page keyboard behavior was not tested. Lighthouse was not run."
+          "limitations": "Initial focus checks only; deeper control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
