@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary, Prestige:Prestige and Prestige:Couture, Enterprise:Enterprise and Enterprise:Outlet now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary, Prestige:Prestige and Prestige:Couture, Enterprise:Enterprise Enterprise:Outlet, Enterprise:Homestead, Impact:Balance and three Warehouse presets now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 21
+    "partial_keyboard_accessibility_presets": 26
   },
   "pending": {
     "home": 0,
@@ -3070,17 +3070,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, grid/list, variant, quantity or cart actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
         "Seller stock, rating, shipping, price, product and brand claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard review covers only collection filter controls; homepage and product keyboard behavior remain untested.",
+        "Lighthouse not run; PSI remains blocked in this browser after Google's unusual-traffic verification challenge, which was not solved."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete keyboard smoke checks on the preset homepage and product page; continue collection filter traversal.",
+        "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3124,7 +3128,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-enterprise-homestead-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://enterprise-theme-home.myshopify.com/collections/all-products"
+          ],
+          "observations": [
+            "Filter Enter se khula aur Availability/Price controls nazar aaye; focus Filter par raha, agla Tab Sort by par gaya.",
+            "No filter value was selected or applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "No PSI retry after Google unusual-traffic human-verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 23,
@@ -3375,17 +3397,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, swatch, size, purchase, accordion or add-on actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
         "Merchant price, rating, inventory, shipment, fabric, environmental, certification and performance claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard review covers only collection filter controls; homepage and product keyboard behavior remain untested.",
+        "Lighthouse not run; PSI remains blocked in this browser after Google's unusual-traffic verification challenge, which was not solved."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete keyboard smoke checks on the preset homepage and product page; continue collection filter traversal.",
+        "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3429,7 +3455,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-impact-balance-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://impact-theme-shape.myshopify.com/collections/new-arrivals"
+          ],
+          "observations": [
+            "Filters toggle par Enter chalaya; agla Tab Sort by par gaya. Filter control names ka full keyboard traversal verify nahi hua.",
+            "No filter value was selected or applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "No PSI retry after Google unusual-traffic human-verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 26,
@@ -3876,17 +3920,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, view, pagination, product option, quantity, shipping-estimator, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
         "Merchant price, inventory, review, shipping and store claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard review covers only collection filter controls; homepage and product keyboard behavior remain untested.",
+        "Lighthouse not run; PSI remains blocked in this browser after Google's unusual-traffic verification challenge, which was not solved."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete keyboard smoke checks on the preset homepage and product page; continue collection filter traversal.",
+        "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3930,7 +3978,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-warehouse-warehouse-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://warehouse-theme-metal.myshopify.com/collections/headphones"
+          ],
+          "observations": [
+            "Color filter heading par Enter, phir Tab se Price heading par focus gaya; individual color checkbox ka keyboard focus confirm nahi hua.",
+            "No filter value was selected or applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "No PSI retry after Google unusual-traffic human-verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 31,
@@ -3977,7 +4043,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -3985,10 +4052,13 @@
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance testing",
         "Seller price, inventory, reviews, shipping and fulfillment claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard review covers only collection filter controls; homepage and product keyboard behavior remain untested.",
+        "Lighthouse not run; PSI remains blocked in this browser after Google's unusual-traffic verification challenge, which was not solved."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete keyboard smoke checks on the preset homepage and product page; continue collection filter traversal.",
+        "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4032,7 +4102,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-warehouse-wood-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://warehouse-theme-wood.myshopify.com/collections/tableware"
+          ],
+          "observations": [
+            "Color filter heading par Enter, phir Tab se Price heading par focus gaya; individual color checkbox ka keyboard focus confirm nahi hua.",
+            "No filter value was selected or applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "No PSI retry after Google unusual-traffic human-verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 32,
@@ -4079,16 +4167,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Primary indexed-HTML pages not independently recorded",
         "No shopper interaction, mobile, editor, checkout, keyboard or performance tests",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard review covers only collection filter controls; homepage and product keyboard behavior remain untested.",
+        "Lighthouse not run; PSI remains blocked in this browser after Google's unusual-traffic verification challenge, which was not solved."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete keyboard smoke checks on the preset homepage and product page; continue collection filter traversal.",
+        "Run Lighthouse when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4132,7 +4224,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-warehouse-mesh-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://warehouse-theme-fabric.myshopify.com/collections/new-arrivals"
+          ],
+          "observations": [
+            "Color group Enter se expand hua; Tab se named Black checkbox par focus gaya. No checkbox toggled.",
+            "No filter value was selected or applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "No PSI retry after Google unusual-traffic human-verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 33,
