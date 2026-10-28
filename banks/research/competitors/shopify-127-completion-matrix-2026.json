@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 13
+    "partial_keyboard_accessibility_presets": 14
   },
   "pending": {
     "home": 0,
@@ -2093,7 +2093,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": false,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -2148,7 +2149,27 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-symmetry-amara-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "observed_date": "2026-10-28",
+          "pages": [
+            "https://symmetry-amara.myshopify.com/collections/rings"
+          ],
+          "observations": [
+            "Collection: Tab reached the Filter link; Enter exposed availability radios and Price, Material and Ring Size controls in the accessibility tree.",
+            "After Filter activation, focus remained on the trigger; the next Tab moved to Sort (Featured), rather than entering the visible filter controls. Keyboard traversal within the filter is unconfirmed and appears to need focus-management follow-up.",
+            "No filter value was selected or applied."
+          ],
+          "limitations": "Limited manual smoke review only; not a WCAG conformance audit. Homepage and product-page keyboard behavior were not tested. Lighthouse was not run."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "run_date": "2026-10-28",
+          "reason": "Google PageSpeed Insights access in this browser is currently blocked by the unusual-traffic human-verification challenge encountered during the earlier run. No CAPTCHA was solved."
+        }
+      }
     },
     {
       "audit_rank": 15,
