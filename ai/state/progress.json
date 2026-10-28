@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Lighthouse: 127/127 presets still pending. This workspace has no Lighthouse CLI or Chrome executable, and connected browser controls cannot generate Lighthouse reports; previous PSI access hit Google's unusual-traffic CAPTCHA, which was not retried or solved. Need a supported Lighthouse runner/environment or approved PSI access path. Theme Editor review and checkout are removed from scope. Basic keyboard smoke remains complete 127/127.",
+  "next_action": "Lighthouse: 127/127 presets still pending. Rechecked local options: no Lighthouse CLI/package, no Chrome executable, and installed Playwright has no bundled Chromium binary. Connected browser controls cannot generate Lighthouse reports; prior PSI access hit Google's unusual-traffic CAPTCHA, which was not retried or solved. A supported Lighthouse runner/browser environment is required. Theme Editor review and checkout are removed from scope. Basic keyboard smoke remains complete 127/127.",
   "approvals": {},
   "figma": {
     "file_key": null,
