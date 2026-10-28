@@ -903,4 +903,4 @@ Partial collection keyboard evidence is now 108/127; full completion remains 0/1
 - Collection page: the first Tab from the page root focused the named Skip to content link.
 - Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
 
-All presets now have at least partial collection keyboard-smoke evidence (128/127); full keyboard/accessibility completion remains 0/127.
+All presets now have at least partial collection keyboard-smoke evidence (127/127); full keyboard/accessibility completion remains 0/127.
