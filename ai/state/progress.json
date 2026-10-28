@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Basic keyboard smoke is complete for 127/127 presets. Theme Editor review, Lighthouse runs, and checkout are removed from active scope by user request. Broader keyboard/accessibility control traversal remains uncompleted (0/127) if that workstream is resumed; current smoke is not a WCAG audit.",
+  "next_action": "No pending tasks remain in the current active scope. Theme Editor review, Lighthouse runs, checkout, and broader keyboard/accessibility control traversal were removed from active scope by user request. Basic keyboard smoke remains complete for 127/127 presets; full keyboard/WCAG audit was not performed.",
   "approvals": {},
   "figma": {
     "file_key": null,
