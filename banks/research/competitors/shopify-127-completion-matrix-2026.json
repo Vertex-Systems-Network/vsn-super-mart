@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations. Checkout QA was removed from active scope by user request. All 127/127 presets have at least partial collection-page keyboard smoke evidence; full keyboard/accessibility completion remains 0/127 because homepage, product and broader control checks are incomplete. Lighthouse remains 0/127 complete; PSI access is blocked in this browser after Google's unusual-traffic challenge.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 127/127 complete at 360×640 CSS px. Targeted interaction research covers 127/127 presets across 129 observations. Checkout QA was removed from active scope by user request. Keyboard smoke: 126/127 presets have recorded first-Tab observations on homepage, collection and product; all 127 have homepage/product first-Tab and collection-page keyboard evidence, but Prestige:Prestige lacks a recorded collection-page keyboard check. Full keyboard/accessibility control traversal remains 0/127; this is not a WCAG conformance audit. Lighthouse remains 0/127 complete; PSI access is blocked in this browser after Google's unusual-traffic challenge.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -27,7 +27,8 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 127
+    "partial_keyboard_accessibility_presets": 127,
+    "keyboard_accessibility_smoke": 126
   },
   "pending": {
     "home": 0,
@@ -40,7 +41,8 @@
     "editor": 127,
     "checkout": 0,
     "lighthouse": 127,
-    "keyboard_accessibility": 127
+    "keyboard_accessibility": 127,
+    "keyboard_accessibility_smoke": 1
   },
   "source_type_distinctions": {
     "official_listing": "Vendor Shopify Theme Store listing, not opened standalone demo",
