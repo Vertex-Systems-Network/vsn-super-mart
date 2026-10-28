@@ -329,3 +329,13 @@ The keyboard partial-observation count is now 19/127; full keyboard/accessibilit
 - Lighthouse was not run; PSI access remains blocked in this browser after Google's unusual-traffic verification challenge. No CAPTCHA was solved.
 
 The keyboard partial-observation count is now 20/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Enterprise — Outlet keyboard smoke review — 2026-10-28
+
+- All Products collection: Filter toggled open with Enter; the accessibility tree exposed named Availability, Price, Color, Gender, Sub Category, Product type and Activity controls.
+- Focus remained on the Filter toggle; the next Tab moved directly to Sort by instead of entering the filter controls. Keyboard traversal within the filter pane was not confirmed.
+- No filter value was selected or applied. Limited manual smoke review only, not a WCAG conformance audit; homepage and product-page keyboard behavior were not tested.
+- Lighthouse was not run; PSI remains blocked in this browser after Google's unusual-traffic verification challenge. No CAPTCHA was solved.
+
+The keyboard partial-observation count is now 21/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
