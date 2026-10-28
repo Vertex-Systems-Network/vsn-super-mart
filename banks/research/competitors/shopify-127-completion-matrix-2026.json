@@ -2966,14 +2966,18 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1"
+            "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1",
+            "https://enterprise-theme-digital.myshopify.com/",
+            "https://enterprise-theme-digital.myshopify.com/collections/smart-tech-1/products/smartcamera-with-voice-control"
           ],
           "observations": [
             "The Filter button toggled the filter panel with Enter; Accessibility tree exposed named Availability, Price, Brand, Color and device metadata filter controls.",
             "After opening Filter, focus remained on the toggle; the next Tab moved to Sort by instead of entering the visible filter controls. Keyboard access to filter values was not confirmed.",
-            "No filter selection was changed; collection remained at its base URL."
+            "No filter selection was changed; collection remained at its base URL.",
+            "Homepage: first Tab focused Skip to content.",
+            "Product: first Tab focused Skip to content."
           ],
-          "limitations": "One collection page only; limited manual smoke review, not a WCAG conformance audit. Homepage/product keyboard flows remain untested."
+          "limitations": "Initial focus checks only across pages; deeper navigation and control traversal remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -3090,14 +3094,18 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://enterprise-theme-active.myshopify.com/collections/shop-all"
+            "https://enterprise-theme-active.myshopify.com/collections/shop-all",
+            "https://enterprise-theme-active.myshopify.com/",
+            "https://enterprise-theme-active.myshopify.com/collections/shop-all/products/514g-eco-gold-chalk-honnold-edition"
           ],
           "observations": [
             "Filter toggled open with Enter and exposed named Availability, Price, Color, Gender, Sub Category, Product type and Activity controls.",
             "Focus stayed on the Filter toggle; the next Tab moved directly to Sort by instead of the visible filter controls.",
-            "No filter choice was changed or applied."
+            "No filter choice was changed or applied.",
+            "Homepage: first Tab focused Skip to content.",
+            "Product: first Tab focused Skip to content."
           ],
-          "limitations": "Collection page only; manual smoke test, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only across pages; deeper navigation and control traversal remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -3597,13 +3605,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://impact-theme-shape.myshopify.com/collections/new-arrivals"
+            "https://impact-theme-shape.myshopify.com/collections/new-arrivals",
+            "https://impact-theme-shape.myshopify.com/",
+            "https://impact-theme-shape.myshopify.com/products/silhouette-bra-black"
           ],
           "observations": [
             "Filters toggle par Enter chalaya; agla Tab Sort by par gaya. Filter control names ka full keyboard traversal verify nahi hua.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage: first Tab focused Skip to content.",
+            "Product: first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only across pages; deeper navigation and control traversal remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -5239,13 +5251,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://local-theme-main.myshopify.com/collections/bread-buns-crisps"
+            "https://local-theme-main.myshopify.com/collections/bread-buns-crisps",
+            "https://local-theme-main.myshopify.com/",
+            "https://local-theme-main.myshopify.com/collections/bread-buns-crisps/products/some-bread"
           ],
           "observations": [
             "Enter on Price; next Tab focused Product type heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab focused Skip to content.",
+            "Product: first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only across pages; deeper navigation and control traversal remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -5361,13 +5377,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers"
+            "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers",
+            "https://local-theme-soleway.myshopify.com/",
+            "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers/products/timberland%C2%AE-premium-6-inch-waterproof-boot"
           ],
           "observations": [
             "Enter on Availability; next Tab focused a collection link rather than filter options.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab focused Skip to content.",
+            "Product: first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only across pages; deeper navigation and control traversal remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -5480,13 +5500,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://local-theme-thrive.myshopify.com/collections/all"
+            "https://local-theme-thrive.myshopify.com/collections/all",
+            "https://local-theme-thrive.myshopify.com/",
+            "https://local-theme-thrive.myshopify.com/products/gut-health-ground-coffee"
           ],
           "observations": [
             "Enter on Availability; next Tab focused Price heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab focused Skip to content.",
+            "Product: first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only across pages; deeper navigation and control traversal remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -5718,13 +5742,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://local-theme-lively.myshopify.com/collections/red"
+            "https://local-theme-lively.myshopify.com/collections/red",
+            "https://local-theme-lively.myshopify.com/",
+            "https://local-theme-lively.myshopify.com/collections/red/products/crimson-reserve-2016"
           ],
           "observations": [
             "Enter on Availability; next Tab focused Price heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab focused Skip to content.",
+            "Product: first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only across pages; deeper navigation and control traversal remain untested; not a WCAG conformance audit."
         },
         "lighthouse": {
           "status": "not_run",
