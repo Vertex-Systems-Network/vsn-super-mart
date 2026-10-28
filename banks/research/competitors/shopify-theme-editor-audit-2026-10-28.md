@@ -594,3 +594,208 @@ Keyboard/accessibility partial evidence is now 57/127; full completion remains 0
 - Homepage/product keyboard behavior remains untested; this is limited manual smoke only, not a WCAG conformance audit. Lighthouse not run; PSI is blocked in this browser after the earlier unusual-traffic verification challenge, with no CAPTCHA solved.
 
 Partial collection keyboard evidence is now 68/127; full completion remains 0/127. Lighthouse remains 0/127.
+
+
+### Further collection keyboard smoke batch — 2026-10-28
+
+#### sleek:wildpeak
+
+- Enter on Product type; Tab reached named Accessories checkbox. No value changed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### sleek:jumped
+
+- Enter on Product type; Tab reached named Beanies checkbox. No value changed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### sleek:modiva
+
+- Enter on Product type; Tab reached named Bar Table checkbox. No value changed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### sleek:glint
+
+- Enter on Product type; Tab reached named Accessories checkbox. No value changed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### wonder:velour
+
+- Filter drawer was open; Tab from Close filter drawer reached Availability heading. Checkbox traversal was not checked.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### wonder:nook
+
+- Enter on Price; Tab focused price slider.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### eurus:eurus
+
+- Enter on Hide filter; next Tab focused List view, skipping filter values.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### eurus:arise
+
+- Availability activation followed by Tab focused cookie-banner Manage preferences; filter checkbox focus was not confirmed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### eurus:placid
+
+- Enter on Hide filter; next Tab focused List view.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### eurus:mystique
+
+- Enter on Hide filter; next Tab focused List view.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### eurus:whiff
+
+- Enter on Hide filter; next Tab focused List view.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### release:release
+
+- Enter on Filters; controls appeared; next Tab focused a Secondary Actions button rather than filter controls.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### release:grasse
+
+- Enter on Filters; controls appeared; next Tab focused a Secondary Actions button.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### release:serenity
+
+- Enter on Filters; controls appeared; next Tab focused a Secondary Actions button.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### release:forest
+
+- Enter on Availability; next Tab focused IN STOCK container; checkbox focus not confirmed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### release:renaissance
+
+- Enter on Availability; next Tab focused a generic container; checkbox focus not confirmed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### ignite:ignite
+
+- Enter on Select product type; next Tab focused its All option container.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### ignite:playtime
+
+- Enter on Select product type; next Tab focused its All option container.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### ignite:tails
+
+- Enter on Select product type; next Tab focused its All option container.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### ignite:alpha
+
+- Enter on Select product type; next Tab focused its All option container.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### ignite:peak
+
+- Enter on Select product type; next Tab focused its All option container.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### shapes:shapes
+
+- Enter on FILTER; next Tab focused SORT.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### shapes:fizz
+
+- Enter on FILTER; next Tab stayed on FILTER.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### shapes:candy
+
+- Enter on FILTER; next Tab stayed on FILTER.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### shapes:aura
+
+- Enter on Filter; next Tab focused the Availability section.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### shapes:scratch
+
+- Enter on Filter; next Tab stayed on Filter.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### vision:vision
+
+- Enter on Availability; Tab reached named In stock checkbox. No value changed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### vision:poochy
+
+- Enter on Availability; Tab reached named In stock checkbox. No value changed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### vision:velocite
+
+- Enter on Availability; Tab reached named In stock checkbox. No value changed.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### dawn:dawn
+
+- Enter on Availability; controls appeared; Tab then focused a button, not confirmed as the checkbox.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### horizon:horizon
+
+- Enter on Availability; next Tab focused Color heading.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### refresh:refresh
+
+- Enter on Availability; controls appeared; Tab then focused a button, not confirmed as a checkbox.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### rise:rise
+
+- Space selected the named 在庫あり (“in stock”) checkbox; selected state verified; base collection URL restored.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### tinker:tinker
+
+- Enter on Availability; next Tab focused Price heading.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### craft:craft
+
+- Enter on Availability; controls appeared; next Tab focused a collection link.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### publisher:publisher
+
+- Enter on Availability; controls appeared; next Tab focused a button.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### ride:ride
+
+- Enter on Filter; next Tab focused a generic container.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### sense:sense
+
+- Enter on Availability; controls appeared; next Tab focused a collection link.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### studio:studio
+
+- Enter on Availability; controls appeared; next Tab focused a collection link.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### taste:taste
+
+- Enter on Availability; controls appeared; next Tab focused a collection link.
+- Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+Partial collection keyboard evidence is now 108/127; full completion remains 0/127. Lighthouse remains 0/127.
