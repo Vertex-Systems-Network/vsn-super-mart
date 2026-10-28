@@ -339,3 +339,38 @@ The keyboard partial-observation count is now 20/127; full keyboard/accessibilit
 - Lighthouse was not run; PSI remains blocked in this browser after Google's unusual-traffic verification challenge. No CAPTCHA was solved.
 
 The keyboard partial-observation count is now 21/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Additional collection keyboard smoke reviews — 2026-10-28
+
+#### enterprise:homestead
+
+- Filter Enter se khula aur Availability/Price controls nazar aaye; focus Filter par raha, agla Tab Sort by par gaya.
+- No filter value was selected or applied. Homepage and product keyboard flows remain untested. Limited manual smoke only; not a WCAG conformance audit.
+- Lighthouse was not run; PSI remains blocked in this browser by Google's unusual-traffic verification challenge. No CAPTCHA was solved.
+
+#### impact:balance
+
+- Filters toggle par Enter chalaya; agla Tab Sort by par gaya. Filter control names ka full keyboard traversal verify nahi hua.
+- No filter value was selected or applied. Homepage and product keyboard flows remain untested. Limited manual smoke only; not a WCAG conformance audit.
+- Lighthouse was not run; PSI remains blocked in this browser by Google's unusual-traffic verification challenge. No CAPTCHA was solved.
+
+#### warehouse:warehouse
+
+- Color filter heading par Enter, phir Tab se Price heading par focus gaya; individual color checkbox ka keyboard focus confirm nahi hua.
+- No filter value was selected or applied. Homepage and product keyboard flows remain untested. Limited manual smoke only; not a WCAG conformance audit.
+- Lighthouse was not run; PSI remains blocked in this browser by Google's unusual-traffic verification challenge. No CAPTCHA was solved.
+
+#### warehouse:wood
+
+- Color filter heading par Enter, phir Tab se Price heading par focus gaya; individual color checkbox ka keyboard focus confirm nahi hua.
+- No filter value was selected or applied. Homepage and product keyboard flows remain untested. Limited manual smoke only; not a WCAG conformance audit.
+- Lighthouse was not run; PSI remains blocked in this browser by Google's unusual-traffic verification challenge. No CAPTCHA was solved.
+
+#### warehouse:mesh
+
+- Color group Enter se expand hua; Tab se named Black checkbox par focus gaya. No checkbox toggled.
+- No filter value was selected or applied. Homepage and product keyboard flows remain untested. Limited manual smoke only; not a WCAG conformance audit.
+- Lighthouse was not run; PSI remains blocked in this browser by Google's unusual-traffic verification challenge. No CAPTCHA was solved.
+
+The keyboard partial-observation count is now 26/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
