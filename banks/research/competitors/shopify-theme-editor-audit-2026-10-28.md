@@ -799,3 +799,108 @@ Partial collection keyboard evidence is now 68/127; full completion remains 0/12
 - Homepage/product keyboard flows remain untested. This is limited manual smoke only, not a WCAG audit. Lighthouse not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
 
 Partial collection keyboard evidence is now 108/127; full completion remains 0/127. Lighthouse remains 0/127.
+
+
+### First-Tab smoke on final pending collection pages — 2026-10-28
+
+#### local:caffeine
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### empire:circuit
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### motion:motion
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### wonder:wonder
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### wonder:root
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### wonder:petit
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### vision:onyx
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### vision:solstice
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### origin:origin
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### savor:savor
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### crave:crave
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### spotlight:spotlight
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### trade:trade
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### vessel:vessel
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### heritage:heritage
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### pitch:pitch
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### dwell:dwell
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### ritual:ritual
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### fabric:fabric
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+#### atelier:atelier
+
+- Collection page: the first Tab from the page root focused the named Skip to content link.
+- Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
+
+All presets now have at least partial collection keyboard-smoke evidence (128/127); full keyboard/accessibility completion remains 0/127.
