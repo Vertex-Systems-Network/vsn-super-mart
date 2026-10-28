@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 127/127 complete at 360×640 CSS px. Targeted interaction research covers 127/127 presets across 129 observations. Theme Editor review and Checkout QA were removed from active scope by user request. Basic keyboard smoke is complete for all 127/127 presets: first-Tab observations are recorded on canonical homepage, collection and product pages. Broader keyboard/accessibility control traversal remains 0/127; this is not a WCAG conformance audit. Lighthouse remains 0/127 complete; PSI access is blocked in this browser after Google's unusual-traffic challenge.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 127/127 complete at 360×640 CSS px. Targeted interaction research covers 127/127 presets across 129 observations. Theme Editor review and Checkout QA were removed from active scope by user request. Basic keyboard smoke is complete for all 127/127 presets: first-Tab observations are recorded on canonical homepage, collection and product pages. Broader keyboard/accessibility control traversal remains 0/127; this is not a WCAG conformance audit. Lighthouse runs were removed from active scope by user request; no cohort Lighthouse scores were generated.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -40,7 +40,7 @@
     "mobile": 0,
     "editor": 0,
     "checkout": 0,
-    "lighthouse": 127,
+    "lighthouse": 0,
     "keyboard_accessibility": 127,
     "keyboard_accessibility_smoke": 0
   },
@@ -15405,8 +15405,9 @@
     }
   ],
   "lighthouse_run_status": {
-    "status": "blocked_no_local_runner",
-    "pending_presets": 127,
-    "details": "Confirmed runner availability: Lighthouse CLI/package and Chrome executable are absent; Playwright is installed but its expected bundled Chromium executable is also missing. Connected browser controls do not expose Lighthouse report generation. Previous PSI browser access hit Google's unusual-traffic CAPTCHA; no retry or challenge solving was attempted. No Lighthouse scores were fabricated."
+    "status": "removed_from_scope_by_user",
+    "pending": 0,
+    "selected_cohort_size": 127,
+    "details": "User removed Lighthouse runs from the active task list; no cohort Lighthouse scores were generated."
   }
 }
