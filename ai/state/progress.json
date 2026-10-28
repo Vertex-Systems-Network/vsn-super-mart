@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "All 127 presets have partial collection keyboard evidence; 103 have homepage/product first-Tab checks. Full completion remains 0/127 because deeper navigation, filters and product controls are not covered across the cohort. Continue keyboard traversal. Lighthouse remains 0/127; PSI blocked in this browser. Checkout remains out of scope.",
+  "next_action": "All 127/127 presets have initial homepage/product first-Tab observations and at least partial collection keyboard evidence. Full keyboard/accessibility completion remains 0/127 because deeper focus traversal through navigation, filters, variants and product controls has not been checked cohort-wide. Continue deeper keyboard checks. Lighthouse remains 0/127; PSI blocked in this browser. Checkout remains out of scope.",
   "approvals": {},
   "figma": {
     "file_key": null,
