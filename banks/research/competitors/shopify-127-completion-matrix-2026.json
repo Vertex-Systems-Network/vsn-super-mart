@@ -850,13 +850,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://impulse-theme-sports.myshopify.com/collections/all"
+            "https://impulse-theme-sports.myshopify.com/collections/all",
+            "https://impulse-theme-sports.myshopify.com/",
+            "https://impulse-theme-sports.myshopify.com/products/2016-carbine-expert-build"
           ],
           "observations": [
             "Enter on SIZE expanded the group; Tab focused the named S checkbox. No value changed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -3156,13 +3160,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://enterprise-theme-home.myshopify.com/collections/all-products"
+            "https://enterprise-theme-home.myshopify.com/collections/all-products",
+            "https://enterprise-theme-home.myshopify.com/",
+            "https://enterprise-theme-home.myshopify.com/collections/all-products/products/slant-table-lamp"
           ],
           "observations": [
             "Filter Enter se khula aur Availability/Price controls nazar aaye; focus Filter par raha, agla Tab Sort by par gaya.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -3280,13 +3288,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://impact-theme-sound.myshopify.com/collections/headphones"
+            "https://impact-theme-sound.myshopify.com/collections/headphones",
+            "https://impact-theme-sound.myshopify.com/",
+            "https://impact-theme-sound.myshopify.com/products/mw07-plus-tortoiseshell-stainless-steel-case"
           ],
           "observations": [
             "Enter on Color expanded the group; Tab focused the first named color checkbox.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -3404,13 +3416,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://impact-theme-home.myshopify.com/collections/new-arrivals"
+            "https://impact-theme-home.myshopify.com/collections/new-arrivals",
+            "https://impact-theme-home.myshopify.com/",
+            "https://impact-theme-home.myshopify.com/products/hay-pc-portable-lamp-olive-green"
           ],
           "observations": [
             "Enter on Color expanded the group; Tab focused the first named color checkbox.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -3647,13 +3663,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://focal-theme-carbon.myshopify.com/collections/iphone-cases"
+            "https://focal-theme-carbon.myshopify.com/collections/iphone-cases",
+            "https://focal-theme-carbon.myshopify.com/",
+            "https://focal-theme-carbon.myshopify.com/products/leather-case-for-airpods-pro"
           ],
           "observations": [
             "Color section exposed named checkboxes; Tab reached Black. No filter value changed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -3770,13 +3790,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://focal-theme-ivory.myshopify.com/collections/outerwear"
+            "https://focal-theme-ivory.myshopify.com/collections/outerwear",
+            "https://focal-theme-ivory.myshopify.com/",
+            "https://focal-theme-ivory.myshopify.com/products/evaline-e54-blazer"
           ],
           "observations": [
             "Enter on Color moved focus onward to Size; focus inside the Color options was not confirmed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -3892,13 +3916,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://focal-theme-quartz.myshopify.com/collections/mens-watches"
+            "https://focal-theme-quartz.myshopify.com/collections/mens-watches",
+            "https://focal-theme-quartz.myshopify.com/",
+            "https://focal-theme-quartz.myshopify.com/products/1969-vintage-steel-white-36-39mm"
           ],
           "observations": [
             "Show filters responded to Enter; subsequent Tab remained on Show filters; entry into controls was not confirmed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4015,12 +4043,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://focal-theme-sapphire.myshopify.com/collections/earrings"
+            "https://focal-theme-sapphire.myshopify.com/collections/earrings",
+            "https://focal-theme-sapphire.myshopify.com/",
+            "https://focal-theme-sapphire.myshopify.com/products/double-meteorites-stud-earrings-ae9784ox"
           ],
           "observations": [
-            "Enter on Product type; Tab reached named Earrings checkbox. No value changed."
+            "Enter on Product type; Tab reached named Earrings checkbox. No value changed.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4137,13 +4169,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://warehouse-theme-metal.myshopify.com/collections/headphones"
+            "https://warehouse-theme-metal.myshopify.com/collections/headphones",
+            "https://warehouse-theme-metal.myshopify.com/",
+            "https://warehouse-theme-metal.myshopify.com/products/shure-srh440-professional-studio-headphones"
           ],
           "observations": [
             "Color filter heading par Enter, phir Tab se Price heading par focus gaya; individual color checkbox ka keyboard focus confirm nahi hua.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4261,13 +4297,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://warehouse-theme-wood.myshopify.com/collections/tableware"
+            "https://warehouse-theme-wood.myshopify.com/collections/tableware",
+            "https://warehouse-theme-wood.myshopify.com/",
+            "https://warehouse-theme-wood.myshopify.com/products/amelia-tea-pot"
           ],
           "observations": [
             "Color filter heading par Enter, phir Tab se Price heading par focus gaya; individual color checkbox ka keyboard focus confirm nahi hua.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4383,13 +4423,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://warehouse-theme-fabric.myshopify.com/collections/new-arrivals"
+            "https://warehouse-theme-fabric.myshopify.com/collections/new-arrivals",
+            "https://warehouse-theme-fabric.myshopify.com/",
+            "https://warehouse-theme-fabric.myshopify.com/products/oros-apparel-discovery-hybrid-jacket-men-s"
           ],
           "observations": [
             "Color group Enter se expand hua; Tab se named Black checkbox par focus gaya. No checkbox toggled.",
-            "No filter value was selected or applied."
+            "No filter value was selected or applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4506,13 +4550,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://expanse-theme-furniture.myshopify.com/collections/planters"
+            "https://expanse-theme-furniture.myshopify.com/collections/planters",
+            "https://expanse-theme-furniture.myshopify.com/",
+            "https://expanse-theme-furniture.myshopify.com/collections/planters/products/trigg-wall-vessel"
           ],
           "observations": [
             "Enter on Product type left focus on the same button; option traversal was not confirmed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4629,13 +4677,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://expanse-theme-beauty.myshopify.com/collections/face-mists"
+            "https://expanse-theme-beauty.myshopify.com/collections/face-mists",
+            "https://expanse-theme-beauty.myshopify.com/",
+            "https://expanse-theme-beauty.myshopify.com/collections/face-mists/products/valmont-priming-with-a-hydrating-fluid"
           ],
           "observations": [
             "Enter on Price; after Tab, focus was reported at page root. Filter option focus was not confirmed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4752,13 +4804,18 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine"
+            "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine",
+            "https://expanse-theme-food-and-drink.myshopify.com/",
+            "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine/products/organic-collection-lemon-refresher"
           ],
           "observations": [
             "Enter on Price; after Tab, focus was reported at page root. Filter option focus was not confirmed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content.",
+            "Product page displayed an age-verification modal in the accessibility tree; its Yes/No controls were not activated."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4875,13 +4932,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://fetch-theme-modern.myshopify.com/collections/walking-kits"
+            "https://fetch-theme-modern.myshopify.com/collections/walking-kits",
+            "https://fetch-theme-modern.myshopify.com/",
+            "https://fetch-theme-modern.myshopify.com/collections/walking-kits/products/pink-dog-collar-walk-kit-bag-pins"
           ],
           "observations": [
             "Enter on Availability; next Tab focused Price heading, not an option.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -4998,13 +5059,17 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://gem-theme-emerald.myshopify.com/collections/earrings"
+            "https://gem-theme-emerald.myshopify.com/collections/earrings",
+            "https://gem-theme-emerald.myshopify.com/",
+            "https://gem-theme-emerald.myshopify.com/collections/earrings/products/karasuba"
           ],
           "observations": [
             "Enter on Availability; focus remained on the expanded heading after Tab.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage: first Tab from page root focused Skip to content.",
+            "Product: first Tab from page root focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "First-Tab checks only on homepage/product plus the previously recorded collection check; navigation, filter and product control traversal remain incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
