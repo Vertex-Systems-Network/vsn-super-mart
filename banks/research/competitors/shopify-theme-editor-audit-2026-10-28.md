@@ -904,3 +904,108 @@ Partial collection keyboard evidence is now 108/127; full completion remains 0/1
 - Filter traversal and homepage/product keyboard behavior remain untested. This is one limited manual smoke check, not a WCAG conformance audit. Lighthouse was not run; PSI remains blocked in this browser by the earlier unusual-traffic challenge; no CAPTCHA was solved.
 
 All presets now have at least partial collection keyboard-smoke evidence (127/127); full keyboard/accessibility completion remains 0/127.
+
+
+### Homepage and product first-Tab checks — 2026-10-28
+
+#### local:caffeine
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### empire:circuit
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### motion:motion
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### wonder:wonder
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### wonder:root
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### wonder:petit
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### vision:onyx
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### vision:solstice
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### origin:origin
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### savor:savor
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### crave:crave
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### spotlight:spotlight
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### trade:trade
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### vessel:vessel
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### heritage:heritage
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### pitch:pitch
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### dwell:dwell
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### ritual:ritual
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### fabric:fabric
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+#### atelier:atelier
+
+- Homepage and product pages: first Tab from the page root focused Skip to content. Collection page retains its previously recorded keyboard smoke observation.
+- These are initial focus checks only; navigation, filter and product control traversal remain untested. Not a WCAG conformance audit.
+
+Twenty presets now have first-Tab observations on homepage, collection and product pages. Full keyboard/accessibility completion remains 0/127.
