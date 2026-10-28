@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "Basic keyboard smoke is complete for 127/127 presets: first-Tab observations are recorded on each canonical homepage, collection, and product page. Continue only if expanding scope to deeper keyboard traversal of navigation, filters, variants, and product controls (full control checklist 0/127; not a WCAG audit). Lighthouse remains 0/127; PSI blocked in this browser. Checkout remains out of scope.",
+  "next_action": "Lighthouse: 127/127 presets still pending. This workspace has no Lighthouse CLI or Chrome executable, and connected browser controls cannot generate Lighthouse reports; previous PSI access hit Google's unusual-traffic CAPTCHA, which was not retried or solved. Need a supported Lighthouse runner/environment or approved PSI access path. Theme Editor review and checkout are removed from scope. Basic keyboard smoke remains complete 127/127.",
   "approvals": {},
   "figma": {
     "file_key": null,
