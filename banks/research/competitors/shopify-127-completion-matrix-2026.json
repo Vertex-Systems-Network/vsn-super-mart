@@ -10012,12 +10012,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://wonder-theme-fashion.myshopify.com/collections/new-arrivals"
+            "https://wonder-theme-fashion.myshopify.com/collections/new-arrivals",
+            "https://wonder-theme-fashion.myshopify.com/",
+            "https://wonder-theme-fashion.myshopify.com/products/dress-sailor-galaxia-green"
           ],
           "observations": [
-            "Filter drawer was open; Tab from Close filter drawer reached Availability heading. Checkbox traversal was not checked."
+            "Filter drawer was open; Tab from Close filter drawer reached Availability heading. Checkbox traversal was not checked.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -10111,12 +10115,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://wonder-theme-interior.myshopify.com/collections/sofas"
+            "https://wonder-theme-interior.myshopify.com/collections/sofas",
+            "https://wonder-theme-interior.myshopify.com/",
+            "https://wonder-theme-interior.myshopify.com/collections/sofas/products/mellow-sofa-3-seats"
           ],
           "observations": [
-            "Enter on Price; Tab focused price slider."
+            "Enter on Price; Tab focused price slider.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -10315,12 +10323,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://eurus-puff.myshopify.com/collections/all"
+            "https://eurus-puff.myshopify.com/collections/all",
+            "https://eurus-puff.myshopify.com/",
+            "https://eurus-puff.myshopify.com/collections/saje-kits/products/natural-deodorant-trio"
           ],
           "observations": [
-            "Enter on Hide filter; next Tab focused List view, skipping filter values."
+            "Enter on Hide filter; next Tab focused List view, skipping filter values.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -10418,12 +10430,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://eurus-arise.myshopify.com/collections/subscribers-favorite"
+            "https://eurus-arise.myshopify.com/collections/subscribers-favorite",
+            "https://eurus-arise.myshopify.com/",
+            "https://eurus-arise.myshopify.com/collections/subscribers-favorite/products/maca-root-energy-libido"
           ],
           "observations": [
-            "Availability activation followed by Tab focused cookie-banner Manage preferences; filter checkbox focus was not confirmed."
+            "Availability activation followed by Tab focused cookie-banner Manage preferences; filter checkbox focus was not confirmed.",
+            "Homepage first Tab focused Manage preferences cookie banner button.",
+            "Product first Tab focused Manage preferences cookie banner button."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -10517,12 +10533,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://eurus-placid.myshopify.com/collections/new-arrivals"
+            "https://eurus-placid.myshopify.com/collections/new-arrivals",
+            "https://eurus-placid.myshopify.com/",
+            "https://eurus-placid.myshopify.com/collections/new-arrivals/products/clay-fold-vase"
           ],
           "observations": [
-            "Enter on Hide filter; next Tab focused List view."
+            "Enter on Hide filter; next Tab focused List view.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -10617,12 +10637,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://eurus-mystique.myshopify.com/collections/totes"
+            "https://eurus-mystique.myshopify.com/collections/totes",
+            "https://eurus-mystique.myshopify.com/",
+            "https://eurus-mystique.myshopify.com/collections/totes/products/sienna-pinstripe-market-tote"
           ],
           "observations": [
-            "Enter on Hide filter; next Tab focused List view."
+            "Enter on Hide filter; next Tab focused List view.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -10723,12 +10747,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://eurus-whiff.myshopify.com/collections/best-sellers-1"
+            "https://eurus-whiff.myshopify.com/collections/best-sellers-1",
+            "https://eurus-whiff.myshopify.com/",
+            "https://eurus-whiff.myshopify.com/collections/best-sellers-1/products/ocean-breeze-anklet"
           ],
           "observations": [
-            "Enter on Hide filter; next Tab focused List view."
+            "Enter on Hide filter; next Tab focused List view.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -10826,12 +10854,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://release-main.myshopify.com/collections/new-collection"
+            "https://release-main.myshopify.com/collections/new-collection",
+            "https://release-main.myshopify.com/",
+            "https://release-main.myshopify.com/products/black-puffer-edge?variant=42204594929743"
           ],
           "observations": [
-            "Enter on Filters; controls appeared; next Tab focused a Secondary Actions button rather than filter controls."
+            "Enter on Filters; controls appeared; next Tab focused a Secondary Actions button rather than filter controls.",
+            "Homepage first Tab focused Manage preferences cookie banner button.",
+            "Product first Tab focused Manage preferences cookie banner button."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -10925,12 +10957,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://release-release.myshopify.com/collections/face-care"
+            "https://release-release.myshopify.com/collections/face-care",
+            "https://release-release.myshopify.com/",
+            "https://release-release.myshopify.com/products/guasha-stone?variant=45149600350446"
           ],
           "observations": [
-            "Enter on Filters; controls appeared; next Tab focused a Secondary Actions button."
+            "Enter on Filters; controls appeared; next Tab focused a Secondary Actions button.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -11030,12 +11066,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://release-serenity.myshopify.com/collections/best-sellers"
+            "https://release-serenity.myshopify.com/collections/best-sellers",
+            "https://release-serenity.myshopify.com/",
+            "https://release-serenity.myshopify.com/products/serena-bag-grey"
           ],
           "observations": [
-            "Enter on Filters; controls appeared; next Tab focused a Secondary Actions button."
+            "Enter on Filters; controls appeared; next Tab focused a Secondary Actions button.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -11134,12 +11174,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://release-living.myshopify.com/collections/living-room"
+            "https://release-living.myshopify.com/collections/living-room",
+            "https://release-living.myshopify.com/",
+            "https://release-living.myshopify.com/products/elma-sarkit"
           ],
           "observations": [
-            "Enter on Availability; next Tab focused IN STOCK container; checkbox focus not confirmed."
+            "Enter on Availability; next Tab focused IN STOCK container; checkbox focus not confirmed.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -11234,12 +11278,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://release-emerald.myshopify.com/collections/rings"
+            "https://release-emerald.myshopify.com/collections/rings",
+            "https://release-emerald.myshopify.com/",
+            "https://release-emerald.myshopify.com/products/vivien-ring-gold"
           ],
           "observations": [
-            "Enter on Availability; next Tab focused a generic container; checkbox focus not confirmed."
+            "Enter on Availability; next Tab focused a generic container; checkbox focus not confirmed.",
+            "Homepage first Tab focused Skip to content.",
+            "Product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper navigation and product/filter controls remain untested; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
