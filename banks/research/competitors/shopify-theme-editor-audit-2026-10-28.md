@@ -310,3 +310,12 @@ The keyboard partial-observation count is now 17/127; full keyboard/accessibilit
 - No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 18/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Broadcast — Stellar preset keyboard smoke review — 2026-10-28
+
+- Sunscreen collection presents a FILTERS toggle and named Availability and Price filter sections in the accessibility tree.
+- The FILTERS control responds to Enter; after activation, the filter groups disappeared from the current accessibility tree while focus remained on the toggle. Keyboard focus entry into filter controls could not be confirmed.
+- No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 19/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
