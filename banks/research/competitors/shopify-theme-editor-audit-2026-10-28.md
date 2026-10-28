@@ -1379,3 +1379,68 @@ Sixty-eight presets now have home/product first-Tab checks alongside collection 
 - Initial focus only; deeper navigation/filter/product controls remain untested.
 
 Ninety-one presets now have first-Tab evidence on homepage/product as well as collection smoke. Full completion remains 0/127.
+
+
+### Wonder, Eurus and Release home/product first-Tab checks — 2026-10-28
+
+#### wonder:velour
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### wonder:nook
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### eurus:eurus
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### eurus:arise
+
+- Homepage and product first Tab focused Manage preferences cookie banner button.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### eurus:placid
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### eurus:mystique
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### eurus:whiff
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### release:release
+
+- Homepage and product first Tab focused Manage preferences cookie banner button.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### release:grasse
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### release:serenity
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### release:forest
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+#### release:renaissance
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus only; deeper keyboard control checks remain incomplete.
+
+Verified exact homepage/product first-Tab coverage is 103/127 presets; full keyboard completion remains 0/127.
