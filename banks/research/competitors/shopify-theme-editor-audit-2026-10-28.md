@@ -1444,3 +1444,128 @@ Ninety-one presets now have first-Tab evidence on homepage/product as well as co
 - Initial focus only; deeper keyboard control checks remain incomplete.
 
 Verified exact homepage/product first-Tab coverage is 103/127 presets; full keyboard completion remains 0/127.
+
+
+### Final homepage/product first-Tab coverage batch — 2026-10-28
+
+#### ignite:ignite
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### ignite:playtime
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### ignite:tails
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### ignite:alpha
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### ignite:peak
+
+- Homepage and product first Tab focused Skip to content. Product first Tab instead focused a generic Site notification container.
+- Initial focus check only; deeper controls remain untested.
+
+#### shapes:shapes
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### shapes:fizz
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### shapes:candy
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### shapes:aura
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### shapes:scratch
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### vision:vision
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### vision:poochy
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### vision:velocite
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### dawn:dawn
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### horizon:horizon
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### refresh:refresh
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### rise:rise
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### tinker:tinker
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### craft:craft
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### publisher:publisher
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### ride:ride
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### sense:sense
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### studio:studio
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+#### taste:taste
+
+- Homepage and product first Tab focused Skip to content.
+- Initial focus check only; deeper controls remain untested.
+
+All 127/127 presets now have at least initial homepage/product first-Tab observations as well as collection-page keyboard-smoke evidence. Full keyboard/accessibility completion remains 0/127.
