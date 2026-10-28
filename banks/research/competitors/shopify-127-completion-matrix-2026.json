@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations. Checkout QA was removed from the active scope by user request. Keyboard/accessibility and Lighthouse work remain open across the cohort; 26 presets have partial keyboard/accessibility evidence, while 0/127 meet the full completion bar. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review is 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations. Checkout QA was removed from active scope by user request. Keyboard/accessibility work remains open: 57 presets have partial evidence, 0/127 meet the full completion bar. Lighthouse remains 0/127 complete; PSI access is blocked in this browser after an unusual-traffic verification challenge.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 26
+    "partial_keyboard_accessibility_presets": 57
   },
   "pending": {
     "home": 0,
@@ -789,14 +789,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Only size M selection was tested; variant inventory difference, cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only size M selection was tested; variant inventory difference, cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Continue targeted interaction review on the next untested selected preset; completed presets are marked and excluded from the pending count."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -840,7 +844,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "impulse-terrain-variant-size-m-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://impulse-theme-sports.myshopify.com/collections/all"
+          ],
+          "observations": [
+            "Enter on SIZE expanded the group; Tab focused the named S checkbox. No value changed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 4,
@@ -3193,7 +3215,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -3201,10 +3224,13 @@
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, checkout, keyboard or performance testing",
         "Seller claims and product/inventory/review details unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3248,7 +3274,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-impact-impact-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://impact-theme-sound.myshopify.com/collections/headphones"
+          ],
+          "observations": [
+            "Enter on Color expanded the group; Tab focused the first named color checkbox.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 24,
@@ -3295,7 +3339,8 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
@@ -3303,10 +3348,13 @@
         "Selected lamp PDP showed Sold Out; state is an observation from this page only",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
         "Merchant product, rating, inventory, life-span and designer claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3350,7 +3398,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-impact-cocoon-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://impact-theme-home.myshopify.com/collections/new-arrivals"
+          ],
+          "observations": [
+            "Enter on Color expanded the group; Tab focused the first named color checkbox.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 25,
@@ -3520,14 +3586,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3571,7 +3641,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-focal-focal-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://focal-theme-carbon.myshopify.com/collections/iphone-cases"
+          ],
+          "observations": [
+            "Color section exposed named checkboxes; Tab reached Black. No filter value changed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 27,
@@ -3618,17 +3706,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, Quick View, variant, size chart, add-on or purchase actions executed",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, checkout, keyboard or performance testing",
-        "Seller price, material, sustainability, shipping and fulfillment claims unverified"
+        "Seller price, material, sustainability, shipping and fulfillment claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3672,7 +3764,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-focal-ivory-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://focal-theme-ivory.myshopify.com/collections/outerwear"
+          ],
+          "observations": [
+            "Enter on Color moved focus onward to Size; focus inside the Color options was not confirmed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 28,
@@ -3719,16 +3829,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, pagination, option, quantity, tab, quick-view, cart or purchase actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
-        "Merchant price, inventory, review, warranty, shipping, material and product-history claims unverified"
+        "Merchant price, inventory, review, warranty, shipping, material and product-history claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3772,7 +3886,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-focal-quartz-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://focal-theme-quartz.myshopify.com/collections/mens-watches"
+          ],
+          "observations": [
+            "Show filters responded to Enter; subsequent Tab remained on Show filters; entry into controls was not confirmed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 29,
@@ -4289,17 +4421,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filter, sort, view density, variant, zoom, add-to-cart or checkout actions executed",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance testing",
-        "Merchant product, stock, pickup, shipping and sustainability claims unverified"
+        "Merchant product, stock, pickup, shipping and sustainability claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4343,7 +4479,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-expanse-expanse-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://expanse-theme-furniture.myshopify.com/collections/planters"
+          ],
+          "observations": [
+            "Enter on Product type left focus on the same button; option traversal was not confirmed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 34,
@@ -4390,17 +4544,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, view density, variant, zoom, quantity, Quick Shop, cart or checkout actions executed",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance testing",
-        "Merchant seller, inventory, fulfillment and promotional claims unverified"
+        "Merchant seller, inventory, fulfillment and promotional claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4444,7 +4602,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-expanse-revive-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://expanse-theme-beauty.myshopify.com/collections/face-mists"
+          ],
+          "observations": [
+            "Enter on Price; after Tab, focus was reported at page root. Filter option focus was not confirmed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 35,
@@ -4491,17 +4667,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filter, sort, density, quick shop, cart or checkout actions",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance testing",
-        "Demo product, inventory, organic, alcohol-free, shipping and promotion claims unverified"
+        "Demo product, inventory, organic, alcohol-free, shipping and promotion claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4545,7 +4725,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-expanse-spritz-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://expanse-theme-food-and-drink.myshopify.com/collections/everything-organic-wine"
+          ],
+          "observations": [
+            "Enter on Price; after Tab, focus was reported at page root. Filter option focus was not confirmed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 36,
@@ -4592,17 +4790,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filters, sort, density, product or cart actions",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, checkout, keyboard or performance tests",
-        "Demo product, sustainability, shipping and promotion claims unverified"
+        "Demo product, sustainability, shipping and promotion claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4646,7 +4848,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-expanse-fetch-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://fetch-theme-modern.myshopify.com/collections/walking-kits"
+          ],
+          "observations": [
+            "Enter on Availability; next Tab focused Price heading, not an option.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 37,
@@ -4693,17 +4913,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filter, sort, density, variant, zoom, add-to-cart, cart or checkout action",
         "No screenshot or measured viewport/mobile render",
         "No Theme Editor, keyboard or performance testing",
-        "Seller product, stock, material, sustainability and service claims unverified"
+        "Seller product, stock, material, sustainability and service claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4747,7 +4971,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-expanse-gem-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://gem-theme-emerald.myshopify.com/collections/earrings"
+          ],
+          "observations": [
+            "Enter on Availability; focus remained on the expanded heading after Tab.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 38,
@@ -4794,16 +5036,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No collection filters, sort or compare actions; no variants/add/cart/checkout actions",
         "No Theme Editor, keyboard or performance testing",
-        "Food, nutrition, organic, rating, availability, pickup and delivery claims unverified"
+        "Food, nutrition, organic, rating, availability, pickup and delivery claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4847,7 +5093,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-local-local-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://local-theme-main.myshopify.com/collections/bread-buns-crisps"
+          ],
+          "observations": [
+            "Enter on Price; next Tab focused Product type heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 39,
@@ -4894,16 +5158,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, variant, zoom, add-to-cart, cart or checkout actions",
         "No Theme Editor, keyboard or performance tests",
-        "Demo product, material, waterproof, sale and fulfillment claims unverified"
+        "Demo product, material, waterproof, sale and fulfillment claims unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -4947,7 +5215,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-local-soleway-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://local-theme-soleway.myshopify.com/collections/mens-best-sellers"
+          ],
+          "observations": [
+            "Enter on Availability; next Tab focused a collection link rather than filter options.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 40,
@@ -4994,12 +5280,17 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
-      "blockers": [],
+      "blockers": [
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
+      ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -5043,7 +5334,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-local-thrive-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://local-theme-thrive.myshopify.com/collections/all"
+          ],
+          "observations": [
+            "Enter on Availability; next Tab focused Price heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 41,
@@ -5183,14 +5492,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified."
+        "Read-only page inspection; interactions, mobile, editor, checkout and performance remain unverified.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -5234,7 +5547,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-local-lively-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://local-theme-lively.myshopify.com/collections/red"
+          ],
+          "observations": [
+            "Enter on Availability; next Tab focused Price heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 43,
@@ -5577,15 +5908,19 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified.",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -5629,7 +5964,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-empire-forma-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://empire-theme-graphic.myshopify.com/collections/living-room"
+          ],
+          "observations": [
+            "Enter on Price; next Tab focused Brand heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 47,
@@ -5676,12 +6029,17 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
-      "blockers": [],
+      "blockers": [
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
+      ],
       "next_action": [
-        "Theme Editor, checkout, keyboard/accessibility and Lighthouse checks remain open; storefront interaction coverage does not verify these areas."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -5725,7 +6083,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier4-be-yours:be-yours-2026-10-28"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://beyours-theme-beauty.myshopify.com/collections/skincare"
+          ],
+          "observations": [
+            "Enter on Price; next Tab focused Size heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 48,
@@ -5772,14 +6148,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Theme Editor, checkout, keyboard/accessibility and Lighthouse checks remain open; storefront interaction coverage does not verify these areas."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -5823,7 +6203,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier4-be-yours:sheen-2026-10-28"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://beyours-theme-clothing.myshopify.com/collections/all"
+          ],
+          "observations": [
+            "Enter on Color; next Tab focused Size heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 49,
@@ -5870,14 +6268,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified."
+        "Read-only inspection; interaction, mobile, screenshot, editor, checkout and performance testing unverified.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Theme Editor, checkout, keyboard/accessibility and Lighthouse checks remain open; storefront interaction coverage does not verify these areas."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -5916,7 +6318,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier4-be-yours:peace-2026-10-28"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://beyours-theme.myshopify.com/collections/all"
+          ],
+          "observations": [
+            "Enter on FILTER; next Tab focused a collection link rather than filter options.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 50,
@@ -5963,16 +6383,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Demo home copy describes a one-product store while its Headphones collection lists three products; PDP technical copy also contains inconsistent fit and color-availability statements.",
         "No shopper interactions, screenshot, measured viewport/mobile, Theme Editor, checkout, keyboard or performance testing.",
-        "Seller product, inventory, warranty and fulfillment claims remain unverified."
+        "Seller product, inventory, warranty and fulfillment claims remain unverified.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Theme Editor, checkout, keyboard/accessibility and Lighthouse checks remain open; storefront interaction coverage does not verify these areas."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6011,7 +6435,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier4-be-yours:harmony-2026-10-28"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://beyours-theme-tech.myshopify.com/collections/all"
+          ],
+          "observations": [
+            "Enter on FILTER; next Tab reported a generic container; control traversal was not confirmed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 51,
@@ -6058,16 +6500,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "Official listing iframe src host and loaded storefront link host differ; retain the mapping caveat.",
         "No shopper interactions, screenshot, measured viewport/mobile, Theme Editor, checkout, keyboard or performance testing.",
-        "Seller product, stock, material, shipping and sustainability claims remain unverified."
+        "Seller product, stock, material, shipping and sustainability claims remain unverified.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6111,7 +6557,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-stiletto-stiletto-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1"
+          ],
+          "observations": [
+            "Enter on Hide filters; next Tab focused Sort.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 52,
@@ -6158,16 +6622,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sorting, Quick View, product options, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
-        "Seller material, sourcing, sustainability, stock, shipping and store claims remain unverified."
+        "Seller material, sourcing, sustainability, stock, shipping and store claims remain unverified.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6211,7 +6679,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-stiletto-luster-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry"
+          ],
+          "observations": [
+            "Enter on Hide filters; next Tab focused Sort.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 53,
@@ -6258,16 +6744,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, size, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
-        "Seller product, availability, shipping, material and sourcing claims remain unverified."
+        "Seller product, availability, shipping, material and sourcing claims remain unverified.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6311,7 +6801,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-stiletto-linen-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://stiletto-theme-linen.myshopify.com/collections/footwear"
+          ],
+          "observations": [
+            "Enter on Hide filters; next Tab focused Sort.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 54,
@@ -6360,16 +6868,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sorting, Quick View, variants, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
-        "Seller efficacy, ingredients, inventory, sustainability and promotion claims remain unverified."
+        "Seller efficacy, ingredients, inventory, sustainability and promotion claims remain unverified.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6413,7 +6925,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-stiletto-glimmer-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://stiletto-theme-glimmer.myshopify.com/collections/face"
+          ],
+          "observations": [
+            "Enter on Hide filters; next Tab focused Sort.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 55,
@@ -6460,16 +6990,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sorting, Quick View, product options, quantity, cart mutation or checkout actions executed.",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing.",
-        "Seller product, safety, studio, location, class and shipping claims remain unverified."
+        "Seller product, safety, studio, location, class and shipping claims remain unverified.",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6513,7 +7047,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-stiletto-tapestry-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://stiletto-theme-tapestry.myshopify.com/collections/all"
+          ],
+          "observations": [
+            "Enter on Hide filters; next Tab focused Sort.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 56,
@@ -6660,14 +7212,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6711,7 +7267,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-motion-satchel-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://motion-theme-accessories.myshopify.com/collections/bags-1"
+          ],
+          "observations": [
+            "Enter on Filter opened a drawer; next Tab focused Close menu. Filter option traversal was not confirmed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 58,
@@ -6758,16 +7332,20 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filters, sort, Quick View, variant, quantity, cart mutation or checkout actions",
         "No screenshot, measured viewport/mobile, Theme Editor, keyboard or performance testing",
-        "Merchant product, price, stock, material, shipping and brand claims remain unverified"
+        "Merchant product, price, stock, material, shipping and brand claims remain unverified",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6811,7 +7389,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-motion-memo-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://motion-theme-home.myshopify.com/collections/homewares"
+          ],
+          "observations": [
+            "Enter on Filter opened a drawer; next Tab focused Close menu. Filter option traversal was not confirmed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 59,
@@ -6858,14 +7454,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -6909,7 +7509,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-palo-alto-palo-alto-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals"
+          ],
+          "observations": [
+            "Enter on Availability; next Tab focused Color heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 60,
@@ -6956,14 +7574,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -7007,7 +7629,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-palo-alto-dynamo-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://palo-alto-theme-dynamo.myshopify.com/collections/best-sellers-aer"
+          ],
+          "observations": [
+            "Enter on Availability; next Tab focused Price heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 61,
@@ -7054,14 +7694,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -7105,7 +7749,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-palo-alto-skylight-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://palo-alto-theme-skylight.myshopify.com/collections/new-arrivals"
+          ],
+          "observations": [
+            "Enter on Availability; Tab focused the named In stock checkbox. No value changed.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 62,
@@ -7152,14 +7814,18 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
-        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests"
+        "No shopper interactions, mobile viewport, Theme Editor, checkout or Lighthouse tests",
+        "Keyboard evidence is limited to one collection filter interaction; homepage and product flows remain untested.",
+        "No Lighthouse score recorded; PSI remains unavailable in this browser after a Google unusual-traffic challenge."
       ],
       "next_action": [
-        "Targeted interaction sample recorded; broad keyboard/accessibility, Theme Editor, checkout and Lighthouse checks remain open."
+        "Complete homepage and product keyboard smoke plus remaining collection controls.",
+        "Run Lighthouse only when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -7203,7 +7869,25 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier2-palo-alto-phenomena-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://palo-alto-theme-phenomena.myshopify.com/collections/best-sellers-1"
+          ],
+          "observations": [
+            "Enter on Availability; next Tab focused Price heading.",
+            "No filter selection was intentionally applied."
+          ],
+          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after Google unusual-traffic verification challenge appeared in this browser; no CAPTCHA solved."
+        }
+      }
     },
     {
       "audit_rank": 63,
