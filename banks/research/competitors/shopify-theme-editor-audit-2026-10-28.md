@@ -265,3 +265,12 @@ The keyboard partial-observation count is now 12/127; full keyboard/accessibilit
 - No filter value was selected or applied; the base collection URL was restored. Limited manual smoke review only; not a WCAG conformance audit. Homepage and product-page keyboard behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 13/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Symmetry — Amara keyboard smoke review — 2026-10-28
+
+- Rings collection: Tab reached the Filter link; Enter exposed availability radios and Price, Material and Ring Size controls in the accessibility tree.
+- Focus remained on Filter; the next Tab moved to Sort (Featured), rather than entering the visible filter controls. Keyboard traversal within the filter is unconfirmed and appears to need focus-management follow-up.
+- No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product keyboard behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 14/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
