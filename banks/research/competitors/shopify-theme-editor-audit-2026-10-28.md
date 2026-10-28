@@ -218,3 +218,12 @@ The keyboard partial-observation count is now 7/127; full keyboard/accessibility
 - Limited manual smoke review only; not a WCAG conformance audit. Product-page keyboard behavior and Lighthouse were not tested. PSI access remains blocked in this browser by the previously encountered Google unusual-traffic verification challenge; no CAPTCHA was solved.
 
 The keyboard partial-observation count is now 8/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Prestige — Signature keyboard smoke review — 2026-10-28
+
+- Pumps collection: Tab traversal reached FILTER; Enter opened the drawer. Tab reached Availability, Enter expanded it and exposed the named “In stock only” checkbox. Space toggled it on. Escape closed the drawer and returned focus to FILTER.
+- Drawer exposed named Availability, Color, Size and Price sections plus Close and View Results controls. The filter was not applied.
+- Home keyboard menu and standalone product-page behavior were not tested. This is a limited manual keyboard smoke review, not a WCAG conformance audit. Lighthouse was not run; PSI access in this browser remains blocked by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 9/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
