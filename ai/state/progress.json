@@ -5,7 +5,7 @@
   "cycle": 1,
   "current_niche": "gen-z-store",
   "completed_niches": [],
-  "next_action": "All 127/127 presets have initial homepage/product first-Tab observations and at least partial collection keyboard evidence. Full keyboard/accessibility completion remains 0/127 because deeper focus traversal through navigation, filters, variants and product controls has not been checked cohort-wide. Continue deeper keyboard checks. Lighthouse remains 0/127; PSI blocked in this browser. Checkout remains out of scope.",
+  "next_action": "Keyboard smoke: 126/127 presets have recorded first-Tab checks on canonical homepage, collection and product pages. Finish the missing prestige:prestige collection-page check at https://prestige-theme-allure.myshopify.com/collections/women-1 when browser access is available. Broader keyboard control traversal remains incomplete (0/127); this is not a WCAG audit. Lighthouse remains 0/127; PSI blocked in this browser. Checkout remains out of scope.",
   "approvals": {},
   "figma": {
     "file_key": null,
