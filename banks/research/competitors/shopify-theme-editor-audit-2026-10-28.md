@@ -237,3 +237,13 @@ The keyboard partial-observation count is now 9/127; full keyboard/accessibility
 - Limited manual smoke review only; not a WCAG conformance audit. Homepage menu and product-page keyboard controls were not tested. Lighthouse was not run; PSI access remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 10/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Symmetry — Salt Yard keyboard smoke review — 2026-10-28
+
+- New Arrivals collection: Tab reached the Filter link; Enter expanded the filter form and exposed Price, Color, Size and Product type controls in the accessibility tree.
+- Focus remained on the Filter trigger; the next Tab moved to Sort (Featured), rather than entering the visible filter controls. Keyboard traversal within the form is unconfirmed and appears to need focus-management follow-up.
+- No filter value was selected or applied; the base collection URL was restored.
+- Limited manual smoke review only; not a WCAG conformance audit. Homepage/product keyboard behavior and Lighthouse were not tested. PSI access remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 11/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
