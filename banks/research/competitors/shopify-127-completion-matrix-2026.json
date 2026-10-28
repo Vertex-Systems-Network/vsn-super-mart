@@ -5866,12 +5866,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://empire-theme-supply.myshopify.com/collections/clearance-sale"
+            "https://empire-theme-supply.myshopify.com/collections/clearance-sale",
+            "https://empire-theme-supply.myshopify.com/",
+            "https://empire-theme-supply.myshopify.com/collections/clearance-sale/products/circuit-racer-magnetic-block-set"
           ],
           "observations": [
-            "Enter on All categories dropdown; next Tab focused Search field."
+            "Enter on All categories dropdown; next Tab focused Search field.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -6110,12 +6113,15 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://empire-theme-depot.myshopify.com/collections/by-category"
+            "https://empire-theme-depot.myshopify.com/collections/by-category",
+            "https://empire-theme-depot.myshopify.com/",
+            "https://empire-theme-depot.myshopify.com/products/battery-operated-compact-impact-wrench-1-2-inch-detent-pin-tool-only"
           ],
           "observations": [
-            "Enter on All categories dropdown; next Tab focused Search field."
+            "Enter on All categories dropdown; next Tab focused Search field.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Limited manual smoke only, not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -6230,13 +6236,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://empire-theme-graphic.myshopify.com/collections/living-room"
+            "https://empire-theme-graphic.myshopify.com/collections/living-room",
+            "https://empire-theme-graphic.myshopify.com/",
+            "https://empire-theme-graphic.myshopify.com/products/turning-table"
           ],
           "observations": [
             "Enter on Price; next Tab focused Brand heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -6349,13 +6358,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://beyours-theme-beauty.myshopify.com/collections/skincare"
+            "https://beyours-theme-beauty.myshopify.com/collections/skincare",
+            "https://beyours-theme-beauty.myshopify.com/",
+            "https://beyours-theme-beauty.myshopify.com/products/calming-serum"
           ],
           "observations": [
             "Enter on Price; next Tab focused Size heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -6469,13 +6481,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://beyours-theme-clothing.myshopify.com/collections/all"
+            "https://beyours-theme-clothing.myshopify.com/collections/all",
+            "https://beyours-theme-clothing.myshopify.com/",
+            "https://beyours-theme-clothing.myshopify.com/collections/all/products/shimmer-dress"
           ],
           "observations": [
             "Enter on Color; next Tab focused Size heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -6584,13 +6599,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://beyours-theme.myshopify.com/collections/all"
+            "https://beyours-theme.myshopify.com/collections/all",
+            "https://beyours-theme.myshopify.com/",
+            "https://beyours-theme.myshopify.com/collections/all/products/money-tree"
           ],
           "observations": [
             "Enter on FILTER; next Tab focused a collection link rather than filter options.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -6701,13 +6719,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://beyours-theme-tech.myshopify.com/collections/all"
+            "https://beyours-theme-tech.myshopify.com/collections/all",
+            "https://beyours-theme-tech.myshopify.com/",
+            "https://beyours-theme-tech.myshopify.com/products/beoplay-h95"
           ],
           "observations": [
             "Enter on FILTER; next Tab reported a generic container; control traversal was not confirmed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -6823,13 +6844,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1"
+            "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1",
+            "https://stiletto-theme-stiletto.myshopify.com/",
+            "https://stiletto-theme-stiletto.myshopify.com/collections/tops-1/products/alex-metallic-top"
           ],
           "observations": [
             "Enter on Hide filters; next Tab focused Sort.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused the carousel Previous button."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -6945,13 +6969,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry"
+            "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry",
+            "https://stiletto-theme-luster.myshopify.com/",
+            "https://stiletto-theme-luster.myshopify.com/collections/all-jewelry/products/the-rivi-ring"
           ],
           "observations": [
             "Enter on Hide filters; next Tab focused Sort.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused the carousel Previous button."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -7067,13 +7094,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://stiletto-theme-linen.myshopify.com/collections/footwear"
+            "https://stiletto-theme-linen.myshopify.com/collections/footwear",
+            "https://stiletto-theme-linen.myshopify.com/",
+            "https://stiletto-theme-linen.myshopify.com/collections/footwear/products/teddy-heel-ecru"
           ],
           "observations": [
             "Enter on Hide filters; next Tab focused Sort.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused the carousel Previous button."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -7191,13 +7221,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://stiletto-theme-glimmer.myshopify.com/collections/face"
+            "https://stiletto-theme-glimmer.myshopify.com/collections/face",
+            "https://stiletto-theme-glimmer.myshopify.com/",
+            "https://stiletto-theme-glimmer.myshopify.com/collections/face/products/marula-face-oil"
           ],
           "observations": [
             "Enter on Hide filters; next Tab focused Sort.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused the carousel Previous button."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -7313,13 +7346,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://stiletto-theme-tapestry.myshopify.com/collections/all"
+            "https://stiletto-theme-tapestry.myshopify.com/collections/all",
+            "https://stiletto-theme-tapestry.myshopify.com/",
+            "https://stiletto-theme-tapestry.myshopify.com/collections/all/products/wine-cup-anthracite"
           ],
           "observations": [
             "Enter on Hide filters; next Tab focused Sort.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused the carousel Previous button."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -7558,13 +7594,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://motion-theme-accessories.myshopify.com/collections/bags-1"
+            "https://motion-theme-accessories.myshopify.com/collections/bags-1",
+            "https://motion-theme-accessories.myshopify.com/",
+            "https://motion-theme-accessories.myshopify.com/products/whelma-bag"
           ],
           "observations": [
             "Enter on Filter opened a drawer; next Tab focused Close menu. Filter option traversal was not confirmed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -7680,13 +7719,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://motion-theme-home.myshopify.com/collections/homewares"
+            "https://motion-theme-home.myshopify.com/collections/homewares",
+            "https://motion-theme-home.myshopify.com/",
+            "https://motion-theme-home.myshopify.com/collections/homewares/products/tumbler-eggplant"
           ],
           "observations": [
             "Enter on Filter opened a drawer; next Tab focused Close menu. Filter option traversal was not confirmed.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -7800,13 +7842,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals"
+            "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals",
+            "https://palo-alto-theme-main.myshopify.com/",
+            "https://palo-alto-theme-main.myshopify.com/collections/new-arrivals/products/sabine-skirt"
           ],
           "observations": [
             "Enter on Availability; next Tab focused Color heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
@@ -7920,13 +7965,16 @@
         "keyboard_accessibility": {
           "status": "partial_manual_smoke_review",
           "pages": [
-            "https://palo-alto-theme-dynamo.myshopify.com/collections/best-sellers-aer"
+            "https://palo-alto-theme-dynamo.myshopify.com/collections/best-sellers-aer",
+            "https://palo-alto-theme-dynamo.myshopify.com/",
+            "https://palo-alto-theme-dynamo.myshopify.com/products/navigator-backpack"
           ],
           "observations": [
             "Enter on Availability; next Tab focused Price heading.",
-            "No filter selection was intentionally applied."
+            "No filter selection was intentionally applied.",
+            "Homepage and product first Tab focused Skip to content."
           ],
-          "limitations": "Collection filter smoke only; not a WCAG conformance audit."
+          "limitations": "Initial focus checks only; deeper menu, filter and product control traversal remains incomplete; not a WCAG audit."
         },
         "lighthouse": {
           "status": "not_run",
