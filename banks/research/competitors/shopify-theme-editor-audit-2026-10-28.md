@@ -1573,7 +1573,6 @@ All 127/127 presets have homepage/product first-Tab observations and collection-
 
 ### Keyboard/accessibility smoke status — 2026-10-28
 
-- Recorded three-page first-Tab smoke (homepage, collection, product): 126/127 presets. All 127 have homepage/product first-Tab records; collection keyboard evidence is recorded for 126 in this three-page set, with `prestige:prestige` missing its canonical collection page (`/collections/women-1`).
-- `prestige:prestige` remains the one pending smoke item because browser access is unavailable in this session; no unobserved result is inferred.
-- Broader keyboard traversal of navigation, filters, variants, and product controls remains incomplete cohort-wide (0/127 full checklists). These smoke results are not a WCAG conformance audit.
+- Recorded three-page first-Tab smoke (homepage, collection, product): 127/127 presets. Final check: `prestige:prestige` canonical collection `/collections/women-1` loaded; first Tab focused the named “Skip to content” link.
+- This closes the basic keyboard-smoke task. Deeper keyboard traversal of navigation, filters, variants, and product controls remains incomplete cohort-wide (0/127 full checklists). These smoke results are not a WCAG conformance audit.
 - Lighthouse remains 0/127; checkout remains out of scope.
