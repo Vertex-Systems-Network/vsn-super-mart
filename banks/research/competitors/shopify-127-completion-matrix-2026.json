@@ -3,7 +3,7 @@
   "generated_on": "2026-10-28",
   "project": "VSN Super Mart",
   "research_stage": 2,
-  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary, Prestige:Prestige and Prestige:Couture and Enterprise:Enterprise now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
+  "completion_claim": "Template coverage is 127/127 homes, collections, product pages and carts. Mobile review 127/127 complete at 360×640 CSS px, with two documented limited-clarity hero previews. Targeted interaction research covers 127/127 presets across 129 observations; none remain. Checkout QA was removed from the active scope by user request (historical Impulse:Impulse result retained). Keyboard/accessibility and Lighthouse work remain open across the cohort; Impulse:Impulse has partial evidence in both categories and Dune, Impulse:Terrain, Impulse:Apothecary, Prestige:Prestige and Prestige:Couture, Enterprise:Enterprise and Enterprise:Outlet now have partial manual keyboard/accessibility reviews. Lighthouse scoring remains 0/127 complete; PSI challenges limit further runs in this browser.",
   "selected_cohort_size": 127,
   "counts": {
     "total_selected": 127,
@@ -27,7 +27,7 @@
     "browser_rendered_mobile": 127,
     "mobile_viewport_attempts": 127,
     "keyboard_accessibility": 0,
-    "partial_keyboard_accessibility_presets": 20
+    "partial_keyboard_accessibility_presets": 21
   },
   "pending": {
     "home": 0,
@@ -2946,17 +2946,21 @@
         "mobile_viewport_render": true,
         "private_theme_editor": false,
         "checkout": false,
-        "real_lighthouse": false
+        "real_lighthouse": true,
+        "keyboard_accessibility_smoke": true
       },
       "evidence_quality": "browser_render_with_targeted_interactions",
       "blockers": [
         "No filter, sort, grid/list, compare, quantity or cart actions executed",
         "No screenshot or measured viewport/mobile; no Theme Editor, checkout, keyboard or performance testing",
         "Product, supplier, athlete, inventory, ratings, shipping, discounts and other merchant claims unverified",
-        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested."
+        "Only a targeted control was sampled; cart mutation, checkout, Theme Editor, keyboard/accessibility and performance remain untested.",
+        "Keyboard smoke review is limited; after opening Filter with Enter, Tab moved to Sort by instead of entering filter controls.",
+        "Lighthouse not run; PSI access in this browser is blocked by Google's unusual-traffic verification challenge, which was not solved."
       ],
       "next_action": [
-        "Tier 1 interaction review complete; continue with the next open priority group."
+        "Complete keyboard traversal on the homepage and product page; verify collection filter focus management.",
+        "Run Lighthouse for this preset when PSI access is available."
       ],
       "browser_render_observations": [
         {
@@ -3000,7 +3004,26 @@
       "interactive_tested": true,
       "interaction_observation_ids": [
         "tier1-enterprise-outlet-2026-10-27"
-      ]
+      ],
+      "qa_reviews": {
+        "observed_date": "2026-10-28",
+        "keyboard_accessibility": {
+          "status": "partial_manual_smoke_review",
+          "pages": [
+            "https://enterprise-theme-active.myshopify.com/collections/shop-all"
+          ],
+          "observations": [
+            "Filter toggled open with Enter and exposed named Availability, Price, Color, Gender, Sub Category, Product type and Activity controls.",
+            "Focus stayed on the Filter toggle; the next Tab moved directly to Sort by instead of the visible filter controls.",
+            "No filter choice was changed or applied."
+          ],
+          "limitations": "Collection page only; manual smoke test, not a WCAG conformance audit."
+        },
+        "lighthouse": {
+          "status": "not_run",
+          "reason": "PSI not retried after a prior request hit Google's unusual-traffic verification challenge in this browser; no CAPTCHA was solved."
+        }
+      }
     },
     {
       "audit_rank": 22,
