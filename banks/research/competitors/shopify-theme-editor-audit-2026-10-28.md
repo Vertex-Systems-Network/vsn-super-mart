@@ -1583,3 +1583,5 @@ All 127/127 presets have homepage/product first-Tab observations and collection-
 - User removed Theme Editor review from the active task list; the cohort matrix now shows 0 pending for that workstream. Checkout also remains out of scope.
 - Lighthouse run setup was checked in this workspace. No Lighthouse CLI or Chrome executable is available, and the connected browser API does not expose Lighthouse report generation. Previous PSI access was blocked by Google's unusual-traffic CAPTCHA; no retry or challenge solving was attempted.
 - No cohort Lighthouse scores were generated in this turn. All 127 presets remain pending Lighthouse runs; no score was inferred or fabricated. Current blocker: provide a supported Lighthouse runner/environment or approved PSI access path.
+
+- Additional runner check: Playwright is installed, but its expected bundled Chromium executable is missing from this workspace; no local Lighthouse package or executable was found.
