@@ -301,3 +301,12 @@ The keyboard partial-observation count is now 16/127; full keyboard/accessibilit
 - No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 17/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Broadcast — Motif preset keyboard smoke review — 2026-10-28
+
+- All collection exposes named Availability checkboxes, Price controls, Product type checkboxes and Color checkboxes in the accessibility tree.
+- The HIDE/SHOW FILTERS control responds to Enter. Tab after toggling it moved to SORT BY rather than the individual filter controls; keyboard traversal within filters is unconfirmed and appears to need focus-management follow-up.
+- No filter value was selected or applied. Limited manual smoke review only; not a WCAG conformance audit. Homepage/product-page behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 18/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
