@@ -256,3 +256,12 @@ The keyboard partial-observation count is now 11/127; full keyboard/accessibilit
 - No filter value was selected or applied. This is limited manual smoke review only, not a WCAG conformance audit. Homepage/product controls and Lighthouse were not tested; PSI remains blocked in this browser by the earlier Google unusual-traffic verification challenge, which was not solved.
 
 The keyboard partial-observation count is now 12/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
+
+
+### Symmetry — Duke keyboard smoke review — 2026-10-28
+
+- Decks collection: Tab reached the Filter link; Enter opened the filter form and exposed Availability, Price, Product type and Size controls in the accessibility tree.
+- After activating Filter, the next Tab moved to Sort (Date, new to old), rather than entering the visible filter controls. Keyboard traversal within the filter is unconfirmed and appears to need focus-management follow-up.
+- No filter value was selected or applied; the base collection URL was restored. Limited manual smoke review only; not a WCAG conformance audit. Homepage and product-page keyboard behavior and Lighthouse were not tested. PSI remains blocked in this browser by Google's unusual-traffic verification challenge, which was not solved.
+
+The keyboard partial-observation count is now 13/127; full keyboard/accessibility completion remains 0/127. Lighthouse remains 0/127 complete.
