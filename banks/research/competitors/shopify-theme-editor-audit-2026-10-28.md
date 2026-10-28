@@ -1576,3 +1576,10 @@ All 127/127 presets have homepage/product first-Tab observations and collection-
 - Recorded three-page first-Tab smoke (homepage, collection, product): 127/127 presets. Final check: `prestige:prestige` canonical collection `/collections/women-1` loaded; first Tab focused the named “Skip to content” link.
 - This closes the basic keyboard-smoke task. Deeper keyboard traversal of navigation, filters, variants, and product controls remains incomplete cohort-wide (0/127 full checklists). These smoke results are not a WCAG conformance audit.
 - Lighthouse remains 0/127; checkout remains out of scope.
+
+
+### Scope and Lighthouse status — 2026-10-28
+
+- User removed Theme Editor review from the active task list; the cohort matrix now shows 0 pending for that workstream. Checkout also remains out of scope.
+- Lighthouse run setup was checked in this workspace. No Lighthouse CLI or Chrome executable is available, and the connected browser API does not expose Lighthouse report generation. Previous PSI access was blocked by Google's unusual-traffic CAPTCHA; no retry or challenge solving was attempted.
+- No cohort Lighthouse scores were generated in this turn. All 127 presets remain pending Lighthouse runs; no score was inferred or fabricated. Current blocker: provide a supported Lighthouse runner/environment or approved PSI access path.
